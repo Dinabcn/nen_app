@@ -44,7 +44,13 @@ function toLegacyUiTitle(item: WatchV2Title) {
     ...(item.awards?.length ? { awards: item.awards.map((award) => award.title) } : {}),
     ...(item.studios?.length ? { studios: item.studios } : {}),
     ...(item.relatedTitles?.length ? { relatedTitles: item.relatedTitles } : {}),
-    ...(item.officialRating ? { officialRating: { system: "Возрастная маркировка РФ", ...item.officialRating } } : {}),
+    ...(item.officialRating ? {
+      officialRating: {
+        system: "Возрастная маркировка РФ",
+        value: item.officialRating.value,
+        sourceUrl: item.officialRating.sourceUrl,
+      },
+    } : {}),
   };
 }
 

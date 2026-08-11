@@ -5,8 +5,8 @@ import { StaticWatchDataSource } from "./watchDataSource";
 describe("watch repository", () => {
   it("keeps cartoons and movies in separate queries", async () => {
     const repository = await createWatchRepository();
-    expect(await repository.getAllCartoons()).toHaveLength(808);
-    expect(await repository.getAllMovies()).toHaveLength(766);
+    expect(await repository.getAllCartoons()).toHaveLength(919);
+    expect(await repository.getAllMovies()).toHaveLength(655);
   });
 
   it("finds by slug and returns null for an unknown slug", async () => {
