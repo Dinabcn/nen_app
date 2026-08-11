@@ -5,9 +5,13 @@ const mailReportPath = "data/reports/watch-mail-catalog-comparison.json";
 const mailCachePath = "data/reports/cache/watch-mail-source.json";
 const russianResearchPath = "data/reports/cache/watch-russian-title-research.json";
 const coverCachePath = "data/reports/cache/watch-mail-cover-verification.json";
-const reportPath = "data/reports/watch-mail-replacement.json";
 const apply = process.argv.includes("--apply");
 const verifyCovers = process.argv.includes("--verify-covers");
+const appendArgument = process.argv.find((value) => value.startsWith("--append="));
+const appendCount = appendArgument ? Number(appendArgument.split("=")[1]) : 0;
+const reportPath = appendCount
+  ? `data/reports/watch-mail-expansion-${appendCount}.json`
+  : "data/reports/watch-mail-replacement.json";
 
 const readJson = async (file, fallback) => fs.readFile(file, "utf8").then(JSON.parse).catch(() => fallback);
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -29,9 +33,10 @@ const mailDetails = await readJson(mailCachePath, { items: [] });
 const russianResearch = await readJson(russianResearchPath, {});
 let coverCache = await readJson(coverCachePath, {});
 const detailsByUrl = new Map(mailDetails.items.map((item) => [item.mailUrl, item]));
-const removing = catalog.filter((item) => item.titleLocalization === "original-only");
-const retained = catalog.filter((item) => item.titleLocalization !== "original-only");
-if (removing.length !== 377) throw new Error(`Ожидалось 377 original-only, найдено ${removing.length}`);
+const removing = appendCount ? [] : catalog.filter((item) => item.titleLocalization === "original-only");
+const retained = appendCount ? catalog : catalog.filter((item) => item.titleLocalization !== "original-only");
+if (!appendCount && removing.length !== 377) throw new Error(`Ожидалось 377 original-only, найдено ${removing.length}`);
+if (appendCount && (!Number.isInteger(appendCount) || appendCount < 1)) throw new Error("--append должен быть положительным целым числом");
 
 const retainedIds = new Set(retained.map((item) => item.id));
 const retainedSlugs = new Set(retained.map((item) => item.slug));
@@ -243,8 +248,12 @@ const diversified = deduplicated.filter(({ record }) => {
 });
 const movies = diversified.filter(({ detail }) => detail.sourceType === "movie");
 const series = diversified.filter(({ detail }) => detail.sourceType === "series");
-const selected = [...movies.slice(0, 200), ...series.slice(0, Math.max(0, 377 - Math.min(200, movies.length)))].slice(0, 377);
-if (selected.length < 377) throw new Error(`После проверки осталось только ${selected.length} пригодных карточек`);
+const targetCount = appendCount || 377;
+const perTypeTarget = Math.floor(targetCount / 2);
+const preferred = [...movies.slice(0, perTypeTarget), ...series.slice(0, perTypeTarget)];
+const preferredSet = new Set(preferred);
+const selected = [...preferred, ...diversified.filter((candidate) => !preferredSet.has(candidate))].slice(0, targetCount);
+if (selected.length < targetCount) throw new Error(`После проверки осталось только ${selected.length} пригодных карточек из ${targetCount}`);
 const reserve = diversified.filter((candidate) => !selected.includes(candidate));
 
 const nextCatalog = [...retained, ...selected.map(({ record }) => record)];
