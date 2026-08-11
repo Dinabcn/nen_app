@@ -24159,10 +24159,10 @@
     "country": [
       "Испания"
     ],
-    "status": "UNRESOLVED",
-    "russianTitle": null,
-    "confidence": 0,
-    "reason": "Русское название не найдено; это не доказывает его отсутствия",
+    "status": "CONFIRMED_RU",
+    "russianTitle": "Клео и Кукин",
+    "confidence": 0.99,
+    "reason": "Русское название используется Кино Mail; произведение сопоставлено точно",
     "identifiers": {
       "wikidata": "Q47629070",
       "kinopoisk": "1199163",
@@ -24175,7 +24175,17 @@
       "ruTitles": [],
       "ruArticle": null
     },
-    "provenance": [],
+    "provenance": [
+      {
+        "candidate": "Клео и Кукин",
+        "source": "Кино Mail",
+        "url": "https://kino.mail.ru/series_929270_kleo_i_kukin/",
+        "match": "exact-external-id",
+        "externalId": "tt7956374",
+        "confidence": 0.99,
+        "verifiedAt": "2026-08-11T11:10:17.333Z"
+      }
+    ],
     "rejectedCandidates": [],
     "errors": [
       {

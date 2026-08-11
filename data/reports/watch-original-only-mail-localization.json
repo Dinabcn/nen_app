@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-08-11T11:10:17.693Z",
+  "mode": "applied",
+  "originalOnlyBefore": 378,
+  "localized": 1,
+  "sourceCounts": {
+    "mail": 1,
+    "kinopoisk": 0,
+    "tmdb": 0,
+    "releaseDatabases": 0,
+    "other": 0
+  },
+  "remainingOriginalOnly": 377,
+  "applied": [
+    {
+      "id": "nen-wd-q47629070",
+      "originalTitle": "Cleo & Cuquin",
+      "previousTitle": "Cleo & Cuquin",
+      "title": "Клео и Кукин",
+      "year": 2018,
+      "source": "Кино Mail",
+      "url": "https://kino.mail.ru/series_929270_kleo_i_kukin/",
+      "method": "exact-external-id",
+      "externalId": "tt7956374"
+    }
+  ],
+  "candidates": [],
+  "invariants": {
+    "duplicateIds": 0,
+    "duplicateSlugs": 0,
+    "originalTitlesChanged": 0,
+    "addedCatalogItems": 0,
+    "removedCatalogItems": 0
+  }
+}
