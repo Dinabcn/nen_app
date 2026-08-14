@@ -3,6 +3,7 @@ import { Link } from "../components/Link";
 import { compactRecommendation, durationLabel, Frame, localizedAwards, localizationNotice, MediaCard, moodLabel, typeLabel } from "../components/MediaCard";
 import type { ContentType, WatchTitle } from "../domain/catalog/types";
 import { findDetailTitle } from "../state/catalogViewModel";
+import { ShareButton } from "../components/ShareButton";
 
 export function DetailPage({ slug, expectedType, titles, favorites, toggleFavorite, navigate }: { slug: string; expectedType: ContentType; titles: WatchTitle[]; favorites: string[]; toggleFavorite: (id: string) => void; navigate: Navigate }) {
   const title = findDetailTitle(titles, slug, expectedType);
@@ -15,7 +16,7 @@ export function DetailPage({ slug, expectedType, titles, favorites, toggleFavori
     <Link href={catalogHref} navigate={navigate} className="back-link">← Вернуться в каталог</Link>
     <article className="detail-hero">
       <Frame title={title} large />
-      <div><p className="eyebrow">{typeLabel(title)} · выбор НЭН</p><h1>{title.title}</h1>{title.originalTitle && title.originalTitle !== title.title && <p className="original-title">{title.originalTitle}</p>}{notice && <p className="localization-note">{notice}</p>}<p className="lead">{title.shortDescription}</p><button className="primary-button" type="button" aria-pressed={favorites.includes(title.id)} onClick={() => toggleFavorite(title.id)}>{favorites.includes(title.id) ? "♥ Убрать из избранного" : "♡ Добавить в избранное"}</button></div>
+      <div><p className="eyebrow">{typeLabel(title)} · выбор НЭН</p><h1>{title.title}</h1>{title.originalTitle && title.originalTitle !== title.title && <p className="original-title">{title.originalTitle}</p>}{notice && <p className="localization-note">{notice}</p>}<p className="lead">{title.shortDescription}</p><div className="detail-actions"><button className="primary-button" type="button" aria-pressed={favorites.includes(title.id)} onClick={() => toggleFavorite(title.id)}>{favorites.includes(title.id) ? "♥ Убрать из избранного" : "♡ Добавить в избранное"}</button><ShareButton title={title} /></div></div>
     </article>
     <div className="detail-grid">
       <section className="detail-section"><h2>О произведении</h2><dl><div><dt>Год</dt><dd>{title.year}</dd></div><div><dt>Страна</dt><dd>{title.country.join(", ")}</dd></div><div><dt>Формат</dt><dd>{typeLabel(title)}</dd></div><div><dt>Длительность</dt><dd>{durationLabel(title)}</dd></div></dl></section>

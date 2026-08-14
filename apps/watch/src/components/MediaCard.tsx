@@ -38,10 +38,7 @@ export const frameCaption = (title: WatchTitle) => {
 };
 
 export const compactRecommendation = (title: WatchTitle) => {
-  const firstSentence = title.whyRecommended.match(/^.*?[.!?](?:\s|$)/u)?.[0]?.trim() ?? title.whyRecommended.trim();
-  if (firstSentence.length <= 80) return firstSentence;
-  const shortened = firstSentence.slice(0, 77).replace(/\s+\S*$/u, "").trim();
-  return `${shortened}…`;
+  return title.whyRecommended.trim();
 };
 
 export function Frame({ title, large = false }: { title: WatchTitle; large?: boolean }) {
