@@ -82,6 +82,6 @@ export function App() {
   return <>
     <AppHeader pathname={url.pathname} navigate={navigate} favoriteCount={favorites.length} />
     <main id="main-content">{page}</main>
-    <footer className="app-footer"><strong>НЭН смотрим</strong><span>Фильмы и мультфильмы для семейного просмотра</span></footer>
+    <footer className="app-footer"><img src="/nen-logo.png" alt="НЭН" /><div><strong>Смотрим вместе</strong><span>Фильмы, мультфильмы и сериалы для семейного просмотра</span></div></footer>
   </>;
 }

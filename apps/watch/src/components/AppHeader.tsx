@@ -14,7 +14,10 @@ export function AppHeader({ pathname, navigate, favoriteCount }: { pathname: str
   return <>
     <a className="skip-link" href="#main-content">К основному содержимому</a>
     <header className="app-header">
-      <Link href="/" navigate={navigate} className="wordmark" ariaLabel="НЭН — на главную">НЭН<span>смотрим</span></Link>
+      <Link href="/" navigate={navigate} className="wordmark" ariaLabel="НЭН — на главную">
+        <img src="/nen-logo.png" alt="" />
+        <span>смотрим</span>
+      </Link>
       <nav className="header-nav" aria-label="Основная навигация">
         {items.map(([href, label]) => <Link key={href} href={href} navigate={navigate} className={isActive(pathname, href) ? "active" : undefined}>{label}{href === "/favorites" && favoriteCount ? ` ${favoriteCount}` : ""}</Link>)}
       </nav>
