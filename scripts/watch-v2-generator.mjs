@@ -67,7 +67,7 @@ function validateRecord(record, index) {
     if (!isRecord(record.frame)) add("frame", "ожидается объект");
     else {
       if (!isHttpUrl(record.frame.url)) add("frame.url", "нужен HTTP(S)-адрес изображения");
-      if (!textArray(record.frame.studios)) add("frame.studios", "нужен непустой список студий производства");
+      if (record.frame.studios !== undefined && !textArray(record.frame.studios)) add("frame.studios", "если поле задано, нужен непустой список студий производства");
     }
   }
   if (record.awards !== undefined && (!Array.isArray(record.awards) || record.awards.length === 0 || record.awards.some((award) => !isRecord(award) || !isText(award.title)))) add("awards", "ожидается непустой список наград");
@@ -155,7 +155,7 @@ function normalize(record) {
     } } : {}),
     ...(record.frame ? { frame: {
       url: record.frame.url.trim(),
-      studios: [...new Set(record.frame.studios.map((value) => value.trim()))],
+      ...(record.frame.studios ? { studios: [...new Set(record.frame.studios.map((value) => value.trim()))] } : {}),
     } } : {}),
     ...(record.awards ? { awards: record.awards.map((award) => ({ title: award.title.trim() })) } : {}),
     ...(record.studios ? { studios: [...new Set(record.studios.map((value) => value.trim()))] } : {}),

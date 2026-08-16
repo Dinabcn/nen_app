@@ -93,7 +93,7 @@ describe("watch-v2 model", () => {
       ...minimalRecord,
       kind: "documentary",
       duration: { minutes: 78 },
-      frame: { url: "https://example.org/frame.jpg", studios: ["Пример студии"] },
+      frame: { url: "https://example.org/frame.jpg" },
     })).toEqual([]);
     expect(validateWatchV2Record({
       ...minimalRecord,

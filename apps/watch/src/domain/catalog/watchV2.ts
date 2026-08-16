@@ -60,7 +60,7 @@ export interface WatchV2SeriesDuration {
 
 export interface WatchV2Frame {
   url: string;
-  studios: string[];
+  studios?: string[];
 }
 
 export interface WatchV2Award {

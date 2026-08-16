@@ -86,11 +86,11 @@ export function validateWatchV2Record(value: unknown): WatchV2Issue[] {
     if (value.officialRating.sourceTitle !== undefined && !nonEmptyString(value.officialRating.sourceTitle)) add("officialRating.sourceTitle", "Если поле задано, оно не должно быть пустым");
   }
 
-  if (value.frame !== undefined && !isRecord(value.frame)) add("frame", "Если кадр задан, ожидается объект с URL и студиями производства");
+  if (value.frame !== undefined && !isRecord(value.frame)) add("frame", "Если кадр задан, ожидается объект с URL изображения");
   else if (isRecord(value.frame)) {
     if (Object.keys(value.frame).some((key) => !["url", "studios"].includes(key))) add("frame", "Для кадра допустимы только url и studios");
     if (!httpUrl(value.frame.url)) add("frame.url", "Требуется HTTP(S)-адрес изображения");
-    if (!stringArray(value.frame.studios)) add("frame.studios", "Нужен непустой список студий производства");
+    if (value.frame.studios !== undefined && !stringArray(value.frame.studios)) add("frame.studios", "Если студии указаны, нужен непустой список названий");
   }
 
   if (value.awards !== undefined && (!Array.isArray(value.awards) || value.awards.length === 0 || value.awards.some((award) => !isRecord(award) || Object.keys(award).some((key) => key !== "title") || !nonEmptyString(award.title)))) {

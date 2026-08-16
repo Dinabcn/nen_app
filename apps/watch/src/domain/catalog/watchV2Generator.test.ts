@@ -50,6 +50,11 @@ describe("watch-v2 production generator", () => {
     expect(result.report.withoutOfficialRating).toBe(1);
   });
 
+  it("preserves a confirmed frame when production studios are unknown", () => {
+    const result = generateWatchV2Catalog([{ ...record("frame-without-studios"), frame: { url: "https://example.org/frame.webp" } }]);
+    expect(result.items[0].frame).toEqual({ url: "https://example.org/frame.webp" });
+  });
+
   it.each([
     ["duplicate id", [record("same"), { ...record("other"), id: "same" }], "id: дублирует"],
     ["duplicate slug", [record("one"), { ...record("two"), slug: "one" }], "slug: дублирует"],

@@ -62,7 +62,7 @@ interface WatchTitleBase {
   discussionTopics: string[];
   frame?: {
     url: string;
-    studios: string[];
+    studios?: string[];
   };
   awards?: string[];
   studios?: string[];
