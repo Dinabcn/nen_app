@@ -7,6 +7,7 @@ const titleResearchPath = path.join(root, "data/reports/cache/watch-russian-titl
 const mailSourcePath = path.join(root, "data/reports/cache/watch-mail-source.json");
 const mailReplacementPath = path.join(root, "data/reports/watch-mail-replacement.json");
 const stillEvidencePath = path.join(root, "data/reports/cache/watch-stills-research-evidence.json");
+const webApplyPath = path.join(root, "data/reports/watch-stills-web-apply.json");
 const jsonPath = path.join(root, "data/reports/watch-stills-audit.json");
 const markdownPath = path.join(root, "data/reports/watch-stills-audit.md");
 const unresolvedJsonPath = path.join(root, "data/reports/watch-stills-unresolved.json");
@@ -26,9 +27,11 @@ const titleResearch = await readJson(titleResearchPath, {});
 const mailSource = await readJson(mailSourcePath, { items: [] });
 const mailReplacement = await readJson(mailReplacementPath, { selectedItems: [] });
 const stillEvidence = await readJson(stillEvidencePath, { records: {} });
+const webApply = await readJson(webApplyPath, { appliedItems: [] });
 
 const mailById = new Map((mailSource.items ?? []).map((item) => [String(item.mailId), item]));
 const replacementById = new Map((mailReplacement.selectedItems ?? []).map((item) => [item.id, item]));
+const webAppliedById = new Map((webApply.appliedItems ?? []).map((item) => [item.watchId, item]));
 
 const cleanId = (value) => value === null || value === undefined || value === "" ? null : String(value);
 const externalIdsFromArray = (items = []) => Object.fromEntries(items.map((entry) => {
@@ -75,6 +78,8 @@ const isMailImage = (frame) => {
 
 const confirmedEvidenceFor = (record) => {
   if (!record.frame?.url) return null;
+  const web = webAppliedById.get(record.id);
+  if (web?.imageUrl === record.frame.url) return { source: "Web research", candidate: { url: web.imageUrl, provenance: { pageUrl: web.pageUrl, evidence: web.evidence, probe: web.probe } } };
   const sources = Object.values(stillEvidence.records?.[record.id]?.sources ?? {});
   for (const source of sources) {
     if (source.status !== "CONFIRMED_STILL") continue;

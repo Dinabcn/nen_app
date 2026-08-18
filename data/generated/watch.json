@@ -174,6 +174,9 @@
     "officialRating": {
       "value": "0+",
       "sourceUrl": "https://www.afisha.ru/movie/istoriya-igrushek-179518/"
+    },
+    "frame": {
+      "url": "https://imgix.bustle.com/fatherly/2017/06/toy-story.jpg?crop=faces&fit=crop&fm=jpg&h=675&w=1200"
     }
   },
   {
@@ -228,6 +231,9 @@
     "officialRating": {
       "value": "6+",
       "sourceUrl": "https://www.afisha.ru/movie/enkanto-265301/"
+    },
+    "frame": {
+      "url": "https://s.movieinsider.com/images/p/597094_m1625752951.png"
     }
   },
   {
@@ -282,6 +288,9 @@
     "officialRating": {
       "value": "6+",
       "sourceUrl": "https://www.kinopoisk.ru/film/280172/"
+    },
+    "frame": {
+      "url": "https://s.hdnux.com/photos/07/66/64/2059522/6/1920x0.jpg"
     }
   },
   {
@@ -390,6 +399,9 @@
     "officialRating": {
       "value": "6+",
       "sourceUrl": "https://pioner-cinema.ru/film/chelovek-pauk-cherez-vselennye/"
+    },
+    "frame": {
+      "url": "https://cf-img-a-in.tosshub.com/sites/visualstory/wp/2025/10/Spider-Man-Into-the-Spider-Verse-2018-2ITG-1760346526884.jpg?size=%2A%3A900"
     }
   },
   {
@@ -557,6 +569,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Повествование сочетает быстрый юмор с более медленными эпизодами о горе и одиночестве. Вражда кланов, угрозы детям и утрата жены Клауса требуют эмоциональной зрелости, хотя сложные темы раскрыты бережно."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMzhkNzk0ZmQtZWUzMy00NTU3LWEzOTUtMWRhZmRmYjZhMzY2XkEyXkFqcGc%40._V1_FMjpg_UX1280_.jpg"
     }
   },
   {
@@ -780,6 +795,9 @@
       "minAge": 5,
       "maxAge": 10,
       "rationale": "Рекомендуется с семи лет: полнометражный сюжет сложнее коротких серий, включает опасные погони и требует понимания шуток о телевидении и массовой культуре."
+    },
+    "frame": {
+      "url": "https://img.1tv.com/img/2019-05-20/fmt_96_124_kadr-3.jpg"
     }
   },
   {
@@ -823,6 +841,9 @@
       "minAge": 6,
       "maxAge": 11,
       "rationale": "Подходит с шести лет: юмор и семейная интонация доступны детям, однако пожар, преследование и опасность в музее могут потребовать сопровождения взрослого."
+    },
+    "frame": {
+      "url": "https://search.ch/kino/movie/images/pa/paddington_still_14-paddington.jpg"
     }
   },
   {
@@ -871,6 +892,9 @@
       "minAge": 9,
       "maxAge": 14,
       "rationale": "Рекомендуется примерно с девяти лет: длинный сюжет, гибель родителей, жестокое обращение в семье и пугающая развязка могут быть тяжёлыми для младших детей."
+    },
+    "frame": {
+      "url": "https://images.thewest.com.au/publication/B88512014Z/GB113R4JT.2-1.jpg?impolicy=wan_v3&imwidth=1024"
     }
   },
   {
@@ -970,6 +994,9 @@
       "minAge": 9,
       "maxAge": 14,
       "rationale": "Лучше смотреть с десяти лет: продолжительные битвы, смерть Аслана и военная угроза эмоционально насыщенны, а символический слой может быть сложен без разговора."
+    },
+    "frame": {
+      "url": "https://img.buzzfeed.com/buzzfeed-static/static/2025-11/22/05/thumb/xkWkybCAC.jpg?crop=1250%3A625%3B0%2C15%26downsize%3D1250%3A%2A"
     }
   },
   {
@@ -1073,6 +1100,9 @@
       "minAge": 9,
       "maxAge": 14,
       "rationale": "Подходит с десяти лет: размеренный детектив требует терпения, а сиротство, пожар и преследования создают эмоциональную нагрузку, несмотря на благополучный финал."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMzU0Mjc2NDA0NF5BMl5BanBnXkFtZTcwNDYxNTMwNw%40%40._V1_.jpg"
     }
   },
   {
@@ -1119,6 +1149,9 @@
       "minAge": 10,
       "maxAge": 14,
       "rationale": "Рекомендуется с двенадцати лет: сюжет требует следить за временными причинно-следственными связями и включает драки, угрозы, алкоголь и неловкие романтические ситуации."
+    },
+    "frame": {
+      "url": "https://neiloseman.com/wp-content/uploads/2022/06/MakeMyDay_BackToTheFuture_03-1-1600x900-c-default.jpg"
     }
   },
   {
@@ -1203,6 +1236,9 @@
       "minAge": 7,
       "maxAge": 12,
       "rationale": "Рекомендуется с девяти лет: трёхсерийный сюжет требует продолжительного внимания, а похищение, преступники и вопросы идентичности лучше раскрываются в разговоре со взрослым."
+    },
+    "frame": {
+      "url": "https://static.etvnet.com/shared/albums/media/23/236045-priklyucheniya-elektronika-xl.jpg"
     }
   },
   {
@@ -1335,6 +1371,9 @@
       "minAge": 4,
       "maxAge": 9,
       "rationale": "Подходит с четырёх лет: комические шалости не страшны, но полезно обсудить безопасность, ответственность за беспорядок и право ребёнка на внимание взрослых."
+    },
+    "frame": {
+      "url": "https://img51994.domkino.tv/img/2024-08-19/fmt_114_24_45935389bc19.jpg"
     }
   },
   {
@@ -1500,6 +1539,9 @@
       "minAge": 4,
       "maxAge": 9,
       "rationale": "Подходит примерно с четырёх лет: мультфильм спокойный и доброжелательный, а лёгкая грусть из-за несостоявшегося отдыха понятна без сложных пояснений."
+    },
+    "frame": {
+      "url": "https://img51994.domkino.tv/img/2026-03-23/fmt_114_24_bonifatsiy5.jpg"
     }
   },
   {
@@ -1676,6 +1718,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Подходит с восьми лет: расследование требует внимания, а сцены с одичавшими животными, угрозами и темой дискриминации могут быть сложны для младших детей."
+    },
+    "frame": {
+      "url": "https://media.outnow.ch/Movies/Bilder/2016/Zootopia/014.jpg"
     }
   },
   {
@@ -1719,6 +1764,9 @@
       "minAge": 9,
       "maxAge": 14,
       "rationale": "Рекомендуется с девяти лет: очень быстрый монтаж, визуальный шум и длительные сцены опасности требуют устойчивого внимания, хотя насилие остаётся комедийным."
+    },
+    "frame": {
+      "url": "https://www.repstatic.it/content/nazionale/img/2021/04/29/162308925-f3fc2138-81e0-4d97-926c-d21d1af51e40.jpg"
     }
   },
   {
@@ -1765,6 +1813,9 @@
       "minAge": 11,
       "maxAge": 14,
       "rationale": "Рекомендуется с двенадцати лет: детектив включает политический конфликт, покушения и рукопашные схватки, а исторические ограничения для женщин нуждаются в контексте."
+    },
+    "frame": {
+      "url": "https://www.salon.com/app/uploads/2020/09/enola-holmes-01.jpg"
     }
   },
   {
@@ -1851,6 +1902,9 @@
       "minAge": 8,
       "maxAge": 13,
       "rationale": "Рекомендуется с девяти лет: фильм почти непрерывно держит героев в опасности, включает нападение зоргонов и пугающие превращения, хотя финал восстанавливает безопасность."
+    },
+    "frame": {
+      "url": "https://fictionmachine.com/wp-content/uploads/2022/01/zathura_01-e1643010216121.jpg?w=1024"
     }
   },
   {
@@ -1992,6 +2046,9 @@
       "minAge": 9,
       "maxAge": 14,
       "rationale": "Двухчасовой фильм строит сложный мир без прямых пояснений и требует терпения к неоднозначным образам. Превращение родителей, преследование и эпизоды с Безликим могут сильно напугать детей младшего возраста."
+    },
+    "frame": {
+      "url": "https://zefirka.club/uploads/posts/2022-10/1664775888_31-zefirka-club-p-anime-tipa-unesennie-prizrakami-31.jpg"
     }
   },
   {
@@ -2093,6 +2150,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Внешняя история переезда понятна младшим школьникам, но устройство памяти и абстрактного мышления требует пояснений. Исчезновение важных воспоминаний, побег Райли и прощание с Бинго-Бонго эмоционально насыщенны."
+    },
+    "frame": {
+      "url": "https://georgiapoliticalreview.com/wp-content/uploads/2016/02/inside-out-short-riley-first-date-image-emotions.jpg"
     }
   },
   {
@@ -2290,6 +2350,9 @@
       "minAge": 7,
       "maxAge": 12,
       "rationale": "Комедия остаётся доброжелательной, но сюжет о ложном обвинении и тюрьме сложнее первой истории о Паддингтоне. Погоня на поездах и падение в воду создают краткое, но заметное напряжение."
+    },
+    "frame": {
+      "url": "https://kinotv.ru/upload/iblock/70d/dp5bvcjoi360l12zl0ymoim9rju8roxj.webp"
     }
   },
   {
@@ -2389,6 +2452,9 @@
       "minAge": 10,
       "maxAge": 15,
       "rationale": "Юмор, школьный конфликт и рок-музыка хорошо считываются подростками, но значительная часть сюжета основана на подмене учителя и нарушении безопасности. Встречаются взрослые шутки и упоминания алкоголя без подробного показа."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMWI3ZDgyN2QtNjA0ZC00YThjLTkzYzUtMTdlMjhmNzc4Y2UyXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg"
     }
   },
   {
@@ -2437,6 +2503,9 @@
       "minAge": 10,
       "maxAge": 15,
       "rationale": "Соревнование строится на английской орфографии и культурных особенностях американской школы, поэтому часть деталей потребует пояснений русскоязычному ребёнку. Тема погибшего отца и жёсткие ожидания родителей добавляют эмоциональную сложность."
+    },
+    "frame": {
+      "url": "https://stemeducationguide.com/wp-content/uploads/2023/04/Akeelah-and-the-Bee-1024x576.jpg"
     }
   },
   {
@@ -2628,6 +2697,9 @@
       "minAge": 7,
       "maxAge": 12,
       "rationale": "Медвежьи нападения и угроза навсегда потерять мать довольно напряжённы, хотя юмор и ясная семейная линия поддерживают младших школьников."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BODM0NGJhYTAtOGUwMC00Y2I0LTk3YTItYWI2YWYzNTY5MmI2XkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -2677,6 +2749,9 @@
       "minAge": 7,
       "maxAge": 12,
       "rationale": "Океанские бури, чудовища и кульминационная встреча с Те Ка могут пугать, а культурный контекст мореплавания полезно обсудить отдельно."
+    },
+    "frame": {
+      "url": "https://www.awn.com/sites/default/files/styles/original/public/image/featured/1047139-disney-may-soon-avert-bad-hair-days-new-simulation-method.jpg?itok=BA-2aZj3"
     }
   },
   {
@@ -2725,6 +2800,9 @@
       "minAge": 6,
       "maxAge": 11,
       "rationale": "Песни и юмор доступны дошкольникам, но преследование Эльзы, замерзание Анны и семейная разлука создают заметную эмоциональную нагрузку."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMTUyNDA4NTU0N15BMl5BanBnXkFtZTgwMjcwMDk4NTE%40._V1_.jpg"
     }
   },
   {
@@ -2774,6 +2852,9 @@
       "minAge": 9,
       "maxAge": 13,
       "rationale": "Гибель близкого происходит за кадром, но определяет весь сюжет; сражения и попытка мести делают фильм подходящим скорее школьникам."
+    },
+    "frame": {
+      "url": "https://media.telemetro.com/p/b71b5e644ca11d32f52b274ef41f42d6/adjuntos/311/imagenes/009/229/0009229615/1200x675/smart/la-pelicula-animada-del-ano-grandes-heroes.jpg"
     }
   },
   {
@@ -2968,6 +3049,9 @@
       "minAge": 8,
       "maxAge": 13,
       "rationale": "Смерть Муфасы показана прямо и часто тяжело переживается детьми; финальное сражение и тема предательства усиливают эмоциональную интенсивность."
+    },
+    "frame": {
+      "url": "https://img3.chinadaily.com.cn/images/201907/09/5d23ef68a310a6dd8865963e.jpeg"
     }
   },
   {
@@ -3017,6 +3101,9 @@
       "minAge": 9,
       "maxAge": 14,
       "rationale": "Оружие, ядерная ракета и самопожертвование героя требуют понимания военного контекста, несмотря на мягкую дружбу в центре истории."
+    },
+    "frame": {
+      "url": "https://rockyrama.com/uploads/img/news/606-souls-dont-die-le-geant-de-fer/content/22952/noresize-mv5bmtu4nte5ntiwnv5bml5banbnxkftztgwoda0ntu3nje.jpg"
     }
   },
   {
@@ -3067,6 +3154,9 @@
       "minAge": 10,
       "maxAge": 15,
       "rationale": "Рабство, казни и гибель первенцев показаны серьёзно; необходим культурный контекст библейского сюжета и готовность к тяжёлым образам."
+    },
+    "frame": {
+      "url": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2025/04/10/B1b11qvrR1x/B1b11qvrR1x_0_0_3000_1879_0_x-large.jpg"
     }
   },
   {
@@ -3117,6 +3207,9 @@
       "minAge": 8,
       "maxAge": 13,
       "rationale": "Охота, клетки, нападение на лес и угроза родителям создают сильное напряжение; исторический конфликт требует пояснений."
+    },
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/original/yHtB4KHNigx3ZoxDvQbW2SOXGfq.jpg"
     }
   },
   {
@@ -3293,6 +3386,9 @@
       "minAge": 9,
       "maxAge": 14,
       "rationale": "Философские образы, смена повествовательных уровней и тема смерти лётчика сложны для младших детей, хотя приключение остаётся доступным."
+    },
+    "frame": {
+      "url": "https://de.web.img3.acsta.net/pictures/15/05/20/10/30/114513.jpg"
     }
   },
   {
@@ -3339,6 +3435,9 @@
       "minAge": 14,
       "maxAge": 18,
       "rationale": "Фильм содержит депрессию, зависимость, травлю, сексуальные упоминания и самоубийство; он рассчитан на подростков, а не на детский семейный просмотр."
+    },
+    "frame": {
+      "url": "https://www.cinematheque.qc.ca/cdn-cgi/image/format%3Dauto/workspace/uploads/projections/f3ded04c728ac6e2d54fe519f2e176af9f42995ac50ba7634f63ad01259c0786-_ri_v_ttw_-fr-1635277693.jpg"
     }
   },
   {
@@ -3437,6 +3536,9 @@
       "minAge": 12,
       "maxAge": 16,
       "rationale": "Жестокость к животным, драки, операция и политическая сатира требуют подросткового возраста; стилизация не отменяет тяжёлых деталей."
+    },
+    "frame": {
+      "url": "https://film-grab.com/wp-content/uploads/photo-gallery/Isle_of_Dogs_055.jpg?bwg=1569496457"
     }
   },
   {
@@ -3484,6 +3586,9 @@
       "minAge": 9,
       "maxAge": 14,
       "rationale": "Образ Смерти, паническая атака и интенсивные бои могут пугать младших, хотя юмор и дружба удерживают безопасный тон."
+    },
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/original/non1MT5G49GlB2jKcrwaYjDygxD.jpg"
     }
   },
   {
@@ -3532,6 +3637,9 @@
       "minAge": 8,
       "maxAge": 13,
       "rationale": "Грубоватые шутки, дракон и опасные сцены рассчитаны на школьников; часть пародий требует знакомства с классическими сказками."
+    },
+    "frame": {
+      "url": "https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/39315e3a-fe3f-4dd6-bbfe-446e72aa43c2/shrek%2Band%2Bdonkey.jpg"
     }
   },
   {
@@ -3579,6 +3687,9 @@
       "minAge": 7,
       "maxAge": 12,
       "rationale": "Боевые сцены часты, но стилизованы и уравновешены юмором; прошлое Тай Лунга и тюремный побег создают напряжение."
+    },
+    "frame": {
+      "url": "https://images.squarespace-cdn.com/content/v1/5c37a963cef37229247927e1/cd6b27d2-c315-42c6-87fa-49baa3a82501/MV5BMjA5OTI3NDE2Ml5BMl5BanBnXkFtZTcwNjIzMzA3NA%40%40._V1_.jpg?format=2500w"
     }
   },
   {
@@ -3624,6 +3735,9 @@
       "minAge": 6,
       "maxAge": 11,
       "rationale": "Угроза хищника другу и несколько погонь могут тревожить, но конфликт быстро переводится в комедийный регистр."
+    },
+    "frame": {
+      "url": "https://media.senscritique.com/media/000006539240/0/madagascar.jpg"
     }
   },
   {
@@ -3672,6 +3786,9 @@
       "minAge": 7,
       "maxAge": 12,
       "rationale": "Землетрясения, хищники и постоянная физическая опасность интенсивны, хотя комедия и фантастические животные снижают реализм угрозы."
+    },
+    "frame": {
+      "url": "https://ekladata.com/gvP6D0DTKSeeN0IBX2UH2K5-1HI.jpg"
     }
   },
   {
@@ -3719,6 +3836,9 @@
       "minAge": 8,
       "maxAge": 13,
       "rationale": "Кошмарные лошади и угроза исчезновения Хранителей могут пугать младших; устройство мифологии требует внимания."
+    },
+    "frame": {
+      "url": "https://www.film.ru/sites/default/files/styles/thumb_1024x450/public/movies/frames/1630260-1633837.jpg"
     }
   },
   {
@@ -4004,6 +4124,9 @@
       "minAge": 7,
       "maxAge": 12,
       "rationale": "Утрата матери, угроза отправить детей порознь и несколько мрачных образов требуют пояснений, хотя тон остаётся сказочным."
+    },
+    "frame": {
+      "url": "https://st.kp.yandex.net/im/kadr/3/7/2/kinopoisk.ru-Nanny-McPhee-372960.jpg"
     }
   },
   {
@@ -4158,6 +4281,9 @@
       "minAge": 11,
       "maxAge": 16,
       "rationale": "Развод, длительный обман, ревность и взрослые шутки требуют подростковой зрелости; хронометраж превышает два часа."
+    },
+    "frame": {
+      "url": "https://s.yimg.com/ny/api/res/1.2/dPldHTkXTxgpEsjqtylEXA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjE4O2NmPXdlYnA-/https%3A/s.yimg.com/os/creatr-images/2019-08/f20e0f40-bc3f-11e9-af89-255e94745efa"
     }
   },
   {
@@ -4206,6 +4332,9 @@
       "minAge": 12,
       "maxAge": 16,
       "rationale": "Грубая речь, забастовочное насилие, утрата матери и жёсткий семейный конфликт рассчитаны на подростков."
+    },
+    "frame": {
+      "url": "https://static.boxofficeturkiye.com/movie/backdrop/full/43/2001043-699342163.jpg"
     }
   },
   {
@@ -4300,6 +4429,9 @@
       "minAge": 11,
       "maxAge": 16,
       "rationale": "Двухчасовой исторический сюжет требует контекста сегрегации; унижения и системная дискриминация показаны без физического насилия."
+    },
+    "frame": {
+      "url": "https://tg24.sky.it/assets/images/3569ad5f146b6be2ce4dd3d6bb7d552f5c79bc56/skytg24/it/spettacolo/cinema/2025/08/01/il-diritto-di-contare-film-storia-vera/il_diritto_di_contare.jpg"
     }
   },
   {
@@ -4396,6 +4528,9 @@
       "minAge": 12,
       "maxAge": 16,
       "rationale": "Голод, смерть, политическое насилие и отчаяние семьи показаны реалистично; необходим культурный и географический контекст."
+    },
+    "frame": {
+      "url": "https://thumb.spokesman.com/EbnCISEe9gxNJ-jptfFyvdXt7Eo%3D/2500x0/media.spokesman.com/photos/2019/02/26/TBWHTW_0042.jpg"
     }
   },
   {
@@ -4492,6 +4627,9 @@
       "minAge": 11,
       "maxAge": 15,
       "rationale": "Неожиданная смерть ребёнка — центральный поворот фильма; травля и семейное напряжение усиливают эмоциональную нагрузку."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMjA4NjM1OTQyOF5BMl5BanBnXkFtZTYwODI5MTY2._V1_FMjpg_UX1000_.jpg"
     }
   },
   {
@@ -4588,6 +4726,9 @@
       "minAge": 9,
       "maxAge": 14,
       "rationale": "Смерть родителей, болезнь и мрачный дом могут тревожить младших; размеренный ритм рассчитан на терпеливого зрителя."
+    },
+    "frame": {
+      "url": "https://5b0988e595225.cdn.sohucs.com/images/20191125/60606479e43a4d74953d7e50d662e2b0.jpeg"
     }
   },
   {
@@ -4636,6 +4777,9 @@
       "minAge": 12,
       "maxAge": 17,
       "rationale": "Длительность, нелинейная структура, смерть Бет и исторический контекст рассчитаны на подростков."
+    },
+    "frame": {
+      "url": "https://imgsrc.cineserie.com/2019/06/little-women-premieres-images-d-emma-watson-et-thimothee-chalamet-3.png?ver=1"
     }
   },
   {
@@ -4835,6 +4979,9 @@
       "minAge": 9,
       "maxAge": 14,
       "rationale": "Гибель матери в начале, испытательные полёты и опасный маршрут эмоциональны; история развивается достаточно размеренно."
+    },
+    "frame": {
+      "url": "https://cdn.theplaylist.net/wp-content/uploads/2016/06/15211236/fly-away-home-jeff-daniels-anna-paquin.jpg"
     }
   },
   {
@@ -4876,6 +5023,9 @@
     "nenAgeRecommendation": {
       "minAge": 6,
       "rationale": "Подходит с шести лет: погони и монстры поданы комедийно, но маленьких зрителей могут встревожить сцены в спальнях."
+    },
+    "frame": {
+      "url": "https://static.kinoafisha.info/k/movie_shots/1920x1080/upload/movie_shots/9/8/8/75889/515ac034ff03f2dd8bbcfe1e6e783471.jpeg"
     }
   },
   {
@@ -4959,6 +5109,9 @@
     "nenAgeRecommendation": {
       "minAge": 6,
       "rationale": "Рекомендуется с шести лет: сюжет длинный, но прост по устройству; аварии стилизованы и не выглядят реалистично опасными."
+    },
+    "frame": {
+      "url": "https://clip.cafe/clipimg/mcqueen-sally-parked-beneath-a-tree.jpg"
     }
   },
   {
@@ -5000,6 +5153,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет легче понять страх героя перед потерей привычной роли; гоночные аварии умеренно напряжённые."
+    },
+    "frame": {
+      "url": "https://cdn.smartfacts.ru/190432/tachki-3_13.jpg"
     }
   },
   {
@@ -5087,6 +5243,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: кульминация на мусорном полигоне напряжённая, а тема прощания требует эмоциональной зрелости."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMzgzNTUzODQ2Nl5BMl5BanBnXkFtZTcwMzU5MzU1Mw%40%40._V1_FMjpg_UX1000_.jpg"
     }
   },
   {
@@ -5128,6 +5287,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет понятнее размышления о предназначении; куклы в антикварном магазине могут показаться пугающими."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BNDUxZmMyMjQtZjk4Zi00YWVjLWEyMTYtOGM5YjBiZDljNjdlXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg"
     }
   },
   {
@@ -5171,6 +5333,9 @@
     "nenAgeRecommendation": {
       "minAge": 6,
       "rationale": "С шести лет: разлука с родителями эмоциональна, но история сохраняет добрый тон и ясную цель."
+    },
+    "frame": {
+      "url": "https://imagenes.elpais.com/resizer/v2/https%3A%2F%2Fep01.epimg.net%2Fcultura%2Fimagenes%2F2016%2F06%2F20%2Factualidad%2F1466411919_252919_1466416218_noticia_fotograma.jpg?auth=4647e97334a2fa4ec39c6fe0489f3902b5ed39c7a69660555ddbbab22907a4ae&height=1103&smart=true&width=1960"
     }
   },
   {
@@ -5212,6 +5377,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: длинный фильм содержит частые погони, драки и гипнотические сцены, требующие устойчивого внимания."
+    },
+    "frame": {
+      "url": "https://xyz.comic.systems/images/Disney/LesIndestructibles2/LesIndestructibles2-images-8271"
     }
   },
   {
@@ -5255,6 +5423,9 @@
     "nenAgeRecommendation": {
       "minAge": 9,
       "rationale": "Лучше с девяти лет: абстрактное устройство мира душ и тема смерти требуют пояснений взрослого."
+    },
+    "frame": {
+      "url": "https://educacaopublica.cecierj.edu.br/072022/0d76280573c188041508b4dc84be66bf.png"
     }
   },
   {
@@ -5338,6 +5509,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: романтическая линия мягкая, а метафора культурных различий доступна без специального контекста."
+    },
+    "frame": {
+      "url": "https://fr.web.img3.acsta.net/pictures/22/12/14/10/12/2160079.jpg"
     }
   },
   {
@@ -5422,6 +5596,9 @@
     "nenAgeRecommendation": {
       "minAge": 6,
       "rationale": "С шести лет: угрозы насекомых и птицы могут напрячь, но опасность уравновешена фарсом."
+    },
+    "frame": {
+      "url": "https://akns-images.eonline.com/eol_images/Entire_Site/2013520/rs_1024x759-130620173427-1024.bugs.cm.62013.jpg?crop=776%3A576%3Bcenter%2Ctop&fit=around%7C776%3A576&output-quality=90"
     }
   },
   {
@@ -5547,6 +5724,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: быстрые интернет-метафоры и конфликт привязанности требуют более устойчивого внимания."
+    },
+    "frame": {
+      "url": "https://www.kinonews.ru/insimgs/2019/shotimg/shotimg88747_14.jpg"
     }
   },
   {
@@ -5590,6 +5770,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: частые бои и превращение людей в камень напряжённы, а конфликт доверия неоднозначен."
+    },
+    "frame": {
+      "url": "https://d-tv.ppstatic.pl/images/tv-tv/16/68/prg132476838_831776637_full.jpg"
     }
   },
   {
@@ -5631,6 +5814,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет понятнее пародии на сказки и конфликт с родителями; драки остаются условными."
+    },
+    "frame": {
+      "url": "https://www.kinonews.ru/insimgs/shotimg/shotimg24066_10.jpg"
     }
   },
   {
@@ -5718,6 +5904,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: охота на драконов напряжённа, а прощание может сильно растрогать."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMTU1MDM5NjUwNV5BMl5BanBnXkFtZTgwMzE1MDc2NTM%40._V1_.jpg"
     }
   },
   {
@@ -5805,6 +5994,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: фантастические бои частые, но страх смягчён юмором и яркой стилизацией."
+    },
+    "frame": {
+      "url": "https://bazaarvietnam.vn/wp-content/uploads/2022/07/Harpers-Bazaar-phim-hoat-hinh-thu-cung-pet_05.jpg"
     }
   },
   {
@@ -5846,6 +6038,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет понятны игра с супергеройскими ролями и мотивы персонажей; угрозы городу условны."
+    },
+    "frame": {
+      "url": "https://images.ladepeche.fr/api/v1/images/view/5c1d076e3e454619f414c602/hd/image.jpg?v=1"
     }
   },
   {
@@ -6017,6 +6212,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: образ оборотня пародийный, но ночные погони способны напугать чувствительных детей."
+    },
+    "frame": {
+      "url": "https://playhousecinema.ca/files/princesscinemas/imagecache/homepage_slideshow/b1mahwnzej8w9mqycpvjddtu6dq_0.png"
     }
   },
   {
@@ -6188,6 +6386,9 @@
     "nenAgeRecommendation": {
       "minAge": 6,
       "rationale": "С шести лет: угроза съедения фантастическая, песни и яркий визуальный ряд смягчают тревогу."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BNjI4MzY4ODA2NV5BMl5BanBnXkFtZTgwMTUwNjgzMDI%40._V1_.jpg"
     }
   },
   {
@@ -6316,6 +6517,9 @@
     "nenAgeRecommendation": {
       "minAge": 10,
       "rationale": "С десяти лет ближе школьные сомнения, первая влюблённость и выбор образовательного пути."
+    },
+    "frame": {
+      "url": "https://imgcp.aacdn.jp/img-a/1920/1038/aa_news/article/2023/11/09/654c7a82d2921.jpg"
     }
   },
   {
@@ -6579,6 +6783,9 @@
     "nenAgeRecommendation": {
       "minAge": 12,
       "rationale": "С двенадцати лет из-за угроз насилия, ареста, войны и необходимости исторического пояснения."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BNDk2YTdkZjctNDMyZi00N2YyLWIwODEtNjM5NjhiYmFjNDM0XkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -6710,6 +6917,9 @@
     "nenAgeRecommendation": {
       "minAge": 11,
       "rationale": "С одиннадцати лет: гротеск, мафия и мрачный юмор могут быть непонятны младшим детям."
+    },
+    "frame": {
+      "url": "https://diaphana.fr/wp-content/uploads/2010/07/les-triplettes-de-belleville_15-1512x900.jpg"
     }
   },
   {
@@ -6837,6 +7047,9 @@
     "nenAgeRecommendation": {
       "minAge": 13,
       "rationale": "С тринадцати лет: философские диалоги, религиозный контекст и отдельные взрослые шутки требуют зрелости."
+    },
+    "frame": {
+      "url": "https://fr.web.img6.acsta.net/medias/nmedia/18/71/26/48/19704322.jpg"
     }
   },
   {
@@ -6929,6 +7142,9 @@
     "nenAgeRecommendation": {
       "minAge": 4,
       "rationale": "С четырёх лет: короткая история, ясные мотивы и безопасный конфликт подходят дошкольникам."
+    },
+    "frame": {
+      "url": "https://free.karusel-tv.ru/suit/preview_full/media/image/2019/02/1549983675566537_11.png"
     }
   },
   {
@@ -7049,6 +7265,9 @@
     "nenAgeRecommendation": {
       "minAge": 5,
       "rationale": "С пяти лет: сюжет ясен дошкольникам, но уход ребёнка из дома стоит отдельно обсудить со взрослым."
+    },
+    "frame": {
+      "url": "https://kartinki.pics/uploads/posts/2022-03/1647947468_25-kartinkin-net-p-kartinki-troe-iz-prostokvashino-27.jpg"
     }
   },
   {
@@ -7129,6 +7348,9 @@
     "nenAgeRecommendation": {
       "minAge": 5,
       "rationale": "С пяти лет: конфликт бытовой, развязка тёплая, длительность удобна для дошкольника."
+    },
+    "frame": {
+      "url": "https://dist-fastdev.ngcdn.ru/directus/32b9712a-5096-4dcc-886b-e622ad244c38.png"
     }
   },
   {
@@ -7292,6 +7514,9 @@
     "nenAgeRecommendation": {
       "minAge": 6,
       "rationale": "С шести лет: опасные испытания условны, язык и темп старой экранизации могут потребовать пояснений."
+    },
+    "frame": {
+      "url": "https://s1.afisha.ru/upload/1045005/6tS7XIf2VMgV4wtlnrZfI49-WaGiCT_H-v9mzqJfU6c.jpg"
     }
   },
   {
@@ -7336,6 +7561,9 @@
     "nenAgeRecommendation": {
       "minAge": 9,
       "rationale": "С девяти лет: схватки животных, гибель персонажей и суровый тон заметно интенсивнее детской комедии."
+    },
+    "frame": {
+      "url": "https://kartin.papik.pro/uploads/posts/2023-07/1688718850_kartin-papik-pro-p-kartinki-maugli-s-ognem-31.jpg"
     }
   },
   {
@@ -7463,6 +7691,9 @@
     "nenAgeRecommendation": {
       "minAge": 6,
       "rationale": "С шести лет: фехтование условно, быстрые шутки и литературные отсылки лучше понятны школьникам."
+    },
+    "frame": {
+      "url": "https://www.meme-arsenal.com/memes/c76391eaffb1d6efc1affe6bbed2f9c5.jpg"
     }
   },
   {
@@ -7548,6 +7779,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: ведьма и летающие обезьяны могут пугать, но песни и ясная сказочная логика поддерживают."
+    },
+    "frame": {
+      "url": "https://4.bp.blogspot.com/--X365ZbXGUg/U_PWlb0EELI/AAAAAAAAAZw/NOxV8P40nsk/s1600/2.jpg"
     }
   },
   {
@@ -7681,6 +7915,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: эмоциональное насилие взрослых и пугающая директриса смягчены песнями, но требуют обсуждения."
+    },
+    "frame": {
+      "url": "https://cineuropa.org/imgCache/2022/10/07/1665138255883_2000x1072_0x0x0x0_1679267803753.jpg"
     }
   },
   {
@@ -7725,6 +7962,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: погони и опасности джунглей умеренные, семейная интрига остаётся доброжелательной."
+    },
+    "frame": {
+      "url": "https://www.flickeringmyth.com/wp-content/uploads/2024/09/Paddington-in-Peru-1.jpg"
     }
   },
   {
@@ -7812,6 +8052,9 @@
     "nenAgeRecommendation": {
       "minAge": 6,
       "rationale": "С шести лет: похищение и угрозы котов условны, сюжет короткий и легко читается."
+    },
+    "frame": {
+      "url": "https://www.jolie-bobine.fr/wp-content/uploads/2022/09/Jonathan-Lipnicki-in-Stuart-Little.jpg"
     }
   },
   {
@@ -7856,6 +8099,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: есть разговоры о судьбе сельскохозяйственных животных и короткие тревожные эпизоды."
+    },
+    "frame": {
+      "url": "https://media.senscritique.com/media/000007118891/0/babe_le_cochon_devenu_berger.jpg"
     }
   },
   {
@@ -7901,6 +8147,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: тема отказа родителей, угроза животному и рискованное спасение эмоционально насыщенны."
+    },
+    "frame": {
+      "url": "https://focus.telerama.fr/2023/12/26/0/0/1800/1200/1600/1067/60/0/3910401_1703598182060-sauvez-willy-1993-05.jpg"
     }
   },
   {
@@ -7942,6 +8191,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: травма животного показана деликатно, медицинские детали доступны с пояснениями."
+    },
+    "frame": {
+      "url": "https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABdg6m-p_WjPdM7Jk1O1PrNHK6tGXQ48oUjD26-0NWNGDCsgHISmFHh4zAmzTtCSDXY8rR3Y9BIpKyrkLvVGHRXjFFtbJqNLgzeUFSf6iTQ.jpg?r=336"
     }
   },
   {
@@ -7987,6 +8239,9 @@
     "nenAgeRecommendation": {
       "minAge": 10,
       "rationale": "С десяти лет: неоднократная смерть животных, пренебрежение и человеческая утрата могут быть тяжёлыми."
+    },
+    "frame": {
+      "url": "https://filmspot.com.pt/images/filmes/backdrops/381289.jpg"
     }
   },
   {
@@ -8086,6 +8341,9 @@
     "nenAgeRecommendation": {
       "minAge": 9,
       "rationale": "С девяти лет: фехтование, пытка и месть поданы легко, но содержание требует зрелого зрителя."
+    },
+    "frame": {
+      "url": "https://i.insider.com/59c93f3719d2f530508b4c9f?format=jpeg&width=1001"
     }
   },
   {
@@ -8127,6 +8385,9 @@
     "nenAgeRecommendation": {
       "minAge": 10,
       "rationale": "С десяти лет: непрерывные угрозы, крупные насекомые и охотник могут сильно пугать."
+    },
+    "frame": {
+      "url": "https://cinefilms-planet.fr/wp-content/uploads/2023/01/image-jumanji-15.jpg"
     }
   },
   {
@@ -8211,6 +8472,9 @@
     "nenAgeRecommendation": {
       "minAge": 10,
       "rationale": "С десяти лет: длинная цепочка загадок, оружие и морально спорный поступок требуют внимания."
+    },
+    "frame": {
+      "url": "https://s5.afisha.ru/mediastorage/48/95/e5f5e5e400e64ad9ac03cb569548.jpg"
     }
   },
   {
@@ -8253,6 +8517,9 @@
     "nenAgeRecommendation": {
       "minAge": 10,
       "rationale": "С десяти лет: мифологические чудовища, бои и семейный конфликт достаточно интенсивны."
+    },
+    "frame": {
+      "url": "https://imgix.bustle.com/scary-mommy/2022/02/08/percy-jackson-1.jpg?crop=faces&fit=crop&fm=jpg&h=900&w=1200"
     }
   },
   {
@@ -8389,6 +8656,9 @@
     "nenAgeRecommendation": {
       "minAge": 11,
       "rationale": "С одиннадцати лет: похищение детей, эксперименты и сложная политика мира требуют зрелости."
+    },
+    "frame": {
+      "url": "https://media.ambito.com/p/fca95337d6417f77cb5cb4eee21d3c0a/adjuntos/239/imagenes/042/115/0042115959/1200x675/smart/la-brujula-dorada.jpg"
     }
   },
   {
@@ -8493,6 +8763,9 @@
     "nenAgeRecommendation": {
       "minAge": 11,
       "rationale": "С одиннадцати лет: масштабные сражения, гибель бойцов и продолжительность делают фильм подростковым."
+    },
+    "frame": {
+      "url": "https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/media/images/peliculas/las-cronicas-de-narnia-el-principe-caspian/foto26/2101229-1-esl-ES/foto26.jpg"
     }
   },
   {
@@ -8533,6 +8806,9 @@
     "nenAgeRecommendation": {
       "minAge": 9,
       "rationale": "С девяти лет: школьный юмор местами грубоват, а тема статуса ближе детям среднего школьного возраста."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BZWM2Yzk3ZTEtOWFkNy00MTI3LTk4MTUtZDA4OTcxYzdkYzg3XkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -8573,6 +8849,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: семейные денежные трудности понятны, общий тон остаётся тёплым и безопасным."
+    },
+    "frame": {
+      "url": "https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/peliculas/ramona-y-su-hermana/galeria/4047693-3-esl-ES/Ramona-y-su-hermana.jpg?crop=1xw%3A0.8438323572474378xh%3Bcenter%2Ctop&resize=1200%3A%2A"
     }
   },
   {
@@ -8658,6 +8937,9 @@
     "nenAgeRecommendation": {
       "minAge": 11,
       "rationale": "С одиннадцати лет ближе первая влюблённость, стыд за семью и моральная неоднозначность героев."
+    },
+    "frame": {
+      "url": "https://kismia.com/p/upload/images/pages/Flipped.jpg"
     }
   },
   {
@@ -8829,6 +9111,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: спортивная авария напряжённа, исторические детали сильно художественно переработаны."
+    },
+    "frame": {
+      "url": "https://www.justwatch.com/images/backdrop/9043325/s1440/cool-runnings"
     }
   },
   {
@@ -8873,6 +9158,9 @@
     "nenAgeRecommendation": {
       "minAge": 11,
       "rationale": "С одиннадцати лет из-за расистских оскорблений, драки, аварии и исторического контекста."
+    },
+    "frame": {
+      "url": "https://qwipster.net/wp-content/uploads/2019/03/remembertitans.jpg"
     }
   },
   {
@@ -8960,6 +9248,9 @@
     "nenAgeRecommendation": {
       "minAge": 11,
       "rationale": "С одиннадцати лет: нападение акулы, травма и последствия стихийного бедствия показаны достаточно прямо."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMDk5ZmQzNWEtNGE1NS00YzgxLWE0YTktOGJkZDVmZDdhNGYxXkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -9003,6 +9294,9 @@
     "nenAgeRecommendation": {
       "minAge": 10,
       "rationale": "С десяти лет: сиротство, эксплуатация детей и неправдоподобные совпадения требуют зрелого обсуждения."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMTI3ODUwNjE2NF5BMl5BanBnXkFtZTcwMDI2NjQzMw%40%40._V1_.jpg"
     }
   },
   {
@@ -9049,6 +9343,9 @@
     "nenAgeRecommendation": {
       "minAge": 13,
       "rationale": "С тринадцати лет: домашние конфликты, травля, курение и рискованный финал рассчитаны на подростков."
+    },
+    "frame": {
+      "url": "https://kureansiklopedi.com/_next/image?q=75&url=https%3A%2F%2Fcdn.t3pedia.org%2Fmedia%2Fuploads%2F2026%2F01%2F23%2FrvnRqS6B5MSJtbG5vcVv5boOGjVMejvf.jpg&w=1280"
     }
   },
   {
@@ -9092,6 +9389,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: травма лошади и риск повторной травмы эмоциональны, но показаны без тяжёлых деталей."
+    },
+    "frame": {
+      "url": "https://es.web.img2.acsta.net/r_1280_720/medias/nmedia/18/63/63/95/19303487.jpg"
     }
   },
   {
@@ -9135,6 +9435,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: кораблекрушение и выживание напряжённы, а спокойные эпизоды требуют терпения."
+    },
+    "frame": {
+      "url": "https://img.theepochtimes.com/assets/uploads/2024/04/19/id5632765-0300.jpg"
     }
   },
   {
@@ -9222,6 +9525,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: похищение, превращение детей и эпизод с китом достаточно тревожны для дошкольников."
+    },
+    "frame": {
+      "url": "https://cdn.theplaylist.net/wp-content/uploads/2018/11/14212915/Disney-Pinocchio-Geppetto.jpg"
     }
   },
   {
@@ -9401,6 +9707,9 @@
     "nenAgeRecommendation": {
       "minAge": 5,
       "rationale": "С пяти лет: конфликт со злыми родственниками понятен, опасные сцены короткие, а развязка спокойная."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMTUxNjIwNTE5MV5BMl5BanBnXkFtZTcwMTEzODgwMw%40%40._V1_.jpg"
     }
   },
   {
@@ -9491,6 +9800,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: стереотипное изображение коренных жителей требует комментария взрослого, а пиратские угрозы поданы условно."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMmJlMzlhN2MtYjE1ZS00MTY1LTllYzgtMWQ0NDJmMGE1MjIzXkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -9534,6 +9846,9 @@
     "nenAgeRecommendation": {
       "minAge": 6,
       "rationale": "С шести лет: приют для собак и нападение крысы напряжённы, но основная история остаётся мягкой."
+    },
+    "frame": {
+      "url": "https://4.bp.blogspot.com/-3T9nlA-qbQA/T-wnNN6LxZI/AAAAAAAABCI/LDrZc5BsJ7s/s1600/5.jpg"
     }
   },
   {
@@ -9577,6 +9892,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: превращение Малефисенты в дракона и мрачные сцены замка могут напугать младших."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BYTdiMDgwNTItZjYxNy00OWEzLWIyYTgtZmYwMTM5NTYxOTQ2XkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -9662,6 +9980,9 @@
     "nenAgeRecommendation": {
       "minAge": 6,
       "rationale": "С шести лет: волшебные превращения безопасны, отдельные схватки и анахроничные шутки требуют небольших пояснений."
+    },
+    "frame": {
+      "url": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2020/02/24/5fa8fe8d3a58a.jpeg"
     }
   },
   {
@@ -9874,6 +10195,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: охота, ранения и невозможность полностью восстановить дружбу эмоционально сложны."
+    },
+    "frame": {
+      "url": "https://s2.dmcdn.net/v/E4fe11N4Jf1q8rz5j/x1080"
     }
   },
   {
@@ -10003,6 +10327,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: Урсула и финальная буря могут напугать, а романтическая цель требует разговора о поспешных решениях."
+    },
+    "frame": {
+      "url": "https://www.fr.de/assets/images/29/853/29853360-die-klassische-version-von-arielle-die-meerjungfrau-begeisterte-eine-ganze-generation-archivbild-2vsdDNXiWlBG.jpg"
     }
   },
   {
@@ -10178,6 +10505,9 @@
     "nenAgeRecommendation": {
       "minAge": 11,
       "rationale": "С одиннадцати лет: религиозный фанатизм, сексуализированное преследование, насилие и угроза казни делают фильм подростковым."
+    },
+    "frame": {
+      "url": "https://media-assets.vanityfair.it/photos/684c47a81b31ae33071491df/master/w_3940%2Cc_limit/Personaggi%2520Disney-Il%2520gobbo%2520di%2520Notre%2520Dame.jpg"
     }
   },
   {
@@ -10221,6 +10551,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: чудовища и подземный мир стилизованы, но тема смерти и предательства требует зрелости."
+    },
+    "frame": {
+      "url": "https://media.vogue.fr/photos/5eb14104d2efb0a42c0b49df/16%3A9/w_1280%2Cc_limit/hercule.jpg"
     }
   },
   {
@@ -10262,6 +10595,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: политическая тема изложена просто, падение с моста создаёт краткое сильное напряжение."
+    },
+    "frame": {
+      "url": "https://media.senscritique.com/media/000009829253/0/mulan_2_la_mission_de_l_empereur.jpg"
     }
   },
   {
@@ -10391,6 +10727,9 @@
     "nenAgeRecommendation": {
       "minAge": 9,
       "rationale": "С девяти лет: оружие, гибель участников и тема колониального разграбления требуют зрелого обсуждения."
+    },
+    "frame": {
+      "url": "https://ynet-pic1.yit.co.il/picserver5/crop_images/2022/06/21/ByeY8Qv0Y5/ByeY8Qv0Y5_143_0_2281_1283_0_x-large.jpg"
     }
   },
   {
@@ -10606,6 +10945,9 @@
     "nenAgeRecommendation": {
       "minAge": 4,
       "rationale": "С четырёх лет: история короткая, предполагаемое чудовище не показывается, конфликты безопасны."
+    },
+    "frame": {
+      "url": "https://cdn.filmtotaal.nl/images/original/19734-winnie-de-poeh.jpg"
     }
   },
   {
@@ -10650,6 +10992,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: гибель родителей обсуждается прямо, духи и затопление создают сильное напряжение."
+    },
+    "frame": {
+      "url": "https://heute-at-prod-images.imgix.net/2021/07/23/7bf3bc8a-2188-466f-9c16-2433d491c3a3.jpeg?auto=format"
     }
   },
   {
@@ -10691,6 +11036,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: устройство мира сложно, есть погони и крупные существа, но насилие условно."
+    },
+    "frame": {
+      "url": "https://discussingfilm.net/wp-content/uploads/2022/11/Strange-World-Ethan-Clade-Splat-1024x576.jpg.webp"
     }
   },
   {
@@ -10775,6 +11123,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: много погонь, оружия и взрывов, хотя персонажи-машины смягчают реалистичность насилия."
+    },
+    "frame": {
+      "url": "https://immagini.alvolante.it/sites/default/files/styles/image_gallery_big/public/news_galleria/2011/06/cars_2_movie_11.jpg"
     }
   },
   {
@@ -10818,6 +11169,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: роботы, космические бои и тема утраченного времени эмоционально насыщенны."
+    },
+    "frame": {
+      "url": "https://assets-jpcust.jwpsrv.com/thumbnails/4rivio6e-1920.jpg"
     }
   },
   {
@@ -10861,6 +11215,9 @@
     "nenAgeRecommendation": {
       "minAge": 9,
       "rationale": "С девяти лет: подростковые социальные страхи и паническая атака особенно понятны детям среднего школьного возраста."
+    },
+    "frame": {
+      "url": "https://fotografias-2.larazon.es/clipping/cmsimages01/2024/06/18/C7C7D29A-6B41-42A4-AC39-893AE91E6E7F/critica-reves-2-pixar-piloto-automatico_98.jpg?crop=1500%2C844%2Cx0%2Cy57&format=webply&height=1069&optimize=low&width=1900"
     }
   },
   {
@@ -10947,6 +11304,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: морские чудовища и угроза казни напряжённы, романтическая линия умеренная."
+    },
+    "frame": {
+      "url": "https://www.animeclick.it/immagini/anime/Sinbad_-_La_leggenda_dei_sette_mari/gallery_original/Sinbad_-_La_leggenda_dei_sette_mari-59b3b25609bb1.jpg"
     }
   },
   {
@@ -11030,6 +11390,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: судебная сатира и экологические причинно-следственные связи сложнее, чем визуальная форма фильма."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMTM1Njk4MDcwNl5BMl5BanBnXkFtZTcwNDAzMDUzMw%40%40._V1_.jpg"
     }
   },
   {
@@ -11071,6 +11434,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: инопланетные бои масштабны, но насилие фантастическое и комедийное."
+    },
+    "frame": {
+      "url": "https://scorpiolikeyou.com/upload/editor/MonstersAliens.jpg"
     }
   },
   {
@@ -11155,6 +11521,9 @@
     "nenAgeRecommendation": {
       "minAge": 6,
       "rationale": "С шести лет: гоночные аварии условны, сюжет прямой и оптимистичный."
+    },
+    "frame": {
+      "url": "https://miro.medium.com/v2/resize%3Afit%3A1400/1%2AchRJH3OyOXJgDECdi2LVZg.jpeg"
     }
   },
   {
@@ -11198,6 +11567,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: быстрые исторические шутки требуют пояснений, опасности фантастические."
+    },
+    "frame": {
+      "url": "https://www.thatfilmguy.net/wp-content/uploads/2014/03/mr.-peabody-and-sherman-1024x576.jpg"
     }
   },
   {
@@ -11322,6 +11694,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: туалетный юмор частый, школьный конфликт гротескный, насилие мультяшное."
+    },
+    "frame": {
+      "url": "https://es.web.img2.acsta.net/pictures/17/07/04/08/49/377640.jpg"
     }
   },
   {
@@ -11406,6 +11781,9 @@
     "nenAgeRecommendation": {
       "minAge": 6,
       "rationale": "С шести лет: похищение лошадей и горная погоня напряжённы, но показаны мягко."
+    },
+    "frame": {
+      "url": "https://img.rl0.ru/0f809666bb41b108a60146a957be227b/1390x-/cinemaart.obs.ru-moscow-1.hc.sbercloud.ru/media/events/c5160b91-97c3-4f7e-bafc-d8e7eb3435fa.jpg"
     }
   },
   {
@@ -11448,6 +11826,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: тревожные образы безопасны, но разговор о страхах и устройство рассказа требуют внимания."
+    },
+    "frame": {
+      "url": "https://images.livemint.com/img/2024/02/01/original/Film-Review---Orion-and-the-Dark-1_1706771243341.jpg"
     }
   },
   {
@@ -11534,6 +11915,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: многочисленные бои и образы вернувшихся злодеев остаются стилизованными."
+    },
+    "frame": {
+      "url": "https://wizarddojo.com/wp-content/uploads/2024/08/kung-fu-panda-4-1.jpg"
     }
   },
   {
@@ -11704,6 +12088,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: Ловец детей может сильно напугать, фильм длинный и устроен как рассказ внутри рассказа."
+    },
+    "frame": {
+      "url": "https://i2.wp.com/www.nowverybad.com/wp-content/uploads/2014/01/chitty_chitty_bang_bang_still4.jpg?resize=1024%2C576&ssl=1"
     }
   },
   {
@@ -11749,6 +12136,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: военный контекст и вторжение требуют объяснения, опасность смягчена музыкальной сказкой."
+    },
+    "frame": {
+      "url": "https://movingstory-prod.imgix.net/movies/headers/bedknobs-and-broomsticks.jpg?auto=compress%2Cformat&fit=crop&h=602&w=1440"
     }
   },
   {
@@ -11793,6 +12183,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: жестокие опекуны и попытка похищения тревожны, песни и дракон смягчают тон."
+    },
+    "frame": {
+      "url": "https://imgix.bustle.com/inverse/fd/58/a7/29/6d6e/468b/85b4/d067858657a5/petes-dragon-1977.jpeg?crop=faces&fit=crop&fm=jpg&h=900&w=1200"
     }
   },
   {
@@ -11877,6 +12270,9 @@
     "nenAgeRecommendation": {
       "minAge": 9,
       "rationale": "С девяти лет: школьная травля и романтические разочарования мягкие, длительность требует внимания."
+    },
+    "frame": {
+      "url": "https://betches.s3.amazonaws.com/app/uploads/2025/06/03184234/princess-diaries-anne-hathaway-julie-andrews.webp"
     }
   },
   {
@@ -11918,6 +12314,9 @@
     "nenAgeRecommendation": {
       "minAge": 9,
       "rationale": "С девяти лет: политическая условность проста, романтическая интрига занимает основную часть сюжета."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMjE5MzA5Mzk4M15BMl5BanBnXkFtZTcwOTcxMjIyNw%40%40._V1_.jpg"
     }
   },
   {
@@ -11959,6 +12358,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: ведьма и финальная схватка с драконом напряжённы, остальное построено на музыкальной комедии."
+    },
+    "frame": {
+      "url": "https://resizer.mail.ru/p/f3b44c1a-6ef1-5ce9-8b56-05dc25a77a5f/dpr%3A125/AAACwJVoNyGT5oEa2uEppRy75j3etX0Zv3v5gH4Js7nNZhYAp15QA_-KulrDwdyH3QLZQHOoBqUrEUt_kIt4kRRQ5y4.jpg"
     }
   },
   {
@@ -12040,6 +12442,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: семейный хаос громкий, но безопасный и заканчивается поддерживающе."
+    },
+    "frame": {
+      "url": "https://www.intofilm.org/intofilm-production/scaledcropped/1096x548https%3A/s3-eu-west-1.amazonaws.com/images.cdn.filmclub.org/film__18068-alexander-and-the-terrible-horrible-no-good-very-bad-day--hi_res-15c56993.jpg/film__18068-alexander-and-the-terrible-horrible-no-good-very-bad-day--hi_res-15c56993.jpg"
     }
   },
   {
@@ -12084,6 +12489,9 @@
     "nenAgeRecommendation": {
       "minAge": 9,
       "rationale": "С девяти лет: исчезновение отца, контроль сознания и мрачные миры могут тревожить младших."
+    },
+    "frame": {
+      "url": "https://www.ncronline.org/files/20180307T1155-15218-CNS-MOVIE-REVIEW-WRINKLE-TIME.jpg"
     }
   },
   {
@@ -12172,6 +12580,9 @@
     "nenAgeRecommendation": {
       "minAge": 11,
       "rationale": "С одиннадцати лет: оружие, проклятые тела, военный контекст и продолжительные драки рассчитаны на подростков."
+    },
+    "frame": {
+      "url": "https://www.rbsdirect.com.br/filestore/9/6/0/2/2/6_d1cd013bc50e51b/622069_743093bb825feb1.jpg?version=1575255600"
     }
   },
   {
@@ -12216,6 +12627,9 @@
     "nenAgeRecommendation": {
       "minAge": 12,
       "rationale": "С двенадцати лет: смерть матери, попытка убийства, месть и морально неоднозначная героиня требуют зрелости."
+    },
+    "frame": {
+      "url": "https://1.bp.blogspot.com/-Jj6vO6EqNqk/YLkuTkGHw2I/AAAAAAAAPyg/RV1hTsljl0U9Lq78tgO7IKyfQSNSyqbGQCLcBGAsYHQ/s1000/CriticaPeliculaCruella2021.jpg"
     }
   },
   {
@@ -12258,6 +12672,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: травмы и опасности природы напряжённы, но животные благополучно возвращаются."
+    },
+    "frame": {
+      "url": "https://images.mubicdn.net/images/film/45517/cache-35655-1557341528/image-w1280.jpg"
     }
   },
   {
@@ -12302,6 +12719,9 @@
     "nenAgeRecommendation": {
       "minAge": 9,
       "rationale": "С девяти лет: гибель отца, истощение и опасности холода эмоционально интенсивны."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BOWJlOGZmNGItYjc5Mi00YmI4LTg0ODctYmUzYzQzOWQ1ZDYxXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg"
     }
   },
   {
@@ -12343,6 +12763,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: спокойная спортивная драма требует интереса к тренировкам и семейным решениям."
+    },
+    "frame": {
+      "url": "https://images.bauerhosting.com/legacy/empire-tmdb/films/6723/images/1dPfT8SAVv7ARTbPf4tiM6ThdP2.jpg?ar=16%3A9&auto=format&crop=top&fit=crop&q=80&w=1440"
     }
   },
   {
@@ -12384,6 +12807,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: школьные насмешки и спортивные столкновения мягкие, конфликт тренера понятен детям."
+    },
+    "frame": {
+      "url": "https://cdn.mos.cms.futurecdn.net/7JYka9UudjNHNsBsHLMarm-1280-80.jpg"
     }
   },
   {
@@ -12468,6 +12894,9 @@
     "nenAgeRecommendation": {
       "minAge": 9,
       "rationale": "С девяти лет: длинная спортивная драма, болезнь и смерть отца требуют устойчивого внимания."
+    },
+    "frame": {
+      "url": "https://cdn.tv-programme.com/photos/bande-annonce-de-secretariat-18-186965-1200.webp"
     }
   },
   {
@@ -12553,6 +12982,9 @@
     "nenAgeRecommendation": {
       "minAge": 10,
       "rationale": "С десяти лет: зависимость родителя, риск разлучения братьев и институциональные ограничения требуют разговора."
+    },
+    "frame": {
+      "url": "https://www.afro-style.com/wp-content/uploads/photo-gallery/SAFETY-2020/02-safety.jpg"
     }
   },
   {
@@ -12732,6 +13164,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: животные временами в опасности, общий тон лёгкий, развод родителей обсуждается мягко."
+    },
+    "frame": {
+      "url": "https://www.jimcarreyonline.com/images/albums/movies/penguins/stills/penguins-still04.jpg"
     }
   },
   {
@@ -12903,6 +13338,9 @@
     "nenAgeRecommendation": {
       "minAge": 11,
       "rationale": "С одиннадцати лет: школьное отвержение, первая влюблённость и неоднозначные решения ближе подросткам."
+    },
+    "frame": {
+      "url": "https://fr.web.img5.acsta.net/pictures/20/03/16/15/48/1717162.jpg"
     }
   },
   {
@@ -12944,6 +13382,9 @@
     "nenAgeRecommendation": {
       "minAge": 9,
       "rationale": "С девяти лет: самостоятельная поездка рискованна, но конфликт лёгкий и музыкальный."
+    },
+    "frame": {
+      "url": "https://s.movieinsider.com/images/p/628683_m1646004948.jpg"
     }
   },
   {
@@ -12988,6 +13429,9 @@
     "nenAgeRecommendation": {
       "minAge": 12,
       "rationale": "С двенадцати лет: неизлечимая болезнь и смерть героя являются центральными и требуют эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://fr.web.img2.acsta.net/pictures/20/09/14/10/59/4436646.jpg"
     }
   },
   {
@@ -13029,6 +13473,9 @@
     "nenAgeRecommendation": {
       "minAge": 13,
       "rationale": "С тринадцати лет: грубая лексика, сексуальные шутки и конфликт сепарации рассчитаны на подростков."
+    },
+    "frame": {
+      "url": "https://cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/HDHRABE3EQDTORKL7YYYEUFCBM.jpg"
     }
   },
   {
@@ -13203,6 +13650,9 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: бедность, потеря дома и преступление показаны доступно, без тяжёлого насилия."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMTg5Njk1MTA5MV5BMl5BanBnXkFtZTcwNzM4NDg1MQ%40%40._V1_.jpg"
     }
   },
   {
@@ -13289,6 +13739,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: смерть отца упоминается без тяжёлых сцен, рождественский конфликт остаётся мягким."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMmI3Yjc3NWEtOGUyYS00NDM3LWE0OGQtZjI4OWFjOTYxNjg2XkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -13332,6 +13785,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: тема смерти родителя эмоциональна, погони и тюрьма поданы комедийно."
+    },
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/original/pTyvOrKfvSEzrZ5ZoIoy3HpoRVy.jpg"
     }
   },
   {
@@ -13373,6 +13829,9 @@
     "nenAgeRecommendation": {
       "minAge": 6,
       "rationale": "С шести лет: семейные шалости безопасны, продолжительность удобна младшим школьникам."
+    },
+    "frame": {
+      "url": "https://imgix.bustle.com/uploads/image/2022/8/19/bf62e1c8-a6c0-4620-86b9-c453ee521ce6-iab1_unit_03246_r.jpg?crop=faces&fit=crop&fm=jpg&h=630&w=1200"
     }
   },
   {
@@ -13414,6 +13873,9 @@
     "nenAgeRecommendation": {
       "minAge": 9,
       "rationale": "С девяти лет: школьный заговор и краткие пугающие сцены умеренны, логика расследования требует внимания."
+    },
+    "frame": {
+      "url": "https://a.ltrbxd.com/resized/sm/upload/ar/sx/hg/xn/daphne-velma-1200-1200-675-675-crop-000000.jpg?v=2f3af836cb"
     }
   },
   {
@@ -13546,6 +14008,9 @@
       "minAge": 6,
       "maxAge": 17,
       "rationale": "Динозавры, погони и угроза героям могут пугать дошкольников; основная история остаётся комедийной."
+    },
+    "frame": {
+      "url": "https://moviefordummies.wordpress.com/wp-content/uploads/2009/07/era-do-gelo-3.jpg"
     }
   },
   {
@@ -13590,6 +14055,9 @@
       "minAge": 7,
       "maxAge": 17,
       "rationale": "Катастрофа, пираты и продолжительные погони лучше воспринимаются детьми, уже различающими комическую и реальную угрозу."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BYjM4NWQ3ZDYtNzBiOS00YjNmLTg1ZjEtOGJmODZiYzhhZWQwXkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -13634,6 +14102,9 @@
       "minAge": 7,
       "maxAge": 17,
       "rationale": "Глобальная угроза и динамичные столкновения могут быть напряжёнными, хотя поданы в комедийном ключе."
+    },
+    "frame": {
+      "url": "https://catholicphilly.com/media-files/2016/07/MOVIE-REVIEW-ICE-AGE.jpg"
     }
   },
   {
@@ -13768,6 +14239,9 @@
       "minAge": 7,
       "maxAge": 17,
       "rationale": "Есть угрозы уничтожения персонажей и сатирическая тема бедности, но действие остаётся лёгким и понятным."
+    },
+    "frame": {
+      "url": "https://images.kinorium.com/movie/shot/280693/w1500_51215067.jpg"
     }
   },
   {
@@ -13856,6 +14330,9 @@
       "minAge": 6,
       "maxAge": 17,
       "rationale": "Тема корриды, угроза бойни и грубое обращение с животными требуют разговора со взрослым."
+    },
+    "frame": {
+      "url": "https://guideposts.org/wp-content/uploads/2017/12/ferdinand-ferd_juanes_still_v1.0_srgb_rgb-1024x429.jpg.optimal.jpg"
     }
   },
   {
@@ -13897,6 +14374,9 @@
       "minAge": 6,
       "maxAge": 17,
       "rationale": "Спокойная школьная история без серьёзных угроз подходит детям, знакомым с переживаниями из-за оценки окружающих."
+    },
+    "frame": {
+      "url": "https://straightfromamovie.com/wp-content/uploads/2015/12/ThePeanutsMovie1.jpg"
     }
   },
   {
@@ -13941,6 +14421,9 @@
       "minAge": 6,
       "maxAge": 17,
       "rationale": "Преследование героя и угроза уничтожения города напряжённы, но не содержат реалистичного насилия."
+    },
+    "frame": {
+      "url": "https://www.kinonews.ru/insimgs/shotimg/shotimg38881_25.jpg"
     }
   },
   {
@@ -14069,6 +14552,9 @@
       "minAge": 6,
       "maxAge": 17,
       "rationale": "Есть разрушение здания и семейный конфликт, но музыкальный тон делает фильм доступным младшим школьникам."
+    },
+    "frame": {
+      "url": "https://bullesdeculture.com/bdc-content/uploads/2017/01/tous-en-scene-image-2-2048x1107.jpg"
     }
   },
   {
@@ -14113,6 +14599,9 @@
       "minAge": 7,
       "maxAge": 17,
       "rationale": "Утрата близкого, угрозы со стороны продюсера и опасный финальный номер требуют чуть большей эмоциональной зрелости."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BZmIwMTJkZDctYWQzMC00M2JiLWJjYmMtMThlNTVlYzU4YmJmXkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -14157,6 +14646,9 @@
       "minAge": 6,
       "maxAge": 17,
       "rationale": "Погони, агрессивные бездомные животные и транспортные опасности могут напугать чувствительных дошкольников."
+    },
+    "frame": {
+      "url": "https://4.bp.blogspot.com/-Re3Fdr-cM2M/WEbvyoqXm6I/AAAAAAAAFJU/XbU24aSNeiQSRWctLUrlag0L-zV2KPz1ACLcB/s1600/2426_FPF_00359R.jpg"
     }
   },
   {
@@ -14285,6 +14777,9 @@
       "minAge": 6,
       "maxAge": 17,
       "rationale": "Есть похищение, превращения существ и мультяшные драки, но последствия не показаны реалистично."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BNGJmZjJjODUtOWFhYy00NmRmLTlmNTktYmNkZmYzNjQ3MWI4XkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -14327,6 +14822,9 @@
       "minAge": 6,
       "maxAge": 17,
       "rationale": "Мультяшные схватки, оружие и угроза городу не выходят за рамки лёгкой приключенческой комедии."
+    },
+    "frame": {
+      "url": "https://arc-anglerfish-arc2-prod-dmn.s3.amazonaws.com/public/5BPFE2OHKTK2EP4I7H3K4PP5XU.jpg"
     }
   },
   {
@@ -14369,6 +14867,9 @@
       "minAge": 7,
       "maxAge": 17,
       "rationale": "Похищение младенца, злодейские угрозы и частые драки рассчитаны на детей, спокойно воспринимающих условный экшен."
+    },
+    "frame": {
+      "url": "https://media.swncdn.com/via/images/2024/07/05/36753/36753-2_source_file.jpg"
     }
   },
   {
@@ -14413,6 +14914,9 @@
       "minAge": 6,
       "maxAge": 17,
       "rationale": "Уткам угрожают хищники и повар, но опасные сцены короткие и завершаются комически."
+    },
+    "frame": {
+      "url": "https://images.indianexpress.com/2023/12/mirgration-review-1600.jpg"
     }
   },
   {
@@ -14456,6 +14960,9 @@
       "minAge": 6,
       "maxAge": 17,
       "rationale": "Много сражений, падений и громких угроз, однако игровая условность снижает ощущение реальной опасности."
+    },
+    "frame": {
+      "url": "https://media.outnow.ch/Movies/Bilder/2023/Super-Mario-Bros-Movie/002.jpg"
     }
   },
   {
@@ -14499,6 +15006,9 @@
       "minAge": 7,
       "maxAge": 17,
       "rationale": "Очень быстрый монтаж и многочисленные условные разрушения лучше подходят школьникам, способным следить за двумя уровнями истории."
+    },
+    "frame": {
+      "url": "https://bi.im-g.pl/im/1b/62/14/z21372955IEG%2CLego--Przygoda.jpg"
     }
   },
   {
@@ -14542,6 +15052,9 @@
       "minAge": 7,
       "maxAge": 17,
       "rationale": "Запутанная структура и непрерывное действие требуют внимания, но экранное насилие остаётся полностью игрушечным."
+    },
+    "frame": {
+      "url": "https://blogs-images.forbes.com/scottmendelson/files/2018/06/LG2-T1-0038-1200x503.jpg"
     }
   },
   {
@@ -14668,6 +15181,9 @@
       "minAge": 6,
       "maxAge": 17,
       "rationale": "Погони и опасные падения поданы условно; эмоционально важнее тема одиночества ребёнка при занятых родителях."
+    },
+    "frame": {
+      "url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ea914385-70d7-476d-aa3b-37d0c449c464/dfdk682-daab7136-9619-4ec6-bc32-102eceba3ce3.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VhOTE0Mzg1LTcwZDctNDc2ZC1hYTNiLTM3ZDBjNDQ5YzQ2NFwvZGZkazY4Mi1kYWFiNzEzNi05NjE5LTRlYzYtYmMzMi0xMDJlY2ViYTNjZTMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.XaGtctwoU1Sp9Z9L8crdCWkgnKG5qbPJ0gWMEFmPnBE"
     }
   },
   {
@@ -14887,6 +15403,9 @@
       "minAge": 6,
       "maxAge": 17,
       "rationale": "Комические столкновения и давление правителя безопасны для большинства младших школьников."
+    },
+    "frame": {
+      "url": "https://www.intofilm.org/intofilm-production/4084/scaledcropped/1170x658/resources/4084/early-man.jpg"
     }
   },
   {
@@ -14929,6 +15448,9 @@
       "minAge": 6,
       "maxAge": 17,
       "rationale": "Погони и разлука с родителями создают умеренное напряжение, быстро смягчаемое пластилиновым юмором."
+    },
+    "frame": {
+      "url": "https://www.cinetecamadrid.com/sites/default/files/activity/image/imagen_LAOVEJA_SHAUN.jpg"
     }
   },
   {
@@ -15016,6 +15538,9 @@
       "minAge": 7,
       "maxAge": 17,
       "rationale": "Напряжённая погоня и зловещий пингвин рассчитаны на детей, которым уже нравятся мягкие детективы."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BZGU5OTUxNDctZjcxZS00MjNiLWExYWQtMTNjOTEzZWViNGNkXkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -15150,6 +15675,9 @@
       "minAge": 9,
       "maxAge": 17,
       "rationale": "Гибель родителей, пугающие сёстры и напряжённые бои делают фильм подходящим для зрителей от девяти лет."
+    },
+    "frame": {
+      "url": "https://ogimg.infoglobo.com.br/in/20817360-caa-709/FT1086A/760/MV5BMjE3NDM4MjE4N15BMl5BanBnXkFtZTgwMzA2OTM5ODE._V1_.jpg"
     }
   },
   {
@@ -15348,6 +15876,9 @@
       "minAge": 8,
       "maxAge": 17,
       "rationale": "Скелеты, монстры и похищение Санты стилизованы, но могут пугать детей, не знакомых с готической анимацией."
+    },
+    "frame": {
+      "url": "https://resizer.glanacion.com/resizer/v2/una-de-las-peliculas-de-tim-burton-que-se-SKGW4BMR2FHQXKIE7RM3KB3RXY.jpg?auth=ead799d027bcf58c8e66a2d46ca3eaf2e11bbb4335169eb73042215683612316&height=854&quality=70&smart=true&width=1280"
     }
   },
   {
@@ -15530,6 +16061,9 @@
       "minAge": 9,
       "maxAge": 17,
       "rationale": "Перестрелки, похищение и повторяющиеся шутки об алкоголе требуют обсуждения со взрослым."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMjgzNjc1MjE0MF5BMl5BanBnXkFtZTcwOTA3MjQxNw%40%40._V1_.jpg"
     }
   },
   {
@@ -15615,6 +16149,9 @@
       "minAge": 9,
       "maxAge": 17,
       "rationale": "Частые драки, угрозы уничтожения города и грубоватый юмор рассчитаны на зрителей от девяти лет."
+    },
+    "frame": {
+      "url": "https://www.film-rezensionen.de/wp-content/uploads/2023/08/Teenage-Mutant-Ninja-Turtles-Mutant-Mayhem-Szene-8-scaled.jpg"
     }
   },
   {
@@ -15659,6 +16196,9 @@
       "minAge": 10,
       "maxAge": 17,
       "rationale": "Продолжительность, открытый финал, интенсивные бои и постоянная угроза близким требуют устойчивого внимания."
+    },
+    "frame": {
+      "url": "https://tr.web.img2.acsta.net/r_1280_720/pictures/23/04/24/14/53/1514569.jpg"
     }
   },
   {
@@ -15704,6 +16244,9 @@
       "minAge": 11,
       "maxAge": 17,
       "rationale": "Травля, предательство, тяжёлое отчаяние Нимоны и интенсивный финал подходят подросткам и требуют разговора."
+    },
+    "frame": {
+      "url": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2023/06/21/fotograma-de-nimona.jpeg"
     }
   },
   {
@@ -15835,6 +16378,9 @@
       "minAge": 7,
       "maxAge": 17,
       "rationale": "Смерть пожилого друга происходит в начале и может потребовать поддержки, хотя дальнейшее путешествие полно юмора."
+    },
+    "frame": {
+      "url": "https://hips.hearstapps.com/hmg-prod/images/vivo-netflix-1646989195.jpg"
     }
   },
   {
@@ -15878,6 +16424,9 @@
       "minAge": 7,
       "maxAge": 17,
       "rationale": "Есть преследование, падения и угроза героям, но эмоциональная линия понятна младшим школьникам."
+    },
+    "frame": {
+      "url": "https://images.mubicdn.net/images/film/305270/cache-675774-1621059042/image-w1280.jpg"
     }
   },
   {
@@ -16013,6 +16562,9 @@
       "minAge": 6,
       "maxAge": 17,
       "rationale": "Короткие погони и политическая сатира не мешают ясной и доброжелательной истории для младших школьников."
+    },
+    "frame": {
+      "url": "https://fr.web.img6.acsta.net/pictures/21/09/21/15/03/4246271.jpg"
     }
   },
   {
@@ -16056,6 +16608,9 @@
       "minAge": 5,
       "maxAge": 17,
       "rationale": "Опасные спасательные сцены и переживание оставленности поданы мягко и подходят большинству детей от пяти лет."
+    },
+    "frame": {
+      "url": "https://globalnews.ca/wp-content/uploads/2021/08/pp-ff-004_0.jpg?quality=65&strip=all&w=1200"
     }
   },
   {
@@ -16189,6 +16744,9 @@
       "minAge": 10,
       "maxAge": 17,
       "rationale": "Гибель родителей, попытки убийства и готический юмор требуют возраста около десяти лет."
+    },
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w1280/qxAO3ihnHKHt8ofdmWJfVibQIgo.jpg"
     }
   },
   {
@@ -16380,6 +16938,9 @@
       "minAge": 7,
       "maxAge": 17,
       "rationale": "Смерть Шарлотты и угроза забоя поросёнка требуют совместного просмотра с младшими детьми."
+    },
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/original/q4Qk3l1G3osEDOJJbH8Y4usAWN9.jpg"
     }
   },
   {
@@ -16425,6 +16986,9 @@
       "minAge": 9,
       "maxAge": 17,
       "rationale": "Морской змей, тёмный остров и превращение ребёнка требуют устойчивости к фэнтезийному напряжению."
+    },
+    "frame": {
+      "url": "https://st.kinopoisk.ru/im/kadr/1/4/0/kinopoisk.ru-Chronicles-of-Narnia_3A-The-Voyage-of-the-Dawn-Treader_2C-The-1406408.jpg"
     }
   },
   {
@@ -16517,6 +17081,9 @@
       "minAge": 11,
       "maxAge": 17,
       "rationale": "Дементоры, оборотень и угроза казни создают устойчиво мрачную атмосферу для зрителей от одиннадцати лет."
+    },
+    "frame": {
+      "url": "https://cdn.theplaylist.net/wp-content/uploads/2018/09/14215024/Harry-Potter-Azkaban-Cuaron.jpg"
     }
   },
   {
@@ -16563,6 +17130,9 @@
       "minAge": 12,
       "maxAge": 17,
       "rationale": "Гибель Седрика, возвращение Волан-де-Морта и длительные испытания подходят подросткам от двенадцати лет."
+    },
+    "frame": {
+      "url": "https://www.hanisauland.de/system/files/85940835.jpg"
     }
   },
   {
@@ -16609,6 +17179,9 @@
       "minAge": 12,
       "maxAge": 17,
       "rationale": "Пытки наказанием, смерть Сириуса и мрачные видения требуют подростковой эмоциональной зрелости."
+    },
+    "frame": {
+      "url": "https://www.moma.org/media/W1siZiIsIjE3OTc2MSJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MTQ0MFx1MDAzZSJdXQ.jpg?sha=a7c0792e446e4587"
     }
   },
   {
@@ -16655,6 +17228,9 @@
       "minAge": 12,
       "maxAge": 17,
       "rationale": "Смерть Дамблдора, нападения и тема убийства рассчитаны на подростков, знакомых с предыдущими частями."
+    },
+    "frame": {
+      "url": "https://media.harrypotterfanzone.com/harry-looks-brooding-half-blood-prince.jpg"
     }
   },
   {
@@ -16879,6 +17455,9 @@
       "minAge": 9,
       "maxAge": 17,
       "rationale": "Нападения хищников и гибель Акелы выглядят реалистично и требуют возраста около девяти лет."
+    },
+    "frame": {
+      "url": "https://cdn1.naekranie.pl/media/cache/amp/2016/03/Ksiega-dzungli.jpg"
     }
   },
   {
@@ -16924,6 +17503,9 @@
       "minAge": 12,
       "maxAge": 17,
       "rationale": "Война, семейная холодность и эксплуатация детского образа требуют зрелого подросткового обсуждения."
+    },
+    "frame": {
+      "url": "https://www.soyuz.ru/public/uploads/files/5/7157481/1005x558_20171127120248234f0524ac.jpg"
     }
   },
   {
@@ -17146,6 +17728,9 @@
       "minAge": 9,
       "maxAge": 17,
       "rationale": "Травля, алкогольная проблема взрослого и смерть старого пса делают фильм эмоционально непростым."
+    },
+    "frame": {
+      "url": "https://www.autourdesanimaux.com/wp-content/uploads/mon-chien-skip-2.jpg"
     }
   },
   {
@@ -17232,6 +17817,9 @@
       "minAge": 8,
       "maxAge": 17,
       "rationale": "Шторм, разлука и самостоятельное лечение травмы требуют возраста около восьми лет."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BZjkyOWNmMjQtYTY5MS00Y2Y1LWIzMDItZDE1NmY4YTIwZDFhXkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -17274,6 +17862,9 @@
       "minAge": 8,
       "maxAge": 17,
       "rationale": "Гигантские существа, землетрясения и подводные сцены создают умеренное приключенческое напряжение."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BODEyMTgyNjgzOF5BMl5BanBnXkFtZTcwMTc3OTUyNw%40%40._V1_FMjpg_UX1000_.jpg"
     }
   },
   {
@@ -17316,6 +17907,9 @@
       "minAge": 8,
       "maxAge": 17,
       "rationale": "Частые погони, оружие и инопланетный убийца требуют уверенного отношения к экранному экшену."
+    },
+    "frame": {
+      "url": "https://www.slantmagazine.com/wp-content/uploads/2009/04/film_racetowitchmountain.jpg"
     }
   },
   {
@@ -17358,6 +17952,9 @@
       "minAge": 7,
       "maxAge": 17,
       "rationale": "Мутировавшие персонажи, похищение родителей и мультяшные драки рассчитаны на младших школьников."
+    },
+    "frame": {
+      "url": "https://mx.web.img3.acsta.net/pictures/15/09/30/10/14/058089.jpg"
     }
   },
   {
@@ -17400,6 +17997,9 @@
       "minAge": 7,
       "maxAge": 17,
       "rationale": "Фантастические существа, падения и шпионские угрозы остаются условными и комедийными."
+    },
+    "frame": {
+      "url": "https://fr.web.img2.acsta.net/r_1280_720/pictures/15/11/04/12/52/446683.jpg"
     }
   },
   {
@@ -17484,6 +18084,9 @@
       "minAge": 8,
       "maxAge": 17,
       "rationale": "Супергеройские драки, травля и угроза школе поданы легко, но узнаваемая социальная жестокость требует обсуждения."
+    },
+    "frame": {
+      "url": "https://i0.wp.com/geeksofcolor.co/wp-content/uploads/2020/12/7f8619d9471ab02ef44830757a1afca5.jpg?resize=1024%2C576&ssl=1"
     }
   },
   {
@@ -17570,6 +18173,9 @@
       "minAge": 7,
       "maxAge": 17,
       "rationale": "Скелет динозавра, миниатюрные битвы и угроза героям умеренно напряжённы, но выдержаны в комедийном тоне."
+    },
+    "frame": {
+      "url": "https://akns-images.eonline.com/eol_images/Entire_Site/2012616/1024.museum.cm.71612.jpg?crop=776%3A576%3Bcenter%2Ctop&fit=around%7C776%3A576&output-quality=90"
     }
   },
   {
@@ -17613,6 +18219,9 @@
       "minAge": 7,
       "maxAge": 17,
       "rationale": "Исторические злодеи, оружие и большая погоня остаются условными и подходят младшим школьникам."
+    },
+    "frame": {
+      "url": "https://clip.cafe/img16x9/hey-dum-dums-bring-gum-gum.jpg"
     }
   },
   {
@@ -17656,6 +18265,9 @@
       "minAge": 8,
       "maxAge": 17,
       "rationale": "Есть опасные экспонаты и эмоциональное прощание; финальная тема расставания может потребовать разговора."
+    },
+    "frame": {
+      "url": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/12/10/18/44-BenStiller1-20thCenturyFox.jpg"
     }
   },
   {
@@ -17701,6 +18313,9 @@
       "minAge": 10,
       "maxAge": 17,
       "rationale": "Преступники угрожают детям оружием, есть грубая речь и опасные ловушки, поэтому фильм подходит зрителям от десяти лет."
+    },
+    "frame": {
+      "url": "https://madreshoy.com/wp-content/uploads/2020/04/los-goonies.jpg"
     }
   },
   {
@@ -17745,6 +18360,9 @@
       "minAge": 8,
       "maxAge": 17,
       "rationale": "Опасности от насекомых, газонокосилки и почти несчастный случай с ребёнком могут быть напряжёнными."
+    },
+    "frame": {
+      "url": "https://apps.watershed.co.uk/shared/imagecache/appimages/2704/default/16-9/1200/17/07/honey-i-shrunk-the-kids--1.jpg"
     }
   },
   {
@@ -17787,6 +18405,9 @@
       "minAge": 8,
       "maxAge": 17,
       "rationale": "Разлука с семьёй, медицинское удержание и временная тревога подходят школьникам от восьми лет."
+    },
+    "frame": {
+      "url": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/05/05/15/joey-cramer.jpg"
     }
   },
   {
@@ -17910,6 +18531,9 @@
       "minAge": 4,
       "maxAge": 10,
       "rationale": "Примерно к 4 годам зритель способен проследить истории длительностью 20 минут и не свести конфликт к простой победе, включая вопрос о том, как друзья распределяют роли, когда хотят перехитрить разбойников. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
+    },
+    "frame": {
+      "url": "https://www.soyuz.ru/public/uploads/files/5/7244596/201903041621212fac92bff5.jpg"
     }
   },
   {
@@ -18078,6 +18702,9 @@
       "minAge": 5,
       "maxAge": 10,
       "rationale": "Ориентир 5+ помогает учесть продолжительность, темп и короткой серии длительностью около 10 минут, включая вопрос о том, в какие моменты Волк вызывает не только смех, но и сочувствие. Совместный просмотр желателен из-за тем: погони и комические опасности; взрослому стоит заранее оценить реакцию ребёнка."
+    },
+    "frame": {
+      "url": "https://rossaprimavera.ru/static/files/86b6ebf7eb59.jpg"
     }
   },
   {
@@ -18505,6 +19132,9 @@
       "minAge": 5,
       "maxAge": 12,
       "rationale": "Ориентир 5+ помогает учесть продолжительность, темп и истории длительностью 9 минут, включая вопрос о том, как пластилиновые превращения помогают увидеть искусство иначе. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
+    },
+    "frame": {
+      "url": "https://kinoscan.com/wp-content/uploads/2025/01/original-1tie.jpg"
     }
   },
   {
@@ -18721,6 +19351,9 @@
       "minAge": 5,
       "maxAge": 10,
       "rationale": "Рекомендация от 5 лет учитывает истории длительностью 8 минут, эмоциональные повороты и общий ритм, включая вопрос о том, что песня героя говорит о доме и свободе выбора. Совместный просмотр желателен из-за тем: похищение ребёнка в сказочной форме; взрослому стоит заранее оценить реакцию ребёнка."
+    },
+    "frame": {
+      "url": "https://www.film.ru/sites/default/files/styles/thumb_1024x450/public/movies/frames/49862658-2064131.jpeg"
     }
   },
   {
@@ -19073,6 +19706,9 @@
       "minAge": 6,
       "maxAge": 11,
       "rationale": "Возраст от 6 лет подходит для разговора, который предполагает понимание истории длительностью 65 минут, включая вопрос о том, как герои острова решают, кому доверять. Совместный просмотр желателен из-за тем: пленение и сказочные драки; взрослому стоит заранее оценить реакцию ребёнка."
+    },
+    "frame": {
+      "url": "https://www.kinonews.ru/insimgs/shotimg/shotimg26794_5.jpg"
     }
   },
   {
@@ -19161,6 +19797,9 @@
       "minAge": 6,
       "maxAge": 11,
       "rationale": "Рекомендация от 6 лет учитывает истории длительностью 75 минут, эмоциональные повороты и общий ритм, включая вопрос о том, что помогает жителям Киева действовать сообща под водой. Совместный просмотр желателен из-за тем: сказочная угроза затопления; взрослому стоит заранее оценить реакцию ребёнка."
+    },
+    "frame": {
+      "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/fc9d4a26-5bc9-4404-8050-2a63b373a545/1920x"
     }
   },
   {
@@ -19205,6 +19844,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Примерно к 6 годам зритель способен проследить истории длительностью 75 минут и не свести конфликт к простой победе, включая вопрос о том, как путешествие в Египет проверяет взаимовыручку богатырей. Совместный просмотр желателен из-за тем: сказочные угрозы и сражения; взрослому стоит заранее оценить реакцию ребёнка."
+    },
+    "frame": {
+      "url": "https://img51994.domkino.tv/img/2019-12-30/fmt_114_224_kadr-7.jpg"
     }
   },
   {
@@ -19249,6 +19891,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Начиная с 6 лет ребёнку проще соотнести истории длительностью 85 минут с решениями героев, включая вопрос о том, кто из героев ставит безопасность наследницы выше собственных интересов. Совместный просмотр желателен из-за тем: погони и сказочные сражения; взрослому стоит заранее оценить реакцию ребёнка."
+    },
+    "frame": {
+      "url": "https://img51994.domkino.tv/img/2019-11-25/fmt_114_24_kadr-6.jpg"
     }
   },
   {
@@ -19337,6 +19982,9 @@
       "minAge": 6,
       "maxAge": 11,
       "rationale": "Возраст 6+ выбран с учётом истории длительностью 87 минут и последовательности событий, включая вопрос о том, что Князь узнаёт о жизни тех, кем привык командовать. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
+    },
+    "frame": {
+      "url": "https://www.kino-teatr.ru/movie/kadr/146104/1015126.jpg"
     }
   },
   {
@@ -19469,6 +20117,9 @@
       "minAge": 6,
       "maxAge": 11,
       "rationale": "С 6 лет легче удерживать истории длительностью 72 минут и мотивы нескольких персонажей, включая вопрос о том, что Иван понимает о балансе между обязанностями и близкими. Совместный просмотр желателен из-за тем: похищение в сказочной форме; взрослому стоит заранее оценить реакцию ребёнка."
+    },
+    "frame": {
+      "url": "https://www.kinonews.ru/insimgs/shotimg/shotimg35700_3.jpg"
     }
   },
   {
@@ -19595,6 +20246,9 @@
       "minAge": 6,
       "maxAge": 11,
       "rationale": "Рекомендация от 6 лет учитывает истории длительностью 78 минут, эмоциональные повороты и общий ритм, включая вопрос о том, почему смена ролей помогает им лучше договориться. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
+    },
+    "frame": {
+      "url": "https://img.1tv.com/img/2023-03-27/fmt_96_24_ivan-tsarevich-i-seryi---volk-----5-6.jpg"
     }
   },
   {
@@ -19639,6 +20293,9 @@
       "minAge": 6,
       "maxAge": 11,
       "rationale": "Примерно к 6 годам зритель способен проследить истории длительностью 80 минут и не свести конфликт к простой победе, включая вопрос о том, как тролль Орм меняется благодаря её доверию. Совместный просмотр желателен из-за тем: похищение, ледяные опасности; взрослому стоит заранее оценить реакцию ребёнка."
+    },
+    "frame": {
+      "url": "https://img51994.domkino.tv/img/2019-12-30/fmt_114_24_kadr-6.jpg"
     }
   },
   {
@@ -19815,6 +20472,9 @@
       "minAge": 6,
       "maxAge": 11,
       "rationale": "Ориентир 6+ помогает учесть продолжительность, темп и истории длительностью 80 минут, включая вопрос о том, как научное любопытство героев сталкивается с ответственностью перед природой. Совместный просмотр желателен из-за тем: опасные животные; взрослому стоит заранее оценить реакцию ребёнка."
+    },
+    "frame": {
+      "url": "https://kinobusiness.com/upload/iblock/82c/2458b7ab7d1849505b2e3e1607d614ac.jpg"
     }
   },
   {
@@ -19953,6 +20613,9 @@
       "minAge": 5,
       "maxAge": 10,
       "rationale": "Возраст от 5 лет подходит для разговора, который предполагает понимание истории длительностью 84 минут, включая вопрос о том, как болтливый Оскар становится полезным участником пути. Совместный просмотр желателен из-за тем: комические опасности; взрослому стоит заранее оценить реакцию ребёнка."
+    },
+    "frame": {
+      "url": "https://cdn.smartfacts.ru/438910/bolshoe-puteshestvie.jpg"
     }
   },
   {
@@ -20173,6 +20836,9 @@
       "minAge": 5,
       "maxAge": 10,
       "rationale": "Зрителю примерно с 5 лет обычно доступна истории длительностью 78 минут без потери важных причин и последствий, включая вопрос о том, как путешествие меняет его представление о семье и доме. Совместный просмотр желателен из-за тем: разлука с родителем; взрослому стоит заранее оценить реакцию ребёнка."
+    },
+    "frame": {
+      "url": "https://resizer.mail.ru/p/a2632d2e-29cd-5c70-8100-e0265738e387/dpr%3A170/AQACUvqjas0QHYDeU1z59XBuWq7pbPkIVYr_lLlCRVUg0Dr062vyu4mAv2K8E-TuNOuborb0TaYuZv0WJF_ujj6xse8.jpg"
     }
   },
   {
@@ -20308,6 +20974,9 @@
       "minAge": 5,
       "maxAge": 10,
       "rationale": "Нижняя граница 5 лет связана с тем, что истории длительностью 85 минут требует устойчивого внимания, включая вопрос о том, как тренировки меняют отношение Белки к собственным возможностям. Совместный просмотр желателен из-за тем: опасные испытания животных; взрослому стоит заранее оценить реакцию ребёнка."
+    },
+    "frame": {
+      "url": "https://img.1tv.com/img/2011-03-28/fmt_96_1524_novyjrisunok4.jpg"
     }
   },
   {
@@ -20396,6 +21065,9 @@
       "minAge": 6,
       "maxAge": 11,
       "rationale": "Возраст от 6 лет подходит для разговора, который предполагает понимание истории длительностью 80 минут, включая вопрос о том, как герои отличают смелый риск от необдуманного поступка. Совместный просмотр желателен из-за тем: природная катастрофа; взрослому стоит заранее оценить реакцию ребёнка."
+    },
+    "frame": {
+      "url": "https://s5.afisha.ru/mediastorage/f7/1f/9a321279e7a340588557a57c1ff7.jpg"
     }
   },
   {
@@ -20440,6 +21112,9 @@
       "minAge": 8,
       "maxAge": 13,
       "rationale": "Для самостоятельного понимания истории длительностью 85 минут лучше ориентироваться на возраст от 8 лет, включая вопрос о том, как трудный переход меняет его понимание настоящей храбрости. Совместный просмотр желателен из-за тем: военные события без натурализма; взрослому стоит заранее оценить реакцию ребёнка."
+    },
+    "frame": {
+      "url": "https://img51994.domkino.tv/img/2023-05-29/fmt_114_24_suvorov.-velikoye-puteshestviye-9.jpg"
     }
   },
   {
@@ -21472,6 +22147,9 @@
       "minAge": 7,
       "maxAge": 12,
       "rationale": "Зрителю примерно с 7 лет обычно доступна истории длительностью 134 минут без потери важных причин и последствий, включая вопрос о том, как Маша показывает, что способна сама решать, с кем общаться. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
+    },
+    "frame": {
+      "url": "https://mf.b37mrtl.ru/rbthmedia/images/2023.09/original/64f999a861107a3cd31401ab.jpg"
     }
   },
   {
@@ -21858,6 +22536,9 @@
       "minAge": 9,
       "maxAge": 14,
       "rationale": "Начиная с 9 лет ребёнку проще соотнести истории длительностью 103 минут с решениями героев, включая вопрос о том, как они решают, можно ли доверять новому знакомому. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
+    },
+    "frame": {
+      "url": "https://img51994.domkino.tv/img/2020-12-21/fmt_114_24_3.jpg"
     }
   },
   {
@@ -21900,6 +22581,9 @@
       "minAge": 10,
       "maxAge": 15,
       "rationale": "Зрителю примерно с 10 лет обычно доступна истории длительностью 101 минут без потери важных причин и последствий, включая вопрос о том, что помогает им принять взросление без отказа от общего прошлого. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
+    },
+    "frame": {
+      "url": "https://media.kg-portal.ru/images/chastnoepionerskoe2/chastnoepionerskoe2_5.jpg"
     }
   },
   {
@@ -21987,6 +22671,9 @@
       "minAge": 8,
       "maxAge": 13,
       "rationale": "Ориентир 8+ помогает учесть продолжительность, темп и истории длительностью 109 минут, включая вопрос о том, как работа над самолётом меняет его отношение к собственному страху. Совместный просмотр желателен из-за тем: смерть взрослого, школьная травля; взрослому стоит заранее оценить реакцию ребёнка."
+    },
+    "frame": {
+      "url": "https://s1.afisha.ru/mediastorage/df/03/e6c2569b21ef4e0b94be2f0603df.jpg"
     }
   },
   {
@@ -22031,6 +22718,9 @@
       "minAge": 6,
       "maxAge": 11,
       "rationale": "Нижняя граница 6 лет связана с тем, что истории длительностью 104 минут требует устойчивого внимания, включая вопрос о том, как Алина доказывает, что новый дом можно защищать вместе. Совместный просмотр желателен из-за тем: угроза семье; взрослому стоит заранее оценить реакцию ребёнка."
+    },
+    "frame": {
+      "url": "https://img.1tv.com/img/2021-10-11/fmt_96_24_domovoy--8-.jpg"
     }
   },
   {
@@ -22074,6 +22764,9 @@
       "minAge": 6,
       "maxAge": 11,
       "rationale": "С 6 лет легче удерживать истории длительностью 96 минут и мотивы нескольких персонажей, включая вопрос о том, как путешествие помогает семье говорить о страхе и ответственности. Совместный просмотр желателен из-за тем: опасности зимней тайги; взрослому стоит заранее оценить реакцию ребёнка."
+    },
+    "frame": {
+      "url": "https://avatars.dzeninfra.ru/get-zen_doc/5236377/pub_63b471ab823c0107ea27e7d9_63b476e98a0b0e3acd333147/scale_1200"
     }
   },
   {
@@ -22206,6 +22899,9 @@
       "minAge": 13,
       "maxAge": 18,
       "rationale": "С 13 лет легче проследить последствия центрального конфликта; тема «война» заслуживает спокойного разговора после просмотра."
+    },
+    "frame": {
+      "url": "https://www.animeclick.it/immagini/anime/Hotaru_no_Haka/gallery_original/Hotaru_no_Haka-5f45187d0e118.jpg"
     }
   },
   {
@@ -22250,6 +22946,9 @@
       "minAge": 11,
       "maxAge": 17,
       "rationale": "118-минутная история рассчитана на зрителей от 11 лет: им уже доступна её эмоциональная неоднозначность, включая тему «семейные конфликты»."
+    },
+    "frame": {
+      "url": "https://assets.st-note.com/production/uploads/images/16673056/picture_pc_f9953c41eb8ff013af0e12f21584cecc.jpg?fit=bounds&height=2000&quality=85&width=2000"
     }
   },
   {
@@ -22296,6 +22995,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Для возраста 9+ важны не только события, но и мотивы персонажей. Контекст «гибель животных» лучше заранее обозначить ребёнку."
+    },
+    "frame": {
+      "url": "https://pbs.twimg.com/media/D3Y4e1eV4AEZmFW.jpg"
     }
   },
   {
@@ -22619,6 +23321,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Просмотр с 12 лет позволяет обсуждать решения героев без чрезмерного упрощения; взрослому стоит быть рядом из-за темы «опасность в море»."
+    },
+    "frame": {
+      "url": "https://s1.dmcdn.net/v/Us6Uo1epB1UPMkcJK/x720"
     }
   },
   {
@@ -22757,6 +23462,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "С 9 лет легче проследить последствия центрального конфликта; тема «смерть родителя» заслуживает спокойного разговора после просмотра."
+    },
+    "frame": {
+      "url": "https://1.bp.blogspot.com/-R9W13Y2qtdM/YGVwoEGjLxI/AAAAAAAA9UI/NQfxFXF85GIyas7aHIRzPKExgEWK-mM5QCNcBGAsYHQ/s1920/Momo%2Be%2Bno%2BTegami%2B-%2BChica%2By%2Bsu%2Bmadre.jpg"
     }
   },
   {
@@ -22803,6 +23511,9 @@
       "minAge": 10,
       "maxAge": 16,
       "rationale": "118-минутная история рассчитана на зрителей от 10 лет: им уже доступна её эмоциональная неоднозначность, включая тему «болезнь взрослого»."
+    },
+    "frame": {
+      "url": "https://img.kai-you.net/storage/2023/10/97973430-3688-4d66-b4e8-7823b6f7905d/jpg/origin.jpg"
     }
   },
   {
@@ -23219,6 +23930,9 @@
       "minAge": 8,
       "maxAge": 14,
       "rationale": "Для самостоятельного понимания истории желателен возраст от 8 лет, особенно когда повествование касается темы «упоминания войны и утраты»."
+    },
+    "frame": {
+      "url": "https://fr.web.img4.acsta.net/pictures/22/10/10/10/35/5740377.jpg"
     }
   },
   {
@@ -23311,6 +24025,9 @@
       "minAge": 5,
       "maxAge": 11,
       "rationale": "С 5 лет легче проследить последствия центрального конфликта; тема «лёгкая угроза съедения» заслуживает спокойного разговора после просмотра."
+    },
+    "frame": {
+      "url": "https://s1.dmcdn.net/v/Z9T6o1eqwgzLCyPAw/x1080"
     }
   },
   {
@@ -23406,6 +24123,9 @@
       "minAge": 10,
       "maxAge": 16,
       "rationale": "Для возраста 10+ важны не только события, но и мотивы персонажей. Контекст «гибель животного» лучше заранее обозначить ребёнку."
+    },
+    "frame": {
+      "url": "https://cdn.moviepilot.de/files/3d620ae3ebff49eae6ba93af131654480ff49a433d314cae2c3df44b4535/fill/1200/627/MV5BMTYzNmY5NjUtNWQ2MC00ZWQyLThjMGQtZmZmYTg0MjQ4Y2IyXkEyXkFqcGdeQXVyMDc2NTEzMw%40%40._V1_.jpg"
     }
   },
   {
@@ -23546,6 +24266,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Рекомендация 7+ учитывает длительность и сложность выбора персонажей. После фильма стоит вернуться к теме «разлука сестёр»."
+    },
+    "frame": {
+      "url": "https://cdn-s-www.ledauphine.com/images/39026570-71B9-44E5-88A2-FA45FE19ED08/FB1200/photo-1702400576.jpg"
     }
   },
   {
@@ -23686,6 +24409,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "В 7 лет и старше уже проще отделить фантастическое или комическое действие от серьёзного содержания темы «полицейское преследование»."
+    },
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/original/5e1aC9Pv7ACiYzIX1spcCxCNAoO.jpg"
     }
   },
   {
@@ -23964,6 +24690,9 @@
       "minAge": 8,
       "maxAge": 14,
       "rationale": "Для возраста 8+ важны не только события, но и мотивы персонажей. Контекст «похищение родителя» лучше заранее обозначить ребёнку."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BYjQ0NzZhMWMtMzE0MS00NmJlLTkxMzUtMzNmMzgzNGI3MmYzXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg"
     }
   },
   {
@@ -24203,6 +24932,9 @@
       "minAge": 8,
       "maxAge": 14,
       "rationale": "Возрастная граница 8+ связана с тем, как история раскрывает последствия поступков и непростую тему «похищение детей»."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BZTJlNGRlYzEtNGM3OC00MTIyLTljZjgtY2EzZjRiODEwYTFlXkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -24476,6 +25208,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "100-минутная история рассчитана на зрителей от 7 лет: им уже доступна её эмоциональная неоднозначность, включая тему «фантастические бои»."
+    },
+    "frame": {
+      "url": "https://monsta.com/wp-content/uploads/2020/11/BBB_Friends.png"
     }
   },
   {
@@ -24612,6 +25347,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Картина подойдёт с 6 лет благодаря ясной линии героя, однако «угроза катастрофы» может потребовать поддержки взрослого."
+    },
+    "frame": {
+      "url": "https://www.mtvuutiset.fi/_next/image?q=80&url=https%3A%2F%2Fapi.mtvuutiset.fi%2Fgraphql%2Fcaas%2Fv1%2Fmedia%2F1240842%2Fdata%2F9d6e66c8e05ccd231d021c529617ce3a%2Flandscape16_9%2F1024%2F974601.jpg&w=1600"
     }
   },
   {
@@ -24705,6 +25443,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Зрителям младше 6 лет может быть трудно справиться с эмоциональной нагрузкой сюжета, прежде всего с темой «оставление животного»."
+    },
+    "frame": {
+      "url": "https://www.movies4kids.co.uk/wp-content/uploads/sites/15/2014/07/la-et-mn-thunder-house-magic-movie-review-20140905.jpg"
     }
   },
   {
@@ -24847,6 +25588,9 @@
       "minAge": 10,
       "maxAge": 16,
       "rationale": "Просмотр с 10 лет позволяет обсуждать решения героев без чрезмерного упрощения; взрослому стоит быть рядом из-за темы «политические репрессии»."
+    },
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w1280/uxZqWaU2YtlkwhZjF6ErZGu37BL.jpg"
     }
   },
   {
@@ -24942,6 +25686,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Темп и продолжительность доступны примерно с 9 лет; чувствительный элемент «изгнание» лучше не оставлять без обсуждения."
+    },
+    "frame": {
+      "url": "https://img.lemde.fr/2021/02/19/66/0/1275/637/1440/720/60/0/8ba38d2_763850510-050-065-h-laguionie-fema19-hd-page-15-image-0001.jpg"
     }
   },
   {
@@ -24986,6 +25733,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "С 7 лет легче проследить последствия центрального конфликта; тема «бедность» заслуживает спокойного разговора после просмотра."
+    },
+    "frame": {
+      "url": "https://cdn.filmtotaal.nl/images/original/15411-bacheha-ye-aseman.jpg"
     }
   },
   {
@@ -25075,6 +25825,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Для возраста 7+ важны не только события, но и мотивы персонажей. Контекст «угроза школьного наказания» лучше заранее обозначить ребёнку."
+    },
+    "frame": {
+      "url": "https://lichter-filmfest.de/media/tumblr_pvccf7m3mb1qixuo1o1_1280.png"
     }
   },
   {
@@ -25118,6 +25871,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Начиная с 7 лет зритель сможет удержать ритм картины и различить позиции героев; особого внимания требует тема «ребёнок один в городе»."
+    },
+    "frame": {
+      "url": "https://tr.web.img4.acsta.net/pictures/14/04/11/10/57/212578.jpg"
     }
   },
   {
@@ -25163,6 +25919,9 @@
       "minAge": 10,
       "maxAge": 16,
       "rationale": "Картина подойдёт с 10 лет благодаря ясной линии героя, однако «гендерная дискриминация» может потребовать поддержки взрослого."
+    },
+    "frame": {
+      "url": "https://fr.web.img6.acsta.net/r_1280_720/medias/nmedia/18/93/76/88/20373990.jpg"
     }
   },
   {
@@ -25300,6 +26059,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Возрастная граница 9+ связана с тем, как история раскрывает последствия поступков и непростую тему «детский труд»."
+    },
+    "frame": {
+      "url": "https://media.assettype.com/outlookindia/import/public/uploads/articles/2011/5/23/Stanley-Ka-Dabba_20110512.jpg?ar=40%3A21&auto=format%2Ccompress&enlarge=true&mode=crop&ogImage=true&overlay=false&overlay_position=bottom&overlay_width=100&w=1200"
     }
   },
   {
@@ -25748,6 +26510,9 @@
       "minAge": 11,
       "maxAge": 17,
       "rationale": "Рекомендация 11+ учитывает длительность и сложность выбора персонажей. После фильма стоит вернуться к теме «комические травмы»."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BNjgyYzUwMGMtOTZjNy00NzI5LThiOTgtZmRmODg2ZjEzNTM1XkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -25883,6 +26648,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "В 7 лет и старше уже проще отделить фантастическое или комическое действие от серьёзного содержания темы «семья»."
+    },
+    "frame": {
+      "url": "https://fr.web.img3.acsta.net/pictures/14/06/02/14/43/411352.jpg"
     }
   },
   {
@@ -25928,6 +26696,9 @@
       "minAge": 8,
       "maxAge": 14,
       "rationale": "Просмотр с 8 лет позволяет обсуждать решения героев без чрезмерного упрощения; взрослому стоит быть рядом из-за темы «авиакатастрофа»."
+    },
+    "frame": {
+      "url": "https://bullesdeculture.com/bdc-content/uploads/2015/12/BS2_68_0009-2048x1365.jpg"
     }
   },
   {
@@ -26019,6 +26790,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Темп и продолжительность доступны примерно с 7 лет; чувствительный элемент «сиротство» лучше не оставлять без обсуждения."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BYjlmMjAyYjUtYTczMC00YWE5LTk4MWItYWFmNzJjM2RhMWY2XkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -26065,6 +26839,9 @@
       "minAge": 8,
       "maxAge": 14,
       "rationale": "С 8 лет легче проследить последствия центрального конфликта; тема «травля» заслуживает спокойного разговора после просмотра."
+    },
+    "frame": {
+      "url": "https://cdn.moviepilot.de/files/d81d0d16c73d00170369fdc938405b54a7a02d6d37ec3e5d980af7c05a9c/fill/1200/627/rev-1-de_pub_9782_ROCCA_High_Res_JPEG.jpeg"
     }
   },
   {
@@ -26112,6 +26889,9 @@
       "minAge": 10,
       "maxAge": 16,
       "rationale": "97-минутная история рассчитана на зрителей от 10 лет: им уже доступна её эмоциональная неоднозначность, включая тему «приступы астмы»."
+    },
+    "frame": {
+      "url": "https://images.moviebuff.com/b491a7f2-59dc-4a13-8de5-f0287dc2c7f7?w=1000"
     }
   },
   {
@@ -26334,6 +27114,9 @@
       "minAge": 10,
       "maxAge": 16,
       "rationale": "Зрителям младше 10 лет может быть трудно справиться с эмоциональной нагрузкой сюжета, прежде всего с темой «травля»."
+    },
+    "frame": {
+      "url": "https://cineamo-tmdb.b-cdn.net/t/p/original/xEWoUrYzzBOb3cHvbGfRcDmiMRQ.jpg?width=3840"
     }
   },
   {
@@ -26378,6 +27161,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Возрастная граница 9+ связана с тем, как история раскрывает последствия поступков и непростую тему «смерть родителя у подруги»."
+    },
+    "frame": {
+      "url": "https://cdn.moviepilot.de/files/1ebf7160e82805c94eb5dd7ef1ec970909291daf9c6e726a5e2113aa3be7/fill/1200/627/Eskil_och_trinidad_06.jpg"
     }
   },
   {
@@ -26423,6 +27209,9 @@
       "minAge": 8,
       "maxAge": 14,
       "rationale": "В 8 лет и старше уже проще отделить фантастическое или комическое действие от серьёзного содержания темы «угроза детям»."
+    },
+    "frame": {
+      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/176/272/1547711413-a95c18c497773a53fbb626097ecd0af47bba7cee.jpg?height=900&width=1600"
     }
   },
   {
@@ -26515,6 +27304,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Для самостоятельного понимания истории желателен возраст от 12 лет, особенно когда повествование касается темы «военное насилие в воспоминаниях»."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BYjE0MTg0ZjItNTFiYy00NDAzLWE3ZTEtMjNkN2RmZjk3MzVjXkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -26790,6 +27582,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Для «Облачно, возможны осадки в виде фрикаделек» порог 6+ учитывает продолжительность, темп и напряжение отдельных сцен. Стоит заранее предупредить о таких эпизодах, как опасные изобретения."
+    },
+    "frame": {
+      "url": "https://www.awn.com/sites/default/files/styles/original/public/image/featured/1027711-sony-joins-blue-sky-settlement-hollywood-studio-antitrust-lawsuit.jpg?itok=lseaynMC"
     }
   },
   {
@@ -26834,6 +27629,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "В «Облачно 2: Месть ГМО» зрителям от 6 лет уже проще удерживать причинно-следственные связи и считывать иронию. Совместный просмотр полезен из-за тем: погони и фантастические хищники."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMTM4MjA2MjAxOF5BMl5BanBnXkFtZTcwMTcwNjk4OQ%40%40._V1_.jpg"
     }
   },
   {
@@ -26878,6 +27676,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендация 6+ для «Монстры на каникулах» связана с темпом, длительностью и сложностью центрального конфликта. Чувствительные элементы — комические монстры — требуют готовности ребёнка."
+    },
+    "frame": {
+      "url": "https://images.justwatch.com/backdrop/8828104/s1440/hotel-transylvania"
     }
   },
   {
@@ -26966,6 +27767,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Для «Монстры на каникулах 3: Море зовёт» порог 6+ учитывает продолжительность, темп и напряжение отдельных сцен. Стоит заранее предупредить о таких эпизодах, как комические угрозы."
+    },
+    "frame": {
+      "url": "https://www.imageworks.com/sites/default/files/2018-06/spi_ht3_sv_marketing_012_0.jpg"
     }
   },
   {
@@ -27010,6 +27814,9 @@
       "minAge": 8,
       "maxAge": 14,
       "rationale": "В «Камуфляж и шпионаж» зрителям от 8 лет уже проще удерживать причинно-следственные связи и считывать иронию. Совместный просмотр полезен из-за тем: шпионские драки."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BYTQyMDMwNjYtMmYwMS00NzIwLWEwNTQtNWI3NzFkY2IxYmFkXkEyXkFqcGdeQVRoaXJkUGFydHlJbmdlc3Rpb25Xb3JrZmxvdw%40%40._V1_.jpg"
     }
   },
   {
@@ -27187,6 +27994,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "В «Лови волну!» зрителям от 6 лет уже проще удерживать причинно-следственные связи и считывать иронию. Совместный просмотр полезен из-за тем: соревнование и риск."
+    },
+    "frame": {
+      "url": "https://thecriticalcritics.com/review/wp-content/images/surfs-up-still-1.jpg"
     }
   },
   {
@@ -27371,6 +28181,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "В «Принц-дракон» зрителям от 9 лет уже проще удерживать причинно-следственные связи и считывать иронию. Совместный просмотр полезен из-за тем: война и гибель персонажей."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BZmIwMGFlZWEtZTQxMi00ZDc4LWJlNTctYTA2ZTQ0NWEwZjVmXkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -27650,6 +28463,9 @@
       "minAge": 8,
       "maxAge": 14,
       "rationale": "Аудитория «Классный мюзикл» от 8 лет легче поймёт мотивы персонажей и выдержит наиболее динамичные сцены. Взрослому важно учитывать упоминания: давление сверстников."
+    },
+    "frame": {
+      "url": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/03/02/08/High-School-Musical.jpg"
     }
   },
   {
@@ -27738,6 +28554,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "В «Классный мюзикл: Выпускной» зрителям от 9 лет уже проще удерживать причинно-следственные связи и считывать иронию. Совместный просмотр полезен из-за тем: тревога перед расставанием."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BNTExNDZmNzItMTkzMi00MTNiLTlmZDctMWMwZjM4MDU1ZDEzXkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -27782,6 +28601,9 @@
       "minAge": 8,
       "maxAge": 14,
       "rationale": "Рекомендация 8+ для «Рок в летнем лагере» связана с темпом, длительностью и сложностью центрального конфликта. Чувствительные элементы — ложь ради признания — требуют готовности ребёнка."
+    },
+    "frame": {
+      "url": "https://imgix.bustle.com/uploads/image/2020/7/12/5ca484d7-0eb4-4b1f-9300-314c20d05610-screenshot-69.png?crop=focalpoint&fit=crop&fm=jpg&fp-x=0.6013333333333334&fp-y=0.3287671232876712&h=675&w=1200"
     }
   },
   {
@@ -27826,6 +28648,9 @@
       "minAge": 8,
       "maxAge": 14,
       "rationale": "Аудитория «Рок в летнем лагере 2: Отчётный концерт» от 8 лет легче поймёт мотивы персонажей и выдержит наиболее динамичные сцены. Взрослому важно учитывать упоминания: конкуренция между подростками."
+    },
+    "frame": {
+      "url": "https://fr.web.img2.acsta.net/medias/nmedia/18/72/99/41/19468645.jpg"
     }
   },
   {
@@ -27870,6 +28695,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Для «Лимонадный рот» порог 9+ учитывает продолжительность, темп и напряжение отдельных сцен. Стоит заранее предупредить о таких эпизодах, как школьное давление."
+    },
+    "frame": {
+      "url": "https://www.mundiario.com/media/cineseries/images/2026/01/19/2026011917023242367.jpg"
     }
   },
   {
@@ -27958,6 +28786,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендация 9+ для «Наследники 2» связана с темпом, длительностью и сложностью центрального конфликта. Чувствительные элементы — похищение и угрозы — требуют готовности ребёнка."
+    },
+    "frame": {
+      "url": "https://es.web.img2.acsta.net/pictures/17/08/18/17/59/012617.jpg"
     }
   },
   {
@@ -28002,6 +28833,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Аудитория «Наследники 3» от 9 лет легче поймёт мотивы персонажей и выдержит наиболее динамичные сцены. Взрослому важно учитывать упоминания: магические угрозы."
+    },
+    "frame": {
+      "url": "https://px1img.getnews.jp/img/archives/2019/12/Descendants2.jpg"
     }
   },
   {
@@ -28090,6 +28924,9 @@
       "minAge": 8,
       "maxAge": 14,
       "rationale": "В «Z-O-M-B-I-E-S 2» зрителям от 8 лет уже проще удерживать причинно-следственные связи и считывать иронию. Совместный просмотр полезен из-за тем: конфликт сообществ."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMWZlMmE1ZDEtMTE3Ni00ZTcyLThmNzYtOGY4NjA4MGE3MDZhXkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -28134,6 +28971,9 @@
       "minAge": 8,
       "maxAge": 14,
       "rationale": "Рекомендация 8+ для «Z-O-M-B-I-E-S 3» связана с темпом, длительностью и сложностью центрального конфликта. Чувствительные элементы — фантастическая угроза — требуют готовности ребёнка."
+    },
+    "frame": {
+      "url": "https://files.fairu.app/976160f7-eacb-464f-a876-87506bc9636d/zombies-3-das-musical-backdrop-678c5f4fbfa13.jpg?quality=90&width=2560"
     }
   },
   {
@@ -28178,6 +29018,9 @@
       "minAge": 10,
       "maxAge": 16,
       "rationale": "Аудитория «Величайший шоумен» от 10 лет легче поймёт мотивы персонажей и выдержит наиболее динамичные сцены. Взрослому важно учитывать упоминания: дискриминация и пожар."
+    },
+    "frame": {
+      "url": "https://www.westword.com/wp-content/uploads/sites/2/ww-media/mediaserver/den/2017-50/the-greatest-showman-zac_effron_and_zendaya_credit_niko_tave.webp"
     }
   },
   {
@@ -28267,6 +29110,9 @@
       "minAge": 10,
       "maxAge": 16,
       "rationale": "В «Суперзвезда» зрителям от 10 лет уже проще удерживать причинно-следственные связи и считывать иронию. Совместный просмотр полезен из-за тем: гибель брата."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BZjZmMmY5NDAtZmVmNy00MDIxLTliYjEtYjgwODhhMzIyNDdhXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg"
     }
   },
   {
@@ -28399,6 +29245,9 @@
       "minAge": 8,
       "maxAge": 14,
       "rationale": "Для «Как Майк» порог 8+ учитывает продолжительность, темп и напряжение отдельных сцен. Стоит заранее предупредить о таких эпизодах, как сиротство и недобросовестный опекун."
+    },
+    "frame": {
+      "url": "https://media.gq.com/photos/62c76c395f12623f8e1d2e24/master/pass/MCDLIMI_FE012.jpeg"
     }
   },
   {
@@ -28620,6 +29469,9 @@
       "minAge": 8,
       "maxAge": 14,
       "rationale": "В «Большой толстый лжец» зрителям от 8 лет уже проще удерживать причинно-следственные связи и считывать иронию. Совместный просмотр полезен из-за тем: детская месть и обман."
+    },
+    "frame": {
+      "url": "https://www.planocritico.com/wp-content/uploads/2023/04/critica_big_fat_liar.jpg"
     }
   },
   {
@@ -28665,6 +29517,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендация 9+ для «Аквамарин» связана с темпом, длительностью и сложностью центрального конфликта. Чувствительные элементы — подростковая ревность — требуют готовности ребёнка."
+    },
+    "frame": {
+      "url": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/344/2023/07/23063156/aquamarine.jpg"
     }
   },
   {
@@ -28709,6 +29564,9 @@
       "minAge": 10,
       "maxAge": 16,
       "rationale": "Аудитория «Ночная тусовка» от 10 лет легче поймёт мотивы персонажей и выдержит наиболее динамичные сцены. Взрослому важно учитывать упоминания: подростковые рискованные поступки."
+    },
+    "frame": {
+      "url": "https://4.bp.blogspot.com/-zblBzFG0vCE/Vu8QHeNCgcI/AAAAAAAAA6Q/Jl7Q0SU-uv0v8NZIvqSAuqQG04DB_Unwg/s1600/Screen%2BShot%2B2016-03-20%2Bat%2B2.39.48%2BPM%2Bcopy.png"
     }
   },
   {
@@ -28753,6 +29611,9 @@
       "minAge": 8,
       "maxAge": 14,
       "rationale": "Для «Программа защиты принцесс» порог 8+ учитывает продолжительность, темп и напряжение отдельных сцен. Стоит заранее предупредить о таких эпизодах, как военный переворот вне кадра."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BOTdjNGNiMzEtOGU0Ny00YzNlLTk3YWEtNWE3YzUwMjY1YzhkXkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -28796,6 +29657,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "В «Средняя школа: Худшие годы моей жизни» зрителям от 9 лет уже проще удерживать причинно-следственные связи и считывать иронию. Совместный просмотр полезен из-за тем: смерть брата в прошлом."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMjI3MDQxODktNmZlZi00ZDViLThlNDEtMTY0NWYxMDhkMTY2XkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -28887,6 +29751,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Аудитория «Клиффорд — большой красный пёс» от 6 лет легче поймёт мотивы персонажей и выдержит наиболее динамичные сцены. Взрослому важно учитывать упоминания: погоня за животным."
+    },
+    "frame": {
+      "url": "https://f.ekinas.lt/3417/u_clifford_the_big_red_dog_06.jpg"
     }
   },
   {
@@ -29019,6 +29886,9 @@
       "minAge": 8,
       "maxAge": 14,
       "rationale": "Рекомендация 8+ для «Семейный обмен» связана с темпом, длительностью и сложностью центрального конфликта. Чувствительные элементы — семейные конфликты — требуют готовности ребёнка."
+    },
+    "frame": {
+      "url": "https://cloudfront-eu-central-1.images.arcpublishing.com/leparisien/ZQFUFMZ7O5FLRICLTRYPXSMQ7Y.jpg"
     }
   },
   {
@@ -29063,6 +29933,9 @@
       "minAge": 8,
       "maxAge": 14,
       "rationale": "Аудитория «Страна снов» от 8 лет легче поймёт мотивы персонажей и выдержит наиболее динамичные сцены. Взрослому важно учитывать упоминания: смерть родителя и пугающие сны."
+    },
+    "frame": {
+      "url": "https://www.salon.com/app/uploads/2022/11/slumberland_still_01_kyle_chandler_marlow_barkley.jpg"
     }
   },
   {
@@ -29196,6 +30069,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Рекомендация 7+ для «Сезон охоты 2» связана с темпом, длительностью и сложностью центрального конфликта. Чувствительные элементы — умеренные жанровые опасности — требуют готовности ребёнка."
+    },
+    "frame": {
+      "url": "https://cineamo-tmdb.b-cdn.net/t/p/original/aM9cOyimlKYPT64DUrOmLlZVCy.jpg?width=2048"
     }
   },
   {
@@ -29240,6 +30116,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Аудитория «Сезон охоты 3» от 7 лет легче поймёт мотивы персонажей и выдержит наиболее динамичные сцены. Взрослому важно учитывать упоминания: умеренные жанровые опасности."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BYTg1ZDRjMjQtYTBiZi00ZTJhLThlMzctY2JmYTQyZWFhYzk0XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg"
     }
   },
   {
@@ -29284,6 +30163,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Для «Сезон охоты: Байки из леса» порог 7+ учитывает продолжительность, темп и напряжение отдельных сцен. Стоит заранее предупредить о таких эпизодах, как умеренные жанровые опасности."
+    },
+    "frame": {
+      "url": "https://media.outnow.ch/Movies/Bilder/2015/OpenSeason-ScaredSilly/002.jpg"
     }
   },
   {
@@ -29328,6 +30210,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "В «Мадагаскар 2» зрителям от 7 лет уже проще удерживать причинно-следственные связи и считывать иронию. Совместный просмотр полезен из-за тем: умеренные жанровые опасности."
+    },
+    "frame": {
+      "url": "https://pics.imcdb.org/0is222/jeepthumb2.4589.jpg"
     }
   },
   {
@@ -29460,6 +30345,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Для «Тролли 3» порог 7+ учитывает продолжительность, темп и напряжение отдельных сцен. Стоит заранее предупредить о таких эпизодах, как умеренные жанровые опасности."
+    },
+    "frame": {
+      "url": "https://m.economictimes.com/thumb/msid-105319373%2Cwidth-1600%2Cheight-900%2Cresizemode-4%2Cimgsize-137936/trolls-band-together-heres-all-about-upcoming-animated-musicals-online-release.jpg"
     }
   },
   {
@@ -29592,6 +30480,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Аудитория «Руби Гильман: Приключения кракена-подростка» от 7 лет легче поймёт мотивы персонажей и выдержит наиболее динамичные сцены. Взрослому важно учитывать упоминания: умеренные жанровые опасности."
+    },
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/original/b0JVghSu6hOhQ8ST8NqemWsuTUd.jpg"
     }
   },
   {
@@ -29680,6 +30571,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "В «Вэлиант: Пернатый спецназ» зрителям от 7 лет уже проще удерживать причинно-следственные связи и считывать иронию. Совместный просмотр полезен из-за тем: умеренные жанровые опасности."
+    },
+    "frame": {
+      "url": "https://image.mel.fm/i/G/G5tRURT1A0/1180.jpg"
     }
   },
   {
@@ -29724,6 +30618,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Рекомендация 7+ для «Игорь» связана с темпом, длительностью и сложностью центрального конфликта. Чувствительные элементы — умеренные жанровые опасности — требуют готовности ребёнка."
+    },
+    "frame": {
+      "url": "https://www.kino-teatr.ru/video/15565/start.jpg"
     }
   },
   {
@@ -29768,6 +30665,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Аудитория «Планета 51» от 7 лет легче поймёт мотивы персонажей и выдержит наиболее динамичные сцены. Взрослому важно учитывать упоминания: умеренные жанровые опасности."
+    },
+    "frame": {
+      "url": "https://static.wixstatic.com/media/7cf667_f7403ef36bca43d88260f004d36de70d~mv2.jpg/v1/fill/w_1000%2Ch_417%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01/7cf667_f7403ef36bca43d88260f004d36de70d~mv2.jpg"
     }
   },
   {
@@ -29812,6 +30712,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Для «Побег с планеты Земля» порог 7+ учитывает продолжительность, темп и напряжение отдельных сцен. Стоит заранее предупредить о таких эпизодах, как умеренные жанровые опасности."
+    },
+    "frame": {
+      "url": "https://s3.afisha.ru/mediastorage/5b/da/09bff5194f634b49a27ac145da5b.jpg"
     }
   },
   {
@@ -29988,6 +30891,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Для «Рок Дог 3: Битва за бит» порог 7+ учитывает продолжительность, темп и напряжение отдельных сцен. Стоит заранее предупредить о таких эпизодах, как умеренные жанровые опасности."
+    },
+    "frame": {
+      "url": "https://canvas-lb.tubitv.com/opts/EhLHvb7OEGlWDA%3D%3D/22aea5af-0de0-4a34-9b34-7d9ef29676fb/CIAPELgIOgUxLjEuNg%3D%3D"
     }
   },
   {
@@ -30076,6 +30982,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Рекомендация 7+ для «Реальная белка 2» связана с темпом, длительностью и сложностью центрального конфликта. Чувствительные элементы — умеренные жанровые опасности — требуют готовности ребёнка."
+    },
+    "frame": {
+      "url": "https://kobis.or.kr/common/mast/movie/2017/09/9c4983f7fb9544b4b505241f0a486ad0.jpg"
     }
   },
   {
@@ -30217,6 +31126,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "С семи лет зрителям проще удерживать причинно-следственные связи и считывать иронию. Совместный просмотр полезен из-за умеренных жанровых опасностей."
+    },
+    "frame": {
+      "url": "https://img.rtve.es/imagenes/playmobil-pelicula/01747426276733.jpg"
     }
   },
   {
@@ -30261,6 +31173,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Рекомендация 7+ для «Удача» связана с темпом, длительностью и сложностью центрального конфликта. Чувствительные элементы — умеренные жанровые опасности — требуют готовности ребёнка."
+    },
+    "frame": {
+      "url": "https://kutv.com/resources/media/83710068-8d75-4016-b2d1-4742867367f8-Luck_Photo_0103.jpg"
     }
   },
   {
@@ -30393,6 +31308,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "В «Восход Ультрамена» зрителям от 7 лет уже проще удерживать причинно-следственные связи и считывать иронию. Совместный просмотр полезен из-за тем: умеренные жанровые опасности."
+    },
+    "frame": {
+      "url": "https://www.cinemaclock.com/images/580x326/36/ultraman-rising-20247536.jpg"
     }
   },
   {
@@ -30437,6 +31355,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Рекомендация 7+ для «Слон волшебника» связана с темпом, длительностью и сложностью центрального конфликта. Чувствительные элементы — умеренные жанровые опасности — требуют готовности ребёнка."
+    },
+    "frame": {
+      "url": "https://static.filmvandaag.nl/news/14061/na-magicians-elephant-kijk-je-op-netflix-naar-deze-magische-animatiefilm.jpg?aspect_ratio=1%3A0.525&ts=1679481564&width=1200"
     }
   },
   {
@@ -30613,6 +31534,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Рекомендация 7+ для «Губка Боб в 3D» связана с темпом, длительностью и сложностью центрального конфликта. Чувствительные элементы — умеренные жанровые опасности — требуют готовности ребёнка."
+    },
+    "frame": {
+      "url": "https://s2.dmcdn.net/v/7TW6v1eotDlc5SYhI/x720"
     }
   },
   {
@@ -30745,6 +31669,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "С семи лет зрителям проще удерживать причинно-следственные связи и считывать иронию. Совместный просмотр полезен из-за умеренных жанровых опасностей."
+    },
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/original/i4EKhnsACnJu53Qts66sxN4lEBJ.jpg"
     }
   },
   {
@@ -30877,6 +31804,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Для «Эволюция Черепашек-ниндзя: Фильм» порог 7+ учитывает продолжительность, темп и напряжение отдельных сцен. Стоит заранее предупредить о таких эпизодах, как умеренные жанровые опасности."
+    },
+    "frame": {
+      "url": "https://s1.dmcdn.net/v/UJ3VK1ZKSB3kDimZq/x1080"
     }
   },
   {
@@ -30965,6 +31895,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендация 9+ для «Дети шпионов 4D» связана с темпом, длительностью и сложностью центрального конфликта. Чувствительные элементы — умеренные жанровые опасности — требуют готовности ребёнка."
+    },
+    "frame": {
+      "url": "https://occ-0-8407-2219.1.nflxso.net/dnm/api/v6/MgXQGyNr1xbI8tJSYiMWv5kXg5g/AAAABSozgEoSFheR_yXcSeLGh8qWfjhnBjlAJMK09YcJvYQjp7CleWXCMJa-H7wZqHJEdIz7RzUZpg042CloHfCibnddNNBzLCnl39vJNorYpowKTMf-UCU81La7Bg.jpg?r=50d"
     }
   },
   {
@@ -31009,6 +31942,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Аудитория «Зум: Академия супергероев» от 9 лет легче поймёт мотивы персонажей и выдержит наиболее динамичные сцены. Взрослому важно учитывать упоминания: умеренные жанровые опасности."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BOTdjMDYyNmMtZGFkMy00OWI2LTg1YzUtNjhjZTFkZjA1OGRhXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg"
     }
   },
   {
@@ -31141,6 +32077,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендация 9+ для «Неделя вдали» связана с темпом, длительностью и сложностью центрального конфликта. Чувствительные элементы — умеренные жанровые опасности — требуют готовности ребёнка."
+    },
+    "frame": {
+      "url": "https://pic.rutubelist.ru/video/97/94/9794e867af38ae385f410b3335263563.jpg"
     }
   },
   {
@@ -31344,6 +32283,9 @@
       "minAge": 5,
       "maxAge": 12,
       "rationale": "Фильм почти не требует чтения и понятен старшим дошкольникам, но отдельные сцены охоты и гибели насекомых могут расстроить чувствительных детей. Неспешный ритм лучше воспринимается при совместном просмотре."
+    },
+    "frame": {
+      "url": "https://deneb.philharmoniedeparis.fr/uploads/images/cache/event_large/rc/UWvkVq0m/uploads/images/Microcosmos-by-Claude-Nuridsany-et-Marie-Perennou-4.jpg"
     },
     "awards": [
       {
@@ -31803,7 +32745,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/93c31f75-cb8b-5f7e-9712-c99e5f06c7f3/AQACZ8H5Pk4xrMsHfKd8apwqmHEaWaBXzIhq6gkUd6g6Ez8Q1Sl6VaPrc0B08CcGJ-CIAZYtvvvjCELTbG4I6mmTesM.jpg",
+      "url": "https://resizer.mail.ru/p/cc5421c9-32a1-55e3-a579-31f79fc58a57/AQACDhAtLqXm2x_Mj2CML5xSpTfAYmGDZWjgJ1a9iaXFEeqs3YDJH-sO95rlQ5HSXVyKWNDbAkbEOO6wJLmqfebyHX8.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -32198,7 +33140,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/4b708e36-810a-5395-87eb-422fc7fec700/AQAC84ryOsj7cvGM8mjoD_8Mk-ij0sVizZid0Y-ljIrjr6tegJCOJwXrYZW7wGYhudCFKfQHht8dj8KRrN6tKAMQPZs.jpg",
+      "url": "https://img.gazeta.ru/files3/887/18389887/orig-1-pic4_zoom-1500x1500-33236.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -32684,7 +33626,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/ba8cd0be-aaa8-5a8b-88de-4a1e7f6a7980/AQAC7CriwCXO3oL-Z6oKU4wB2V2vzi33vt4RPFP3xzQEuWlY9jiwBCWITiiLfhp9nky9uiQPQ2hAHPCfILftZkOWs2Q.jpg",
+      "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/c7f04839-04a0-4ec6-bbaf-d86a169567fe/1920x",
       "studios": [
         "Кино Mail"
       ]
@@ -33077,7 +34019,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/ca5cf227-ee5f-5a9b-a41b-23e6c0d20e7a/AQACLvu7mMQ8YZa5_hoD-3k250gmT3UsDKD-3fk7C1r943-rDIG5l2_H4BH-aV_uONyrPFlHlAUPLW4YPy69_-m6Leg.jpg",
+      "url": "https://s3.afisha.ru/mediastorage/a2/04/6f28f60c46a74dff8e1b096704a2.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -35958,7 +36900,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/ab7a3934-5c6f-504e-9baf-8df48a1e2766/AQACX3CqnjjS9wPThFNQULtqRbFnDEbuKOMlY-tKUGLVMeAZFAPOKJGWmWUyUrzdFcqKAIKZUeSUcyzr5VG5cpoZdIk.jpg",
+      "url": "https://s5.afisha.ru/upload/1045005/CSMDZwQrB8A6six5r1yGk0x8xpnmZ3Agcy3-Cad98qI.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -36686,7 +37628,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/c182931d-05b3-5d5f-8c8b-32efa21f5c3c/AQACnW0kkXvbe0vrO8JmFzhaGjDQwPLqjG5J0GCH8DD-PihjqAxZSoyfNNQblCiAILZbtAq8KsDtUVIaQbFnS85XG04.jpg",
+      "url": "https://m.media-amazon.com/images/M/MV5BOTNkZWRlYmItMjAwZi00NmE0LThhN2MtOGQxNTEwODkyNThiXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -37312,7 +38254,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/984857ce-4d68-5a2c-a3e9-5d55b6403151/AQACW-DHTe-tcJIPiiIbjma5i6BxoXTazHNxvY_fSJHdX9zDukq3keb4VIvm1NJxKyIDTcYLIb_D1thtWWToSTpAhAE.jpg",
+      "url": "https://m.media-amazon.com/images/M/MV5BNGUzNTNjZGItMzA5Ny00YWI3LTkxZWYtZTlkOWE4ZDljNDAxXkEyXkFqcGc%40._V1_.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -40602,7 +41544,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/52d22864-9df3-5ab6-8b94-478d87f1fdf9/AQACLu5Vz7LhCIE3m9B5L8653vItrgkhlQvkcH8AmPrzx-ZV5IdrIsQMyHAOOUnsx9UEBm6RFv9ziLV49ag-NlUiorU.jpg",
+      "url": "https://cdn.tv-programme.com/photos/il-etait-une-fois-l-homme-106-1068674-1200.webp",
       "studios": [
         "Кино Mail"
       ]
@@ -40800,7 +41742,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/d59f17bc-3544-56ce-8106-cb2ec96432c6/AQAC-aJD7B54BIvLzS-yn8I3-yqsT1JbS2vrfJQMG9SWwcIy6MZQQ-J1WLJDm8rgZ4uexgZgqC4UHThSvCc4jNBZO58.jpg",
+      "url": "https://tikino.fr/cdn/shop/files/il-etait-une-fois-la-vie-la-vaccination-tikino-464525.png?v=1746117408",
       "studios": [
         "Кино Mail"
       ]
@@ -42664,7 +43606,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/beb357b5-5f88-51c0-be12-97819eb7e8d2/AQACQnrGmTCDYtyc_wY72Hp2u9CQr13NvaRuYkofJuI2FXPXkOUlR08LhIa9bn2YEHET90lKI36nhrLZEkjC0T73LZc.jpg",
+      "url": "https://s3.kinoteatr.ru/upload/movies/4873/screenshots/42906.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -44915,7 +45857,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/bb6945fb-0acc-5d00-a61b-31cd4cf56fa9/AQAC2F6Qy_azxXfmZMS4g7dvIgC99CEro3zH2CKob6qL82pWQnWQwqymy0jmPUqx6HVVx8FPBufTIiwURyKzWRNsLIM.jpg",
+      "url": "https://irecommend.ru/sites/default/files/imagecache/copyright1/user-images/237373/TiN4TwpWWyFZukBW1mg.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -46178,7 +47120,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/e834a080-6995-5953-badc-d05ae2bca37a/AQACRJ_rW39IH9OMcjU4JdouciasjZNagIzAgL8cbLA3NlGVeIHG_6Bb268BkEQ6kBqkkNEPnir2exJbaZ5xJKbn5JQ.jpg",
+      "url": "https://img-s.domkino.tv/2020-11-30/fmt_114_24_4.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -46425,7 +47367,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/1814f7e9-33dc-59a8-be79-f7599fddb3ee/AQACASANpZQ0gv8hR4-XuVyhN8h5dBDWMiJbJuFMr_NPQgjseBPaIYZuKC6LPQBcFjiRnGgmwqNj1m8cghVI_eT13Ko.jpg",
+      "url": "https://s1.dmcdn.net/v/P9EDo1Vo0eEsj4Rs9/x1080",
       "studios": [
         "Кино Mail"
       ]
@@ -46525,7 +47467,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/c0f9c239-c04b-5b36-b5c7-fed6fab439e2/AQACDFCGpwTGM_GCGHEcChofOBAN9QG6tZ2dPtcAn8vYvDagpyFiOLnTFEQ1o4HrqoVP1K_t6Puh7IDjWtN_Z_4Igdk.jpg",
+      "url": "https://lumiere-a.akamaihd.net/v1/images/image_6362c753.jpeg?region=0%2C0%2C1920%2C1080",
       "studios": [
         "Кино Mail"
       ]
@@ -49927,7 +50869,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/f532e644-4d7d-545b-9145-d006384e3a0b/AQACDGNEud4In1SjqYk0A5WQf64Qzm8BvRje55CNaFwa86IJtvvn2Ix1UdYxO_erL_C9ACHP87zTO8o9hlOrlNSiS8w.jpg",
+      "url": "https://st1.uvnimg.com/81/c6/8764ff754249ae182b28ee0906bd/matilda-pelicula-musical-netflix-papa-1.png",
       "studios": [
         "Кино Mail"
       ]
@@ -57291,7 +58233,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/aa31cdbd-3dd5-5dcb-b453-c3a2f89ab512/AQACloySpGJQKofFoZhIq1pOmioayECAeqMWxkjOgRhh_l6Qez-GHuBuG0At2kSL6P4srjYyQLnort-QOJqekysNkY0.jpg",
+      "url": "https://cdn.filmtotaal.nl/images/original/zaciv3ibzczy_hero.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -58346,7 +59288,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/c6c0f153-c5a8-5d6c-a2a6-b93ae2c2d809/AQAC2AVhtZ5_tpFvEv3YVpTC2-1VXBlbfmoIA9wdOdns7DB42BpG0m_eQ4YauNIXGDEfH3eSFh9aW51AxKFv16dq5hU.jpg",
+      "url": "https://www.raiplay.it/cropgd/1200x600/dl/img/2016/09/1472724856239Immagine.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -58933,7 +59875,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/8019557e-dca0-54b2-b1f3-1fd41404479a/AQACtZryuqIaPYN5oYfPeG-dnkWNr8fEmAQv0PhV_TkfWDDuvE3jRXw9ibYysFIIzRLHtrVhYnWK8mdJLTyC_hxD4Y8.jpg",
+      "url": "https://images.iptv.rt.ru/images/c6u4phrir4sslltsn2ig.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -58982,7 +59924,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/7cf0abca-847f-5f10-81a7-b8eb3a0437df/AQACQtugVOiuJPfo5lvOp5AD-K5neSlnmX6Hr2rIGy8-EIlSdvHwvBm8ChoMaNPN0lyRAMIYt_71c-mh17RgoZDFyEY.jpg",
+      "url": "https://m.media-amazon.com/images/M/MV5BZDM5ZTIyM2UtZmExZi00Mjk2LWJkMmMtOTBhNTZiNjlmODQ3XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -64810,7 +65752,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/8a9296e8-7fe1-5b11-acf9-b5e52e16e7dd/AQACmeHYwF0EuvQkO9h02zzrq01pf6iOwC0C_DyDtBOtbIRHGx31doMsOQ7eBv7F1kWl4Z6RnOQOQK26LbttEZlwT34.jpg",
+      "url": "https://s5.afisha.ru/mediastorage/35/18/25ed26894f3e43c8ad9655d81835.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -71028,7 +71970,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/3af8acc4-a5a7-5d5b-98a5-27dfa88b605a/AQACJE66praF8ogCl9ptvIuKdnxHvuFTksZgK2Ougfyft6kOmgVwiAG3RGI9vS_ax7Dr5mizCOivSoghrWx6cUueQFA.jpg",
+      "url": "https://m.media-amazon.com/images/M/MV5BMjJkMDYwYzEtNjIwYy00ZTkzLTgzYWYtNWYzNTM0NDQ2M2Q1XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -74593,6 +75535,9 @@
       "maxAge": 16,
       "rationale": "Часовые серии требуют устойчивого внимания и содержат реальные сцены охоты и гибели животных. С восьми лет дети уже могут связывать наблюдения с устройством экосистем, особенно если взрослый помогает разбирать сложные причинно-следственные связи."
     },
+    "frame": {
+      "url": "https://www.kinonews.ru/insimgs/2023/shotimg/shotimg117620_7.webp"
+    },
     "awards": [
       {
         "title": "Премия «Эмми» за лучший документальный сериал"
@@ -74747,6 +75692,9 @@
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 152 минут, жанры «комедия», «драма», «спортивный» и темы «взросление», «спорт» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://wp.scoopwhoop.com/wp-content/uploads/2023/08/srk.jpg?w=1024"
+    },
     "awards": [
       {
         "title": "Национальная кинопремия за лучший развлекательный фильм"
@@ -74850,6 +75798,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 95 минут, жанры «семейный, комедия, драма» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://escotilha.com.br/wp-content/uploads/2020/02/xuxa-duda_lua_cristal-1024x709.jpg"
     }
   },
   {
@@ -74892,6 +75843,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 90 минут, жанры «семейный, комедия» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://www.tvpop.com.br/wp-content/uploads/2021/06/O-novico-rebelde.jpg"
     }
   },
   {
@@ -75190,6 +76144,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 84 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://ilarge.lisimg.com/image/1742573/740full-xuxa-e-o-tesouro-da-cidade-perdida-screenshot.jpg"
     }
   },
   {
@@ -75414,6 +76371,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 97 минут, жанры «комедия», «драма», «фантастика» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://www.virtual-history.com/movie/photo/pr29/large/existenz.jpg"
     },
     "studios": [
       "Canadian Television Fund",
@@ -75888,6 +76848,9 @@
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 114 минут, жанры «комедия», «драма» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://www.kinomuza.pl/content/uploads/2022/12/Duchy-Inisherin-1.jpg"
+    },
     "awards": [
       {
         "title": "премия «Золотой глобус» за лучший фильм — комедия или мюзикл"
@@ -76133,6 +77096,9 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 81 минут, жанры «семейный, комедия, приключения» и темы «семья», «музыка» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://occ-0-8407-90.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbnO4DSLxzRyQIDtVDTg8hOJwnSDGMSnwvvYN6NIgTYlWAlCOu595ltb5CeixntZObM9BiECsJYnkrCgKq5PA7-dQjXX14EjZhX7.jpg?r=c67"
+    },
     "studios": [
       "Artisan Entertainment",
       "Film Roman",
@@ -76241,6 +77207,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 79 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BOWQ0YjZmMGUtNTFhMi00YzAzLWEzM2EtNjk3M2VhMmJhN2EzXkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -76282,6 +77251,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 95 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://www.defa-stiftung.de/fileadmin/DEFA_Stiftung/DEFA-Filme/Spielfilme/Mohr-und-die-Raben-von-London/MOHR_4_Copyright_DEFA_Stiftung_Hertelt_Wenzel_Zaehler.jpg"
     }
   },
   {
@@ -76325,6 +77297,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 98 минут, жанры «семейный, фэнтези, мюзикл» и темы «музыка», «волшебство» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://www.nziff.co.nz/assets/sm/upload/x6/mx/9c/6k/tom%20thumb.jpg?k=e8d3dd1a1e"
     },
     "awards": [
       {
@@ -76378,6 +77353,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 108 минут, жанры «семейный», «комедия», «драма» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://micro-scope.ca/wp-content/uploads/2016/05/4.-CPM-f2.jpg"
     },
     "awards": [
       {
@@ -76434,6 +77412,9 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 93 минут, жанры «семейный, комедия, приключения» и темы «семья», «путешествия» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://www.themoviebuff.net/wp-content/uploads/2017/02/Amy_original-1.jpg"
+    },
     "studios": [
       "Village Roadshow Pictures"
     ]
@@ -76478,6 +77459,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 90 минут, жанры «фэнтези, мюзикл» и темы «музыка», «волшебство» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://ilarge.lisimg.com/image/16288729/1118full-yellow-submarine-screenshot.jpg"
     },
     "awards": [
       {
@@ -76536,6 +77520,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 105 минут, жанры «семейный, фэнтези» и темы «семья», «волшебство» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://www.ecartelera.com/carteles/fondos/4000/4069-n2.jpg"
     }
   },
   {
@@ -76672,6 +77659,9 @@
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 103 минут, жанры «драма, приключения» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://animationhistorian.wordpress.com/wp-content/uploads/2019/09/p3.png"
+    },
     "studios": [
       "United Artists"
     ]
@@ -76716,6 +77706,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 136 минут, жанры «драма» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMjA3MjYyNDIxMV5BMl5BanBnXkFtZTcwNTU1ODYzNQ%40%40._V1_FMjpg_UX1000_.jpg"
     },
     "studios": [
       "Columbia Pictures"
@@ -76979,6 +77972,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 83 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://www.cinema.de/sites/default/files/styles/schema_org/public/sync/img.tvspielfilm.de/91/bd/df/54529f8ce4b0bc18ccdfbd91.jpeg?itok=_NaeyWCP"
     }
   },
   {
@@ -77071,6 +78067,9 @@
       "minAge": 14,
       "maxAge": 18,
       "rationale": "Рекомендуем с 14 лет: фильм подробно говорит о первой любви, ревности, сексуальном взрослении и утрате, требуя готовности к неоднозначным поступкам подростков."
+    },
+    "frame": {
+      "url": "https://images.bauerhosting.com/legacy/empire-tmdb/films/19958/images/kCYSYFFv8ysBfxxb9jqDnc88VR4.jpg?ar=16%3A9&auto=format&crop=top&fit=crop&q=80&w=1440"
     },
     "awards": [
       {
@@ -77311,6 +78310,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 81 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://filmwerte-vod.b-cdn.net/videos/0a3/0a3ea5ba-5b2c-4f2d-bfce-d0ef1461d225/artworks/fe0d0f0f-cf43-43a3-a78f-59cd5c4ebe56.jpg?height=720&width=1280"
     }
   },
   {
@@ -77520,6 +78522,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 104 минут, жанры «драма, фэнтези, сказка» и темы «волшебство», «мечты» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://www.defa-stiftung.de/fileadmin/DEFA_Stiftung/DEFA-Filme/Spielfilme/kalte-Herz-Das/KALTHE_11_Copyright_DEFA_Stiftung_Erich_Kilian__Manfred_Klawikowski.jpg"
     }
   },
   {
@@ -77561,6 +78566,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 83 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://gfx.videobuster.de/archive/v/c241lv6Kppf3YwyMhwmEzagcz0lMkawqyUyRjA4JTJGaW1hmSUyRmpwZWclMkarYWTgZGS2MPhmY2HOZjdmYmExZjlkr_NmLmpwZyZyPWimMDA/das-tapfere-schneiderlein-szenenbild.jpg"
     }
   },
   {
@@ -77601,6 +78609,9 @@
       "minAge": 3,
       "maxAge": 9,
       "rationale": "Рекомендуем с 3 лет: хронометраж 11 минут, жанры «короткометражный» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BZjA4ZjFlZjctMTNlOS00NzY0LWE1NTMtYzhiNzNkMjgzNjkzXkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -77832,6 +78843,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 85 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://gfx.videobuster.de/archive/v/cCKZ7luFA3dhKgD3s1KKMlwcz0lMkawsCUyRjAzJTJGaW1hmSUyRmpwZWclMkZmYtQ4ZGH2wcVivmMzY9lirTdhZqhkYzUuanBnJnI9aKYwMA/der-eisenhans-szenenbild.jpg"
     }
   },
   {
@@ -78014,6 +79028,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 87 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w1280/uDBGp7Y0h5picuxgKJe2JNI2f9K.jpg"
     }
   },
   {
@@ -78185,6 +79202,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 77 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://www.defa-stiftung.de/fileadmin/DEFA_Stiftung/DEFA-Filme/Spielfilme/Spiegel-des-grossen-Magus-Der/SPIEMA_05_Copyright_DEFA_Stiftung_Herbert_Kroiss.jpg"
     }
   },
   {
@@ -78226,6 +79246,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 84 минут, жанры «семейный, сказка» и темы «волшебство», «мечты» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://berliner-zeitung.imgix.net/2025/07/04/232ede90-899d-4a5d-a8d2-686fc6748db0.jpeg?auto=compress&auto=format&fit=max&rect=257%2C483%2C1585%2C1057&w=1880"
     },
     "studios": [
       "ДЕФА",
@@ -78312,6 +79335,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 82 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BNGQ5OTFhY2MtMDlhNS00ZGYxLWFmZTgtN2ZkZDlhZjM1MjI1XkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -78699,6 +79725,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 39 минут, жанры «семейный, короткометражный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://www.defa-stiftung.de/fileadmin/DEFA_Stiftung/DEFA-Filme/Spielfilme/Fahrt-nach-Bamsdorf-Die/BAMSDO_4_Copyright_DEFA_Stiftung_Eberhard_Dassdorf.jpg"
     }
   },
   {
@@ -79303,6 +80332,9 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 107 минут, жанры «семейный, приключения, фэнтези» и темы «семья», «путешествия» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://www.fbw-filmbewertung.com/uploads/fbwdb_film/gallery/8781/b77fd0efc4ea668bf6439652b0375cf5af899b3f.jpg"
+    },
     "studios": [
       "Bavaria Film"
     ],
@@ -79350,6 +80382,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 76 минут, жанры «семейный» и темы «семья», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://gfx.videobuster.de/archive/v/cw9IylQWK8giddZuv5rf0dgcz0lMkawtCUyRqglMkZpbWGZJTJGanBlZyUyRvs4Ysli37XpZGEw1uVkMDVi2mXH5jcuanBnJnI9aKYwMA/die-heinzels-2-neue-muetzen-neue-mission-szenenbild.jpg"
     },
     "studios": [
       "Akkord Film Produktion"
@@ -79533,6 +80568,9 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 110 минут, жанры «семейный», «комедия», «приключения» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BOTZhNTRhYTQtZjM3MC00YTI1LTkyYTgtNWE3ZjU1MDk2ODAzXkEyXkFqcGdeQWFybm8%40._V1_.jpg"
+    },
     "studios": [
       "Working Title Films",
       "Lord Miller Productions",
@@ -79583,6 +80621,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 96 минут, жанры «драма, мелодрама» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://images.justwatch.com/backdrop/257257565/s1440/flirting"
     },
     "studios": [
       "Kennedy Miller Mitchell"
@@ -79906,6 +80947,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 77 минут, жанры «драма» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://cdn.unotv.com/images/2024/06/es-por-su-bien-093419.jpg"
     }
   },
   {
@@ -80158,6 +81202,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 81 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://gfx.videobuster.de/archive/v/c_3V36QfsEwI3iyFKhBXdDQcz0lMkawqiUyRjAyJTJGaW1hmSUyRmpwZWclMkbr2GJjtWFjOWW832Ews_LiZWJmyDVmMC5qcGcmcj1opjAw/in-der-arche-ist-der-wurm-drin-szenenbild.jpg"
     }
   },
   {
@@ -80254,6 +81301,9 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 80 минут, жанры «семейный», «комедия», «драма», «приключения» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://img2.filmek.hu/original/jBQJ1J45pqRLtABbK9LBgKL0YmE/segitseg-hal-lettem.webp"
+    },
     "awards": [
       {
         "title": "CICFF Children's Jury Award for Best Animated Short Film"
@@ -80346,6 +81396,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 95 минут, жанры «семейный, драма, приключения» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://occ-0-8407-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABVlz0XVvDWW2wPFvLLgUea9AUXx1L5ZPJ4mrttX_QsPFxRo0uWBp4qOpmFV8g4qT-NaYpqFPFRYzhukha1L6C8NcyQL8ophqUvZQ.jpg?r=ea1"
     },
     "awards": [
       {
@@ -80497,6 +81550,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 71 минут, жанры «приключения» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://img.static-rmg.be/a/view/q75/w1600/h836/5717093/tintinsharklake-jpg.jpg"
     },
     "studios": [
       "Belvision",
@@ -80790,6 +81846,9 @@
       "minAge": 3,
       "maxAge": 9,
       "rationale": "Рекомендуем с 3 лет: хронометраж 6 минут, жанры «комедия, короткометражный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://www.spainculture.us/site/assets/files/6450/el_vendedor_de_humo.-grande.jpg"
     }
   },
   {
@@ -80880,6 +81939,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 89 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://walkdenentertainment.com/wp-content/uploads/2024/01/The-Canterville-Ghost-Still-5.jpg"
     }
   },
   {
@@ -80924,6 +81986,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 102 минут, жанры «семейный, приключения, фэнтези» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://firebreathingdimetrodon.wordpress.com/wp-content/uploads/2017/02/goldenvoy01.jpg"
     },
     "studios": [
       "Columbia Pictures"
@@ -81059,6 +82124,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 82 минут, жанры «семейный, комедия» и темы «семья», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://fr.web.img4.acsta.net/pictures/13/12/03/16/10/464352.jpg"
     },
     "studios": [
       "Futurikon"
@@ -81285,6 +82353,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 105 минут, жанры «комедия», «драма» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://cdn.mos.cms.futurecdn.net/o5NBvqFQFdcxtdTSZYzHib.jpg"
     },
     "awards": [
       {
@@ -81518,6 +82589,9 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 86 минут, жанры «семейный, фэнтези» и темы «волшебство», «мечты» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://www.moriareviews.com/rongulator/wp-content/uploads/Thomas-and-the-Magic-Railroad-2000.jpg"
+    },
     "studios": [
       "Gullane Entertainment",
       "Gullane Entertainment PLC",
@@ -81567,6 +82641,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 113 минут, жанры «семейный, приключения, фэнтези» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://themovieelite.com/wp-content/uploads/2020/05/Sinbad-and-the-Eye-of-the-Tiger.jpg"
     }
   },
   {
@@ -81666,6 +82743,9 @@
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 90 минут, жанры «фэнтези», «мюзикл» и темы «музыка», «волшебство» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMDBiOWM3ZDEtZjZmNy00ZTA0LWIwOWEtZGJjNTNmOGVmODkzXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg"
+    },
     "studios": [
       "Bibo Films",
       "France 3 Cinéma",
@@ -81714,6 +82794,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 78 минут, жанры «семейный, комедия, драма» и темы «семья», «путешествия» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://taipeirevista.com/wp-content/uploads/2024/02/Ico.el_.caballito.valiente.1983.WEB-DL.720p.emule_.via_.clan-sudamerica.net_.mp4_snapshot_00.26.22_2024.02.21_18.51.22-1024x682.png"
     }
   },
   {
@@ -81924,6 +83007,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 106 минут, жанры «комедия», «драма» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://images.justwatch.com/backdrop/196437012/s1440/intermission"
     }
   },
   {
@@ -82096,6 +83182,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 131 минут, жанры «семейный», «драма», «фантастика» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://www.virtual-history.com/movie/photo/pr38/large/bicentennial_man17.jpg"
     },
     "studios": [
       "1492 Pictures",
@@ -82428,6 +83517,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 82 минут, жанры «фантастика» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://elcairocinepublico.gob.ar/wp-content/uploads/2023/07/El-bosque-animado-01.jpg"
     }
   },
   {
@@ -82729,6 +83821,9 @@
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 113 минут, жанры «драма», «биографический» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://rest.filmstriben.dk/web/files/150027/3840x0/98fdfa6e00b2dc0ebfc3565274115daeca702f6e.webp"
+    },
     "studios": [
       "Ecosse Films",
       "Le Pacte",
@@ -83002,6 +84097,9 @@
       "maxAge": 9,
       "rationale": "Рекомендуем с 3 лет: хронометраж 18 минут, жанры «драма, короткометражный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://miro.medium.com/v2/1%2A5-Pm3KaxKMG91r0bbgM87g.jpeg"
+    },
     "studios": [
       "Канадская государственная служба кинематографии",
       "National Film Board of Canada"
@@ -83129,6 +84227,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 104 минут, жанры «приключения» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://media.senscritique.com/media/000008608271/1200/108_rois_demons.jpg"
     }
   },
   {
@@ -83170,6 +84271,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 81 минут, жанры «мюзикл, мелодрама» и темы «взросление», «музыка» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://uma-static.rtbcdn.ru/cwebp/pic/cardimage/5c/4b/5c4bb65f0bc809cb6677f1c0476f7c7b.orig?quality=90&size=1920"
     },
     "studios": [
       "DisneyToon Studios",
@@ -83360,6 +84464,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 86 минут, жанры «комедия, мюзикл» и темы «музыка», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://images.mubicdn.net/images/film/224740/cache-399219-1545678010/image-w1280.jpg"
     }
   },
   {
@@ -83443,6 +84550,9 @@
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 230 минут на серию, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w1920_and_h800_multi_faces/tB3L0ek6aotV6y78dMNGpFn6vo9.jpg"
+    },
     "relatedTitles": [
       "Чудесное путешествие Нильса с дикими гусями",
       "The Wonderful Adventures of Nils"
@@ -83488,6 +84598,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 88 минут, жанры «семейный, комедия, фэнтези» и темы «волшебство», «мечты» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://cdn.sinematv.com.tr/RisusAsset/Image/TOP-CAT-BEGINS_3.jpg"
     },
     "studios": [
       "Warner Bros. Pictures",
@@ -83686,6 +84799,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 181 минут, жанры «драма», «исторический», «биографический» и темы «история», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://images.tv9hindi.com/wp-content/uploads/2022/10/Gandhi-Jayanti.jpg"
     },
     "awards": [
       {
@@ -83886,6 +85002,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 78 минут, жанры «комедия, фэнтези, фантастика» и темы «наука», «музыка» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://images.mubicdn.net/images/film/87877/cache-41515-1745490728/image-w1280.jpg"
     }
   },
   {
@@ -84106,6 +85225,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 98 минут, жанры «семейный» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://cdn.moviepilot.de/files/c8a246f6b0de8c784ac802ef41bccc055514b84bbeb47d694be60ea34b70/fill/1200/627/die-legende-der-wei_en-pferde-04.jpg"
     }
   },
   {
@@ -84193,6 +85315,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 109 минут, жанры «семейный, драма» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMjkxYTBkYTEtMjhmNy00OTQyLWEwNGUtMWY2MDMwMGZiYzZkXkEyXkFqcGc%40._V1_.jpg"
     },
     "studios": [
       "EMI Films"
@@ -84361,6 +85486,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 101 минут, жанры «семейный, приключения» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://www.tagesspiegel.de/images/2783470/alternates/BASE_4_3_W1000/1660089161000/10-6825.jpeg"
     }
   },
   {
@@ -84445,6 +85573,9 @@
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 120 минут, жанры «драма», «биографический» и темы «история», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://www.cinemafia.ru/images/upload/LtWLPvbt_w.jpg"
+    },
     "awards": [
       {
         "title": "Премия Большого жюри (Венецианский кинофестиваль)"
@@ -84506,6 +85637,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 72 минут, жанры «семейный, комедия, приключения» и темы «музыка», «путешествия» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMGQ1YzU2NjUtOTA5Ni00OWVmLWI5MjAtMWI3MDQ5MDFlNDdjXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw%40%40._V1_.jpg"
     },
     "studios": [
       "DisneyToon Studios",
@@ -84741,6 +85875,9 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 72 минут, жанры «семейный, фэнтези» и темы «волшебство», «мечты» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/S/pv-target-images/3463b66b3a64fc7a00ce31908a9e59e99512c8aaf621eaee1c72345eecbdbe68.jpg"
+    },
     "studios": [
       "Lexington Broadcast Services Company",
       "Nelvana"
@@ -84785,6 +85922,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 72 минут, жанры «драма» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://www.arte.tv/sites/olivierpere/files/xvm00bcbb64-08b9-11e7-821f-2ff54f947a9d.jpg"
     },
     "studios": [
       "Halas and Batchelor"
@@ -84833,6 +85973,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 15 минут, жанры «комедия», «короткометражный» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://willsloanesq.wordpress.com/wp-content/uploads/2016/10/screen-shot-2016-10-27-at-10-03-56-am.png"
     }
   },
   {
@@ -84876,6 +86019,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 120 минут, жанры «драма», «исторический», «биографический» и темы «история», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/y/yumak0/20200916/20200916215802.jpg"
     }
   },
   {
@@ -84917,6 +86063,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 78 минут, жанры «семейный», «комедия» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://images.ladepeche.fr/api/v1/images/view/5c1d0d688fe56f58ab137240/hd/image.jpg?v=1"
     },
     "studios": [
       "Gaumont"
@@ -84965,6 +86114,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 76 минут, жанры «семейный, приключения, фэнтези» и темы «семья», «путешествия» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://www.cinemaclock.com/images/580x326/71/ferngully-the-last-rainforest-19924268.jpg"
     },
     "studios": [
       "Kroyer Films",
@@ -85201,6 +86353,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 104 минут, жанры «биографический» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://acmi-website-media-prod.s3.amazonaws.com/media/images/web_-_Romulus_My_Father.original.jpg"
     }
   },
   {
@@ -85245,6 +86400,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 45 минут на серию, жанры «драма», «исторический» и темы «история», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMTU3MzM1NDM4N15BMl5BanBnXkFtZTgwOTUwMTcxMTI%40._V1_.jpg"
     },
     "studios": [
       "Shaw Media",
@@ -85294,6 +86452,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 99 минут, жанры «семейный», «приключения», «фэнтези» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://diaphana.fr/wp-content/uploads/2010/07/azur-et-asmar-12-1600x865.jpg"
     },
     "studios": [
       "Nord-Ouest Films"
@@ -85474,6 +86635,9 @@
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 110 минут, жанры «комедия, мюзикл, мелодрама» и темы «взросление», «музыка» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://imagenes.excelsior.com.mx/files/og_thumbnail/uploads/2019/10/16/692090d4a5186.jpeg"
+    },
     "studios": [
       "RSO Records",
       "Paramount Pictures"
@@ -85567,6 +86731,9 @@
       "minAge": 14,
       "maxAge": 18,
       "rationale": "Рекомендуем с 14 лет из-за продолжительных сцен войны, разлуки с родителями, лагерного быта и истощения; исторический контекст лучше разобрать до или после просмотра."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMTU4NjQyNjM0M15BMl5BanBnXkFtZTcwMzU4NTMyNw%40%40._V1_FMjpg_UX1000_.jpg"
     },
     "studios": [
       "Amblin Entertainment"
@@ -85970,6 +87137,9 @@
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 90 минут, жанры «комедия» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://1.bp.blogspot.com/-9SRq5Jt2MJ8/X0nT1kwaGhI/AAAAAAAAR9s/vdGJgRY4crgA4z6gj_b3uLmLvxz-lA22ACLcBGAsYHQ/s1600/Una%2BPelicula%2Bde%2BHuevos%2B2.jpg"
+    },
     "studios": [
       "Huevocartoon"
     ]
@@ -86013,6 +87183,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 80 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://gfx.videobuster.de/archive/v/c3TiZ71Fl32TeDrdy8UZINgcz0lMkawsSUyRjA4JTJGaW1hmSUyRmpwZWclMkZkNGNiYTAwZuAyZTA1YcgyYmMzZepmZMVlumYuanBnJnI9aKYwMA/die-schelme-von-schelm-szenenbild.jpg"
     }
   },
   {
@@ -86053,6 +87226,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 82 минут, жанры «комедия» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BYjI4MDY4MzUtNzE5MC00MTQ1LTk3NmEtNThhMTBhMjM5ZGFjXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg"
     },
     "relatedTitles": [
       "Белоснежка и семь гномов"
@@ -86098,6 +87274,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 86 минут, жанры «семейный» и темы «семья», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://resizer.glanacion.com/resizer/v2/5XTE2JNVABDPDLJA5AG3PFQ4P4.jpg?auth=a4dce08e16ea1a39e4f06de65afcf68cb243040346741d654a0b3e1e6c7af600&height=853&quality=70&smart=true&width=1280"
     },
     "studios": [
       "Toonz Entertainment",
@@ -86193,6 +87372,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 92 минут, жанры «семейный, комедия» и темы «семья», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://cdn.iview.abc.net.au/thumbs/i/zw/ZW2280A001S00_5ea0d6877fb09.jpg"
     },
     "studios": [
       "nWave Pictures",
@@ -86648,6 +87830,9 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 96 минут, жанры «семейный, комедия, фэнтези» и темы «волшебство», «мечты» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABU57EpOAgV4oiu1t698R-8k9izfRFe2IekiNaHHGv-Sse4jfDnyRy8maaLkPfddNCdsMwZATIAco5dAvdBTi709DPTUMk90IcRgv.jpg?r=40a"
+    },
     "studios": [
       "Cartoon Saloon",
       "Illusion Studios",
@@ -86739,6 +87924,9 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 101 минут, жанры «семейный, комедия, приключения» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMGQyNzRhOGMtNjc3Yi00MzM0LThiYjEtZDdiMzVkNzNiNjBlXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg"
+    },
     "studios": [
       "The Walt Disney Company"
     ]
@@ -86824,6 +88012,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 75 минут, жанры «драма» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://images.mubicdn.net/images/film/3812/cache-10409-1481128275/image-w1280.jpg"
     }
   },
   {
@@ -86910,6 +88101,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 93 минут, жанры «приключения» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://thumb.canalplus.pro/http/unsafe/1200x630/filters%3Aquality%2880%29/img-hapi.canalplus.pro%3A80/ServiceImage/ImageID/72621837"
     },
     "studios": [
       "EuropaCorp"
@@ -87253,6 +88447,9 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 80 минут, жанры «семейный, фэнтези, мюзикл» и темы «музыка», «волшебство» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BNTAwYmFhMGQtYTdkZS00NjU0LWI3YWMtNDg0ZTgzMDkxZDEwXkEyXkFqcGc%40._V1_.jpg"
+    },
     "studios": [
       "Nelvana"
     ]
@@ -87476,6 +88673,9 @@
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 87 минут, жанры «комедия, драма, спортивный» и темы «взросление», «спорт» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/original/346M8dn6diG6fB4U1RtLBOopQwO.jpg"
+    },
     "relatedTitles": [
       "Puberty Blues"
     ]
@@ -87649,6 +88849,9 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 82 минут, жанры «семейный, комедия, фэнтези» и темы «волшебство», «мечты» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w1920_and_h800_multi_faces/gtYA27cSPBQrXBW4KMNKb4WOT9C.jpg"
+    },
     "studios": [
       "SF Studios"
     ]
@@ -87693,6 +88896,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 88 минут, жанры «семейный, комедия, приключения» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/666/844/1490278631-521b5445a61763bbd3831a2b59ee8421f412c54b.jpg?height=900&width=1600"
     },
     "studios": [
       "Beta Film",
@@ -87740,6 +88946,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 100 минут, жанры «комедия», «приключения» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://thumb.canalplus.pro/http/unsafe/1440x810/filters%3Aquality%2880%29/img-hapi.canalplus.pro%3A80/ServiceImage/ImageID/52842605"
     },
     "studios": [
       "Les Armateurs",
@@ -87834,6 +89043,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 105 минут, жанры «драма» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://images.mubicdn.net/images/film/31121/cache-113681-1745492378/image-w1280.jpg"
     }
   },
   {
@@ -88050,6 +89262,9 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 96 минут, жанры «семейный, фэнтези, детектив» и темы «волшебство», «мечты» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://player.bfi.org.uk/sites/default/files/styles/landscape_1200x675/public/hero-images/f8ce857c25c9f759563bf0904a5f9879.jpg?itok=f5NjsH7q"
+    },
     "relatedTitles": [
       "The Ghosts"
     ]
@@ -88096,6 +89311,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 97 минут, жанры «драма, мелодрама, биографический» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://www.virtual-history.com/movie/photo/pr53/large/hammers_over_the_anvil1.jpg"
     }
   },
   {
@@ -88137,6 +89355,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 123 минут, жанры «драма», «биографический» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://media.lmneuquen.com/p/246851343ba92fe114c76b65ebcc84c5/adjuntos/195/imagenes/004/883/0004883306/1200x675/smart/frida-peliculajpg.jpg"
     },
     "awards": [
       {
@@ -88453,6 +89674,9 @@
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 92 минут, жанры «драма» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/S/pv-target-images/e4f3bc1023a8fa67f8cad62ea902b69dbf2560ff9b21992b7950af69eeddec55.jpg"
+    },
     "studios": [
       "Gramercy Pictures"
     ]
@@ -88504,6 +89728,9 @@
       "minAge": 16,
       "maxAge": 18,
       "rationale": "Рекомендуем с 16 лет из-за психологического насилия, гибели детей и тяжёлого разговора о распаде правил и групповой жестокости. Просмотр требует последующего обсуждения со взрослым."
+    },
+    "frame": {
+      "url": "https://clip.cafe/img4x3/that-murder.jpg"
     },
     "awards": [
       {
@@ -88830,6 +90057,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 92 минут, жанры «драма» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://trigon-film.s3.amazonaws.com/production/media/__processed__/1aa/35d/Marti_02-3ac3821b547c.jpeg"
     }
   },
   {
@@ -88871,6 +90101,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 94 минут, жанры «драма» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://pbs.twimg.com/media/F7jni9nXAAAEmwu.jpg"
     }
   },
   {
@@ -88912,6 +90145,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 99 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://www.duda.news/wp-content/uploads/2017/11/hexe-lilli-e1510190972184-2220x1000.jpg"
     },
     "studios": [
       "MMC Studios Cologne",
@@ -88958,6 +90194,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 113 минут, жанры «драма» и темы «история», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BNzcxMTMxOTMxM15BMl5BanBnXkFtZTcwMDQxNDgzNw%40%40._V1_FMjpg_UX1000_.jpg"
     },
     "studios": [
       "Amblin Entertainment"
@@ -89277,6 +90516,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 93 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMTk1NTM1ODQ1OV5BMl5BanBnXkFtZTcwNDgxNTk2Ng%40%40._V1_FMjpg_UX2160_.jpg"
     }
   },
   {
@@ -89375,6 +90617,9 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 102 минут, жанры «семейный, комедия, фэнтези» и темы «волшебство», «мечты» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://www.comingsoon.net/wp-content/uploads/sites/3/gallery/the-smurfs-franchise/30-the-smurfs-movie-vanity.jpg"
+    },
     "studios": [
       "Columbia Pictures",
       "Sony Pictures Animation"
@@ -89421,6 +90666,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 75 минут, жанры «фэнтези, мюзикл» и темы «взросление», «музыка» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w1280/n93Ed6WuVkuSUl6pm86QgYlu7Sl.jpg"
     },
     "studios": [
       "Allied Filmmakers",
@@ -89512,6 +90760,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 113 минут, жанры «драма» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://compass-media.vogue.it/photos/65cb49d3239c1a368ac0d314/master/w_1600%2Cc_limit/farfalle%2520nello%2520stomaco6.jpg"
     },
     "studios": [
       "20th Century Studios",
@@ -89611,6 +90862,9 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 102 минут, жанры «семейный, приключения, фэнтези» и темы «семья», «путешествия» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://ilarge.lisimg.com/image/26375423/1118full-the-thief-of-bagdad-screenshot.jpg"
+    },
     "awards": [
       {
         "title": "Премия «Оскар» за лучшие спецэффекты"
@@ -89671,6 +90925,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 96 минут, жанры «комедия» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMTk3NTk5MDAxOF5BMl5BanBnXkFtZTcwNzQxNDYwNQ%40%40._V1_FMjpg_UX1000_.jpg"
     }
   },
   {
@@ -89938,6 +91195,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 85 минут, жанры «драма» и темы «природа», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://img.welt.de/img/reise/mobile100102928/6401626587-ci3x2l-w2000/fsl-bernhard-michael-grzimek-serengeti-1-DW-Politik-Passau-jpg.jpg"
     }
   },
   {
@@ -89980,6 +91240,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 115 минут, жанры «мюзикл», «биографический» и темы «музыка», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://cloudfront-eu-central-1.images.arcpublishing.com/businessoffashion/E3OYCOICC5HSBNRTDWJJO7HDEQ.jpg"
     }
   },
   {
@@ -90966,6 +92229,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 93 минут, жанры «семейный, комедия, фэнтези» и темы «семья», «волшебство» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://pampafilms.com.ar/wp-content/uploads/2023/03/Galeria-1280-%C3%97-860-px-papa-por-un-dia-2.jpg"
     }
   },
   {
@@ -91054,6 +92320,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 89 минут, жанры «фантастика» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://occ-0-8407-92.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABYIUcQenOHijqApQr_eZ7S24DSJRFB2a_xpSsogKov30sPMnG1gR8VkWkKVfZMrEJDUOI0-oN_Yw-YbzVHiptXz56Kbwg9fg8R6D.jpg?r=09d"
     },
     "studios": [
       "20th Century Studios",
@@ -91376,6 +92645,9 @@
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 92 минут, жанры «комедия», «мюзикл» и темы «взросление», «музыка» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w1280/vZzjMBDmFy0ChFtvY2jYU7DzZYt.jpg"
+    },
     "studios": [
       "Warner Bros."
     ],
@@ -91684,6 +92956,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 103 минут, жанры «комедия, драма» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://images.plex.tv/photo?scale=1&size=large-1920&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F3eXpEzoTctHuCNWfbjWokTal3hn.jpg"
     }
   },
   {
@@ -91978,6 +93253,9 @@
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 93 минут, жанры «мюзикл» и темы «взросление», «музыка» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://images.squarespace-cdn.com/content/v1/63bdc6dd6d7fbd5344bf15ea/2cbca48f-7616-4ad1-903f-b57b928f1875/josie-and-the-pussycats-still-1.jpg"
+    },
     "studios": [
       "Archie Comics"
     ],
@@ -92196,6 +93474,9 @@
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 85 минут, жанры «комедия, драма, приключения» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://resizer.mail.ru/p/78a521d8-b679-548d-9b4d-6441e6e92e94/AAAC9yBJnUxB-cx0Z6CoDiNc2j3dgNNcyYwCd-zIo5cybNhdDhxlQantotZgilnA2FU8sMwwzKAjv-XFn1Jlkbt8Vjo.jpg"
+    },
     "studios": [
       "Rainbow CGI",
       "Rai Fiction",
@@ -92395,6 +93676,9 @@
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 61 минут, жанры «семейный», «комедия», «фэнтези» и темы «взросление», «волшебство» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://images.mubicdn.net/images/film/121470/cache-255674-1745494123/image-w1280.jpg"
+    },
     "relatedTitles": [
       "The Fairly OddParents",
       "Волшебные покровители"
@@ -92438,6 +93722,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 87 минут, жанры «комедия» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://www.pluggedin.com/wp-content/uploads/2019/12/harold-and-kumar-go-to-white-castle-2048x1195.jpg"
     },
     "studios": [
       "New Line Cinema"
@@ -92490,6 +93777,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 72 минут, жанры «семейный, приключения, фэнтези» и темы «музыка», «путешествия» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://media.senscritique.com/media/000012342918/0/peter_pan_2_retour_au_pays_imaginaire.jpg"
     },
     "studios": [
       "DisneyToon Studios",
@@ -92946,6 +94236,9 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 90 минут, жанры «семейный, приключения, фэнтези» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://s4.afisha.ru/mediastorage/35/6f/78880ba6897e4ab2936981d36f35.jpg"
+    },
     "studios": [
       "Animal Logic",
       "Village Roadshow Pictures",
@@ -92995,6 +94288,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 79 минут, жанры «семейный», «комедия», «приключения» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w1280/4Wi6dX3R7CsD81KIvhYfJW7PJSw.jpg"
     },
     "studios": [
       "Anima Vitae",
@@ -93098,6 +94394,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 104 минут, жанры «детектив» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/UVbsoqeUzcHk0cNJC7Sq7w/1200x675.jpg"
     },
     "studios": [
       "Amblin Entertainment"
@@ -93454,6 +94753,9 @@
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 116 минут, жанры «драма», «биографический» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMTY5MjE0MzQwOV5BMl5BanBnXkFtZTcwODY3NzkzNw%40%40._V1_FMjpg_UX1000_.jpg"
+    },
     "studios": [
       "Paramount Pictures",
       "MTV Films",
@@ -93502,6 +94804,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 118 минут, жанры «комедия», «драма», «мюзикл» и темы «музыка», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMTkxNDgyMTg2N15BMl5BanBnXkFtZTcwOTk3MTA0NQ%40%40._V1_FMjpg_UX1000_.jpg"
     },
     "studios": [
       "Beacon Pictures"
@@ -93554,6 +94859,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 88 минут, жанры «семейный», «комедия», «приключения», «фэнтези» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/b440be0c-2a87-4b1c-a746-f2f5b6278508/1920x"
     },
     "studios": [
       "Crest Animation Productions",
@@ -93859,6 +95167,9 @@
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 132 минут, жанры «драма», «исторический» и темы «история», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://www.arte.tv/sites/olivierpere/files/k-19-le-piege-des-profondeurs-photo-liam-neeson-1001133.jpg"
+    },
     "studios": [
       "Национальное географическое общество",
       "Intermedia",
@@ -93905,6 +95216,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 97 минут, жанры «семейный, фэнтези» и темы «волшебство», «мечты» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BNzUzNWM2M2MtNmFmMy00ZTNlLWE4Y2QtMWY3YmQxYTMxMWJjXkEyXkFqcGc%40._V1_.jpg"
     },
     "studios": [
       "The Walt Disney Company"
@@ -93954,6 +95268,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 116 минут, жанры «драма, мелодрама» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://media.aintitcool.com/media/_versions/social_image/MissJeanBrodieSandy_huge.jpeg"
     },
     "awards": [
       {
@@ -94192,6 +95509,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 93 минут, жанры «семейный, комедия, фэнтези» и темы «семья», «волшебство» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://tv.pgtrk.com/sites/default/files/show/2020/06/play-1399602715.jpg"
     },
     "studios": [
       "DreamWorks",
@@ -94433,6 +95753,9 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 90 минут, жанры «семейный, фэнтези» и темы «волшебство», «мечты» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BY2M0YTBhM2YtMTlmZS00MGYxLWFiNDAtYzQyZTM4ZjJmMDIwXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg"
+    },
     "studios": [
       "Warner Bros. Entertainment",
       "Warner Bros."
@@ -94528,6 +95851,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 85 минут, жанры «комедия, приключения, фантастика» и темы «наука», «путешествия» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://cdn.origo.hu/2025/02/WMepuVyfKcE4HFT9GV2IiP2FJ5MP7A8CgHCJFUpV9IM/fit/1200/792/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzU5NjQxZTM4YWUwMTRhYjQ5ZDcyZmZhZjZjOGEyZDMw.jpg"
     },
     "studios": [
       "Pannonia Film Studio",
@@ -95046,6 +96372,9 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 88 минут, жанры «семейный, фэнтези» и темы «волшебство», «мечты» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMTY0NTgxNzAzOF5BMl5BanBnXkFtZTcwODMwODgyNQ%40%40._V1_.jpg"
+    },
     "studios": [
       "New Line Cinema"
     ]
@@ -95091,6 +96420,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 105 минут, жанры «драма, приключения, биографический» и темы «взросление», «путешествия» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://www.flickchart.com/_ipx/q_70/tmdb/t/p/original/vNDiTj4UNYvm6REQVtuQ1Z11qbv.jpg"
     }
   },
   {
@@ -95312,6 +96644,9 @@
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 85 минут, жанры «комедия», «приключения» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://cdn.moviepilot.de/files/7f040c3b93bec71121418cfd442dcfddb492e62cc776928a62ea5e1e2323/fill/1200/627/SammysAbenteuer_005.jpg"
+    },
     "studios": [
       "StudioCanal",
       "nWave Pictures"
@@ -95438,6 +96773,9 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 70 минут, жанры «семейный» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://mafab.hu/static/thumb/w1000/2014t/285/19/52634_25.jpg"
+    },
     "studios": [
       "Nelvana",
       "Эллипсаниме"
@@ -95486,6 +96824,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 49 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BYmVkZWIyMWYtNzQyYy00Y2RkLThlNmQtMzE3YjdkNTA0ODIzXkEyXkFqcGc%40._V1_.jpg"
     },
     "relatedTitles": [
       "Ветер в ивах",
@@ -95685,6 +97026,9 @@
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 91 минут, жанры «комедия» и темы «история», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMTYzNTk4Nzc1OF5BMl5BanBnXkFtZTcwMTE3NjQ0NA%40%40._V1_FMjpg_UX2048_.jpg"
+    },
     "studios": [
       "Intermedia",
       "GK Films",
@@ -95864,6 +97208,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 65 минут, жанры «семейный, драма» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://www.moobys.es/wp-content/uploads/2021/12/19144522/mama-o-papa.jpeg"
     }
   },
   {
@@ -96375,6 +97722,9 @@
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 89 минут, жанры «драма» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BNWU2NDRiOTMtYjc5ZC00MmQxLWE3ODMtOGNiMjNmYmJkMmYyXkEyXkFqcGc%40._V1_.jpg"
+    },
     "studios": [
       "VicScreen"
     ]
@@ -96633,6 +97983,9 @@
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 106 минут, жанры «комедия», «драма» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://miro.medium.com/1%2AC4S2CBRZudwEMfD7MjcsJg.jpeg"
+    },
     "awards": [
       {
         "title": "Национальный совет кинокритиков США: Десять лучших фильмов"
@@ -96684,6 +98037,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 96 минут, жанры «комедия, драма, мелодрама» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://s3.amazonaws.com/criterion-production/janus_stills/3738-/29065id_01_w1600.jpg"
     },
     "awards": [
       {
@@ -96743,6 +98099,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 77 минут, жанры «приключения» и темы «путешествия», «смелость» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/original/vDN0ndWhYrdmTG0KZn55qhjEUIb.jpg"
     },
     "studios": [
       "Belvision"
@@ -96928,6 +98287,9 @@
       "minAge": 16,
       "maxAge": 18,
       "rationale": "Рекомендуем с 16 лет из-за употребления веществ, рискованного поведения, насилия и тяжёлого кризиса идентичности героя; важен разговор о давлении группы и последствиях импульсивных решений."
+    },
+    "frame": {
+      "url": "https://images.mubicdn.net/images/film/4995/cache-10897-1481130496/image-w1280.jpg"
     }
   },
   {
@@ -96973,6 +98335,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 80 минут, жанры «семейный», «комедия», «фэнтези», «фантастика» и темы «волшебство», «мечты» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://images.squarespace-cdn.com/content/v1/52917cf8e4b04b7d114a7e2a/1386790040702-AY10RM5N4JXCPXPPAE82/P3K_19.jpg?format=1000w"
     },
     "studios": [
       "CinéGroupe",
@@ -97022,6 +98387,9 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 99 минут, жанры «семейный» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://kalafudra.com/wp-content/uploads/2020/11/dasschaurigehaus1.jpg"
     }
   },
   {
@@ -97063,6 +98431,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 50 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BNDFiMWZmZmQtODM2My00YTg4LTg2NzUtMDA0MDNmZWE3NTE1XkEyXkFqcGc%40._V1_.jpg"
     },
     "studios": [
       "Burbank Animation Studios"

@@ -12,6 +12,8 @@ const paths = {
   report: path.join(root, "data/reports/watch-stills-research.json"),
   markdown: path.join(root, "data/reports/watch-stills-research.md"),
   applyReport: path.join(root, "data/reports/watch-stills-apply.json"),
+  webResearchReport: path.join(root, "data/reports/watch-stills-web-experiment.json"),
+  webApplyReport: path.join(root, "data/reports/watch-stills-web-apply.json"),
 };
 
 const USER_AGENT = "NENWatchStillResearch/2.0 (editorial research; contact: n-e-n.ru)";
@@ -19,6 +21,7 @@ const TMDB_TOKEN = process.env.TMDB_API_TOKEN ?? process.env.TMDB_ACCESS_TOKEN ?
 const TMDB_KEY = process.env.TMDB_API_KEY ?? null;
 const MAX_CANDIDATES = 5;
 const mode = process.argv.includes("--apply") ? "apply" : "research";
+const applyWebConfirmed = process.argv.includes("--apply-web-confirmed");
 const requestedLimit = Number(process.argv.find((arg) => arg.startsWith("--max="))?.split("=")[1] ?? Infinity);
 const limit = Number.isFinite(requestedLimit) && requestedLimit > 0 ? requestedLimit : Infinity;
 const sourceArg = process.argv.find((arg) => arg.startsWith("--sources="))?.split("=")[1];
@@ -32,6 +35,38 @@ const now = () => new Date().toISOString();
 const isHttpUrl = (value) => typeof value === "string" && /^https?:\/\//u.test(value);
 const yearOf = (value) => Number(String(value ?? "").slice(0, 4)) || null;
 const imageTypeFromMime = (mime, url) => mime || (url.endsWith(".png") ? "image/png" : url.endsWith(".webp") ? "image/webp" : "image/jpeg");
+
+function imageDimensions(bytes, mime) {
+  if (bytes.length >= 24 && bytes.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]))) {
+    return { width: bytes.readUInt32BE(16), height: bytes.readUInt32BE(20), format: "png" };
+  }
+  if (bytes.length >= 10 && (bytes.subarray(0, 6).toString("ascii") === "GIF87a" || bytes.subarray(0, 6).toString("ascii") === "GIF89a")) {
+    return { width: bytes.readUInt16LE(6), height: bytes.readUInt16LE(8), format: "gif" };
+  }
+  if (bytes.length >= 30 && bytes.subarray(0, 4).toString("ascii") === "RIFF" && bytes.subarray(8, 12).toString("ascii") === "WEBP") {
+    const kind = bytes.subarray(12, 16).toString("ascii");
+    if (kind === "VP8X") return { width: 1 + bytes.readUIntLE(24, 3), height: 1 + bytes.readUIntLE(27, 3), format: "webp" };
+    if (kind === "VP8 " && bytes.length >= 30) return { width: bytes.readUInt16LE(26) & 0x3fff, height: bytes.readUInt16LE(28) & 0x3fff, format: "webp" };
+    if (kind === "VP8L" && bytes.length >= 25) {
+      const packed = bytes.readUInt32LE(21); return { width: (packed & 0x3fff) + 1, height: ((packed >> 14) & 0x3fff) + 1, format: "webp" };
+    }
+  }
+  if (bytes.length >= 4 && bytes[0] === 0xff && bytes[1] === 0xd8) {
+    let offset = 2;
+    while (offset + 9 < bytes.length) {
+      if (bytes[offset] !== 0xff) { offset += 1; continue; }
+      const marker = bytes[offset + 1];
+      if (marker === 0xd8 || marker === 0xd9) { offset += 2; continue; }
+      const size = bytes.readUInt16BE(offset + 2);
+      if ([0xc0, 0xc1, 0xc2, 0xc3, 0xc5, 0xc6, 0xc7, 0xc9, 0xca, 0xcb, 0xcd, 0xce, 0xcf].includes(marker)) {
+        return { width: bytes.readUInt16BE(offset + 7), height: bytes.readUInt16BE(offset + 5), format: "jpeg" };
+      }
+      if (size < 2) break;
+      offset += 2 + size;
+    }
+  }
+  return { width: null, height: null, format: mime ?? "unknown" };
+}
 
 async function readJson(filePath, fallback) {
   try { return JSON.parse(await fs.readFile(filePath, "utf8")); }
@@ -324,7 +359,93 @@ const recordFromAudit = (item) => ({ id: item.id, title: item.title, originalTit
   externalIds: item.externalIds ?? {}, currentImages: item.currentImages ?? [],
   currentFrameClassification: item.poster?.present ? "CURRENT_FRAME_IS_POSTER" : item.status === "A" ? "CONFIRMED_CURRENT_STILL" : "NO_CURRENT_IMAGE" });
 
+async function applyConfirmedWebResearch(catalog) {
+  const research = await readJson(paths.webResearchReport, null);
+  if (!research?.items || research.summary?.confirmed !== 846) throw new Error("Ожидался проверенный web-research с 846 CONFIRMED_STILL.");
+  const byId = new Map(catalog.map((record) => [record.id, record]));
+  const confirmed = research.items.filter((item) => item.status === "CONFIRMED_STILL");
+  const urlCounts = new Map();
+  for (const item of confirmed) if (item.imageUrl) urlCounts.set(item.imageUrl, (urlCounts.get(item.imageUrl) ?? 0) + 1);
+  const accepted = [];
+  const rejected = [];
+  const forbidden = /poster|постер|cover|облож|logo|логотип|fan.?art|wallpaper|promo|banner|portrait|headshot|actor|actress|director|trailer|teaser|pinterest/iu;
+  let completed = 0;
+  async function validateOne(item) {
+    const record = byId.get(item.watchId);
+    const reasons = [];
+    if (!record) reasons.push("карточка отсутствует в актуальном каталоге");
+    if (!item.imageUrl || !isHttpUrl(item.imageUrl)) reasons.push("нет корректного URL изображения");
+    if (!item.pageUrl || !isHttpUrl(item.pageUrl)) reasons.push("нет корректного URL страницы-источника");
+    if (record && normalizeTitle(record.originalTitle) !== normalizeTitle(item.originalTitle)) reasons.push("originalTitle не совпадает с актуальной карточкой");
+    if (record && Number(record.year) !== Number(item.year)) reasons.push("год не совпадает с актуальной карточкой");
+    if (!item.evidence?.titleMatch || !item.evidence?.yearMatch || !item.evidence?.stillSignal) reasons.push("неполное evidence: нужны title, year и still/scene signal");
+    if (forbidden.test(`${item.imageUrl ?? ""} ${item.pageUrl ?? ""} ${item.reason ?? ""}`)) reasons.push("URL/provenance содержит признаки постера, промо, портрета или фан-арта");
+    if ((urlCounts.get(item.imageUrl) ?? 0) > 1) reasons.push("один URL связан с несколькими карточками");
+    let probe = null;
+    if (!reasons.length) {
+      try {
+        const response = await clients.image.fetch(item.imageUrl, { headers: { accept: "image/*", referer: item.pageUrl }, timeoutMs: 30_000 }, 2);
+        if (!response.ok) reasons.push(`изображение недоступно: HTTP ${response.status}`);
+        else {
+          const mime = response.headers.get("content-type")?.split(";")[0]?.toLowerCase() ?? null;
+          if (!mime?.startsWith("image/")) reasons.push(`неверный MIME: ${mime ?? "не указан"}`);
+          const bytes = Buffer.from(await response.arrayBuffer());
+          const dimensions = imageDimensions(bytes, mime);
+          const aspectRatio = dimensions.width && dimensions.height ? dimensions.width / dimensions.height : null;
+          const hash = `sha256:${crypto.createHash("sha256").update(bytes).digest("hex")}`;
+          probe = { mime, bytes: bytes.length, ...dimensions, aspectRatio, hash, checkedAt: now() };
+          if (!dimensions.width || !dimensions.height) reasons.push("не удалось определить размеры изображения");
+          else {
+            if (dimensions.width < 1_000) reasons.push(`ширина меньше 1000 px: ${dimensions.width}`);
+            if (aspectRatio < 1.3) reasons.push(`изображение не горизонтальное: ${aspectRatio.toFixed(3)}`);
+            if (aspectRatio > 3) reasons.push(`слишком широкий рекламный формат: ${aspectRatio.toFixed(3)}`);
+          }
+        }
+      } catch (error) { reasons.push(`ошибка загрузки: ${String(error?.message ?? error)}`); }
+    }
+    const result = { ...item, probe, validatedAt: now() };
+    if (reasons.length) rejected.push({ ...result, reasons }); else accepted.push(result);
+    completed += 1;
+    if (completed % 25 === 0) console.log(`validated ${completed}/${confirmed.length}; accepted ${accepted.length}; rejected ${rejected.length}`);
+  }
+  let cursor = 0;
+  const workers = Array.from({ length: 8 }, async () => {
+    while (cursor < confirmed.length) {
+      const item = confirmed[cursor]; cursor += 1;
+      await validateOne(item);
+    }
+  });
+  await Promise.all(workers);
+  const byHash = new Map();
+  for (const item of accepted) {
+    if (!byHash.has(item.probe.hash)) byHash.set(item.probe.hash, []);
+    byHash.get(item.probe.hash).push(item);
+  }
+  const duplicateHashes = new Set([...byHash].filter(([, items]) => items.length > 1).map(([hash]) => hash));
+  const finalAccepted = [];
+  for (const item of accepted) {
+    if (duplicateHashes.has(item.probe.hash)) rejected.push({ ...item, reasons: ["одинаковое содержимое изображения связано с несколькими карточками"] });
+    else finalAccepted.push(item);
+  }
+  const acceptedById = new Map(finalAccepted.map((item) => [item.watchId, item]));
+  const updated = catalog.map((record) => {
+    const item = acceptedById.get(record.id);
+    if (!item) return record;
+    const studios = Array.isArray(record.frame?.studios) && record.frame.studios.length ? record.frame.studios : null;
+    return { ...record, frame: { url: item.imageUrl, ...(studios ? { studios: [...studios] } : {}) } };
+  });
+  await writeJsonAtomic(paths.catalog, updated);
+  await writeJsonAtomic(paths.webApplyReport, {
+    generatedAt: now(), mode: "apply-web-confirmed-only", totalCatalog: updated.length,
+    confirmedFound: confirmed.length, applied: finalAccepted.length, rejected: rejected.length,
+    candidatesNotApplied: research.items.filter((item) => item.status === "CANDIDATE_STILL").length,
+    appliedItems: finalAccepted, rejectedItems: rejected,
+  });
+  console.log(JSON.stringify({ confirmedFound: confirmed.length, applied: finalAccepted.length, rejected: rejected.length, candidatesNotApplied: research.items.filter((item) => item.status === "CANDIDATE_STILL").length }, null, 2));
+}
+
 const catalog = await readJson(paths.catalog, []);
+if (applyWebConfirmed) { await applyConfirmedWebResearch(catalog); process.exit(0); }
 const audit = await readJson(paths.audit, null);
 if (!audit || audit.total !== catalog.length || audit.items?.length !== catalog.length) throw new Error("Нужен актуальный data/reports/watch-stills-audit.json.");
 const mailSource = await readJson(paths.mailSource, { items: [] });

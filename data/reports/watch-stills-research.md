@@ -1,38 +1,38 @@
 # Исследование кадров watch-каталога
 
-Сформировано: 2026-08-16T16:01:47.516Z
+Сформировано: 2026-08-17T06:37:47.458Z
 
 > Research-only: watch-v2.json, generated-каталог и Production не изменялись.
 
 ## Статистика
 
 - Всего карточек: **2074**
-- Подтверждённых кадров до исследования: **553**
-- Исследовано по точным ID: **874**
-- CONFIRMED_STILL: **22**
+- Подтверждённых кадров до исследования: **575**
+- Исследовано по точным ID: **852**
+- CONFIRMED_STILL: **0**
 - CANDIDATE_STILL: **0**
 - POSTER_ONLY: **352**
 - NO_STILL_FOUND: **13**
-- SOURCE_UNAVAILABLE: **0**
-- UNRESOLVED: **487**
-- Всего кандидатов: **103**
+- SOURCE_UNAVAILABLE: **148**
+- UNRESOLVED: **339**
+- Всего кандидатов: **0**
 - Новых потенциально закрываемых карточек: **0**
-- Верхняя TMDb-граница после подключения token: **667**
+- Верхняя TMDb-граница после подключения token: **665**
 
 ## Источники
 
 - NEN: 0 кандидатов для 0 карточек
-- Кино Mail: 103 кандидатов для 22 карточек
+- Кино Mail: 0 кандидатов для 0 карточек
 - TMDb: 0 кандидатов для 0 карточек
 - Кинопоиск: 0 кандидатов для 0 карточек
 - Commons/Wikidata: 0 кандидатов для 0 карточек
 
 ## Техническое состояние
 
-- NEN: {"CONFIRMED_STILL":0,"CANDIDATE_STILL":0,"POSTER_ONLY":0,"NO_STILL_FOUND":0,"SOURCE_UNAVAILABLE":0,"UNRESOLVED":0}
-- Кино Mail: {"CONFIRMED_STILL":22,"CANDIDATE_STILL":0,"POSTER_ONLY":0,"NO_STILL_FOUND":363,"SOURCE_UNAVAILABLE":2,"UNRESOLVED":487}
+- NEN: {"CONFIRMED_STILL":0,"CANDIDATE_STILL":0,"POSTER_ONLY":0,"NO_STILL_FOUND":0,"SOURCE_UNAVAILABLE":0,"UNRESOLVED":852}
+- Кино Mail: {"CONFIRMED_STILL":0,"CANDIDATE_STILL":0,"POSTER_ONLY":0,"NO_STILL_FOUND":363,"SOURCE_UNAVAILABLE":2,"UNRESOLVED":487}
 - TMDb: {"CONFIRMED_STILL":0,"CANDIDATE_STILL":0,"POSTER_ONLY":0,"NO_STILL_FOUND":0,"SOURCE_UNAVAILABLE":0,"UNRESOLVED":0}
-- Кинопоиск: {"CONFIRMED_STILL":0,"CANDIDATE_STILL":0,"POSTER_ONLY":0,"NO_STILL_FOUND":0,"SOURCE_UNAVAILABLE":0,"UNRESOLVED":0}
+- Кинопоиск: {"CONFIRMED_STILL":0,"CANDIDATE_STILL":0,"POSTER_ONLY":0,"NO_STILL_FOUND":0,"SOURCE_UNAVAILABLE":149,"UNRESOLVED":0}
 - Commons/Wikidata: {"CONFIRMED_STILL":0,"CANDIDATE_STILL":0,"POSTER_ONLY":0,"NO_STILL_FOUND":0,"SOURCE_UNAVAILABLE":0,"UNRESOLVED":0}
 
 - TMDb credential: **не настроен**
