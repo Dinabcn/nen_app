@@ -8,6 +8,7 @@ const mailSourcePath = path.join(root, "data/reports/cache/watch-mail-source.jso
 const mailReplacementPath = path.join(root, "data/reports/watch-mail-replacement.json");
 const stillEvidencePath = path.join(root, "data/reports/cache/watch-stills-research-evidence.json");
 const webApplyPath = path.join(root, "data/reports/watch-stills-web-apply.json");
+const webBacklogApplyPath = path.join(root, "data/reports/watch-stills-web-backlog-apply.json");
 const jsonPath = path.join(root, "data/reports/watch-stills-audit.json");
 const markdownPath = path.join(root, "data/reports/watch-stills-audit.md");
 const unresolvedJsonPath = path.join(root, "data/reports/watch-stills-unresolved.json");
@@ -28,10 +29,11 @@ const mailSource = await readJson(mailSourcePath, { items: [] });
 const mailReplacement = await readJson(mailReplacementPath, { selectedItems: [] });
 const stillEvidence = await readJson(stillEvidencePath, { records: {} });
 const webApply = await readJson(webApplyPath, { appliedItems: [] });
+const webBacklogApply = await readJson(webBacklogApplyPath, { appliedItems: [] });
 
 const mailById = new Map((mailSource.items ?? []).map((item) => [String(item.mailId), item]));
 const replacementById = new Map((mailReplacement.selectedItems ?? []).map((item) => [item.id, item]));
-const webAppliedById = new Map((webApply.appliedItems ?? []).map((item) => [item.watchId, item]));
+const webAppliedById = new Map([...(webApply.appliedItems ?? []), ...(webBacklogApply.appliedItems ?? [])].map((item) => [item.watchId, item]));
 
 const cleanId = (value) => value === null || value === undefined || value === "" ? null : String(value);
 const externalIdsFromArray = (items = []) => Object.fromEntries(items.map((entry) => {
