@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-21T09:42:12.147Z",
+  "generatedAt": "2026-08-21T12:10:40.391Z",
   "totalCatalog": 2074,
-  "confirmedStills": 1169,
-  "unresolved": 905,
+  "confirmedStills": 1181,
+  "unresolved": 893,
   "posterInFrame": 325,
-  "noFrame": 580,
+  "noFrame": 568,
   "confirmedButMissingStudios": 0,
   "tailGroups": {
     "A": 0,
     "B": 126,
-    "C": 534,
+    "C": 522,
     "D": 245
   },
   "items": [
@@ -6304,92 +6304,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q18709309",
-      "title": "Приключения Ихитуса",
-      "originalTitle": "Las aventuras de Hijitus",
-      "year": 1973,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": "108663",
-        "tmdbMovie": "614339",
-        "tmdbTv": null,
-        "imdb": "tt0357450",
-        "wikidata": "Q18709309",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.475Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:20:42.887Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/108663/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:03.999Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q1841367",
-      "title": "Тряпичкин",
-      "originalTitle": "Trapito",
-      "year": 1975,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": "108661",
-        "tmdbMovie": "65544",
-        "tmdbTv": null,
-        "imdb": "tt0073814",
-        "wikidata": "Q1841367",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.475Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:20:41.831Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/108661/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:03.999Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q5033546",
       "title": "Как прекрасна моя семья!",
       "originalTitle": "Cantaniño cuenta un cuento",
@@ -6902,49 +6816,6 @@
           "source": "Кино Mail",
           "status": "UNRESOLVED",
           "checkedAt": "2026-08-16T09:51:03.720Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q1171138",
-      "title": "Летающий класс",
-      "originalTitle": "Das fliegende Klassenzimmer",
-      "year": 1954,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": "59624",
-        "tmdbMovie": "12781",
-        "tmdbTv": null,
-        "imdb": "tt0046986",
-        "wikidata": "Q1171138",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.331Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:19:57.388Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/59624/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:02.481Z",
           "pageUrl": null,
           "error": "нет точной сохранённой страницы Кино Mail"
         }
@@ -9546,49 +9417,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q61358935",
-      "title": "Последствия",
-      "originalTitle": "Posledice",
-      "year": 2018,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": "1181105",
-        "tmdbMovie": "539504",
-        "tmdbTv": null,
-        "imdb": "tt8795582",
-        "wikidata": "Q61358935",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.691Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:21:58.422Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/1181105/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:05.622Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q29569570",
       "title": "Животные",
       "originalTitle": "L’Animale",
@@ -9836,49 +9664,6 @@
           "source": "Кино Mail",
           "status": "UNRESOLVED",
           "checkedAt": "2026-08-16T09:51:03.905Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q5228000",
-      "title": "Мануэлита",
-      "originalTitle": "Manuelita",
-      "year": 2000,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": "108664",
-        "tmdbMovie": "65931",
-        "tmdbTv": null,
-        "imdb": "tt0229557",
-        "wikidata": "Q5228000",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.667Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:21:45.007Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/108664/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:05.514Z",
           "pageUrl": null,
           "error": "нет точной сохранённой страницы Кино Mail"
         }
@@ -10216,49 +10001,6 @@
         }
       ],
       "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q804498",
-      "title": "Блинки Билл",
-      "originalTitle": "Blinky Bill",
-      "year": 1992,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": "54144",
-        "tmdbMovie": "156162",
-        "tmdbTv": null,
-        "imdb": "tt0103837",
-        "wikidata": "Q804498",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.720Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:22:07.022Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/54144/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:05.708Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
       "confirmedCandidateNotApplied": null,
       "tailGroup": "C",
       "pendingCandidate": null
@@ -11882,92 +11624,6 @@
         }
       ],
       "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q3280982",
-      "title": "Мишка и его друзья",
-      "originalTitle": "The Little Bear Movie",
-      "year": 2001,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": "122453",
-        "tmdbMovie": "33371",
-        "tmdbTv": null,
-        "imdb": "tt0293854",
-        "wikidata": "Q3280982",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.577Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:21:18.303Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/122453/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:04.724Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q3231050",
-      "title": "Заботливые Мишки: Путешествие в Шутляндию",
-      "originalTitle": "Care Bears: Journey to Joke-a-lot",
-      "year": 2004,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": "229812",
-        "tmdbMovie": "34468",
-        "tmdbTv": null,
-        "imdb": "tt0429739",
-        "wikidata": "Q3231050",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.577Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:21:16.066Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/229812/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:04.724Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
       "confirmedCandidateNotApplied": null,
       "tailGroup": "C",
       "pendingCandidate": null
@@ -14302,49 +13958,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q2241055",
-      "title": "Море тишины",
-      "originalTitle": "Verder dan de maan",
-      "year": 2003,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": "35106",
-        "tmdbMovie": "54765",
-        "tmdbTv": null,
-        "imdb": "tt0313752",
-        "wikidata": "Q2241055",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.518Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:20:57.291Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/35106/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:04.562Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q903821",
       "title": "Шевели ластами 2",
       "originalTitle": "Sammy's avonturen 2",
@@ -15840,49 +15453,6 @@
       }
     },
     {
-      "id": "nen-wd-q543486",
-      "title": "Счастливчик Люк",
-      "originalTitle": "Lucky Luke",
-      "year": 1971,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": "90443",
-        "tmdbMovie": "52761",
-        "tmdbTv": null,
-        "imdb": "tt0145891",
-        "wikidata": "Q543486",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.667Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:21:47.271Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/90443/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:05.514Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q1773542",
       "title": "Тарзун, позор джунглей",
       "originalTitle": "La Honte de la jungle",
@@ -17038,49 +16608,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q370313",
-      "title": "Любящие сердца",
-      "originalTitle": "दिल चाहता है",
-      "year": 2001,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": "40418",
-        "tmdbMovie": "14752",
-        "tmdbTv": null,
-        "imdb": "tt0292490",
-        "wikidata": "Q370313",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.605Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:21:23.916Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/40418/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:04.831Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q1094839",
       "title": "Ты не одинок",
       "originalTitle": "कोई मिल गया",
@@ -17112,49 +16639,6 @@
         }
       ],
       "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q1673902",
-      "title": "Какая она, любовь",
-      "originalTitle": "इश्क विश्क",
-      "year": 2003,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": "64537",
-        "tmdbMovie": "41901",
-        "tmdbTv": null,
-        "imdb": "tt0362771",
-        "wikidata": "Q1673902",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.449Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:20:35.086Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/64537/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:03.905Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
       "confirmedCandidateNotApplied": null,
       "tailGroup": "C",
       "pendingCandidate": null

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-21T09:40:54.699Z",
+  "generatedAt": "2026-08-21T12:10:15.657Z",
   "totalCatalog": 2074,
-  "reviewed": 24,
-  "applied": 16,
-  "rejected": 8,
+  "reviewed": 39,
+  "applied": 28,
+  "rejected": 11,
   "appliedItems": [
     {
       "watchId": "nen-wd-q569991",
@@ -275,7 +275,8 @@
         "hash": "sha256:e826cca43534a953a2b677184eaca00e35db26f5b0233423bcc3b31002118b06",
         "checkedAt": "2026-08-21T09:40:53.181Z"
       },
-      "validatedAt": "2026-08-21T09:40:53.181Z"
+      "validatedAt": "2026-08-21T09:40:53.181Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q2240576",
@@ -295,7 +296,8 @@
         "hash": "sha256:61d2257901ab964e4f302736c7b558ecf4c391de306dcf38e69059ea4a8f6bc9",
         "checkedAt": "2026-08-21T09:40:53.977Z"
       },
-      "validatedAt": "2026-08-21T09:40:53.977Z"
+      "validatedAt": "2026-08-21T09:40:53.977Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q5481392",
@@ -315,7 +317,8 @@
         "hash": "sha256:d0bade04e18b9908c998ef2ab5424e0d3b02925bacbab77b1ca3bb5ebe772aed",
         "checkedAt": "2026-08-21T09:40:54.268Z"
       },
-      "validatedAt": "2026-08-21T09:40:54.268Z"
+      "validatedAt": "2026-08-21T09:40:54.268Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q7764269",
@@ -335,7 +338,248 @@
         "hash": "sha256:f04fd15db9158f3a4b47e7a7bee16809be50ae9ee554d2bdb585c84120f5aafc",
         "checkedAt": "2026-08-21T09:40:54.634Z"
       },
-      "validatedAt": "2026-08-21T09:40:54.634Z"
+      "validatedAt": "2026-08-21T09:40:54.634Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-wd-q1171138",
+      "originalTitle": "Das fliegende Klassenzimmer",
+      "year": 1954,
+      "pageUrl": "https://www.mfa-film.de/kino/id/das-fliegende-klassenzimmer-1954/",
+      "imageUrl": "https://www.mfa-film.de/fileadmin/user_upload/filme/Das_fliegende_Klassenzimmer_1954/Fliegende_Klassenzimmer_1954_Filmbild4.jpg",
+      "source": "MFA Film",
+      "match": "distributor page + exact title and year + Filmbild",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 497768,
+        "width": 1920,
+        "height": 1358,
+        "format": "jpeg",
+        "aspectRatio": 1.4138438880706923,
+        "hash": "sha256:a48a71e13815042f184df389ec33a2d1b1586f96492d6dac17b16e0e83ea9a03",
+        "checkedAt": "2026-08-21T12:10:07.336Z"
+      },
+      "validatedAt": "2026-08-21T12:10:07.336Z"
+    },
+    {
+      "watchId": "nen-wd-q543486",
+      "originalTitle": "Lucky Luke",
+      "year": 1971,
+      "pageUrl": "https://www.cinematheque.fr/film/57991.html",
+      "imageUrl": "https://www.cinematheque.fr/media/01-films/lucky-luke-daisy-town-goscinny-et-morris.jpg",
+      "source": "Cinémathèque française",
+      "match": "film archive page + exact work and production context",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 359112,
+        "width": 1200,
+        "height": 675,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:49b4d2d9807e528b0b9dc4f7829b0dc3ff5cb544db2c03f0b77149146ffa081d",
+        "checkedAt": "2026-08-21T12:10:07.630Z"
+      },
+      "validatedAt": "2026-08-21T12:10:07.630Z"
+    },
+    {
+      "watchId": "nen-wd-q370313",
+      "originalTitle": "दिल चाहता है",
+      "year": 2001,
+      "pageUrl": "https://www.imdb.com/title/tt0292490/mediaviewer/rm4027408385/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BOTIxNmJiMWMtMzUzNS00YzY3LTkxZmYtYzBiZDU2ZjY1NTM4XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+      "source": "IMDb",
+      "match": "exact IMDb ID tt0292490 + year + media viewer still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 57638,
+        "width": 1000,
+        "height": 417,
+        "format": "jpeg",
+        "aspectRatio": 2.3980815347721824,
+        "hash": "sha256:2f62092ec9a8a3ebfe0ef32c61dfb7fa5443a375a03820cad847879fad2dff4a",
+        "checkedAt": "2026-08-21T12:10:07.906Z"
+      },
+      "validatedAt": "2026-08-21T12:10:07.906Z"
+    },
+    {
+      "watchId": "nen-wd-q1673902",
+      "originalTitle": "इश्क विश्क",
+      "year": 2003,
+      "pageUrl": "https://www.netflix.com/title/80182656",
+      "imageUrl": "https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABR8wp3nponVuvG6oJox4qd2-n0zyFRMi5ifsEyTFxJnf2vNFrlsi8ABhukNh1ouXiTOAb8XB3aUB5vEmU3O6IPCxEysEWovhLvd3.jpg?r=41d",
+      "source": "Netflix",
+      "match": "official title page + exact film and year context",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 503342,
+        "width": 2400,
+        "height": 1350,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:080de34dccd78319fa240e6b2a36c5875c64f79488608357ad0aa5c4e38b3e44",
+        "checkedAt": "2026-08-21T12:10:10.546Z"
+      },
+      "validatedAt": "2026-08-21T12:10:10.547Z"
+    },
+    {
+      "watchId": "nen-wd-q3280982",
+      "originalTitle": "The Little Bear Movie",
+      "year": 2001,
+      "pageUrl": "https://telemagazyn.pl/maly-mis-2001/pr/1022159",
+      "imageUrl": "https://d-tv.ppstatic.pl/images/tv-tv/9e/86/prg777388_831688311_large.jpg",
+      "source": "Telemagazyn",
+      "match": "exact film page + year + identified scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 261734,
+        "width": 960,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.3333333333333333,
+        "hash": "sha256:fbf0e88bc942e12ce41f4e565f618f9be34409001ec734b9b42948382dbda5eb",
+        "checkedAt": "2026-08-21T12:10:11.276Z"
+      },
+      "validatedAt": "2026-08-21T12:10:11.276Z"
+    },
+    {
+      "watchId": "nen-wd-q3231050",
+      "originalTitle": "Care Bears: Journey to Joke-a-lot",
+      "year": 2004,
+      "pageUrl": "https://www.netflix.com/title/70008259",
+      "imageUrl": "https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABYyQEk6dxltktVSRnVoazi8247GI7Hv17_IkSENcdwktVYIaFCBQvBUJ2YSOEu_0Ajct0c9Ypihqx5IgLSRx6bK3mUTB7JhCruf6.jpg?r=8fa",
+      "source": "Netflix",
+      "match": "official title page + exact animated film + year",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 276335,
+        "width": 2400,
+        "height": 1350,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:76df55f107907f7e2201d2b50c71cf54fad30dbf1e5211f5fc5d8a4385cd11e2",
+        "checkedAt": "2026-08-21T12:10:12.497Z"
+      },
+      "validatedAt": "2026-08-21T12:10:12.497Z"
+    },
+    {
+      "watchId": "nen-wd-q804498",
+      "originalTitle": "Blinky Bill",
+      "year": 1992,
+      "pageUrl": "https://www.filmfestival.be/en/film/blinky-bill-the-mischievous-koala",
+      "imageUrl": "https://www.filmfestival.be/volumes/fiona/_1200x630_crop_center-center_82_none/c32b3555-c48b-4146-89e9-80d95bd8b0f0.jpeg?v=1767989373",
+      "source": "Film Fest Gent",
+      "match": "festival film page + exact title + 1992 + still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 138809,
+        "width": 1200,
+        "height": 630,
+        "format": "jpeg",
+        "aspectRatio": 1.9047619047619047,
+        "hash": "sha256:8e6d7e000e4b58e3453bc0115df09f1083c7f41d548687c74be024a636742519",
+        "checkedAt": "2026-08-21T12:10:12.869Z"
+      },
+      "validatedAt": "2026-08-21T12:10:12.869Z"
+    },
+    {
+      "watchId": "nen-wd-q5228000",
+      "originalTitle": "Manuelita",
+      "year": 2000,
+      "pageUrl": "https://www.turtledex.com/en/manuelita-2/",
+      "imageUrl": "https://www.turtledex.com/grafiki/filmy/Manuelita_09.jpg",
+      "source": "Turtle Dex",
+      "match": "dedicated film page + exact title + identified animated scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 109815,
+        "width": 1280,
+        "height": 696,
+        "format": "jpeg",
+        "aspectRatio": 1.839080459770115,
+        "hash": "sha256:0d1957a0df2cb6c764c290cd0e47ce1b3c778e8679ee86029273ce2f6e0857bb",
+        "checkedAt": "2026-08-21T12:10:13.493Z"
+      },
+      "validatedAt": "2026-08-21T12:10:13.493Z"
+    },
+    {
+      "watchId": "nen-wd-q61358935",
+      "originalTitle": "Posledice",
+      "year": 2018,
+      "pageUrl": "https://bsf.si/en/movie/posledice/",
+      "imageUrl": "https://bsf.si/media/publicity/image/32/thumbnails/32563d14a5fea35d2a3e3c98ee3f5603074a0bc6.jpeg.1920x1080_q95.jpg",
+      "source": "Slovenian Film Database",
+      "match": "national film database + exact title and year + publicity still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 300764,
+        "width": 1792,
+        "height": 1080,
+        "format": "jpeg",
+        "aspectRatio": 1.6592592592592592,
+        "hash": "sha256:b6151981304d66e7c8eb60cf506bed7310ee35f7ede05d431f33fbe095143e4e",
+        "checkedAt": "2026-08-21T12:10:14.186Z"
+      },
+      "validatedAt": "2026-08-21T12:10:14.186Z"
+    },
+    {
+      "watchId": "nen-wd-q2241055",
+      "originalTitle": "Verder dan de maan",
+      "year": 2003,
+      "pageUrl": "https://www.filmdienst.de/film/details/524220/weiter-als-der-mond",
+      "imageUrl": "https://www.filmdienst.de/bild/filmdb/358980/weiter-als-der-mond-szenenbild-3.jpg?t=1770218590",
+      "source": "Filmdienst",
+      "match": "exact film record + year + Szenenbild",
+      "probe": {
+        "mime": "image/webp",
+        "bytes": 244886,
+        "width": 1000,
+        "height": 667,
+        "format": "webp",
+        "aspectRatio": 1.4992503748125936,
+        "hash": "sha256:1700e8fa3ab532fa8733520ad576a6dfdca67a3e49738fe29b724f0bdf721613",
+        "checkedAt": "2026-08-21T12:10:14.777Z"
+      },
+      "validatedAt": "2026-08-21T12:10:14.777Z"
+    },
+    {
+      "watchId": "nen-wd-q1841367",
+      "originalTitle": "Trapito",
+      "year": 1975,
+      "pageUrl": "https://mubi.com/es/us/films/trapito",
+      "imageUrl": "https://images.mubicdn.net/images/film/298623/cache-657959-1745498248/image-w1280.jpg",
+      "source": "MUBI",
+      "match": "exact film page + year + still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 128111,
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:cb07039906f1fc4eead898e1fdb25f8ca42a1e25d681bd3b26868eec88e8743a",
+        "checkedAt": "2026-08-21T12:10:15.009Z"
+      },
+      "validatedAt": "2026-08-21T12:10:15.009Z"
+    },
+    {
+      "watchId": "nen-wd-q18709309",
+      "originalTitle": "Las aventuras de Hijitus",
+      "year": 1973,
+      "pageUrl": "https://tn.com.ar/sociedad/las-aventuras-de-super-hijitus-el-primer-dibujo-animado-argentino-en-tv_379419/",
+      "imageUrl": "https://tn.com.ar/resizer/v2/nacio-en-1955-hijitus-aparecio-por-primera-vez-en-la-revista-billiken-VEJ2LBL7UAIZ6VOXX6C2XABF4Y.jpg?auth=a956a85d09958be9be799a51e92dd8046bb135da5ccc054cfa9bad11f788240b&width=1440",
+      "source": "TN",
+      "match": "exact Argentine series article + character and series identification",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 101271,
+        "width": 1440,
+        "height": 811,
+        "format": "jpeg",
+        "aspectRatio": 1.7755856966707768,
+        "hash": "sha256:37e83970fd2ddb6b8bc94522eeeeedd12682af9afd8477f7930b108c283adec5",
+        "checkedAt": "2026-08-21T12:10:15.587Z"
+      },
+      "validatedAt": "2026-08-21T12:10:15.587Z"
     }
   ],
   "rejectedItems": [
@@ -355,9 +599,9 @@
         "format": "jpeg",
         "aspectRatio": 1.217201166180758,
         "hash": "sha256:1d1414cc4f0b78af26e76569f7c938f0f29e9d7e04ce6cf412233f144a0f4b97",
-        "checkedAt": "2026-08-21T09:40:50.179Z"
+        "checkedAt": "2026-08-21T12:10:02.625Z"
       },
-      "validatedAt": "2026-08-21T09:40:50.181Z",
+      "validatedAt": "2026-08-21T12:10:02.629Z",
       "reasons": [
         "неподходящие пропорции: 1.217"
       ]
@@ -371,7 +615,7 @@
       "source": "AceShowbiz",
       "match": "film page + exact title + year + still URL",
       "probe": null,
-      "validatedAt": "2026-08-21T09:40:50.241Z",
+      "validatedAt": "2026-08-21T12:10:02.802Z",
       "reasons": [
         "изображение недоступно: HTTP 403"
       ]
@@ -392,9 +636,9 @@
         "format": "jpeg",
         "aspectRatio": 1.3333333333333333,
         "hash": "sha256:145b39932645fce41abfc7df2f6ebbf56fc8513491ff4180736fcd6af291b6b8",
-        "checkedAt": "2026-08-21T09:40:50.559Z"
+        "checkedAt": "2026-08-21T12:10:03.115Z"
       },
-      "validatedAt": "2026-08-21T09:40:50.559Z",
+      "validatedAt": "2026-08-21T12:10:03.115Z",
       "reasons": [
         "ширина меньше 800 px: 704"
       ]
@@ -415,9 +659,9 @@
         "format": "jpeg",
         "aspectRatio": 1.3333333333333333,
         "hash": "sha256:0dc2f8e541f28ffa12c88a758d667a3f0191a152a32ff663ebe51a6a222c0184",
-        "checkedAt": "2026-08-21T09:40:51.281Z"
+        "checkedAt": "2026-08-21T12:10:04.075Z"
       },
-      "validatedAt": "2026-08-21T09:40:51.281Z",
+      "validatedAt": "2026-08-21T12:10:04.075Z",
       "reasons": [
         "ширина меньше 800 px: 640"
       ]
@@ -438,9 +682,9 @@
         "format": "jpeg",
         "aspectRatio": 1.25,
         "hash": "sha256:885baf65ec7d5ea8a0b182f0e2292d5737fb20d48359d362659147494a917fd8",
-        "checkedAt": "2026-08-21T09:40:51.813Z"
+        "checkedAt": "2026-08-21T12:10:04.715Z"
       },
-      "validatedAt": "2026-08-21T09:40:51.813Z",
+      "validatedAt": "2026-08-21T12:10:04.715Z",
       "reasons": [
         "ширина меньше 800 px: 720",
         "неподходящие пропорции: 1.250"
@@ -455,7 +699,7 @@
       "source": "elDiario.es",
       "match": "production article + exact title + described film image",
       "probe": null,
-      "validatedAt": "2026-08-21T09:40:51.813Z",
+      "validatedAt": "2026-08-21T12:10:04.715Z",
       "reasons": [
         "URL содержит признак неподходящего типа изображения"
       ]
@@ -469,7 +713,7 @@
       "source": "Haut et Court",
       "match": "official distributor page + exact film + production still",
       "probe": null,
-      "validatedAt": "2026-08-21T09:40:52.724Z",
+      "validatedAt": "2026-08-21T12:10:05.304Z",
       "reasons": [
         "изображение недоступно: HTTP 404"
       ]
@@ -483,9 +727,79 @@
       "source": "Unifrance",
       "match": "national cinema body page + exact animated series + 2009",
       "probe": null,
-      "validatedAt": "2026-08-21T09:40:53.290Z",
+      "validatedAt": "2026-08-21T12:10:05.642Z",
       "reasons": [
         "изображение недоступно: HTTP 403"
+      ]
+    },
+    {
+      "watchId": "nen-wd-q27898048",
+      "originalTitle": "Das Pferd auf dem Balkon",
+      "year": 2012,
+      "pageUrl": "https://www.austrianfilms.com/film/das_pferd_auf_dem_balkon",
+      "imageUrl": "https://www.austrianfilms.com/jart/prj3/afc-new/images/img-db/1322552853667.jpg",
+      "source": "Austrian Films",
+      "match": "national film catalog + exact title + year + credited still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 226696,
+        "width": 604,
+        "height": 465,
+        "format": "jpeg",
+        "aspectRatio": 1.2989247311827956,
+        "hash": "sha256:e966f3e39d37dcb761988cee53631ab83d5705442763a77d38c7dcb477f3c692",
+        "checkedAt": "2026-08-21T12:10:06.123Z"
+      },
+      "validatedAt": "2026-08-21T12:10:06.123Z",
+      "reasons": [
+        "ширина меньше 800 px: 604",
+        "неподходящие пропорции: 1.299"
+      ]
+    },
+    {
+      "watchId": "nen-wd-q489149",
+      "originalTitle": "A High Wind in Jamaica",
+      "year": 1965,
+      "pageUrl": "https://www.listal.com/viewimage/22144306",
+      "imageUrl": "https://ilarge.lisimg.com/image/22144306/740full-a-high-wind-in-jamaica-photo.jpg",
+      "source": "Listal",
+      "match": "dedicated image page + exact title + 1965 + film still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 308823,
+        "width": 954,
+        "height": 740,
+        "format": "jpeg",
+        "aspectRatio": 1.2891891891891891,
+        "hash": "sha256:fe1b21601731d7cbbbb6d1a0a89b77b23914059fce36e401ae09df73bcc1c7de",
+        "checkedAt": "2026-08-21T12:10:06.668Z"
+      },
+      "validatedAt": "2026-08-21T12:10:06.668Z",
+      "reasons": [
+        "неподходящие пропорции: 1.289"
+      ]
+    },
+    {
+      "watchId": "nen-wd-q30325848",
+      "originalTitle": "Mi mundial",
+      "year": 2017,
+      "pageUrl": "https://www.moviemeter.nl/film/1120010",
+      "imageUrl": "https://image.tmdb.org/t/p/w780/lEUNWSl8sR4mntMexLgJ45PHehZ.jpg",
+      "source": "MovieMeter",
+      "match": "exact film page + year + horizontal film still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 40486,
+        "width": 780,
+        "height": 439,
+        "format": "jpeg",
+        "aspectRatio": 1.7767653758542141,
+        "hash": "sha256:1159bcc361e55815edac27c0358bcfbbbffcffc8d97fe8e2851099a75943a8e5",
+        "checkedAt": "2026-08-21T12:10:13.071Z"
+      },
+      "validatedAt": "2026-08-21T12:10:13.071Z",
+      "reasons": [
+        "ширина меньше 800 px: 780"
       ]
     }
   ]

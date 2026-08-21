@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T09:42:12.050Z",
+  "generatedAt": "2026-08-21T12:10:40.295Z",
   "mode": "read-only; no network image fetches; catalog unchanged",
   "catalogPath": "data/source/watch-v2.json",
   "total": 2074,
@@ -12,16 +12,16 @@
   },
   "summary": {
     "statusCounts": {
-      "A": 1169,
+      "A": 1181,
       "B": 325,
       "C": 206,
-      "D": 102,
+      "D": 90,
       "E": 272
     },
-    "confirmedGoodStills": 1169,
+    "confirmedGoodStills": 1181,
     "questionableImages": 325,
-    "noConfirmedStill": 905,
-    "noImageAtAll": 580,
+    "noConfirmedStill": 893,
+    "noImageAtAll": 568,
     "importedMailCoversStoredAsFrames": 325,
     "idCoverage": {
       "tmdbMovie": 159,
@@ -34,13 +34,13 @@
       "anyExact": 1371
     },
     "sourcePotential": {
-      "tmdb": 114,
-      "kinopoisk": 102,
-      "wikimedia": 308,
-      "imdbAsBridge": 269,
-      "nenEditorialAlreadyMatched": 1169
+      "tmdb": 102,
+      "kinopoisk": 90,
+      "wikimedia": 296,
+      "imdbAsBridge": 257,
+      "nenEditorialAlreadyMatched": 1181
     },
-    "automaticallyResearchable": 463
+    "automaticallyResearchable": 451
   },
   "architecture": {
     "existingUtility": "scripts/enrich-watch-frames-from-nen.mjs",
@@ -51806,8 +51806,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://tn.com.ar/resizer/v2/nacio-en-1955-hijitus-aparecio-por-primera-vez-en-la-revista-billiken-VEJ2LBL7UAIZ6VOXX6C2XABF4Y.jpg?auth=a956a85d09958be9be799a51e92dd8046bb135da5ccc054cfa9bad11f788240b&width=1440",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://tn.com.ar/sociedad/las-aventuras-de-super-hijitus-el-primer-dibujo-animado-argentino-en-tv_379419/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 101271,
+                "width": 1440,
+                "height": 811,
+                "format": "jpeg",
+                "aspectRatio": 1.7755856966707768,
+                "hash": "sha256:37e83970fd2ddb6b8bc94522eeeeedd12682af9afd8477f7930b108c283adec5",
+                "checkedAt": "2026-08-21T12:10:15.587Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -51834,10 +51857,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://tn.com.ar/resizer/v2/nacio-en-1955-hijitus-aparecio-por-primera-vez-en-la-revista-billiken-VEJ2LBL7UAIZ6VOXX6C2XABF4Y.jpg?auth=a956a85d09958be9be799a51e92dd8046bb135da5ccc054cfa9bad11f788240b&width=1440",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://tn.com.ar/sociedad/las-aventuras-de-super-hijitus-el-primer-dibujo-animado-argentino-en-tv_379419/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 101271,
+                "width": 1440,
+                "height": 811,
+                "format": "jpeg",
+                "aspectRatio": 1.7755856966707768,
+                "hash": "sha256:37e83970fd2ddb6b8bc94522eeeeedd12682af9afd8477f7930b108c283adec5",
+                "checkedAt": "2026-08-21T12:10:15.587Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://tn.com.ar/sociedad/las-aventuras-de-super-hijitus-el-primer-dibujo-animado-argentino-en-tv_379419/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 101271,
+              "width": 1440,
+              "height": 811,
+              "format": "jpeg",
+              "aspectRatio": 1.7755856966707768,
+              "hash": "sha256:37e83970fd2ddb6b8bc94522eeeeedd12682af9afd8477f7930b108c283adec5",
+              "checkedAt": "2026-08-21T12:10:15.587Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q1841367",
@@ -51857,8 +51921,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://images.mubicdn.net/images/film/298623/cache-657959-1745498248/image-w1280.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://mubi.com/es/us/films/trapito",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 128111,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:cb07039906f1fc4eead898e1fdb25f8ca42a1e25d681bd3b26868eec88e8743a",
+                "checkedAt": "2026-08-21T12:10:15.009Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -51885,10 +51972,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://images.mubicdn.net/images/film/298623/cache-657959-1745498248/image-w1280.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://mubi.com/es/us/films/trapito",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 128111,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:cb07039906f1fc4eead898e1fdb25f8ca42a1e25d681bd3b26868eec88e8743a",
+                "checkedAt": "2026-08-21T12:10:15.009Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://mubi.com/es/us/films/trapito",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 128111,
+              "width": 1280,
+              "height": 720,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:cb07039906f1fc4eead898e1fdb25f8ca42a1e25d681bd3b26868eec88e8743a",
+              "checkedAt": "2026-08-21T12:10:15.009Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q5033546",
@@ -53825,8 +53953,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.mfa-film.de/fileadmin/user_upload/filme/Das_fliegende_Klassenzimmer_1954/Fliegende_Klassenzimmer_1954_Filmbild4.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.mfa-film.de/kino/id/das-fliegende-klassenzimmer-1954/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 497768,
+                "width": 1920,
+                "height": 1358,
+                "format": "jpeg",
+                "aspectRatio": 1.4138438880706923,
+                "hash": "sha256:a48a71e13815042f184df389ec33a2d1b1586f96492d6dac17b16e0e83ea9a03",
+                "checkedAt": "2026-08-21T12:10:07.336Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -53853,10 +54004,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.mfa-film.de/fileadmin/user_upload/filme/Das_fliegende_Klassenzimmer_1954/Fliegende_Klassenzimmer_1954_Filmbild4.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.mfa-film.de/kino/id/das-fliegende-klassenzimmer-1954/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 497768,
+                "width": 1920,
+                "height": 1358,
+                "format": "jpeg",
+                "aspectRatio": 1.4138438880706923,
+                "hash": "sha256:a48a71e13815042f184df389ec33a2d1b1586f96492d6dac17b16e0e83ea9a03",
+                "checkedAt": "2026-08-21T12:10:07.336Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.mfa-film.de/kino/id/das-fliegende-klassenzimmer-1954/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 497768,
+              "width": 1920,
+              "height": 1358,
+              "format": "jpeg",
+              "aspectRatio": 1.4138438880706923,
+              "hash": "sha256:a48a71e13815042f184df389ec33a2d1b1586f96492d6dac17b16e0e83ea9a03",
+              "checkedAt": "2026-08-21T12:10:07.336Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q1197386",
@@ -58844,8 +59036,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://bsf.si/media/publicity/image/32/thumbnails/32563d14a5fea35d2a3e3c98ee3f5603074a0bc6.jpeg.1920x1080_q95.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://bsf.si/en/movie/posledice/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 300764,
+                "width": 1792,
+                "height": 1080,
+                "format": "jpeg",
+                "aspectRatio": 1.6592592592592592,
+                "hash": "sha256:b6151981304d66e7c8eb60cf506bed7310ee35f7ede05d431f33fbe095143e4e",
+                "checkedAt": "2026-08-21T12:10:14.186Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -58872,10 +59087,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://bsf.si/media/publicity/image/32/thumbnails/32563d14a5fea35d2a3e3c98ee3f5603074a0bc6.jpeg.1920x1080_q95.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://bsf.si/en/movie/posledice/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 300764,
+                "width": 1792,
+                "height": 1080,
+                "format": "jpeg",
+                "aspectRatio": 1.6592592592592592,
+                "hash": "sha256:b6151981304d66e7c8eb60cf506bed7310ee35f7ede05d431f33fbe095143e4e",
+                "checkedAt": "2026-08-21T12:10:14.186Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://bsf.si/en/movie/posledice/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 300764,
+              "width": 1792,
+              "height": 1080,
+              "format": "jpeg",
+              "aspectRatio": 1.6592592592592592,
+              "hash": "sha256:b6151981304d66e7c8eb60cf506bed7310ee35f7ede05d431f33fbe095143e4e",
+              "checkedAt": "2026-08-21T12:10:14.186Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q29569570",
@@ -59673,8 +59929,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.turtledex.com/grafiki/filmy/Manuelita_09.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.turtledex.com/en/manuelita-2/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 109815,
+                "width": 1280,
+                "height": 696,
+                "format": "jpeg",
+                "aspectRatio": 1.839080459770115,
+                "hash": "sha256:0d1957a0df2cb6c764c290cd0e47ce1b3c778e8679ee86029273ce2f6e0857bb",
+                "checkedAt": "2026-08-21T12:10:13.493Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -59701,10 +59980,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.turtledex.com/grafiki/filmy/Manuelita_09.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.turtledex.com/en/manuelita-2/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 109815,
+                "width": 1280,
+                "height": 696,
+                "format": "jpeg",
+                "aspectRatio": 1.839080459770115,
+                "hash": "sha256:0d1957a0df2cb6c764c290cd0e47ce1b3c778e8679ee86029273ce2f6e0857bb",
+                "checkedAt": "2026-08-21T12:10:13.493Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.turtledex.com/en/manuelita-2/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 109815,
+              "width": 1280,
+              "height": 696,
+              "format": "jpeg",
+              "aspectRatio": 1.839080459770115,
+              "hash": "sha256:0d1957a0df2cb6c764c290cd0e47ce1b3c778e8679ee86029273ce2f6e0857bb",
+              "checkedAt": "2026-08-21T12:10:13.493Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q109015317",
@@ -60617,8 +60937,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.filmfestival.be/volumes/fiona/_1200x630_crop_center-center_82_none/c32b3555-c48b-4146-89e9-80d95bd8b0f0.jpeg?v=1767989373",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.filmfestival.be/en/film/blinky-bill-the-mischievous-koala",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 138809,
+                "width": 1200,
+                "height": 630,
+                "format": "jpeg",
+                "aspectRatio": 1.9047619047619047,
+                "hash": "sha256:8e6d7e000e4b58e3453bc0115df09f1083c7f41d548687c74be024a636742519",
+                "checkedAt": "2026-08-21T12:10:12.869Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -60645,10 +60988,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.filmfestival.be/volumes/fiona/_1200x630_crop_center-center_82_none/c32b3555-c48b-4146-89e9-80d95bd8b0f0.jpeg?v=1767989373",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.filmfestival.be/en/film/blinky-bill-the-mischievous-koala",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 138809,
+                "width": 1200,
+                "height": 630,
+                "format": "jpeg",
+                "aspectRatio": 1.9047619047619047,
+                "hash": "sha256:8e6d7e000e4b58e3453bc0115df09f1083c7f41d548687c74be024a636742519",
+                "checkedAt": "2026-08-21T12:10:12.869Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.filmfestival.be/en/film/blinky-bill-the-mischievous-koala",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 138809,
+              "width": 1200,
+              "height": 630,
+              "format": "jpeg",
+              "aspectRatio": 1.9047619047619047,
+              "hash": "sha256:8e6d7e000e4b58e3453bc0115df09f1083c7f41d548687c74be024a636742519",
+              "checkedAt": "2026-08-21T12:10:12.869Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q6691803",
@@ -66257,8 +66641,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://d-tv.ppstatic.pl/images/tv-tv/9e/86/prg777388_831688311_large.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://telemagazyn.pl/maly-mis-2001/pr/1022159",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 261734,
+                "width": 960,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.3333333333333333,
+                "hash": "sha256:fbf0e88bc942e12ce41f4e565f618f9be34409001ec734b9b42948382dbda5eb",
+                "checkedAt": "2026-08-21T12:10:11.276Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -66285,10 +66692,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://d-tv.ppstatic.pl/images/tv-tv/9e/86/prg777388_831688311_large.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://telemagazyn.pl/maly-mis-2001/pr/1022159",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 261734,
+                "width": 960,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.3333333333333333,
+                "hash": "sha256:fbf0e88bc942e12ce41f4e565f618f9be34409001ec734b9b42948382dbda5eb",
+                "checkedAt": "2026-08-21T12:10:11.276Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://telemagazyn.pl/maly-mis-2001/pr/1022159",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 261734,
+              "width": 960,
+              "height": 720,
+              "format": "jpeg",
+              "aspectRatio": 1.3333333333333333,
+              "hash": "sha256:fbf0e88bc942e12ce41f4e565f618f9be34409001ec734b9b42948382dbda5eb",
+              "checkedAt": "2026-08-21T12:10:11.276Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q610262",
@@ -66506,8 +66954,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABYyQEk6dxltktVSRnVoazi8247GI7Hv17_IkSENcdwktVYIaFCBQvBUJ2YSOEu_0Ajct0c9Ypihqx5IgLSRx6bK3mUTB7JhCruf6.jpg?r=8fa",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.netflix.com/title/70008259",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 276335,
+                "width": 2400,
+                "height": 1350,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:76df55f107907f7e2201d2b50c71cf54fad30dbf1e5211f5fc5d8a4385cd11e2",
+                "checkedAt": "2026-08-21T12:10:12.497Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -66534,10 +67005,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABYyQEk6dxltktVSRnVoazi8247GI7Hv17_IkSENcdwktVYIaFCBQvBUJ2YSOEu_0Ajct0c9Ypihqx5IgLSRx6bK3mUTB7JhCruf6.jpg?r=8fa",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.netflix.com/title/70008259",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 276335,
+                "width": 2400,
+                "height": 1350,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:76df55f107907f7e2201d2b50c71cf54fad30dbf1e5211f5fc5d8a4385cd11e2",
+                "checkedAt": "2026-08-21T12:10:12.497Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.netflix.com/title/70008259",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 276335,
+              "width": 2400,
+              "height": 1350,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:76df55f107907f7e2201d2b50c71cf54fad30dbf1e5211f5fc5d8a4385cd11e2",
+              "checkedAt": "2026-08-21T12:10:12.497Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q1847868",
@@ -74096,8 +74608,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.filmdienst.de/bild/filmdb/358980/weiter-als-der-mond-szenenbild-3.jpg?t=1770218590",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.filmdienst.de/film/details/524220/weiter-als-der-mond",
+              "probe": {
+                "mime": "image/webp",
+                "bytes": 244886,
+                "width": 1000,
+                "height": 667,
+                "format": "webp",
+                "aspectRatio": 1.4992503748125936,
+                "hash": "sha256:1700e8fa3ab532fa8733520ad576a6dfdca67a3e49738fe29b724f0bdf721613",
+                "checkedAt": "2026-08-21T12:10:14.777Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -74124,10 +74659,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.filmdienst.de/bild/filmdb/358980/weiter-als-der-mond-szenenbild-3.jpg?t=1770218590",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.filmdienst.de/film/details/524220/weiter-als-der-mond",
+              "probe": {
+                "mime": "image/webp",
+                "bytes": 244886,
+                "width": 1000,
+                "height": 667,
+                "format": "webp",
+                "aspectRatio": 1.4992503748125936,
+                "hash": "sha256:1700e8fa3ab532fa8733520ad576a6dfdca67a3e49738fe29b724f0bdf721613",
+                "checkedAt": "2026-08-21T12:10:14.777Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.filmdienst.de/film/details/524220/weiter-als-der-mond",
+            "probe": {
+              "mime": "image/webp",
+              "bytes": 244886,
+              "width": 1000,
+              "height": 667,
+              "format": "webp",
+              "aspectRatio": 1.4992503748125936,
+              "hash": "sha256:1700e8fa3ab532fa8733520ad576a6dfdca67a3e49738fe29b724f0bdf721613",
+              "checkedAt": "2026-08-21T12:10:14.777Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q785058",
@@ -77137,8 +77713,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.cinematheque.fr/media/01-films/lucky-luke-daisy-town-goscinny-et-morris.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.cinematheque.fr/film/57991.html",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 359112,
+                "width": 1200,
+                "height": 675,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:49b4d2d9807e528b0b9dc4f7829b0dc3ff5cb544db2c03f0b77149146ffa081d",
+                "checkedAt": "2026-08-21T12:10:07.630Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -77165,10 +77764,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.cinematheque.fr/media/01-films/lucky-luke-daisy-town-goscinny-et-morris.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.cinematheque.fr/film/57991.html",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 359112,
+                "width": 1200,
+                "height": 675,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:49b4d2d9807e528b0b9dc4f7829b0dc3ff5cb544db2c03f0b77149146ffa081d",
+                "checkedAt": "2026-08-21T12:10:07.630Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.cinematheque.fr/film/57991.html",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 359112,
+              "width": 1200,
+              "height": 675,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:49b4d2d9807e528b0b9dc4f7829b0dc3ff5cb544db2c03f0b77149146ffa081d",
+              "checkedAt": "2026-08-21T12:10:07.630Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q1491010",
@@ -80214,8 +80854,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BOTIxNmJiMWMtMzUzNS00YzY3LTkxZmYtYzBiZDU2ZjY1NTM4XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0292490/mediaviewer/rm4027408385/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 57638,
+                "width": 1000,
+                "height": 417,
+                "format": "jpeg",
+                "aspectRatio": 2.3980815347721824,
+                "hash": "sha256:2f62092ec9a8a3ebfe0ef32c61dfb7fa5443a375a03820cad847879fad2dff4a",
+                "checkedAt": "2026-08-21T12:10:07.906Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -80242,10 +80905,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BOTIxNmJiMWMtMzUzNS00YzY3LTkxZmYtYzBiZDU2ZjY1NTM4XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0292490/mediaviewer/rm4027408385/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 57638,
+                "width": 1000,
+                "height": 417,
+                "format": "jpeg",
+                "aspectRatio": 2.3980815347721824,
+                "hash": "sha256:2f62092ec9a8a3ebfe0ef32c61dfb7fa5443a375a03820cad847879fad2dff4a",
+                "checkedAt": "2026-08-21T12:10:07.906Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt0292490/mediaviewer/rm4027408385/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 57638,
+              "width": 1000,
+              "height": 417,
+              "format": "jpeg",
+              "aspectRatio": 2.3980815347721824,
+              "hash": "sha256:2f62092ec9a8a3ebfe0ef32c61dfb7fa5443a375a03820cad847879fad2dff4a",
+              "checkedAt": "2026-08-21T12:10:07.906Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q1094839",
@@ -80298,8 +81002,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABR8wp3nponVuvG6oJox4qd2-n0zyFRMi5ifsEyTFxJnf2vNFrlsi8ABhukNh1ouXiTOAb8XB3aUB5vEmU3O6IPCxEysEWovhLvd3.jpg?r=41d",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.netflix.com/title/80182656",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 503342,
+                "width": 2400,
+                "height": 1350,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:080de34dccd78319fa240e6b2a36c5875c64f79488608357ad0aa5c4e38b3e44",
+                "checkedAt": "2026-08-21T12:10:10.546Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -80326,10 +81053,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABR8wp3nponVuvG6oJox4qd2-n0zyFRMi5ifsEyTFxJnf2vNFrlsi8ABhukNh1ouXiTOAb8XB3aUB5vEmU3O6IPCxEysEWovhLvd3.jpg?r=41d",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.netflix.com/title/80182656",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 503342,
+                "width": 2400,
+                "height": 1350,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:080de34dccd78319fa240e6b2a36c5875c64f79488608357ad0aa5c4e38b3e44",
+                "checkedAt": "2026-08-21T12:10:10.546Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.netflix.com/title/80182656",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 503342,
+              "width": 2400,
+              "height": 1350,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:080de34dccd78319fa240e6b2a36c5875c64f79488608357ad0aa5c4e38b3e44",
+              "checkedAt": "2026-08-21T12:10:10.546Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q431609",

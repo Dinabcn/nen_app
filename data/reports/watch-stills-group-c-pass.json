@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-08-21T00:00:00.000Z",
+  "scope": "tailGroup C only",
+  "baseline": 534,
+  "researched": 30,
+  "confirmedFound": 15,
+  "applied": 12,
+  "manualReview": 0,
+  "technicalRejected": 3,
+  "noResult": 15,
+  "remainingGroupC": 522,
+  "appliedIds": [
+    "nen-wd-q1171138", "nen-wd-q543486", "nen-wd-q370313", "nen-wd-q1673902",
+    "nen-wd-q3280982", "nen-wd-q3231050", "nen-wd-q804498", "nen-wd-q5228000",
+    "nen-wd-q61358935", "nen-wd-q2241055", "nen-wd-q1841367", "nen-wd-q18709309"
+  ],
+  "technicalRejectedItems": [
+    {"id":"nen-wd-q27898048","reason":"604 px; aspect ratio 1.299"},
+    {"id":"nen-wd-q489149","reason":"aspect ratio 1.289"},
+    {"id":"nen-wd-q30325848","reason":"780 px"}
+  ],
+  "noResultIds": [
+    "nen-wd-q4929113", "nen-wd-q3422785", "nen-wd-q2010699", "nen-wd-q21532428",
+    "nen-wd-q5459304", "nen-wd-q2671873", "nen-wd-q459874", "nen-wd-q67656699",
+    "nen-wd-q50414259", "nen-wd-q3354344", "nen-wd-q11996344", "nen-wd-q106956224",
+    "nen-wd-q125938891", "nen-wd-q3212421", "nen-wd-q12306380"
+  ],
+  "sourceResults": {
+    "Netflix": 2,
+    "MFA Film": 1,
+    "Cinémathèque française": 1,
+    "IMDb": 1,
+    "Telemagazyn": 1,
+    "Film Fest Gent": 1,
+    "Turtle Dex": 1,
+    "Slovenian Film Database": 1,
+    "Filmdienst": 1,
+    "MUBI": 1,
+    "TN": 1
+  },
+  "evidence": "data/reports/watch-stills-tail-apply.json"
+}
