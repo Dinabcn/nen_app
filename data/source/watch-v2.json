@@ -18936,7 +18936,10 @@
       "rationale": "Возраст от 4 лет подходит для разговора, который предполагает понимание короткой серии длительностью около 6 минут, включая вопрос о том, какой герой лучше всего умеет признавать свою ошибку. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
     },
     "originalTitle": "Смешарики",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://s2.dmcdn.net/v/2wjU31epMQLL2hWrZ/x1080"
+    }
   },
   {
     "schemaVersion": 2,
@@ -19018,7 +19021,10 @@
       "rationale": "Рекомендация от 4 лет учитывает короткой серии длительностью около 5 минут, эмоциональные повороты и общий ритм, включая вопрос о том, как различия между Барбоскиными помогают семье в трудный момент. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
     },
     "originalTitle": "Барбоскины",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://images.iptv.rt.ru/images/c6tkl1jir4sslltqm6hg.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -20539,7 +20545,10 @@
       "rationale": "Возраст 6+ выбран с учётом истории длительностью 86 минут и последовательности событий, включая вопрос о том, как Герда действует, когда не может рассчитывать на волшебство. Совместный просмотр желателен из-за тем: заключение и сказочные сражения; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Снежная королева: Зазеркалье",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://ctfs.ceskatelevize.cz/img/N72Um9Y0XI52ZnHsrYp2N5d6JMkbmI-v5J3Gq53RHIw/rs%3Afit%3A960%3A540/plain/s3/porady-s3/648868c241ffc69ec8050885/card/12892057989-snehova-kralovna-v-zemi-zrcadel-1714640897.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -21135,7 +21144,10 @@
       "rationale": "С 6 лет легче удерживать истории длительностью 75 минут и мотивы нескольких персонажей, включая вопрос о том, что помогает им довериться друг другу на Луне. Совместный просмотр желателен из-за тем: космические опасности; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Белка и Стрелка: Лунные приключения",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://img.1tv.com/img/2014-05-19/fmt_96_24_styleguidelunnyeprikljucheniyapage23image0002.png"
+    }
   },
   {
     "schemaVersion": 2,
@@ -24870,7 +24882,10 @@
       "maxAge": 15,
       "rationale": "Начиная с 9 лет зритель сможет удержать ритм картины и различить позиции героев; особого внимания требует тема «боевые сцены»."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w1280/aVFx1VtlOxR3v0ADEatalXOvwbu.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -25438,7 +25453,10 @@
       "maxAge": 11,
       "rationale": "Начиная с 5 лет зритель сможет удержать ритм картины и различить позиции героев; особого внимания требует тема «угроза наводнения»."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://files.giga-video.de/fe/38/e3/6bfc034dd47788c46c9f77f03b_cmUgMTIwMCAwA2Y4NmM0NDg0OTcz.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -27222,7 +27240,10 @@
       "maxAge": 16,
       "rationale": "Рекомендация 10+ учитывает длительность и сложность выбора персонажей. После фильма стоит вернуться к теме «насмешки над внешностью»."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://inreviewonline.com/wp-content/uploads/2023/02/dancing-queen-2-cr-Amarcord.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -27649,7 +27670,10 @@
       "maxAge": 15,
       "rationale": "Для возраста 9+ важны не только события, но и мотивы персонажей. Контекст «семейное давление» лучше заранее обозначить ребёнку."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://st1.uvnimg.com/24/47/758d08904956b8aa7d4a2cd8e754/el-jeremias-pelicula-de-nino-genio-mexicana.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -28246,7 +28270,10 @@
       "maxAge": 13,
       "rationale": "Аудитория «Хильда» от 7 лет легче поймёт мотивы персонажей и выдержит наиболее динамичные сцены. Взрослому важно учитывать упоминания: фантастические опасности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.kinder-jugend-filmportal.de/filmbilder/233.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -30199,7 +30226,10 @@
       "maxAge": 13,
       "rationale": "В «Лови волну 2: Волномания» зрителям от 7 лет уже проще удерживать причинно-следственные связи и считывать иронию. Совместный просмотр полезен из-за тем: умеренные жанровые опасности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.sonypicturesanimation.com/sites/default/files/styles/max_1300_x_1300/public/2020-05/su0600.0163_lm_v1_WM.jpg?itok=REJQvYlF"
+    }
   },
   {
     "schemaVersion": 2,
@@ -35603,7 +35633,10 @@
       "Riverdance"
     ],
     "originalTitle": "Riverdance: The Animated Adventure",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://occ-0-8407-2219.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABbQcg6U1cNFrOnTr2wDyTDUiGgHl9PGTk8OCfxgfxW-MZUr-cgzS1A8-mwc4ykrQ4oqJAwVs1FfAJGNJEa5Fcwwuj1ciItA3UUiB8Rmbx2ZXBzXevQUt97D6rRktozU.jpg?r=6b7"
+    }
   },
   {
     "schemaVersion": 2,
@@ -36912,7 +36945,10 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 26 минут на серию, жанры «семейный, приключения, фантастика» и темы «наука», «путешествия» требуют соответствующего внимания и эмоциональной готовности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://photos.tf1.fr/0/0/code-lyoko-s01-e02-le-voir-pour-le-croire-64525814-1737978223-eda8f3-b9057c-0%401x.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -37511,7 +37547,10 @@
       "Остров сокровищ",
       "Treasure Island"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://mafab.hu/static/2019t/87/10/243486_1553851137.8388.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -37882,7 +37921,10 @@
       "Айвенго",
       "Ivanhoe"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://images.mubicdn.net/images/film/286943/cache-616469-1607106568/image-w1280.jpg?size=800x"
+    }
   },
   {
     "schemaVersion": 2,
@@ -39576,7 +39618,10 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 93 минут, жанры «семейный, драма, приключения» и темы «семья», «путешествия» требуют соответствующего внимания и эмоциональной готовности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://images.squarespace-cdn.com/content/v1/5b99e7a2b98a78772c0c32d8/1537247259856-RRW0A1OHDAFZLD3H89SQ/tsba_image1_lg.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -50874,7 +50919,10 @@
       "Nelvana"
     ],
     "originalTitle": "Babar, roi des éléphants",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://static.cinemagia.ro/img/db/movie/28/66/78/babar-king-of-the-elephants-683028l.jpg"
+    }
   },
   {
     "schemaVersion": 2,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T12:57:16.265Z",
+  "generatedAt": "2026-08-21T09:42:12.050Z",
   "mode": "read-only; no network image fetches; catalog unchanged",
   "catalogPath": "data/source/watch-v2.json",
   "total": 2074,
@@ -12,16 +12,16 @@
   },
   "summary": {
     "statusCounts": {
-      "A": 1153,
+      "A": 1169,
       "B": 325,
-      "C": 210,
-      "D": 104,
-      "E": 282
+      "C": 206,
+      "D": 102,
+      "E": 272
     },
-    "confirmedGoodStills": 1153,
+    "confirmedGoodStills": 1169,
     "questionableImages": 325,
-    "noConfirmedStill": 921,
-    "noImageAtAll": 596,
+    "noConfirmedStill": 905,
+    "noImageAtAll": 580,
     "importedMailCoversStoredAsFrames": 325,
     "idCoverage": {
       "tmdbMovie": 159,
@@ -34,13 +34,13 @@
       "anyExact": 1371
     },
     "sourcePotential": {
-      "tmdb": 116,
-      "kinopoisk": 104,
-      "wikimedia": 314,
-      "imdbAsBridge": 271,
-      "nenEditorialAlreadyMatched": 1153
+      "tmdb": 114,
+      "kinopoisk": 102,
+      "wikimedia": 308,
+      "imdbAsBridge": 269,
+      "nenEditorialAlreadyMatched": 1169
     },
-    "automaticallyResearchable": 469
+    "automaticallyResearchable": 463
   },
   "architecture": {
     "existingUtility": "scripts/enrich-watch-frames-from-nen.mjs",
@@ -31049,13 +31049,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://s2.dmcdn.net/v/2wjU31epMQLL2hWrZ/x1080",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.dailymotion.com/video/xt5283",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 179851,
+                "width": 1440,
+                "height": 1080,
+                "format": "jpeg",
+                "aspectRatio": 1.3333333333333333,
+                "hash": "sha256:21013d3ace704df94e6754c53b3fb9d6624b5bdee65098e9f132674645f1379b",
+                "checkedAt": "2026-08-21T09:38:29.643Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://s2.dmcdn.net/v/2wjU31epMQLL2hWrZ/x1080",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.dailymotion.com/video/xt5283",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 179851,
+                "width": 1440,
+                "height": 1080,
+                "format": "jpeg",
+                "aspectRatio": 1.3333333333333333,
+                "hash": "sha256:21013d3ace704df94e6754c53b3fb9d6624b5bdee65098e9f132674645f1379b",
+                "checkedAt": "2026-08-21T09:38:29.643Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.dailymotion.com/video/xt5283",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 179851,
+              "width": 1440,
+              "height": 1080,
+              "format": "jpeg",
+              "aspectRatio": 1.3333333333333333,
+              "hash": "sha256:21013d3ace704df94e6754c53b3fb9d6624b5bdee65098e9f132674645f1379b",
+              "checkedAt": "2026-08-21T09:38:29.643Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-449",
@@ -31101,13 +31165,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://images.iptv.rt.ru/images/c6tkl1jir4sslltqm6hg.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://wink.ru/episodes/barboskiny-sezon-1-seriya-9-year-2011-103952336",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 623651,
+                "width": 1620,
+                "height": 996,
+                "format": "jpeg",
+                "aspectRatio": 1.6265060240963856,
+                "hash": "sha256:e64b7e10d5164c62afc665053434fb3bd17ae95d5586eae409e19475d82b682c",
+                "checkedAt": "2026-08-21T09:38:32.181Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://images.iptv.rt.ru/images/c6tkl1jir4sslltqm6hg.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://wink.ru/episodes/barboskiny-sezon-1-seriya-9-year-2011-103952336",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 623651,
+                "width": 1620,
+                "height": 996,
+                "format": "jpeg",
+                "aspectRatio": 1.6265060240963856,
+                "hash": "sha256:e64b7e10d5164c62afc665053434fb3bd17ae95d5586eae409e19475d82b682c",
+                "checkedAt": "2026-08-21T09:38:32.181Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://wink.ru/episodes/barboskiny-sezon-1-seriya-9-year-2011-103952336",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 623651,
+              "width": 1620,
+              "height": 996,
+              "format": "jpeg",
+              "aspectRatio": 1.6265060240963856,
+              "hash": "sha256:e64b7e10d5164c62afc665053434fb3bd17ae95d5586eae409e19475d82b682c",
+              "checkedAt": "2026-08-21T09:38:32.181Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-451",
@@ -33387,13 +33515,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://ctfs.ceskatelevize.cz/img/N72Um9Y0XI52ZnHsrYp2N5d6JMkbmI-v5J3Gq53RHIw/rs%3Afit%3A960%3A540/plain/s3/porady-s3/648868c241ffc69ec8050885/card/12892057989-snehova-kralovna-v-zemi-zrcadel-1714640897.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.ceskatelevize.cz/porady/12892057989-snehova-kralovna-v-zemi-zrcadel/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 132981,
+                "width": 960,
+                "height": 540,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:f2559826784950b9b504856471e17be578dc8df97e4ae2d33af3fa2b2b3301d7",
+                "checkedAt": "2026-08-21T09:38:33.176Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://ctfs.ceskatelevize.cz/img/N72Um9Y0XI52ZnHsrYp2N5d6JMkbmI-v5J3Gq53RHIw/rs%3Afit%3A960%3A540/plain/s3/porady-s3/648868c241ffc69ec8050885/card/12892057989-snehova-kralovna-v-zemi-zrcadel-1714640897.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.ceskatelevize.cz/porady/12892057989-snehova-kralovna-v-zemi-zrcadel/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 132981,
+                "width": 960,
+                "height": 540,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:f2559826784950b9b504856471e17be578dc8df97e4ae2d33af3fa2b2b3301d7",
+                "checkedAt": "2026-08-21T09:38:33.176Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.ceskatelevize.cz/porady/12892057989-snehova-kralovna-v-zemi-zrcadel/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 132981,
+              "width": 960,
+              "height": 540,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:f2559826784950b9b504856471e17be578dc8df97e4ae2d33af3fa2b2b3301d7",
+              "checkedAt": "2026-08-21T09:38:33.176Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-485",
@@ -34267,13 +34459,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://img.1tv.com/img/2014-05-19/fmt_96_24_styleguidelunnyeprikljucheniyapage23image0002.png",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.1tv.com/announce/13592",
+              "probe": {
+                "mime": "image/png",
+                "bytes": 112473,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:5c0bde74fa1fa6417700905083d2e1ae897332297a581b3d15302daa4bd56efb",
+                "checkedAt": "2026-08-21T09:38:41.441Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://img.1tv.com/img/2014-05-19/fmt_96_24_styleguidelunnyeprikljucheniyapage23image0002.png",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.1tv.com/announce/13592",
+              "probe": {
+                "mime": "image/png",
+                "bytes": 112473,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:5c0bde74fa1fa6417700905083d2e1ae897332297a581b3d15302daa4bd56efb",
+                "checkedAt": "2026-08-21T09:38:41.441Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.1tv.com/announce/13592",
+            "probe": {
+              "mime": "image/png",
+              "bytes": 112473,
+              "width": 1280,
+              "height": 720,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:5c0bde74fa1fa6417700905083d2e1ae897332297a581b3d15302daa4bd56efb",
+              "checkedAt": "2026-08-21T09:38:41.441Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-498",
@@ -38534,13 +38790,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://image.tmdb.org/t/p/w1280/aVFx1VtlOxR3v0ADEatalXOvwbu.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://myltik.com/titles/3777/legenda-o-hej",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 192552,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:c15bd24274104c917c6cce035fb2f0ad4e6cc3c1c5b10d284bac53c2b5eea27d",
+                "checkedAt": "2026-08-21T09:38:07.418Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://image.tmdb.org/t/p/w1280/aVFx1VtlOxR3v0ADEatalXOvwbu.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://myltik.com/titles/3777/legenda-o-hej",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 192552,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:c15bd24274104c917c6cce035fb2f0ad4e6cc3c1c5b10d284bac53c2b5eea27d",
+                "checkedAt": "2026-08-21T09:38:07.418Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://myltik.com/titles/3777/legenda-o-hej",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 192552,
+              "width": 1280,
+              "height": 720,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:c15bd24274104c917c6cce035fb2f0ad4e6cc3c1c5b10d284bac53c2b5eea27d",
+              "checkedAt": "2026-08-21T09:38:07.418Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-580",
@@ -39200,13 +39520,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://files.giga-video.de/fe/38/e3/6bfc034dd47788c46c9f77f03b_cmUgMTIwMCAwA2Y4NmM0NDg0OTcz.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.kino.de/film/der-kleine-rabe-socke-2012/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 129239,
+                "width": 1200,
+                "height": 677,
+                "format": "jpeg",
+                "aspectRatio": 1.7725258493353029,
+                "hash": "sha256:7d0498953e166d44998b505e43ff61889a1ddc932945d31a640b7f1e4cfe2e76",
+                "checkedAt": "2026-08-21T09:38:44.403Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://files.giga-video.de/fe/38/e3/6bfc034dd47788c46c9f77f03b_cmUgMTIwMCAwA2Y4NmM0NDg0OTcz.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.kino.de/film/der-kleine-rabe-socke-2012/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 129239,
+                "width": 1200,
+                "height": 677,
+                "format": "jpeg",
+                "aspectRatio": 1.7725258493353029,
+                "hash": "sha256:7d0498953e166d44998b505e43ff61889a1ddc932945d31a640b7f1e4cfe2e76",
+                "checkedAt": "2026-08-21T09:38:44.403Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.kino.de/film/der-kleine-rabe-socke-2012/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 129239,
+              "width": 1200,
+              "height": 677,
+              "format": "jpeg",
+              "aspectRatio": 1.7725258493353029,
+              "hash": "sha256:7d0498953e166d44998b505e43ff61889a1ddc932945d31a640b7f1e4cfe2e76",
+              "checkedAt": "2026-08-21T09:38:44.403Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-592",
@@ -41768,13 +42152,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://inreviewonline.com/wp-content/uploads/2023/02/dancing-queen-2-cr-Amarcord.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://inreviewonline.com/2023/02/28/dancing-queen/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 135551,
+                "width": 1150,
+                "height": 651,
+                "format": "jpeg",
+                "aspectRatio": 1.7665130568356375,
+                "hash": "sha256:782bbdca1df72efba1b75bf583cc660e52871963054e9138d33d796ceaa578fb",
+                "checkedAt": "2026-08-21T09:38:43.601Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://inreviewonline.com/wp-content/uploads/2023/02/dancing-queen-2-cr-Amarcord.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://inreviewonline.com/2023/02/28/dancing-queen/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 135551,
+                "width": 1150,
+                "height": 651,
+                "format": "jpeg",
+                "aspectRatio": 1.7665130568356375,
+                "hash": "sha256:782bbdca1df72efba1b75bf583cc660e52871963054e9138d33d796ceaa578fb",
+                "checkedAt": "2026-08-21T09:38:43.601Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://inreviewonline.com/2023/02/28/dancing-queen/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 135551,
+              "width": 1150,
+              "height": 651,
+              "format": "jpeg",
+              "aspectRatio": 1.7665130568356375,
+              "hash": "sha256:782bbdca1df72efba1b75bf583cc660e52871963054e9138d33d796ceaa578fb",
+              "checkedAt": "2026-08-21T09:38:43.601Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-630",
@@ -42476,13 +42924,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://st1.uvnimg.com/24/47/758d08904956b8aa7d4a2cd8e754/el-jeremias-pelicula-de-nino-genio-mexicana.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.univision.com/entretenimiento/cine-y-series/peliculas-ninos-genio-netfix-vix",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 111428,
+                "width": 1000,
+                "height": 564,
+                "format": "jpeg",
+                "aspectRatio": 1.7730496453900708,
+                "hash": "sha256:655bee97288d419002267b6211be47dc3a568c411363c531e78e66b8327e0f7e",
+                "checkedAt": "2026-08-21T09:38:47.006Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://st1.uvnimg.com/24/47/758d08904956b8aa7d4a2cd8e754/el-jeremias-pelicula-de-nino-genio-mexicana.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.univision.com/entretenimiento/cine-y-series/peliculas-ninos-genio-netfix-vix",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 111428,
+                "width": 1000,
+                "height": 564,
+                "format": "jpeg",
+                "aspectRatio": 1.7730496453900708,
+                "hash": "sha256:655bee97288d419002267b6211be47dc3a568c411363c531e78e66b8327e0f7e",
+                "checkedAt": "2026-08-21T09:38:47.006Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.univision.com/entretenimiento/cine-y-series/peliculas-ninos-genio-netfix-vix",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 111428,
+              "width": 1000,
+              "height": 564,
+              "format": "jpeg",
+              "aspectRatio": 1.7730496453900708,
+              "hash": "sha256:655bee97288d419002267b6211be47dc3a568c411363c531e78e66b8327e0f7e",
+              "checkedAt": "2026-08-21T09:38:47.006Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-639",
@@ -43288,13 +43800,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.kinder-jugend-filmportal.de/filmbilder/233.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.kinder-jugend-filmportal.de/filmkritik.html?a=l&filmid=39",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 74853,
+                "width": 800,
+                "height": 450,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:2474e9ea591827cbe0767a7a190a66719fc35d4fbc608ab02db4c41ee13d5784",
+                "checkedAt": "2026-08-21T09:38:44.962Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.kinder-jugend-filmportal.de/filmbilder/233.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.kinder-jugend-filmportal.de/filmkritik.html?a=l&filmid=39",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 74853,
+                "width": 800,
+                "height": 450,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:2474e9ea591827cbe0767a7a190a66719fc35d4fbc608ab02db4c41ee13d5784",
+                "checkedAt": "2026-08-21T09:38:44.962Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.kinder-jugend-filmportal.de/filmkritik.html?a=l&filmid=39",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 74853,
+              "width": 800,
+              "height": 450,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:2474e9ea591827cbe0767a7a190a66719fc35d4fbc608ab02db4c41ee13d5784",
+              "checkedAt": "2026-08-21T09:38:44.962Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-652",
@@ -46630,13 +47206,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.sonypicturesanimation.com/sites/default/files/styles/max_1300_x_1300/public/2020-05/su0600.0163_lm_v1_WM.jpg?itok=REJQvYlF",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.sonypicturesanimation.com/projects/films/surfs-2-wavemania",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 216703,
+                "width": 1300,
+                "height": 731,
+                "format": "jpeg",
+                "aspectRatio": 1.7783857729138166,
+                "hash": "sha256:4f83f5065eae272af1445b935c711acd94ab34751203b62ab323f269d57c05e8",
+                "checkedAt": "2026-08-21T09:38:46.249Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.sonypicturesanimation.com/sites/default/files/styles/max_1300_x_1300/public/2020-05/su0600.0163_lm_v1_WM.jpg?itok=REJQvYlF",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.sonypicturesanimation.com/projects/films/surfs-2-wavemania",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 216703,
+                "width": 1300,
+                "height": 731,
+                "format": "jpeg",
+                "aspectRatio": 1.7783857729138166,
+                "hash": "sha256:4f83f5065eae272af1445b935c711acd94ab34751203b62ab323f269d57c05e8",
+                "checkedAt": "2026-08-21T09:38:46.249Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.sonypicturesanimation.com/projects/films/surfs-2-wavemania",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 216703,
+              "width": 1300,
+              "height": 731,
+              "format": "jpeg",
+              "aspectRatio": 1.7783857729138166,
+              "hash": "sha256:4f83f5065eae272af1445b935c711acd94ab34751203b62ab323f269d57c05e8",
+              "checkedAt": "2026-08-21T09:38:46.249Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-694",
@@ -54689,8 +55329,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://occ-0-8407-2219.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABbQcg6U1cNFrOnTr2wDyTDUiGgHl9PGTk8OCfxgfxW-MZUr-cgzS1A8-mwc4ykrQ4oqJAwVs1FfAJGNJEa5Fcwwuj1ciItA3UUiB8Rmbx2ZXBzXevQUt97D6rRktozU.jpg?r=6b7",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.netflix.com/title/81487903",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 79521,
+                "width": 912,
+                "height": 513,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:f3a92ab4944dc32e0304d1b975b1a1563d901e0f8ed4627ae3e9c477c56c5288",
+                "checkedAt": "2026-08-21T09:38:49.374Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -54717,10 +55380,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://occ-0-8407-2219.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABbQcg6U1cNFrOnTr2wDyTDUiGgHl9PGTk8OCfxgfxW-MZUr-cgzS1A8-mwc4ykrQ4oqJAwVs1FfAJGNJEa5Fcwwuj1ciItA3UUiB8Rmbx2ZXBzXevQUt97D6rRktozU.jpg?r=6b7",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.netflix.com/title/81487903",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 79521,
+                "width": 912,
+                "height": 513,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:f3a92ab4944dc32e0304d1b975b1a1563d901e0f8ed4627ae3e9c477c56c5288",
+                "checkedAt": "2026-08-21T09:38:49.374Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.netflix.com/title/81487903",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 79521,
+              "width": 912,
+              "height": 513,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:f3a92ab4944dc32e0304d1b975b1a1563d901e0f8ed4627ae3e9c477c56c5288",
+              "checkedAt": "2026-08-21T09:38:49.374Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q116733947",
@@ -56128,8 +56832,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://photos.tf1.fr/0/0/code-lyoko-s01-e02-le-voir-pour-le-croire-64525814-1737978223-eda8f3-b9057c-0%401x.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.tf1.fr/tf1/code-lyoko/videos/code-lyoko-s01-e02-le-voir-pour-le-croire-64525814.html",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 152140,
+                "width": 1920,
+                "height": 1080,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:e826cca43534a953a2b677184eaca00e35db26f5b0233423bcc3b31002118b06",
+                "checkedAt": "2026-08-21T09:40:53.181Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "Wikidata / Wikimedia Commons",
@@ -56138,10 +56865,51 @@
           "priority": 3
         }
       ],
-      "candidates": [],
-      "status": "C",
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://photos.tf1.fr/0/0/code-lyoko-s01-e02-le-voir-pour-le-croire-64525814-1737978223-eda8f3-b9057c-0%401x.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.tf1.fr/tf1/code-lyoko/videos/code-lyoko-s01-e02-le-voir-pour-le-croire-64525814.html",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 152140,
+                "width": 1920,
+                "height": 1080,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:e826cca43534a953a2b677184eaca00e35db26f5b0233423bcc3b31002118b06",
+                "checkedAt": "2026-08-21T09:40:53.181Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.tf1.fr/tf1/code-lyoko/videos/code-lyoko-s01-e02-le-voir-pour-le-croire-64525814.html",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 152140,
+              "width": 1920,
+              "height": 1080,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:e826cca43534a953a2b677184eaca00e35db26f5b0233423bcc3b31002118b06",
+              "checkedAt": "2026-08-21T09:40:53.181Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q1937645",
@@ -56708,8 +57476,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://mafab.hu/static/2019t/87/10/243486_1553851137.8388.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.mafab.hu/movies/the-legends-of-treasure-island-243486.html",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 946938,
+                "width": 1049,
+                "height": 738,
+                "format": "png",
+                "aspectRatio": 1.4214092140921408,
+                "hash": "sha256:61d2257901ab964e4f302736c7b558ecf4c391de306dcf38e69059ea4a8f6bc9",
+                "checkedAt": "2026-08-21T09:40:53.977Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "Wikidata / Wikimedia Commons",
@@ -56718,10 +57509,51 @@
           "priority": 3
         }
       ],
-      "candidates": [],
-      "status": "C",
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://mafab.hu/static/2019t/87/10/243486_1553851137.8388.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.mafab.hu/movies/the-legends-of-treasure-island-243486.html",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 946938,
+                "width": 1049,
+                "height": 738,
+                "format": "png",
+                "aspectRatio": 1.4214092140921408,
+                "hash": "sha256:61d2257901ab964e4f302736c7b558ecf4c391de306dcf38e69059ea4a8f6bc9",
+                "checkedAt": "2026-08-21T09:40:53.977Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.mafab.hu/movies/the-legends-of-treasure-island-243486.html",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 946938,
+              "width": 1049,
+              "height": 738,
+              "format": "png",
+              "aspectRatio": 1.4214092140921408,
+              "hash": "sha256:61d2257901ab964e4f302736c7b558ecf4c391de306dcf38e69059ea4a8f6bc9",
+              "checkedAt": "2026-08-21T09:40:53.977Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q2947792",
@@ -57184,8 +58016,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://images.mubicdn.net/images/film/286943/cache-616469-1607106568/image-w1280.jpg?size=800x",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://mubi.com/en/us/films/ivanhoe-1986",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 55130,
+                "width": 800,
+                "height": 450,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:d0bade04e18b9908c998ef2ab5424e0d3b02925bacbab77b1ca3bb5ebe772aed",
+                "checkedAt": "2026-08-21T09:40:54.268Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "Wikidata / Wikimedia Commons",
@@ -57194,10 +58049,51 @@
           "priority": 3
         }
       ],
-      "candidates": [],
-      "status": "C",
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://images.mubicdn.net/images/film/286943/cache-616469-1607106568/image-w1280.jpg?size=800x",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://mubi.com/en/us/films/ivanhoe-1986",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 55130,
+                "width": 800,
+                "height": 450,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:d0bade04e18b9908c998ef2ab5424e0d3b02925bacbab77b1ca3bb5ebe772aed",
+                "checkedAt": "2026-08-21T09:40:54.268Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://mubi.com/en/us/films/ivanhoe-1986",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 55130,
+              "width": 800,
+              "height": 450,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:d0bade04e18b9908c998ef2ab5424e0d3b02925bacbab77b1ca3bb5ebe772aed",
+              "checkedAt": "2026-08-21T09:40:54.268Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q6404778",
@@ -59624,8 +60520,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://images.squarespace-cdn.com/content/v1/5b99e7a2b98a78772c0c32d8/1537247259856-RRW0A1OHDAFZLD3H89SQ/tsba_image1_lg.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.mediaworld.com.au/the-silver-brumby-animation",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 80851,
+                "width": 800,
+                "height": 536,
+                "format": "jpeg",
+                "aspectRatio": 1.492537313432836,
+                "hash": "sha256:f04fd15db9158f3a4b47e7a7bee16809be50ae9ee554d2bdb585c84120f5aafc",
+                "checkedAt": "2026-08-21T09:40:54.634Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "Wikidata / Wikimedia Commons",
@@ -59634,10 +60553,51 @@
           "priority": 3
         }
       ],
-      "candidates": [],
-      "status": "C",
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://images.squarespace-cdn.com/content/v1/5b99e7a2b98a78772c0c32d8/1537247259856-RRW0A1OHDAFZLD3H89SQ/tsba_image1_lg.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.mediaworld.com.au/the-silver-brumby-animation",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 80851,
+                "width": 800,
+                "height": 536,
+                "format": "jpeg",
+                "aspectRatio": 1.492537313432836,
+                "hash": "sha256:f04fd15db9158f3a4b47e7a7bee16809be50ae9ee554d2bdb585c84120f5aafc",
+                "checkedAt": "2026-08-21T09:40:54.634Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.mediaworld.com.au/the-silver-brumby-animation",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 80851,
+              "width": 800,
+              "height": 536,
+              "format": "jpeg",
+              "aspectRatio": 1.492537313432836,
+              "hash": "sha256:f04fd15db9158f3a4b47e7a7bee16809be50ae9ee554d2bdb585c84120f5aafc",
+              "checkedAt": "2026-08-21T09:40:54.634Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q804498",
@@ -76536,8 +77496,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://static.cinemagia.ro/img/db/movie/28/66/78/babar-king-of-the-elephants-683028l.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.cinemagia.ro/filme/babar-king-of-the-elephants-286678/imagini/994319/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 101088,
+                "width": 800,
+                "height": 547,
+                "format": "jpeg",
+                "aspectRatio": 1.4625228519195612,
+                "hash": "sha256:d3ead80dffd4f2d371c4c0608acaf6c71ac1f3264a4b0b61a34b6fd3ea5e5625",
+                "checkedAt": "2026-08-21T09:38:06.721Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -76564,10 +77547,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://static.cinemagia.ro/img/db/movie/28/66/78/babar-king-of-the-elephants-683028l.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.cinemagia.ro/filme/babar-king-of-the-elephants-286678/imagini/994319/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 101088,
+                "width": 800,
+                "height": 547,
+                "format": "jpeg",
+                "aspectRatio": 1.4625228519195612,
+                "hash": "sha256:d3ead80dffd4f2d371c4c0608acaf6c71ac1f3264a4b0b61a34b6fd3ea5e5625",
+                "checkedAt": "2026-08-21T09:38:06.721Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.cinemagia.ro/filme/babar-king-of-the-elephants-286678/imagini/994319/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 101088,
+              "width": 800,
+              "height": 547,
+              "format": "jpeg",
+              "aspectRatio": 1.4625228519195612,
+              "hash": "sha256:d3ead80dffd4f2d371c4c0608acaf6c71ac1f3264a4b0b61a34b6fd3ea5e5625",
+              "checkedAt": "2026-08-21T09:38:06.721Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q967661",

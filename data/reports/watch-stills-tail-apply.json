@@ -1,0 +1,492 @@
+{
+  "generatedAt": "2026-08-21T09:40:54.699Z",
+  "totalCatalog": 2074,
+  "reviewed": 24,
+  "applied": 16,
+  "rejected": 8,
+  "appliedItems": [
+    {
+      "watchId": "nen-wd-q569991",
+      "originalTitle": "Babar, roi des éléphants",
+      "year": 1998,
+      "pageUrl": "https://www.cinemagia.ro/filme/babar-king-of-the-elephants-286678/imagini/994319/",
+      "imageUrl": "https://static.cinemagia.ro/img/db/movie/28/66/78/babar-king-of-the-elephants-683028l.jpg",
+      "source": "CineMagia",
+      "match": "dedicated still gallery + title + production year context",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 101088,
+        "width": 800,
+        "height": 547,
+        "format": "jpeg",
+        "aspectRatio": 1.4625228519195612,
+        "hash": "sha256:d3ead80dffd4f2d371c4c0608acaf6c71ac1f3264a4b0b61a34b6fd3ea5e5625",
+        "checkedAt": "2026-08-21T09:38:06.721Z"
+      },
+      "validatedAt": "2026-08-21T09:38:06.721Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-579",
+      "originalTitle": "Luo Xiaohei zhan ji",
+      "year": 2019,
+      "pageUrl": "https://myltik.com/titles/3777/legenda-o-hej",
+      "imageUrl": "https://image.tmdb.org/t/p/w1280/aVFx1VtlOxR3v0ADEatalXOvwbu.jpg",
+      "source": "Myltik",
+      "match": "exact Russian catalog page + original work + 2019 + horizontal scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 192552,
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:c15bd24274104c917c6cce035fb2f0ad4e6cc3c1c5b10d284bac53c2b5eea27d",
+        "checkedAt": "2026-08-21T09:38:07.418Z"
+      },
+      "validatedAt": "2026-08-21T09:38:07.418Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-448",
+      "originalTitle": "Смешарики",
+      "year": 2003,
+      "pageUrl": "https://www.dailymotion.com/video/xt5283",
+      "imageUrl": "https://s2.dmcdn.net/v/2wjU31epMQLL2hWrZ/x1080",
+      "source": "Dailymotion",
+      "match": "exact series episode page + series title + episode frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 179851,
+        "width": 1440,
+        "height": 1080,
+        "format": "jpeg",
+        "aspectRatio": 1.3333333333333333,
+        "hash": "sha256:21013d3ace704df94e6754c53b3fb9d6624b5bdee65098e9f132674645f1379b",
+        "checkedAt": "2026-08-21T09:38:29.643Z"
+      },
+      "validatedAt": "2026-08-21T09:38:29.643Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-450",
+      "originalTitle": "Барбоскины",
+      "year": 2011,
+      "pageUrl": "https://wink.ru/episodes/barboskiny-sezon-1-seriya-9-year-2011-103952336",
+      "imageUrl": "https://images.iptv.rt.ru/images/c6tkl1jir4sslltqm6hg.jpg",
+      "source": "Wink",
+      "match": "exact series season/episode page + 2011",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 623651,
+        "width": 1620,
+        "height": 996,
+        "format": "jpeg",
+        "aspectRatio": 1.6265060240963856,
+        "hash": "sha256:e64b7e10d5164c62afc665053434fb3bd17ae95d5586eae409e19475d82b682c",
+        "checkedAt": "2026-08-21T09:38:32.181Z"
+      },
+      "validatedAt": "2026-08-21T09:38:32.182Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-484",
+      "originalTitle": "Снежная королева: Зазеркалье",
+      "year": 2018,
+      "pageUrl": "https://www.ceskatelevize.cz/porady/12892057989-snehova-kralovna-v-zemi-zrcadel/",
+      "imageUrl": "https://ctfs.ceskatelevize.cz/img/N72Um9Y0XI52ZnHsrYp2N5d6JMkbmI-v5J3Gq53RHIw/rs%3Afit%3A960%3A540/plain/s3/porady-s3/648868c241ffc69ec8050885/card/12892057989-snehova-kralovna-v-zemi-zrcadel-1714640897.jpg",
+      "source": "Česká televize",
+      "match": "broadcaster work page + exact localized title + film scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 132981,
+        "width": 960,
+        "height": 540,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:f2559826784950b9b504856471e17be578dc8df97e4ae2d33af3fa2b2b3301d7",
+        "checkedAt": "2026-08-21T09:38:33.176Z"
+      },
+      "validatedAt": "2026-08-21T09:38:33.176Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-497",
+      "originalTitle": "Белка и Стрелка: Лунные приключения",
+      "year": 2014,
+      "pageUrl": "https://www.1tv.com/announce/13592",
+      "imageUrl": "https://img.1tv.com/img/2014-05-19/fmt_96_24_styleguidelunnyeprikljucheniyapage23image0002.png",
+      "source": "Первый канал",
+      "match": "official broadcaster film page + exact title + year",
+      "probe": {
+        "mime": "image/png",
+        "bytes": 112473,
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:5c0bde74fa1fa6417700905083d2e1ae897332297a581b3d15302daa4bd56efb",
+        "checkedAt": "2026-08-21T09:38:41.441Z"
+      },
+      "validatedAt": "2026-08-21T09:38:41.441Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-629",
+      "originalTitle": "Dancing Queen",
+      "year": 2023,
+      "pageUrl": "https://inreviewonline.com/2023/02/28/dancing-queen/",
+      "imageUrl": "https://inreviewonline.com/wp-content/uploads/2023/02/dancing-queen-2-cr-Amarcord.jpg",
+      "source": "In Review Online",
+      "match": "film review + exact title + 2023 Berlinale context + credited still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 135551,
+        "width": 1150,
+        "height": 651,
+        "format": "jpeg",
+        "aspectRatio": 1.7665130568356375,
+        "hash": "sha256:782bbdca1df72efba1b75bf583cc660e52871963054e9138d33d796ceaa578fb",
+        "checkedAt": "2026-08-21T09:38:43.601Z"
+      },
+      "validatedAt": "2026-08-21T09:38:43.601Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-591",
+      "originalTitle": "Der kleine Rabe Socke",
+      "year": 2012,
+      "pageUrl": "https://www.kino.de/film/der-kleine-rabe-socke-2012/",
+      "imageUrl": "https://files.giga-video.de/fe/38/e3/6bfc034dd47788c46c9f77f03b_cmUgMTIwMCAwA2Y4NmM0NDg0OTcz.jpg",
+      "source": "Kino.de",
+      "match": "exact film page + title + year + scene image",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 129239,
+        "width": 1200,
+        "height": 677,
+        "format": "jpeg",
+        "aspectRatio": 1.7725258493353029,
+        "hash": "sha256:7d0498953e166d44998b505e43ff61889a1ddc932945d31a640b7f1e4cfe2e76",
+        "checkedAt": "2026-08-21T09:38:44.403Z"
+      },
+      "validatedAt": "2026-08-21T09:38:44.403Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-651",
+      "originalTitle": "Hilda",
+      "year": 2018,
+      "pageUrl": "https://www.kinder-jugend-filmportal.de/filmkritik.html?a=l&filmid=39",
+      "imageUrl": "https://www.kinder-jugend-filmportal.de/filmbilder/233.jpg",
+      "source": "Kinder- und Jugendfilmportal",
+      "match": "dedicated review + exact series identification + still image",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 74853,
+        "width": 800,
+        "height": 450,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:2474e9ea591827cbe0767a7a190a66719fc35d4fbc608ab02db4c41ee13d5784",
+        "checkedAt": "2026-08-21T09:38:44.962Z"
+      },
+      "validatedAt": "2026-08-21T09:38:44.962Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-693",
+      "originalTitle": "Surf's Up 2: WaveMania",
+      "year": 2017,
+      "pageUrl": "https://www.sonypicturesanimation.com/projects/films/surfs-2-wavemania",
+      "imageUrl": "https://www.sonypicturesanimation.com/sites/default/files/styles/max_1300_x_1300/public/2020-05/su0600.0163_lm_v1_WM.jpg?itok=REJQvYlF",
+      "source": "Sony Pictures Animation",
+      "match": "official studio film page + exact title + production still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 216703,
+        "width": 1300,
+        "height": 731,
+        "format": "jpeg",
+        "aspectRatio": 1.7783857729138166,
+        "hash": "sha256:4f83f5065eae272af1445b935c711acd94ab34751203b62ab323f269d57c05e8",
+        "checkedAt": "2026-08-21T09:38:46.249Z"
+      },
+      "validatedAt": "2026-08-21T09:38:46.249Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-638",
+      "originalTitle": "El Jeremías",
+      "year": 2015,
+      "pageUrl": "https://www.univision.com/entretenimiento/cine-y-series/peliculas-ninos-genio-netfix-vix",
+      "imageUrl": "https://st1.uvnimg.com/24/47/758d08904956b8aa7d4a2cd8e754/el-jeremias-pelicula-de-nino-genio-mexicana.jpg",
+      "source": "Univision",
+      "match": "exact film title + identified Mexican film scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 111428,
+        "width": 1000,
+        "height": 564,
+        "format": "jpeg",
+        "aspectRatio": 1.7730496453900708,
+        "hash": "sha256:655bee97288d419002267b6211be47dc3a568c411363c531e78e66b8327e0f7e",
+        "checkedAt": "2026-08-21T09:38:47.006Z"
+      },
+      "validatedAt": "2026-08-21T09:38:47.006Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-wd-q106920326",
+      "originalTitle": "Riverdance: The Animated Adventure",
+      "year": 2021,
+      "pageUrl": "https://www.netflix.com/title/81487903",
+      "imageUrl": "https://occ-0-8407-2219.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABbQcg6U1cNFrOnTr2wDyTDUiGgHl9PGTk8OCfxgfxW-MZUr-cgzS1A8-mwc4ykrQ4oqJAwVs1FfAJGNJEa5Fcwwuj1ciItA3UUiB8Rmbx2ZXBzXevQUt97D6rRktozU.jpg?r=6b7",
+      "source": "Netflix",
+      "match": "official title page + exact film + year context + scene image",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 79521,
+        "width": 912,
+        "height": 513,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:f3a92ab4944dc32e0304d1b975b1a1563d901e0f8ed4627ae3e9c477c56c5288",
+        "checkedAt": "2026-08-21T09:38:49.374Z"
+      },
+      "validatedAt": "2026-08-21T09:38:49.374Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-wd-q637190",
+      "originalTitle": "Code Lyoko",
+      "year": 2003,
+      "pageUrl": "https://www.tf1.fr/tf1/code-lyoko/videos/code-lyoko-s01-e02-le-voir-pour-le-croire-64525814.html",
+      "imageUrl": "https://photos.tf1.fr/0/0/code-lyoko-s01-e02-le-voir-pour-le-croire-64525814-1737978223-eda8f3-b9057c-0%401x.jpg",
+      "source": "TF1",
+      "match": "official broadcaster episode page + exact series and episode still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 152140,
+        "width": 1920,
+        "height": 1080,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:e826cca43534a953a2b677184eaca00e35db26f5b0233423bcc3b31002118b06",
+        "checkedAt": "2026-08-21T09:40:53.181Z"
+      },
+      "validatedAt": "2026-08-21T09:40:53.181Z"
+    },
+    {
+      "watchId": "nen-wd-q2240576",
+      "originalTitle": "The Legends of Treasure Island",
+      "year": 1993,
+      "pageUrl": "https://www.mafab.hu/movies/the-legends-of-treasure-island-243486.html",
+      "imageUrl": "https://mafab.hu/static/2019t/87/10/243486_1553851137.8388.jpg",
+      "source": "MAFAB",
+      "match": "exact series catalog page + year + identified scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 946938,
+        "width": 1049,
+        "height": 738,
+        "format": "png",
+        "aspectRatio": 1.4214092140921408,
+        "hash": "sha256:61d2257901ab964e4f302736c7b558ecf4c391de306dcf38e69059ea4a8f6bc9",
+        "checkedAt": "2026-08-21T09:40:53.977Z"
+      },
+      "validatedAt": "2026-08-21T09:40:53.977Z"
+    },
+    {
+      "watchId": "nen-wd-q5481392",
+      "originalTitle": "Ivanhoe",
+      "year": 1986,
+      "pageUrl": "https://mubi.com/en/us/films/ivanhoe-1986",
+      "imageUrl": "https://images.mubicdn.net/images/film/286943/cache-616469-1607106568/image-w1280.jpg?size=800x",
+      "source": "MUBI",
+      "match": "exact film page + title + year + still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 55130,
+        "width": 800,
+        "height": 450,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:d0bade04e18b9908c998ef2ab5424e0d3b02925bacbab77b1ca3bb5ebe772aed",
+        "checkedAt": "2026-08-21T09:40:54.268Z"
+      },
+      "validatedAt": "2026-08-21T09:40:54.268Z"
+    },
+    {
+      "watchId": "nen-wd-q7764269",
+      "originalTitle": "The Silver Brumby",
+      "year": 1992,
+      "pageUrl": "https://www.mediaworld.com.au/the-silver-brumby-animation",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5b99e7a2b98a78772c0c32d8/1537247259856-RRW0A1OHDAFZLD3H89SQ/tsba_image1_lg.jpg",
+      "source": "Media World",
+      "match": "dedicated animated-series page + exact title + scene image",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 80851,
+        "width": 800,
+        "height": 536,
+        "format": "jpeg",
+        "aspectRatio": 1.492537313432836,
+        "hash": "sha256:f04fd15db9158f3a4b47e7a7bee16809be50ae9ee554d2bdb585c84120f5aafc",
+        "checkedAt": "2026-08-21T09:40:54.634Z"
+      },
+      "validatedAt": "2026-08-21T09:40:54.634Z"
+    }
+  ],
+  "rejectedItems": [
+    {
+      "watchId": "nen-wd-q587692",
+      "originalTitle": "La Flûte à six schtroumpfs",
+      "year": 1976,
+      "pageUrl": "https://recorderhomepage.net/smurfs-and-the-recorder/",
+      "imageUrl": "https://www.recorderhomepage.net/wp-content/uploads/2022/01/la-flute-a-six-schtroumpfs_clip.jpg",
+      "source": "Recorder Home Page",
+      "match": "page title + original title + year + described film scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 82924,
+        "width": 835,
+        "height": 686,
+        "format": "jpeg",
+        "aspectRatio": 1.217201166180758,
+        "hash": "sha256:1d1414cc4f0b78af26e76569f7c938f0f29e9d7e04ce6cf412233f144a0f4b97",
+        "checkedAt": "2026-08-21T09:40:50.179Z"
+      },
+      "validatedAt": "2026-08-21T09:40:50.181Z",
+      "reasons": [
+        "неподходящие пропорции: 1.217"
+      ]
+    },
+    {
+      "watchId": "nen-159",
+      "originalTitle": "How to Train Your Dragon 2",
+      "year": 2014,
+      "pageUrl": "https://www.aceshowbiz.com/movie/how_to_train_your_dragon_2/",
+      "imageUrl": "https://www.aceshowbiz.com/images/still/how-train-your-dragon-2-05.jpg",
+      "source": "AceShowbiz",
+      "match": "film page + exact title + year + still URL",
+      "probe": null,
+      "validatedAt": "2026-08-21T09:40:50.241Z",
+      "reasons": [
+        "изображение недоступно: HTTP 403"
+      ]
+    },
+    {
+      "watchId": "nen-199",
+      "originalTitle": "Остров сокровищ",
+      "year": 1988,
+      "pageUrl": "https://www.kinoafisha.info/movies/8107410/",
+      "imageUrl": "https://static.kinoafisha.info/k/movie_shots/1920x1080/upload/movie_shots/0/1/4/8107410/77fcd6a4b3bc0d6419e8d2bfc5beab14.jpg",
+      "source": "Киноафиша",
+      "match": "exact film page + year + movie_shots gallery",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 66901,
+        "width": 704,
+        "height": 528,
+        "format": "jpeg",
+        "aspectRatio": 1.3333333333333333,
+        "hash": "sha256:145b39932645fce41abfc7df2f6ebbf56fc8513491ff4180736fcd6af291b6b8",
+        "checkedAt": "2026-08-21T09:40:50.559Z"
+      },
+      "validatedAt": "2026-08-21T09:40:50.559Z",
+      "reasons": [
+        "ширина меньше 800 px: 704"
+      ]
+    },
+    {
+      "watchId": "nen-479",
+      "originalTitle": "Иван Царевич и Серый Волк 4",
+      "year": 2019,
+      "pageUrl": "https://www.domkino.tv/announce/16658",
+      "imageUrl": "https://img51994.domkino.tv/img/2020-11-02/fmt_97_24_362888f0e6fec308aaec9f5520245f37.jpg",
+      "source": "Дом кино",
+      "match": "dedicated film page + exact sequel title + identified scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 53337,
+        "width": 640,
+        "height": 480,
+        "format": "jpeg",
+        "aspectRatio": 1.3333333333333333,
+        "hash": "sha256:0dc2f8e541f28ffa12c88a758d667a3f0191a152a32ff663ebe51a6a222c0184",
+        "checkedAt": "2026-08-21T09:40:51.281Z"
+      },
+      "validatedAt": "2026-08-21T09:40:51.281Z",
+      "reasons": [
+        "ширина меньше 800 px: 640"
+      ]
+    },
+    {
+      "watchId": "nen-501",
+      "originalTitle": "Гостья из будущего",
+      "year": 1985,
+      "pageUrl": "https://www.film.ru/serials/gostya-iz-budushchego",
+      "imageUrl": "https://www.film.ru/sites/default/files/movies/frames/gostja.iz_.buduschego.4.avi_.image2_.jpg",
+      "source": "Фильм.ру",
+      "match": "exact series page + frame path + production identification",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 126074,
+        "width": 720,
+        "height": 576,
+        "format": "jpeg",
+        "aspectRatio": 1.25,
+        "hash": "sha256:885baf65ec7d5ea8a0b182f0e2292d5737fb20d48359d362659147494a917fd8",
+        "checkedAt": "2026-08-21T09:40:51.813Z"
+      },
+      "validatedAt": "2026-08-21T09:40:51.813Z",
+      "reasons": [
+        "ширина меньше 800 px: 720",
+        "неподходящие пропорции: 1.250"
+      ]
+    },
+    {
+      "watchId": "nen-570",
+      "originalTitle": "Robot Dreams",
+      "year": 2023,
+      "pageUrl": "https://www.eldiario.es/castilla-la-mancha/cultura/produccion-robot-dreams-labor-fluya-no-ve-necesario_1_10947318.html",
+      "imageUrl": "https://static.eldiario.es/clip/c0a6682f-ec03-43d6-a31c-43ab3f5d413b_16-9-discover-aspect-ratio_default_0.jpg",
+      "source": "elDiario.es",
+      "match": "production article + exact title + described film image",
+      "probe": null,
+      "validatedAt": "2026-08-21T09:40:51.813Z",
+      "reasons": [
+        "URL содержит признак неподходящего типа изображения"
+      ]
+    },
+    {
+      "watchId": "nen-575",
+      "originalTitle": "Pachamama",
+      "year": 2018,
+      "pageUrl": "https://www.hautetcourt.com/animation/pachamama/",
+      "imageUrl": "https://www.hautetcourt.com/wp-content/uploads/2019/06/pachamama-pac_photo_9-jpg-1920x1054.jpg",
+      "source": "Haut et Court",
+      "match": "official distributor page + exact film + production still",
+      "probe": null,
+      "validatedAt": "2026-08-21T09:40:52.724Z",
+      "reasons": [
+        "изображение недоступно: HTTP 404"
+      ]
+    },
+    {
+      "watchId": "nen-wd-q347947",
+      "originalTitle": "Iron Man: Armored Adventures",
+      "year": 2009,
+      "pageUrl": "https://www.unifrance.org/film/60969/iron-man-la-serie-animee",
+      "imageUrl": "https://medias.unifrance.org/medias/238/109/290286/format_hd/iron-man-la-serie-animee.jpg",
+      "source": "Unifrance",
+      "match": "national cinema body page + exact animated series + 2009",
+      "probe": null,
+      "validatedAt": "2026-08-21T09:40:53.290Z",
+      "reasons": [
+        "изображение недоступно: HTTP 403"
+      ]
+    }
+  ]
+}

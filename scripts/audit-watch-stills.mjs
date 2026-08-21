@@ -9,6 +9,7 @@ const mailReplacementPath = path.join(root, "data/reports/watch-mail-replacement
 const stillEvidencePath = path.join(root, "data/reports/cache/watch-stills-research-evidence.json");
 const webApplyPath = path.join(root, "data/reports/watch-stills-web-apply.json");
 const webBacklogApplyPath = path.join(root, "data/reports/watch-stills-web-backlog-apply.json");
+const tailApplyPath = path.join(root, "data/reports/watch-stills-tail-apply.json");
 const jsonPath = path.join(root, "data/reports/watch-stills-audit.json");
 const markdownPath = path.join(root, "data/reports/watch-stills-audit.md");
 const unresolvedJsonPath = path.join(root, "data/reports/watch-stills-unresolved.json");
@@ -30,10 +31,13 @@ const mailReplacement = await readJson(mailReplacementPath, { selectedItems: [] 
 const stillEvidence = await readJson(stillEvidencePath, { records: {} });
 const webApply = await readJson(webApplyPath, { appliedItems: [] });
 const webBacklogApply = await readJson(webBacklogApplyPath, { appliedItems: [] });
+const tailApply = await readJson(tailApplyPath, { appliedItems: [] });
 
 const mailById = new Map((mailSource.items ?? []).map((item) => [String(item.mailId), item]));
 const replacementById = new Map((mailReplacement.selectedItems ?? []).map((item) => [item.id, item]));
-const webAppliedById = new Map([...(webApply.appliedItems ?? []), ...(webBacklogApply.appliedItems ?? [])].map((item) => [item.watchId, item]));
+const webAppliedById = new Map([...(webApply.appliedItems ?? []), ...(webBacklogApply.appliedItems ?? []), ...(tailApply.appliedItems ?? [])].map((item) => [item.watchId, item]));
+const tailAppliedIds = new Set((tailApply.appliedItems ?? []).map((item) => item.watchId));
+const pendingWebCandidates = new Map((webBacklogApply.rejectedItems ?? []).filter((item) => !tailAppliedIds.has(item.watchId)).map((item) => [item.watchId, item]));
 
 const cleanId = (value) => value === null || value === undefined || value === "" ? null : String(value);
 const externalIdsFromArray = (items = []) => Object.fromEntries(items.map((entry) => {
@@ -300,18 +304,24 @@ const unresolvedItems = items.filter((item) => item.status !== "A").map((item) =
   else if (checkedSources.some((source) => source.source === "Кинопоиск" && source.status === "SOURCE_UNAVAILABLE")) unresolvedReason = "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.";
   else if (checkedSources.some((source) => source.source === "Кино Mail" && source.status === "NO_STILL_FOUND")) unresolvedReason = "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».";
   else if (!Object.values(item.externalIds).some(Boolean)) unresolvedReason = "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.";
+  const pendingCandidate = pendingWebCandidates.get(item.id);
+  const hasSearchAnchor = Object.values(item.externalIds).some(Boolean) || checkedSources.some((source) => source.pageUrl);
+  const tailGroup = pendingCandidate ? "B" : hasSearchAnchor ? "C" : "D";
   return { id: item.id, title: item.title, originalTitle: item.originalTitle, year: item.year, type: item.type, externalIds: item.externalIds,
     currentState: item.poster.present ? "POSTER_IN_FRAME" : item.currentImages.length ? "UNCONFIRMED_IMAGE" : "NO_FRAME", checkedSources, reason: unresolvedReason,
-    confirmedCandidateNotApplied: confirmedNotApplied?.candidates?.[0] ?? null };
+    confirmedCandidateNotApplied: confirmedNotApplied?.candidates?.[0] ?? null, tailGroup,
+    pendingCandidate: pendingCandidate ? { pageUrl: pendingCandidate.pageUrl, imageUrl: pendingCandidate.imageUrl, reasons: pendingCandidate.reasons ?? [] } : null };
 });
+const tailGroups = { A: 0, B: unresolvedItems.filter((item) => item.tailGroup === "B").length, C: unresolvedItems.filter((item) => item.tailGroup === "C").length, D: unresolvedItems.filter((item) => item.tailGroup === "D").length };
 const unresolvedReport = { generatedAt: new Date().toISOString(), totalCatalog: catalog.length, confirmedStills: statusCounts.A, unresolved: unresolvedItems.length,
   posterInFrame: unresolvedItems.filter((item) => item.currentState === "POSTER_IN_FRAME").length,
   noFrame: unresolvedItems.filter((item) => item.currentState === "NO_FRAME").length,
   confirmedButMissingStudios: unresolvedItems.filter((item) => item.confirmedCandidateNotApplied).length,
-  items: unresolvedItems };
+  tailGroups, items: unresolvedItems };
 const unresolvedMarkdown = ["# Карточки без подтверждённого кадра", "", `Сформировано: ${unresolvedReport.generatedAt}`, "",
   `- Всего карточек: **${catalog.length}**`, `- С подтверждённым кадром: **${statusCounts.A}**`, `- Осталось: **${unresolvedItems.length}**`,
   `- Постер всё ещё находится в frame: **${unresolvedReport.posterInFrame}**`, `- Без frame: **${unresolvedReport.noFrame}**`,
+  `- Группы хвоста: **A ${tailGroups.A} / B ${tailGroups.B} / C ${tailGroups.C} / D ${tailGroups.D}**`,
   `- Кадр найден, но не применён из-за отсутствия studios: **${unresolvedReport.confirmedButMissingStudios}**`, "", "## Полный список", "",
   ...unresolvedItems.map((item) => `- **${item.title}** (${item.year}, ${item.id}) — ${item.reason}`), ""].join("\n");
 await fs.writeFile(unresolvedJsonPath, `${JSON.stringify(unresolvedReport, null, 2)}\n`, "utf8");

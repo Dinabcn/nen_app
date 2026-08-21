@@ -15,6 +15,8 @@ const paths = {
   webResearchReport: path.join(root, "data/reports/watch-stills-web-experiment.json"),
   webApplyReport: path.join(root, "data/reports/watch-stills-web-apply.json"),
   webBacklogApplyReport: path.join(root, "data/reports/watch-stills-web-backlog-apply.json"),
+  tailReviewReport: path.join(root, "data/reports/watch-stills-tail-review.json"),
+  tailApplyReport: path.join(root, "data/reports/watch-stills-tail-apply.json"),
 };
 
 const USER_AGENT = "NENWatchStillResearch/2.0 (editorial research; contact: n-e-n.ru)";
@@ -24,6 +26,7 @@ const MAX_CANDIDATES = 5;
 const mode = process.argv.includes("--apply") ? "apply" : "research";
 const applyWebConfirmed = process.argv.includes("--apply-web-confirmed");
 const applyWebBacklog = process.argv.includes("--apply-web-backlog");
+const applyTailConfirmed = process.argv.includes("--apply-tail-confirmed");
 const requestedLimit = Number(process.argv.find((arg) => arg.startsWith("--max="))?.split("=")[1] ?? Infinity);
 const limit = Number.isFinite(requestedLimit) && requestedLimit > 0 ? requestedLimit : Infinity;
 const sourceArg = process.argv.find((arg) => arg.startsWith("--sources="))?.split("=")[1];
@@ -547,9 +550,81 @@ async function applyWebResearchBacklog(catalog) {
   console.log(JSON.stringify({ reviewedCandidates: candidates.length, reconsideredRejected: recoverableRejected.length, applied: finalAccepted.length, rejected: rejected.length }, null, 2));
 }
 
+async function applyTailReview(catalog) {
+  const review = await readJson(paths.tailReviewReport, null);
+  const previousApply = await readJson(paths.tailApplyReport, { appliedItems: [] });
+  if (!Array.isArray(review?.items)) throw new Error("Нужен data/reports/watch-stills-tail-review.json.");
+  const byId = new Map(catalog.map((record) => [record.id, record]));
+  const existingUrls = new Map(catalog.filter((record) => record.frame?.url).map((record) => [record.frame.url, record.id]));
+  const accepted = [];
+  const rejected = [];
+  const forbidden = /poster|постер|cover|облож|logo|логотип|fan.?art|wallpaper|banner|portrait|headshot|actor|actress|director|trailer|teaser|pinterest/iu;
+  for (const item of review.items) {
+    const record = byId.get(item.watchId);
+    const reasons = [];
+    const previous = (previousApply.appliedItems ?? []).find((entry) => entry.watchId === item.watchId && entry.imageUrl === item.imageUrl);
+    if (record?.frame?.url === item.imageUrl && previous?.probe?.hash) {
+      accepted.push({ ...item, probe: previous.probe, validatedAt: previous.validatedAt, reusedValidation: true });
+      continue;
+    }
+    if (!record) reasons.push("карточка отсутствует");
+    if (!isHttpUrl(item.pageUrl) || !isHttpUrl(item.imageUrl)) reasons.push("нет корректного URL страницы или изображения");
+    if (record && normalizeTitle(record.originalTitle) !== normalizeTitle(item.originalTitle)) reasons.push("originalTitle не совпадает");
+    if (record && Number(record.year) !== Number(item.year)) reasons.push("год карточки не совпадает");
+    const owner = existingUrls.get(item.imageUrl);
+    if (owner && owner !== item.watchId) reasons.push(`URL уже используется карточкой ${owner}`);
+    if (forbidden.test(`${item.imageUrl ?? ""} ${item.pageUrl ?? ""}`)) reasons.push("URL содержит признак неподходящего типа изображения");
+    let probe = null;
+    if (!reasons.length) {
+      try {
+        const response = await clients.image.fetch(item.imageUrl, { headers: { accept: "image/*", referer: item.pageUrl }, timeoutMs: 30_000 }, 2);
+        if (!response.ok) reasons.push(`изображение недоступно: HTTP ${response.status}`);
+        else {
+          const mime = response.headers.get("content-type")?.split(";")[0]?.toLowerCase() ?? null;
+          const bytes = Buffer.from(await response.arrayBuffer());
+          const dimensions = imageDimensions(bytes, mime);
+          const aspectRatio = dimensions.width && dimensions.height ? dimensions.width / dimensions.height : null;
+          probe = { mime, bytes: bytes.length, ...dimensions, aspectRatio, hash: `sha256:${crypto.createHash("sha256").update(bytes).digest("hex")}`, checkedAt: now() };
+          if (!mime?.startsWith("image/")) reasons.push(`неверный MIME: ${mime ?? "не указан"}`);
+          if (!dimensions.width || !dimensions.height) reasons.push("не удалось определить размеры");
+          else {
+            if (dimensions.width < 800) reasons.push(`ширина меньше 800 px: ${dimensions.width}`);
+            if (aspectRatio < 1.3 || aspectRatio > 3) reasons.push(`неподходящие пропорции: ${aspectRatio.toFixed(3)}`);
+          }
+        }
+      } catch (error) { reasons.push(`ошибка загрузки: ${String(error?.message ?? error)}`); }
+    }
+    const result = { ...item, probe, validatedAt: now() };
+    if (reasons.length) rejected.push({ ...result, reasons }); else accepted.push(result);
+  }
+  const hashes = new Map();
+  for (const item of accepted) {
+    if (!hashes.has(item.probe.hash)) hashes.set(item.probe.hash, []);
+    hashes.get(item.probe.hash).push(item.watchId);
+  }
+  const duplicateHashes = new Set([...hashes].filter(([, ids]) => ids.length > 1).map(([hash]) => hash));
+  const finalAccepted = accepted.filter((item) => {
+    if (!duplicateHashes.has(item.probe.hash)) return true;
+    rejected.push({ ...item, reasons: ["одинаковое содержимое связано с несколькими карточками"] });
+    return false;
+  });
+  const acceptedById = new Map(finalAccepted.map((item) => [item.watchId, item]));
+  const updated = catalog.map((record) => {
+    const item = acceptedById.get(record.id);
+    if (!item) return record;
+    const studios = Array.isArray(record.frame?.studios) && record.frame.studios.length ? record.frame.studios : null;
+    return { ...record, frame: { url: item.imageUrl, ...(studios ? { studios: [...studios] } : {}) } };
+  });
+  await writeJsonAtomic(paths.catalog, updated);
+  await writeJsonAtomic(paths.tailApplyReport, { generatedAt: now(), totalCatalog: updated.length, reviewed: review.items.length,
+    applied: finalAccepted.length, rejected: rejected.length, appliedItems: finalAccepted, rejectedItems: rejected });
+  console.log(JSON.stringify({ reviewed: review.items.length, applied: finalAccepted.length, rejected: rejected.length }, null, 2));
+}
+
 const catalog = await readJson(paths.catalog, []);
 if (applyWebConfirmed) { await applyConfirmedWebResearch(catalog); process.exit(0); }
 if (applyWebBacklog) { await applyWebResearchBacklog(catalog); process.exit(0); }
+if (applyTailConfirmed) { await applyTailReview(catalog); process.exit(0); }
 const audit = await readJson(paths.audit, null);
 if (!audit || audit.total !== catalog.length || audit.items?.length !== catalog.length) throw new Error("Нужен актуальный data/reports/watch-stills-audit.json.");
 const mailSource = await readJson(paths.mailSource, { items: [] });
