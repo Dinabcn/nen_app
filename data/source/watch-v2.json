@@ -5492,7 +5492,10 @@
       "minAge": 9,
       "rationale": "С девяти лет лучше считываются темы пубертата, семейных ожиданий и подростковой автономии."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://caamedia.s3.amazonaws.com/wp-content/uploads/2022/03/08131816/T-RED-ONLINE-USE-r393_18j_pub.pub16.300_1920x1080.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -6332,7 +6335,10 @@
       "minAge": 6,
       "rationale": "С шести лет: преследование умеренно напряжённое, тема утраты подана бережно."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://film-authority.com/wp-content/uploads/2020/03/abominable_-_publicity_still_4-_h_2019.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -6373,7 +6379,10 @@
       "minAge": 7,
       "rationale": "С семи лет: криминальная игра условна, но детям полезно обсудить разницу между обаянием и честностью."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.intofilm.org/intofilm-production/scaledcropped/970x546https%3A/s3-eu-west-1.amazonaws.com/images.cdn.filmclub.org/the-bad-guys-image-1-universal.jpg/the-bad-guys-image-1-universal.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -11789,7 +11798,10 @@
       "minAge": 6,
       "rationale": "С шести лет: фантастические хищники и погони не выглядят реалистично опасными."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://images.contentstack.io/v3/assets/blt13adb7e2033fcee5/blt0b2ad70326e76706/69b4ae6aa117492f499a8958/v0HlmtmpjRhOxj9sylS6356oZhKk0G4I.jpg?width=2560"
+    }
   },
   {
     "schemaVersion": 2,
@@ -16378,7 +16390,10 @@
       "maxAge": 17,
       "rationale": "Масштабные атаки чудовищ, кораблекрушения и гибель персонажей требуют возраста около девяти лет."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://images.mubicdn.net/images/film/338005/cache-769245-1745499727/image-w1280.jpg?size=800x"
+    }
   },
   {
     "schemaVersion": 2,
@@ -16559,7 +16574,10 @@
       "maxAge": 17,
       "rationale": "Утрата матери — центральная тема, поэтому фильм лучше смотреть вместе со взрослым, готовым обсуждать семейные перемены."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://static.independent.co.uk/2020/10/20/18/Film_Review_-_Over_the_Moon_07607.jpg?fit=crop&height=900&width=1200"
+    }
   },
   {
     "schemaVersion": 2,
@@ -24501,7 +24519,10 @@
       "maxAge": 14,
       "rationale": "Возрастная граница 8+ связана с тем, как история раскрывает последствия поступков и непростую тему «стихийное бедствие»."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://img.festival-cannes.com/eyJidWNrZXQiOiJtZWRpYSIsImtleSI6InVwbG9hZHNcLzIwMjRcLzA1XC8xNzA5NTMtc2NhbGVkLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTM2MCwiZml0IjoiY292ZXIifX19"
+    }
   },
   {
     "schemaVersion": 2,
@@ -28045,7 +28066,10 @@
       "maxAge": 14,
       "rationale": "Рекомендация 8+ для «Неисправимый Рон» связана с темпом, длительностью и сложностью центрального конфликта. Чувствительные элементы — травля и цифровая слежка — требуют готовности ребёнка."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.kinonews.ru/insimgs/2021/shotimg/shotimg102817_6.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -31433,7 +31457,10 @@
       "maxAge": 13,
       "rationale": "Аудитория «Заворожённые» от 7 лет легче поймёт мотивы персонажей и выдержит наиболее динамичные сцены. Взрослому важно учитывать упоминания: умеренные жанровые опасности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://occ-0-3011-114.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABYY2B1RBpN0NHPizXzhifP7bt_3Ma7OV3_OFzpV3YkYYARlSI62YcMRNDZkBNfKU2PoS4_qqSpyqfZ95Rw-uidEQ9yo9hTsi3q91.jpg?r=220"
+    }
   },
   {
     "schemaVersion": 2,
@@ -31477,7 +31504,10 @@
       "maxAge": 13,
       "rationale": "Для «Тельма, единорог» порог 7+ учитывает продолжительность, темп и напряжение отдельных сцен. Стоит заранее предупредить о таких эпизодах, как умеренные жанровые опасности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://images.squarespace-cdn.com/content/v1/5e1f9c088a31cf7344eda01f/faa551e7-5012-4ddb-97e5-7760ff65a570/Thelma_the_Unicorn_n_00_23_34_22.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -33408,7 +33438,10 @@
     "relatedTitles": [
       "Flute Smurfs"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.recorderhomepage.net/wp-content/uploads/2022/01/la-flute-a-six-schtroumpfs_clip.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -33980,7 +34013,10 @@
       "A High Wind in Jamaica"
     ],
     "originalTitle": "A High Wind in Jamaica",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://ilarge.lisimg.com/image/22144306/740full-a-high-wind-in-jamaica-photo.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -38754,7 +38790,10 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 85 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://tv.orf.at/program/orf1/rotzbub_104~_v-epg__large__16__9_-5412e775eb65789c908def5fa9fdf24a7b895a8f.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -41353,7 +41392,10 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 66 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.defa-stiftung.de/fileadmin/DEFA_Stiftung/DEFA-Filme/Spielfilme/hoelzerne-Kaelbchen-Das/KALB_2_Copyright_DEFA_Stiftung_Hans_Bernd_Baxmann.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -47573,7 +47615,10 @@
       "rationale": "Рекомендуем с 6 лет: хронометраж 83 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
     },
     "originalTitle": "Die Geschichte von der Gänseprinzessin und ihrem treuen Pferd Falada",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BZGM3YjYxOGItYzU2OC00MzU1LTk3M2QtMDQ0ZTk1MGU1YzI0XkEyXkFqcGc%40._V1_.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -47989,7 +48034,10 @@
       "rationale": "Рекомендуем с 9 лет: хронометраж 74 минут, жанры «драма» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
     },
     "originalTitle": "El Pepe, una vida suprema",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdwRzBYLh3QnGVkStXcp6J4toHb4KsLRbjqXe6-Ww3hcMMpIpwyo8SKRKuhibAgSwm4gApj_R7dxLCNbamWf1YWBQ2ZXOv7T-SDj16r9vrs1GwGS0UIMz6d5eeT3LiE.jpg?r=cc0"
+    }
   },
   {
     "schemaVersion": 2,
@@ -52193,7 +52241,10 @@
         "title": "CICFF Professional Jury Award for Best Animated Feature Film"
       }
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.cinematheque.fr/media/01-films/le-tableau-laurent-achard.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -55992,7 +56043,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/56c096e6-086a-5c9b-afc0-39c32e6c366f/AQACepAmnwdRTkyAze95cLWt03Vkke4PGNF7EZNemBM9yX_RAWABI36JdSLdfB_pCRLYfrruQ6ksuz0qSjqz6XLe4lU.jpg",
+      "url": "https://static.kinoafisha.info/k/movie_shots/1920x1080/upload/movie_shots/0/0/5/8362500/4e014ce96f014ab944a6818f6ebb14de.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -57139,7 +57190,7 @@
       "rationale": "Возраст выбран с учётом сложности сюжета, длительности произведения и возможных эмоционально напряжённых эпизодов."
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/ca26ed8e-cc27-56d0-b34b-1250f1898602/AQACfPTye8zdTPwrxzmEenewqNfuCOhljOeSrlqNPTwcSu81S8XxLphYrpcaykoswa47htnRC7R67tFMJfbdMvGZjYM.jpg",
+      "url": "https://images.mubicdn.net/images/film/22644/cache-35097-1507761422/image-w1280.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -65499,7 +65550,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/71a5ea17-0159-5138-a81f-cfbe9c4be1c6/AQACwHBFiixkWCBBMNMNnTW6n6XRWyPC2bnB6f36aNi9Wb8ourdvzm746i42cRJas3gj8Z4_x_36emHdYCGM_8124Z4.jpg",
+      "url": "https://d-tv.ppstatic.pl/images/tv-tv/4d/b8/prg2234967_830097043_original.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -68930,7 +68981,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/1b527e34-04e3-597e-83b0-0d68950d92f7/AQAChbaV0dq8JDBOaC3aizwl6ZvKfS2BYoPy5wzZ-YYIMNA7hICLaGZOpw-XVbASuBU5x7YayALoi5UfL5RteR_fpb0.jpg",
+      "url": "https://2.bp.blogspot.com/-kLzt2yvQWGw/U-VM009IcFI/AAAAAAAABOI/urN1S40f7e8/s1600/Animation_39.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -69374,7 +69425,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/0b729cd2-109e-520d-b8ef-c87caf9d5fda/AQACMFuHaQyY-JY_kAEKMrzhIXxUX_iHVYNJbo3f29aOCh5lzD-HzkOa_B3w-AeuoTsHcvP-Cgx9PCCrPspCDMYIx94.jpg",
+      "url": "https://images.iptv.rt.ru/images/caualrbir4ssllu453ig.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -69528,7 +69579,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/8c0a81ea-9f59-53ea-83d0-6b41d9c12534/AQACLEqwsenMAFycHR7MpcoXt2awoKjOilDZM6wURL-LrbZ367JxZbAni_LgIk4YV3tEDQcLOPjjV7b3XmIFiYDdlyI.jpg",
+      "url": "https://static.cinemagia.ro/img/db/movie/11/66/733/the-garfield-show-402611l.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -70616,7 +70667,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/02eaa097-e55a-5a87-8231-c1e544d2476e/AQACm8aej5J8eggDdgK6Qz6eFg44sH3ISVAlVGNVbU5lpMvtCUiGgCrcdw5bXxsW-b1NY4OgWsAJ5o7WjamJTsQnH-E.jpg",
+      "url": "https://filmwerte-vod.b-cdn.net/videos/539/5391a92b-07cc-4d41-9f8d-29ade0a49d56/artworks/36733031-c2c2-429a-a96a-d2b5714ebeeb.jpg?height=720&width=1280",
       "studios": [
         "Кино Mail"
       ]
@@ -71999,7 +72050,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/b9402d26-7ae8-5a5a-9f6d-1a6f74c0f595/AQACTBxJdvd63s663X70ESJ3x9xNwMYGsg2C_tJp5xB2CUY_3R6FjgpSYSLffXyNGNritBO-wpQ3NCMBpDsM-PB2D8w.jpg",
+      "url": "https://is4-ssl.mzstatic.com/image/thumb/Ez1O0PiYDdOou3roMxlahA/1478x832.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -72634,7 +72685,7 @@
       "rationale": "Возраст выбран с учётом сложности сюжета, длительности произведения и возможных эмоционально напряжённых эпизодов."
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/7060af7e-d660-5812-bb37-8030af6101d8/AQAC3roR3AkUvwatnsS7QO58L_XRZeBaQf1lDsnc27OaTpG_wEzOPuZcIkACs3nuQGFcn0GRO3P5CAsPcN8DOJxv5dY.jpg",
+      "url": "https://s2.dmcdn.net/v/Ug-rb1eofkuLwnBmZ/x720",
       "studios": [
         "Кино Mail"
       ]
@@ -86017,7 +86068,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/b1f34088-e2d2-5c3c-9dfb-db00ae85a984/AQAChKfq-Ywy3DJ0cgHa0YF4iqoulTeAZU7JTa9joK6m2dIGAVJncfsS0pYYehFfY6q5xTuOXQYnyL68Ao5yPtAf-p4.jpg",
+      "url": "https://pbskids.org/_next/image?q=75&url=https%3A%2F%2Fimage.pbs.org%2Fvideo-assets%2Fpbs-kids%2Fcyberchase%2F243266%2Fimages%2Fkids-mezzannine-16x9_483.jpg&w=1920",
       "studios": [
         "Кино Mail"
       ]
@@ -89454,7 +89505,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/a27cd1ab-0a2f-5bc1-97a4-dc6d40449e6a/AQACmZMEWoBWGfIuSAPYuRHCDeoV3ETkZA-w6reBWwpSN7ef-Udrv1PCgsUTey4IT_MY3FLXMyk88xev313M6lnPIec.jpg",
+      "url": "https://images.iptv.rt.ru/images/c6u6fjrir4ssllttfgsg.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -93189,7 +93240,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/bd71aa5e-3774-57c4-880a-5a8535f94e66/AQACDawqQT3J05BrXOX3FJz_pIUgffWGW4MUfXDYXHIq5QOyaDUS4THb8T_NWqZ4i1_suN1d9MlOvikTdlru-9EOj80.jpg",
+      "url": "https://m.media-amazon.com/images/S/pv-target-images/505aa721a63da430dff9e63aa623d6b73f443894c50e11be31f1fb98c01b179e._SX1080_FMjpg_.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -93288,7 +93339,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/aead832d-769d-5d61-9d98-f84388696b2a/AQAClEyA2rzSZybHGje0WWUuKP71D2J4NUJLyfQ05i2wJppncTZeDDqViY5W2UYdiy_C2Krmp1Fss_yRXGIhhepmsxk.jpg",
+      "url": "https://images.iptv.rt.ru/images/c6u8hejir4sslltu3r4g.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -96573,7 +96624,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/88d300c3-a950-5e54-b5ac-52c488d26ccc/AQACHFHQpAh9vNgPMrtAo-CC4ww9CFUfM_SFSJeyx1QOcb6TIPWsgvhB-MwwdkITa6hpMnSOK2VIvzKb_WuAKQX2eBY.jpg",
+      "url": "https://osn-artwork.anghcdn.co/landscape_cl_PR691984/SR117583_QC.jpg?width=3840",
       "studios": [
         "Кино Mail"
       ]

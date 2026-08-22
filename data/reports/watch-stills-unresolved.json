@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-22T04:52:16.429Z",
+  "generatedAt": "2026-08-22T13:20:46.337Z",
   "totalCatalog": 2074,
-  "confirmedStills": 1195,
-  "unresolved": 879,
-  "posterInFrame": 319,
-  "noFrame": 560,
+  "confirmedStills": 1226,
+  "unresolved": 848,
+  "posterInFrame": 305,
+  "noFrame": 543,
   "confirmedButMissingStudios": 0,
   "tailGroups": {
     "A": 0,
-    "B": 126,
-    "C": 508,
-    "D": 245
+    "B": 119,
+    "C": 494,
+    "D": 235
   },
   "items": [
     {
@@ -707,27 +707,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-150",
-      "title": "Я краснею",
-      "originalTitle": "Turning Red",
-      "year": 2022,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-155",
       "title": "Ральф",
       "originalTitle": "Wreck-It Ralph",
@@ -866,48 +845,6 @@
       "title": "Смывайся!",
       "originalTitle": "Flushed Away",
       "year": 2006,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-169",
-      "title": "Эверест",
-      "originalTitle": "Abominable",
-      "year": 2019,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-170",
-      "title": "Плохие парни",
-      "originalTitle": "The Bad Guys",
-      "year": 2022,
       "type": "animated-feature",
       "externalIds": {
         "kinopoisk": null,
@@ -1936,27 +1873,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-291",
-      "title": "Семейка Крудс: Новоселье",
-      "originalTitle": "The Croods: A New Age",
-      "year": 2020,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-296",
       "title": "Тролли. Мировой тур",
       "originalTitle": "Trolls World Tour",
@@ -2553,52 +2469,10 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-392",
-      "title": "Морской монстр",
-      "originalTitle": "The Sea Beast",
-      "year": 2022,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-393",
       "title": "Лео",
       "originalTitle": "Leo",
       "year": 2023,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-396",
-      "title": "Путешествие на Луну",
-      "originalTitle": "Over the Moon",
-      "year": 2020,
       "type": "animated-feature",
       "externalIds": {
         "kinopoisk": null,
@@ -4511,27 +4385,6 @@
       }
     },
     {
-      "id": "nen-571",
-      "title": "Поток",
-      "originalTitle": "Straume",
-      "year": 2024,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-574",
       "title": "Анина",
       "originalTitle": "Anina",
@@ -5168,27 +5021,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-646",
-      "title": "Неисправимый Рон",
-      "originalTitle": "Ron's Gone Wrong",
-      "year": 2021,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-647",
       "title": "Миньоны: Грювитация",
       "originalTitle": "Minions: The Rise of Gru",
@@ -5626,48 +5458,6 @@
       "title": "UglyDolls. Куклы с характером",
       "originalTitle": "UglyDolls",
       "year": 2019,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-719",
-      "title": "Заворожённые",
-      "originalTitle": "Spellbound",
-      "year": 2024,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-720",
-      "title": "Тельма, единорог",
-      "originalTitle": "Thelma the Unicorn",
-      "year": 2024,
       "type": "animated-feature",
       "externalIds": {
         "kinopoisk": null,
@@ -6419,48 +6209,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q587692",
-      "title": "Смурфики и волшебная флейта",
-      "originalTitle": "La Flûte à six schtroumpfs",
-      "year": 1976,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q587692",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.184Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:39.226Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.moviemeter.nl/film/16940",
-        "imageUrl": "https://image.tmdb.org/t/p/w780/bPeQxBvTm5YZYczQvrUoHDA3Znv.jpg",
-        "reasons": [
-          "страница-источник недоступна: HTTP 403"
-        ]
-      }
-    },
-    {
       "id": "nen-wd-q9213545",
       "title": "Тилль Уленшпигель",
       "originalTitle": "Till Eulenspiegel",
@@ -6528,49 +6276,6 @@
         }
       ],
       "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q489149",
-      "title": "Ураган над Ямайкой",
-      "originalTitle": "A High Wind in Jamaica",
-      "year": 1965,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": "10197",
-        "tmdbMovie": "38340",
-        "tmdbTv": null,
-        "imdb": "tt0059269",
-        "wikidata": "Q489149",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.636Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:21:38.247Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/10197/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:05.435Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
       "confirmedCandidateNotApplied": null,
       "tailGroup": "C",
       "pendingCandidate": null
@@ -9424,49 +9129,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q106956224",
-      "title": "Сопливый мальчик",
-      "originalTitle": "Rotzbub",
-      "year": 2021,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": "4536171",
-        "tmdbMovie": "831728",
-        "tmdbTv": null,
-        "imdb": "tt7664100",
-        "wikidata": "Q106956224",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.298Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:19:45.204Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/4536171/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:02.407Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q116280217",
       "title": "Новые истории Франца",
       "originalTitle": "Neue Geschichten vom Franz",
@@ -10514,48 +10176,6 @@
       "confirmedCandidateNotApplied": null,
       "tailGroup": "C",
       "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q1171360",
-      "title": "Деревянный телёнок",
-      "originalTitle": "Das hölzerne Kälbchen",
-      "year": 1961,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q1171360",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.493Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:32.116Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.defa-stiftung.de/filme/filme-suchen/das-hoelzerne-kaelbchen/",
-        "imageUrl": "https://www.defa-stiftung.de/fileadmin/DEFA_Stiftung/DEFA-Filme/Spielfilme/hoelzerne-Kaelbchen-Das/KALB_2_Copyright_DEFA_Stiftung_Hans_Bernd_Baxmann.jpg",
-        "reasons": [
-          "страница не подтверждает, что изображение является кадром"
-        ]
-      }
     },
     {
       "id": "nen-wd-q1199657",
@@ -13507,49 +13127,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q1212968",
-      "title": "Гусятница",
-      "originalTitle": "Die Geschichte von der Gänseprinzessin und ihrem treuen Pferd Falada",
-      "year": 1989,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": "63770",
-        "tmdbMovie": "13297",
-        "tmdbTv": null,
-        "imdb": "tt0095210",
-        "wikidata": "Q1212968",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.385Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:20:15.169Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/63770/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:03.720Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q1169631",
       "title": "Свет любви",
       "originalTitle": "Das Licht der Liebe",
@@ -13745,49 +13322,6 @@
         }
       ],
       "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q56064398",
-      "title": "Пепе. Высшая жизнь",
-      "originalTitle": "El Pepe, una vida suprema",
-      "year": 2018,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": "1189777",
-        "tmdbMovie": "538620",
-        "tmdbTv": null,
-        "imdb": "tt8900434",
-        "wikidata": "Q56064398",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.667Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:21:49.410Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/1189777/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:05.514Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
       "confirmedCandidateNotApplied": null,
       "tailGroup": "C",
       "pendingCandidate": null
@@ -16070,49 +15604,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q617969",
-      "title": "Картина",
-      "originalTitle": "Le Tableau",
-      "year": 2011,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q617969",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.185Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:39.330Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.cinematheque.fr/film/121778.html",
-        "imageUrl": "https://www.cinematheque.fr/media/01-films/le-tableau-laurent-achard.jpg",
-        "reasons": [
-          "страница не подтверждает год",
-          "страница не подтверждает, что изображение является кадром"
-        ]
-      }
-    },
-    {
       "id": "nen-wd-q3223663",
       "title": "День ворон",
       "originalTitle": "Le Jour des corneilles",
@@ -17449,42 +16940,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-mail-924545",
-      "title": "Барби и три мушкетера",
-      "originalTitle": "Barbie and the Three Musketeers",
-      "year": 2009,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt1484922",
-        "wikidata": null,
-        "mail": "924545"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:11:41.482Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:52:48.494Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/924545_barbi_i_tri_mushketera/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-mail-839382",
       "title": "Барбос в гостях у Бобика",
       "originalTitle": "Барбос в гостях у Бобика",
@@ -17923,42 +17378,6 @@
           "status": "NO_STILL_FOUND",
           "checkedAt": "2026-08-16T09:54:19.006Z",
           "pageUrl": "https://kino.mail.ru/cinema/movies/806390_dva_steklishka_udivitelnii_teleskop/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-927203",
-      "title": "Девочка и эхо",
-      "originalTitle": "Девочка и эхо",
-      "year": 1965,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt0194918",
-        "wikidata": null,
-        "mail": "927203"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:12:06.850Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:52:56.927Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/927203_devochka_i_eho/",
           "error": null
         }
       ],
@@ -20833,48 +20252,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-mail-910222",
-      "title": "101 далматинец",
-      "originalTitle": "101 Dalmatians",
-      "year": 1997,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt0144700",
-        "wikidata": null,
-        "mail": "910222"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:10:50.376Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:52:26.987Z",
-          "pageUrl": "https://kino.mail.ru/series_910222_101_dalmatinets/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://mastermixmovies.wordpress.com/2024/03/08/i-live-for-fur/",
-        "imageUrl": "https://mastermixmovies.wordpress.com/wp-content/uploads/2023/10/101-dalmatians-1996-featured.jpg",
-        "reasons": [
-          "страница не подтверждает год"
-        ]
-      }
-    },
-    {
       "id": "nen-mail-794402",
       "title": "Алые погоны",
       "originalTitle": "Алые погоны",
@@ -21423,42 +20800,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-mail-905703",
-      "title": "Вперед с Ником",
-      "originalTitle": "Iconicles",
-      "year": 2011,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt2056994",
-        "wikidata": null,
-        "mail": "905703"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:10:46.860Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:52:25.542Z",
-          "pageUrl": "https://kino.mail.ru/series_905703_vepered_s_nikom/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-mail-807495",
       "title": "Всякая всячина",
       "originalTitle": "All That",
@@ -21572,86 +20913,6 @@
       "confirmedCandidateNotApplied": null,
       "tailGroup": "C",
       "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-904769",
-      "title": "Газун: Звериные приключения",
-      "originalTitle": "Gazoon",
-      "year": 2007,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt4288626",
-        "wikidata": null,
-        "mail": "904769"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:10:41.916Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:52:24.342Z",
-          "pageUrl": "https://kino.mail.ru/series_904769_gazun_zverinie_priklyucheniya/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-928848",
-      "title": "Гарфилд шоу",
-      "originalTitle": "The Garfield Show",
-      "year": 2008,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt1470837",
-        "wikidata": null,
-        "mail": "928848"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:12:30.412Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:53:05.286Z",
-          "pageUrl": "https://kino.mail.ru/series_928848_garfild_shou/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.cinemagia.ro/filme/garfield-gets-real-22330/imagini/265727/",
-        "imageUrl": "https://static.cinemagia.ro/img/db/movie/02/23/30/garfield-gets-real-187061l.jpg",
-        "reasons": [
-          "страница не подтверждает originalTitle",
-          "страница не подтверждает год",
-          "страница не подтверждает, что изображение является кадром"
-        ]
-      }
     },
     {
       "id": "nen-mail-925707",
@@ -21769,50 +21030,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-mail-806966",
-      "title": "Д’Артаньгав и три пса-мушкетёра",
-      "originalTitle": "D’Аrtacan y los tres mosqueperros",
-      "year": 1981,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt0083780",
-        "wikidata": null,
-        "mail": "806966"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:09:39.031Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:51:42.042Z",
-          "pageUrl": "https://kino.mail.ru/series_806966_d_artangav_i_tri_psa_mushketyora/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.rtve.es/play/clan/dartacan-tres-mosqueperros/tres-mosqueperros-invencibles/1504082/",
-        "imageUrl": "https://img2.rtve.es/v/1504082/?w=1600",
-        "reasons": [
-          "страница не подтверждает originalTitle",
-          "страница не подтверждает год",
-          "страница не подтверждает, что изображение является кадром"
-        ]
-      }
-    },
-    {
       "id": "nen-mail-914738",
       "title": "Детская вселенная",
       "originalTitle": "YOUniverse",
@@ -21876,42 +21093,6 @@
           "status": "NO_STILL_FOUND",
           "checkedAt": "2026-08-16T09:53:17.604Z",
           "pageUrl": "https://kino.mail.ru/series_930821_dzhilidzhilis/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-922595",
-      "title": "Динотопы",
-      "originalTitle": "Dinopaws",
-      "year": 2014,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt3533604",
-        "wikidata": null,
-        "mail": "922595"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:11:33.233Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:52:44.858Z",
-          "pageUrl": "https://kino.mail.ru/series_922595_dinotopi/",
           "error": null
         }
       ],
@@ -22020,42 +21201,6 @@
           "status": "NO_STILL_FOUND",
           "checkedAt": "2026-08-16T09:52:52.945Z",
           "pageUrl": "https://kino.mail.ru/series_925482_doki/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-925481",
-      "title": "Достать Эйса",
-      "originalTitle": "Get Ace",
-      "year": 2014,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt2171132",
-        "wikidata": null,
-        "mail": "925481"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:11:49.285Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:52:52.463Z",
-          "pageUrl": "https://kino.mail.ru/series_925481_dostat_eisa/",
           "error": null
         }
       ],
@@ -27314,42 +26459,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-mail-929422",
-      "title": "Кибергонка",
-      "originalTitle": "Cyberchase",
-      "year": 2002,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt0309141",
-        "wikidata": null,
-        "mail": "929422"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:12:37.448Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:53:11.543Z",
-          "pageUrl": "https://kino.mail.ru/series_929422_kibergonka/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-mail-929457",
       "title": "Книга джунглей: Сафари",
       "originalTitle": "Jungle Book Safari",
@@ -27781,42 +26890,6 @@
       }
     },
     {
-      "id": "nen-mail-934469",
-      "title": "Лу!",
-      "originalTitle": "Lou!",
-      "year": 2009,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt5105934",
-        "wikidata": null,
-        "mail": "934469"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:13:22.690Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:53:23.973Z",
-          "pageUrl": "https://kino.mail.ru/series_934469_lu/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-mail-799572",
       "title": "Макар-следопыт",
       "originalTitle": "Макар-следопыт",
@@ -28231,84 +27304,6 @@
           "страница не подтверждает originalTitle",
           "страница не подтверждает год",
           "страница не подтверждает, что изображение является кадром"
-        ]
-      }
-    },
-    {
-      "id": "nen-mail-829798",
-      "title": "Мук",
-      "originalTitle": "Mouk",
-      "year": 2012,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt2129477",
-        "wikidata": null,
-        "mail": "829798"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:09:57.467Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:51:55.577Z",
-          "pageUrl": "https://kino.mail.ru/series_829798_muk/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-925119",
-      "title": "Мумия",
-      "originalTitle": "The Mummy",
-      "year": 2001,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt0281471",
-        "wikidata": null,
-        "mail": "925119"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:11:47.858Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:52:51.254Z",
-          "pageUrl": "https://kino.mail.ru/series_925119_mumiya/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.fangoria.com/brendan-fraser-the-mummy-4/",
-        "imageUrl": "https://www.fangoria.com/wp-content/uploads/2025/11/39aba650-1f50-11ef-bb35-5959ae798fb4-e1763725523934.webp",
-        "reasons": [
-          "страница-источник недоступна: HTTP 403"
         ]
       }
     },
@@ -28791,42 +27786,6 @@
           "status": "NO_STILL_FOUND",
           "checkedAt": "2026-08-16T09:53:01.621Z",
           "pageUrl": "https://kino.mail.ru/series_928198_pim_i_pimba/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-929312",
-      "title": "Пингу",
-      "originalTitle": "The Pingu Show",
-      "year": 1986,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt0100366",
-        "wikidata": null,
-        "mail": "929312"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:12:35.955Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:53:10.285Z",
-          "pageUrl": "https://kino.mail.ru/series_929312_pingu/",
           "error": null
         }
       ],

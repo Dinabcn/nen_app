@@ -1,10 +1,30 @@
 {
-  "generatedAt": "2026-08-22T04:51:29.518Z",
+  "generatedAt": "2026-08-22T13:20:29.362Z",
   "totalCatalog": 2074,
-  "reviewed": 68,
-  "applied": 42,
-  "rejected": 26,
+  "reviewed": 113,
+  "applied": 73,
+  "rejected": 40,
   "appliedItems": [
+    {
+      "watchId": "nen-wd-q587692",
+      "originalTitle": "La Flûte à six schtroumpfs",
+      "year": 1976,
+      "pageUrl": "https://recorderhomepage.net/smurfs-and-the-recorder/",
+      "imageUrl": "https://www.recorderhomepage.net/wp-content/uploads/2022/01/la-flute-a-six-schtroumpfs_clip.jpg",
+      "source": "Recorder Home Page",
+      "match": "page title + original title + year + described film scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 82924,
+        "width": 835,
+        "height": 686,
+        "format": "jpeg",
+        "aspectRatio": 1.217201166180758,
+        "hash": "sha256:1d1414cc4f0b78af26e76569f7c938f0f29e9d7e04ce6cf412233f144a0f4b97",
+        "checkedAt": "2026-08-22T13:19:24.889Z"
+      },
+      "validatedAt": "2026-08-22T13:19:24.893Z"
+    },
     {
       "watchId": "nen-wd-q569991",
       "originalTitle": "Babar, roi des éléphants",
@@ -342,6 +362,26 @@
       "reusedValidation": true
     },
     {
+      "watchId": "nen-wd-q489149",
+      "originalTitle": "A High Wind in Jamaica",
+      "year": 1965,
+      "pageUrl": "https://www.listal.com/viewimage/22144306",
+      "imageUrl": "https://ilarge.lisimg.com/image/22144306/740full-a-high-wind-in-jamaica-photo.jpg",
+      "source": "Listal",
+      "match": "dedicated image page + exact title + 1965 + film still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 308823,
+        "width": 954,
+        "height": 740,
+        "format": "jpeg",
+        "aspectRatio": 1.2891891891891891,
+        "hash": "sha256:fe1b21601731d7cbbbb6d1a0a89b77b23914059fce36e401ae09df73bcc1c7de",
+        "checkedAt": "2026-08-22T13:19:28.752Z"
+      },
+      "validatedAt": "2026-08-22T13:19:28.752Z"
+    },
+    {
       "watchId": "nen-wd-q1171138",
       "originalTitle": "Das fliegende Klassenzimmer",
       "year": 1954,
@@ -611,7 +651,8 @@
         "hash": "sha256:254fe38ea9484c15fb5e396d314765a21951040ebac1f67a8d731987a77f9e7c",
         "checkedAt": "2026-08-22T04:50:54.172Z"
       },
-      "validatedAt": "2026-08-22T04:50:54.172Z"
+      "validatedAt": "2026-08-22T04:50:54.172Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-mail-602334",
@@ -631,7 +672,8 @@
         "hash": "sha256:fe999e3e7c58ccb2bf6b1e69134c9dd5d1eda601d27513d344ef619bf03ed28a",
         "checkedAt": "2026-08-22T04:50:55.413Z"
       },
-      "validatedAt": "2026-08-22T04:50:55.413Z"
+      "validatedAt": "2026-08-22T04:50:55.413Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-mail-720636",
@@ -651,7 +693,8 @@
         "hash": "sha256:fb3f03fc7c19a445bd2d4aae470b4e3b5d417668eb0b75046b9657873c6212e0",
         "checkedAt": "2026-08-22T04:50:55.925Z"
       },
-      "validatedAt": "2026-08-22T04:50:55.925Z"
+      "validatedAt": "2026-08-22T04:50:55.925Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-mail-758256",
@@ -671,7 +714,8 @@
         "hash": "sha256:7e0c7a123fd763d55ad17ae33eb52cdd29ef76901849e2088477ce628eb512c4",
         "checkedAt": "2026-08-22T04:50:56.867Z"
       },
-      "validatedAt": "2026-08-22T04:50:56.867Z"
+      "validatedAt": "2026-08-22T04:50:56.867Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-mail-814165",
@@ -691,7 +735,8 @@
         "hash": "sha256:d1544fa041a2af70563b441767ca65c34f5cc4f7563ff08b865be486e9c1ccd1",
         "checkedAt": "2026-08-22T04:51:22.903Z"
       },
-      "validatedAt": "2026-08-22T04:51:22.903Z"
+      "validatedAt": "2026-08-22T04:51:22.903Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-mail-826880",
@@ -711,7 +756,28 @@
         "hash": "sha256:95467356ce689c24511f696e0d235786f1afc9c32ce24dbda1c00d6b661b9a4c",
         "checkedAt": "2026-08-22T04:51:23.811Z"
       },
-      "validatedAt": "2026-08-22T04:51:23.811Z"
+      "validatedAt": "2026-08-22T04:51:23.811Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-wd-q1212968",
+      "originalTitle": "Die Geschichte von der Gänseprinzessin und ihrem treuen Pferd Falada",
+      "year": 1989,
+      "pageUrl": "https://www.imdb.com/title/tt0095210/mediaindex/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZGM3YjYxOGItYzU2OC00MzU1LTk3M2QtMDQ0ZTk1MGU1YzI0XkEyXkFqcGc%40._V1_.jpg",
+      "source": "IMDb",
+      "match": "exact IMDb ID tt0095210 + title + year + still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 121759,
+        "width": 982,
+        "height": 768,
+        "format": "jpeg",
+        "aspectRatio": 1.2786458333333333,
+        "hash": "sha256:0976e27debe616dfbaa12148c52ef4ae4637b1972603989a2651991f3fc57eb1",
+        "checkedAt": "2026-08-22T13:20:01.775Z"
+      },
+      "validatedAt": "2026-08-22T13:20:01.775Z"
     },
     {
       "watchId": "nen-wd-q123165006",
@@ -731,7 +797,8 @@
         "hash": "sha256:6c437b2a3a261cbdca9f07f20d02ec5e6b0ae35fed808bce0447b088800509a8",
         "checkedAt": "2026-08-22T04:51:26.385Z"
       },
-      "validatedAt": "2026-08-22T04:51:26.385Z"
+      "validatedAt": "2026-08-22T04:51:26.385Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q21161034",
@@ -751,7 +818,8 @@
         "hash": "sha256:daf34043d42a4fc5922e40bef264c142f48699358e60b022882947671ffc82a6",
         "checkedAt": "2026-08-22T04:51:26.860Z"
       },
-      "validatedAt": "2026-08-22T04:51:26.860Z"
+      "validatedAt": "2026-08-22T04:51:26.860Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q21981149",
@@ -771,7 +839,8 @@
         "hash": "sha256:ca4f4c383ee111482b48020dab7421c9ddc89cffaf07b94950011545eed070ae",
         "checkedAt": "2026-08-22T04:51:27.089Z"
       },
-      "validatedAt": "2026-08-22T04:51:27.089Z"
+      "validatedAt": "2026-08-22T04:51:27.089Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q285118",
@@ -791,7 +860,8 @@
         "hash": "sha256:f53210fe83814c3d8d8551e3b441f501000251f094edb906d5de26817eee0712",
         "checkedAt": "2026-08-22T04:51:27.999Z"
       },
-      "validatedAt": "2026-08-22T04:51:28.000Z"
+      "validatedAt": "2026-08-22T04:51:28.000Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q48911617",
@@ -811,7 +881,8 @@
         "hash": "sha256:88ccd47266d029dca8e759c116032797c0398ba1715efbf8a76f1f38b1063789",
         "checkedAt": "2026-08-22T04:51:28.257Z"
       },
-      "validatedAt": "2026-08-22T04:51:28.257Z"
+      "validatedAt": "2026-08-22T04:51:28.257Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q4946695",
@@ -831,7 +902,8 @@
         "hash": "sha256:f5b25055173d7aeff7e2cc92bc4d1298692ae842dcc18c87c5df01c79ed96483",
         "checkedAt": "2026-08-22T04:51:28.946Z"
       },
-      "validatedAt": "2026-08-22T04:51:28.946Z"
+      "validatedAt": "2026-08-22T04:51:28.946Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q66123849",
@@ -851,7 +923,8 @@
         "hash": "sha256:4a956461479db5a921c77c4ca47b0920f2b86c477dd6a3e6bcb04e72bf3238d5",
         "checkedAt": "2026-08-22T04:51:29.215Z"
       },
-      "validatedAt": "2026-08-22T04:51:29.215Z"
+      "validatedAt": "2026-08-22T04:51:29.215Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q86660087",
@@ -871,33 +944,571 @@
         "hash": "sha256:e8c9bda099ed0891968761cf5373ae85f3adae50ba21b43844f63a6bc2a47701",
         "checkedAt": "2026-08-22T04:51:29.451Z"
       },
-      "validatedAt": "2026-08-22T04:51:29.451Z"
+      "validatedAt": "2026-08-22T04:51:29.451Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-wd-q106956224",
+      "originalTitle": "Rotzbub",
+      "year": 2021,
+      "pageUrl": "https://tv.orf.at/program/orf1/rotzbub100.html",
+      "imageUrl": "https://tv.orf.at/program/orf1/rotzbub_104~_v-epg__large__16__9_-5412e775eb65789c908def5fa9fdf24a7b895a8f.jpg",
+      "source": "ORF",
+      "match": "official broadcaster + exact title and year + film scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 109335,
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:18459823bcec1d14e7bca79edb9304cf264ecd7c7ff199e92cc2687878dc0a97",
+        "checkedAt": "2026-08-22T13:20:03.569Z"
+      },
+      "validatedAt": "2026-08-22T13:20:03.569Z"
+    },
+    {
+      "watchId": "nen-wd-q56064398",
+      "originalTitle": "El Pepe, una vida suprema",
+      "year": 2018,
+      "pageUrl": "https://www.netflix.com/es/title/81094074",
+      "imageUrl": "https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdwRzBYLh3QnGVkStXcp6J4toHb4KsLRbjqXe6-Ww3hcMMpIpwyo8SKRKuhibAgSwm4gApj_R7dxLCNbamWf1YWBQ2ZXOv7T-SDj16r9vrs1GwGS0UIMz6d5eeT3LiE.jpg?r=cc0",
+      "source": "Netflix",
+      "match": "official exact documentary page + title and year",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 85864,
+        "width": 912,
+        "height": 513,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:aacc314500da40ae7734b8624b64022d2ccd1ce29e805f05e9270bea8d66e0fd",
+        "checkedAt": "2026-08-22T13:20:05.171Z"
+      },
+      "validatedAt": "2026-08-22T13:20:05.171Z"
+    },
+    {
+      "watchId": "nen-571",
+      "originalTitle": "Straume",
+      "year": 2024,
+      "pageUrl": "https://www.festival-cannes.com/en/f/flow/",
+      "imageUrl": "https://img.festival-cannes.com/eyJidWNrZXQiOiJtZWRpYSIsImtleSI6InVwbG9hZHNcLzIwMjRcLzA1XC8xNzA5NTMtc2NhbGVkLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTM2MCwiZml0IjoiY292ZXIifX19",
+      "source": "Festival de Cannes",
+      "match": "official festival film page + exact title, year and director + still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 132585,
+        "width": 1360,
+        "height": 680,
+        "format": "jpeg",
+        "aspectRatio": 2,
+        "hash": "sha256:e623724b9944d413eb3c5ae67728c5ab7f8ab10e2dd96fe92f8cd0fd193c5c38",
+        "checkedAt": "2026-08-22T13:20:05.490Z"
+      },
+      "validatedAt": "2026-08-22T13:20:05.490Z"
+    },
+    {
+      "watchId": "nen-719",
+      "originalTitle": "Spellbound",
+      "year": 2024,
+      "pageUrl": "https://www.netflix.com/id-en/title/81745658",
+      "imageUrl": "https://occ-0-3011-114.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABYY2B1RBpN0NHPizXzhifP7bt_3Ma7OV3_OFzpV3YkYYARlSI62YcMRNDZkBNfKU2PoS4_qqSpyqfZ95Rw-uidEQ9yo9hTsi3q91.jpg?r=220",
+      "source": "Netflix",
+      "match": "official exact film page + title and year + scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 154751,
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:6129b7af38e79c40af7f1d785b5d84aa6fc94b90da4ba534df4cb0fc3c5e57ef",
+        "checkedAt": "2026-08-22T13:20:06.576Z"
+      },
+      "validatedAt": "2026-08-22T13:20:06.576Z"
+    },
+    {
+      "watchId": "nen-720",
+      "originalTitle": "Thelma the Unicorn",
+      "year": 2024,
+      "pageUrl": "https://www.lynnvwang.com/thelma-the-unicorn",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e1f9c088a31cf7344eda01f/faa551e7-5012-4ddb-97e5-7760ff65a570/Thelma_the_Unicorn_n_00_23_34_22.jpg",
+      "source": "Lynn Wang",
+      "match": "director official site + exact film title + production frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 128208,
+        "width": 1920,
+        "height": 1035,
+        "format": "jpeg",
+        "aspectRatio": 1.855072463768116,
+        "hash": "sha256:9c3eb27f8364430dfd90442888724f93ee8bf679bb30ce13b266818c8c8b2dba",
+        "checkedAt": "2026-08-22T13:20:06.980Z"
+      },
+      "validatedAt": "2026-08-22T13:20:06.980Z"
+    },
+    {
+      "watchId": "nen-150",
+      "originalTitle": "Turning Red",
+      "year": 2022,
+      "pageUrl": "https://caamedia.org/blog/2022/03/09/turning-red-animators-on-anime-influences-and-working-domee-shi/",
+      "imageUrl": "https://caamedia.s3.amazonaws.com/wp-content/uploads/2022/03/08131816/T-RED-ONLINE-USE-r393_18j_pub.pub16.300_1920x1080.jpg",
+      "source": "CAAMedia",
+      "match": "film animator interview + exact title, year and Pixar production still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 272482,
+        "width": 1920,
+        "height": 1080,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:a34313868ff81186830c40a4aa8394335d5bf09d98cfda8f5f3d85098093a2e7",
+        "checkedAt": "2026-08-22T13:20:07.701Z"
+      },
+      "validatedAt": "2026-08-22T13:20:07.701Z"
+    },
+    {
+      "watchId": "nen-170",
+      "originalTitle": "The Bad Guys",
+      "year": 2022,
+      "pageUrl": "https://www.intofilm.org/films/19895",
+      "imageUrl": "https://www.intofilm.org/intofilm-production/scaledcropped/970x546https%3A/s3-eu-west-1.amazonaws.com/images.cdn.filmclub.org/the-bad-guys-image-1-universal.jpg/the-bad-guys-image-1-universal.jpg",
+      "source": "Into Film",
+      "match": "exact film page + title/year + Universal scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 96688,
+        "width": 970,
+        "height": 546,
+        "format": "jpeg",
+        "aspectRatio": 1.7765567765567765,
+        "hash": "sha256:1cbe9d4bd09a903740ea22e6d15e44bbabe3800be5ea699161738187e5e2d1e6",
+        "checkedAt": "2026-08-22T13:20:08.185Z"
+      },
+      "validatedAt": "2026-08-22T13:20:08.186Z"
+    },
+    {
+      "watchId": "nen-392",
+      "originalTitle": "The Sea Beast",
+      "year": 2022,
+      "pageUrl": "https://mubi.com/tr/us/films/the-sea-beast-2022",
+      "imageUrl": "https://images.mubicdn.net/images/film/338005/cache-769245-1745499727/image-w1280.jpg?size=800x",
+      "source": "MUBI",
+      "match": "exact film page + title and year + still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 64170,
+        "width": 800,
+        "height": 450,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:1839bd991a3dda8449ee6bdb1dc231949a1b72e14c9b4db75852e28bf60068ad",
+        "checkedAt": "2026-08-22T13:20:08.550Z"
+      },
+      "validatedAt": "2026-08-22T13:20:08.551Z"
+    },
+    {
+      "watchId": "nen-646",
+      "originalTitle": "Ron's Gone Wrong",
+      "year": 2021,
+      "pageUrl": "https://www.kinonews.ru/shot190440/",
+      "imageUrl": "https://www.kinonews.ru/insimgs/2021/shotimg/shotimg102817_6.jpg",
+      "source": "KinoNews",
+      "match": "explicit frame page + exact title and year",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 572623,
+        "width": 4096,
+        "height": 1716,
+        "format": "jpeg",
+        "aspectRatio": 2.386946386946387,
+        "hash": "sha256:4e4721fc7ae107b991df8c89644fe19fb358a7256f94ff39c3b42c0990908139",
+        "checkedAt": "2026-08-22T13:20:10.665Z"
+      },
+      "validatedAt": "2026-08-22T13:20:10.666Z"
+    },
+    {
+      "watchId": "nen-291",
+      "originalTitle": "The Croods: A New Age",
+      "year": 2020,
+      "pageUrl": "https://www.universalpicturesathome.com/movies/the-croods-a-new-age",
+      "imageUrl": "https://images.contentstack.io/v3/assets/blt13adb7e2033fcee5/blt0b2ad70326e76706/69b4ae6aa117492f499a8958/v0HlmtmpjRhOxj9sylS6356oZhKk0G4I.jpg?width=2560",
+      "source": "Universal Pictures",
+      "match": "official studio page + exact title/year + scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 309748,
+        "width": 2560,
+        "height": 1440,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:7b414a0acb8e1520703fe4de86326e953ea5dc6fe22eff05ec2805adc1bedeb5",
+        "checkedAt": "2026-08-22T13:20:10.784Z"
+      },
+      "validatedAt": "2026-08-22T13:20:10.784Z"
+    },
+    {
+      "watchId": "nen-396",
+      "originalTitle": "Over the Moon",
+      "year": 2020,
+      "pageUrl": "https://www.independent.co.uk/news/review-charming-over-the-moon-gets-lost-in-lunar-orbit-moon-moon-heroine-rocket-orbit-b1186128.html",
+      "imageUrl": "https://static.independent.co.uk/2020/10/20/18/Film_Review_-_Over_the_Moon_07607.jpg?fit=crop&height=900&width=1200",
+      "source": "The Independent",
+      "match": "exact film review + title/year + AP film still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 105759,
+        "width": 1200,
+        "height": 900,
+        "format": "jpeg",
+        "aspectRatio": 1.3333333333333333,
+        "hash": "sha256:e4fd8479845aebf5f8e9015282a157ac41eedd3e6db3cb43230e8059b2e74deb",
+        "checkedAt": "2026-08-22T13:20:11.318Z"
+      },
+      "validatedAt": "2026-08-22T13:20:11.318Z"
+    },
+    {
+      "watchId": "nen-169",
+      "originalTitle": "Abominable",
+      "year": 2019,
+      "pageUrl": "https://film-authority.com/2019/10/20/abominable-2019/",
+      "imageUrl": "https://film-authority.com/wp-content/uploads/2020/03/abominable_-_publicity_still_4-_h_2019.jpg",
+      "source": "Film Authority",
+      "match": "explicit publicity still + exact DreamWorks film title/year",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 70390,
+        "width": 928,
+        "height": 523,
+        "format": "jpeg",
+        "aspectRatio": 1.774378585086042,
+        "hash": "sha256:d9b87e4d198f45e33f9786a792d822c9eac8b6600ef61dd8425732843428b509",
+        "checkedAt": "2026-08-22T13:20:11.855Z"
+      },
+      "validatedAt": "2026-08-22T13:20:11.855Z"
+    },
+    {
+      "watchId": "nen-mail-806966",
+      "originalTitle": "D’Аrtacan y los tres mosqueperros",
+      "year": 1981,
+      "pageUrl": "https://www.filmfriend.de/en/episodes/dogtanian-and-the-three-muskehounds-s1-e4",
+      "imageUrl": "https://filmwerte-vod.b-cdn.net/videos/539/5391a92b-07cc-4d41-9f8d-29ade0a49d56/artworks/36733031-c2c2-429a-a96a-d2b5714ebeeb.jpg?height=720&width=1280",
+      "source": "filmfriend",
+      "match": "exact series and episode page + scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 100295,
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:7de0778b451e61f6c3fa09d9ff319b5eee586f586da525266e30e6027e6ebda2",
+        "checkedAt": "2026-08-22T13:20:12.156Z"
+      },
+      "validatedAt": "2026-08-22T13:20:12.156Z"
+    },
+    {
+      "watchId": "nen-mail-928848",
+      "originalTitle": "The Garfield Show",
+      "year": 2008,
+      "pageUrl": "https://www.cinemagia.ro/filme/the-garfield-show-1166733/imagini/2797055/",
+      "imageUrl": "https://static.cinemagia.ro/img/db/movie/11/66/733/the-garfield-show-402611l.jpg",
+      "source": "CineMagia",
+      "match": "exact series image gallery + title/year",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 145680,
+        "width": 1920,
+        "height": 1088,
+        "format": "jpeg",
+        "aspectRatio": 1.7647058823529411,
+        "hash": "sha256:8f0836f06eec0fd68a2fb01b134717c96dfef753ffad42fa80f45fcda2eedb88",
+        "checkedAt": "2026-08-22T13:20:12.373Z"
+      },
+      "validatedAt": "2026-08-22T13:20:12.373Z"
+    },
+    {
+      "watchId": "nen-mail-829798",
+      "originalTitle": "Mouk",
+      "year": 2012,
+      "pageUrl": "https://www.primevideo.com/detail/Mouk/0SUVT3XB6WGB0EHYWBRQIWQQR9",
+      "imageUrl": "https://m.media-amazon.com/images/S/pv-target-images/505aa721a63da430dff9e63aa623d6b73f443894c50e11be31f1fb98c01b179e._SX1080_FMjpg_.jpg",
+      "source": "Prime Video",
+      "match": "official exact series page + season still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 80061,
+        "width": 1080,
+        "height": 608,
+        "format": "jpeg",
+        "aspectRatio": 1.7763157894736843,
+        "hash": "sha256:7c673c04fa9c2f97ae78ec8ae9c1339d9dc473c6dfb80b286220e5640fb71954",
+        "checkedAt": "2026-08-22T13:20:12.555Z"
+      },
+      "validatedAt": "2026-08-22T13:20:12.555Z"
+    },
+    {
+      "watchId": "nen-mail-929422",
+      "originalTitle": "Cyberchase",
+      "year": 2002,
+      "pageUrl": "https://pbskids.org/videos/cyberchase/season-5",
+      "imageUrl": "https://pbskids.org/_next/image?q=75&url=https%3A%2F%2Fimage.pbs.org%2Fvideo-assets%2Fpbs-kids%2Fcyberchase%2F243266%2Fimages%2Fkids-mezzannine-16x9_483.jpg&w=1920",
+      "source": "PBS Kids",
+      "match": "official exact series episode page + still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 170525,
+        "width": 1920,
+        "height": 1080,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:d45cb165973a7d301c36e8e0b4e07937b80db4422006cd55638aa26fa7e84bb6",
+        "checkedAt": "2026-08-22T13:20:12.910Z"
+      },
+      "validatedAt": "2026-08-22T13:20:12.910Z"
+    },
+    {
+      "watchId": "nen-mail-925481",
+      "originalTitle": "Get Ace",
+      "year": 2014,
+      "pageUrl": "https://www.dailymotion.com/video/x8idbhh",
+      "imageUrl": "https://s2.dmcdn.net/v/Ug-rb1eofkuLwnBmZ/x720",
+      "source": "Dailymotion",
+      "match": "exact titled episode E001 video frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 161481,
+        "width": 1376,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.9111111111111112,
+        "hash": "sha256:294a2cab8789068d30fd6da0431da2b93aaeb36e2bfc77710de9800dfb1c326c",
+        "checkedAt": "2026-08-22T13:20:13.146Z"
+      },
+      "validatedAt": "2026-08-22T13:20:13.146Z"
+    },
+    {
+      "watchId": "nen-mail-924545",
+      "originalTitle": "Barbie and the Three Musketeers",
+      "year": 2009,
+      "pageUrl": "https://www.kinoafisha.info/movies/8362500/",
+      "imageUrl": "https://static.kinoafisha.info/k/movie_shots/1920x1080/upload/movie_shots/0/0/5/8362500/4e014ce96f014ab944a6818f6ebb14de.jpg",
+      "source": "Киноафиша",
+      "match": "exact film page/gallery + title and year + shot",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 60020,
+        "width": 1030,
+        "height": 436,
+        "format": "jpeg",
+        "aspectRatio": 2.3623853211009176,
+        "hash": "sha256:dcfaed53699a4ae64ea1670ee7c5fd237760e0b1664c5082735bcd0e4cc4e7c2",
+        "checkedAt": "2026-08-22T13:20:13.420Z"
+      },
+      "validatedAt": "2026-08-22T13:20:13.421Z"
+    },
+    {
+      "watchId": "nen-mail-929312",
+      "originalTitle": "The Pingu Show",
+      "year": 1986,
+      "pageUrl": "https://osnplus.com/en-cg/episode/pingu-as-babysitter--pingu-and-the-stranger-66718",
+      "imageUrl": "https://osn-artwork.anghcdn.co/landscape_cl_PR691984/SR117583_QC.jpg?width=3840",
+      "source": "OSN+",
+      "match": "exact series/episode page + landscape still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 69536,
+        "width": 1920,
+        "height": 1080,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:3a801ef6b915bf438237a64075350fcbd3998a6355f53d6722fd34162a0c1dce",
+        "checkedAt": "2026-08-22T13:20:14.014Z"
+      },
+      "validatedAt": "2026-08-22T13:20:14.014Z"
+    },
+    {
+      "watchId": "nen-mail-910222",
+      "originalTitle": "101 Dalmatians",
+      "year": 1997,
+      "pageUrl": "https://telemagazyn.pl/101-dalmatynczykow/pr/20063",
+      "imageUrl": "https://d-tv.ppstatic.pl/images/tv-tv/4d/b8/prg2234967_830097043_original.jpg",
+      "source": "Telemagazyn",
+      "match": "exact 1997 animated series page + scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 381279,
+        "width": 1920,
+        "height": 1444,
+        "format": "jpeg",
+        "aspectRatio": 1.3296398891966759,
+        "hash": "sha256:efd67816c19dbd2a728d7f3755cfcef9513eb0da7cfb8bd6227c5d771bd62ad5",
+        "checkedAt": "2026-08-22T13:20:14.809Z"
+      },
+      "validatedAt": "2026-08-22T13:20:14.809Z"
+    },
+    {
+      "watchId": "nen-mail-922595",
+      "originalTitle": "Dinopaws",
+      "year": 2014,
+      "pageUrl": "https://tv.apple.com/gb/show/dinopaws/umc.cmc.46qnaen8gaxz0ap5yvia02lnq",
+      "imageUrl": "https://is4-ssl.mzstatic.com/image/thumb/Ez1O0PiYDdOou3roMxlahA/1478x832.jpg",
+      "source": "Apple TV",
+      "match": "official exact series page + still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 319820,
+        "width": 1478,
+        "height": 831,
+        "format": "jpeg",
+        "aspectRatio": 1.7785800240673888,
+        "hash": "sha256:634b5680af424568dd808abb742b1a19e9834601f85a626cfd8ef3ababff772b",
+        "checkedAt": "2026-08-22T13:20:14.949Z"
+      },
+      "validatedAt": "2026-08-22T13:20:14.949Z"
+    },
+    {
+      "watchId": "nen-mail-905703",
+      "originalTitle": "Iconicles",
+      "year": 2011,
+      "pageUrl": "https://dinoathanassiou.blogspot.com/2014/08/iconicles-create-media-ventures-phuuz.html",
+      "imageUrl": "https://2.bp.blogspot.com/-kLzt2yvQWGw/U-VM009IcFI/AAAAAAAABOI/urN1S40f7e8/s1600/Animation_39.jpg",
+      "source": "Dino Athanassiou",
+      "match": "animation director production page + exact series frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 101391,
+        "width": 1103,
+        "height": 624,
+        "format": "jpeg",
+        "aspectRatio": 1.767628205128205,
+        "hash": "sha256:bb037a3ce54bf26eabb72b18475e2902acce352c5e081869ae8f27f1097d82f9",
+        "checkedAt": "2026-08-22T13:20:15.554Z"
+      },
+      "validatedAt": "2026-08-22T13:20:15.554Z"
+    },
+    {
+      "watchId": "nen-mail-925119",
+      "originalTitle": "The Mummy",
+      "year": 2001,
+      "pageUrl": "https://wink.ru/episodes/mumiya-2001-sezon-1-seriya-2-year-2001",
+      "imageUrl": "https://images.iptv.rt.ru/images/c6u8hejir4sslltu3r4g.jpg",
+      "source": "Wink",
+      "match": "exact series/year/episode page + still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 132761,
+        "width": 810,
+        "height": 498,
+        "format": "jpeg",
+        "aspectRatio": 1.6265060240963856,
+        "hash": "sha256:15c54ffd5f56bb8075c06c8a560b0a8fc7e41b4437ceb59b227184010e31262c",
+        "checkedAt": "2026-08-22T13:20:16.606Z"
+      },
+      "validatedAt": "2026-08-22T13:20:16.606Z"
+    },
+    {
+      "watchId": "nen-mail-927203",
+      "originalTitle": "Девочка и эхо",
+      "year": 1965,
+      "pageUrl": "https://mubi.com/en/us/films/the-girl-and-the-echo",
+      "imageUrl": "https://images.mubicdn.net/images/film/22644/cache-35097-1507761422/image-w1280.jpg",
+      "source": "MUBI",
+      "match": "exact film/work page + one-year release variance + still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 127122,
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:29459c20e81b5df6cc0e51529c4ea0e58962e5ba8373ed85ec22eac7aaad6426",
+        "checkedAt": "2026-08-22T13:20:16.897Z"
+      },
+      "validatedAt": "2026-08-22T13:20:16.897Z"
+    },
+    {
+      "watchId": "nen-mail-904769",
+      "originalTitle": "Gazoon",
+      "year": 2007,
+      "pageUrl": "https://wink.ru/episodes/gazun-zverinye-priklyucheniya-sezon-1-seriya-26-year-2007",
+      "imageUrl": "https://images.iptv.rt.ru/images/caualrbir4ssllu453ig.jpg",
+      "source": "Wink",
+      "match": "exact series/year/episode page + still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 124595,
+        "width": 1620,
+        "height": 996,
+        "format": "jpeg",
+        "aspectRatio": 1.6265060240963856,
+        "hash": "sha256:14498d3ce60dbcd6a3d673f3f6393e4f99651f7aca50242d1f46f36fd003db94",
+        "checkedAt": "2026-08-22T13:20:18.392Z"
+      },
+      "validatedAt": "2026-08-22T13:20:18.392Z"
+    },
+    {
+      "watchId": "nen-mail-934469",
+      "originalTitle": "Lou!",
+      "year": 2009,
+      "pageUrl": "https://wink.ru/episodes/lu-sezon-1-seriya-29-year-2009",
+      "imageUrl": "https://images.iptv.rt.ru/images/c6u6fjrir4ssllttfgsg.jpg",
+      "source": "Wink",
+      "match": "exact series/year/episode page + still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 139760,
+        "width": 1620,
+        "height": 996,
+        "format": "jpeg",
+        "aspectRatio": 1.6265060240963856,
+        "hash": "sha256:869d7ee1486d0d09bba6cca6b7c1dad6412dd6eae6fa41ff3b76667f3b8e344a",
+        "checkedAt": "2026-08-22T13:20:19.093Z"
+      },
+      "validatedAt": "2026-08-22T13:20:19.094Z"
+    },
+    {
+      "watchId": "nen-wd-q1171360",
+      "originalTitle": "Das hölzerne Kälbchen",
+      "year": 1961,
+      "pageUrl": "https://www.defa-stiftung.de/filme/filme-suchen/das-hoelzerne-kaelbchen/",
+      "imageUrl": "https://www.defa-stiftung.de/fileadmin/DEFA_Stiftung/DEFA-Filme/Spielfilme/hoelzerne-Kaelbchen-Das/KALB_2_Copyright_DEFA_Stiftung_Hans_Bernd_Baxmann.jpg",
+      "source": "DEFA-Stiftung",
+      "match": "official exact film record + credited film still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 592186,
+        "width": 2117,
+        "height": 1551,
+        "format": "jpeg",
+        "aspectRatio": 1.3649258542875564,
+        "hash": "sha256:424d7828946000fcb56375ca6143aeb753150de093dbcc3373beae8030bc42a9",
+        "checkedAt": "2026-08-22T13:20:27.314Z"
+      },
+      "validatedAt": "2026-08-22T13:20:27.314Z"
+    },
+    {
+      "watchId": "nen-wd-q617969",
+      "originalTitle": "Le Tableau",
+      "year": 2011,
+      "pageUrl": "https://www.cinematheque.fr/film/121778.html",
+      "imageUrl": "https://www.cinematheque.fr/media/01-films/le-tableau-laurent-achard.jpg",
+      "source": "Cinémathèque française",
+      "match": "exact archive film record + film media",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 710763,
+        "width": 1200,
+        "height": 675,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:dd6cfa813f0b983d3c83b9e9aca378c940ad016d66045fafca13aa4ca0c0dfc1",
+        "checkedAt": "2026-08-22T13:20:28.378Z"
+      },
+      "validatedAt": "2026-08-22T13:20:28.378Z"
     }
   ],
   "rejectedItems": [
-    {
-      "watchId": "nen-wd-q587692",
-      "originalTitle": "La Flûte à six schtroumpfs",
-      "year": 1976,
-      "pageUrl": "https://recorderhomepage.net/smurfs-and-the-recorder/",
-      "imageUrl": "https://www.recorderhomepage.net/wp-content/uploads/2022/01/la-flute-a-six-schtroumpfs_clip.jpg",
-      "source": "Recorder Home Page",
-      "match": "page title + original title + year + described film scene",
-      "probe": {
-        "mime": "image/jpeg",
-        "bytes": 82924,
-        "width": 835,
-        "height": 686,
-        "format": "jpeg",
-        "aspectRatio": 1.217201166180758,
-        "hash": "sha256:1d1414cc4f0b78af26e76569f7c938f0f29e9d7e04ce6cf412233f144a0f4b97",
-        "checkedAt": "2026-08-22T04:50:47.986Z"
-      },
-      "validatedAt": "2026-08-22T04:50:47.990Z",
-      "reasons": [
-        "неподходящие пропорции: 1.217"
-      ]
-    },
     {
       "watchId": "nen-159",
       "originalTitle": "How to Train Your Dragon 2",
@@ -907,7 +1518,7 @@
       "source": "AceShowbiz",
       "match": "film page + exact title + year + still URL",
       "probe": null,
-      "validatedAt": "2026-08-22T04:50:48.069Z",
+      "validatedAt": "2026-08-22T13:19:24.971Z",
       "reasons": [
         "изображение недоступно: HTTP 403"
       ]
@@ -928,9 +1539,9 @@
         "format": "jpeg",
         "aspectRatio": 1.3333333333333333,
         "hash": "sha256:145b39932645fce41abfc7df2f6ebbf56fc8513491ff4180736fcd6af291b6b8",
-        "checkedAt": "2026-08-22T04:50:48.423Z"
+        "checkedAt": "2026-08-22T13:19:25.323Z"
       },
-      "validatedAt": "2026-08-22T04:50:48.423Z",
+      "validatedAt": "2026-08-22T13:19:25.323Z",
       "reasons": [
         "ширина меньше 800 px: 704"
       ]
@@ -951,9 +1562,9 @@
         "format": "jpeg",
         "aspectRatio": 1.3333333333333333,
         "hash": "sha256:0dc2f8e541f28ffa12c88a758d667a3f0191a152a32ff663ebe51a6a222c0184",
-        "checkedAt": "2026-08-22T04:50:49.416Z"
+        "checkedAt": "2026-08-22T13:19:26.266Z"
       },
-      "validatedAt": "2026-08-22T04:50:49.416Z",
+      "validatedAt": "2026-08-22T13:19:26.266Z",
       "reasons": [
         "ширина меньше 800 px: 640"
       ]
@@ -974,12 +1585,11 @@
         "format": "jpeg",
         "aspectRatio": 1.25,
         "hash": "sha256:885baf65ec7d5ea8a0b182f0e2292d5737fb20d48359d362659147494a917fd8",
-        "checkedAt": "2026-08-22T04:50:50.278Z"
+        "checkedAt": "2026-08-22T13:19:26.857Z"
       },
-      "validatedAt": "2026-08-22T04:50:50.278Z",
+      "validatedAt": "2026-08-22T13:19:26.857Z",
       "reasons": [
-        "ширина меньше 800 px: 720",
-        "неподходящие пропорции: 1.250"
+        "ширина меньше 800 px: 720"
       ]
     },
     {
@@ -991,7 +1601,7 @@
       "source": "elDiario.es",
       "match": "production article + exact title + described film image",
       "probe": null,
-      "validatedAt": "2026-08-22T04:50:50.278Z",
+      "validatedAt": "2026-08-22T13:19:26.857Z",
       "reasons": [
         "URL содержит признак неподходящего типа изображения"
       ]
@@ -1005,7 +1615,7 @@
       "source": "Haut et Court",
       "match": "official distributor page + exact film + production still",
       "probe": null,
-      "validatedAt": "2026-08-22T04:50:51.419Z",
+      "validatedAt": "2026-08-22T13:19:27.945Z",
       "reasons": [
         "изображение недоступно: HTTP 404"
       ]
@@ -1019,7 +1629,7 @@
       "source": "Unifrance",
       "match": "national cinema body page + exact animated series + 2009",
       "probe": null,
-      "validatedAt": "2026-08-22T04:50:51.535Z",
+      "validatedAt": "2026-08-22T13:19:28.054Z",
       "reasons": [
         "изображение недоступно: HTTP 403"
       ]
@@ -1040,35 +1650,11 @@
         "format": "jpeg",
         "aspectRatio": 1.2989247311827956,
         "hash": "sha256:e966f3e39d37dcb761988cee53631ab83d5705442763a77d38c7dcb477f3c692",
-        "checkedAt": "2026-08-22T04:50:52.076Z"
+        "checkedAt": "2026-08-22T13:19:28.546Z"
       },
-      "validatedAt": "2026-08-22T04:50:52.076Z",
+      "validatedAt": "2026-08-22T13:19:28.546Z",
       "reasons": [
-        "ширина меньше 800 px: 604",
-        "неподходящие пропорции: 1.299"
-      ]
-    },
-    {
-      "watchId": "nen-wd-q489149",
-      "originalTitle": "A High Wind in Jamaica",
-      "year": 1965,
-      "pageUrl": "https://www.listal.com/viewimage/22144306",
-      "imageUrl": "https://ilarge.lisimg.com/image/22144306/740full-a-high-wind-in-jamaica-photo.jpg",
-      "source": "Listal",
-      "match": "dedicated image page + exact title + 1965 + film still",
-      "probe": {
-        "mime": "image/jpeg",
-        "bytes": 308823,
-        "width": 954,
-        "height": 740,
-        "format": "jpeg",
-        "aspectRatio": 1.2891891891891891,
-        "hash": "sha256:fe1b21601731d7cbbbb6d1a0a89b77b23914059fce36e401ae09df73bcc1c7de",
-        "checkedAt": "2026-08-22T04:50:52.601Z"
-      },
-      "validatedAt": "2026-08-22T04:50:52.601Z",
-      "reasons": [
-        "неподходящие пропорции: 1.289"
+        "ширина меньше 800 px: 604"
       ]
     },
     {
@@ -1087,9 +1673,9 @@
         "format": "jpeg",
         "aspectRatio": 1.7767653758542141,
         "hash": "sha256:1159bcc361e55815edac27c0358bcfbbbffcffc8d97fe8e2851099a75943a8e5",
-        "checkedAt": "2026-08-22T04:50:52.839Z"
+        "checkedAt": "2026-08-22T13:19:28.983Z"
       },
-      "validatedAt": "2026-08-22T04:50:52.839Z",
+      "validatedAt": "2026-08-22T13:19:28.983Z",
       "reasons": [
         "ширина меньше 800 px: 780"
       ]
@@ -1110,9 +1696,9 @@
         "format": "jpeg",
         "aspectRatio": 1.3333333333333333,
         "hash": "sha256:cf3399e718ad69dac561946d388c77262f11fe02e9be12529c0cbb2962f014e0",
-        "checkedAt": "2026-08-22T04:50:53.856Z"
+        "checkedAt": "2026-08-22T13:19:30.781Z"
       },
-      "validatedAt": "2026-08-22T04:50:53.856Z",
+      "validatedAt": "2026-08-22T13:19:30.781Z",
       "reasons": [
         "ширина меньше 800 px: 768"
       ]
@@ -1133,9 +1719,9 @@
         "format": "jpeg",
         "aspectRatio": 1.3333333333333333,
         "hash": "sha256:3b98effdcbcd5c01df55f6582ebdd167ad140bbcac327bb9b58b550c17561d24",
-        "checkedAt": "2026-08-22T04:50:54.740Z"
+        "checkedAt": "2026-08-22T13:19:31.436Z"
       },
-      "validatedAt": "2026-08-22T04:50:54.740Z",
+      "validatedAt": "2026-08-22T13:19:31.436Z",
       "reasons": [
         "ширина меньше 800 px: 640"
       ]
@@ -1156,9 +1742,9 @@
         "format": "jpeg",
         "aspectRatio": 1.3235294117647058,
         "hash": "sha256:eea77a9073a0f7d6ed162fe89868f69e7d4f5789aa34ae79c37fd727083f4709",
-        "checkedAt": "2026-08-22T04:50:55.621Z"
+        "checkedAt": "2026-08-22T13:19:31.637Z"
       },
-      "validatedAt": "2026-08-22T04:50:55.621Z",
+      "validatedAt": "2026-08-22T13:19:31.637Z",
       "reasons": [
         "ширина меньше 800 px: 720"
       ]
@@ -1179,9 +1765,9 @@
         "format": "jpeg",
         "aspectRatio": 1.5121951219512195,
         "hash": "sha256:0c384751bc8a5f619fbd0a8359012888205f853475fdb58b26c36affe348e649",
-        "checkedAt": "2026-08-22T04:50:56.115Z"
+        "checkedAt": "2026-08-22T13:19:31.701Z"
       },
-      "validatedAt": "2026-08-22T04:50:56.115Z",
+      "validatedAt": "2026-08-22T13:19:31.701Z",
       "reasons": [
         "ширина меньше 800 px: 620"
       ]
@@ -1202,9 +1788,9 @@
         "format": "jpeg",
         "aspectRatio": 1.5163398692810457,
         "hash": "sha256:188b144070292db8b6453e76e6d0cce0f6a0844ecfe7897ac6884f55e4138a49",
-        "checkedAt": "2026-08-22T04:50:57.677Z"
+        "checkedAt": "2026-08-22T13:19:32.715Z"
       },
-      "validatedAt": "2026-08-22T04:50:57.677Z",
+      "validatedAt": "2026-08-22T13:19:32.715Z",
       "reasons": [
         "ширина меньше 800 px: 696"
       ]
@@ -1218,7 +1804,7 @@
       "source": "Культура.РФ",
       "match": "official culture portal + exact film page + title + year",
       "probe": null,
-      "validatedAt": "2026-08-22T04:51:19.714Z",
+      "validatedAt": "2026-08-22T13:19:54.657Z",
       "reasons": [
         "ошибка загрузки: fetch failed"
       ]
@@ -1239,9 +1825,9 @@
         "format": "jpeg",
         "aspectRatio": 1.3333333333333333,
         "hash": "sha256:a961df62ce4fdadbe56a43c3f0f0e17f1d6725a106bac4a6a6302bf2c7fd483c",
-        "checkedAt": "2026-08-22T04:51:20.332Z"
+        "checkedAt": "2026-08-22T13:19:55.339Z"
       },
-      "validatedAt": "2026-08-22T04:51:20.332Z",
+      "validatedAt": "2026-08-22T13:19:55.339Z",
       "reasons": [
         "ширина меньше 800 px: 700"
       ]
@@ -1262,9 +1848,9 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:7aa871ae3a38425940bb1d8096212ffe6062ee0f9a0ac7708b5172fbf1fcec3b",
-        "checkedAt": "2026-08-22T04:51:20.610Z"
+        "checkedAt": "2026-08-22T13:19:55.638Z"
       },
-      "validatedAt": "2026-08-22T04:51:20.610Z",
+      "validatedAt": "2026-08-22T13:19:55.638Z",
       "reasons": [
         "ширина меньше 800 px: 720"
       ]
@@ -1285,9 +1871,9 @@
         "format": "jpeg",
         "aspectRatio": 1.7766497461928934,
         "hash": "sha256:08ca9339bd9cdecf5d9f0d2046a3ee5efc6c1ebe69303a3e8d1375284e8a9555",
-        "checkedAt": "2026-08-22T04:51:20.972Z"
+        "checkedAt": "2026-08-22T13:20:00.034Z"
       },
-      "validatedAt": "2026-08-22T04:51:20.972Z",
+      "validatedAt": "2026-08-22T13:20:00.034Z",
       "reasons": [
         "ширина меньше 800 px: 700"
       ]
@@ -1308,9 +1894,9 @@
         "format": "jpeg",
         "aspectRatio": 1.3076923076923077,
         "hash": "sha256:82c8561ddd1a9c19eb6a52bdd97dbc79b9a8110c8cb1be3d5441baec4d73ac11",
-        "checkedAt": "2026-08-22T04:51:22.517Z"
+        "checkedAt": "2026-08-22T13:20:00.317Z"
       },
-      "validatedAt": "2026-08-22T04:51:22.517Z",
+      "validatedAt": "2026-08-22T13:20:00.317Z",
       "reasons": [
         "ширина меньше 800 px: 748"
       ]
@@ -1331,9 +1917,9 @@
         "format": "jpeg",
         "aspectRatio": 1.3333333333333333,
         "hash": "sha256:f62d41a929b0728d0c4850e26aba50be5cc4cd9a525bc8b864f9554d491431c9",
-        "checkedAt": "2026-08-22T04:51:23.417Z"
+        "checkedAt": "2026-08-22T13:20:01.260Z"
       },
-      "validatedAt": "2026-08-22T04:51:23.417Z",
+      "validatedAt": "2026-08-22T13:20:01.260Z",
       "reasons": [
         "ширина меньше 800 px: 512"
       ]
@@ -1347,32 +1933,9 @@
       "source": "Fernsehjuwelen / DEFA",
       "match": "exact film page + title + year + credited film still",
       "probe": null,
-      "validatedAt": "2026-08-22T04:51:24.270Z",
+      "validatedAt": "2026-08-22T13:20:01.620Z",
       "reasons": [
         "изображение недоступно: HTTP 404"
-      ]
-    },
-    {
-      "watchId": "nen-wd-q1212968",
-      "originalTitle": "Die Geschichte von der Gänseprinzessin und ihrem treuen Pferd Falada",
-      "year": 1989,
-      "pageUrl": "https://www.imdb.com/title/tt0095210/mediaindex/",
-      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZGM3YjYxOGItYzU2OC00MzU1LTk3M2QtMDQ0ZTk1MGU1YzI0XkEyXkFqcGc%40._V1_.jpg",
-      "source": "IMDb",
-      "match": "exact IMDb ID tt0095210 + title + year + still",
-      "probe": {
-        "mime": "image/jpeg",
-        "bytes": 121759,
-        "width": 982,
-        "height": 768,
-        "format": "jpeg",
-        "aspectRatio": 1.2786458333333333,
-        "hash": "sha256:0976e27debe616dfbaa12148c52ef4ae4637b1972603989a2651991f3fc57eb1",
-        "checkedAt": "2026-08-22T04:51:24.384Z"
-      },
-      "validatedAt": "2026-08-22T04:51:24.384Z",
-      "reasons": [
-        "неподходящие пропорции: 1.279"
       ]
     },
     {
@@ -1384,7 +1947,7 @@
       "source": "Danish Film Institute",
       "match": "national film archive + exact title + year + still",
       "probe": null,
-      "validatedAt": "2026-08-22T04:51:25.725Z",
+      "validatedAt": "2026-08-22T13:20:02.916Z",
       "reasons": [
         "ошибка загрузки: fetch failed"
       ]
@@ -1405,11 +1968,359 @@
         "format": "jpeg",
         "aspectRatio": 1.3575,
         "hash": "sha256:f12e919e4c150d76afb96bf8bc51b31d4831ab4eed61c35553ad88c4d3e86497",
-        "checkedAt": "2026-08-22T04:51:26.499Z"
+        "checkedAt": "2026-08-22T13:20:03.067Z"
       },
-      "validatedAt": "2026-08-22T04:51:26.499Z",
+      "validatedAt": "2026-08-22T13:20:03.067Z",
       "reasons": [
         "ширина меньше 800 px: 543"
+      ]
+    },
+    {
+      "watchId": "nen-181",
+      "originalTitle": "My Father's Dragon",
+      "year": 2022,
+      "pageUrl": "https://www.awn.com/news/netflix-drops-my-fathers-dragon-trailer",
+      "imageUrl": "https://www.awn.com/sites/default/files/styles/large_featured/public/image/featured/my_fathers_dragon_image_01-1280.jpg?itok=5oYsz_jL",
+      "source": "Animation World Network",
+      "match": "exact film announcement + Netflix/Cartoon Saloon + identified scene",
+      "probe": null,
+      "validatedAt": "2026-08-22T13:20:08.551Z",
+      "reasons": [
+        "URL содержит признак неподходящего типа изображения"
+      ]
+    },
+    {
+      "watchId": "nen-085",
+      "originalTitle": "Luca",
+      "year": 2021,
+      "pageUrl": "https://d23.com/pal-entines-day-watchlist-5-favorite-disney-movies-celebrating-friendship/",
+      "imageUrl": "https://d23.com/app/uploads/2022/02/1180w-600h_020422_Palentines-day_00-780x440.jpg",
+      "source": "D23",
+      "match": "official Disney source + exact Pixar film and scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 58557,
+        "width": 780,
+        "height": 440,
+        "format": "jpeg",
+        "aspectRatio": 1.7727272727272727,
+        "hash": "sha256:7cbe9b7ec8eba1802070e077dc40aa71e7355794de4206a925a10e90a1a150f9",
+        "checkedAt": "2026-08-22T13:20:09.458Z"
+      },
+      "validatedAt": "2026-08-22T13:20:09.458Z",
+      "reasons": [
+        "ширина меньше 800 px: 780"
+      ]
+    },
+    {
+      "watchId": "nen-mail-924549",
+      "originalTitle": "Barbie as the Island Princess",
+      "year": 2007,
+      "pageUrl": "https://www.imdb.com/title/tt1092053/mediaviewer/rm2893912833/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BYmUyYTI2NjYtNzZiMy00ZDZjLWJjZTEtMThhNDM1NDM5MzAwXkEyXkFqcGc%40._V1_.jpg",
+      "source": "IMDb",
+      "match": "exact IMDb ID tt1092053 + title/year + still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 205580,
+        "width": 720,
+        "height": 405,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:728f96403161008871ef4abc2192bc6257127815019b179b34cbfc84114398ad",
+        "checkedAt": "2026-08-22T13:20:13.674Z"
+      },
+      "validatedAt": "2026-08-22T13:20:13.674Z",
+      "reasons": [
+        "ширина меньше 800 px: 720"
+      ]
+    },
+    {
+      "watchId": "nen-mail-924551",
+      "originalTitle": "Barbie & The Diamond Castle",
+      "year": 2008,
+      "pageUrl": "https://www.imdb.com/title/tt1294138/mediaviewer/rm591815936/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BNTJmZWViNTItYWU2ZS00Y2RmLTk2MTMtYzE3YTE1YjBmNTZjXkEyXkFqcGc%40._V1_.jpg",
+      "source": "IMDb",
+      "match": "exact IMDb ID tt1294138 + title/year + scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 72253,
+        "width": 720,
+        "height": 393,
+        "format": "jpeg",
+        "aspectRatio": 1.83206106870229,
+        "hash": "sha256:8e5e9fe917b17643265a2fb37cfa00b9a79b0f63dd1c9581860cf49636f5e1c4",
+        "checkedAt": "2026-08-22T13:20:13.900Z"
+      },
+      "validatedAt": "2026-08-22T13:20:13.900Z",
+      "reasons": [
+        "ширина меньше 800 px: 720"
+      ]
+    },
+    {
+      "watchId": "nen-mail-496600",
+      "originalTitle": "Волшебная лампа Аладдина",
+      "year": 1966,
+      "pageUrl": "https://www.afisha.ru/movie/volshebnaya-lampa-aladdina-167688/video/",
+      "imageUrl": "https://s1.afisha.ru/mediastorage/3d/b4/f23b591faa5041f79fb10c1bb43d.jpg",
+      "source": "Афиша",
+      "match": "exact Soviet film page + title/year + scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 102688,
+        "width": 800,
+        "height": 787,
+        "format": "jpeg",
+        "aspectRatio": 1.0165184243964422,
+        "hash": "sha256:8ea16f96698a17f3651cbbfe7549cbcaba721b67a16beadd1a607f0140900689",
+        "checkedAt": "2026-08-22T13:20:17.742Z"
+      },
+      "validatedAt": "2026-08-22T13:20:17.742Z",
+      "reasons": [
+        "неподходящие пропорции: 1.017"
+      ]
+    },
+    {
+      "watchId": "nen-mail-912965",
+      "originalTitle": "Pat a Mat ve filmu",
+      "year": 2016,
+      "pageUrl": "https://ok.ru/video/94156098093",
+      "imageUrl": "https://i.mycdn.me/videoPreview?fn=external_8&id=135722961567&idx=0&tkn=tZYfAuB_y-q8vTx3OZiAnd8zqwQ&type=32",
+      "source": "OK Video",
+      "match": "exact film/year video page + frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 38949,
+        "width": 720,
+        "height": 405,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:1ba7080723d6dc90a0e7a9415cbac87fcc053c18399c5efbf75d6c13660455cb",
+        "checkedAt": "2026-08-22T13:20:18.768Z"
+      },
+      "validatedAt": "2026-08-22T13:20:18.768Z",
+      "reasons": [
+        "ширина меньше 800 px: 720"
+      ]
+    },
+    {
+      "watchId": "nen-mail-922912",
+      "originalTitle": "Around the World in Eighty Days",
+      "year": 1972,
+      "pageUrl": "https://thetvdb.com/series/around-the-world-in-80-days",
+      "imageUrl": "https://artworks.thetvdb.com/banners/fanart/original/73888-1.jpg",
+      "source": "TheTVDB",
+      "match": "exact 1972 animated series page + scene",
+      "probe": null,
+      "validatedAt": "2026-08-22T13:20:18.769Z",
+      "reasons": [
+        "URL содержит признак неподходящего типа изображения"
+      ]
+    },
+    {
+      "watchId": "nen-mail-938171",
+      "originalTitle": "My Talking Angela",
+      "year": 2017,
+      "pageUrl": "https://www.amebatv.com/video.html?v=46540",
+      "imageUrl": "https://d16x8vkrvdg2ca.cloudfront.net/ema_episodes/amebatv-talkingangelaintheci_1375_episode_46540-Full-Image-en-US.jpg",
+      "source": "AmebaTV",
+      "match": "exact show episode page + still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 34890,
+        "width": 640,
+        "height": 480,
+        "format": "jpeg",
+        "aspectRatio": 1.3333333333333333,
+        "hash": "sha256:cf47874a67789c223750093d64ce8e60f0335eee28d8ddb41f6505f433b92982",
+        "checkedAt": "2026-08-22T13:20:19.638Z"
+      },
+      "validatedAt": "2026-08-22T13:20:19.638Z",
+      "reasons": [
+        "ширина меньше 800 px: 640"
+      ]
+    },
+    {
+      "watchId": "nen-mail-850870",
+      "originalTitle": "Расмус-бродяга",
+      "year": 1978,
+      "pageUrl": "https://stuki-druki.com/film/rasmus-brodyaga-1978.php",
+      "imageUrl": "https://stuki-druki.com/film/images/kadr-rasmus-brodyaga-1978-08.jpg",
+      "source": "Штуки-Дрюки",
+      "match": "exact film page + title/year + explicitly labeled frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 47309,
+        "width": 700,
+        "height": 483,
+        "format": "jpeg",
+        "aspectRatio": 1.4492753623188406,
+        "hash": "sha256:e6e0635b5713de1ba75eed5beb978691576b58429117870eca1bf85fa8cb54bd",
+        "checkedAt": "2026-08-22T13:20:23.970Z"
+      },
+      "validatedAt": "2026-08-22T13:20:23.970Z",
+      "reasons": [
+        "ширина меньше 800 px: 700"
+      ]
+    },
+    {
+      "watchId": "nen-192",
+      "originalTitle": "Каникулы в Простоквашино",
+      "year": 1980,
+      "pageUrl": "https://airingeuropean.weebly.com/blog/muljtfiljm-kanikuli-v-prostokvashino",
+      "imageUrl": "https://mul.3dn.ru/1/kanikuly.v.prostokvashino.0-13-56.jpg",
+      "source": "mul.3dn.ru",
+      "match": "exact work page and filename + timestamp frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 276995,
+        "width": 640,
+        "height": 480,
+        "format": "jpeg",
+        "aspectRatio": 1.3333333333333333,
+        "hash": "sha256:27548ffb2b2a4adef5e8b5b1155e3303a8f0fe3c63f4dc6cd2682912f27ea96c",
+        "checkedAt": "2026-08-22T13:20:25.168Z"
+      },
+      "validatedAt": "2026-08-22T13:20:25.168Z",
+      "reasons": [
+        "ширина меньше 800 px: 640"
+      ]
+    },
+    {
+      "watchId": "nen-444",
+      "originalTitle": "Кот Леопольд",
+      "year": 1975,
+      "pageUrl": "https://mul.3dn.ru/index/leopold_poliklinika_kota_leopolda/0-58",
+      "imageUrl": "https://mul.3dn.ru/pop/leopold.poliklinika.kota.leopolda.0-04-39.jpg",
+      "source": "mul.3dn.ru",
+      "match": "exact series episode page + timestamp frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 196472,
+        "width": 640,
+        "height": 480,
+        "format": "jpeg",
+        "aspectRatio": 1.3333333333333333,
+        "hash": "sha256:eaaf074b4080222325a4f916a327faf94f93cf356d13028db3c5ce1407e47159",
+        "checkedAt": "2026-08-22T13:20:25.817Z"
+      },
+      "validatedAt": "2026-08-22T13:20:25.817Z",
+      "reasons": [
+        "ширина меньше 800 px: 640"
+      ]
+    },
+    {
+      "watchId": "nen-506",
+      "originalTitle": "Про Красную Шапочку",
+      "year": 1977,
+      "pageUrl": "https://multfilmysssr.ru/pro-krasnuyu-shapochku-film-skazka/",
+      "imageUrl": "https://multfilmysssr.ru/wp-content/uploads/2020/12/screenshot_3-1.png",
+      "source": "Мультфильмы СССР",
+      "match": "exact work page + screenshot",
+      "probe": {
+        "mime": "image/png",
+        "bytes": 561223,
+        "width": 553,
+        "height": 450,
+        "format": "png",
+        "aspectRatio": 1.228888888888889,
+        "hash": "sha256:85bfdcff5cb136360c31ca91d028d96aaa519e352729079e56f46436bac4f3e7",
+        "checkedAt": "2026-08-22T13:20:26.762Z"
+      },
+      "validatedAt": "2026-08-22T13:20:26.762Z",
+      "reasons": [
+        "ширина меньше 800 px: 553"
+      ]
+    },
+    {
+      "watchId": "nen-wd-q1194751",
+      "originalTitle": "Kočičí princ",
+      "year": 1979,
+      "pageUrl": "https://www.csfd.cz/film/5296-kocici-princ/galerie/",
+      "imageUrl": "https://image.pmgstatic.com/cache/resized/w936/files/images/film/photos/000/204/204515_89d8bc.jpg",
+      "source": "ČSFD",
+      "match": "exact film page + gallery photo",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 118381,
+        "width": 700,
+        "height": 660,
+        "format": "jpeg",
+        "aspectRatio": 1.0606060606060606,
+        "hash": "sha256:8ea5e4e4414a19516142919d32ba678d6fbe18b0c7851fd6d12eec5c70c70227",
+        "checkedAt": "2026-08-22T13:20:27.846Z"
+      },
+      "validatedAt": "2026-08-22T13:20:27.846Z",
+      "reasons": [
+        "ширина меньше 800 px: 700",
+        "неподходящие пропорции: 1.061"
+      ]
+    },
+    {
+      "watchId": "nen-wd-q20804292",
+      "originalTitle": "Buta",
+      "year": 2011,
+      "pageUrl": "https://butafilm.com/en/movies/Buta",
+      "imageUrl": "https://butafilm.com/_next/image?q=75&url=%2Fgallery%2F3%2F3.jpg&w=3840",
+      "source": "Buta Film",
+      "match": "official exact film page + gallery image",
+      "probe": null,
+      "validatedAt": "2026-08-22T13:20:27.846Z",
+      "reasons": [
+        "год карточки не совпадает"
+      ]
+    },
+    {
+      "watchId": "nen-mail-874820",
+      "originalTitle": "Метеор на ринге",
+      "year": 1970,
+      "pageUrl": "https://multiki.arjlover.net/info/meteor.na.ringe.avi.html",
+      "imageUrl": "https://multiki.arjlover.net/ap/meteor.na.ringe.avi/meteor.na.ringe.avi.image4.jpg",
+      "source": "Arjlover",
+      "match": "exact video record + extracted frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 91825,
+        "width": 640,
+        "height": 480,
+        "format": "jpeg",
+        "aspectRatio": 1.3333333333333333,
+        "hash": "sha256:462b256644f4781f0c5b0d419aeb74625090e07ef99021b88dfe19ae4bcd3163",
+        "checkedAt": "2026-08-22T13:20:29.293Z"
+      },
+      "validatedAt": "2026-08-22T13:20:29.293Z",
+      "reasons": [
+        "ширина меньше 800 px: 640"
+      ]
+    },
+    {
+      "watchId": "nen-mail-921853",
+      "originalTitle": "Герои Энвелла: Выйти из игры",
+      "year": 2021,
+      "pageUrl": "https://parovoz.tv/envell_exit_game",
+      "imageUrl": "https://static1.parovoz.tv/assets/envell_exit_game/frames/frame_27_full.jpg",
+      "source": "Студия Паровоз",
+      "match": "official exact work page + /frames/ image",
+      "probe": null,
+      "validatedAt": "2026-08-22T13:20:29.293Z",
+      "reasons": [
+        "год карточки не совпадает"
+      ]
+    },
+    {
+      "watchId": "nen-mail-912795",
+      "originalTitle": "Power Battle Watch Car: Return of Watch Mask",
+      "year": 2017,
+      "pageUrl": "https://www.filmbooster.com/film/504969-power-battle-watchcar-the-counterattack-of-watch-mask/gallery/",
+      "imageUrl": "https://image.pmgstatic.com/cache/resized/w936/files/images/film/photos/161/728/161728048_47829b.jpg",
+      "source": "FilmBooster",
+      "match": "exact version page + gallery photo",
+      "probe": null,
+      "validatedAt": "2026-08-22T13:20:29.293Z",
+      "reasons": [
+        "originalTitle не совпадает",
+        "год карточки не совпадает"
       ]
     }
   ]

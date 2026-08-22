@@ -1,0 +1,11 @@
+{
+  "generatedAt": "2026-08-22T05:20:00.000Z",
+  "scope": "parallel tail pass over poster-in-frame, B, C and D",
+  "baseline": {"total":2074,"confirmedFrame":1195,"posterInFrame":319,"noFrame":560,"withoutConfirmedFrame":879,"B":126,"C":508,"D":245},
+  "researchReviews": {"existingGroupB":126,"posterPriority":52,"groupC":100,"groupD":50,"totalReviewActions":328},
+  "researchResults": {"highConfidenceSubmitted":50,"manualReview":82,"knownRejectOrNoResult":196},
+  "apply": {"newFrames":31,"replacedPoster":14,"filledEmptyFrame":17,"technicalOrDuplicateRejected":19},
+  "final": {"total":2074,"confirmedFrame":1226,"posterInFrame":305,"noFrame":543,"withoutConfirmedFrame":848,"B":119,"C":494,"D":235,"coveragePercent":59.11},
+  "quality": {"duplicateIds":0,"duplicateSlugs":0,"duplicateFrameUrls":0,"catalogFieldsChanged":"frame only"},
+  "evidence": ["data/reports/watch-stills-tail-review.json","data/reports/watch-stills-tail-apply.json","data/reports/watch-stills-unresolved.json"]
+}

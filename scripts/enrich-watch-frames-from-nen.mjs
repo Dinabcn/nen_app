@@ -517,7 +517,7 @@ async function applyWebResearchBacklog(catalog) {
           if (!dimensions.width || !dimensions.height) reasons.push("не удалось определить размеры");
           else {
             if (dimensions.width < 800) reasons.push(`ширина меньше 800 px: ${dimensions.width}`);
-            if (aspectRatio < 1.3 || aspectRatio > 3) reasons.push(`неподходящие пропорции: ${aspectRatio.toFixed(3)}`);
+            if (aspectRatio < 1.1 || aspectRatio > 3) reasons.push(`неподходящие пропорции: ${aspectRatio.toFixed(3)}`);
           }
         }
       } catch (error) { reasons.push(`ошибка загрузки: ${String(error?.message ?? error)}`); }
@@ -589,7 +589,7 @@ async function applyTailReview(catalog) {
           if (!dimensions.width || !dimensions.height) reasons.push("не удалось определить размеры");
           else {
             if (dimensions.width < 800) reasons.push(`ширина меньше 800 px: ${dimensions.width}`);
-            if (aspectRatio < 1.3 || aspectRatio > 3) reasons.push(`неподходящие пропорции: ${aspectRatio.toFixed(3)}`);
+            if (aspectRatio < 1.1 || aspectRatio > 3) reasons.push(`неподходящие пропорции: ${aspectRatio.toFixed(3)}`);
           }
         }
       } catch (error) { reasons.push(`ошибка загрузки: ${String(error?.message ?? error)}`); }

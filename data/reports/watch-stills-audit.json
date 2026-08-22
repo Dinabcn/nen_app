@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T04:52:16.299Z",
+  "generatedAt": "2026-08-22T13:20:46.255Z",
   "mode": "read-only; no network image fetches; catalog unchanged",
   "catalogPath": "data/source/watch-v2.json",
   "total": 2074,
@@ -12,17 +12,17 @@
   },
   "summary": {
     "statusCounts": {
-      "A": 1195,
-      "B": 319,
-      "C": 205,
-      "D": 83,
-      "E": 272
+      "A": 1226,
+      "B": 305,
+      "C": 202,
+      "D": 79,
+      "E": 262
     },
-    "confirmedGoodStills": 1195,
-    "questionableImages": 319,
-    "noConfirmedStill": 879,
-    "noImageAtAll": 560,
-    "importedMailCoversStoredAsFrames": 319,
+    "confirmedGoodStills": 1226,
+    "questionableImages": 305,
+    "noConfirmedStill": 848,
+    "noImageAtAll": 543,
+    "importedMailCoversStoredAsFrames": 305,
     "idCoverage": {
       "tmdbMovie": 159,
       "tmdbTv": 7,
@@ -34,13 +34,13 @@
       "anyExact": 1371
     },
     "sourcePotential": {
-      "tmdb": 94,
-      "kinopoisk": 83,
-      "wikimedia": 288,
-      "imdbAsBridge": 243,
-      "nenEditorialAlreadyMatched": 1195
+      "tmdb": 90,
+      "kinopoisk": 79,
+      "wikimedia": 281,
+      "imdbAsBridge": 225,
+      "nenEditorialAlreadyMatched": 1226
     },
-    "automaticallyResearchable": 437
+    "automaticallyResearchable": 416
   },
   "architecture": {
     "existingUtility": "scripts/enrich-watch-frames-from-nen.mjs",
@@ -8659,13 +8659,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://caamedia.s3.amazonaws.com/wp-content/uploads/2022/03/08131816/T-RED-ONLINE-USE-r393_18j_pub.pub16.300_1920x1080.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://caamedia.org/blog/2022/03/09/turning-red-animators-on-anime-influences-and-working-domee-shi/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 272482,
+                "width": 1920,
+                "height": 1080,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:a34313868ff81186830c40a4aa8394335d5bf09d98cfda8f5f3d85098093a2e7",
+                "checkedAt": "2026-08-22T13:20:07.701Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://caamedia.s3.amazonaws.com/wp-content/uploads/2022/03/08131816/T-RED-ONLINE-USE-r393_18j_pub.pub16.300_1920x1080.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://caamedia.org/blog/2022/03/09/turning-red-animators-on-anime-influences-and-working-domee-shi/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 272482,
+                "width": 1920,
+                "height": 1080,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:a34313868ff81186830c40a4aa8394335d5bf09d98cfda8f5f3d85098093a2e7",
+                "checkedAt": "2026-08-22T13:20:07.701Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://caamedia.org/blog/2022/03/09/turning-red-animators-on-anime-influences-and-working-domee-shi/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 272482,
+              "width": 1920,
+              "height": 1080,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:a34313868ff81186830c40a4aa8394335d5bf09d98cfda8f5f3d85098093a2e7",
+              "checkedAt": "2026-08-22T13:20:07.701Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-151",
@@ -10022,13 +10086,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://film-authority.com/wp-content/uploads/2020/03/abominable_-_publicity_still_4-_h_2019.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://film-authority.com/2019/10/20/abominable-2019/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 70390,
+                "width": 928,
+                "height": 523,
+                "format": "jpeg",
+                "aspectRatio": 1.774378585086042,
+                "hash": "sha256:d9b87e4d198f45e33f9786a792d822c9eac8b6600ef61dd8425732843428b509",
+                "checkedAt": "2026-08-22T13:20:11.855Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://film-authority.com/wp-content/uploads/2020/03/abominable_-_publicity_still_4-_h_2019.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://film-authority.com/2019/10/20/abominable-2019/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 70390,
+                "width": 928,
+                "height": 523,
+                "format": "jpeg",
+                "aspectRatio": 1.774378585086042,
+                "hash": "sha256:d9b87e4d198f45e33f9786a792d822c9eac8b6600ef61dd8425732843428b509",
+                "checkedAt": "2026-08-22T13:20:11.855Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://film-authority.com/2019/10/20/abominable-2019/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 70390,
+              "width": 928,
+              "height": 523,
+              "format": "jpeg",
+              "aspectRatio": 1.774378585086042,
+              "hash": "sha256:d9b87e4d198f45e33f9786a792d822c9eac8b6600ef61dd8425732843428b509",
+              "checkedAt": "2026-08-22T13:20:11.855Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-170",
@@ -10048,13 +10176,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.intofilm.org/intofilm-production/scaledcropped/970x546https%3A/s3-eu-west-1.amazonaws.com/images.cdn.filmclub.org/the-bad-guys-image-1-universal.jpg/the-bad-guys-image-1-universal.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.intofilm.org/films/19895",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 96688,
+                "width": 970,
+                "height": 546,
+                "format": "jpeg",
+                "aspectRatio": 1.7765567765567765,
+                "hash": "sha256:1cbe9d4bd09a903740ea22e6d15e44bbabe3800be5ea699161738187e5e2d1e6",
+                "checkedAt": "2026-08-22T13:20:08.185Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.intofilm.org/intofilm-production/scaledcropped/970x546https%3A/s3-eu-west-1.amazonaws.com/images.cdn.filmclub.org/the-bad-guys-image-1-universal.jpg/the-bad-guys-image-1-universal.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.intofilm.org/films/19895",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 96688,
+                "width": 970,
+                "height": 546,
+                "format": "jpeg",
+                "aspectRatio": 1.7765567765567765,
+                "hash": "sha256:1cbe9d4bd09a903740ea22e6d15e44bbabe3800be5ea699161738187e5e2d1e6",
+                "checkedAt": "2026-08-22T13:20:08.185Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.intofilm.org/films/19895",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 96688,
+              "width": 970,
+              "height": 546,
+              "format": "jpeg",
+              "aspectRatio": 1.7765567765567765,
+              "hash": "sha256:1cbe9d4bd09a903740ea22e6d15e44bbabe3800be5ea699161738187e5e2d1e6",
+              "checkedAt": "2026-08-22T13:20:08.185Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-171",
@@ -18722,13 +18914,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://images.contentstack.io/v3/assets/blt13adb7e2033fcee5/blt0b2ad70326e76706/69b4ae6aa117492f499a8958/v0HlmtmpjRhOxj9sylS6356oZhKk0G4I.jpg?width=2560",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.universalpicturesathome.com/movies/the-croods-a-new-age",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 309748,
+                "width": 2560,
+                "height": 1440,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:7b414a0acb8e1520703fe4de86326e953ea5dc6fe22eff05ec2805adc1bedeb5",
+                "checkedAt": "2026-08-22T13:20:10.784Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://images.contentstack.io/v3/assets/blt13adb7e2033fcee5/blt0b2ad70326e76706/69b4ae6aa117492f499a8958/v0HlmtmpjRhOxj9sylS6356oZhKk0G4I.jpg?width=2560",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.universalpicturesathome.com/movies/the-croods-a-new-age",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 309748,
+                "width": 2560,
+                "height": 1440,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:7b414a0acb8e1520703fe4de86326e953ea5dc6fe22eff05ec2805adc1bedeb5",
+                "checkedAt": "2026-08-22T13:20:10.784Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.universalpicturesathome.com/movies/the-croods-a-new-age",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 309748,
+              "width": 2560,
+              "height": 1440,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:7b414a0acb8e1520703fe4de86326e953ea5dc6fe22eff05ec2805adc1bedeb5",
+              "checkedAt": "2026-08-22T13:20:10.784Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-292",
@@ -26850,13 +27106,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://images.mubicdn.net/images/film/338005/cache-769245-1745499727/image-w1280.jpg?size=800x",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://mubi.com/tr/us/films/the-sea-beast-2022",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 64170,
+                "width": 800,
+                "height": 450,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:1839bd991a3dda8449ee6bdb1dc231949a1b72e14c9b4db75852e28bf60068ad",
+                "checkedAt": "2026-08-22T13:20:08.550Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://images.mubicdn.net/images/film/338005/cache-769245-1745499727/image-w1280.jpg?size=800x",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://mubi.com/tr/us/films/the-sea-beast-2022",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 64170,
+                "width": 800,
+                "height": 450,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:1839bd991a3dda8449ee6bdb1dc231949a1b72e14c9b4db75852e28bf60068ad",
+                "checkedAt": "2026-08-22T13:20:08.550Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://mubi.com/tr/us/films/the-sea-beast-2022",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 64170,
+              "width": 800,
+              "height": 450,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:1839bd991a3dda8449ee6bdb1dc231949a1b72e14c9b4db75852e28bf60068ad",
+              "checkedAt": "2026-08-22T13:20:08.550Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-393",
@@ -27112,13 +27432,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://static.independent.co.uk/2020/10/20/18/Film_Review_-_Over_the_Moon_07607.jpg?fit=crop&height=900&width=1200",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.independent.co.uk/news/review-charming-over-the-moon-gets-lost-in-lunar-orbit-moon-moon-heroine-rocket-orbit-b1186128.html",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 105759,
+                "width": 1200,
+                "height": 900,
+                "format": "jpeg",
+                "aspectRatio": 1.3333333333333333,
+                "hash": "sha256:e4fd8479845aebf5f8e9015282a157ac41eedd3e6db3cb43230e8059b2e74deb",
+                "checkedAt": "2026-08-22T13:20:11.318Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://static.independent.co.uk/2020/10/20/18/Film_Review_-_Over_the_Moon_07607.jpg?fit=crop&height=900&width=1200",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.independent.co.uk/news/review-charming-over-the-moon-gets-lost-in-lunar-orbit-moon-moon-heroine-rocket-orbit-b1186128.html",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 105759,
+                "width": 1200,
+                "height": 900,
+                "format": "jpeg",
+                "aspectRatio": 1.3333333333333333,
+                "hash": "sha256:e4fd8479845aebf5f8e9015282a157ac41eedd3e6db3cb43230e8059b2e74deb",
+                "checkedAt": "2026-08-22T13:20:11.318Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.independent.co.uk/news/review-charming-over-the-moon-gets-lost-in-lunar-orbit-moon-moon-heroine-rocket-orbit-b1186128.html",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 105759,
+              "width": 1200,
+              "height": 900,
+              "format": "jpeg",
+              "aspectRatio": 1.3333333333333333,
+              "hash": "sha256:e4fd8479845aebf5f8e9015282a157ac41eedd3e6db3cb43230e8059b2e74deb",
+              "checkedAt": "2026-08-22T13:20:11.318Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-397",
@@ -38266,13 +38650,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://img.festival-cannes.com/eyJidWNrZXQiOiJtZWRpYSIsImtleSI6InVwbG9hZHNcLzIwMjRcLzA1XC8xNzA5NTMtc2NhbGVkLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTM2MCwiZml0IjoiY292ZXIifX19",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.festival-cannes.com/en/f/flow/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 132585,
+                "width": 1360,
+                "height": 680,
+                "format": "jpeg",
+                "aspectRatio": 2,
+                "hash": "sha256:e623724b9944d413eb3c5ae67728c5ab7f8ab10e2dd96fe92f8cd0fd193c5c38",
+                "checkedAt": "2026-08-22T13:20:05.490Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://img.festival-cannes.com/eyJidWNrZXQiOiJtZWRpYSIsImtleSI6InVwbG9hZHNcLzIwMjRcLzA1XC8xNzA5NTMtc2NhbGVkLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTM2MCwiZml0IjoiY292ZXIifX19",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.festival-cannes.com/en/f/flow/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 132585,
+                "width": 1360,
+                "height": 680,
+                "format": "jpeg",
+                "aspectRatio": 2,
+                "hash": "sha256:e623724b9944d413eb3c5ae67728c5ab7f8ab10e2dd96fe92f8cd0fd193c5c38",
+                "checkedAt": "2026-08-22T13:20:05.490Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.festival-cannes.com/en/f/flow/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 132585,
+              "width": 1360,
+              "height": 680,
+              "format": "jpeg",
+              "aspectRatio": 2,
+              "hash": "sha256:e623724b9944d413eb3c5ae67728c5ab7f8ab10e2dd96fe92f8cd0fd193c5c38",
+              "checkedAt": "2026-08-22T13:20:05.490Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-572",
@@ -43591,13 +44039,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.kinonews.ru/insimgs/2021/shotimg/shotimg102817_6.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.kinonews.ru/shot190440/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 572623,
+                "width": 4096,
+                "height": 1716,
+                "format": "jpeg",
+                "aspectRatio": 2.386946386946387,
+                "hash": "sha256:4e4721fc7ae107b991df8c89644fe19fb358a7256f94ff39c3b42c0990908139",
+                "checkedAt": "2026-08-22T13:20:10.665Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.kinonews.ru/insimgs/2021/shotimg/shotimg102817_6.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.kinonews.ru/shot190440/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 572623,
+                "width": 4096,
+                "height": 1716,
+                "format": "jpeg",
+                "aspectRatio": 2.386946386946387,
+                "hash": "sha256:4e4721fc7ae107b991df8c89644fe19fb358a7256f94ff39c3b42c0990908139",
+                "checkedAt": "2026-08-22T13:20:10.665Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.kinonews.ru/shot190440/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 572623,
+              "width": 4096,
+              "height": 1716,
+              "format": "jpeg",
+              "aspectRatio": 2.386946386946387,
+              "hash": "sha256:4e4721fc7ae107b991df8c89644fe19fb358a7256f94ff39c3b42c0990908139",
+              "checkedAt": "2026-08-22T13:20:10.665Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-647",
@@ -49327,13 +49839,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://occ-0-3011-114.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABYY2B1RBpN0NHPizXzhifP7bt_3Ma7OV3_OFzpV3YkYYARlSI62YcMRNDZkBNfKU2PoS4_qqSpyqfZ95Rw-uidEQ9yo9hTsi3q91.jpg?r=220",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.netflix.com/id-en/title/81745658",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 154751,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:6129b7af38e79c40af7f1d785b5d84aa6fc94b90da4ba534df4cb0fc3c5e57ef",
+                "checkedAt": "2026-08-22T13:20:06.576Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://occ-0-3011-114.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABYY2B1RBpN0NHPizXzhifP7bt_3Ma7OV3_OFzpV3YkYYARlSI62YcMRNDZkBNfKU2PoS4_qqSpyqfZ95Rw-uidEQ9yo9hTsi3q91.jpg?r=220",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.netflix.com/id-en/title/81745658",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 154751,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:6129b7af38e79c40af7f1d785b5d84aa6fc94b90da4ba534df4cb0fc3c5e57ef",
+                "checkedAt": "2026-08-22T13:20:06.576Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.netflix.com/id-en/title/81745658",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 154751,
+              "width": 1280,
+              "height": 720,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:6129b7af38e79c40af7f1d785b5d84aa6fc94b90da4ba534df4cb0fc3c5e57ef",
+              "checkedAt": "2026-08-22T13:20:06.576Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-720",
@@ -49353,13 +49929,77 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://images.squarespace-cdn.com/content/v1/5e1f9c088a31cf7344eda01f/faa551e7-5012-4ddb-97e5-7760ff65a570/Thelma_the_Unicorn_n_00_23_34_22.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.lynnvwang.com/thelma-the-unicorn",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 128208,
+                "width": 1920,
+                "height": 1035,
+                "format": "jpeg",
+                "aspectRatio": 1.855072463768116,
+                "hash": "sha256:9c3eb27f8364430dfd90442888724f93ee8bf679bb30ce13b266818c8c8b2dba",
+                "checkedAt": "2026-08-22T13:20:06.980Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://images.squarespace-cdn.com/content/v1/5e1f9c088a31cf7344eda01f/faa551e7-5012-4ddb-97e5-7760ff65a570/Thelma_the_Unicorn_n_00_23_34_22.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.lynnvwang.com/thelma-the-unicorn",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 128208,
+                "width": 1920,
+                "height": 1035,
+                "format": "jpeg",
+                "aspectRatio": 1.855072463768116,
+                "hash": "sha256:9c3eb27f8364430dfd90442888724f93ee8bf679bb30ce13b266818c8c8b2dba",
+                "checkedAt": "2026-08-22T13:20:06.980Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.lynnvwang.com/thelma-the-unicorn",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 128208,
+              "width": 1920,
+              "height": 1035,
+              "format": "jpeg",
+              "aspectRatio": 1.855072463768116,
+              "hash": "sha256:9c3eb27f8364430dfd90442888724f93ee8bf679bb30ce13b266818c8c8b2dba",
+              "checkedAt": "2026-08-22T13:20:06.980Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-721",
@@ -52153,8 +52793,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.recorderhomepage.net/wp-content/uploads/2022/01/la-flute-a-six-schtroumpfs_clip.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://recorderhomepage.net/smurfs-and-the-recorder/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 82924,
+                "width": 835,
+                "height": 686,
+                "format": "jpeg",
+                "aspectRatio": 1.217201166180758,
+                "hash": "sha256:1d1414cc4f0b78af26e76569f7c938f0f29e9d7e04ce6cf412233f144a0f4b97",
+                "checkedAt": "2026-08-22T13:19:24.889Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "Wikidata / Wikimedia Commons",
@@ -52163,10 +52826,51 @@
           "priority": 3
         }
       ],
-      "candidates": [],
-      "status": "C",
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.recorderhomepage.net/wp-content/uploads/2022/01/la-flute-a-six-schtroumpfs_clip.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://recorderhomepage.net/smurfs-and-the-recorder/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 82924,
+                "width": 835,
+                "height": 686,
+                "format": "jpeg",
+                "aspectRatio": 1.217201166180758,
+                "hash": "sha256:1d1414cc4f0b78af26e76569f7c938f0f29e9d7e04ce6cf412233f144a0f4b97",
+                "checkedAt": "2026-08-22T13:19:24.889Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://recorderhomepage.net/smurfs-and-the-recorder/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 82924,
+              "width": 835,
+              "height": 686,
+              "format": "jpeg",
+              "aspectRatio": 1.217201166180758,
+              "hash": "sha256:1d1414cc4f0b78af26e76569f7c938f0f29e9d7e04ce6cf412233f144a0f4b97",
+              "checkedAt": "2026-08-22T13:19:24.889Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q57580966",
@@ -53184,8 +53888,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://ilarge.lisimg.com/image/22144306/740full-a-high-wind-in-jamaica-photo.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.listal.com/viewimage/22144306",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 308823,
+                "width": 954,
+                "height": 740,
+                "format": "jpeg",
+                "aspectRatio": 1.2891891891891891,
+                "hash": "sha256:fe1b21601731d7cbbbb6d1a0a89b77b23914059fce36e401ae09df73bcc1c7de",
+                "checkedAt": "2026-08-22T13:19:28.752Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -53212,10 +53939,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://ilarge.lisimg.com/image/22144306/740full-a-high-wind-in-jamaica-photo.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.listal.com/viewimage/22144306",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 308823,
+                "width": 954,
+                "height": 740,
+                "format": "jpeg",
+                "aspectRatio": 1.2891891891891891,
+                "hash": "sha256:fe1b21601731d7cbbbb6d1a0a89b77b23914059fce36e401ae09df73bcc1c7de",
+                "checkedAt": "2026-08-22T13:19:28.752Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.listal.com/viewimage/22144306",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 308823,
+              "width": 954,
+              "height": 740,
+              "format": "jpeg",
+              "aspectRatio": 1.2891891891891891,
+              "hash": "sha256:fe1b21601731d7cbbbb6d1a0a89b77b23914059fce36e401ae09df73bcc1c7de",
+              "checkedAt": "2026-08-22T13:19:28.752Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q1453797",
@@ -59493,8 +60261,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://tv.orf.at/program/orf1/rotzbub_104~_v-epg__large__16__9_-5412e775eb65789c908def5fa9fdf24a7b895a8f.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://tv.orf.at/program/orf1/rotzbub100.html",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 109335,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:18459823bcec1d14e7bca79edb9304cf264ecd7c7ff199e92cc2687878dc0a97",
+                "checkedAt": "2026-08-22T13:20:03.569Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -59521,10 +60312,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://tv.orf.at/program/orf1/rotzbub_104~_v-epg__large__16__9_-5412e775eb65789c908def5fa9fdf24a7b895a8f.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://tv.orf.at/program/orf1/rotzbub100.html",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 109335,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:18459823bcec1d14e7bca79edb9304cf264ecd7c7ff199e92cc2687878dc0a97",
+                "checkedAt": "2026-08-22T13:20:03.569Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://tv.orf.at/program/orf1/rotzbub100.html",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 109335,
+              "width": 1280,
+              "height": 720,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:18459823bcec1d14e7bca79edb9304cf264ecd7c7ff199e92cc2687878dc0a97",
+              "checkedAt": "2026-08-22T13:20:03.569Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q111087642",
@@ -64291,8 +65123,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.defa-stiftung.de/fileadmin/DEFA_Stiftung/DEFA-Filme/Spielfilme/hoelzerne-Kaelbchen-Das/KALB_2_Copyright_DEFA_Stiftung_Hans_Bernd_Baxmann.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.defa-stiftung.de/filme/filme-suchen/das-hoelzerne-kaelbchen/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 592186,
+                "width": 2117,
+                "height": 1551,
+                "format": "jpeg",
+                "aspectRatio": 1.3649258542875564,
+                "hash": "sha256:424d7828946000fcb56375ca6143aeb753150de093dbcc3373beae8030bc42a9",
+                "checkedAt": "2026-08-22T13:20:27.314Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "Wikidata / Wikimedia Commons",
@@ -64301,10 +65156,51 @@
           "priority": 3
         }
       ],
-      "candidates": [],
-      "status": "C",
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.defa-stiftung.de/fileadmin/DEFA_Stiftung/DEFA-Filme/Spielfilme/hoelzerne-Kaelbchen-Das/KALB_2_Copyright_DEFA_Stiftung_Hans_Bernd_Baxmann.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.defa-stiftung.de/filme/filme-suchen/das-hoelzerne-kaelbchen/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 592186,
+                "width": 2117,
+                "height": 1551,
+                "format": "jpeg",
+                "aspectRatio": 1.3649258542875564,
+                "hash": "sha256:424d7828946000fcb56375ca6143aeb753150de093dbcc3373beae8030bc42a9",
+                "checkedAt": "2026-08-22T13:20:27.314Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.defa-stiftung.de/filme/filme-suchen/das-hoelzerne-kaelbchen/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 592186,
+              "width": 2117,
+              "height": 1551,
+              "format": "jpeg",
+              "aspectRatio": 1.3649258542875564,
+              "hash": "sha256:424d7828946000fcb56375ca6143aeb753150de093dbcc3373beae8030bc42a9",
+              "checkedAt": "2026-08-22T13:20:27.314Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q1199657",
@@ -74207,8 +75103,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BZGM3YjYxOGItYzU2OC00MzU1LTk3M2QtMDQ0ZTk1MGU1YzI0XkEyXkFqcGc%40._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0095210/mediaindex/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 121759,
+                "width": 982,
+                "height": 768,
+                "format": "jpeg",
+                "aspectRatio": 1.2786458333333333,
+                "hash": "sha256:0976e27debe616dfbaa12148c52ef4ae4637b1972603989a2651991f3fc57eb1",
+                "checkedAt": "2026-08-22T13:20:01.775Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -74235,10 +75154,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BZGM3YjYxOGItYzU2OC00MzU1LTk3M2QtMDQ0ZTk1MGU1YzI0XkEyXkFqcGc%40._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0095210/mediaindex/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 121759,
+                "width": 982,
+                "height": 768,
+                "format": "jpeg",
+                "aspectRatio": 1.2786458333333333,
+                "hash": "sha256:0976e27debe616dfbaa12148c52ef4ae4637b1972603989a2651991f3fc57eb1",
+                "checkedAt": "2026-08-22T13:20:01.775Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt0095210/mediaindex/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 121759,
+              "width": 982,
+              "height": 768,
+              "format": "jpeg",
+              "aspectRatio": 1.2786458333333333,
+              "hash": "sha256:0976e27debe616dfbaa12148c52ef4ae4637b1972603989a2651991f3fc57eb1",
+              "checkedAt": "2026-08-22T13:20:01.775Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q704732",
@@ -74813,8 +75773,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdwRzBYLh3QnGVkStXcp6J4toHb4KsLRbjqXe6-Ww3hcMMpIpwyo8SKRKuhibAgSwm4gApj_R7dxLCNbamWf1YWBQ2ZXOv7T-SDj16r9vrs1GwGS0UIMz6d5eeT3LiE.jpg?r=cc0",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.netflix.com/es/title/81094074",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 85864,
+                "width": 912,
+                "height": 513,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:aacc314500da40ae7734b8624b64022d2ccd1ce29e805f05e9270bea8d66e0fd",
+                "checkedAt": "2026-08-22T13:20:05.171Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -74841,10 +75824,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdwRzBYLh3QnGVkStXcp6J4toHb4KsLRbjqXe6-Ww3hcMMpIpwyo8SKRKuhibAgSwm4gApj_R7dxLCNbamWf1YWBQ2ZXOv7T-SDj16r9vrs1GwGS0UIMz6d5eeT3LiE.jpg?r=cc0",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.netflix.com/es/title/81094074",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 85864,
+                "width": 912,
+                "height": 513,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:aacc314500da40ae7734b8624b64022d2ccd1ce29e805f05e9270bea8d66e0fd",
+                "checkedAt": "2026-08-22T13:20:05.171Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.netflix.com/es/title/81094074",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 85864,
+              "width": 912,
+              "height": 513,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:aacc314500da40ae7734b8624b64022d2ccd1ce29e805f05e9270bea8d66e0fd",
+              "checkedAt": "2026-08-22T13:20:05.171Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q2241055",
@@ -79954,8 +80978,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.cinematheque.fr/media/01-films/le-tableau-laurent-achard.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.cinematheque.fr/film/121778.html",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 710763,
+                "width": 1200,
+                "height": 675,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:dd6cfa813f0b983d3c83b9e9aca378c940ad016d66045fafca13aa4ca0c0dfc1",
+                "checkedAt": "2026-08-22T13:20:28.378Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "Wikidata / Wikimedia Commons",
@@ -79964,10 +81011,51 @@
           "priority": 3
         }
       ],
-      "candidates": [],
-      "status": "C",
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://www.cinematheque.fr/media/01-films/le-tableau-laurent-achard.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.cinematheque.fr/film/121778.html",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 710763,
+                "width": 1200,
+                "height": 675,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:dd6cfa813f0b983d3c83b9e9aca378c940ad016d66045fafca13aa4ca0c0dfc1",
+                "checkedAt": "2026-08-22T13:20:28.378Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.cinematheque.fr/film/121778.html",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 710763,
+              "width": 1200,
+              "height": 675,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:dd6cfa813f0b983d3c83b9e9aca378c940ad016d66045fafca13aa4ca0c0dfc1",
+              "checkedAt": "2026-08-22T13:20:28.378Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q165630",
@@ -85988,25 +87076,36 @@
         "mail": "924545"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/56c096e6-086a-5c9b-afc0-39c32e6c366f/AQACepAmnwdRTkyAze95cLWt03Vkke4PGNF7EZNemBM9yX_RAWABI36JdSLdfB_pCRLYfrruQ6ksuz0qSjqz6XLe4lU.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/56c096e6-086a-5c9b-afc0-39c32e6c366f/AQACepAmnwdRTkyAze95cLWt03Vkke4PGNF7EZNemBM9yX_RAWABI36JdSLdfB_pCRLYfrruQ6ksuz0qSjqz6XLe4lU.jpg",
+          "role": "confirmed-still",
+          "url": "https://static.kinoafisha.info/k/movie_shots/1920x1080/upload/movie_shots/0/0/5/8362500/4e014ce96f014ab944a6818f6ebb14de.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.kinoafisha.info/movies/8362500/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 60020,
+                "width": 1030,
+                "height": 436,
+                "format": "jpeg",
+                "aspectRatio": 2.3623853211009176,
+                "hash": "sha256:dcfaed53699a4ae64ea1670ee7c5fd237760e0b1664c5082735bcd0e4cc4e7c2",
+                "checkedAt": "2026-08-22T13:20:13.420Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -86017,26 +87116,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/56c096e6-086a-5c9b-afc0-39c32e6c366f/AQACepAmnwdRTkyAze95cLWt03Vkke4PGNF7EZNemBM9yX_RAWABI36JdSLdfB_pCRLYfrruQ6ksuz0qSjqz6XLe4lU.jpg",
+          "role": "confirmed-still",
+          "url": "https://static.kinoafisha.info/k/movie_shots/1920x1080/upload/movie_shots/0/0/5/8362500/4e014ce96f014ab944a6818f6ebb14de.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.kinoafisha.info/movies/8362500/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 60020,
+                "width": 1030,
+                "height": 436,
+                "format": "jpeg",
+                "aspectRatio": 2.3623853211009176,
+                "hash": "sha256:dcfaed53699a4ae64ea1670ee7c5fd237760e0b1664c5082735bcd0e4cc4e7c2",
+                "checkedAt": "2026-08-22T13:20:13.420Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.kinoafisha.info/movies/8362500/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 60020,
+              "width": 1030,
+              "height": 436,
+              "format": "jpeg",
+              "aspectRatio": 2.3623853211009176,
+              "hash": "sha256:dcfaed53699a4ae64ea1670ee7c5fd237760e0b1664c5082735bcd0e4cc4e7c2",
+              "checkedAt": "2026-08-22T13:20:13.420Z"
+            }
+          }
         }
       ]
     },
@@ -87873,25 +88995,36 @@
         "mail": "927203"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/ca26ed8e-cc27-56d0-b34b-1250f1898602/AQACfPTye8zdTPwrxzmEenewqNfuCOhljOeSrlqNPTwcSu81S8XxLphYrpcaykoswa47htnRC7R67tFMJfbdMvGZjYM.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/ca26ed8e-cc27-56d0-b34b-1250f1898602/AQACfPTye8zdTPwrxzmEenewqNfuCOhljOeSrlqNPTwcSu81S8XxLphYrpcaykoswa47htnRC7R67tFMJfbdMvGZjYM.jpg",
+          "role": "confirmed-still",
+          "url": "https://images.mubicdn.net/images/film/22644/cache-35097-1507761422/image-w1280.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://mubi.com/en/us/films/the-girl-and-the-echo",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 127122,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:29459c20e81b5df6cc0e51529c4ea0e58962e5ba8373ed85ec22eac7aaad6426",
+                "checkedAt": "2026-08-22T13:20:16.897Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -87902,26 +89035,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/ca26ed8e-cc27-56d0-b34b-1250f1898602/AQACfPTye8zdTPwrxzmEenewqNfuCOhljOeSrlqNPTwcSu81S8XxLphYrpcaykoswa47htnRC7R67tFMJfbdMvGZjYM.jpg",
+          "role": "confirmed-still",
+          "url": "https://images.mubicdn.net/images/film/22644/cache-35097-1507761422/image-w1280.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://mubi.com/en/us/films/the-girl-and-the-echo",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 127122,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:29459c20e81b5df6cc0e51529c4ea0e58962e5ba8373ed85ec22eac7aaad6426",
+                "checkedAt": "2026-08-22T13:20:16.897Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://mubi.com/en/us/films/the-girl-and-the-echo",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 127122,
+              "width": 1280,
+              "height": 720,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:29459c20e81b5df6cc0e51529c4ea0e58962e5ba8373ed85ec22eac7aaad6426",
+              "checkedAt": "2026-08-22T13:20:16.897Z"
+            }
+          }
         }
       ]
     },
@@ -101186,25 +102342,36 @@
         "mail": "910222"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/71a5ea17-0159-5138-a81f-cfbe9c4be1c6/AQACwHBFiixkWCBBMNMNnTW6n6XRWyPC2bnB6f36aNi9Wb8ourdvzm746i42cRJas3gj8Z4_x_36emHdYCGM_8124Z4.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/71a5ea17-0159-5138-a81f-cfbe9c4be1c6/AQACwHBFiixkWCBBMNMNnTW6n6XRWyPC2bnB6f36aNi9Wb8ourdvzm746i42cRJas3gj8Z4_x_36emHdYCGM_8124Z4.jpg",
+          "role": "confirmed-still",
+          "url": "https://d-tv.ppstatic.pl/images/tv-tv/4d/b8/prg2234967_830097043_original.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://telemagazyn.pl/101-dalmatynczykow/pr/20063",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 381279,
+                "width": 1920,
+                "height": 1444,
+                "format": "jpeg",
+                "aspectRatio": 1.3296398891966759,
+                "hash": "sha256:efd67816c19dbd2a728d7f3755cfcef9513eb0da7cfb8bd6227c5d771bd62ad5",
+                "checkedAt": "2026-08-22T13:20:14.809Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -101215,26 +102382,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/71a5ea17-0159-5138-a81f-cfbe9c4be1c6/AQACwHBFiixkWCBBMNMNnTW6n6XRWyPC2bnB6f36aNi9Wb8ourdvzm746i42cRJas3gj8Z4_x_36emHdYCGM_8124Z4.jpg",
+          "role": "confirmed-still",
+          "url": "https://d-tv.ppstatic.pl/images/tv-tv/4d/b8/prg2234967_830097043_original.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://telemagazyn.pl/101-dalmatynczykow/pr/20063",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 381279,
+                "width": 1920,
+                "height": 1444,
+                "format": "jpeg",
+                "aspectRatio": 1.3296398891966759,
+                "hash": "sha256:efd67816c19dbd2a728d7f3755cfcef9513eb0da7cfb8bd6227c5d771bd62ad5",
+                "checkedAt": "2026-08-22T13:20:14.809Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://telemagazyn.pl/101-dalmatynczykow/pr/20063",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 381279,
+              "width": 1920,
+              "height": 1444,
+              "format": "jpeg",
+              "aspectRatio": 1.3296398891966759,
+              "hash": "sha256:efd67816c19dbd2a728d7f3755cfcef9513eb0da7cfb8bd6227c5d771bd62ad5",
+              "checkedAt": "2026-08-22T13:20:14.809Z"
+            }
+          }
         }
       ]
     },
@@ -106718,25 +107908,36 @@
         "mail": "905703"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/1b527e34-04e3-597e-83b0-0d68950d92f7/AQAChbaV0dq8JDBOaC3aizwl6ZvKfS2BYoPy5wzZ-YYIMNA7hICLaGZOpw-XVbASuBU5x7YayALoi5UfL5RteR_fpb0.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/1b527e34-04e3-597e-83b0-0d68950d92f7/AQAChbaV0dq8JDBOaC3aizwl6ZvKfS2BYoPy5wzZ-YYIMNA7hICLaGZOpw-XVbASuBU5x7YayALoi5UfL5RteR_fpb0.jpg",
+          "role": "confirmed-still",
+          "url": "https://2.bp.blogspot.com/-kLzt2yvQWGw/U-VM009IcFI/AAAAAAAABOI/urN1S40f7e8/s1600/Animation_39.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://dinoathanassiou.blogspot.com/2014/08/iconicles-create-media-ventures-phuuz.html",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 101391,
+                "width": 1103,
+                "height": 624,
+                "format": "jpeg",
+                "aspectRatio": 1.767628205128205,
+                "hash": "sha256:bb037a3ce54bf26eabb72b18475e2902acce352c5e081869ae8f27f1097d82f9",
+                "checkedAt": "2026-08-22T13:20:15.554Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -106747,26 +107948,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/1b527e34-04e3-597e-83b0-0d68950d92f7/AQAChbaV0dq8JDBOaC3aizwl6ZvKfS2BYoPy5wzZ-YYIMNA7hICLaGZOpw-XVbASuBU5x7YayALoi5UfL5RteR_fpb0.jpg",
+          "role": "confirmed-still",
+          "url": "https://2.bp.blogspot.com/-kLzt2yvQWGw/U-VM009IcFI/AAAAAAAABOI/urN1S40f7e8/s1600/Animation_39.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://dinoathanassiou.blogspot.com/2014/08/iconicles-create-media-ventures-phuuz.html",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 101391,
+                "width": 1103,
+                "height": 624,
+                "format": "jpeg",
+                "aspectRatio": 1.767628205128205,
+                "hash": "sha256:bb037a3ce54bf26eabb72b18475e2902acce352c5e081869ae8f27f1097d82f9",
+                "checkedAt": "2026-08-22T13:20:15.554Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://dinoathanassiou.blogspot.com/2014/08/iconicles-create-media-ventures-phuuz.html",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 101391,
+              "width": 1103,
+              "height": 624,
+              "format": "jpeg",
+              "aspectRatio": 1.767628205128205,
+              "hash": "sha256:bb037a3ce54bf26eabb72b18475e2902acce352c5e081869ae8f27f1097d82f9",
+              "checkedAt": "2026-08-22T13:20:15.554Z"
+            }
+          }
         }
       ]
     },
@@ -107425,25 +108649,36 @@
         "mail": "904769"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/0b729cd2-109e-520d-b8ef-c87caf9d5fda/AQACMFuHaQyY-JY_kAEKMrzhIXxUX_iHVYNJbo3f29aOCh5lzD-HzkOa_B3w-AeuoTsHcvP-Cgx9PCCrPspCDMYIx94.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/0b729cd2-109e-520d-b8ef-c87caf9d5fda/AQACMFuHaQyY-JY_kAEKMrzhIXxUX_iHVYNJbo3f29aOCh5lzD-HzkOa_B3w-AeuoTsHcvP-Cgx9PCCrPspCDMYIx94.jpg",
+          "role": "confirmed-still",
+          "url": "https://images.iptv.rt.ru/images/caualrbir4ssllu453ig.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://wink.ru/episodes/gazun-zverinye-priklyucheniya-sezon-1-seriya-26-year-2007",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 124595,
+                "width": 1620,
+                "height": 996,
+                "format": "jpeg",
+                "aspectRatio": 1.6265060240963856,
+                "hash": "sha256:14498d3ce60dbcd6a3d673f3f6393e4f99651f7aca50242d1f46f36fd003db94",
+                "checkedAt": "2026-08-22T13:20:18.392Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -107454,26 +108689,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/0b729cd2-109e-520d-b8ef-c87caf9d5fda/AQACMFuHaQyY-JY_kAEKMrzhIXxUX_iHVYNJbo3f29aOCh5lzD-HzkOa_B3w-AeuoTsHcvP-Cgx9PCCrPspCDMYIx94.jpg",
+          "role": "confirmed-still",
+          "url": "https://images.iptv.rt.ru/images/caualrbir4ssllu453ig.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://wink.ru/episodes/gazun-zverinye-priklyucheniya-sezon-1-seriya-26-year-2007",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 124595,
+                "width": 1620,
+                "height": 996,
+                "format": "jpeg",
+                "aspectRatio": 1.6265060240963856,
+                "hash": "sha256:14498d3ce60dbcd6a3d673f3f6393e4f99651f7aca50242d1f46f36fd003db94",
+                "checkedAt": "2026-08-22T13:20:18.392Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://wink.ru/episodes/gazun-zverinye-priklyucheniya-sezon-1-seriya-26-year-2007",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 124595,
+              "width": 1620,
+              "height": 996,
+              "format": "jpeg",
+              "aspectRatio": 1.6265060240963856,
+              "hash": "sha256:14498d3ce60dbcd6a3d673f3f6393e4f99651f7aca50242d1f46f36fd003db94",
+              "checkedAt": "2026-08-22T13:20:18.392Z"
+            }
+          }
         }
       ]
     },
@@ -107664,25 +108922,36 @@
         "mail": "928848"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/8c0a81ea-9f59-53ea-83d0-6b41d9c12534/AQACLEqwsenMAFycHR7MpcoXt2awoKjOilDZM6wURL-LrbZ367JxZbAni_LgIk4YV3tEDQcLOPjjV7b3XmIFiYDdlyI.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/8c0a81ea-9f59-53ea-83d0-6b41d9c12534/AQACLEqwsenMAFycHR7MpcoXt2awoKjOilDZM6wURL-LrbZ367JxZbAni_LgIk4YV3tEDQcLOPjjV7b3XmIFiYDdlyI.jpg",
+          "role": "confirmed-still",
+          "url": "https://static.cinemagia.ro/img/db/movie/11/66/733/the-garfield-show-402611l.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.cinemagia.ro/filme/the-garfield-show-1166733/imagini/2797055/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 145680,
+                "width": 1920,
+                "height": 1088,
+                "format": "jpeg",
+                "aspectRatio": 1.7647058823529411,
+                "hash": "sha256:8f0836f06eec0fd68a2fb01b134717c96dfef753ffad42fa80f45fcda2eedb88",
+                "checkedAt": "2026-08-22T13:20:12.373Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -107693,26 +108962,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/8c0a81ea-9f59-53ea-83d0-6b41d9c12534/AQACLEqwsenMAFycHR7MpcoXt2awoKjOilDZM6wURL-LrbZ367JxZbAni_LgIk4YV3tEDQcLOPjjV7b3XmIFiYDdlyI.jpg",
+          "role": "confirmed-still",
+          "url": "https://static.cinemagia.ro/img/db/movie/11/66/733/the-garfield-show-402611l.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.cinemagia.ro/filme/the-garfield-show-1166733/imagini/2797055/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 145680,
+                "width": 1920,
+                "height": 1088,
+                "format": "jpeg",
+                "aspectRatio": 1.7647058823529411,
+                "hash": "sha256:8f0836f06eec0fd68a2fb01b134717c96dfef753ffad42fa80f45fcda2eedb88",
+                "checkedAt": "2026-08-22T13:20:12.373Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.cinemagia.ro/filme/the-garfield-show-1166733/imagini/2797055/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 145680,
+              "width": 1920,
+              "height": 1088,
+              "format": "jpeg",
+              "aspectRatio": 1.7647058823529411,
+              "hash": "sha256:8f0836f06eec0fd68a2fb01b134717c96dfef753ffad42fa80f45fcda2eedb88",
+              "checkedAt": "2026-08-22T13:20:12.373Z"
+            }
+          }
         }
       ]
     },
@@ -109498,25 +110790,36 @@
         "mail": "806966"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/02eaa097-e55a-5a87-8231-c1e544d2476e/AQACm8aej5J8eggDdgK6Qz6eFg44sH3ISVAlVGNVbU5lpMvtCUiGgCrcdw5bXxsW-b1NY4OgWsAJ5o7WjamJTsQnH-E.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/02eaa097-e55a-5a87-8231-c1e544d2476e/AQACm8aej5J8eggDdgK6Qz6eFg44sH3ISVAlVGNVbU5lpMvtCUiGgCrcdw5bXxsW-b1NY4OgWsAJ5o7WjamJTsQnH-E.jpg",
+          "role": "confirmed-still",
+          "url": "https://filmwerte-vod.b-cdn.net/videos/539/5391a92b-07cc-4d41-9f8d-29ade0a49d56/artworks/36733031-c2c2-429a-a96a-d2b5714ebeeb.jpg?height=720&width=1280",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.filmfriend.de/en/episodes/dogtanian-and-the-three-muskehounds-s1-e4",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 100295,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:7de0778b451e61f6c3fa09d9ff319b5eee586f586da525266e30e6027e6ebda2",
+                "checkedAt": "2026-08-22T13:20:12.156Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -109527,26 +110830,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/02eaa097-e55a-5a87-8231-c1e544d2476e/AQACm8aej5J8eggDdgK6Qz6eFg44sH3ISVAlVGNVbU5lpMvtCUiGgCrcdw5bXxsW-b1NY4OgWsAJ5o7WjamJTsQnH-E.jpg",
+          "role": "confirmed-still",
+          "url": "https://filmwerte-vod.b-cdn.net/videos/539/5391a92b-07cc-4d41-9f8d-29ade0a49d56/artworks/36733031-c2c2-429a-a96a-d2b5714ebeeb.jpg?height=720&width=1280",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.filmfriend.de/en/episodes/dogtanian-and-the-three-muskehounds-s1-e4",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 100295,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:7de0778b451e61f6c3fa09d9ff319b5eee586f586da525266e30e6027e6ebda2",
+                "checkedAt": "2026-08-22T13:20:12.156Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.filmfriend.de/en/episodes/dogtanian-and-the-three-muskehounds-s1-e4",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 100295,
+              "width": 1280,
+              "height": 720,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:7de0778b451e61f6c3fa09d9ff319b5eee586f586da525266e30e6027e6ebda2",
+              "checkedAt": "2026-08-22T13:20:12.156Z"
+            }
+          }
         }
       ]
     },
@@ -111758,25 +113084,36 @@
         "mail": "922595"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/b9402d26-7ae8-5a5a-9f6d-1a6f74c0f595/AQACTBxJdvd63s663X70ESJ3x9xNwMYGsg2C_tJp5xB2CUY_3R6FjgpSYSLffXyNGNritBO-wpQ3NCMBpDsM-PB2D8w.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/b9402d26-7ae8-5a5a-9f6d-1a6f74c0f595/AQACTBxJdvd63s663X70ESJ3x9xNwMYGsg2C_tJp5xB2CUY_3R6FjgpSYSLffXyNGNritBO-wpQ3NCMBpDsM-PB2D8w.jpg",
+          "role": "confirmed-still",
+          "url": "https://is4-ssl.mzstatic.com/image/thumb/Ez1O0PiYDdOou3roMxlahA/1478x832.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://tv.apple.com/gb/show/dinopaws/umc.cmc.46qnaen8gaxz0ap5yvia02lnq",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 319820,
+                "width": 1478,
+                "height": 831,
+                "format": "jpeg",
+                "aspectRatio": 1.7785800240673888,
+                "hash": "sha256:634b5680af424568dd808abb742b1a19e9834601f85a626cfd8ef3ababff772b",
+                "checkedAt": "2026-08-22T13:20:14.949Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -111787,26 +113124,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/b9402d26-7ae8-5a5a-9f6d-1a6f74c0f595/AQACTBxJdvd63s663X70ESJ3x9xNwMYGsg2C_tJp5xB2CUY_3R6FjgpSYSLffXyNGNritBO-wpQ3NCMBpDsM-PB2D8w.jpg",
+          "role": "confirmed-still",
+          "url": "https://is4-ssl.mzstatic.com/image/thumb/Ez1O0PiYDdOou3roMxlahA/1478x832.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://tv.apple.com/gb/show/dinopaws/umc.cmc.46qnaen8gaxz0ap5yvia02lnq",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 319820,
+                "width": 1478,
+                "height": 831,
+                "format": "jpeg",
+                "aspectRatio": 1.7785800240673888,
+                "hash": "sha256:634b5680af424568dd808abb742b1a19e9834601f85a626cfd8ef3ababff772b",
+                "checkedAt": "2026-08-22T13:20:14.949Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://tv.apple.com/gb/show/dinopaws/umc.cmc.46qnaen8gaxz0ap5yvia02lnq",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 319820,
+              "width": 1478,
+              "height": 831,
+              "format": "jpeg",
+              "aspectRatio": 1.7785800240673888,
+              "hash": "sha256:634b5680af424568dd808abb742b1a19e9834601f85a626cfd8ef3ababff772b",
+              "checkedAt": "2026-08-22T13:20:14.949Z"
+            }
+          }
         }
       ]
     },
@@ -112758,25 +114118,36 @@
         "mail": "925481"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/7060af7e-d660-5812-bb37-8030af6101d8/AQAC3roR3AkUvwatnsS7QO58L_XRZeBaQf1lDsnc27OaTpG_wEzOPuZcIkACs3nuQGFcn0GRO3P5CAsPcN8DOJxv5dY.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/7060af7e-d660-5812-bb37-8030af6101d8/AQAC3roR3AkUvwatnsS7QO58L_XRZeBaQf1lDsnc27OaTpG_wEzOPuZcIkACs3nuQGFcn0GRO3P5CAsPcN8DOJxv5dY.jpg",
+          "role": "confirmed-still",
+          "url": "https://s2.dmcdn.net/v/Ug-rb1eofkuLwnBmZ/x720",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.dailymotion.com/video/x8idbhh",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 161481,
+                "width": 1376,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.9111111111111112,
+                "hash": "sha256:294a2cab8789068d30fd6da0431da2b93aaeb36e2bfc77710de9800dfb1c326c",
+                "checkedAt": "2026-08-22T13:20:13.146Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -112787,26 +114158,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/7060af7e-d660-5812-bb37-8030af6101d8/AQAC3roR3AkUvwatnsS7QO58L_XRZeBaQf1lDsnc27OaTpG_wEzOPuZcIkACs3nuQGFcn0GRO3P5CAsPcN8DOJxv5dY.jpg",
+          "role": "confirmed-still",
+          "url": "https://s2.dmcdn.net/v/Ug-rb1eofkuLwnBmZ/x720",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.dailymotion.com/video/x8idbhh",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 161481,
+                "width": 1376,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.9111111111111112,
+                "hash": "sha256:294a2cab8789068d30fd6da0431da2b93aaeb36e2bfc77710de9800dfb1c326c",
+                "checkedAt": "2026-08-22T13:20:13.146Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.dailymotion.com/video/x8idbhh",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 161481,
+              "width": 1376,
+              "height": 720,
+              "format": "jpeg",
+              "aspectRatio": 1.9111111111111112,
+              "hash": "sha256:294a2cab8789068d30fd6da0431da2b93aaeb36e2bfc77710de9800dfb1c326c",
+              "checkedAt": "2026-08-22T13:20:13.146Z"
+            }
+          }
         }
       ]
     },
@@ -132279,25 +133673,36 @@
         "mail": "929422"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/b1f34088-e2d2-5c3c-9dfb-db00ae85a984/AQAChKfq-Ywy3DJ0cgHa0YF4iqoulTeAZU7JTa9joK6m2dIGAVJncfsS0pYYehFfY6q5xTuOXQYnyL68Ao5yPtAf-p4.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/b1f34088-e2d2-5c3c-9dfb-db00ae85a984/AQAChKfq-Ywy3DJ0cgHa0YF4iqoulTeAZU7JTa9joK6m2dIGAVJncfsS0pYYehFfY6q5xTuOXQYnyL68Ao5yPtAf-p4.jpg",
+          "role": "confirmed-still",
+          "url": "https://pbskids.org/_next/image?q=75&url=https%3A%2F%2Fimage.pbs.org%2Fvideo-assets%2Fpbs-kids%2Fcyberchase%2F243266%2Fimages%2Fkids-mezzannine-16x9_483.jpg&w=1920",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://pbskids.org/videos/cyberchase/season-5",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 170525,
+                "width": 1920,
+                "height": 1080,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:d45cb165973a7d301c36e8e0b4e07937b80db4422006cd55638aa26fa7e84bb6",
+                "checkedAt": "2026-08-22T13:20:12.910Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -132308,26 +133713,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/b1f34088-e2d2-5c3c-9dfb-db00ae85a984/AQAChKfq-Ywy3DJ0cgHa0YF4iqoulTeAZU7JTa9joK6m2dIGAVJncfsS0pYYehFfY6q5xTuOXQYnyL68Ao5yPtAf-p4.jpg",
+          "role": "confirmed-still",
+          "url": "https://pbskids.org/_next/image?q=75&url=https%3A%2F%2Fimage.pbs.org%2Fvideo-assets%2Fpbs-kids%2Fcyberchase%2F243266%2Fimages%2Fkids-mezzannine-16x9_483.jpg&w=1920",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://pbskids.org/videos/cyberchase/season-5",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 170525,
+                "width": 1920,
+                "height": 1080,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:d45cb165973a7d301c36e8e0b4e07937b80db4422006cd55638aa26fa7e84bb6",
+                "checkedAt": "2026-08-22T13:20:12.910Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://pbskids.org/videos/cyberchase/season-5",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 170525,
+              "width": 1920,
+              "height": 1080,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:d45cb165973a7d301c36e8e0b4e07937b80db4422006cd55638aa26fa7e84bb6",
+              "checkedAt": "2026-08-22T13:20:12.910Z"
+            }
+          }
         }
       ]
     },
@@ -137775,25 +139203,36 @@
         "mail": "934469"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/a27cd1ab-0a2f-5bc1-97a4-dc6d40449e6a/AQACmZMEWoBWGfIuSAPYuRHCDeoV3ETkZA-w6reBWwpSN7ef-Udrv1PCgsUTey4IT_MY3FLXMyk88xev313M6lnPIec.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/a27cd1ab-0a2f-5bc1-97a4-dc6d40449e6a/AQACmZMEWoBWGfIuSAPYuRHCDeoV3ETkZA-w6reBWwpSN7ef-Udrv1PCgsUTey4IT_MY3FLXMyk88xev313M6lnPIec.jpg",
+          "role": "confirmed-still",
+          "url": "https://images.iptv.rt.ru/images/c6u6fjrir4ssllttfgsg.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://wink.ru/episodes/lu-sezon-1-seriya-29-year-2009",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 139760,
+                "width": 1620,
+                "height": 996,
+                "format": "jpeg",
+                "aspectRatio": 1.6265060240963856,
+                "hash": "sha256:869d7ee1486d0d09bba6cca6b7c1dad6412dd6eae6fa41ff3b76667f3b8e344a",
+                "checkedAt": "2026-08-22T13:20:19.093Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -137804,26 +139243,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/a27cd1ab-0a2f-5bc1-97a4-dc6d40449e6a/AQACmZMEWoBWGfIuSAPYuRHCDeoV3ETkZA-w6reBWwpSN7ef-Udrv1PCgsUTey4IT_MY3FLXMyk88xev313M6lnPIec.jpg",
+          "role": "confirmed-still",
+          "url": "https://images.iptv.rt.ru/images/c6u6fjrir4ssllttfgsg.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://wink.ru/episodes/lu-sezon-1-seriya-29-year-2009",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 139760,
+                "width": 1620,
+                "height": 996,
+                "format": "jpeg",
+                "aspectRatio": 1.6265060240963856,
+                "hash": "sha256:869d7ee1486d0d09bba6cca6b7c1dad6412dd6eae6fa41ff3b76667f3b8e344a",
+                "checkedAt": "2026-08-22T13:20:19.093Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://wink.ru/episodes/lu-sezon-1-seriya-29-year-2009",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 139760,
+              "width": 1620,
+              "height": 996,
+              "format": "jpeg",
+              "aspectRatio": 1.6265060240963856,
+              "hash": "sha256:869d7ee1486d0d09bba6cca6b7c1dad6412dd6eae6fa41ff3b76667f3b8e344a",
+              "checkedAt": "2026-08-22T13:20:19.093Z"
+            }
+          }
         }
       ]
     },
@@ -143889,25 +145351,36 @@
         "mail": "829798"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/bd71aa5e-3774-57c4-880a-5a8535f94e66/AQACDawqQT3J05BrXOX3FJz_pIUgffWGW4MUfXDYXHIq5QOyaDUS4THb8T_NWqZ4i1_suN1d9MlOvikTdlru-9EOj80.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/bd71aa5e-3774-57c4-880a-5a8535f94e66/AQACDawqQT3J05BrXOX3FJz_pIUgffWGW4MUfXDYXHIq5QOyaDUS4THb8T_NWqZ4i1_suN1d9MlOvikTdlru-9EOj80.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/S/pv-target-images/505aa721a63da430dff9e63aa623d6b73f443894c50e11be31f1fb98c01b179e._SX1080_FMjpg_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.primevideo.com/detail/Mouk/0SUVT3XB6WGB0EHYWBRQIWQQR9",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 80061,
+                "width": 1080,
+                "height": 608,
+                "format": "jpeg",
+                "aspectRatio": 1.7763157894736843,
+                "hash": "sha256:7c673c04fa9c2f97ae78ec8ae9c1339d9dc473c6dfb80b286220e5640fb71954",
+                "checkedAt": "2026-08-22T13:20:12.555Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -143918,26 +145391,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/bd71aa5e-3774-57c4-880a-5a8535f94e66/AQACDawqQT3J05BrXOX3FJz_pIUgffWGW4MUfXDYXHIq5QOyaDUS4THb8T_NWqZ4i1_suN1d9MlOvikTdlru-9EOj80.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/S/pv-target-images/505aa721a63da430dff9e63aa623d6b73f443894c50e11be31f1fb98c01b179e._SX1080_FMjpg_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.primevideo.com/detail/Mouk/0SUVT3XB6WGB0EHYWBRQIWQQR9",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 80061,
+                "width": 1080,
+                "height": 608,
+                "format": "jpeg",
+                "aspectRatio": 1.7763157894736843,
+                "hash": "sha256:7c673c04fa9c2f97ae78ec8ae9c1339d9dc473c6dfb80b286220e5640fb71954",
+                "checkedAt": "2026-08-22T13:20:12.555Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.primevideo.com/detail/Mouk/0SUVT3XB6WGB0EHYWBRQIWQQR9",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 80061,
+              "width": 1080,
+              "height": 608,
+              "format": "jpeg",
+              "aspectRatio": 1.7763157894736843,
+              "hash": "sha256:7c673c04fa9c2f97ae78ec8ae9c1339d9dc473c6dfb80b286220e5640fb71954",
+              "checkedAt": "2026-08-22T13:20:12.555Z"
+            }
+          }
         }
       ]
     },
@@ -144035,25 +145531,36 @@
         "mail": "925119"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/aead832d-769d-5d61-9d98-f84388696b2a/AQAClEyA2rzSZybHGje0WWUuKP71D2J4NUJLyfQ05i2wJppncTZeDDqViY5W2UYdiy_C2Krmp1Fss_yRXGIhhepmsxk.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/aead832d-769d-5d61-9d98-f84388696b2a/AQAClEyA2rzSZybHGje0WWUuKP71D2J4NUJLyfQ05i2wJppncTZeDDqViY5W2UYdiy_C2Krmp1Fss_yRXGIhhepmsxk.jpg",
+          "role": "confirmed-still",
+          "url": "https://images.iptv.rt.ru/images/c6u8hejir4sslltu3r4g.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://wink.ru/episodes/mumiya-2001-sezon-1-seriya-2-year-2001",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 132761,
+                "width": 810,
+                "height": 498,
+                "format": "jpeg",
+                "aspectRatio": 1.6265060240963856,
+                "hash": "sha256:15c54ffd5f56bb8075c06c8a560b0a8fc7e41b4437ceb59b227184010e31262c",
+                "checkedAt": "2026-08-22T13:20:16.606Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -144064,26 +145571,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/aead832d-769d-5d61-9d98-f84388696b2a/AQAClEyA2rzSZybHGje0WWUuKP71D2J4NUJLyfQ05i2wJppncTZeDDqViY5W2UYdiy_C2Krmp1Fss_yRXGIhhepmsxk.jpg",
+          "role": "confirmed-still",
+          "url": "https://images.iptv.rt.ru/images/c6u8hejir4sslltu3r4g.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://wink.ru/episodes/mumiya-2001-sezon-1-seriya-2-year-2001",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 132761,
+                "width": 810,
+                "height": 498,
+                "format": "jpeg",
+                "aspectRatio": 1.6265060240963856,
+                "hash": "sha256:15c54ffd5f56bb8075c06c8a560b0a8fc7e41b4437ceb59b227184010e31262c",
+                "checkedAt": "2026-08-22T13:20:16.606Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://wink.ru/episodes/mumiya-2001-sezon-1-seriya-2-year-2001",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 132761,
+              "width": 810,
+              "height": 498,
+              "format": "jpeg",
+              "aspectRatio": 1.6265060240963856,
+              "hash": "sha256:15c54ffd5f56bb8075c06c8a560b0a8fc7e41b4437ceb59b227184010e31262c",
+              "checkedAt": "2026-08-22T13:20:16.606Z"
+            }
+          }
         }
       ]
     },
@@ -149420,25 +150950,36 @@
         "mail": "929312"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/88d300c3-a950-5e54-b5ac-52c488d26ccc/AQACHFHQpAh9vNgPMrtAo-CC4ww9CFUfM_SFSJeyx1QOcb6TIPWsgvhB-MwwdkITa6hpMnSOK2VIvzKb_WuAKQX2eBY.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/88d300c3-a950-5e54-b5ac-52c488d26ccc/AQACHFHQpAh9vNgPMrtAo-CC4ww9CFUfM_SFSJeyx1QOcb6TIPWsgvhB-MwwdkITa6hpMnSOK2VIvzKb_WuAKQX2eBY.jpg",
+          "role": "confirmed-still",
+          "url": "https://osn-artwork.anghcdn.co/landscape_cl_PR691984/SR117583_QC.jpg?width=3840",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://osnplus.com/en-cg/episode/pingu-as-babysitter--pingu-and-the-stranger-66718",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 69536,
+                "width": 1920,
+                "height": 1080,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:3a801ef6b915bf438237a64075350fcbd3998a6355f53d6722fd34162a0c1dce",
+                "checkedAt": "2026-08-22T13:20:14.014Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -149449,26 +150990,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/88d300c3-a950-5e54-b5ac-52c488d26ccc/AQACHFHQpAh9vNgPMrtAo-CC4ww9CFUfM_SFSJeyx1QOcb6TIPWsgvhB-MwwdkITa6hpMnSOK2VIvzKb_WuAKQX2eBY.jpg",
+          "role": "confirmed-still",
+          "url": "https://osn-artwork.anghcdn.co/landscape_cl_PR691984/SR117583_QC.jpg?width=3840",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://osnplus.com/en-cg/episode/pingu-as-babysitter--pingu-and-the-stranger-66718",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 69536,
+                "width": 1920,
+                "height": 1080,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:3a801ef6b915bf438237a64075350fcbd3998a6355f53d6722fd34162a0c1dce",
+                "checkedAt": "2026-08-22T13:20:14.014Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://osnplus.com/en-cg/episode/pingu-as-babysitter--pingu-and-the-stranger-66718",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 69536,
+              "width": 1920,
+              "height": 1080,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:3a801ef6b915bf438237a64075350fcbd3998a6355f53d6722fd34162a0c1dce",
+              "checkedAt": "2026-08-22T13:20:14.014Z"
+            }
+          }
         }
       ]
     },
