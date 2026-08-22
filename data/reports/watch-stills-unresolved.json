@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-21T12:10:40.391Z",
+  "generatedAt": "2026-08-22T04:52:16.429Z",
   "totalCatalog": 2074,
-  "confirmedStills": 1181,
-  "unresolved": 893,
-  "posterInFrame": 325,
-  "noFrame": 568,
+  "confirmedStills": 1195,
+  "unresolved": 879,
+  "posterInFrame": 319,
+  "noFrame": 560,
   "confirmedButMissingStudios": 0,
   "tailGroups": {
     "A": 0,
     "B": 126,
-    "C": 522,
+    "C": 508,
     "D": 245
   },
   "items": [
@@ -7099,49 +7099,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q48911617",
-      "title": "Король Слон",
-      "originalTitle": "فیلشاه",
-      "year": 2017,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": "1149780",
-        "tmdbMovie": "565235",
-        "tmdbTv": null,
-        "imdb": "tt6355328",
-        "wikidata": "Q48911617",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.636Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:21:37.121Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/1149780/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:05.435Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q27636108",
       "title": "Последняя фантазия",
       "originalTitle": "آخرین داستان",
@@ -7720,42 +7677,6 @@
           "страница не подтверждает, что изображение является кадром"
         ]
       }
-    },
-    {
-      "id": "nen-wd-q86660087",
-      "title": "Лео да Винчи",
-      "originalTitle": "Leo da Vinci",
-      "year": 2019,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": "201031",
-        "imdb": "tt11521370",
-        "wikidata": "Q86660087",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.745Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:05.794Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
     },
     {
       "id": "nen-wd-q108852813",
@@ -10291,92 +10212,6 @@
           "status": "SOURCE_UNAVAILABLE",
           "checkedAt": "2026-08-17T06:20:58.726Z",
           "pageUrl": "https://www.kinopoisk.ru/film/527057/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:04.562Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q21161034",
-      "title": "Смелый большой панда",
-      "originalTitle": "Kleiner starker Panda",
-      "year": 2011,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": "498818",
-        "tmdbMovie": "65714",
-        "tmdbTv": null,
-        "imdb": "tt1576423",
-        "wikidata": "Q21161034",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.518Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:20:52.807Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/498818/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:04.562Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q21981149",
-      "title": "Рождественская ёлка",
-      "originalTitle": "The Christmas Tree",
-      "year": 1991,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": "562204",
-        "tmdbMovie": "308794",
-        "tmdbTv": null,
-        "imdb": "tt1651146",
-        "wikidata": "Q21981149",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.518Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:20:56.165Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/562204/stills/",
           "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
         },
         {
@@ -15969,49 +15804,6 @@
       }
     },
     {
-      "id": "nen-wd-q123165006",
-      "title": "Микки и весёлые гонки",
-      "originalTitle": "ミッキーマウスとロードレーサーズ",
-      "year": 2017,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": "1046975",
-        "tmdbMovie": null,
-        "tmdbTv": "70823",
-        "imdb": "tt6264782",
-        "wikidata": "Q123165006",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.421Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:20:24.119Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/1046975/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:03.816Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q116978367",
       "title": "Как разводить русалок",
       "originalTitle": "How Mermaids Breed",
@@ -16437,49 +16229,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q4946695",
-      "title": "Парень из Борстальской тюрьмы",
-      "originalTitle": "Borstal Boy",
-      "year": 2002,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": "21717",
-        "tmdbMovie": "24309",
-        "tmdbTv": null,
-        "imdb": "tt0221838",
-        "wikidata": "Q4946695",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.667Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:21:40.413Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/21717/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:05.514Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q64167484",
       "title": "Домашнее кино",
       "originalTitle": "Home Movie",
@@ -16855,49 +16604,6 @@
         }
       ],
       "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q285118",
-      "title": "Этот сумасшедший парень",
-      "originalTitle": "एक दीवाना था",
-      "year": 2012,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": "654917",
-        "tmdbMovie": "91310",
-        "tmdbTv": null,
-        "imdb": "tt2126282",
-        "wikidata": "Q285118",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.544Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:21:03.947Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/654917/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:04.640Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
       "confirmedCandidateNotApplied": null,
       "tailGroup": "C",
       "pendingCandidate": null
@@ -17371,49 +17077,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q66123849",
-      "title": "Основы охраны труда на медном руднике",
-      "originalTitle": "Podstawy BHP w kopalni miedzi",
-      "year": 1972,
-      "type": "short-film",
-      "externalIds": {
-        "kinopoisk": "197388",
-        "tmdbMovie": "363563",
-        "tmdbTv": null,
-        "imdb": "tt0069105",
-        "wikidata": "Q66123849",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.720Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:22:00.571Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/197388/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:05.708Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q66124409",
       "title": "Хлопушка",
       "originalTitle": "Klaps",
@@ -17705,42 +17368,6 @@
           "status": "NO_STILL_FOUND",
           "checkedAt": "2026-08-16T09:52:28.505Z",
           "pageUrl": "https://kino.mail.ru/cinema/movies/910397_aleshkina_ohota/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-814165",
-      "title": "Асиф, Васиф, Агасиф",
-      "originalTitle": "Асиф, Васиф, Агасиф",
-      "year": 1983,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt1577780",
-        "wikidata": null,
-        "mail": "814165"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:09:48.907Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:51:49.559Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/814165_asif_vasif_agasif/",
           "error": null
         }
       ],
@@ -18197,42 +17824,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-mail-758256",
-      "title": "Волшебный голос Джельсомино",
-      "originalTitle": "Волшебный голос Джельсомино",
-      "year": 1977,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt0403655",
-        "wikidata": null,
-        "mail": "758256"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:09:26.049Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:51:31.270Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/758256_volshebnii_golos_dzhelsomino/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-mail-812101",
       "title": "Воробей на льду",
       "originalTitle": "Воробей на льду",
@@ -18628,42 +18219,6 @@
           "status": "NO_STILL_FOUND",
           "checkedAt": "2026-08-16T09:52:31.234Z",
           "pageUrl": "https://kino.mail.ru/cinema/movies/911516_zasekrechennii_gorod/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-602334",
-      "title": "Золотые рога",
-      "originalTitle": "Золотые рога",
-      "year": 1972,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt0069544",
-        "wikidata": null,
-        "mail": "602334"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:09:14.773Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:51:16.515Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/602334_zolotie_roga/",
           "error": null
         }
       ],
@@ -19464,42 +19019,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-mail-720636",
-      "title": "Новогодние приключения Маши и Вити",
-      "originalTitle": "Новогодние приключения Маши и Вити",
-      "year": 1975,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt0756321",
-        "wikidata": null,
-        "mail": "720636"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:09:22.455Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:51:28.692Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/720636_novogodnie_priklyucheniya_mashi_i_viti/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-mail-902202",
       "title": "Новые приключения Акмаля",
       "originalTitle": "Новые приключения Акмаля",
@@ -20146,42 +19665,6 @@
           "status": "NO_STILL_FOUND",
           "checkedAt": "2026-08-16T09:52:02.750Z",
           "pageUrl": "https://kino.mail.ru/cinema/movies/852408_ruki_vverh/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-486001",
-      "title": "Руслан и Людмила",
-      "originalTitle": "Руслан и Людмила",
-      "year": 1972,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt0174174",
-        "wikidata": null,
-        "mail": "486001"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:09:09.782Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:51:11.117Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/486001_ruslan_i_ljudmila/",
           "error": null
         }
       ],
@@ -29568,42 +29051,6 @@
           "status": "NO_STILL_FOUND",
           "checkedAt": "2026-08-16T09:52:56.413Z",
           "pageUrl": "https://kino.mail.ru/series_927009_k3/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-826880",
-      "title": "Приключения Мюнхгаузена",
-      "originalTitle": "Приключения Мюнхгаузена",
-      "year": 1973,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt0381507",
-        "wikidata": null,
-        "mail": "826880"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:09:54.624Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:51:53.363Z",
-          "pageUrl": "https://kino.mail.ru/series_826880_priklyucheniya_myunhgauzena/",
           "error": null
         }
       ],

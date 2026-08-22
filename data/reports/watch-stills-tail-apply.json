@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-21T12:10:15.657Z",
+  "generatedAt": "2026-08-22T04:51:29.518Z",
   "totalCatalog": 2074,
-  "reviewed": 39,
-  "applied": 28,
-  "rejected": 11,
+  "reviewed": 68,
+  "applied": 42,
+  "rejected": 26,
   "appliedItems": [
     {
       "watchId": "nen-wd-q569991",
@@ -359,7 +359,8 @@
         "hash": "sha256:a48a71e13815042f184df389ec33a2d1b1586f96492d6dac17b16e0e83ea9a03",
         "checkedAt": "2026-08-21T12:10:07.336Z"
       },
-      "validatedAt": "2026-08-21T12:10:07.336Z"
+      "validatedAt": "2026-08-21T12:10:07.336Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q543486",
@@ -379,7 +380,8 @@
         "hash": "sha256:49b4d2d9807e528b0b9dc4f7829b0dc3ff5cb544db2c03f0b77149146ffa081d",
         "checkedAt": "2026-08-21T12:10:07.630Z"
       },
-      "validatedAt": "2026-08-21T12:10:07.630Z"
+      "validatedAt": "2026-08-21T12:10:07.630Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q370313",
@@ -399,7 +401,8 @@
         "hash": "sha256:2f62092ec9a8a3ebfe0ef32c61dfb7fa5443a375a03820cad847879fad2dff4a",
         "checkedAt": "2026-08-21T12:10:07.906Z"
       },
-      "validatedAt": "2026-08-21T12:10:07.906Z"
+      "validatedAt": "2026-08-21T12:10:07.906Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q1673902",
@@ -419,7 +422,8 @@
         "hash": "sha256:080de34dccd78319fa240e6b2a36c5875c64f79488608357ad0aa5c4e38b3e44",
         "checkedAt": "2026-08-21T12:10:10.546Z"
       },
-      "validatedAt": "2026-08-21T12:10:10.547Z"
+      "validatedAt": "2026-08-21T12:10:10.547Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q3280982",
@@ -439,7 +443,8 @@
         "hash": "sha256:fbf0e88bc942e12ce41f4e565f618f9be34409001ec734b9b42948382dbda5eb",
         "checkedAt": "2026-08-21T12:10:11.276Z"
       },
-      "validatedAt": "2026-08-21T12:10:11.276Z"
+      "validatedAt": "2026-08-21T12:10:11.276Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q3231050",
@@ -459,7 +464,8 @@
         "hash": "sha256:76df55f107907f7e2201d2b50c71cf54fad30dbf1e5211f5fc5d8a4385cd11e2",
         "checkedAt": "2026-08-21T12:10:12.497Z"
       },
-      "validatedAt": "2026-08-21T12:10:12.497Z"
+      "validatedAt": "2026-08-21T12:10:12.497Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q804498",
@@ -479,7 +485,8 @@
         "hash": "sha256:8e6d7e000e4b58e3453bc0115df09f1083c7f41d548687c74be024a636742519",
         "checkedAt": "2026-08-21T12:10:12.869Z"
       },
-      "validatedAt": "2026-08-21T12:10:12.869Z"
+      "validatedAt": "2026-08-21T12:10:12.869Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q5228000",
@@ -499,7 +506,8 @@
         "hash": "sha256:0d1957a0df2cb6c764c290cd0e47ce1b3c778e8679ee86029273ce2f6e0857bb",
         "checkedAt": "2026-08-21T12:10:13.493Z"
       },
-      "validatedAt": "2026-08-21T12:10:13.493Z"
+      "validatedAt": "2026-08-21T12:10:13.493Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q61358935",
@@ -519,7 +527,8 @@
         "hash": "sha256:b6151981304d66e7c8eb60cf506bed7310ee35f7ede05d431f33fbe095143e4e",
         "checkedAt": "2026-08-21T12:10:14.186Z"
       },
-      "validatedAt": "2026-08-21T12:10:14.186Z"
+      "validatedAt": "2026-08-21T12:10:14.186Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q2241055",
@@ -539,7 +548,8 @@
         "hash": "sha256:1700e8fa3ab532fa8733520ad576a6dfdca67a3e49738fe29b724f0bdf721613",
         "checkedAt": "2026-08-21T12:10:14.777Z"
       },
-      "validatedAt": "2026-08-21T12:10:14.777Z"
+      "validatedAt": "2026-08-21T12:10:14.777Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q1841367",
@@ -559,7 +569,8 @@
         "hash": "sha256:cb07039906f1fc4eead898e1fdb25f8ca42a1e25d681bd3b26868eec88e8743a",
         "checkedAt": "2026-08-21T12:10:15.009Z"
       },
-      "validatedAt": "2026-08-21T12:10:15.009Z"
+      "validatedAt": "2026-08-21T12:10:15.009Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q18709309",
@@ -579,7 +590,288 @@
         "hash": "sha256:37e83970fd2ddb6b8bc94522eeeeedd12682af9afd8477f7930b108c283adec5",
         "checkedAt": "2026-08-21T12:10:15.587Z"
       },
-      "validatedAt": "2026-08-21T12:10:15.587Z"
+      "validatedAt": "2026-08-21T12:10:15.587Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-mail-486001",
+      "originalTitle": "Руслан и Людмила",
+      "year": 1972,
+      "pageUrl": "https://tv.apple.com/ca/movie/ruslan-and-ludmila/umc.cmc.4s51b6doas98ki1wsmaqhc6i4",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/p8y8ePCZijsNSvTbaG6X5Q/1200x675.jpg",
+      "source": "Apple TV",
+      "match": "exact film page + title + 1972 adaptation + scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 197403,
+        "width": 1200,
+        "height": 675,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:254fe38ea9484c15fb5e396d314765a21951040ebac1f67a8d731987a77f9e7c",
+        "checkedAt": "2026-08-22T04:50:54.172Z"
+      },
+      "validatedAt": "2026-08-22T04:50:54.172Z"
+    },
+    {
+      "watchId": "nen-mail-602334",
+      "originalTitle": "Золотые рога",
+      "year": 1972,
+      "pageUrl": "https://www.1tv.com/announce/15677",
+      "imageUrl": "https://img.1tv.com/img/2017-12-25/fmt_96_24_201540.jpg",
+      "source": "Первый канал",
+      "match": "exact film page + title + year + frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 106799,
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:fe999e3e7c58ccb2bf6b1e69134c9dd5d1eda601d27513d344ef619bf03ed28a",
+        "checkedAt": "2026-08-22T04:50:55.413Z"
+      },
+      "validatedAt": "2026-08-22T04:50:55.413Z"
+    },
+    {
+      "watchId": "nen-mail-720636",
+      "originalTitle": "Новогодние приключения Маши и Вити",
+      "year": 1975,
+      "pageUrl": "https://mubi.com/en/us/films/new-year-s-adventures-of-masha-and-vitya",
+      "imageUrl": "https://images.mubicdn.net/images/film/163063/cache-189042-1484055394/image-w1280.jpg",
+      "source": "MUBI",
+      "match": "exact film page + title + year + still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 85287,
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:fb3f03fc7c19a445bd2d4aae470b4e3b5d417668eb0b75046b9657873c6212e0",
+        "checkedAt": "2026-08-22T04:50:55.925Z"
+      },
+      "validatedAt": "2026-08-22T04:50:55.925Z"
+    },
+    {
+      "watchId": "nen-mail-758256",
+      "originalTitle": "Волшебный голос Джельсомино",
+      "year": 1977,
+      "pageUrl": "https://www.afisha.ru/movie/volshebniy-golos-dzhelsomino-191623/video/",
+      "imageUrl": "https://s5.afisha.ru/mediastorage/74/67/570a5dfd339346e5a3b4f39d6774.jpg",
+      "source": "Афиша",
+      "match": "exact film page + title + year + scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 99074,
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:7e0c7a123fd763d55ad17ae33eb52cdd29ef76901849e2088477ce628eb512c4",
+        "checkedAt": "2026-08-22T04:50:56.867Z"
+      },
+      "validatedAt": "2026-08-22T04:50:56.867Z"
+    },
+    {
+      "watchId": "nen-mail-814165",
+      "originalTitle": "Асиф, Васиф, Агасиф",
+      "year": 1983,
+      "pageUrl": "https://mubi.com/films/asif-vasif-agasif",
+      "imageUrl": "https://images.mubicdn.net/images/film/42375/cache-32013-1445891818/image-w1280.jpg?size=800x",
+      "source": "MUBI",
+      "match": "exact film page + title + year + still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 64633,
+        "width": 800,
+        "height": 450,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:d1544fa041a2af70563b441767ca65c34f5cc4f7563ff08b865be486e9c1ccd1",
+        "checkedAt": "2026-08-22T04:51:22.903Z"
+      },
+      "validatedAt": "2026-08-22T04:51:22.903Z"
+    },
+    {
+      "watchId": "nen-mail-826880",
+      "originalTitle": "Приключения Мюнхгаузена",
+      "year": 1973,
+      "pageUrl": "https://yandex.ru/video/preview/13186751897089893672",
+      "imageUrl": "https://avatars.mds.yandex.net/get-vthumb/2837698/38f4b75bd2da0b03e660e32cf1bd8216/800x450",
+      "source": "Яндекс Видео",
+      "match": "exact animated series title + episode context + video frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 56736,
+        "width": 800,
+        "height": 450,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:95467356ce689c24511f696e0d235786f1afc9c32ce24dbda1c00d6b661b9a4c",
+        "checkedAt": "2026-08-22T04:51:23.811Z"
+      },
+      "validatedAt": "2026-08-22T04:51:23.811Z"
+    },
+    {
+      "watchId": "nen-wd-q123165006",
+      "originalTitle": "ミッキーマウスとロードレーサーズ",
+      "year": 2017,
+      "pageUrl": "https://tv.apple.com/mx/show/mickey-aventuras-sobre-ruedas/umc.cmc.t2akq55qk611soye3y2y4euj",
+      "imageUrl": "https://is4-ssl.mzstatic.com/image/thumb/SZHMaQBGhslbgjJSnfKExg/998x562.jpg",
+      "source": "Apple TV",
+      "match": "exact TV series page + title + series scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 181916,
+        "width": 998,
+        "height": 561,
+        "format": "jpeg",
+        "aspectRatio": 1.7789661319073085,
+        "hash": "sha256:6c437b2a3a261cbdca9f07f20d02ec5e6b0ae35fed808bce0447b088800509a8",
+        "checkedAt": "2026-08-22T04:51:26.385Z"
+      },
+      "validatedAt": "2026-08-22T04:51:26.385Z"
+    },
+    {
+      "watchId": "nen-wd-q21161034",
+      "originalTitle": "Kleiner starker Panda",
+      "year": 2011,
+      "pageUrl": "https://www.alleskino.de/de/movies/329e0556-f76c-46f3-a4d5-adb2c2a91ee5",
+      "imageUrl": "https://filmwerte-vod.b-cdn.net/videos/329/329e0556-f76c-46f3-a4d5-adb2c2a91ee5/artworks/93f8f57c-cd71-4436-a4c3-6e2f7964b449.jpg?height=720&width=1280",
+      "source": "alleskino",
+      "match": "exact film page + title + year + scene artwork",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 112748,
+        "width": 1152,
+        "height": 648,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:daf34043d42a4fc5922e40bef264c142f48699358e60b022882947671ffc82a6",
+        "checkedAt": "2026-08-22T04:51:26.860Z"
+      },
+      "validatedAt": "2026-08-22T04:51:26.860Z"
+    },
+    {
+      "watchId": "nen-wd-q21981149",
+      "originalTitle": "The Christmas Tree",
+      "year": 1991,
+      "pageUrl": "https://abonthedge.medium.com/the-christmas-tree-1991-holds-a-special-place-in-the-hearts-of-wandering-souls-b14f24c9258c",
+      "imageUrl": "https://miro.medium.com/v2/resize%3Afit%3A1400/1%2Au9VWn4kCYHKe6Si-pQrjMA.jpeg",
+      "source": "Medium",
+      "match": "dedicated review + exact title + year + animation frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 44957,
+        "width": 807,
+        "height": 609,
+        "format": "jpeg",
+        "aspectRatio": 1.3251231527093597,
+        "hash": "sha256:ca4f4c383ee111482b48020dab7421c9ddc89cffaf07b94950011545eed070ae",
+        "checkedAt": "2026-08-22T04:51:27.089Z"
+      },
+      "validatedAt": "2026-08-22T04:51:27.089Z"
+    },
+    {
+      "watchId": "nen-wd-q285118",
+      "originalTitle": "एक दीवाना था",
+      "year": 2012,
+      "pageUrl": "https://www.imdb.com/title/tt2126282/mediaviewer/rm1915691264/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BYjhiOTAxMGMtZTk5YS00NDRmLTg2NGQtNzU2ZmU1ZTg2Y2E1XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+      "source": "IMDb",
+      "match": "exact IMDb ID tt2126282 + title + year + still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 120629,
+        "width": 1000,
+        "height": 667,
+        "format": "jpeg",
+        "aspectRatio": 1.4992503748125936,
+        "hash": "sha256:f53210fe83814c3d8d8551e3b441f501000251f094edb906d5de26817eee0712",
+        "checkedAt": "2026-08-22T04:51:27.999Z"
+      },
+      "validatedAt": "2026-08-22T04:51:28.000Z"
+    },
+    {
+      "watchId": "nen-wd-q48911617",
+      "originalTitle": "فیلشاه",
+      "year": 2017,
+      "pageUrl": "https://mubi.com/en/us/films/the-elephant-king-2017",
+      "imageUrl": "https://images.mubicdn.net/images/film/204208/cache-332115-1745494948/image-w1280.jpg",
+      "source": "MUBI",
+      "match": "exact film page + title + year + animation still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 191695,
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:88ccd47266d029dca8e759c116032797c0398ba1715efbf8a76f1f38b1063789",
+        "checkedAt": "2026-08-22T04:51:28.257Z"
+      },
+      "validatedAt": "2026-08-22T04:51:28.257Z"
+    },
+    {
+      "watchId": "nen-wd-q4946695",
+      "originalTitle": "Borstal Boy",
+      "year": 2002,
+      "pageUrl": "https://www.imdb.com/title/tt0221838/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZTY2MjZiMWMtNTY3OC00NjY1LWJkZWQtODE5MTcxNjdjZjU0XkEyXkFqcGc%40._V1_.jpg",
+      "source": "IMDb",
+      "match": "exact IMDb ID tt0221838 + title + film still; catalog year reflects local release",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 83781,
+        "width": 1000,
+        "height": 666,
+        "format": "jpeg",
+        "aspectRatio": 1.5015015015015014,
+        "hash": "sha256:f5b25055173d7aeff7e2cc92bc4d1298692ae842dcc18c87c5df01c79ed96483",
+        "checkedAt": "2026-08-22T04:51:28.946Z"
+      },
+      "validatedAt": "2026-08-22T04:51:28.946Z"
+    },
+    {
+      "watchId": "nen-wd-q66123849",
+      "originalTitle": "Podstawy BHP w kopalni miedzi",
+      "year": 1972,
+      "pageUrl": "https://www.imdb.com/title/tt0069105/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZTUxNWM3NGQtNTU2NC00OTY4LTkwNGQtYjBmYWRhMWE3YjAwXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+      "source": "IMDb",
+      "match": "exact IMDb ID tt0069105 + title + year + documentary frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 82881,
+        "width": 1000,
+        "height": 753,
+        "format": "jpeg",
+        "aspectRatio": 1.3280212483399734,
+        "hash": "sha256:4a956461479db5a921c77c4ca47b0920f2b86c477dd6a3e6bcb04e72bf3238d5",
+        "checkedAt": "2026-08-22T04:51:29.215Z"
+      },
+      "validatedAt": "2026-08-22T04:51:29.215Z"
+    },
+    {
+      "watchId": "nen-wd-q86660087",
+      "originalTitle": "Leo da Vinci",
+      "year": 2019,
+      "pageUrl": "https://www.imdb.com/title/tt11521370/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZmFmZmYwY2YtOWE5OS00ZTM3LTg4ZjAtYWEzOGJjZDdjYmUxXkEyXkFqcGc%40._V1_.jpg",
+      "source": "IMDb",
+      "match": "exact IMDb ID tt11521370 + TV series title + year + still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 234211,
+        "width": 2706,
+        "height": 1334,
+        "format": "jpeg",
+        "aspectRatio": 2.028485757121439,
+        "hash": "sha256:e8c9bda099ed0891968761cf5373ae85f3adae50ba21b43844f63a6bc2a47701",
+        "checkedAt": "2026-08-22T04:51:29.451Z"
+      },
+      "validatedAt": "2026-08-22T04:51:29.451Z"
     }
   ],
   "rejectedItems": [
@@ -599,9 +891,9 @@
         "format": "jpeg",
         "aspectRatio": 1.217201166180758,
         "hash": "sha256:1d1414cc4f0b78af26e76569f7c938f0f29e9d7e04ce6cf412233f144a0f4b97",
-        "checkedAt": "2026-08-21T12:10:02.625Z"
+        "checkedAt": "2026-08-22T04:50:47.986Z"
       },
-      "validatedAt": "2026-08-21T12:10:02.629Z",
+      "validatedAt": "2026-08-22T04:50:47.990Z",
       "reasons": [
         "неподходящие пропорции: 1.217"
       ]
@@ -615,7 +907,7 @@
       "source": "AceShowbiz",
       "match": "film page + exact title + year + still URL",
       "probe": null,
-      "validatedAt": "2026-08-21T12:10:02.802Z",
+      "validatedAt": "2026-08-22T04:50:48.069Z",
       "reasons": [
         "изображение недоступно: HTTP 403"
       ]
@@ -636,9 +928,9 @@
         "format": "jpeg",
         "aspectRatio": 1.3333333333333333,
         "hash": "sha256:145b39932645fce41abfc7df2f6ebbf56fc8513491ff4180736fcd6af291b6b8",
-        "checkedAt": "2026-08-21T12:10:03.115Z"
+        "checkedAt": "2026-08-22T04:50:48.423Z"
       },
-      "validatedAt": "2026-08-21T12:10:03.115Z",
+      "validatedAt": "2026-08-22T04:50:48.423Z",
       "reasons": [
         "ширина меньше 800 px: 704"
       ]
@@ -659,9 +951,9 @@
         "format": "jpeg",
         "aspectRatio": 1.3333333333333333,
         "hash": "sha256:0dc2f8e541f28ffa12c88a758d667a3f0191a152a32ff663ebe51a6a222c0184",
-        "checkedAt": "2026-08-21T12:10:04.075Z"
+        "checkedAt": "2026-08-22T04:50:49.416Z"
       },
-      "validatedAt": "2026-08-21T12:10:04.075Z",
+      "validatedAt": "2026-08-22T04:50:49.416Z",
       "reasons": [
         "ширина меньше 800 px: 640"
       ]
@@ -682,9 +974,9 @@
         "format": "jpeg",
         "aspectRatio": 1.25,
         "hash": "sha256:885baf65ec7d5ea8a0b182f0e2292d5737fb20d48359d362659147494a917fd8",
-        "checkedAt": "2026-08-21T12:10:04.715Z"
+        "checkedAt": "2026-08-22T04:50:50.278Z"
       },
-      "validatedAt": "2026-08-21T12:10:04.715Z",
+      "validatedAt": "2026-08-22T04:50:50.278Z",
       "reasons": [
         "ширина меньше 800 px: 720",
         "неподходящие пропорции: 1.250"
@@ -699,7 +991,7 @@
       "source": "elDiario.es",
       "match": "production article + exact title + described film image",
       "probe": null,
-      "validatedAt": "2026-08-21T12:10:04.715Z",
+      "validatedAt": "2026-08-22T04:50:50.278Z",
       "reasons": [
         "URL содержит признак неподходящего типа изображения"
       ]
@@ -713,7 +1005,7 @@
       "source": "Haut et Court",
       "match": "official distributor page + exact film + production still",
       "probe": null,
-      "validatedAt": "2026-08-21T12:10:05.304Z",
+      "validatedAt": "2026-08-22T04:50:51.419Z",
       "reasons": [
         "изображение недоступно: HTTP 404"
       ]
@@ -727,7 +1019,7 @@
       "source": "Unifrance",
       "match": "national cinema body page + exact animated series + 2009",
       "probe": null,
-      "validatedAt": "2026-08-21T12:10:05.642Z",
+      "validatedAt": "2026-08-22T04:50:51.535Z",
       "reasons": [
         "изображение недоступно: HTTP 403"
       ]
@@ -748,9 +1040,9 @@
         "format": "jpeg",
         "aspectRatio": 1.2989247311827956,
         "hash": "sha256:e966f3e39d37dcb761988cee53631ab83d5705442763a77d38c7dcb477f3c692",
-        "checkedAt": "2026-08-21T12:10:06.123Z"
+        "checkedAt": "2026-08-22T04:50:52.076Z"
       },
-      "validatedAt": "2026-08-21T12:10:06.123Z",
+      "validatedAt": "2026-08-22T04:50:52.076Z",
       "reasons": [
         "ширина меньше 800 px: 604",
         "неподходящие пропорции: 1.299"
@@ -772,9 +1064,9 @@
         "format": "jpeg",
         "aspectRatio": 1.2891891891891891,
         "hash": "sha256:fe1b21601731d7cbbbb6d1a0a89b77b23914059fce36e401ae09df73bcc1c7de",
-        "checkedAt": "2026-08-21T12:10:06.668Z"
+        "checkedAt": "2026-08-22T04:50:52.601Z"
       },
-      "validatedAt": "2026-08-21T12:10:06.668Z",
+      "validatedAt": "2026-08-22T04:50:52.601Z",
       "reasons": [
         "неподходящие пропорции: 1.289"
       ]
@@ -795,11 +1087,329 @@
         "format": "jpeg",
         "aspectRatio": 1.7767653758542141,
         "hash": "sha256:1159bcc361e55815edac27c0358bcfbbbffcffc8d97fe8e2851099a75943a8e5",
-        "checkedAt": "2026-08-21T12:10:13.071Z"
+        "checkedAt": "2026-08-22T04:50:52.839Z"
       },
-      "validatedAt": "2026-08-21T12:10:13.071Z",
+      "validatedAt": "2026-08-22T04:50:52.839Z",
       "reasons": [
         "ширина меньше 800 px: 780"
+      ]
+    },
+    {
+      "watchId": "nen-mail-352253",
+      "originalTitle": "Детство Бемби",
+      "year": 1985,
+      "pageUrl": "https://www.labirint.ru/multimedia/221961/",
+      "imageUrl": "https://img.labirint.ru/images/comments_pic/1010/04labj5ga1268223810.jpg",
+      "source": "Лабиринт",
+      "match": "exact film title + year + identified film still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 44406,
+        "width": 768,
+        "height": 576,
+        "format": "jpeg",
+        "aspectRatio": 1.3333333333333333,
+        "hash": "sha256:cf3399e718ad69dac561946d388c77262f11fe02e9be12529c0cbb2962f014e0",
+        "checkedAt": "2026-08-22T04:50:53.856Z"
+      },
+      "validatedAt": "2026-08-22T04:50:53.856Z",
+      "reasons": [
+        "ширина меньше 800 px: 768"
+      ]
+    },
+    {
+      "watchId": "nen-mail-491432",
+      "originalTitle": "Князь Владимир",
+      "year": 2004,
+      "pageUrl": "https://www.domkino.tv/announce/15549",
+      "imageUrl": "https://img51994.domkino.tv/img/2019-07-22/fmt_97_24_screenshot6.jpg",
+      "source": "Дом кино",
+      "match": "exact animated film page + title + identified scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 32919,
+        "width": 640,
+        "height": 480,
+        "format": "jpeg",
+        "aspectRatio": 1.3333333333333333,
+        "hash": "sha256:3b98effdcbcd5c01df55f6582ebdd167ad140bbcac327bb9b58b550c17561d24",
+        "checkedAt": "2026-08-22T04:50:54.740Z"
+      },
+      "validatedAt": "2026-08-22T04:50:54.740Z",
+      "reasons": [
+        "ширина меньше 800 px: 640"
+      ]
+    },
+    {
+      "watchId": "nen-mail-647533",
+      "originalTitle": "Волк и теленок",
+      "year": 1984,
+      "pageUrl": "https://ua.kinorium.com/397851/",
+      "imageUrl": "https://images.kinorium.com/movie/shot/397851/w1500_49561116.jpg",
+      "source": "Kinorium",
+      "match": "exact film page + year + horizontal animation still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 54414,
+        "width": 720,
+        "height": 544,
+        "format": "jpeg",
+        "aspectRatio": 1.3235294117647058,
+        "hash": "sha256:eea77a9073a0f7d6ed162fe89868f69e7d4f5789aa34ae79c37fd727083f4709",
+        "checkedAt": "2026-08-22T04:50:55.621Z"
+      },
+      "validatedAt": "2026-08-22T04:50:55.621Z",
+      "reasons": [
+        "ширина меньше 800 px: 720"
+      ]
+    },
+    {
+      "watchId": "nen-mail-755035",
+      "originalTitle": "Большое космическое путешествие",
+      "year": 1976,
+      "pageUrl": "https://www.kinoafisha.info/movies/8326198/shots/",
+      "imageUrl": "https://static.kinoafisha.info/k/movie_shots/canvas/620x410/upload/movie_shots/8/9/1/8326198/5c5f97677142dcf28726d1c1e40c58fb.jpg",
+      "source": "Киноафиша",
+      "match": "exact film gallery + title + identified frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 35531,
+        "width": 620,
+        "height": 410,
+        "format": "jpeg",
+        "aspectRatio": 1.5121951219512195,
+        "hash": "sha256:0c384751bc8a5f619fbd0a8359012888205f853475fdb58b26c36affe348e649",
+        "checkedAt": "2026-08-22T04:50:56.115Z"
+      },
+      "validatedAt": "2026-08-22T04:50:56.115Z",
+      "reasons": [
+        "ширина меньше 800 px: 620"
+      ]
+    },
+    {
+      "watchId": "nen-mail-776615",
+      "originalTitle": "Сказка о Мальчише-Кибальчише",
+      "year": 1964,
+      "pageUrl": "https://www.slavicsac.com/2020/01/04/ultrasonic-technologies/",
+      "imageUrl": "https://www.slavicsac.com/wp-content/uploads/2020/01/ostapenko-696x459.jpg",
+      "source": "Slavic Sacramento",
+      "match": "article identifies actor, role, film title and year + scene frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 50390,
+        "width": 696,
+        "height": 459,
+        "format": "jpeg",
+        "aspectRatio": 1.5163398692810457,
+        "hash": "sha256:188b144070292db8b6453e76e6d0cce0f6a0844ecfe7897ac6884f55e4138a49",
+        "checkedAt": "2026-08-22T04:50:57.677Z"
+      },
+      "validatedAt": "2026-08-22T04:50:57.677Z",
+      "reasons": [
+        "ширина меньше 800 px: 696"
+      ]
+    },
+    {
+      "watchId": "nen-mail-777047",
+      "originalTitle": "Фантазеры",
+      "year": 1965,
+      "pageUrl": "https://www.culture.ru/live/movies/359/fantazery",
+      "imageUrl": "https://cdn.culture.ru/images/aaedde8c-49f4-55a4-a5a4-7e0e682aea39/w_600%2Ch_449%2Cc_fill%2Cg_center/1-jpg",
+      "source": "Культура.РФ",
+      "match": "official culture portal + exact film page + title + year",
+      "probe": null,
+      "validatedAt": "2026-08-22T04:51:19.714Z",
+      "reasons": [
+        "ошибка загрузки: fetch failed"
+      ]
+    },
+    {
+      "watchId": "nen-mail-777230",
+      "originalTitle": "Удивительные приключения Дениса Кораблева",
+      "year": 1979,
+      "pageUrl": "https://kulturologia.ru/blogs/210415/24195/",
+      "imageUrl": "https://kulturologia.ru/files/u8921/detskie-filmi-31.jpg",
+      "source": "Культурология",
+      "match": "article caption identifies exact film title and year + scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 64348,
+        "width": 700,
+        "height": 525,
+        "format": "jpeg",
+        "aspectRatio": 1.3333333333333333,
+        "hash": "sha256:a961df62ce4fdadbe56a43c3f0f0e17f1d6725a106bac4a6a6302bf2c7fd483c",
+        "checkedAt": "2026-08-22T04:51:20.332Z"
+      },
+      "validatedAt": "2026-08-22T04:51:20.332Z",
+      "reasons": [
+        "ширина меньше 800 px: 700"
+      ]
+    },
+    {
+      "watchId": "nen-mail-779044",
+      "originalTitle": "Нахаленок",
+      "year": 1961,
+      "pageUrl": "https://m.ok.ru/video/36114336296",
+      "imageUrl": "https://i.okcdn.ru/videoPreview?fn=external_8&id=68881418792&idx=13&tkn=d0tRqxbx_HHqWhICPgf72VtkpjU&type=32",
+      "source": "OK Video",
+      "match": "exact titled film video page + year + frame preview",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 21498,
+        "width": 720,
+        "height": 405,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:7aa871ae3a38425940bb1d8096212ffe6062ee0f9a0ac7708b5172fbf1fcec3b",
+        "checkedAt": "2026-08-22T04:51:20.610Z"
+      },
+      "validatedAt": "2026-08-22T04:51:20.610Z",
+      "reasons": [
+        "ширина меньше 800 px: 720"
+      ]
+    },
+    {
+      "watchId": "nen-mail-794402",
+      "originalTitle": "Алые погоны",
+      "year": 1980,
+      "pageUrl": "https://stuki-druki.com/film/alie-pogoni.php",
+      "imageUrl": "https://stuki-druki.com/film/images/kadr-alie-pogoni-13.jpg",
+      "source": "Штуки-Дрюки",
+      "match": "exact film page + year + explicitly labeled frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 34530,
+        "width": 700,
+        "height": 394,
+        "format": "jpeg",
+        "aspectRatio": 1.7766497461928934,
+        "hash": "sha256:08ca9339bd9cdecf5d9f0d2046a3ee5efc6c1ebe69303a3e8d1375284e8a9555",
+        "checkedAt": "2026-08-22T04:51:20.972Z"
+      },
+      "validatedAt": "2026-08-22T04:51:20.972Z",
+      "reasons": [
+        "ширина меньше 800 px: 700"
+      ]
+    },
+    {
+      "watchId": "nen-mail-813015",
+      "originalTitle": "Лялька-Руслан и его друг Санька",
+      "year": 1980,
+      "pageUrl": "https://pikabu.ru/story/mir_v_1980_godu_chast_4_13246988",
+      "imageUrl": "https://cs17.pikabu.ru/s/2025/10/03/06/xgefl7jo_lg.jpg",
+      "source": "Пикабу",
+      "match": "image caption identifies exact film title + year + cast",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 92736,
+        "width": 748,
+        "height": 572,
+        "format": "jpeg",
+        "aspectRatio": 1.3076923076923077,
+        "hash": "sha256:82c8561ddd1a9c19eb6a52bdd97dbc79b9a8110c8cb1be3d5441baec4d73ac11",
+        "checkedAt": "2026-08-22T04:51:22.517Z"
+      },
+      "validatedAt": "2026-08-22T04:51:22.517Z",
+      "reasons": [
+        "ширина меньше 800 px: 748"
+      ]
+    },
+    {
+      "watchId": "nen-mail-815654",
+      "originalTitle": "Приключения Арслана",
+      "year": 1988,
+      "pageUrl": "https://filmiki.arjlover.net/info/prikljuchenija.arslana.1.avi.html",
+      "imageUrl": "https://filmiki.arjlover.net/ap/prikljuchenija.arslana.1.avi/prikljuchenija.arslana.1.avi.image2.jpg",
+      "source": "Arjlover",
+      "match": "exact film record + title + direct video frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 77289,
+        "width": 512,
+        "height": 384,
+        "format": "jpeg",
+        "aspectRatio": 1.3333333333333333,
+        "hash": "sha256:f62d41a929b0728d0c4850e26aba50be5cc4cd9a525bc8b864f9554d491431c9",
+        "checkedAt": "2026-08-22T04:51:23.417Z"
+      },
+      "validatedAt": "2026-08-22T04:51:23.417Z",
+      "reasons": [
+        "ширина меньше 800 px: 512"
+      ]
+    },
+    {
+      "watchId": "nen-wd-q1170882",
+      "originalTitle": "Das Zaubermännchen",
+      "year": 1960,
+      "pageUrl": "https://fernsehjuwelen.de/Das-Zaubermaennchen-Nach-dem-Maerchen-Rumpelstilzchen-1960-Filmjuwelen-DEFA-Maerchen-DVD/6423983",
+      "imageUrl": "https://fernsehjuwelen.de/media/e9/b2/47/1707237737/das-zaubermaennchen-zaum60_13_copyright_defa_stiftung_josef_borst.jpg",
+      "source": "Fernsehjuwelen / DEFA",
+      "match": "exact film page + title + year + credited film still",
+      "probe": null,
+      "validatedAt": "2026-08-22T04:51:24.270Z",
+      "reasons": [
+        "изображение недоступно: HTTP 404"
+      ]
+    },
+    {
+      "watchId": "nen-wd-q1212968",
+      "originalTitle": "Die Geschichte von der Gänseprinzessin und ihrem treuen Pferd Falada",
+      "year": 1989,
+      "pageUrl": "https://www.imdb.com/title/tt0095210/mediaindex/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZGM3YjYxOGItYzU2OC00MzU1LTk3M2QtMDQ0ZTk1MGU1YzI0XkEyXkFqcGc%40._V1_.jpg",
+      "source": "IMDb",
+      "match": "exact IMDb ID tt0095210 + title + year + still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 121759,
+        "width": 982,
+        "height": 768,
+        "format": "jpeg",
+        "aspectRatio": 1.2786458333333333,
+        "hash": "sha256:0976e27debe616dfbaa12148c52ef4ae4637b1972603989a2651991f3fc57eb1",
+        "checkedAt": "2026-08-22T04:51:24.384Z"
+      },
+      "validatedAt": "2026-08-22T04:51:24.384Z",
+      "reasons": [
+        "неподходящие пропорции: 1.279"
+      ]
+    },
+    {
+      "watchId": "nen-wd-q12308184",
+      "originalTitle": "Den kloge mand",
+      "year": 1937,
+      "pageUrl": "https://www.dfi.dk/en/viden-om-film/filmdatabasen/film/den-kloge-mand-0",
+      "imageUrl": "https://assets-p-dfi.pqcloud.eu/preview/0FB6xbz54jV9vUCv0VWLIy/previews/maxWidth_800_maxHeight_800.jpg/%2A/0FB6xbz54jV9vUCv0VWLIy_micr.jpg?authcred=R3Vlc3Q6R3Vlc3Q%3D",
+      "source": "Danish Film Institute",
+      "match": "national film archive + exact title + year + still",
+      "probe": null,
+      "validatedAt": "2026-08-22T04:51:25.725Z",
+      "reasons": [
+        "ошибка загрузки: fetch failed"
+      ]
+    },
+    {
+      "watchId": "nen-wd-q16301967",
+      "originalTitle": "Los matamonstruos en la mansión del terror",
+      "year": 1987,
+      "pageUrl": "https://www.imdb.com/title/tt0254554/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTNlZTM3YjAtZGE1NC00NmI1LThhMWEtZGNkZjUwMTg0YWE1XkEyXkFqcGc%40._V1_.jpg",
+      "source": "IMDb",
+      "match": "exact IMDb ID tt0254554 + title + year + film still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 28175,
+        "width": 543,
+        "height": 400,
+        "format": "jpeg",
+        "aspectRatio": 1.3575,
+        "hash": "sha256:f12e919e4c150d76afb96bf8bc51b31d4831ab4eed61c35553ad88c4d3e86497",
+        "checkedAt": "2026-08-22T04:51:26.499Z"
+      },
+      "validatedAt": "2026-08-22T04:51:26.499Z",
+      "reasons": [
+        "ширина меньше 800 px: 543"
       ]
     }
   ]

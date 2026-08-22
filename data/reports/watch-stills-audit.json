@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T12:10:40.295Z",
+  "generatedAt": "2026-08-22T04:52:16.299Z",
   "mode": "read-only; no network image fetches; catalog unchanged",
   "catalogPath": "data/source/watch-v2.json",
   "total": 2074,
@@ -12,17 +12,17 @@
   },
   "summary": {
     "statusCounts": {
-      "A": 1181,
-      "B": 325,
-      "C": 206,
-      "D": 90,
+      "A": 1195,
+      "B": 319,
+      "C": 205,
+      "D": 83,
       "E": 272
     },
-    "confirmedGoodStills": 1181,
-    "questionableImages": 325,
-    "noConfirmedStill": 893,
-    "noImageAtAll": 568,
-    "importedMailCoversStoredAsFrames": 325,
+    "confirmedGoodStills": 1195,
+    "questionableImages": 319,
+    "noConfirmedStill": 879,
+    "noImageAtAll": 560,
+    "importedMailCoversStoredAsFrames": 319,
     "idCoverage": {
       "tmdbMovie": 159,
       "tmdbTv": 7,
@@ -34,13 +34,13 @@
       "anyExact": 1371
     },
     "sourcePotential": {
-      "tmdb": 102,
-      "kinopoisk": 90,
-      "wikimedia": 296,
-      "imdbAsBridge": 257,
-      "nenEditorialAlreadyMatched": 1181
+      "tmdb": 94,
+      "kinopoisk": 83,
+      "wikimedia": 288,
+      "imdbAsBridge": 243,
+      "nenEditorialAlreadyMatched": 1195
     },
-    "automaticallyResearchable": 451
+    "automaticallyResearchable": 437
   },
   "architecture": {
     "existingUtility": "scripts/enrich-watch-frames-from-nen.mjs",
@@ -55115,8 +55115,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://images.mubicdn.net/images/film/204208/cache-332115-1745494948/image-w1280.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://mubi.com/en/us/films/the-elephant-king-2017",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 191695,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:88ccd47266d029dca8e759c116032797c0398ba1715efbf8a76f1f38b1063789",
+                "checkedAt": "2026-08-22T04:51:28.257Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -55143,10 +55166,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://images.mubicdn.net/images/film/204208/cache-332115-1745494948/image-w1280.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://mubi.com/en/us/films/the-elephant-king-2017",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 191695,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:88ccd47266d029dca8e759c116032797c0398ba1715efbf8a76f1f38b1063789",
+                "checkedAt": "2026-08-22T04:51:28.257Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://mubi.com/en/us/films/the-elephant-king-2017",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 191695,
+              "width": 1280,
+              "height": 720,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:88ccd47266d029dca8e759c116032797c0398ba1715efbf8a76f1f38b1063789",
+              "checkedAt": "2026-08-22T04:51:28.257Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q27636108",
@@ -56190,8 +56254,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BZmFmZmYwY2YtOWE5OS00ZTM3LTg4ZjAtYWEzOGJjZDdjYmUxXkEyXkFqcGc%40._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt11521370/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 234211,
+                "width": 2706,
+                "height": 1334,
+                "format": "jpeg",
+                "aspectRatio": 2.028485757121439,
+                "hash": "sha256:e8c9bda099ed0891968761cf5373ae85f3adae50ba21b43844f63a6bc2a47701",
+                "checkedAt": "2026-08-22T04:51:29.451Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb TV Images",
@@ -56212,10 +56299,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "C",
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BZmFmZmYwY2YtOWE5OS00ZTM3LTg4ZjAtYWEzOGJjZDdjYmUxXkEyXkFqcGc%40._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt11521370/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 234211,
+                "width": 2706,
+                "height": 1334,
+                "format": "jpeg",
+                "aspectRatio": 2.028485757121439,
+                "hash": "sha256:e8c9bda099ed0891968761cf5373ae85f3adae50ba21b43844f63a6bc2a47701",
+                "checkedAt": "2026-08-22T04:51:29.451Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt11521370/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 234211,
+              "width": 2706,
+              "height": 1334,
+              "format": "jpeg",
+              "aspectRatio": 2.028485757121439,
+              "hash": "sha256:e8c9bda099ed0891968761cf5373ae85f3adae50ba21b43844f63a6bc2a47701",
+              "checkedAt": "2026-08-22T04:51:29.451Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q108852813",
@@ -61954,8 +62082,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://filmwerte-vod.b-cdn.net/videos/329/329e0556-f76c-46f3-a4d5-adb2c2a91ee5/artworks/93f8f57c-cd71-4436-a4c3-6e2f7964b449.jpg?height=720&width=1280",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.alleskino.de/de/movies/329e0556-f76c-46f3-a4d5-adb2c2a91ee5",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 112748,
+                "width": 1152,
+                "height": 648,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:daf34043d42a4fc5922e40bef264c142f48699358e60b022882947671ffc82a6",
+                "checkedAt": "2026-08-22T04:51:26.860Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -61982,10 +62133,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://filmwerte-vod.b-cdn.net/videos/329/329e0556-f76c-46f3-a4d5-adb2c2a91ee5/artworks/93f8f57c-cd71-4436-a4c3-6e2f7964b449.jpg?height=720&width=1280",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.alleskino.de/de/movies/329e0556-f76c-46f3-a4d5-adb2c2a91ee5",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 112748,
+                "width": 1152,
+                "height": 648,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:daf34043d42a4fc5922e40bef264c142f48699358e60b022882947671ffc82a6",
+                "checkedAt": "2026-08-22T04:51:26.860Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.alleskino.de/de/movies/329e0556-f76c-46f3-a4d5-adb2c2a91ee5",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 112748,
+              "width": 1152,
+              "height": 648,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:daf34043d42a4fc5922e40bef264c142f48699358e60b022882947671ffc82a6",
+              "checkedAt": "2026-08-22T04:51:26.860Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q10387418",
@@ -62135,8 +62327,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://miro.medium.com/v2/resize%3Afit%3A1400/1%2Au9VWn4kCYHKe6Si-pQrjMA.jpeg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://abonthedge.medium.com/the-christmas-tree-1991-holds-a-special-place-in-the-hearts-of-wandering-souls-b14f24c9258c",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 44957,
+                "width": 807,
+                "height": 609,
+                "format": "jpeg",
+                "aspectRatio": 1.3251231527093597,
+                "hash": "sha256:ca4f4c383ee111482b48020dab7421c9ddc89cffaf07b94950011545eed070ae",
+                "checkedAt": "2026-08-22T04:51:27.089Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -62163,10 +62378,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://miro.medium.com/v2/resize%3Afit%3A1400/1%2Au9VWn4kCYHKe6Si-pQrjMA.jpeg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://abonthedge.medium.com/the-christmas-tree-1991-holds-a-special-place-in-the-hearts-of-wandering-souls-b14f24c9258c",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 44957,
+                "width": 807,
+                "height": 609,
+                "format": "jpeg",
+                "aspectRatio": 1.3251231527093597,
+                "hash": "sha256:ca4f4c383ee111482b48020dab7421c9ddc89cffaf07b94950011545eed070ae",
+                "checkedAt": "2026-08-22T04:51:27.089Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://abonthedge.medium.com/the-christmas-tree-1991-holds-a-special-place-in-the-hearts-of-wandering-souls-b14f24c9258c",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 44957,
+              "width": 807,
+              "height": 609,
+              "format": "jpeg",
+              "aspectRatio": 1.3251231527093597,
+              "hash": "sha256:ca4f4c383ee111482b48020dab7421c9ddc89cffaf07b94950011545eed070ae",
+              "checkedAt": "2026-08-22T04:51:27.089Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q10339505",
@@ -79092,8 +79348,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://is4-ssl.mzstatic.com/image/thumb/SZHMaQBGhslbgjJSnfKExg/998x562.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://tv.apple.com/mx/show/mickey-aventuras-sobre-ruedas/umc.cmc.t2akq55qk611soye3y2y4euj",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 181916,
+                "width": 998,
+                "height": 561,
+                "format": "jpeg",
+                "aspectRatio": 1.7789661319073085,
+                "hash": "sha256:6c437b2a3a261cbdca9f07f20d02ec5e6b0ae35fed808bce0447b088800509a8",
+                "checkedAt": "2026-08-22T04:51:26.385Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb TV Images",
@@ -79120,10 +79399,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://is4-ssl.mzstatic.com/image/thumb/SZHMaQBGhslbgjJSnfKExg/998x562.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://tv.apple.com/mx/show/mickey-aventuras-sobre-ruedas/umc.cmc.t2akq55qk611soye3y2y4euj",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 181916,
+                "width": 998,
+                "height": 561,
+                "format": "jpeg",
+                "aspectRatio": 1.7789661319073085,
+                "hash": "sha256:6c437b2a3a261cbdca9f07f20d02ec5e6b0ae35fed808bce0447b088800509a8",
+                "checkedAt": "2026-08-22T04:51:26.385Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://tv.apple.com/mx/show/mickey-aventuras-sobre-ruedas/umc.cmc.t2akq55qk611soye3y2y4euj",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 181916,
+              "width": 998,
+              "height": 561,
+              "format": "jpeg",
+              "aspectRatio": 1.7789661319073085,
+              "hash": "sha256:6c437b2a3a261cbdca9f07f20d02ec5e6b0ae35fed808bce0447b088800509a8",
+              "checkedAt": "2026-08-22T04:51:26.385Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q116978367",
@@ -79890,8 +80210,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BZTY2MjZiMWMtNTY3OC00NjY1LWJkZWQtODE5MTcxNjdjZjU0XkEyXkFqcGc%40._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0221838/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 83781,
+                "width": 1000,
+                "height": 666,
+                "format": "jpeg",
+                "aspectRatio": 1.5015015015015014,
+                "hash": "sha256:f5b25055173d7aeff7e2cc92bc4d1298692ae842dcc18c87c5df01c79ed96483",
+                "checkedAt": "2026-08-22T04:51:28.946Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -79918,10 +80261,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BZTY2MjZiMWMtNTY3OC00NjY1LWJkZWQtODE5MTcxNjdjZjU0XkEyXkFqcGc%40._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0221838/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 83781,
+                "width": 1000,
+                "height": 666,
+                "format": "jpeg",
+                "aspectRatio": 1.5015015015015014,
+                "hash": "sha256:f5b25055173d7aeff7e2cc92bc4d1298692ae842dcc18c87c5df01c79ed96483",
+                "checkedAt": "2026-08-22T04:51:28.946Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt0221838/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 83781,
+              "width": 1000,
+              "height": 666,
+              "format": "jpeg",
+              "aspectRatio": 1.5015015015015014,
+              "hash": "sha256:f5b25055173d7aeff7e2cc92bc4d1298692ae842dcc18c87c5df01c79ed96483",
+              "checkedAt": "2026-08-22T04:51:28.946Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q1666246",
@@ -81427,8 +81811,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BYjhiOTAxMGMtZTk5YS00NDRmLTg2NGQtNzU2ZmU1ZTg2Y2E1XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt2126282/mediaviewer/rm1915691264/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 120629,
+                "width": 1000,
+                "height": 667,
+                "format": "jpeg",
+                "aspectRatio": 1.4992503748125936,
+                "hash": "sha256:f53210fe83814c3d8d8551e3b441f501000251f094edb906d5de26817eee0712",
+                "checkedAt": "2026-08-22T04:51:27.999Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -81455,10 +81862,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BYjhiOTAxMGMtZTk5YS00NDRmLTg2NGQtNzU2ZmU1ZTg2Y2E1XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt2126282/mediaviewer/rm1915691264/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 120629,
+                "width": 1000,
+                "height": 667,
+                "format": "jpeg",
+                "aspectRatio": 1.4992503748125936,
+                "hash": "sha256:f53210fe83814c3d8d8551e3b441f501000251f094edb906d5de26817eee0712",
+                "checkedAt": "2026-08-22T04:51:27.999Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt2126282/mediaviewer/rm1915691264/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 120629,
+              "width": 1000,
+              "height": 667,
+              "format": "jpeg",
+              "aspectRatio": 1.4992503748125936,
+              "hash": "sha256:f53210fe83814c3d8d8551e3b441f501000251f094edb906d5de26817eee0712",
+              "checkedAt": "2026-08-22T04:51:27.999Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q57803374",
@@ -84410,8 +84858,31 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BZTUxNWM3NGQtNTU2NC00OTY4LTkwNGQtYjBmYWRhMWE3YjAwXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0069105/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 82881,
+                "width": 1000,
+                "height": 753,
+                "format": "jpeg",
+                "aspectRatio": 1.3280212483399734,
+                "hash": "sha256:4a956461479db5a921c77c4ca47b0920f2b86c477dd6a3e6bcb04e72bf3238d5",
+                "checkedAt": "2026-08-22T04:51:29.215Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -84438,10 +84909,51 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BZTUxNWM3NGQtNTU2NC00OTY4LTkwNGQtYjBmYWRhMWE3YjAwXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0069105/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 82881,
+                "width": 1000,
+                "height": 753,
+                "format": "jpeg",
+                "aspectRatio": 1.3280212483399734,
+                "hash": "sha256:4a956461479db5a921c77c4ca47b0920f2b86c477dd6a3e6bcb04e72bf3238d5",
+                "checkedAt": "2026-08-22T04:51:29.215Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
+      "provenance": [
+        {
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt0069105/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 82881,
+              "width": 1000,
+              "height": 753,
+              "format": "jpeg",
+              "aspectRatio": 1.3280212483399734,
+              "hash": "sha256:4a956461479db5a921c77c4ca47b0920f2b86c477dd6a3e6bcb04e72bf3238d5",
+              "checkedAt": "2026-08-22T04:51:29.215Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q66124409",
@@ -85162,25 +85674,36 @@
         "mail": "814165"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/079fe604-f50b-552d-abd3-e21d1ee50e5e/AQAC8ok_X7-gNyqzRsZQvu30QMl0W9RDSQEbskwMC1-n61hpmnfLrfivKMuthaNcQYXa8l8VbrPAzrcAby69FziGZj4.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/079fe604-f50b-552d-abd3-e21d1ee50e5e/AQAC8ok_X7-gNyqzRsZQvu30QMl0W9RDSQEbskwMC1-n61hpmnfLrfivKMuthaNcQYXa8l8VbrPAzrcAby69FziGZj4.jpg",
+          "role": "confirmed-still",
+          "url": "https://images.mubicdn.net/images/film/42375/cache-32013-1445891818/image-w1280.jpg?size=800x",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://mubi.com/films/asif-vasif-agasif",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 64633,
+                "width": 800,
+                "height": 450,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:d1544fa041a2af70563b441767ca65c34f5cc4f7563ff08b865be486e9c1ccd1",
+                "checkedAt": "2026-08-22T04:51:22.903Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -85191,26 +85714,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/079fe604-f50b-552d-abd3-e21d1ee50e5e/AQAC8ok_X7-gNyqzRsZQvu30QMl0W9RDSQEbskwMC1-n61hpmnfLrfivKMuthaNcQYXa8l8VbrPAzrcAby69FziGZj4.jpg",
+          "role": "confirmed-still",
+          "url": "https://images.mubicdn.net/images/film/42375/cache-32013-1445891818/image-w1280.jpg?size=800x",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://mubi.com/films/asif-vasif-agasif",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 64633,
+                "width": 800,
+                "height": 450,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:d1544fa041a2af70563b441767ca65c34f5cc4f7563ff08b865be486e9c1ccd1",
+                "checkedAt": "2026-08-22T04:51:22.903Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://mubi.com/films/asif-vasif-agasif",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 64633,
+              "width": 800,
+              "height": 450,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:d1544fa041a2af70563b441767ca65c34f5cc4f7563ff08b865be486e9c1ccd1",
+              "checkedAt": "2026-08-22T04:51:22.903Z"
+            }
+          }
         }
       ]
     },
@@ -86688,25 +87234,36 @@
         "mail": "758256"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/e8354d40-e639-53dc-8756-dfa9907daf94/AQAC-INxNYW7vmlhz__NFINxRuTHX5u3ZHhIXXdzHjODVcY22oLbHRtBrsX67cKhoa70HcNNMmVSbwvm0H_QDFnye_4.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/e8354d40-e639-53dc-8756-dfa9907daf94/AQAC-INxNYW7vmlhz__NFINxRuTHX5u3ZHhIXXdzHjODVcY22oLbHRtBrsX67cKhoa70HcNNMmVSbwvm0H_QDFnye_4.jpg",
+          "role": "confirmed-still",
+          "url": "https://s5.afisha.ru/mediastorage/74/67/570a5dfd339346e5a3b4f39d6774.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.afisha.ru/movie/volshebniy-golos-dzhelsomino-191623/video/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 99074,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:7e0c7a123fd763d55ad17ae33eb52cdd29ef76901849e2088477ce628eb512c4",
+                "checkedAt": "2026-08-22T04:50:56.867Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -86717,26 +87274,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/e8354d40-e639-53dc-8756-dfa9907daf94/AQAC-INxNYW7vmlhz__NFINxRuTHX5u3ZHhIXXdzHjODVcY22oLbHRtBrsX67cKhoa70HcNNMmVSbwvm0H_QDFnye_4.jpg",
+          "role": "confirmed-still",
+          "url": "https://s5.afisha.ru/mediastorage/74/67/570a5dfd339346e5a3b4f39d6774.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.afisha.ru/movie/volshebniy-golos-dzhelsomino-191623/video/",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 99074,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:7e0c7a123fd763d55ad17ae33eb52cdd29ef76901849e2088477ce628eb512c4",
+                "checkedAt": "2026-08-22T04:50:56.867Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.afisha.ru/movie/volshebniy-golos-dzhelsomino-191623/video/",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 99074,
+              "width": 1280,
+              "height": 720,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:7e0c7a123fd763d55ad17ae33eb52cdd29ef76901849e2088477ce628eb512c4",
+              "checkedAt": "2026-08-22T04:50:56.867Z"
+            }
+          }
         }
       ]
     },
@@ -88345,25 +88925,36 @@
         "mail": "602334"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/d2729081-483d-5c77-9359-26cbdfa1b166/AQACGad7LVb9c5lgWO_fVM9zBTJHf122m2abtJa_XMbjGSTI8CN2UMtRV9VFUEGLcBbYOifiTCNYHn6P5vbt3tw6ifM.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/d2729081-483d-5c77-9359-26cbdfa1b166/AQACGad7LVb9c5lgWO_fVM9zBTJHf122m2abtJa_XMbjGSTI8CN2UMtRV9VFUEGLcBbYOifiTCNYHn6P5vbt3tw6ifM.jpg",
+          "role": "confirmed-still",
+          "url": "https://img.1tv.com/img/2017-12-25/fmt_96_24_201540.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.1tv.com/announce/15677",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 106799,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:fe999e3e7c58ccb2bf6b1e69134c9dd5d1eda601d27513d344ef619bf03ed28a",
+                "checkedAt": "2026-08-22T04:50:55.413Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -88374,26 +88965,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/d2729081-483d-5c77-9359-26cbdfa1b166/AQACGad7LVb9c5lgWO_fVM9zBTJHf122m2abtJa_XMbjGSTI8CN2UMtRV9VFUEGLcBbYOifiTCNYHn6P5vbt3tw6ifM.jpg",
+          "role": "confirmed-still",
+          "url": "https://img.1tv.com/img/2017-12-25/fmt_96_24_201540.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.1tv.com/announce/15677",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 106799,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:fe999e3e7c58ccb2bf6b1e69134c9dd5d1eda601d27513d344ef619bf03ed28a",
+                "checkedAt": "2026-08-22T04:50:55.413Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.1tv.com/announce/15677",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 106799,
+              "width": 1280,
+              "height": 720,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:fe999e3e7c58ccb2bf6b1e69134c9dd5d1eda601d27513d344ef619bf03ed28a",
+              "checkedAt": "2026-08-22T04:50:55.413Z"
+            }
+          }
         }
       ]
     },
@@ -92793,25 +93407,36 @@
         "mail": "720636"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/1c4b1262-587a-51d6-b620-ed3e089e02fa/AQACggI_XTu2wmRzwMMAIgyuuitxcRElPIWI8P8CP0Wc-5TW8nhDy5YzBsT02WLtBaCE-MDl0xr3AoRH_vl1VMh4cLI.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/1c4b1262-587a-51d6-b620-ed3e089e02fa/AQACggI_XTu2wmRzwMMAIgyuuitxcRElPIWI8P8CP0Wc-5TW8nhDy5YzBsT02WLtBaCE-MDl0xr3AoRH_vl1VMh4cLI.jpg",
+          "role": "confirmed-still",
+          "url": "https://images.mubicdn.net/images/film/163063/cache-189042-1484055394/image-w1280.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://mubi.com/en/us/films/new-year-s-adventures-of-masha-and-vitya",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 85287,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:fb3f03fc7c19a445bd2d4aae470b4e3b5d417668eb0b75046b9657873c6212e0",
+                "checkedAt": "2026-08-22T04:50:55.925Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -92822,26 +93447,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/1c4b1262-587a-51d6-b620-ed3e089e02fa/AQACggI_XTu2wmRzwMMAIgyuuitxcRElPIWI8P8CP0Wc-5TW8nhDy5YzBsT02WLtBaCE-MDl0xr3AoRH_vl1VMh4cLI.jpg",
+          "role": "confirmed-still",
+          "url": "https://images.mubicdn.net/images/film/163063/cache-189042-1484055394/image-w1280.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://mubi.com/en/us/films/new-year-s-adventures-of-masha-and-vitya",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 85287,
+                "width": 1280,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:fb3f03fc7c19a445bd2d4aae470b4e3b5d417668eb0b75046b9657873c6212e0",
+                "checkedAt": "2026-08-22T04:50:55.925Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://mubi.com/en/us/films/new-year-s-adventures-of-masha-and-vitya",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 85287,
+              "width": 1280,
+              "height": 720,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:fb3f03fc7c19a445bd2d4aae470b4e3b5d417668eb0b75046b9657873c6212e0",
+              "checkedAt": "2026-08-22T04:50:55.925Z"
+            }
+          }
         }
       ]
     },
@@ -95465,25 +96113,36 @@
         "mail": "486001"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/fcd04141-858e-50fc-85b9-15ba6ac07f93/AQACHbsAJjpXZmjms1-1n_ddhjhP-un2SCwG1wljicXQ6rRp5N39aADRZx-rPlync_R1bn1QzhjqHd4wgWtTbe35-Oo.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/fcd04141-858e-50fc-85b9-15ba6ac07f93/AQACHbsAJjpXZmjms1-1n_ddhjhP-un2SCwG1wljicXQ6rRp5N39aADRZx-rPlync_R1bn1QzhjqHd4wgWtTbe35-Oo.jpg",
+          "role": "confirmed-still",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/p8y8ePCZijsNSvTbaG6X5Q/1200x675.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://tv.apple.com/ca/movie/ruslan-and-ludmila/umc.cmc.4s51b6doas98ki1wsmaqhc6i4",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 197403,
+                "width": 1200,
+                "height": 675,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:254fe38ea9484c15fb5e396d314765a21951040ebac1f67a8d731987a77f9e7c",
+                "checkedAt": "2026-08-22T04:50:54.172Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -95494,26 +96153,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/fcd04141-858e-50fc-85b9-15ba6ac07f93/AQACHbsAJjpXZmjms1-1n_ddhjhP-un2SCwG1wljicXQ6rRp5N39aADRZx-rPlync_R1bn1QzhjqHd4wgWtTbe35-Oo.jpg",
+          "role": "confirmed-still",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/p8y8ePCZijsNSvTbaG6X5Q/1200x675.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://tv.apple.com/ca/movie/ruslan-and-ludmila/umc.cmc.4s51b6doas98ki1wsmaqhc6i4",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 197403,
+                "width": 1200,
+                "height": 675,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:254fe38ea9484c15fb5e396d314765a21951040ebac1f67a8d731987a77f9e7c",
+                "checkedAt": "2026-08-22T04:50:54.172Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://tv.apple.com/ca/movie/ruslan-and-ludmila/umc.cmc.4s51b6doas98ki1wsmaqhc6i4",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 197403,
+              "width": 1200,
+              "height": 675,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:254fe38ea9484c15fb5e396d314765a21951040ebac1f67a8d731987a77f9e7c",
+              "checkedAt": "2026-08-22T04:50:54.172Z"
+            }
+          }
         }
       ]
     },
@@ -151150,25 +151832,36 @@
         "mail": "826880"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/9e3693c9-c7f3-580b-a1ca-ee835af3e467/AQACFtMBOYSoRN6MbqmD4_0zq7gfoo8ELwXukSrT0dWABF5D_vW1I_CAb0nUt555qB-9yUUuq384Tu7GrVuOOghQoSo.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/9e3693c9-c7f3-580b-a1ca-ee835af3e467/AQACFtMBOYSoRN6MbqmD4_0zq7gfoo8ELwXukSrT0dWABF5D_vW1I_CAb0nUt555qB-9yUUuq384Tu7GrVuOOghQoSo.jpg",
+          "role": "confirmed-still",
+          "url": "https://avatars.mds.yandex.net/get-vthumb/2837698/38f4b75bd2da0b03e660e32cf1bd8216/800x450",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://yandex.ru/video/preview/13186751897089893672",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 56736,
+                "width": 800,
+                "height": 450,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:95467356ce689c24511f696e0d235786f1afc9c32ce24dbda1c00d6b661b9a4c",
+                "checkedAt": "2026-08-22T04:51:23.811Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -151179,26 +151872,49 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/9e3693c9-c7f3-580b-a1ca-ee835af3e467/AQACFtMBOYSoRN6MbqmD4_0zq7gfoo8ELwXukSrT0dWABF5D_vW1I_CAb0nUt555qB-9yUUuq384Tu7GrVuOOghQoSo.jpg",
+          "role": "confirmed-still",
+          "url": "https://avatars.mds.yandex.net/get-vthumb/2837698/38f4b75bd2da0b03e660e32cf1bd8216/800x450",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Web research",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://yandex.ru/video/preview/13186751897089893672",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 56736,
+                "width": 800,
+                "height": 450,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:95467356ce689c24511f696e0d235786f1afc9c32ce24dbda1c00d6b661b9a4c",
+                "checkedAt": "2026-08-22T04:51:23.811Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Web research.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Web research",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://yandex.ru/video/preview/13186751897089893672",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 56736,
+              "width": 800,
+              "height": 450,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:95467356ce689c24511f696e0d235786f1afc9c32ce24dbda1c00d6b661b9a4c",
+              "checkedAt": "2026-08-22T04:51:23.811Z"
+            }
+          }
         }
       ]
     },
