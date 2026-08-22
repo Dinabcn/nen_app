@@ -49,7 +49,10 @@
       "value": "6+",
       "sourceUrl": "https://kinoteatr.ru/film/moy-sosed-totoro-3/"
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.aerofilms.cz/media/zl0mkvfk/muj_soused_totoro_01.jpg?height=938&rmode=crop&width=1400"
+    }
   },
   {
     "schemaVersion": 2,
@@ -345,7 +348,10 @@
       "value": "0+",
       "sourceUrl": "https://www.afisha.ru/movie/gadkiy-ya-201233/"
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://s3.amazonaws.com/intanibase/iad_screenshots/2010/15024/39.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -659,7 +665,10 @@
       "rationale": "Рекомендуется с шести лет: повествование быстрое и насыщено персонажами, а космические пираты и угрозы остаются достаточно условными для младшего школьного возраста."
     },
     "originalTitle": "Тайна третьей планеты",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.karusel-tv.ru/media/suit/preview_full/media/image/2020/03/1584048724293360_24_tajnatretejplanety10.png"
+    }
   },
   {
     "schemaVersion": 2,
@@ -1423,7 +1432,10 @@
       "rationale": "Подходит примерно с трёх лет: спокойный темп и отсутствие опасных сцен удобны для первого просмотра, а финальная разлука может вызвать вопросы о расставании."
     },
     "originalTitle": "Умка",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.kino-teatr.ru/movie/kadr/95234/1281406.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -1593,7 +1605,10 @@
       "maxAge": 13,
       "rationale": "Рекомендуется с семи лет: первая часть почти лишена диалогов, а картины погибшей Земли и риск уничтожения роботов могут тревожить младших зрителей."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://images.moviesanywhere.com/movie-hero/9a118a129fa1ca2428e3c85fd0c547ad.jpeg?r=16x9&w=2560"
+    }
   },
   {
     "schemaVersion": 2,
@@ -1634,7 +1649,10 @@
       "maxAge": 14,
       "rationale": "Рекомендуется с девяти лет: космические погони и мятеж достаточно напряжённы, а неоднозначность Сильвера требует способности удерживать разные оценки одного героя."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://images.squarespace-cdn.com/content/v1/5a90557e1137a6fdeeb6bb3e/1626437315869-ULE5B04H0THY2U7HPFGH/treasure_planet_main_image.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -2112,7 +2130,10 @@
       "maxAge": 13,
       "rationale": "Скелеты изображены дружелюбно, но сюжет подробно говорит о смерти, забвении и пожилом человеке с ухудшением памяти. Музыкальная форма облегчает просмотр, а семейная интрига требует уверенно следить за родством нескольких поколений."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/D4EHJA27QMT746HGMNR2JGEIDY.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -2263,7 +2284,10 @@
       "maxAge": 11,
       "rationale": "Солнечная интонация и ясная цель героев подходят младшим школьникам. Напряжение создают охота на морских существ, опасная гонка и страх разоблачения, но угроза быстро сменяется поддержкой сообщества."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://lumiere-a.akamaihd.net/v1/images/image_4552f14c.jpeg?region=0,0,1920,1080"
+    }
   },
   {
     "schemaVersion": 2,
@@ -2569,7 +2593,10 @@
       "maxAge": 11,
       "rationale": "Яркое приключение понятно младшим школьникам, но потеря семьи в начале, акулы, медузы и угроза в аквариуме создают несколько интенсивных эпизодов."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://film-grab.com/wp-content/uploads/photo-gallery/Finding_Nemo_001.jpg?bwg=1602155293"
+    }
   },
   {
     "schemaVersion": 2,
@@ -2665,7 +2692,10 @@
       "maxAge": 12,
       "rationale": "Начальный рассказ о совместной жизни и смерти Элли эмоционально тяжёл, а дальнейшее приключение включает падения, пожар и угрозу животным."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://d1nslcd7m2225b.cloudfront.net/Pictures/1024x536/4/4/0/1100440_UP_still_2.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -2966,7 +2996,10 @@
       "maxAge": 12,
       "rationale": "Тема погибших родителей и угроза передачи Лило в другую семью эмоционально сложны, а космические погони остаются преимущественно комедийными."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.looper.com/img/gallery/98-best-sci-fi-movies-of-all-time/lilo-stitch-1628006558.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -3015,7 +3048,10 @@
       "maxAge": 13,
       "rationale": "Военная тема, разрушенная деревня и сражения требуют школьного возраста, хотя музыкальные эпизоды и юмор Мушу смягчают напряжение."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.ecartelera.com/images/noticias/fotos/47300/47304/1.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -3275,7 +3311,10 @@
       "maxAge": 14,
       "rationale": "Символический визуальный язык требует внимания, а нападение викингов и разрушение поселения показаны мрачно, хотя без натурализма."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2021/05/07091904/secret-of-kells-still3.jpeg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -3501,7 +3540,10 @@
       "maxAge": 14,
       "rationale": "Оружие, потеря хвоста и длительная осада показаны стилизованно, но диалоги и ирония лучше понятны детям постарше."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://kinolab.org/files/thumbnail/1574711171_15.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -4090,7 +4132,10 @@
       "maxAge": 12,
       "rationale": "Фильм длится больше двух часов, содержит старомодный культурный контекст и чередует бытовые и фантазийные эпизоды без серьёзных угроз."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://images.static-bluray.com/reviews/9182_1.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -4699,7 +4744,10 @@
       "maxAge": 15,
       "rationale": "Принудительный труд, жестокие взрослые и исторический расизм требуют обсуждения; загадка развивается через несколько временных линий."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://media.timeout.com/images/105271576/750/562/image.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -5091,7 +5139,10 @@
       "minAge": 6,
       "rationale": "С шести лет понятны университетские соревнования и дружеский конфликт; напряжённые испытания быстро сменяются юмором."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://s.wsj.net/public/resources/images/MK-CD670_HORIZO_P_20130602174737.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -5714,7 +5765,10 @@
       "minAge": 7,
       "rationale": "С семи лет легче следить за правилами нескольких игровых миров; есть шумные схватки и пугающие насекомые."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://i.ndtvimg.com/i/2015-07/wreck-it-ralph_640x480_71436853263.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -6203,7 +6257,10 @@
       "minAge": 7,
       "rationale": "С семи лет: угроза переработки птиц в пироги ощутима, хотя показана без жестоких деталей."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://cdn.mos.cms.futurecdn.net/pLogjLUGa2w4ZyNqTK2tge-630-80.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -6912,7 +6969,10 @@
       "minAge": 8,
       "rationale": "С восьми лет: есть нагота в культурно нейтральном контексте и тревожная история причинённой Карабе боли."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w780/fsWXKy1f3qHc7OoKgeT2P002cFH.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -7224,7 +7284,10 @@
       "rationale": "С четырёх лет: эпизоды короткие, юмор мягкий, опасность минимальна."
     },
     "originalTitle": "Чебурашка",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://multiki.arjlover.net/ap/cheburashka.avi/cheburashka.avi.image6.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -7264,7 +7327,10 @@
       "rationale": "С пяти лет: конфликт с браконьерами понятен, а комедийная подача снижает напряжение."
     },
     "originalTitle": "Шапокляк",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://img.teleguide.info/film/62/62581/1.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -7347,7 +7413,10 @@
       "rationale": "С пяти лет: короткий бытовой сюжет безопасен и хорошо подходит для семейного разговора."
     },
     "originalTitle": "Каникулы в Простоквашино",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://mul.3dn.ru/1/kanikuly.v.prostokvashino.0-13-56.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -7431,7 +7500,10 @@
       "rationale": "С шести лет: холодные образы и похищение тревожны, но сказочная структура ясна."
     },
     "originalTitle": "Снежная королева",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.kinomania.ru/sites/default/files/styles/frame/public/film_frames/218931/f2566775e8c0fe044e0400ddb143e516.jpeg?itok=0svxR9lC"
+    }
   },
   {
     "schemaVersion": 2,
@@ -7512,7 +7584,10 @@
       "rationale": "С шести лет: образ чудовища и угроза отцу тревожны, но повествование неторопливое."
     },
     "originalTitle": "Аленький цветочек",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://multiki.arjlover.net/ap/alenkij.cvetochek.avi/alenkij.cvetochek.avi.image5.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -7647,7 +7722,10 @@
       "rationale": "С девяти лет: оружие, пираты и смерти поданы гротескно, но содержание остаётся серьёзным."
     },
     "originalTitle": "Остров сокровищ",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://static.kinoafisha.info/k/movie_shots/1920x1080/upload/movie_shots/0/1/4/8107410/77fcd6a4b3bc0d6419e8d2bfc5beab14.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -7689,7 +7767,10 @@
       "rationale": "С семи лет: криминальная линия пародийная, серии короткие, но сюжет продолжается между эпизодами."
     },
     "originalTitle": "Приключения капитана Врунгеля",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/8a9a893e-5bc9-475a-83c5-789c9ac9a1cd/1920x"
+    }
   },
   {
     "schemaVersion": 2,
@@ -8938,7 +9019,10 @@
       "minAge": 8,
       "rationale": "С восьми лет: оставившая семью мать, алкоголизм в прошлом и страх потери требуют мягкого обсуждения."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.themost10.com/wp-content/uploads/2014/10/Winn-Dixie.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -9027,7 +9111,10 @@
       "minAge": 12,
       "rationale": "С двенадцати лет из-за тяжёлой болезни, смерти, домашнего насилия и травли."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BNjcyZDRlNGQtYzc4ZC00MTI3LWJhM2MtOTQ5YzQ5YzIwNDU3XkEyXkFqcGc%40._V1_.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -9071,7 +9158,10 @@
       "minAge": 12,
       "rationale": "С двенадцати лет: смерть родителя, вина и религиозные вопросы эмоционально тяжёлые."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.pmgstatic.com/cache/resized/w663/files/images/film/photos/164/311/164311366_869042.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -9112,7 +9202,10 @@
       "minAge": 10,
       "rationale": "С десяти лет: шахматная тема и давление достижений лучше понятны школьникам, опасных сцен нет."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BNmU5NjBhNmEtOWVkNC00YTRlLWI4ZjktYWQwZThkMmRlMGNiXkEyXkFqcGc%40._V1_.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -9981,7 +10074,10 @@
       "minAge": 6,
       "rationale": "С шести лет: замысел Круэллы пугает, но насилие не показано, а спасение занимает центральное место."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://s3.amazonaws.com/intanibase/iad_screenshots/1961/10595/7.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -10109,7 +10205,10 @@
       "minAge": 6,
       "rationale": "С шести лет: похищение животных показано комедийно, а опасные эпизоды быстро разрешаются."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://d-tv.ppstatic.pl/images/tv-tv/17/49/prg1469084_830115831_large.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -10194,7 +10293,10 @@
       "minAge": 7,
       "rationale": "С семи лет: похищение ребёнка, болота и крокодилы создают заметное напряжение."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.looper.com/img/gallery/nude-moments-in-movies-you-probably-missed/the-rescuers-1712759302.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -10329,7 +10431,10 @@
       "minAge": 7,
       "rationale": "С семи лет: криминальные угрозы и похищение ребёнка напряжённы, но музыкальный тон смягчает историю."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://s3.amazonaws.com/intanibase/iad_assets/1988/13810/screenshots/13810-22-watermark.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -10465,7 +10570,10 @@
       "minAge": 7,
       "rationale": "С семи лет: превращение Джафара и опасные погони напряжённы, юмор быстро восстанавливает лёгкость."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://lunar-merch.b-cdn.net/smlmerchandise.com/media/1191/1500148814-aladdin-1500144659.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -10509,7 +10617,10 @@
       "minAge": 10,
       "rationale": "С десяти лет: вооружённый конфликт, гибель персонажа и исторические искажения требуют пояснений взрослого."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://stat.ameba.jp/user_images/20240514/19/yuzupill/07/14/j/o0790044015438752216.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -10731,7 +10842,10 @@
       "minAge": 7,
       "rationale": "С семи лет: падения и покушения мультяшные, быстрый юмор лучше воспринимается школьниками."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://s2.glbimg.com/y75-6bXwC2SjniuJ5ZYCxAxJ9qFDuqLfMqklq2p0LntIoz-HdGixxa_8qOZvMp3w/s.glbimg.com/og/rg/f/original/2013/03/13/imperador_1.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -10865,7 +10979,10 @@
       "minAge": 7,
       "rationale": "С семи лет: высмеивание героя длительное, инопланетная погоня шумная, но общий тон комедийный."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://houseofgeekery.com/wp-content/uploads/2020/02/chickenlittle_fallmovies_hmed.fit-760w.jpg?w=760"
+    }
   },
   {
     "schemaVersion": 2,
@@ -12110,7 +12227,10 @@
       "minAge": 9,
       "rationale": "С девяти лет: фильм очень длинный, а исторический контекст нацизма и побега требует пояснений."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://static.wixstatic.com/media/13b669_b5006cdf88ca4afa9cd898eb9173ba77~mv2.jpg/v1/fill/w_670%2Ch_409%2Cal_c%2Cq_80%2Cenc_avif%2Cquality_auto/13b669_b5006cdf88ca4afa9cd898eb9173ba77~mv2.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -12293,7 +12413,10 @@
       "minAge": 10,
       "rationale": "С десяти лет: подростковые конфликты, романтика и отдельные грубоватые шутки ближе средней школе."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://images.mummypages.ie/uploads/images/dir10455/dir522/dir26/dir1/17_1.php"
+    }
   },
   {
     "schemaVersion": 2,
@@ -12602,7 +12725,10 @@
       "minAge": 8,
       "rationale": "С восьми лет: траур, армия оловянных солдат и предательство создают умеренное напряжение."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://media.timeout.com/images/105315107/750/422/image.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -13286,7 +13412,10 @@
       "minAge": 10,
       "rationale": "С десяти лет: смерть матери, тяжёлое состояние животного и семейные конфликты эмоционально насыщенны."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.slashfilm.com/img/gallery/every-cameron-crowe-movie-ranked-from-worst-to-best/we-bought-a-zoo-1631230824.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -13597,7 +13726,10 @@
       "minAge": 13,
       "rationale": "С тринадцати лет: эмоциональное насилие, измена, алкоголь и подростковая романтика требуют зрелости."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://cinemayward.com/wp-content/uploads/2015/11/postfull-the-way-way-back-the-reviews-are-in-sam_liam.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -13684,7 +13816,10 @@
       "minAge": 10,
       "rationale": "С десяти лет: первая романтическая привязанность и развод родителей ближе детям предподросткового возраста."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BNjIzMDE4NjUtNmI0OS00OWE4LWFjMmUtZjQxMGJkZWM5MDkwXkEyXkFqcGc%40._V1_.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -14594,7 +14729,10 @@
       "maxAge": 17,
       "rationale": "Комические ловушки и краткое воспоминание об одиночестве не создают серьёзной возрастной нагрузки."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://hotcrossbungay.wordpress.com/wp-content/uploads/2018/12/GrinchMaxCL.jpg?w=640"
+    }
   },
   {
     "schemaVersion": 2,
@@ -14822,7 +14960,10 @@
       "maxAge": 17,
       "rationale": "Комическое оружие, злодейские угрозы и разрушения условны и не сопровождаются реалистичными последствиями."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w780/woEncYFTalbfPsJ2cbsj1X34mvs.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -15453,7 +15594,10 @@
       "maxAge": 17,
       "rationale": "Есть виселица как шутка, оружие и злодейская королева; исторические отсылки понятнее школьникам."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w780/lG6GSDuTmOizhfcrpyeB0On7yPy.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -16021,7 +16165,10 @@
       "maxAge": 17,
       "rationale": "Гибель родителей, эмоциональное насилие тёток и крупные насекомые требуют возраста от восьми лет."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.pmgstatic.com/cache/resized/w663/files/images/film/photos/159/960/159960976_6fbe03.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -16898,7 +17045,10 @@
       "maxAge": 17,
       "rationale": "Мрачные существа, отрубленные головы и большая битва подходят скорее детям от десяти лет."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://cdnn21.img.ria.ru/images/106569/56/1065695641_0%3A0%3A1200%3A787_768x0_80_0_1_83ecd5cbf6d77c296485ed17133ddd2f.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -17524,7 +17674,10 @@
       "maxAge": 17,
       "rationale": "Пленение, нападение волков и финальная битва подходят школьникам, спокойно воспринимающим сказочную угрозу."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://media.timeout.com/images/103816093/750/562/image.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -17757,7 +17910,10 @@
       "maxAge": 17,
       "rationale": "Смерть любимой собаки от выстрела и нападения животных делают фильм неподходящим для младших и чувствительных зрителей."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.looper.com/img/gallery/the-most-powerful-sad-endings-in-cinematic-history/old-yeller-1770131320.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -17800,7 +17956,10 @@
       "maxAge": 17,
       "rationale": "Жестокость к собаке и морально сложные решения требуют совместного просмотра со школьниками."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://i.mycdn.me/videoPreview?fn=external_8&id=1063273892588&idx=12&tkn=Ef0pvnpbEjXaOBwyeW-KoL70dyw&type=37"
+    }
   },
   {
     "schemaVersion": 2,
@@ -17890,7 +18049,10 @@
       "maxAge": 17,
       "rationale": "Есть школьная травля и рискованные саботажи, поэтому полезно обсудить безопасные способы гражданского действия."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.pmgstatic.com/cache/resized/w663/files/images/film/photos/000/112/112180_bdedc9.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -18696,7 +18858,10 @@
       "rationale": "Начиная с 5 лет ребёнку проще соотнести истории длительностью 18 минут с решениями героев, включая вопрос о том, чем находчивость музыкантов отличается от методов Сыщика. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
     },
     "originalTitle": "По следам бременских музыкантов",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://img51994.domkino.tv/img/2008-12-22/fmt_97_po_sledam_bremenskih_muzykantov_avi_image1.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -18779,7 +18944,10 @@
       "rationale": "Возраст 3+ выбран с учётом короткой серии длительностью около 10 минут и последовательности событий, включая вопрос о том, когда призыв жить дружно действительно помогает разрешить ссору. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
     },
     "originalTitle": "Кот Леопольд",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://mul.3dn.ru/pop/leopold.poliklinika.kota.leopolda.0-04-39.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -18998,7 +19166,10 @@
       "rationale": "Для самостоятельного понимания короткой серии длительностью около 5 минут лучше ориентироваться на возраст от 2 лет, включая вопрос о том, как друзья объясняют ему разницу между случайной ошибкой и намеренной обидой. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
     },
     "originalTitle": "Лунтик и его друзья",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://resizer.mail.ru/p/62bb63ff-ff8b-5170-97ca-8a2d3180d83e/AAACbymrpMRUMsYG7DyUBo9IJuKuQ0v4RdxAf70OS4vmw7bAututZE7h_TM7O5OJPdJ6mzTBST9p8I-m_COg50bQNgI.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -19437,7 +19608,10 @@
       "rationale": "Для самостоятельного понимания истории длительностью 8 минут лучше ориентироваться на возраст от 5 лет, включая вопрос о том, как Ээх пытается заставить героя нарушить данное слово. Совместный просмотр желателен из-за тем: угроза со стороны волшебника; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Ух ты, говорящая рыба!",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://iv.okcdn.ru/videoPreview?fn=external_8&id=11073916897884&idx=6&tkn=wP7a05qPKvoFwZABR_A1zDK1BVo&type=38"
+    }
   },
   {
     "schemaVersion": 2,
@@ -19527,7 +19701,10 @@
       "rationale": "Примерно к 5 годам зритель способен проследить короткой серии длительностью около 10 минут и не свести конфликт к простой победе, включая вопрос о том, как дядюшка Мокус помогает ему не испугаться Беладонны. Совместный просмотр желателен из-за тем: преследование ребёнка-персонажа; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Приключения поросёнка Фунтика",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://i.mycdn.me/videoPreview?fn=external_8&id=1809104112281&idx=2&tkn=yh48ZnIWjXpUojLmp2ksvN5JZTk&type=32"
+    }
   },
   {
     "schemaVersion": 2,
@@ -19569,7 +19746,10 @@
       "rationale": "Начиная с 4 лет ребёнку проще соотнести короткой серии длительностью около 10 минут с решениями героев, включая вопрос о том, как Наташа показывает, что забота важнее внешнего порядка. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
     },
     "originalTitle": "Домовёнок Кузя",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://resizer.mail.ru/p/5303e343-420d-5e59-a054-2f5fead70be5/AAACdemxd1NmJFqSeyYNKhGnip0mkwupmi_weCf6bcgRu76sF6wtxLRjxd6E3qY6l4xzzWApe8YSmy2ACU9-v1OHZC0.png"
+    }
   },
   {
     "schemaVersion": 2,
@@ -19791,7 +19971,10 @@
       "rationale": "С 6 лет легче удерживать истории длительностью 75 минут и мотивы нескольких персонажей, включая вопрос о том, какие разные качества богатырей помогают разрушить колдовской план. Совместный просмотр желателен из-за тем: колдовство и комические сражения; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Три богатыря и Шамаханская царица",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://i.mycdn.me/videoPreview?fn=external_8&id=3203687713316&idx=14&tkn=-grcN2Xn0rOg-dKrn7cIh1OWxuU&type=37"
+    }
   },
   {
     "schemaVersion": 2,
@@ -19882,7 +20065,10 @@
       "rationale": "Для самостоятельного понимания истории длительностью 74 минут лучше ориентироваться на возраст от 6 лет, включая вопрос о том, когда его любовь к эффектным словам помогает, а когда мешает. Совместный просмотр желателен из-за тем: заговор и комические опасности; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Три богатыря. Ход конём",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://img51994.domkino.tv/img/2015-12-14/fmt_97_24_328.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -20158,7 +20344,10 @@
       "rationale": "Ориентир 6+ помогает учесть продолжительность, темп и истории длительностью 85 минут, включая вопрос о том, как встреча с древним миром меняет их представление о силе. Совместный просмотр желателен из-за тем: динозавры и погони; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Три богатыря и Пуп Земли",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.vokrug.tv/pic/product/5/3/a/1/53a1a3594a4a16a49b4ed7d9b0c9879c.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -20202,7 +20391,10 @@
       "rationale": "Нижняя граница 5 лет связана с тем, что истории длительностью 80 минут требует устойчивого внимания, включая вопрос о том, как Волк превращается из случайного спутника в настоящего друга. Совместный просмотр желателен из-за тем: сказочные погони; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Иван Царевич и Серый Волк",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://allmults.org/img/f_b/3/2586/3.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -20336,7 +20528,10 @@
       "rationale": "Для самостоятельного понимания истории длительностью 75 минут лучше ориентироваться на возраст от 6 лет, включая вопрос о том, как герои учатся не делать выводы по первому впечатлению. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
     },
     "originalTitle": "Иван Царевич и Серый Волк 4",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://img51994.domkino.tv/img/2020-11-02/fmt_97_24_362888f0e6fec308aaec9f5520245f37.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -20886,7 +21081,10 @@
       "rationale": "Примерно к 5 годам зритель способен проследить истории длительностью 80 минут и не свести конфликт к простой победе, включая вопрос о том, как команда исправляет последствия его стремления быть особенным. Совместный просмотр желателен из-за тем: технические аварии; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Фиксики: Большой секрет",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://programma-peredach.com/img/kp/600x450/a/5/4/1/_a54113a6e5a0c4c910498c25f280f5a3.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -20930,7 +21128,10 @@
       "rationale": "Начиная с 6 лет ребёнку проще соотнести истории длительностью 80 минут с решениями героев, включая вопрос о том, что позволяет фиксикам и кработам перестать видеть друг в друге врагов. Совместный просмотр желателен из-за тем: технические опасности; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Фиксики против кработов",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://img51994.domkino.tv/img/2024-12-02/fmt_97_24_fiksiki-protiv-krabotov-2.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -21303,7 +21504,10 @@
       "rationale": "Рекомендация от 6 лет учитывает истории длительностью 82 минут, эмоциональные повороты и общий ритм, включая вопрос о том, как дружба с Мими помогает ему не смириться с проклятием. Совместный просмотр желателен из-за тем: превращение и пугающая колдунья; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Карлик Нос",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://tv.pgtrk.com/sites/default/files/show/2014/04/scr_007.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -21347,7 +21551,10 @@
       "rationale": "Примерно к 7 годам зритель способен проследить истории длительностью 317 минут и не свести конфликт к простой победе, включая вопрос о том, как дети распределяют роли, когда взрослые не знают об опасности. Совместный просмотр желателен из-за тем: погони и угроза детям; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Гостья из будущего",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.film.ru/sites/default/files/movies/frames/gostja.iz_.buduschego.4.avi_.image2_.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -21436,7 +21643,10 @@
       "rationale": "Зрителю примерно с 6 лет обычно доступна истории длительностью 80 минут без потери важных причин и последствий, включая вопрос о том, как кривые зеркала помогают властителям скрывать несправедливость. Совместный просмотр желателен из-за тем: заключение и сказочные угрозы; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Королевство кривых зеркал",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://22-91.ru/upload/images/photo/_rev1/24_1300974041.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -21480,7 +21690,10 @@
       "rationale": "Возраст 5+ выбран с учётом истории длительностью 84 минут и последовательности событий, включая вопрос о том, какие герои помогают ей не только волшебством, но и заботой. Совместный просмотр желателен из-за тем: эмоциональное насилие в семье; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Золушка (1947)",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://filmiki.arjlover.net/ap/zolushka.avi/zolushka.avi.image1.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -21522,7 +21735,10 @@
       "rationale": "Ориентир 6+ помогает учесть продолжительность, темп и истории длительностью 141 минут, включая вопрос о том, как Мэри Поппинс соединяет строгие правила и свободу воображения. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
     },
     "originalTitle": "Мэри Поппинс, до свидания",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.film.ru/sites/default/files/movies/frames/meri_poppins_do_svidaniya-14.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -21701,7 +21917,10 @@
       "rationale": "Для самостоятельного понимания истории длительностью 78 минут лучше ориентироваться на возраст от 6 лет, включая вопрос о том, как каждый из них ведёт себя, получив возможность спастись одному. Совместный просмотр желателен из-за тем: сказочные угрозы; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "После дождичка в четверг",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://stuki-druki.com/film/images/kadr-posle-dozhdichka-v-chetverg-1985-12.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -21786,7 +22005,10 @@
       "rationale": "Примерно к 7 годам зритель способен проследить истории длительностью 88 минут и не свести конфликт к простой победе, включая вопрос о том, как знания Паганеля одновременно помогают и запутывают экспедицию. Совместный просмотр желателен из-за тем: опасные путешествия; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Дети капитана Гранта",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.kino-teatr.ru/movie/kadr/1795/534517.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -21831,7 +22053,10 @@
       "rationale": "Начиная с 11 лет ребёнку проще соотнести истории длительностью 99 минут с решениями героев, включая вопрос о том, какие поступки Луизы помогают приблизиться к разгадке, несмотря на давление окружающих. Совместный просмотр желателен из-за тем: убийство без натуралистических подробностей, угроза казни невиновного; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Всадник без головы",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://img51994.domkino.tv/img/2009-09-21/fmt_97_vsadnik.bez.golovy.avi.image2.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -21875,7 +22100,10 @@
       "rationale": "Зрителю примерно с 10 лет обычно доступна истории длительностью 83 минут без потери важных причин и последствий, включая вопрос о том, какие признаки обмана Негоро команда могла заметить раньше. Совместный просмотр желателен из-за тем: гибель моряков, угроза рабства и насилия; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Пятнадцатилетний капитан",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w780/uFAeOGCKSYGXZVxa4yy9OQJ2jS1.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -21919,7 +22147,10 @@
       "rationale": "Возраст 10+ выбран с учётом истории длительностью 103 минут и последовательности событий, включая вопрос о том, как общий поступок меняет отношения между школой и её учениками. Совместный просмотр желателен из-за тем: сиротство, послевоенная бедность; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Республика ШКИД",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://otr-online.ru/public/files/programs/2014-06/1020x574/medium_shkid-1.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -21962,7 +22193,10 @@
       "rationale": "Ориентир 11+ помогает учесть продолжительность, темп и истории длительностью 127 минут, включая вопрос о том, какие действия одноклассников превращают насмешки в коллективную травлю. Совместный просмотр желателен из-за тем: школьная травля, жестокое обращение; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Чучело",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://static.kinoafisha.info/k/movie_shots/1920x1080/upload/movie_shots/7/4/1/3478147/f27e7d01ce2384907080b898e6850ee7.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -22131,7 +22365,10 @@
       "rationale": "Для самостоятельного понимания истории длительностью 68 минут лучше ориентироваться на возраст от 6 лет, включая вопрос о том, как первая настоящая дружба влияет на её поведение. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
     },
     "originalTitle": "Первоклассница",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://stuki-druki.com/film/images/kadr-pervoklassnica-1948-06.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -22172,7 +22409,10 @@
       "rationale": "Рекомендация от 6 лет учитывает истории длительностью 72 минут, эмоциональные повороты и общий ритм, включая вопрос о том, как Алёша меняет планы, когда помощь требуется другим. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
     },
     "originalTitle": "Алёша Птицын вырабатывает характер",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://i.mycdn.me/videoPreview?fn=external_8&id=260598729371&idx=4&tkn=BLMEdarI-rgPPCv-qbM3AZ3Ztcc&type=32"
+    }
   },
   {
     "schemaVersion": 2,
@@ -22383,7 +22623,10 @@
       "rationale": "Ориентир 7+ помогает учесть продолжительность, темп и истории длительностью 72 минут, включая вопрос о том, как можно бережно проверить её рассказ, не высмеивая воображение. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
     },
     "originalTitle": "Ох уж эта Настя!",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/82bf3ac1-bc07-4d90-a2a7-3f2d5d28ff6a/1920x"
+    }
   },
   {
     "schemaVersion": 2,
@@ -22471,7 +22714,10 @@
       "rationale": "С 8 лет легче удерживать истории длительностью 85 минут и мотивы нескольких персонажей, включая вопрос о том, как ребята учатся принимать решения, от которых зависит вся команда. Совместный просмотр желателен из-за тем: космические опасности; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Москва — Кассиопея",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://stuki-druki.com/film/images/kadr-moskva-kassiopeya-1973-09.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -22603,7 +22849,10 @@
       "rationale": "Рекомендация от 10 лет учитывает истории длительностью 91 минут, эмоциональные повороты и общий ритм, включая вопрос о том, в какой момент дружба оказывается важнее обещанных денег. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
     },
     "originalTitle": "Миллион в брачной корзине",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://stuki-druki.com/film/images/kadr-million-v-brachnoy-korzine-05.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -22647,7 +22896,10 @@
       "rationale": "Примерно к 8 годам зритель способен проследить истории длительностью 99 минут и не свести конфликт к простой победе, включая вопрос о том, как общий выбор меняет их понимание дружбы. Совместный просмотр желателен из-за тем: опасность гибели животного; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Частное пионерское",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://img51994.domkino.tv/img/2024-02-26/fmt_97_24_chastnoye-pionerskoye-4.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -22780,7 +23032,10 @@
       "rationale": "Возраст 12+ выбран с учётом истории длительностью 95 минут и последовательности событий, включая вопрос о том, как его представление о хорошем человеке меняется к финалу. Совместный просмотр желателен из-за тем: подростковые романтические ситуации; взрослому стоит заранее оценить реакцию ребёнка."
     },
     "originalTitle": "Хороший мальчик",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://stuki-druki.com/facts1/images/kadr-Horoshiy-malchik-15.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -23523,7 +23778,10 @@
       "maxAge": 16,
       "rationale": "Для самостоятельного понимания истории желателен возраст от 10 лет, особенно когда повествование касается темы «смерть родителя»."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://awesomereviews.ru/wp-content/uploads/2018/09/%D0%A5%D0%B0%D0%BD%D0%B0-%D1%81-%D0%B4%D0%B5%D1%82%D1%8C%D0%BC%D0%B8-752x440.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -23758,7 +24016,10 @@
       "maxAge": 17,
       "rationale": "Начиная с 11 лет зритель сможет удержать ритм картины и различить позиции героев; особого внимания требует тема «травля»."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w780/x4nVZ8po8echhvERf4yowFEl9qh.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -24471,7 +24732,10 @@
       "maxAge": 15,
       "rationale": "Зрителям младше 9 лет может быть трудно справиться с эмоциональной нагрузкой сюжета, прежде всего с темой «одиночество»."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://heraldodemexico.com.mx/u/fotografias/m/2024/9/26/f960x540-1016818_1090893_2953.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -24712,7 +24976,10 @@
       "maxAge": 13,
       "rationale": "Темп и продолжительность доступны примерно с 7 лет; чувствительный элемент «колониальное насилие» лучше не оставлять без обсуждения."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://static.ndmais.com.br/2024/09/pachamama-foto-filme-scaled.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -24808,7 +25075,10 @@
       "maxAge": 13,
       "rationale": "106-минутная история рассчитана на зрителей от 7 лет: им уже доступна её эмоциональная неоднозначность, включая тему «спортивное соперничество»."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://cinefreaks.net/2023/wp-content/uploads/2013/07/Metegol-La-%C3%A9pica-de-los-antih%C3%A9roes-01.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -25816,7 +26086,10 @@
       "maxAge": 13,
       "rationale": "Для самостоятельного понимания истории желателен возраст от 7 лет, особенно когда повествование касается темы «пауки»."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://iv.okcdn.ru/videoPreview?fn=external_8&id=498779949604&idx=12&tkn=-sffPPcBNJrgn4Y_BBuhfzD63Ts&type=32"
+    }
   },
   {
     "schemaVersion": 2,
@@ -26147,7 +26420,10 @@
       "maxAge": 15,
       "rationale": "Рекомендация 9+ учитывает длительность и сложность выбора персонажей. После фильма стоит вернуться к теме «унижение ребёнка»."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://upperstall.com/wp-content/uploads/2016/04/TZP.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -26192,7 +26468,10 @@
       "maxAge": 18,
       "rationale": "Зрителям младше 12 лет может быть трудно справиться с эмоциональной нагрузкой сюжета, прежде всего с темой «домашнее насилие»."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201710/secret-story-647_101917025710.jpg?VersionId=6yB8zgkqVPc57LtcYgDjv7CFIlyw6ZZG"
+    }
   },
   {
     "schemaVersion": 2,
@@ -26336,7 +26615,10 @@
       "maxAge": 17,
       "rationale": "Просмотр с 11 лет позволяет обсуждать решения героев без чрезмерного упрощения; взрослому стоит быть рядом из-за темы «жёсткие тренировки»."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://akm-img-a-in.tosshub.com/aajtak/images/story/201611/aamir_sm_1024_1478935463_749x421.jpeg?size=948%3A533"
+    }
   },
   {
     "schemaVersion": 2,
@@ -26749,7 +27031,10 @@
       "maxAge": 16,
       "rationale": "Зрителям младше 10 лет может быть трудно справиться с эмоциональной нагрузкой сюжета, прежде всего с темой «жестокие наказания»."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.rarefilmfinder.com/photos/4279/images/79ee2ed5bfe623cc60e78c93506ed0cd.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -27128,7 +27413,10 @@
       "maxAge": 17,
       "rationale": "Для возраста 11+ важны не только события, но и мотивы персонажей. Контекст «семейное давление» лучше заранее обозначить ребёнку."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://iv.okcdn.ru/videoPreview?fn=external_8&id=82299980323&idx=12&tkn=MQvdkUweZRv-cYSLaCkI-2MrbRo&type=37"
+    }
   },
   {
     "schemaVersion": 2,
@@ -27174,7 +27462,10 @@
       "maxAge": 18,
       "rationale": "Начиная с 12 лет зритель сможет удержать ритм картины и различить позиции героев; особого внимания требует тема «подростковые конфликты»."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://d2iltjk184xms5.cloudfront.net/uploads/photo/file/96899/original.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -27742,7 +28033,10 @@
       "maxAge": 17,
       "rationale": "Начиная с 11 лет зритель сможет удержать ритм картины и различить позиции героев; особого внимания требует тема «переселение»."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w780/mcZO2pc3MKS6ijmt48MczMbWOks.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -29647,7 +29941,10 @@
       "maxAge": 15,
       "rationale": "Для «Агент Коди Бэнкс 2: Пункт назначения — Лондон» порог 9+ учитывает продолжительность, темп и напряжение отдельных сцен. Стоит заранее предупредить о таких эпизодах, как шпионские драки."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://canvas-lb.tubitv.com/opts/3k47_2rvPzjCYQ%3D%3D/31ad57b9-d4d6-4e3d-8770-4c39ed8bf04d/CJ4GEMADOgUxLjEuOQ%3D%3D"
+    }
   },
   {
     "schemaVersion": 2,
@@ -29928,7 +30225,10 @@
       "maxAge": 13,
       "rationale": "Рекомендация 7+ для «Дора и затерянный город» связана с темпом, длительностью и сложностью центрального конфликта. Чувствительные элементы — похищение и опасности джунглей — требуют готовности ребёнка."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://fwcdn.pl/webv/06/56/50656/thumbnail.50656.4.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -30206,7 +30506,10 @@
       "maxAge": 14,
       "rationale": "Для «В ритме сердца» порог 8+ учитывает продолжительность, темп и напряжение отдельных сцен. Стоит заранее предупредить о таких эпизодах, как публичное унижение."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w780/6DF5qYh6pRr102ZXM82rzSQ2FfU.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -30993,7 +31296,10 @@
       "maxAge": 13,
       "rationale": "В «Индюки: Назад в будущее» зрителям от 7 лет уже проще удерживать причинно-следственные связи и считывать иронию. Совместный просмотр полезен из-за тем: умеренные жанровые опасности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.toledoblade.com/image/2013/11/01/600x_q90_a4-3_cTCjpg/Film-Review-Free-Birds-1.JPG"
+    }
   },
   {
     "schemaVersion": 2,
@@ -31689,7 +31995,10 @@
       "maxAge": 13,
       "rationale": "Для «Дорога домой» порог 7+ учитывает продолжительность, темп и напряжение отдельных сцен. Стоит заранее предупредить о таких эпизодах, как умеренные жанровые опасности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BZDcwMjliOWQtODgxMS00MTdmLWI5MTQtOWFiYTBlNjY4ZTQxXkEyXkFqcGc%40._V1_.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -31733,7 +32042,10 @@
       "maxAge": 13,
       "rationale": "В «Арло, мальчик-аллигатор» зрителям от 7 лет уже проще удерживать причинно-следственные связи и считывать иронию. Совместный просмотр полезен из-за тем: умеренные жанровые опасности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://imgix.bustle.com/uploads/image/2021/4/14/7c5e98c6-f7b8-49e5-825e-9c95168199f8-screen-shot-2021-04-14-at-112729-am.png?crop=focalpoint&dpr=2&fit=crop&fp-x=0.3155792276964048&fp-y=0.45734597156398105&h=330&q=50&w=414"
+    }
   },
   {
     "schemaVersion": 2,
@@ -32006,7 +32318,10 @@
       "maxAge": 13,
       "rationale": "Аудитория «Охотники на троллей: Восстание титанов» от 7 лет легче поймёт мотивы персонажей и выдержит наиболее динамичные сцены. Взрослому важно учитывать упоминания: умеренные жанровые опасности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://decine21.com/img/upload/obras/trollhunters-el-despertar-de-los-titanes-44060/trollhunters-el-despertar-de-los-titanes-44060-e1.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -32898,7 +33213,10 @@
     "studios": [
       "F.O.R.M.A."
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMzA5ZWVjMWUtMTFlMC00N2VhLWE0MTgtZjMwYjQ5MTlkYzVmXkEyXkFqcGc%40._V1_.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -33041,7 +33359,10 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 90 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.austrianfilms.com/jart/prj3/afc-new/images/img-db/1322552853667.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -33736,7 +34057,10 @@
       "Рождественская песнь в прозе",
       "A Christmas Carol"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://queensfilmtheatre.com/download/images/scroogemain.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -34427,7 +34751,10 @@
       "I Start Counting"
     ],
     "originalTitle": "I Start Counting",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://a.ltrbxd.com/resized/sm/upload/7o/aq/jj/gz/osYndg7SOfCyYPpJnozAMlKDdzC-1200-1200-675-675-crop-000000.jpg?v=01f977c744"
+    }
   },
   {
     "schemaVersion": 2,
@@ -34982,7 +35309,10 @@
       "The Story of Quark",
       "Вальхалла"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://trustnordisk.com/fileadmin/user_upload/VALHALLA_ANIMATION_5.png"
+    }
   },
   {
     "schemaVersion": 2,
@@ -35083,7 +35413,10 @@
       "Хитрюга Джек",
       "Hugo"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w780/8x66igfuRC8Znxc44xQvmwco3ao.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -35359,7 +35692,10 @@
     "relatedTitles": [
       "The Land Before Time"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://amblin.com/wp-content/uploads/2019/08/landbeforetime_1988_photo_hero.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -35410,7 +35746,10 @@
       "Warner Bros. Entertainment",
       "Warner Bros."
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://iv1.lisimg.com/image/4400276/720full-a-troll-in-central-park"
+    }
   },
   {
     "schemaVersion": 2,
@@ -35456,7 +35795,10 @@
       "Metro-Goldwyn-Mayer",
       "Sullivan Bluth Studios"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://s3.amazonaws.com/intanibase/iad_screenshots/1995/22082/85.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -35540,7 +35882,10 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 87 минут, жанры «семейный, комедия» и темы «семья», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://canvas-lb.tubitv.com/opts/wrTWKuszYZRz3w%3D%3D/144a3e8d-6ff4-4a01-b1b7-3a1f83c6e666/CJ4GEMADOgUxLjEuOQ%3D%3D"
+    }
   },
   {
     "schemaVersion": 2,
@@ -35819,7 +36164,10 @@
       "Властелин колец",
       "The Lord of the Rings"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://media.thepopverse.com/media/animated-lord-of-the-rings-2-fxqdg422yrlftab2nmsjnbltue.png"
+    }
   },
   {
     "schemaVersion": 2,
@@ -35862,7 +36210,10 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 84 минут, жанры «семейный, приключения, мюзикл» и темы «музыка», «путешествия» требуют соответствующего внимания и эмоциональной готовности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://alimagenes.wordpress.com/wp-content/uploads/2016/11/1983-katy-la-oruga.jpg?w=768"
+    }
   },
   {
     "schemaVersion": 2,
@@ -36092,7 +36443,10 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 67 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.cineclandestino.it/wp-content/uploads/2021/09/Il-nano-e-la-strega-2.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -36335,7 +36689,10 @@
     "relatedTitles": [
       "Heathcliff"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://cdn.episode.ninja/file/episodeninja/5374260.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -37452,7 +37809,10 @@
     "studios": [
       "SF Studios"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.pmgstatic.com/cache/resized/w663/files/images/film/photos/160/072/160072681_ddbc02.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -37886,7 +38246,10 @@
     "studios": [
       "CBS Theatrical Films"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://i0.wp.com/images.fanpop.com/images/image_uploads/Roy--Lane--and--Monique-better-off-dead-644500_633_465.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -38749,7 +39112,10 @@
     "relatedTitles": [
       "Школа волшебных зверей"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.tvbutler.at/mediafiles/10/tv_Die-Schule-der-magischen-Tiere_0_700x0.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -39359,7 +39725,10 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 95 минут, жанры «семейный, спортивный» и темы «семья», «спорт» требуют соответствующего внимания и эмоциональной готовности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w780/lEUNWSl8sR4mntMexLgJ45PHehZ.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -40171,7 +40540,10 @@
       "maxAge": 18,
       "rationale": "Рекомендуем с 12 лет: хронометраж 105 минут, жанры «драма» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w780/3CWf1dkGFETiuEU3aIry4p3EBl1.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -41084,7 +41456,10 @@
     "studios": [
       "Walt Disney Pictures"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://archive.ica.art/sites/default/files/media/images/WEBDorothy5/index.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -41351,7 +41726,10 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 74 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://fernsehjuwelen.de/media/92/ff/94/1707237737/das-zaubermannchen-zaum60_10_copyright_defa_stiftung_josef_borst.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -42234,7 +42612,10 @@
     "studios": [
       "Filmax"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://static.kinoafisha.info/k/movie_shots/canvas/620x410/upload/movie_shots/2/8/5/5582/bdb05e862faf9693df5249099e9fac59.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -42451,7 +42832,10 @@
       "Lanterna Magica",
       "Columbia Pictures"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.amoreaquattrozampe.it/wp-content/uploads/2022/02/zorba2-fb-640x427.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -44426,7 +44810,10 @@
       "Disneytoon Studios",
       "Walt Disney Pictures"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://fwcdn.pl/webv/29/43/12943/snap1.12943.4.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -44472,7 +44859,10 @@
       "rationale": "Рекомендуем с 14 лет: взросление героини связано с семейной тайной, культурной идентичностью, депрессией и смертью знакомого; эти темы важно обсуждать бережно."
     },
     "originalTitle": "Looking for Alibrandi",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://iv1.lisimg.com/image/17185095/700full-looking-for-alibrandi-%282000%29-screenshot.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -45302,7 +45692,10 @@
       "Mother Production",
       "Move Movie"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w780/eJodwMraJiCz0ihjuSQfEgjZVIE.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -45345,7 +45738,10 @@
     "studios": [
       "TeamTO"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w780/2m5pQxFJDPJCWmMqfsISu4TrqNZ.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -45940,7 +46336,10 @@
     "studios": [
       "Walt Disney Studios Motion Pictures"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://static.cinemagia.ro/img/db/movie/02/45/85/o-ano-em-que-meus-pais-sairam-de-ferias-182888l.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -46196,7 +46595,10 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 86 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://telaviva.com.br/wp-content/uploads/2017/02/Buigangue-no-Espa%C3%A7o-e1486688682944.png"
+    }
   },
   {
     "schemaVersion": 2,
@@ -46279,7 +46681,10 @@
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 81 минут, жанры «драма» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://images.mubicdn.net/images/film/8437/cache-11372-1745489622/image-w1280.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -46330,7 +46735,10 @@
       "The Jim Henson Company",
       "Lucasfilm"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.film.ru/sites/default/files/movies/frames/Labyrinth-06.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -46482,7 +46890,10 @@
       "Sullivan Bluth Studios",
       "Goldcrest Films"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.filmdienst.de/bild/filmdb/340363/rock-a-doodle-szenenbild-8-kopie.jpg?t=1750427013"
+    }
   },
   {
     "schemaVersion": 2,
@@ -46662,7 +47073,10 @@
       "World Productions",
       "Film4 Productions"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w780/ydyThtFj4dW5EW9lpj8m4UtZZa0.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -46754,7 +47168,10 @@
     "studios": [
       "Working Title Films"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.pmgstatic.com/cache/resized/w663/files/images/film/photos/169/896/169896348_xqmqji.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -46904,7 +47321,10 @@
       "Arts Council England",
       "Distant Horizons"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://filmthreat.com/wp-content/uploads/2025/06/REVIEW-Get-Real-1.jpeg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -47046,7 +47466,10 @@
     "studios": [
       "Icon Productions"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://ilarge.lisimg.com/image/6516103/740full-the-miracle-maker-%282000%29-screenshot.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -47136,7 +47559,10 @@
     "studios": [
       "SF Studios"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://image.tmdb.org/t/p/w1280/85G8sdp0XiRReaNEWR6hubG6BBR.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -47222,7 +47648,10 @@
       "rationale": "Рекомендуем с 6 лет: хронометраж 82 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
     },
     "originalTitle": "Das blaue Licht",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://cdn.lr-online.de/2024/12/04/c3b68631-83d2-4033-9f71-def08a0c21fe.jpeg?crop=2073%2C1166%2C0%2C79&format=webp&token=89fea7fcf8f7f309937156b6442572176662fea3ca770269593e5e4a4ffdadc3&width=1200"
+    }
   },
   {
     "schemaVersion": 2,
@@ -47908,7 +48337,10 @@
       "rationale": "Рекомендуем с 9 лет: хронометраж 50 минут, жанры «комедия» и темы «культурное разнообразие», «выбор» требуют соответствующего внимания и эмоциональной готовности."
     },
     "originalTitle": "Camelot",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://img.tvspielfilm.de/02/7f/4a/5460a1a7e4b08cb8014a7f02.jpeg?im=Crop%2Crect%3D%280%2C0%2C1788%2C1176%29%2Cgravity%3DCenter%3BResize%2Cwidth%3D632"
+    }
   },
   {
     "schemaVersion": 2,
@@ -48232,7 +48664,10 @@
     "relatedTitles": [
       "Смерть Артура"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://cdn.maioresemelhores.com/imagens/mm-excalibur-0-cke.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -48397,7 +48832,10 @@
         "title": "приз за лучшую фотографию кинофестиваля в Сиджесе"
       }
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://images.squarespace-cdn.com/content/v1/5c44089a96d455239adaa88a/1548099668745-TETYN6GYL2TLC2D3FCHI/image-asset.jpeg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -48582,7 +49020,10 @@
       "CinéGroupe",
       "Columbia Pictures"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BYzcwMmM1OTAtY2YxZi00M2I3LWIyOTEtNDZlODM3YjA3ZGI0XkEyXkFqcGc%40._V1_.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -48694,7 +49135,10 @@
       }
     ],
     "originalTitle": "Russian Ark",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.theromanovfamily.com/wp-content/uploads/2015/09/russian-ark-600x477.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -48982,7 +49426,10 @@
       "A Greyhound of a Girl"
     ],
     "originalTitle": "Marys magische Reise",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://de.web.img3.acsta.net/r_1280_720/pictures/23/12/21/08/02/4658832.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -49100,7 +49547,10 @@
       "Трилогия об Апу",
       "Песнь дороги"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.moma.org/media/W1siZiIsIjQ3MjExMiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MTQ0MFx1MDAzZSJdXQ.jpg?sha=08a992faa25a743d"
+    }
   },
   {
     "schemaVersion": 2,
@@ -49904,7 +50354,10 @@
       "maxAge": 15,
       "rationale": "Рекомендуем с 9 лет: хронометраж 72 минут, жанры «драма» и темы «взросление», «культурное разнообразие» требуют соответствующего внимания и эмоциональной готовности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://media.timeout.com/images/23080/750/562/image.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -50230,7 +50683,10 @@
     "relatedTitles": [
       "Rudolph, the Red-Nosed Reindeer"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.slashfilm.com/img/gallery/the-10-best-christmas-movie-villains-ranked/all-of-the-other-reindeer-rudolph-the-red-nosed-reindeer-1733102465.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -51705,7 +52161,10 @@
       "TMS Entertainment"
     ],
     "originalTitle": "Buta",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://butafilm.com/_next/image?q=75&url=%2Fgallery%2F3%2F1.jpg&w=3840"
+    }
   },
   {
     "schemaVersion": 2,
@@ -51837,7 +52296,10 @@
       "A. Film A/S",
       "Ealing Studios"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://fr.web.img5.acsta.net/medias/nmedia/18/36/31/80/18697644.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -53872,7 +54334,10 @@
     "studios": [
       "Lorimar Television"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.hollywoodintoto.com/wp-content/uploads/2021/09/boy-who-could-fly-movie-review-186-1.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -53968,7 +54433,10 @@
     "studios": [
       "Dimension Films"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BN2MwZTEwODktMDNhZi00ZWU0LWIyMzItNTEyYWJhZmFhOWI3XkEyXkFqcGc%40._V1_.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -54217,7 +54685,10 @@
       "Fireworks Entertainment",
       "Paramount Pictures"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.toledoblade.com/image/2001/08/20/600x_q90_a4-3_cTCjpg/RAT-RACE.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -54714,7 +55185,10 @@
       "IMAX Corporation",
       "Warner Bros."
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://stat.ameba.jp/user_images/20240618/16/kuma1760004/b4/92/j/o0745042315453076306.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -55943,7 +56417,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/463320b4-a983-57b1-85c2-1bd18c0b6eda/AQACC7VHEO6Dl-yXK5Z7_uh6u2MceRVf2RByEmfTmZw5uRFmMwMHF0P7idqm7bAw_GQzmHEsbhIVfEOpOghD7uhTDVg.jpg",
+      "url": "https://m.media-amazon.com/images/M/MV5BYmUyYTI2NjYtNzZiMy00ZDZjLWJjZTEtMThhNDM1NDM5MzAwXkEyXkFqcGc%40._V1_.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -56236,7 +56710,7 @@
       "rationale": "Возраст выбран с учётом сложности сюжета, длительности произведения и возможных эмоционально напряжённых эпизодов."
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/c9ae3665-806b-5710-88ca-a0757f5799ed/AQACIeZ-jEtRgP9oDlqfyv1GGgBOkGEKyoMCXVoegccJpZH_bmXniU2I9B841ROvyNWFg1DqWNrkLzR5gCRvaItnCaw.jpg",
+      "url": "https://static.kinoafisha.info/k/movie_shots/canvas/620x410/upload/movie_shots/8/9/1/8326198/5c5f97677142dcf28726d1c1e40c58fb.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -56425,7 +56899,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/34daff90-2b2b-5405-8a62-26335768b240/AQACNEMTCbFLu6hE-KIukbizjgwxfvu5Wcs14cEjJ09jKdaG8A3xCL5kKSY_G2O9hSLXXrlz9_Yla43yywzL0qLWtjw.jpg",
+      "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/2b782dbf-25eb-4dd8-8f7e-ce137609f2db/1920x",
       "studios": [
         "Кино Mail"
       ]
@@ -56628,7 +57102,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/77cb146d-c1e8-5419-ace5-2159774adb5a/AQACfCqv-h5w1h7FkFdNZTl2CwYspFt30ZA1njo9BphpGpeEG9Uvs7YXe3KQejappq6AleADeOxg6txPXeygT1JWLLk.jpg",
+      "url": "https://images.kinorium.com/movie/shot/397851/w1500_49561116.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -57339,7 +57813,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/0bfae401-f4ef-5b19-a334-f2c85d0a3806/AQAC_j3XFsc65RiF8a_17M4kYePm9Q9VzvZ9dYkLXagbdtwJbEJNE3MHERhQoaL1v1G9HFmCA3z4iW70yEAttg9eIs4.jpg",
+      "url": "https://img.labirint.ru/images/comments_pic/1010/04labj5ga1268223810.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -58354,7 +58828,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/da6e870c-3e9b-5510-969c-84cec6c3ef72/AQACRjzKozWabW-uWBBMYLNTwMLCwDUnnN2u8mHl9wVM4E6cuz7Fhu_VljsdOV7DU5F1SC5QCtfsnO6nLvCTvZvQgBM.jpg",
+      "url": "https://img51994.domkino.tv/img/2019-07-22/fmt_97_24_screenshot6.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -58502,7 +58976,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/16b57157-5337-5611-8e57-1f0742d893f3/AQAC0FnMQ23sHzNLbhvpkxbDJAZyHWoM31lg5R9ajfUk0wIFQg5zN4V2JWeYGAvQuY6RmSsvfkTqvzurROkMpOCj0DY.jpg",
+      "url": "https://i.mycdn.me/videoPreview?fn=external_8&id=2594506148596&idx=14&tkn=fO3Tl3CxzL6pnIRp4zfRjLgYNmQ&type=32",
       "studios": [
         "Кино Mail"
       ]
@@ -59639,7 +60113,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/d0a4d980-1e0b-5ab6-917b-ee7ff528f3ee/AQACj45BB5uwKy4BTAsVVJPTuXF8k-PA4FUY56p6Z0lNhvZWYvQH7KNQWghueFtyEXCbfSy6oouvgOsLExLOOGBXflI.jpg",
+      "url": "https://cs17.pikabu.ru/s/2025/10/03/06/xgefl7jo_lg.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -60078,7 +60552,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/c88cef07-5b51-5580-8ff2-eea6cb82822c/AQAC6z8FQOFy6RNBJu2tKpsy7J-IIr56E4SjhUWWalaG2ylcAVRbDT1FJueVMD0Z_fEm8Xw3B6ch8S1Af_TZpxUfXXA.png",
+      "url": "https://qlife.kz/images/madeniet/kino/%D0%BA%D0%BE%D0%B6%D0%B0/5.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -60129,7 +60603,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/0961ebd9-2fe3-5eee-b0e4-051fc4198366/AQAC4YXT3o-ZYhy_TQEioX6lSqT1pTLQa2XCLQLCtphYM4beF70WHAFSKwJlQUtC-ihrOLgnhYhqNacpgzKpzvQufHE.jpg",
+      "url": "https://multiki.arjlover.net/ap/meteor.na.ringe.avi/meteor.na.ringe.avi.image4.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -60425,7 +60899,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/f8dede35-8c6c-5709-b7f7-20eeb38beb2a/AQACE_IrIDKosC7Gi1lPwdnoKwtGhtZTtqoK6aPDLO5MTikJzhmnb0fREJaS4yoqag2Yncib25FYNuwj8AYOJ06vt0I.jpg",
+      "url": "https://i.okcdn.ru/videoPreview?fn=external_8&id=68881418792&idx=13&tkn=d0tRqxbx_HHqWhICPgf72VtkpjU&type=32",
       "studios": [
         "Кино Mail"
       ]
@@ -61991,7 +62465,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/244af4a3-30c7-53f4-9818-1f9f6beeb6f9/AQAC2p676Rb2le8olvnaiwVVjjpTQnJGvBsEYHyFX-Qx3ck7AKupbdPDbQN8PU7KFrXdQ3iY7rk91salmteVkEuILk8.jpg",
+      "url": "https://resizer.mail.ru/p/de3164f4-918a-5074-b8d5-2c5e5d7bfc29/AAACCrhGRehy7pmCWX8xu5DG_XIAdV4X94mVECAO7UDY5WKsoNViZ2KdY_3OWe84dMa6sMHDdOaDmc0eElZGawiHwIQ.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -62133,7 +62607,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/1063ccdb-f93a-52bd-a97b-260a4899cd2b/AQAClUdr4S-NVXZF97Zq0wy2-lCGZtS5tQ9mulQMCXk-YMCvavuAhV_CnoiI30V7nPHOe8fWwp7T3J-OCJlGnVjH158.jpg",
+      "url": "https://stuki-druki.com/film/images/kadr-rasmus-brodyaga-1978-08.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -62621,7 +63095,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/38a87710-3987-5ee6-bec7-98513dd68292/AQAC1CUG_DmVYIcjQ0U8-44RfnSWc9jPLOd6vxqsY7pDjke3fvhynLjJCdQBibnXd4RXTd0DQ8uW_jc6_BxmwQymRXk.jpg",
+      "url": "https://s2.dmcdn.net/v/8rduD1MymFW76grL6/x480",
       "studios": [
         "Кино Mail"
       ]
@@ -62671,7 +63145,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/b4c932b2-f711-5d19-b179-69d3762fd834/AQACXT6WqPB8usXfrc6Vgfgp4-gmV8hRuXH3FWeFH6-Mo-aAP5fZ6ApTAN1i6PaWMNG3LkVtP057ymzf0jM4taPVTX8.jpg",
+      "url": "https://www.slavicsac.com/wp-content/uploads/2020/01/ostapenko-696x459.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -63655,7 +64129,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/d48b9f92-ea50-5239-81a4-9de302067ab0/AQACO7kH18CCLZRDxoyMCxNoO-M7UFjT7HGCxf-1k_1UXIlhadzYHuozn80lD-AZQtxT0lfTRWocna7FqN57kn-r7xE.jpg",
+      "url": "https://i.mycdn.me/videoPreview?fn=external_8&id=135722961567&idx=0&tkn=tZYfAuB_y-q8vTx3OZiAnd8zqwQ&type=32",
       "studios": [
         "Кино Mail"
       ]
@@ -63703,7 +64177,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/2dd7e328-bc63-56f7-854f-68911ed58a12/AQAC9J3TJfvNJ57ai4q_bheo5ORGBKZhdPCwPGAWii48eei9ILFoARKx1mjEISz1tsVlzKdBp3NeFIZ1LzEVbF_SdSA.jpg",
+      "url": "https://kulturologia.ru/files/u8921/detskie-filmi-31.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -64528,7 +65002,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/836f4907-b163-533b-84c4-69a13db19b44/AQACTSeE0dszRoZ6SBWzUVGb-UuKLqv-2sAOrtrcHeL42sSASYibNlp9uDQSu7qVvoA1R1O-EKAyOc-WqHhPtRf0jD4.jpg",
+      "url": "https://img51994.domkino.tv/img/2019-11-04/fmt_97_624_kadr-8.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -65949,7 +66423,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/7815d39a-f215-5af2-8310-dddcab84a26e/AQACIvd-5wC_Lq9F7LtUSi3Mw5mUUkB91W3eEvcr76vuua4DZ-3Un3g1pv8A3Cc4sP0aWJMdFupvwwg-bMr6uz8DxpY.jpg",
+      "url": "https://stuki-druki.com/film/images/kadr-alie-pogoni-13.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -68790,7 +69264,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/df05159a-cbb9-5c3e-8c0e-33ec7c9d48bf/AQACq_CVlv96XTf2jFR8yte2xWRaJQAMYauiy0bVrxLjTxICsyAXGpS8fA-S2R2xm6NWI4YiOdk4teOEYilliNukwNA.jpg",
+      "url": "https://iv.okcdn.ru/videoPreview?fn=external_8&id=1996106042106&idx=12&tkn=K60rK7sibIoZ13qZp-UsQzf5B48&type=32",
       "studios": [
         "Кино Mail"
       ]
@@ -73433,7 +73907,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/cfd71bd0-8dc4-59c0-a724-087279c0e8c6/AQAC-yuKHYBlVF2_g3OqgtZ-olz4eyLyI2fyzXZ95AMcEV7gyIe813KkYR8GsCm2jpS-NLw1tKVaYn2CYKqzfXC-CyM.jpg",
+      "url": "https://m.media-amazon.com/images/M/MV5BYzlkMzM3NTAtNjg2MS00YTE4LWIxMTktZjhjOTI4YzZmNWFkXkEyXkFqcGc%40._V1_.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -74330,7 +74804,7 @@
       "rationale": "Возраст выбран с учётом сложности сюжета, длительности произведения и возможных эмоционально напряжённых эпизодов."
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/7f87a2c9-fda8-5b8f-aaa0-888e461df092/AQACToRz71MSQ0qCZhZUZhB4l00jpfAgKyXs35mwMvzgt4diItKiu1J-fosnR0ybMfEf9qHGItdbNiqi0fofrIsXjak.jpg",
+      "url": "https://m.media-amazon.com/images/M/MV5BNTJmZWViNTItYWU2ZS00Y2RmLTk2MTMtYzE3YTE1YjBmNTZjXkEyXkFqcGc%40._V1_.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -79946,7 +80420,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/26f82e96-ab18-5495-b616-d6fd883f98ae/AQACChBGSddpBolmOonLwr2aS3y4Wc_8-XnSiM9qrZnoRRhIQmBTohpouoIIrd-LrirxMocQnRAmak2iiiwq9fUchN8.jpg",
+      "url": "https://www.kinonews.ru/insimgs/2025/shotimg/shotimg132659_6.webp",
       "studios": [
         "Кино Mail"
       ]
@@ -82040,7 +82514,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/191e51c8-1ec5-5d19-be9d-61447e06a7ee/AQACN_LRY-KyZkuHuodtVzHgcsv-vGoS1LtXJ2hALL7nAzBYtRMW5j28G-aZuLc7Ka7krIT04tqLGGmPx-5_tXJpsBc.jpg",
+      "url": "https://resizer.mail.ru/p/1a0d7255-b709-5ebc-8913-9b9aa10552ec/AAACY4U7HaVMjqdEqsJhxhEDgudIGfUme607qy-nUpAHBBFP_7pDPHANMKLm8OKzjRmIBHN1m9BI-GxfRgh0a9tFeQ4.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -82824,7 +83298,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/04553ed6-c650-5686-9dd4-ee1817cb177c/AQACyK2Zt-ub8OAqpZGU2ooD1ZrdIMSab3kSQkenejG3pK4I5OZtWQpcBMzzO6mj2Dk_2dUcaEx3j1tIH5JOliziCfU.jpg",
+      "url": "https://stuki-druki.com/film/images/kadr-cvetik-semicvetik-1968-06.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -83350,7 +83824,7 @@
       "rationale": "Возраст выбран с учётом сложности сюжета, длительности произведения и возможных эмоционально напряжённых эпизодов."
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/a7bb4877-f8d8-57c8-be84-6f150911d87c/AQACHkeCs4O69g9xFQfASM20NwCeop9jGx_FqCGAOx6aCG-yHGG0ClYElsp4xlvDXyFX6DRpcYGJPNLRWQn1NWIZdw4.jpg",
+      "url": "https://static.kinoafisha.info/k/movie_shots/1920x1080/upload/movie_shots/3/9/1/8359193/c50dfbe9aad0fce4210712a10f5aada7.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -85925,7 +86399,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/a118a828-9946-5ecc-9925-4fa4dc9b413f/AQACCLF6jM5mg2ELCYAeSIJyOCdsVbo9vqnDPSSbVXs1m1HqlYablYRBtCCbWnSf6eCo0XBEB0qNirOj3kuJEXMtgCA.jpg",
+      "url": "https://allmults.org/img/f_b/5/4027/4.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -88708,7 +89182,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/75b600b2-f74f-53a1-84cd-b79ad9f52d7f/AQAC_jx2_B2miUzHvOoXa_aBe3KPbdsmzXYwP7jkJ1tSdoNUM4TCY-nisj99cDd97pQ1CkwYmVbzqJcYy3xk4rr11U8.jpg",
+      "url": "https://s3picturehouses.s3.eu-central-1.amazonaws.com/images/uploads/Film%20Images/ChickenTown-m.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -93142,7 +93616,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/b2172fe6-8e2e-52f5-b3b4-d87dff68c75b/AQACCDgVpHIMh_ssUvLaXRIMPO6T0OmlexISZ_ctxPGxVZPKNJDcZtuv3MZciP404spHEEmWNNXm2X3qLfx3tUomRbY.png",
+      "url": "https://d16x8vkrvdg2ca.cloudfront.net/ema_episodes/amebatv-talkingangelaintheci_1375_episode_46540-Full-Image-en-US.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -96821,7 +97295,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/c2c7be14-8028-515a-9314-dec2244bb5af/AQACVFSu2h2-GxCi9a69W99PoqIGsLU41AKHTjFKuMtgbrZFd1WTphLz8YefZnDEfjwlmBCrS-qw-JHE9PlNU3Ec3uQ.jpg",
+      "url": "https://filmwerte-vod.b-cdn.net/videos/225/22565cd3-5c3f-43e3-b549-904dce1c82c5/artworks/f3d3d5f8-1243-494f-859b-67d0068039bb.jpg?height=720&width=1280",
       "studios": [
         "Кино Mail"
       ]

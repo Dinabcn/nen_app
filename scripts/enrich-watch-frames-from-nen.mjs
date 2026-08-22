@@ -16,6 +16,7 @@ const paths = {
   webApplyReport: path.join(root, "data/reports/watch-stills-web-apply.json"),
   webBacklogApplyReport: path.join(root, "data/reports/watch-stills-web-backlog-apply.json"),
   tailReviewReport: path.join(root, "data/reports/watch-stills-tail-review.json"),
+  finalCandidatesReport: path.join(root, "data/reports/cache/watch-stills-final-candidates.json"),
   tailApplyReport: path.join(root, "data/reports/watch-stills-tail-apply.json"),
 };
 
@@ -460,8 +461,8 @@ async function applyWebResearchBacklog(catalog) {
   const candidates = research.items.filter((item) => item.status === "CANDIDATE_STILL");
   const recoverableRejected = previousApply.rejectedItems.filter((item) => {
     const reasons = item.reasons ?? [];
-    return item.probe?.width >= 800 && item.probe?.aspectRatio >= 1.3 && item.probe?.aspectRatio <= 3
-      && reasons.length > 0 && reasons.every((reason) => /^ширина меньше 1000 px:/u.test(reason));
+    return item.probe?.width >= 600 && item.probe?.aspectRatio >= 1.1 && item.probe?.aspectRatio <= 3
+      && reasons.length > 0 && reasons.every((reason) => /^ширина меньше 1000 px:|^изображение не горизонтальное:/u.test(reason));
   });
   const queue = [
     ...candidates.map((item) => ({ ...item, backlogGroup: "candidate" })),
@@ -516,7 +517,7 @@ async function applyWebResearchBacklog(catalog) {
           if (!mime?.startsWith("image/")) reasons.push(`неверный MIME: ${mime ?? "не указан"}`);
           if (!dimensions.width || !dimensions.height) reasons.push("не удалось определить размеры");
           else {
-            if (dimensions.width < 800) reasons.push(`ширина меньше 800 px: ${dimensions.width}`);
+            if (dimensions.width < 600) reasons.push(`ширина меньше 600 px: ${dimensions.width}`);
             if (aspectRatio < 1.1 || aspectRatio > 3) reasons.push(`неподходящие пропорции: ${aspectRatio.toFixed(3)}`);
           }
         }
@@ -552,14 +553,21 @@ async function applyWebResearchBacklog(catalog) {
 
 async function applyTailReview(catalog) {
   const review = await readJson(paths.tailReviewReport, null);
+  const finalCandidates = await readJson(paths.finalCandidatesReport, { items: [] });
   const previousApply = await readJson(paths.tailApplyReport, { appliedItems: [] });
   if (!Array.isArray(review?.items)) throw new Error("Нужен data/reports/watch-stills-tail-review.json.");
   const byId = new Map(catalog.map((record) => [record.id, record]));
+  const reviewItems = [...review.items];
+  for (const candidate of finalCandidates.items ?? []) {
+    const record = byId.get(candidate.watchId);
+    if (!record || reviewItems.some((item) => item.watchId === candidate.watchId && item.imageUrl === candidate.imageUrl)) continue;
+    reviewItems.push({ ...candidate, originalTitle: record.originalTitle, year: record.year });
+  }
   const existingUrls = new Map(catalog.filter((record) => record.frame?.url).map((record) => [record.frame.url, record.id]));
   const accepted = [];
   const rejected = [];
   const forbidden = /poster|постер|cover|облож|logo|логотип|fan.?art|wallpaper|banner|portrait|headshot|actor|actress|director|trailer|teaser|pinterest/iu;
-  for (const item of review.items) {
+  for (const item of reviewItems) {
     const record = byId.get(item.watchId);
     const reasons = [];
     const previous = (previousApply.appliedItems ?? []).find((entry) => entry.watchId === item.watchId && entry.imageUrl === item.imageUrl);
@@ -588,7 +596,7 @@ async function applyTailReview(catalog) {
           if (!mime?.startsWith("image/")) reasons.push(`неверный MIME: ${mime ?? "не указан"}`);
           if (!dimensions.width || !dimensions.height) reasons.push("не удалось определить размеры");
           else {
-            if (dimensions.width < 800) reasons.push(`ширина меньше 800 px: ${dimensions.width}`);
+            if (dimensions.width < 600) reasons.push(`ширина меньше 600 px: ${dimensions.width}`);
             if (aspectRatio < 1.1 || aspectRatio > 3) reasons.push(`неподходящие пропорции: ${aspectRatio.toFixed(3)}`);
           }
         }
@@ -616,7 +624,7 @@ async function applyTailReview(catalog) {
     return { ...record, frame: { url: item.imageUrl, ...(studios ? { studios: [...studios] } : {}) } };
   });
   await writeJsonAtomic(paths.catalog, updated);
-  await writeJsonAtomic(paths.tailApplyReport, { generatedAt: now(), totalCatalog: updated.length, reviewed: review.items.length,
+  await writeJsonAtomic(paths.tailApplyReport, { generatedAt: now(), totalCatalog: updated.length, reviewed: reviewItems.length,
     applied: finalAccepted.length, rejected: rejected.length, appliedItems: finalAccepted, rejectedItems: rejected });
   console.log(JSON.stringify({ reviewed: review.items.length, applied: finalAccepted.length, rejected: rejected.length }, null, 2));
 }
