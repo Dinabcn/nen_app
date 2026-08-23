@@ -2336,6 +2336,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Размеренный фильм требует готовности следить за бытовыми событиями без постоянного конфликта. Одиночество Кики, потеря уверенности и напряжённое спасение Томбо эмоциональны, но показаны без мрачных или жестоких образов."
+    },
+    "frame": {
+      "url": "https://s3.amazonaws.com/intanibase/iad_screenshots/1989/20685/35.jpg"
     }
   },
   {
@@ -2644,6 +2647,9 @@
       "minAge": 8,
       "maxAge": 13,
       "rationale": "Длительные сражения, ракеты и прямая угроза детям рассчитаны на школьников, способных воспринимать стилизованное супергеройское насилие."
+    },
+    "frame": {
+      "url": "https://www.cinematicfreeze.com/wp-content/uploads/2025/09/nggallery_import/The-Incredibles-2004-stills-26.jpg"
     }
   },
   {
@@ -5274,6 +5280,9 @@
     "nenAgeRecommendation": {
       "minAge": 6,
       "rationale": "С шести лет дети удержат две параллельные линии; эпизод об оставленной игрушке может вызвать грусть."
+    },
+    "frame": {
+      "url": "https://s3.amazonaws.com/intanibase/iad_screenshots/1999/13753/9.jpg"
     }
   },
   {
@@ -7061,6 +7070,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: тёмные образы могут тревожить, но темп спокойный и развязка поддерживающая."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMjA4NDE4NTY1OF5BMl5BanBnXkFtZTgwOTUzMDk5MjE%40._V1_.jpg"
     }
   },
   {
@@ -24940,6 +24952,9 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Для самостоятельного понимания истории желателен возраст от 7 лет, особенно когда повествование касается темы «школьная драка»."
+    },
+    "frame": {
+      "url": "https://s3.amazonaws.com/rtvc-assets-misenal.tv/ms-public/inline-images/anina_fotograma.jpeg"
     }
   },
   {
@@ -25999,6 +26014,9 @@
       "minAge": 9,
       "maxAge": 15,
       "rationale": "В 9 лет и старше уже проще отделить фантастическое или комическое действие от серьёзного содержания темы «смерть животных»."
+    },
+    "frame": {
+      "url": "https://www.intofilm.org/intofilm-production/scaledcropped/970x546https%3A/i.ibb.co/w4dV662/Even-Mice-Belong-in-Heaven-Image-3.jpg/Even-Mice-Belong-in-Heaven-Image-3.jpg"
     }
   },
   {
@@ -34008,7 +34026,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/7ada0660-e84b-5b90-8fe2-af6e5158eba0/AQACOZod-a4Bz_q2WqQpfPjx2fMjDiJjJJbNd1kV3ew-6psHzVti3H8Az9nu_Tlm0Iof0wg9WMkJOyoPX-qwgt7u1sk.jpg",
+      "url": "https://m.media-amazon.com/images/M/MV5BYTA0MDYzNWMtY2QwZi00NzViLTllZDgtZjBlN2Y4Y2Q0NDk1XkEyXkFqcGc%40._V1_.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -35966,7 +35984,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/fae56f07-543c-5a59-a0f9-1571ac9a891e/AQACF6Nrcx5prfVuKR_CBjO-0MYyb_C5y005bLVrY1fs3FmwlCUi8tMPO_kTqi_2mzPFs-bahiEgd5914zRblgCr-b8.jpg",
+      "url": "https://canvas.tubitv.com/opts/RCHo5P36g9TVMA%3D%3D/8cc85639-4eb6-470a-8b96-d59c4a02e736/CIAPEKQFOgUxLjEuMg%3D%3D",
       "studios": [
         "Кино Mail"
       ]
@@ -36994,7 +37012,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/bc077a90-e3f0-52dd-9873-b1b0cb15c6af/AQACCFCQ--T5m_ftAQO3JaDfU1hxbpUYks2B1MkWftcWZORFX0dQLKfUa3g7Bak7DDwHr9qaaIi3Du4Gg4xoiM3VeZQ.jpg",
+      "url": "https://s5.afisha.ru/mediastorage/90/7f/f8e4124622f143829088ff567f90.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -38546,7 +38564,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/17cfae39-d846-506a-9cfc-6de3880d0c3a/AQACuNlEwVmSxIGkzKcOVHd3m8H_JX_8uWMK_v2RQj9ufCGlDIS49Y-36oq9cih8AugEhKPJ_BowZwWkEq4sszKSkek.jpg",
+      "url": "https://m.media-amazon.com/images/M/MV5BZDI2NDk4YTQtNzYxZi00YmE1LWIwMWItM2E4YjY2NzFmMmU0XkEyXkFqcGc%40._V1_.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -38736,7 +38754,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/44922528-77a3-5dd7-9fd1-5b4fcb77586c/AQACSZrs6tomQcwDNreLUB4nySrEAx3J6PgXRZBxg5XEroWUQuPfcu2HrvwcEUzXFxQgGyLJbukFBAaWG0zKOUyub4M.jpg",
+      "url": "https://m.media-amazon.com/images/S/pv-target-images/8f7f48561f47603ad93b39258d98722155876711d7d34f9620638f9c019ad387.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -41722,7 +41740,7 @@
       "rationale": "Возраст выбран с учётом сложности сюжета, длительности произведения и возможных эмоционально напряжённых эпизодов."
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/d9fb1f13-bd01-5407-9a22-834a5e4caad5/AQACtzplYFShzCYebpWX7squt4voQ7jRDSH3FWhPcFs5dI8B0Wo2SEWiF4YWS-BQr-kdPXeOuVMupO3ssGcy8MNP0Jc.jpg",
+      "url": "https://www.commonsensemedia.org/sites/default/files/styles/ratio_16_9_large/public/screenshots/csm-tv/musti-ss04.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -49105,7 +49123,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/ce492619-06b4-5d11-9dc1-f4102c6c9e02/AQAC8MdzlD9nNRGhItfveAhJDNDAlG8zBfD1ZICqsvIGY-MDwaVIhwhYX2ppKjvWV2lGMSU1oHF3ykz8-HeE3lP3O4U.jpg",
+      "url": "https://img.tvspielfilm.de/97/f8/f0/5473d20de4b03c03eaf0f897.jpeg?im=Crop%2Crect%3D%280%2C0%2C720%2C473%29%2Cgravity%3DCenter%3BResize%2Cwidth%3D632",
       "studios": [
         "Кино Mail"
       ]
@@ -53819,7 +53837,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/c5a21b04-6539-5fbc-ba65-586c2999de13/AQACAc-lTKHixDe0LQDbD9QvzEtvFhVwBg6EfNRhlMaWUh9ir6CNxWM4OhhW01vrGQssmLS3c61xYuqSWkiOVrZpy1s.jpg",
+      "url": "https://m.media-amazon.com/images/M/MV5BMjExOTg2MzQ0OF5BMl5BanBnXkFtZTgwNTc2ODcxMzE%40._V1_FMjpg_UX1000_.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -56594,7 +56612,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/7306a646-e5e5-5049-b70d-0b3a3aa39ddf/AQACfnZeIYWj4RtIJkOVK0K72YEvxMv4_atz5PAg1eoWLPrrs8pkEy3btrU25N0MlDNqZwItF2Dpn-ySoWd0pkcFNEk.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Video117/v4/8d/c4/5f/8dc45ff8-daad-b063-e280-0a1f3d377513/Job7e969f58-a6af-4864-b60e-9b02b368ca6c-96994429-PreviewImage_preview_image_62000-92000-62000_en_sdr-Time1495962819995.png/1200x675mf.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -59711,7 +59729,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/0c753322-fd24-5ace-91c8-5d42962f8f45/AQAChIPR4PNe3L5J_fvLxlG8vE7o1-dG3O6zGhoqGZs0qLK5_a0nNmFKh8O9CWMIvjVHbAdH_QLxdXCh4d9Ty_uFnWA.jpg",
+      "url": "https://imageservice.disco.peacocktv.com/uuid/675167ba-876e-3b0b-8ee0-f09091bb382c/LAND_16_9?language=eng&proposition=NBCUOTT&version=831b8112-33b0-3858-b0a9-7357c56472c4",
       "studios": [
         "Кино Mail"
       ]
@@ -61102,7 +61120,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/1708b5bb-7d1b-57ee-b1ff-393e0061abd4/AQAC39zLNhbR_XtDhJ-FRTTGQiiLnHOD5VTvKrLQ2fw5r-NfCwoLlsFxKI5Yx5i3vl4jLHwX2zcZWdZqwAJf2nLAVC0.jpg",
+      "url": "https://image.tmdb.org/t/p/original/3qmjGoB7ACDefxkv7ICURXzLxcr.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -68286,7 +68304,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/e7c58287-32eb-5405-899d-d92ce7015651/AQACKmOty5zNentRJmBuL8QKI29V10NHvNk8EOa_NPwpsvO40WnJI8revIij6IvqZCziUYsGexnXH4VfvNJrM1aAUmg.jpg",
+      "url": "https://is3-ssl.mzstatic.com/image/thumb/qht6tEgzjlBTSQSKNohd9g/1200x675.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -74485,7 +74503,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/aff83919-57d5-506f-9ae2-8bec03ef13fb/AQACQEiEe4x1Styg1DeLNewcTh4NiFE9GPK6f_4be4ytLUJ3qhsDdgZSfnbva2iENiWktBVuSRdwIw--_Ix5eHuUzmI.jpg",
+      "url": "https://image.tmdb.org/t/p/w780/n2sknw5Z1QdOQmVUQNQ1QZ5aKk2.jpg",
       "studios": [
         "Кино Mail"
       ]

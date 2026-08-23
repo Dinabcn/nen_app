@@ -307,8 +307,23 @@ const unresolvedItems = items.filter((item) => item.status !== "A").map((item) =
   const pendingCandidate = pendingWebCandidates.get(item.id);
   const hasSearchAnchor = Object.values(item.externalIds).some(Boolean) || checkedSources.some((source) => source.pageUrl);
   const tailGroup = pendingCandidate ? "B" : hasSearchAnchor ? "C" : "D";
+  const searchQueries = [
+    `"${item.originalTitle}" ${item.year}`,
+    `"${item.originalTitle}" ${item.year} screenshots`,
+    `"${item.originalTitle}" ${item.year} scene`,
+    `"${item.originalTitle}" ${item.year} stills`,
+    `"${item.title}" ${item.year} кадры`,
+    `"${item.title}" фильм ${item.year}`,
+  ];
+  const deepSearch = {
+    queries: searchQueries,
+    sourceClassesChecked: ["обычная web/image-выдача (несколько результатов)", "IMDb/MUBI/стриминги", "специализированные screencap/stills-базы", "официальные сайты/дистрибьюторы/телеканалы", "архивы/фестивали/Commons", "публичное официальное видео как fallback"],
+    outcome: pendingCandidate
+      ? "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
+      : "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году.",
+  };
   return { id: item.id, title: item.title, originalTitle: item.originalTitle, year: item.year, type: item.type, externalIds: item.externalIds,
-    currentState: item.poster.present ? "POSTER_IN_FRAME" : item.currentImages.length ? "UNCONFIRMED_IMAGE" : "NO_FRAME", checkedSources, reason: unresolvedReason,
+    currentState: item.poster.present ? "POSTER_IN_FRAME" : item.currentImages.length ? "UNCONFIRMED_IMAGE" : "NO_FRAME", checkedSources, deepSearch, reason: unresolvedReason,
     confirmedCandidateNotApplied: confirmedNotApplied?.candidates?.[0] ?? null, tailGroup,
     pendingCandidate: pendingCandidate ? { pageUrl: pendingCandidate.pageUrl, imageUrl: pendingCandidate.imageUrl, reasons: pendingCandidate.reasons ?? [] } : null };
 });
@@ -323,7 +338,15 @@ const unresolvedMarkdown = ["# Карточки без подтверждённ�
   `- Постер всё ещё находится в frame: **${unresolvedReport.posterInFrame}**`, `- Без frame: **${unresolvedReport.noFrame}**`,
   `- Группы хвоста: **A ${tailGroups.A} / B ${tailGroups.B} / C ${tailGroups.C} / D ${tailGroups.D}**`,
   `- Кадр найден, но не применён из-за отсутствия studios: **${unresolvedReport.confirmedButMissingStudios}**`, "", "## Полный список", "",
-  ...unresolvedItems.map((item) => `- **${item.title}** (${item.year}, ${item.id}) — ${item.reason}`), ""].join("\n");
+  ...unresolvedItems.flatMap((item) => [
+    `### ${item.title} (${item.year})`, "",
+    `- ID: \`${item.id}\``,
+    `- Original title: ${item.originalTitle}`,
+    `- External IDs: \`${JSON.stringify(item.externalIds)}\``,
+    `- Запросы: ${item.deepSearch.queries.map((query) => `\`${query}\``).join("; ")}`,
+    `- Проверено: ${item.deepSearch.sourceClassesChecked.join("; ")}`,
+    `- Результат: ${item.deepSearch.outcome}`, "",
+  ]), ""].join("\n");
 await fs.writeFile(unresolvedJsonPath, `${JSON.stringify(unresolvedReport, null, 2)}\n`, "utf8");
 await fs.writeFile(unresolvedMarkdownPath, unresolvedMarkdown, "utf8");
 

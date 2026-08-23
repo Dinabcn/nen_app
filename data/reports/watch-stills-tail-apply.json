@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-23T12:09:09.300Z",
+  "generatedAt": "2026-08-23T15:01:45.718Z",
   "totalCatalog": 2074,
-  "reviewed": 185,
-  "applied": 160,
-  "rejected": 25,
+  "reviewed": 205,
+  "applied": 179,
+  "rejected": 26,
   "appliedItems": [
     {
       "watchId": "nen-wd-q587692",
@@ -1470,9 +1470,9 @@
         "format": "jpeg",
         "aspectRatio": 1.7727272727272727,
         "hash": "sha256:7cbe9b7ec8eba1802070e077dc40aa71e7355794de4206a925a10e90a1a150f9",
-        "checkedAt": "2026-08-23T12:08:43.139Z"
+        "checkedAt": "2026-08-23T15:01:32.788Z"
       },
-      "validatedAt": "2026-08-23T12:08:43.139Z"
+      "validatedAt": "2026-08-23T15:01:32.788Z"
     },
     {
       "watchId": "nen-646",
@@ -1868,10 +1868,9 @@
         "format": "jpeg",
         "aspectRatio": 1.0165184243964422,
         "hash": "sha256:8ea16f96698a17f3651cbbfe7549cbcaba721b67a16beadd1a607f0140900689",
-        "checkedAt": "2026-08-23T12:06:27.314Z"
+        "checkedAt": "2026-08-23T15:01:33.904Z"
       },
-      "validatedAt": "2026-08-23T12:06:27.314Z",
-      "reusedValidation": true
+      "validatedAt": "2026-08-23T15:01:33.904Z"
     },
     {
       "watchId": "nen-mail-904769",
@@ -2078,9 +2077,9 @@
         "format": "jpeg",
         "aspectRatio": 1.0606060606060606,
         "hash": "sha256:8ea5e4e4414a19516142919d32ba678d6fbe18b0c7851fd6d12eec5c70c70227",
-        "checkedAt": "2026-08-23T12:08:43.886Z"
+        "checkedAt": "2026-08-23T15:01:34.354Z"
       },
-      "validatedAt": "2026-08-23T12:08:43.886Z"
+      "validatedAt": "2026-08-23T15:01:34.354Z"
     },
     {
       "watchId": "nen-wd-q617969",
@@ -2856,7 +2855,8 @@
         "hash": "sha256:ae6875938d727985a413a7e69ace90824e211cbce008265217398b8494444590",
         "checkedAt": "2026-08-23T12:08:45.983Z"
       },
-      "validatedAt": "2026-08-23T12:08:45.983Z"
+      "validatedAt": "2026-08-23T12:08:45.983Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q637208",
@@ -2876,7 +2876,8 @@
         "hash": "sha256:2bf4a74b92626f9c7369ec14c9378763469092c521e6af8eb91e41d677da0454",
         "checkedAt": "2026-08-23T12:08:46.336Z"
       },
-      "validatedAt": "2026-08-23T12:08:46.336Z"
+      "validatedAt": "2026-08-23T12:08:46.336Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q923497",
@@ -2896,7 +2897,8 @@
         "hash": "sha256:1e2223a1fcc4eee3de0c16928951584f6155915e4302786dcd23696e5766ced9",
         "checkedAt": "2026-08-23T12:08:48.914Z"
       },
-      "validatedAt": "2026-08-23T12:08:48.914Z"
+      "validatedAt": "2026-08-23T12:08:48.914Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q177145",
@@ -2916,7 +2918,8 @@
         "hash": "sha256:0fd26b064a05d7a1c2dfa41fb1761c611e46b000469acc89f922aa2add3db3da",
         "checkedAt": "2026-08-23T12:08:49.586Z"
       },
-      "validatedAt": "2026-08-23T12:08:49.586Z"
+      "validatedAt": "2026-08-23T12:08:49.586Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q492339",
@@ -2936,7 +2939,8 @@
         "hash": "sha256:7196a9b317f04e180f9f39d6f728f9086eb43f72d049296ed56f1de64eea9b96",
         "checkedAt": "2026-08-23T12:08:50.554Z"
       },
-      "validatedAt": "2026-08-23T12:08:50.554Z"
+      "validatedAt": "2026-08-23T12:08:50.554Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q724491",
@@ -2956,7 +2960,8 @@
         "hash": "sha256:a524c3f178cc65501ed1596124968a2ad3b7ec29ac5af320e35f667a41698c37",
         "checkedAt": "2026-08-23T12:08:50.907Z"
       },
-      "validatedAt": "2026-08-23T12:08:50.907Z"
+      "validatedAt": "2026-08-23T12:08:50.907Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q660727",
@@ -2976,7 +2981,8 @@
         "hash": "sha256:ebc3a002282e83d8adeacd141510090d8976f95eb6da07c1c3c97ea030e7e390",
         "checkedAt": "2026-08-23T12:08:52.085Z"
       },
-      "validatedAt": "2026-08-23T12:08:52.085Z"
+      "validatedAt": "2026-08-23T12:08:52.085Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q1798105",
@@ -2996,7 +3002,8 @@
         "hash": "sha256:c6642e3198c034c14cf3545557ed2d2eb2c4b4569d50af3c4985baaf503625cc",
         "checkedAt": "2026-08-23T12:08:54.742Z"
       },
-      "validatedAt": "2026-08-23T12:08:54.742Z"
+      "validatedAt": "2026-08-23T12:08:54.742Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q849343",
@@ -3016,7 +3023,8 @@
         "hash": "sha256:22e7afad12bb09f280ba09f15dd4d348d64de996d927ecc86a896fe47a9a2518",
         "checkedAt": "2026-08-23T12:08:55.717Z"
       },
-      "validatedAt": "2026-08-23T12:08:55.717Z"
+      "validatedAt": "2026-08-23T12:08:55.717Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q888434",
@@ -3036,7 +3044,8 @@
         "hash": "sha256:241d74daf00e40a363463b7d633fe0c30bef9837df4d53d12ef56cdf4896cffe",
         "checkedAt": "2026-08-23T12:08:57.228Z"
       },
-      "validatedAt": "2026-08-23T12:08:57.228Z"
+      "validatedAt": "2026-08-23T12:08:57.228Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q1937645",
@@ -3056,7 +3065,8 @@
         "hash": "sha256:d8757634501ee66401f29a8ec4c10522d0637ee66bd79dc956bc3f235d7b29ff",
         "checkedAt": "2026-08-23T12:08:57.613Z"
       },
-      "validatedAt": "2026-08-23T12:08:57.613Z"
+      "validatedAt": "2026-08-23T12:08:57.613Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q108852813",
@@ -3076,7 +3086,8 @@
         "hash": "sha256:ff2f3050f43b56865854a5079aea29e3b885f4ba49c74354da4dba2df0e2eae0",
         "checkedAt": "2026-08-23T12:08:58.227Z"
       },
-      "validatedAt": "2026-08-23T12:08:58.227Z"
+      "validatedAt": "2026-08-23T12:08:58.227Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q116733947",
@@ -3096,7 +3107,8 @@
         "hash": "sha256:210f5825ed5741a191d327c8f36f3e6158dea8578400fc6bc6b725c61d9d9cde",
         "checkedAt": "2026-08-23T12:08:58.456Z"
       },
-      "validatedAt": "2026-08-23T12:08:58.456Z"
+      "validatedAt": "2026-08-23T12:08:58.456Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-332",
@@ -3116,7 +3128,8 @@
         "hash": "sha256:79f1c0e661f6a4916de43c553b701ec87a8f416b84bd4c7b321769b86ba3a399",
         "checkedAt": "2026-08-23T12:09:02.920Z"
       },
-      "validatedAt": "2026-08-23T12:09:02.920Z"
+      "validatedAt": "2026-08-23T12:09:02.920Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-340",
@@ -3136,7 +3149,8 @@
         "hash": "sha256:1f6f5015cdc5047dd8389ebfd28dffbd29b7247632e666280858ba9b1f58d15a",
         "checkedAt": "2026-08-23T12:09:03.292Z"
       },
-      "validatedAt": "2026-08-23T12:09:03.292Z"
+      "validatedAt": "2026-08-23T12:09:03.292Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-544",
@@ -3156,7 +3170,8 @@
         "hash": "sha256:c30eb7dcf5f363492983b8ddccc36e20434812aa926bf60a417c5c899fec0e49",
         "checkedAt": "2026-08-23T12:09:03.776Z"
       },
-      "validatedAt": "2026-08-23T12:09:03.776Z"
+      "validatedAt": "2026-08-23T12:09:03.776Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-doc-oceans-2009",
@@ -3176,7 +3191,8 @@
         "hash": "sha256:a9f78acd6e4ca5720c34c3ed7a9e8d3b9db3de2c0e1c321ad3a5deb5894c303b",
         "checkedAt": "2026-08-23T12:09:04.296Z"
       },
-      "validatedAt": "2026-08-23T12:09:04.296Z"
+      "validatedAt": "2026-08-23T12:09:04.296Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-614",
@@ -3196,7 +3212,8 @@
         "hash": "sha256:e88f1b6dde6f603b8d521156540fffeb0b003a47ce3dd8f44dc0c87c778c0ea4",
         "checkedAt": "2026-08-23T12:09:04.535Z"
       },
-      "validatedAt": "2026-08-23T12:09:04.535Z"
+      "validatedAt": "2026-08-23T12:09:04.535Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-mail-496600",
@@ -3216,7 +3233,8 @@
         "hash": "sha256:1192a803114df460e760bff5756247b76768665adb04308a430ffe8eba8f1dff",
         "checkedAt": "2026-08-23T12:09:05.300Z"
       },
-      "validatedAt": "2026-08-23T12:09:05.300Z"
+      "validatedAt": "2026-08-23T12:09:05.300Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-mail-814162",
@@ -3236,7 +3254,8 @@
         "hash": "sha256:a58b7856da58653258bbdad5cfc039d16e7cdcf04fe11b8f49f8700b5e7f5010",
         "checkedAt": "2026-08-23T12:09:05.910Z"
       },
-      "validatedAt": "2026-08-23T12:09:05.910Z"
+      "validatedAt": "2026-08-23T12:09:05.910Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-mail-781753",
@@ -3256,7 +3275,8 @@
         "hash": "sha256:7c5d5ac1e2c42bc331f865c29738a3841f53cefcc22c1fc57f190e2cd60a9eb5",
         "checkedAt": "2026-08-23T12:09:06.619Z"
       },
-      "validatedAt": "2026-08-23T12:09:06.619Z"
+      "validatedAt": "2026-08-23T12:09:06.619Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-mail-799572",
@@ -3276,7 +3296,8 @@
         "hash": "sha256:7d4e860d5e292f1b90375825573e36686a1c56d85f1dedf2d80fdd0e420c79f2",
         "checkedAt": "2026-08-23T12:09:07.175Z"
       },
-      "validatedAt": "2026-08-23T12:09:07.175Z"
+      "validatedAt": "2026-08-23T12:09:07.175Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q2546045",
@@ -3296,7 +3317,8 @@
         "hash": "sha256:80f4b8390f01cb90e583bd2a6ef669880cd580131e3a1401c9b4e2754ba42326",
         "checkedAt": "2026-08-23T12:09:08.211Z"
       },
-      "validatedAt": "2026-08-23T12:09:08.211Z"
+      "validatedAt": "2026-08-23T12:09:08.211Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q817003",
@@ -3316,7 +3338,8 @@
         "hash": "sha256:a857185aa0f85b86fe3668e1162861a0de8e8765046e3714a3807dd77ccae050",
         "checkedAt": "2026-08-23T12:09:08.462Z"
       },
-      "validatedAt": "2026-08-23T12:09:08.463Z"
+      "validatedAt": "2026-08-23T12:09:08.463Z",
+      "reusedValidation": true
     },
     {
       "watchId": "nen-wd-q509210",
@@ -3336,7 +3359,393 @@
         "hash": "sha256:8ba942ef349a89f79e40fac22c4111b3887c55d5c7cba042cc6ef2877a815c54",
         "checkedAt": "2026-08-23T12:09:09.230Z"
       },
-      "validatedAt": "2026-08-23T12:09:09.230Z"
+      "validatedAt": "2026-08-23T12:09:09.230Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-086",
+      "pageUrl": "https://3863-21905.el-alt.com/iad_entries/screenshots?shortID=20685",
+      "imageUrl": "https://s3.amazonaws.com/intanibase/iad_screenshots/1989/20685/35.jpg",
+      "source": "Internet Animation Database",
+      "match": "exact 1989 Studio Ghibli screenshot page; visually checked frame",
+      "originalTitle": "Majo no takkyūbin",
+      "year": 1989,
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 227942,
+        "width": 720,
+        "height": 388,
+        "format": "jpeg",
+        "aspectRatio": 1.8556701030927836,
+        "hash": "sha256:970ff0ab5b72b942befb51371491ce80d198c4ece35655a9ad2c805715a8cc0e",
+        "checkedAt": "2026-08-23T14:57:31.804Z"
+      },
+      "validatedAt": "2026-08-23T14:57:31.804Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-092",
+      "pageUrl": "https://www.cinematicfreeze.com/the-incredibles-2004-stills/",
+      "imageUrl": "https://www.cinematicfreeze.com/wp-content/uploads/2025/09/nggallery_import/The-Incredibles-2004-stills-26.jpg",
+      "source": "Cinematic Freeze",
+      "match": "exact film/year still gallery; visually checked scene",
+      "originalTitle": "The Incredibles",
+      "year": 2004,
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 102981,
+        "width": 1920,
+        "height": 809,
+        "format": "jpeg",
+        "aspectRatio": 2.373300370828183,
+        "hash": "sha256:29ea886614bc391136feebe733089f9f2bedfe11c5993303f6d9fe47d98dc90f",
+        "checkedAt": "2026-08-23T14:57:31.978Z"
+      },
+      "validatedAt": "2026-08-23T14:57:31.978Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-184",
+      "pageUrl": "https://www.imdb.com/title/tt0836682/mediaviewer/rm400423424/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjA4NDE4NTY1OF5BMl5BanBnXkFtZTgwOTUzMDk5MjE%40._V1_.jpg",
+      "source": "IMDb",
+      "match": "exact IMDb film/year animated scene",
+      "originalTitle": "Nocturna",
+      "year": 2007,
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 202229,
+        "width": 1920,
+        "height": 1080,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:ea78d0ba7d77dcb625cf453d4f213b5a57798fcc2c52595b37f9cb2e897f33b3",
+        "checkedAt": "2026-08-23T14:57:32.138Z"
+      },
+      "validatedAt": "2026-08-23T14:57:32.138Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-574",
+      "pageUrl": "https://www.misenal.tv/para-grandes/peliculas-latinoamericanas-para-ninos",
+      "imageUrl": "https://s3.amazonaws.com/rtvc-assets-misenal.tv/ms-public/inline-images/anina_fotograma.jpeg",
+      "source": "Mi Señal / RTVC",
+      "match": "exact film/year filename fotograma",
+      "originalTitle": "Anina",
+      "year": 2013,
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 91088,
+        "width": 822,
+        "height": 444,
+        "format": "jpeg",
+        "aspectRatio": 1.8513513513513513,
+        "hash": "sha256:f11c09222a7c8d1625c1657275f64b199429b57cf58ea3f663dbc472f3439d6d",
+        "checkedAt": "2026-08-23T14:57:32.385Z"
+      },
+      "validatedAt": "2026-08-23T14:57:32.385Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-596",
+      "pageUrl": "https://www.intofilm.org/resources/1867",
+      "imageUrl": "https://www.intofilm.org/intofilm-production/scaledcropped/970x546https%3A/i.ibb.co/w4dV662/Even-Mice-Belong-in-Heaven-Image-3.jpg/Even-Mice-Belong-in-Heaven-Image-3.jpg",
+      "source": "Into Film",
+      "match": "exact film guide labelled film still",
+      "originalTitle": "I mysi patrí do nebe",
+      "year": 2021,
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 88379,
+        "width": 970,
+        "height": 546,
+        "format": "jpeg",
+        "aspectRatio": 1.7765567765567765,
+        "hash": "sha256:999bfe7c1c38fd81a72ce2bcdc734972c3716eb093a5cb76009dcca8dc45cc07",
+        "checkedAt": "2026-08-23T14:57:32.701Z"
+      },
+      "validatedAt": "2026-08-23T14:57:32.702Z",
+      "reusedValidation": true
+    },
+    {
+      "watchId": "nen-144",
+      "pageUrl": "https://www.intanibase.com/iad_entries/screenshots?shortID=13753",
+      "imageUrl": "https://s3.amazonaws.com/intanibase/iad_screenshots/1999/13753/9.jpg",
+      "source": "Internet Animation Database",
+      "match": "exact Pixar film/year screenshot archive; visually checked scene",
+      "originalTitle": "Toy Story 2",
+      "year": 1999,
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 168132,
+        "width": 853,
+        "height": 480,
+        "format": "jpeg",
+        "aspectRatio": 1.7770833333333333,
+        "hash": "sha256:fb710e471258d2e324130208bd18916410b3f0459158bca6aafb81b7e3ed887b",
+        "checkedAt": "2026-08-23T15:01:37.977Z"
+      },
+      "validatedAt": "2026-08-23T15:01:37.977Z"
+    },
+    {
+      "watchId": "nen-mail-566087",
+      "pageUrl": "https://www.imdb.com/title/tt2058631/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BYTA0MDYzNWMtY2QwZi00NzViLTllZDgtZjBlN2Y4Y2Q0NDk1XkEyXkFqcGc%40._V1_.jpg",
+      "source": "IMDb",
+      "match": "exact title/year character scene",
+      "originalTitle": "The Hidden Treasure of Wompkee Wood",
+      "year": 2009,
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 48859,
+        "width": 704,
+        "height": 400,
+        "format": "jpeg",
+        "aspectRatio": 1.76,
+        "hash": "sha256:e1480a4c85e9f0f8286c5d7bf8608afca17faf6e98ad5af90f4039a3d44c488f",
+        "checkedAt": "2026-08-23T15:01:38.218Z"
+      },
+      "validatedAt": "2026-08-23T15:01:38.218Z"
+    },
+    {
+      "watchId": "nen-mail-838858",
+      "pageUrl": "https://www.primevideo.com/-/de/detail/Angus-Cheryl/0TZULK4CP8ETZ6JWG4LAW2F7FX",
+      "imageUrl": "https://m.media-amazon.com/images/S/pv-target-images/8f7f48561f47603ad93b39258d98722155876711d7d34f9620638f9c019ad387.jpg",
+      "source": "Prime Video",
+      "match": "exact series episode still",
+      "originalTitle": "Angus & Cheryl",
+      "year": 2006,
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 74212,
+        "width": 640,
+        "height": 480,
+        "format": "jpeg",
+        "aspectRatio": 1.3333333333333333,
+        "hash": "sha256:8f7f48561f47603ad93b39258d98722155876711d7d34f9620638f9c019ad387",
+        "checkedAt": "2026-08-23T15:01:38.436Z"
+      },
+      "validatedAt": "2026-08-23T15:01:38.436Z"
+    },
+    {
+      "watchId": "nen-mail-927968",
+      "pageUrl": "https://tv.apple.com/gb/episode/irish-spirit/umc.cmc.18vziuozlpadfqe5qbnz9d5xz?showId=umc.cmc.2jwuyka9lffxqo15mxmy44m03",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Video117/v4/8d/c4/5f/8dc45ff8-daad-b063-e280-0a1f3d377513/Job7e969f58-a6af-4864-b60e-9b02b368ca6c-96994429-PreviewImage_preview_image_62000-92000-62000_en_sdr-Time1495962819995.png/1200x675mf.jpg",
+      "source": "Apple TV",
+      "match": "exact series episode preview frame",
+      "originalTitle": "Big Bugs Band",
+      "year": 2012,
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 161820,
+        "width": 1200,
+        "height": 675,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:7d6ba61bf117441531634786ef1e16ce753f61cd5b3bc34db7a2321ef492409f",
+        "checkedAt": "2026-08-23T15:01:39.758Z"
+      },
+      "validatedAt": "2026-08-23T15:01:39.758Z"
+    },
+    {
+      "watchId": "nen-mail-836233",
+      "pageUrl": "https://www.imdb.com/title/tt4975172/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZDI2NDk4YTQtNzYxZi00YmE1LWIwMWItM2E4YjY2NzFmMmU0XkEyXkFqcGc%40._V1_.jpg",
+      "source": "IMDb",
+      "match": "exact series/year character scene",
+      "originalTitle": "Great Book of Nature",
+      "year": 2000,
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 64633,
+        "width": 748,
+        "height": 560,
+        "format": "jpeg",
+        "aspectRatio": 1.3357142857142856,
+        "hash": "sha256:a12dbedfba3f4639b393dd09bea0ebaf5828c8cb469a19715c928e1be15e5af7",
+        "checkedAt": "2026-08-23T15:01:40.021Z"
+      },
+      "validatedAt": "2026-08-23T15:01:40.021Z"
+    },
+    {
+      "watchId": "nen-mail-914031",
+      "pageUrl": "https://www.tvspielfilm.de/serien/die-gnoufs/",
+      "imageUrl": "https://img.tvspielfilm.de/97/f8/f0/5473d20de4b03c03eaf0f897.jpeg?im=Crop%2Crect%3D%280%2C0%2C720%2C473%29%2Cgravity%3DCenter%3BResize%2Cwidth%3D632",
+      "source": "TV Spielfilm",
+      "match": "exact series scene",
+      "originalTitle": "Les gnoufs",
+      "year": 2004,
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 52504,
+        "width": 632,
+        "height": 415,
+        "format": "jpeg",
+        "aspectRatio": 1.5228915662650602,
+        "hash": "sha256:0c7668ea473d7a545248ad4023691b936dab9bc5db097bd90f7fe0b40f0aee15",
+        "checkedAt": "2026-08-23T15:01:40.772Z"
+      },
+      "validatedAt": "2026-08-23T15:01:40.772Z"
+    },
+    {
+      "watchId": "nen-mail-788003",
+      "pageUrl": "https://tubitv.com/tv-shows/473386/s01-e16-the-secret-of-moon-castle-pt-4",
+      "imageUrl": "https://canvas.tubitv.com/opts/RCHo5P36g9TVMA%3D%3D/8cc85639-4eb6-470a-8b96-d59c4a02e736/CIAPEKQFOgUxLjEuMg%3D%3D",
+      "source": "Tubi",
+      "match": "exact series episode still",
+      "originalTitle": "The Enid Blyton Secret Series",
+      "year": 1997,
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 73474,
+        "width": 1920,
+        "height": 676,
+        "format": "jpeg",
+        "aspectRatio": 2.8402366863905324,
+        "hash": "sha256:5689eee2d84a8e7a3124a7042147bb708f29c75c3e6fae6a31c7478b62cdc148",
+        "checkedAt": "2026-08-23T15:01:41.523Z"
+      },
+      "validatedAt": "2026-08-23T15:01:41.523Z"
+    },
+    {
+      "watchId": "nen-mail-925482",
+      "pageUrl": "https://www.imdb.com/title/tt3765566/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjExOTg2MzQ0OF5BMl5BanBnXkFtZTgwNTc2ODcxMzE%40._V1_FMjpg_UX1000_.jpg",
+      "source": "IMDb",
+      "match": "exact series episode scene",
+      "originalTitle": "Doki",
+      "year": 2013,
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 72215,
+        "width": 1000,
+        "height": 750,
+        "format": "jpeg",
+        "aspectRatio": 1.3333333333333333,
+        "hash": "sha256:334445f671f66faa41943ce005caffc18942c69eec2c9302326272aaebb3c21a",
+        "checkedAt": "2026-08-23T15:01:41.711Z"
+      },
+      "validatedAt": "2026-08-23T15:01:41.711Z"
+    },
+    {
+      "watchId": "nen-mail-939632",
+      "pageUrl": "https://tv.apple.com/us/movie/story-time-with-ms-booksy-spooky-stories/umc.cmc.5yvm1t7f72mmepmmhvj2vsu3z",
+      "imageUrl": "https://is3-ssl.mzstatic.com/image/thumb/qht6tEgzjlBTSQSKNohd9g/1200x675.jpg",
+      "source": "Apple TV",
+      "match": "exact series story frame",
+      "originalTitle": "Story Time with Ms. Booksy",
+      "year": 2012,
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 122529,
+        "width": 1200,
+        "height": 675,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:61fcaff5c891f86b4e917a720095284a8b655a2caac0607c9792bdfa0a03d0dd",
+        "checkedAt": "2026-08-23T15:01:42.251Z"
+      },
+      "validatedAt": "2026-08-23T15:01:42.251Z"
+    },
+    {
+      "watchId": "nen-mail-929693",
+      "pageUrl": "https://www.peacocktv.com/watch-online/tv/the-mighty-ones/8501865675229905112/seasons/4/episodes/clover-the-moss-episode-5/132c413e-5f3e-3274-b6bf-9c86ad7e89cf",
+      "imageUrl": "https://imageservice.disco.peacocktv.com/uuid/675167ba-876e-3b0b-8ee0-f09091bb382c/LAND_16_9?language=eng&proposition=NBCUOTT&version=831b8112-33b0-3858-b0a9-7357c56472c4",
+      "source": "Peacock",
+      "match": "exact series episode still",
+      "originalTitle": "The Mighty Ones",
+      "year": 2020,
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 1180799,
+        "width": 3840,
+        "height": 2160,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:3a72c815e7e234ea16c9516a6b67b10924ed30599929e6d346dd3f4a649f5ce3",
+        "checkedAt": "2026-08-23T15:01:43.664Z"
+      },
+      "validatedAt": "2026-08-23T15:01:43.664Z"
+    },
+    {
+      "watchId": "nen-mail-931917",
+      "pageUrl": "https://watch.plex.tv/show/maisy",
+      "imageUrl": "https://image.tmdb.org/t/p/original/3qmjGoB7ACDefxkv7ICURXzLxcr.jpg",
+      "source": "Plex",
+      "match": "exact 1999 series scene",
+      "originalTitle": "Maisy",
+      "year": 1999,
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 328809,
+        "width": 1920,
+        "height": 1080,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:ecbe858d287a28925b2f5810d8fac24d205955ac65f6f6bfdbc6268241c97864",
+        "checkedAt": "2026-08-23T15:01:44.001Z"
+      },
+      "validatedAt": "2026-08-23T15:01:44.001Z"
+    },
+    {
+      "watchId": "nen-mail-870031",
+      "pageUrl": "https://www.commonsensemedia.org/tv-reviews/musti",
+      "imageUrl": "https://www.commonsensemedia.org/sites/default/files/styles/ratio_16_9_large/public/screenshots/csm-tv/musti-ss04.jpg",
+      "source": "Common Sense Media",
+      "match": "exact series screenshot",
+      "originalTitle": "Musti",
+      "year": 2007,
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 25481,
+        "width": 700,
+        "height": 394,
+        "format": "jpeg",
+        "aspectRatio": 1.7766497461928934,
+        "hash": "sha256:dbb5a7df4348fa07e0efbb7cda11a0519ebc4ce3b2060f1a1e83ed328c3eb6d4",
+        "checkedAt": "2026-08-23T15:01:44.407Z"
+      },
+      "validatedAt": "2026-08-23T15:01:44.407Z"
+    },
+    {
+      "watchId": "nen-mail-947196",
+      "pageUrl": "https://www.themoviedb.org/tv/96615",
+      "imageUrl": "https://image.tmdb.org/t/p/w780/n2sknw5Z1QdOQmVUQNQ1QZ5aKk2.jpg",
+      "source": "TMDb public page",
+      "match": "exact 1976 anime series scene",
+      "originalTitle": "Huckleberry no Bōken",
+      "year": 1976,
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 83020,
+        "width": 780,
+        "height": 439,
+        "format": "jpeg",
+        "aspectRatio": 1.7767653758542141,
+        "hash": "sha256:95f71c1439bf23f9b41e6f47cbb5075666538b2c2b74b4f4ab742a5bfb787681",
+        "checkedAt": "2026-08-23T15:01:44.832Z"
+      },
+      "validatedAt": "2026-08-23T15:01:44.832Z"
+    },
+    {
+      "watchId": "nen-mail-813383",
+      "pageUrl": "https://www.afisha.ru/movie/veseloe-snovidenie-ili-smeh-i-slezy-182722/",
+      "imageUrl": "https://s5.afisha.ru/mediastorage/90/7f/f8e4124622f143829088ff567f90.jpg",
+      "source": "Афиша",
+      "match": "exact title/year film still",
+      "originalTitle": "Веселое сновидение, или Смех сквозь слезы",
+      "year": 1976,
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 141127,
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:36dd51f093755ed2186af1e7120ababb422bb47a50e7c361ba2b94a4d97aaa53",
+        "checkedAt": "2026-08-23T15:01:45.649Z"
+      },
+      "validatedAt": "2026-08-23T15:01:45.649Z"
     }
   ],
   "rejectedItems": [
@@ -3349,7 +3758,7 @@
       "source": "AceShowbiz",
       "match": "film page + exact title + year + still URL",
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:18.390Z",
+      "validatedAt": "2026-08-23T15:01:08.411Z",
       "reasons": [
         "изображение недоступно: HTTP 403"
       ]
@@ -3363,7 +3772,7 @@
       "source": "elDiario.es",
       "match": "production article + exact title + described film image",
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:18.391Z",
+      "validatedAt": "2026-08-23T15:01:08.413Z",
       "reasons": [
         "URL содержит признак неподходящего типа изображения"
       ]
@@ -3377,7 +3786,7 @@
       "source": "Haut et Court",
       "match": "official distributor page + exact film + production still",
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:19.408Z",
+      "validatedAt": "2026-08-23T15:01:08.843Z",
       "reasons": [
         "изображение недоступно: HTTP 404"
       ]
@@ -3391,7 +3800,7 @@
       "source": "Unifrance",
       "match": "national cinema body page + exact animated series + 2009",
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:19.541Z",
+      "validatedAt": "2026-08-23T15:01:08.913Z",
       "reasons": [
         "изображение недоступно: HTTP 403"
       ]
@@ -3405,7 +3814,7 @@
       "source": "Культура.РФ",
       "match": "official culture portal + exact film page + title + year",
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:41.419Z",
+      "validatedAt": "2026-08-23T15:01:30.802Z",
       "reasons": [
         "ошибка загрузки: fetch failed"
       ]
@@ -3419,7 +3828,7 @@
       "source": "Fernsehjuwelen / DEFA",
       "match": "exact film page + title + year + credited film still",
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:41.580Z",
+      "validatedAt": "2026-08-23T15:01:31.265Z",
       "reasons": [
         "изображение недоступно: HTTP 404"
       ]
@@ -3433,7 +3842,7 @@
       "source": "Danish Film Institute",
       "match": "national film archive + exact title + year + still",
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:42.927Z",
+      "validatedAt": "2026-08-23T15:01:32.574Z",
       "reasons": [
         "ошибка загрузки: fetch failed"
       ]
@@ -3447,7 +3856,7 @@
       "source": "Animation World Network",
       "match": "exact film announcement + Netflix/Cartoon Saloon + identified scene",
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:42.928Z",
+      "validatedAt": "2026-08-23T15:01:32.574Z",
       "reasons": [
         "URL содержит признак неподходящего типа изображения"
       ]
@@ -3461,7 +3870,7 @@
       "source": "TheTVDB",
       "match": "exact 1972 animated series page + scene",
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:43.139Z",
+      "validatedAt": "2026-08-23T15:01:33.904Z",
       "reasons": [
         "URL содержит признак неподходящего типа изображения"
       ]
@@ -3475,7 +3884,7 @@
       "source": "Buta Film",
       "match": "official exact film page + gallery image",
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:43.886Z",
+      "validatedAt": "2026-08-23T15:01:34.354Z",
       "reasons": [
         "год карточки не совпадает"
       ]
@@ -3489,7 +3898,7 @@
       "source": "Студия Паровоз",
       "match": "official exact work page + /frames/ image",
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:43.886Z",
+      "validatedAt": "2026-08-23T15:01:34.354Z",
       "reasons": [
         "год карточки не совпадает"
       ]
@@ -3503,7 +3912,7 @@
       "source": "FilmBooster",
       "match": "exact version page + gallery photo",
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:43.886Z",
+      "validatedAt": "2026-08-23T15:01:34.354Z",
       "reasons": [
         "originalTitle не совпадает",
         "год карточки не совпадает"
@@ -3518,7 +3927,7 @@
       "originalTitle": "A Troll in Central Park",
       "year": 1994,
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:43.943Z",
+      "validatedAt": "2026-08-23T15:01:34.425Z",
       "reasons": [
         "изображение недоступно: HTTP 403"
       ]
@@ -3532,7 +3941,7 @@
       "originalTitle": "The Little Mermaid II: Return to the Sea",
       "year": 2000,
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:43.943Z",
+      "validatedAt": "2026-08-23T15:01:34.426Z",
       "reasons": [
         "URL содержит признак неподходящего типа изображения"
       ]
@@ -3546,7 +3955,7 @@
       "originalTitle": "Once Upon a Forest",
       "year": 1993,
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:44.137Z",
+      "validatedAt": "2026-08-23T15:01:34.605Z",
       "reasons": [
         "изображение недоступно: HTTP 403"
       ]
@@ -3560,7 +3969,7 @@
       "originalTitle": "গুপী গাইন বাঘা বাইন",
       "year": 1968,
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:44.137Z",
+      "validatedAt": "2026-08-23T15:01:34.605Z",
       "reasons": [
         "URL содержит признак неподходящего типа изображения"
       ]
@@ -3574,7 +3983,7 @@
       "originalTitle": "To Sir, with Love",
       "year": 1967,
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:44.367Z",
+      "validatedAt": "2026-08-23T15:01:34.833Z",
       "reasons": [
         "изображение недоступно: HTTP 404"
       ]
@@ -3588,7 +3997,7 @@
       "originalTitle": "The Good Dinosaur",
       "year": 2015,
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:45.198Z",
+      "validatedAt": "2026-08-23T15:01:35.636Z",
       "reasons": [
         "изображение недоступно: HTTP 403"
       ]
@@ -3602,7 +4011,7 @@
       "originalTitle": "Fantastic Mr. Fox",
       "year": 2009,
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:45.254Z",
+      "validatedAt": "2026-08-23T15:01:35.692Z",
       "reasons": [
         "изображение недоступно: HTTP 403"
       ]
@@ -3616,7 +4025,7 @@
       "originalTitle": "Scrooge: A Christmas Carol",
       "year": 2022,
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:45.444Z",
+      "validatedAt": "2026-08-23T15:01:35.895Z",
       "reasons": [
         "изображение недоступно: HTTP 403"
       ]
@@ -3630,7 +4039,7 @@
       "originalTitle": "Ratatouille",
       "year": 2007,
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:58.631Z",
+      "validatedAt": "2026-08-23T15:01:36.158Z",
       "reasons": [
         "изображение недоступно: HTTP 410"
       ]
@@ -3644,7 +4053,7 @@
       "originalTitle": "Tangled",
       "year": 2010,
       "probe": null,
-      "validatedAt": "2026-08-23T12:08:58.865Z",
+      "validatedAt": "2026-08-23T15:01:36.269Z",
       "reasons": [
         "изображение недоступно: HTTP 404"
       ]
@@ -3658,7 +4067,7 @@
       "originalTitle": "Mononoke-hime",
       "year": 1997,
       "probe": null,
-      "validatedAt": "2026-08-23T12:09:00.221Z",
+      "validatedAt": "2026-08-23T15:01:37.206Z",
       "reasons": [
         "изображение недоступно: HTTP 404"
       ]
@@ -3672,7 +4081,7 @@
       "originalTitle": "Bambi",
       "year": 1942,
       "probe": null,
-      "validatedAt": "2026-08-23T12:09:00.575Z",
+      "validatedAt": "2026-08-23T15:01:37.502Z",
       "reasons": [
         "изображение недоступно: HTTP 404"
       ]
@@ -3686,9 +4095,23 @@
       "originalTitle": "The Polar Express",
       "year": 2004,
       "probe": null,
-      "validatedAt": "2026-08-23T12:09:03.364Z",
+      "validatedAt": "2026-08-23T15:01:37.582Z",
       "reasons": [
         "изображение недоступно: HTTP 403"
+      ]
+    },
+    {
+      "watchId": "nen-mail-929419",
+      "pageUrl": "https://ladybirdmovie.com/product.php?p=6",
+      "imageUrl": "https://ladybirdmovie.com/uploads/8931_bigi-0017.jpg",
+      "source": "Ladybird production",
+      "match": "official exact series scene",
+      "originalTitle": "Bigi and Friends",
+      "year": 2015,
+      "probe": null,
+      "validatedAt": "2026-08-23T15:01:39.547Z",
+      "reasons": [
+        "ошибка загрузки: fetch failed"
       ]
     }
   ]
