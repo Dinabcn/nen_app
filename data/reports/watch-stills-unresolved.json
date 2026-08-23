@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-22T15:36:48.245Z",
+  "generatedAt": "2026-08-23T12:09:19.343Z",
   "totalCatalog": 2074,
-  "confirmedStills": 1413,
-  "unresolved": 661,
-  "posterInFrame": 275,
-  "noFrame": 385,
+  "confirmedStills": 1442,
+  "unresolved": 632,
+  "posterInFrame": 270,
+  "noFrame": 362,
   "confirmedButMissingStudios": 0,
   "tailGroups": {
     "A": 0,
-    "B": 102,
-    "C": 418,
-    "D": 141
+    "B": 96,
+    "C": 399,
+    "D": 137
   },
   "items": [
     {
@@ -1132,48 +1132,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-332",
-      "title": "Оседлавший кита",
-      "originalTitle": "Whale Rider",
-      "year": 2002,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-340",
-      "title": "Ледниковый период",
-      "originalTitle": "Ice Age",
-      "year": 2002,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-341",
       "title": "Ледниковый период 2: Глобальное потепление",
       "originalTitle": "Ice Age: The Meltdown",
@@ -1793,33 +1751,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-506",
-      "title": "Про Красную Шапочку",
-      "originalTitle": "Про Красную Шапочку",
-      "year": 1977,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://multfilmysssr.ru/pro-krasnuyu-shapochku-film-skazka/",
-        "imageUrl": "https://multfilmysssr.ru/wp-content/uploads/2020/12/screenshot_3-1.png",
-        "reasons": [
-          "страница не подтверждает, что изображение является кадром"
-        ]
-      }
-    },
-    {
       "id": "nen-508",
       "title": "Мама",
       "originalTitle": "Мама",
@@ -2091,27 +2022,6 @@
       "title": "Наши соседи Ямада",
       "originalTitle": "Hōhokekyo tonari no Yamada-kun",
       "year": 1999,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-544",
-      "title": "Сказания Земноморья",
-      "originalTitle": "Gedo senki",
-      "year": 2006,
       "type": "animated-feature",
       "externalIds": {
         "kinopoisk": null,
@@ -2736,33 +2646,6 @@
       "confirmedCandidateNotApplied": null,
       "tailGroup": "D",
       "pendingCandidate": null
-    },
-    {
-      "id": "nen-614",
-      "title": "Маленький лес",
-      "originalTitle": "Little Forest",
-      "year": 2018,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "UNCONFIRMED_IMAGE",
-      "checkedSources": [],
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://vido.ir/best-feel-good-movies",
-        "imageUrl": "https://vido.ir/wp-content/uploads/2023/05/Little-Forest.jpg",
-        "reasons": [
-          "ошибка загрузки: The operation was aborted due to timeout"
-        ]
-      }
     },
     {
       "id": "nen-615",
@@ -4406,42 +4289,6 @@
       }
     },
     {
-      "id": "nen-wd-q116733947",
-      "title": "Волшебное приключение Да Винчи",
-      "originalTitle": "The Inventor",
-      "year": 2023,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q116733947",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.465Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:32.116Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q2832409",
       "title": "Счастливые каникулы",
       "originalTitle": "Alegres vacaciones",
@@ -4613,42 +4460,6 @@
       }
     },
     {
-      "id": "nen-wd-q108852813",
-      "title": "Линия отрыва",
-      "originalTitle": "Strappare lungo i bordi",
-      "year": 2021,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q108852813",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.435Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:31.956Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q1084175",
       "title": "Рождественский крекер",
       "originalTitle": "Christmas Cracker",
@@ -4687,42 +4498,6 @@
         }
       ],
       "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q177145",
-      "title": "Старик и море",
-      "originalTitle": "The Old Man and the Sea",
-      "year": 1999,
-      "type": "animated-short",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q177145",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.702Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:33.996Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
       "confirmedCandidateNotApplied": null,
       "tailGroup": "C",
       "pendingCandidate": null
@@ -4886,42 +4661,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q492339",
-      "title": "Робомашина Поли",
-      "originalTitle": "로보카폴리",
-      "year": 2011,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q492339",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.070Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:39.071Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q118318621",
       "title": "Секрет Джуджу: хранители звезды",
       "originalTitle": "시크릿 쥬쥬 별의 여신",
@@ -4994,50 +4733,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q637208",
-      "title": "Семья почемучек",
-      "originalTitle": "The Why Why Family",
-      "year": 1996,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q637208",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.233Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:39.405Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.imdb.com/title/tt0102526/",
-        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTYyMDAzMDAwN15BMl5BanBnXkFtZTcwOTg4NTQyNw%40%40._V1_QL75_UX652_.jpg",
-        "reasons": [
-          "страница не подтверждает originalTitle",
-          "страница не подтверждает год",
-          "страница не подтверждает, что изображение является кадром"
-        ]
-      }
-    },
-    {
       "id": "nen-wd-q718216",
       "title": "Арзак (мультфильм)",
       "originalTitle": "Arzak Rhapsody",
@@ -5064,42 +4759,6 @@
           "source": "Кино Mail",
           "status": "UNRESOLVED",
           "checkedAt": "2026-08-16T09:53:39.632Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q1937645",
-      "title": "Букашки",
-      "originalTitle": "Minuscule : La Vie privée des insectes",
-      "year": 2006,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q1937645",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.775Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:34.106Z",
           "pageUrl": null,
           "error": "нет точной сохранённой страницы Кино Mail"
         }
@@ -5234,42 +4893,6 @@
         }
       ],
       "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q724491",
-      "title": "Крот",
-      "originalTitle": "Krteček",
-      "year": 1957,
-      "type": "series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q724491",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.366Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:39.632Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
       "confirmedCandidateNotApplied": null,
       "tailGroup": "C",
       "pendingCandidate": null
@@ -5512,50 +5135,6 @@
       "pendingCandidate": {
         "pageUrl": "https://www.kut.org/life-arts/2014-11-07/get-lost-with-an-indian-cowboy-searching-for-his-identity-and-his-gun",
         "imageUrl": "https://npr.brightspotcdn.com/dims4/default/fd5ed3b/2147483647/strip/true/crop/3861x2378%2B0%2B98/resize/880x542%21/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fkut%2Ffiles%2F201411%2FWITB_Day2_0155.jpg",
-        "reasons": [
-          "страница не подтверждает originalTitle",
-          "страница не подтверждает год",
-          "страница не подтверждает, что изображение является кадром"
-        ]
-      }
-    },
-    {
-      "id": "nen-wd-q7087897",
-      "title": "Оливер Твист",
-      "originalTitle": "Oliver Twist",
-      "year": 1982,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q7087897",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.366Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:39.558Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.tcm.com/watchtcm/titles/85532",
-        "imageUrl": "https://static.tcm.com/movie-images/85532_3x2.jpg?w=1024",
         "reasons": [
           "страница не подтверждает originalTitle",
           "страница не подтверждает год",
@@ -6254,49 +5833,6 @@
           "URL уже используется карточкой nen-wd-q111087642"
         ]
       }
-    },
-    {
-      "id": "nen-wd-q16301967",
-      "title": "Охотники за монстрами",
-      "originalTitle": "Los matamonstruos en la mansión del terror",
-      "year": 1987,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": "116750",
-        "tmdbMovie": "160580",
-        "tmdbTv": null,
-        "imdb": "tt0254554",
-        "wikidata": "Q16301967",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.449Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:20:31.896Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/116750/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:03.905Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
     },
     {
       "id": "nen-wd-q16593446",
@@ -7867,42 +7403,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q2546045",
-      "title": "Заботливые мишки",
-      "originalTitle": "The Care Bears Movie",
-      "year": 1985,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q2546045",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.868Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:34.410Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q678334",
       "title": "Красавица и Чудовище: Чудесное Рождество",
       "originalTitle": "Beauty and the Beast: The Enchanted Christmas",
@@ -8223,50 +7723,6 @@
         "reasons": [
           "страница не подтверждает originalTitle",
           "страница не подтверждает год"
-        ]
-      }
-    },
-    {
-      "id": "nen-wd-q923497",
-      "title": "Прогулки с пещерным человеком",
-      "originalTitle": "Walking with Cavemen",
-      "year": 2003,
-      "type": "short-film",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q923497",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.483Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:40.003Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://archivsf.narod.ru/cinema_2/rrrrrrr_.htm",
-        "imageUrl": "https://archivsf.narod.ru/image/cinema_2/rrrr_07.jpg",
-        "reasons": [
-          "страница не подтверждает originalTitle",
-          "страница не подтверждает год",
-          "страница не подтверждает, что изображение является кадром"
         ]
       }
     },
@@ -9323,48 +8779,6 @@
       }
     },
     {
-      "id": "nen-wd-q1194751",
-      "title": "Кошачий принц",
-      "originalTitle": "Kočičí princ",
-      "year": 1979,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q1194751",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.493Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:32.854Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.csfd.cz/film/5296-kocici-princ/galerie/",
-        "imageUrl": "https://image.pmgstatic.com/cache/resized/w936/files/images/film/photos/000/204/204515_89d8bc.jpg",
-        "reasons": [
-          "страница не подтверждает, что изображение является кадром"
-        ]
-      }
-    },
-    {
       "id": "nen-wd-q1196813",
       "title": "Клятва в Рабенхорсте",
       "originalTitle": "Der Schwur von Rabenhorst",
@@ -9495,42 +8909,6 @@
         }
       ],
       "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q817003",
-      "title": "Аладдин и король разбойников",
-      "originalTitle": "Aladdin and the King of Thieves",
-      "year": 1996,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q817003",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.444Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:39.789Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
       "confirmedCandidateNotApplied": null,
       "tailGroup": "C",
       "pendingCandidate": null
@@ -9792,42 +9170,6 @@
           "source": "Кино Mail",
           "status": "UNRESOLVED",
           "checkedAt": "2026-08-16T09:53:33.732Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q509210",
-      "title": "Миа и я",
-      "originalTitle": "Mia and Me",
-      "year": 2011,
-      "type": "series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q509210",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.071Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:39.071Z",
           "pageUrl": null,
           "error": "нет точной сохранённой страницы Кино Mail"
         }
@@ -10162,42 +9504,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q888434",
-      "title": "Бобби",
-      "originalTitle": "बॉबी",
-      "year": 1973,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q888434",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.445Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:39.900Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q717168",
       "title": "Слава отцу Фелунатху",
       "originalTitle": "জয় বাবা ফেলুনাথ",
@@ -10296,114 +9602,6 @@
           "source": "Кино Mail",
           "status": "UNRESOLVED",
           "checkedAt": "2026-08-16T09:53:39.632Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q660727",
-      "title": "Необдуманный шаг",
-      "originalTitle": "मासूम",
-      "year": 1983,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q660727",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.282Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:39.478Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q1798105",
-      "title": "Я полюбил",
-      "originalTitle": "मैंने प्यार किया",
-      "year": 1989,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q1798105",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.749Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:33.996Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q849343",
-      "title": "Непохищенная невеста",
-      "originalTitle": "दिलवाले दुल्हनिया ले जायेंगे",
-      "year": 1995,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q849343",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.445Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:39.790Z",
           "pageUrl": null,
           "error": "нет точной сохранённой страницы Кино Mail"
         }
@@ -12512,27 +11710,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-doc-oceans-2009",
-      "title": "Океаны",
-      "originalTitle": "Océans",
-      "year": 2009,
-      "type": "documentary",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-doc-earth-one-day-2017",
       "title": "Земля: Один потрясающий день",
       "originalTitle": "Earth: One Amazing Day",
@@ -12819,42 +11996,6 @@
           "страница не подтверждает, что изображение является кадром"
         ]
       }
-    },
-    {
-      "id": "nen-mail-496600",
-      "title": "Волшебная лампа Аладдина",
-      "originalTitle": "Волшебная лампа Аладдина",
-      "year": 1966,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt0167482",
-        "wikidata": null,
-        "mail": "496600"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:09:12.601Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:51:14.705Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/496600_volshebnaja_lampa_aladdina/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
     },
     {
       "id": "nen-mail-812101",
@@ -14116,42 +13257,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-mail-815654",
-      "title": "Приключения Арслана",
-      "originalTitle": "Приключения Арслана",
-      "year": 1988,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt3148554",
-        "wikidata": null,
-        "mail": "815654"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:09:51.042Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:51:51.874Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/815654_priklyucheniya_arslana/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-mail-938035",
       "title": "Приключения в городе, которого нет",
       "originalTitle": "Приключения в городе, которого нет",
@@ -15158,42 +14263,6 @@
           "status": "NO_STILL_FOUND",
           "checkedAt": "2026-08-16T09:54:18.176Z",
           "pageUrl": "https://kino.mail.ru/cinema/movies/794214_tigry_na_ldu/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-814162",
-      "title": "Акмаль, дракон и принцесса",
-      "originalTitle": "Акмаль, дракон и принцесса",
-      "year": 1981,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": "814162"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:15:14.160Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:54:20.763Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/814162_akmal_drakon_i_printsessa/",
           "error": null
         }
       ],
@@ -17952,42 +17021,6 @@
           "status": "NO_STILL_FOUND",
           "checkedAt": "2026-08-16T09:54:44.920Z",
           "pageUrl": "https://kino.mail.ru/cinema/movies/857742_kak_pishetsya_slovo_solntse/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-781753",
-      "title": "Как утенок-музыкант стал футболистом",
-      "originalTitle": "Как утенок-музыкант стал футболистом",
-      "year": 1978,
-      "type": "animated-short",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": "781753"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:15:10.604Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:54:17.414Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/781753_kak_utenok_muzikant_stal_futbolistom/",
           "error": null
         }
       ],
@@ -21580,42 +20613,6 @@
           "страница не подтверждает, что изображение является кадром"
         ]
       }
-    },
-    {
-      "id": "nen-mail-799572",
-      "title": "Макар-следопыт",
-      "originalTitle": "Макар-следопыт",
-      "year": 1984,
-      "type": "series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt0263692",
-        "wikidata": null,
-        "mail": "799572"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:09:36.876Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:51:39.786Z",
-          "pageUrl": "https://kino.mail.ru/series_799572_makar_sledopit/",
-          "error": null
-        }
-      ],
-      "reason": "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
     },
     {
       "id": "nen-mail-923694",

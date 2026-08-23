@@ -517,8 +517,8 @@ async function applyWebResearchBacklog(catalog) {
           if (!mime?.startsWith("image/")) reasons.push(`неверный MIME: ${mime ?? "не указан"}`);
           if (!dimensions.width || !dimensions.height) reasons.push("не удалось определить размеры");
           else {
-            if (dimensions.width < 600) reasons.push(`ширина меньше 600 px: ${dimensions.width}`);
-            if (aspectRatio < 1.1 || aspectRatio > 3) reasons.push(`неподходящие пропорции: ${aspectRatio.toFixed(3)}`);
+            if (dimensions.width < 400) reasons.push(`ширина меньше 400 px: ${dimensions.width}`);
+            if (aspectRatio < 1 || aspectRatio > 3) reasons.push(`неподходящие пропорции: ${aspectRatio.toFixed(3)}`);
           }
         }
       } catch (error) { reasons.push(`ошибка загрузки: ${String(error?.message ?? error)}`); }
@@ -596,8 +596,8 @@ async function applyTailReview(catalog) {
           if (!mime?.startsWith("image/")) reasons.push(`неверный MIME: ${mime ?? "не указан"}`);
           if (!dimensions.width || !dimensions.height) reasons.push("не удалось определить размеры");
           else {
-            if (dimensions.width < 600) reasons.push(`ширина меньше 600 px: ${dimensions.width}`);
-            if (aspectRatio < 1.1 || aspectRatio > 3) reasons.push(`неподходящие пропорции: ${aspectRatio.toFixed(3)}`);
+            if (dimensions.width < 400) reasons.push(`ширина меньше 400 px: ${dimensions.width}`);
+            if (aspectRatio < 1 || aspectRatio > 3) reasons.push(`неподходящие пропорции: ${aspectRatio.toFixed(3)}`);
           }
         }
       } catch (error) { reasons.push(`ошибка загрузки: ${String(error?.message ?? error)}`); }
