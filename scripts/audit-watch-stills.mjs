@@ -10,6 +10,8 @@ const stillEvidencePath = path.join(root, "data/reports/cache/watch-stills-resea
 const webApplyPath = path.join(root, "data/reports/watch-stills-web-apply.json");
 const webBacklogApplyPath = path.join(root, "data/reports/watch-stills-web-backlog-apply.json");
 const tailApplyPath = path.join(root, "data/reports/watch-stills-tail-apply.json");
+const pageGalleryApplyPath = path.join(root, "data/reports/watch-stills-page-gallery-extraction.json");
+const pageGalleryEvidencePath = path.join(root, "data/reports/cache/watch-stills-page-gallery-evidence.json");
 const jsonPath = path.join(root, "data/reports/watch-stills-audit.json");
 const markdownPath = path.join(root, "data/reports/watch-stills-audit.md");
 const unresolvedJsonPath = path.join(root, "data/reports/watch-stills-unresolved.json");
@@ -32,10 +34,13 @@ const stillEvidence = await readJson(stillEvidencePath, { records: {} });
 const webApply = await readJson(webApplyPath, { appliedItems: [] });
 const webBacklogApply = await readJson(webBacklogApplyPath, { appliedItems: [] });
 const tailApply = await readJson(tailApplyPath, { appliedItems: [] });
+const pageGalleryApply = await readJson(pageGalleryApplyPath, { appliedItems: [] });
+const pageGalleryEvidence = await readJson(pageGalleryEvidencePath, { records: {} });
 
 const mailById = new Map((mailSource.items ?? []).map((item) => [String(item.mailId), item]));
 const replacementById = new Map((mailReplacement.selectedItems ?? []).map((item) => [item.id, item]));
 const webAppliedById = new Map([...(webApply.appliedItems ?? []), ...(webBacklogApply.appliedItems ?? []), ...(tailApply.appliedItems ?? [])].map((item) => [item.watchId, item]));
+const pageGalleryAppliedById = new Map((pageGalleryApply.appliedItems ?? []).map((item) => [item.watchId, item]));
 const tailAppliedIds = new Set((tailApply.appliedItems ?? []).map((item) => item.watchId));
 const pendingWebCandidates = new Map((webBacklogApply.rejectedItems ?? []).filter((item) => !tailAppliedIds.has(item.watchId)).map((item) => [item.watchId, item]));
 
@@ -84,6 +89,8 @@ const isMailImage = (frame) => {
 
 const confirmedEvidenceFor = (record) => {
   if (!record.frame?.url) return null;
+  const pageGallery = pageGalleryAppliedById.get(record.id);
+  if (pageGallery?.imageUrl === record.frame.url) return { source: pageGallery.source, candidate: { url: pageGallery.imageUrl, provenance: { pageUrl: pageGallery.pageUrl, extraction: pageGallery.extraction, externalId: pageGallery.externalId, galleryId: pageGallery.galleryId, galleryTitle: pageGallery.galleryTitle, itemId: pageGallery.itemId, caption: pageGallery.caption, probe: pageGallery.probe } } };
   const web = webAppliedById.get(record.id);
   if (web?.imageUrl === record.frame.url) return { source: "Web research", candidate: { url: web.imageUrl, provenance: { pageUrl: web.pageUrl, evidence: web.evidence, probe: web.probe } } };
   const sources = Object.values(stillEvidence.records?.[record.id]?.sources ?? {});
@@ -299,10 +306,15 @@ const unresolvedItems = items.filter((item) => item.status !== "A").map((item) =
   const evidenceSources = Object.values(stillEvidence.records?.[item.id]?.sources ?? {}).filter((source) => ["Кино Mail", "Кинопоиск", "NEN"].includes(source.source));
   const confirmedNotApplied = evidenceSources.find((source) => source.status === "CONFIRMED_STILL" && !(source.candidates ?? []).some((candidate) => candidate.url === catalogById.get(item.id)?.frame?.url));
   const checkedSources = evidenceSources.map((source) => ({ source: source.source, status: source.status, checkedAt: source.checkedAt ?? null, pageUrl: source.provenance?.pageUrl ?? source.provenance?.url ?? null, error: source.error ?? null }));
+  const extractedSources = pageGalleryEvidence.records?.[item.id]?.sources ?? {};
+  const extractedNames = { kinopoisk: "Кинопоиск", mail: "Кино Mail", imdb: "IMDb", tmdb: "TMDb public page" };
+  for (const [key, source] of Object.entries(extractedSources)) checkedSources.push({ source: extractedNames[key] ?? key, status: source.status, checkedAt: pageGalleryEvidence.records[item.id].checkedAt ?? null,
+    pageUrl: source.pageUrl ?? null, error: source.reason ?? null });
   let unresolvedReason = item.reason;
   if (confirmedNotApplied && !catalogById.get(item.id)?.studios?.length && !catalogById.get(item.id)?.frame?.studios?.length) unresolvedReason = "Кадр подтверждён, но не применён: обязательные студии производства отсутствуют; фиктивное значение не подставлялось.";
   else if (checkedSources.some((source) => source.source === "Кинопоиск" && source.status === "SOURCE_UNAVAILABLE")) unresolvedReason = "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.";
-  else if (checkedSources.some((source) => source.source === "Кино Mail" && source.status === "NO_STILL_FOUND")) unresolvedReason = "На точной странице Кино Mail нет подходящего горизонтального кадра в структурированной галерее «Кадры».";
+  else if (checkedSources.some((source) => source.source === "Кино Mail" && ["NO_STILL_FOUND", "NO_GALLERY_DATA"].includes(source.status))) unresolvedReason = "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.";
+  else if (checkedSources.some((source) => source.source === "TMDb public page" && source.status === "NO_GALLERY_DATA")) unresolvedReason = "Публичная страница TMDb не раскрыла backdrop в HTML; API и токены не использовались.";
   else if (!Object.values(item.externalIds).some(Boolean)) unresolvedReason = "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.";
   const pendingCandidate = pendingWebCandidates.get(item.id);
   const hasSearchAnchor = Object.values(item.externalIds).some(Boolean) || checkedSources.some((source) => source.pageUrl);

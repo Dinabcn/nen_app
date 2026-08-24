@@ -18,6 +18,9 @@ const paths = {
   tailReviewReport: path.join(root, "data/reports/watch-stills-tail-review.json"),
   finalCandidatesReport: path.join(root, "data/reports/cache/watch-stills-final-candidates.json"),
   tailApplyReport: path.join(root, "data/reports/watch-stills-tail-apply.json"),
+  pageGalleryCache: path.join(root, "data/reports/cache/watch-stills-page-gallery-evidence.json"),
+  pageGalleryReport: path.join(root, "data/reports/watch-stills-page-gallery-extraction.json"),
+  pageGalleryMarkdown: path.join(root, "data/reports/watch-stills-page-gallery-extraction.md"),
 };
 
 const USER_AGENT = "NENWatchStillResearch/2.0 (editorial research; contact: n-e-n.ru)";
@@ -28,6 +31,7 @@ const mode = process.argv.includes("--apply") ? "apply" : "research";
 const applyWebConfirmed = process.argv.includes("--apply-web-confirmed");
 const applyWebBacklog = process.argv.includes("--apply-web-backlog");
 const applyTailConfirmed = process.argv.includes("--apply-tail-confirmed");
+const extractPageGalleries = process.argv.includes("--extract-page-galleries");
 const requestedLimit = Number(process.argv.find((arg) => arg.startsWith("--max="))?.split("=")[1] ?? Infinity);
 const limit = Number.isFinite(requestedLimit) && requestedLimit > 0 ? requestedLimit : Infinity;
 const sourceArg = process.argv.find((arg) => arg.startsWith("--sources="))?.split("=")[1];
@@ -162,6 +166,20 @@ function mailImageUrl(image) {
   if (!image?.baseURL || !image?.uuid || !image?.key) return null;
   const format = image.fmt?.includes("webp") ? "webp" : image.fmt?.includes("jpg") ? "jpg" : image.fmt?.[0];
   return format ? `${image.baseURL}${image.uuid}/${image.key}.${format}` : null;
+}
+
+function mailGalleryVariants(item) {
+  return ["large", "base", "small"].map((variant) => {
+    const image = item?.[variant];
+    const imageUrl = mailImageUrl(image);
+    const width = Number(image?.width ?? 0);
+    const height = Number(image?.height ?? 0);
+    return imageUrl ? { variant, imageUrl, width, height, aspectRatio: width && height ? width / height : null } : null;
+  }).filter(Boolean).sort((left, right) => {
+    const leftUsable = left.aspectRatio >= 1 && left.aspectRatio <= 3 ? 1 : 0;
+    const rightUsable = right.aspectRatio >= 1 && right.aspectRatio <= 3 ? 1 : 0;
+    return rightUsable - leftUsable || (right.width * right.height) - (left.width * left.height);
+  });
 }
 
 const normalizeTitle = (value) => String(value ?? "").toLocaleLowerCase("ru-RU")
@@ -629,7 +647,179 @@ async function applyTailReview(catalog) {
   console.log(JSON.stringify({ reviewed: review.items.length, applied: finalAccepted.length, rejected: rejected.length }, null, 2));
 }
 
+async function extractPublicPageGalleries(catalog) {
+  const [auditData, mailData, existingCache] = await Promise.all([
+    readJson(paths.audit, null),
+    readJson(paths.mailSource, { items: [] }),
+    readJson(paths.pageGalleryCache, { schemaVersion: 1, records: {} }),
+  ]);
+  if (!auditData?.items) throw new Error("Нужен актуальный аудит кадров.");
+  const auditById = new Map(auditData.items.map((item) => [item.id, item]));
+  const mailPages = new Map((mailData.items ?? []).map((item) => [String(item.mailId), item]));
+  const unresolved = catalog.filter((record) => auditById.get(record.id)?.status !== "A").sort((left, right) => {
+    const score = (record) => {
+      const ids = auditById.get(record.id)?.externalIds ?? {};
+      return (ids.mail ? 8 : 0) + (ids.tmdbMovie || ids.tmdbTv ? 4 : 0) + (ids.imdb ? 2 : 0) + (ids.kinopoisk ? 1 : 0);
+    };
+    return score(right) - score(left);
+  }).slice(0, limit);
+  const cache = { ...existingCache, schemaVersion: 1, updatedAt: now(), records: { ...(existingCache.records ?? {}) } };
+  const stats = {
+    total: unresolved.length,
+    pages: { kinopoisk: 0, mail: 0, imdb: 0, tmdb: 0 },
+    galleries: { kinopoisk: 0, mail: 0, imdb: 0, tmdb: 0 },
+    candidates: { kinopoisk: 0, mail: 0, imdb: 0, tmdb: 0 },
+    extracted: { kinopoisk: 0, mail: 0, imdb: 0, tmdb: 0 },
+    unavailable: { kinopoisk: 0, mail: 0, imdb: 0, tmdb: 0 },
+  };
+  const currentUrlOwners = new Map(catalog.filter((record) => record.frame?.url).map((record) => [record.frame.url, record.id]));
+  const accepted = [];
+
+  async function probeCandidate(record, candidate) {
+    const owner = currentUrlOwners.get(candidate.imageUrl);
+    if (owner && owner !== record.id) throw new Error(`URL уже используется ${owner}`);
+    const response = await clients.image.fetch(candidate.imageUrl, { headers: { accept: "image/*", referer: candidate.pageUrl }, timeoutMs: 30_000 }, 2);
+    if (!response.ok) throw new Error(`image HTTP ${response.status}`);
+    const mime = response.headers.get("content-type")?.split(";")[0]?.toLowerCase() ?? null;
+    if (!mime?.startsWith("image/")) throw new Error(`неверный MIME ${mime ?? "unknown"}`);
+    const bytes = Buffer.from(await response.arrayBuffer());
+    const dimensions = imageDimensions(bytes, mime);
+    if (!dimensions.width || !dimensions.height) throw new Error("размеры не определены");
+    const aspectRatio = dimensions.width / dimensions.height;
+    if (dimensions.width < 400 || aspectRatio < 1 || aspectRatio > 3) throw new Error(`неподходящие размеры ${dimensions.width}x${dimensions.height}`);
+    return { mime, bytes: bytes.length, ...dimensions, aspectRatio, hash: `sha256:${crypto.createHash("sha256").update(bytes).digest("hex")}`, checkedAt: now() };
+  }
+
+  async function fetchPage(source, url) {
+    stats.pages[source] += 1;
+    const response = await clients[source === "mail" ? "mail" : source === "kinopoisk" ? "kinopoisk" : "image"].fetch(url, { headers: { accept: "text/html,application/xhtml+xml", "accept-language": "en-US,en;q=0.8" }, timeoutMs: 30_000 }, 2);
+    const html = await response.text();
+    return { response, html };
+  }
+
+  for (let index = 0; index < unresolved.length; index += 1) {
+    const record = unresolved[index];
+    const cached = cache.records[record.id];
+    if (cached?.sources && !refresh) {
+      for (const [sourceKey, sourceEvidence] of Object.entries(cached.sources ?? {})) {
+        if (!(sourceKey in stats.pages)) continue;
+        stats.pages[sourceKey] += 1;
+        if (sourceEvidence.status === "GALLERY_FOUND") stats.galleries[sourceKey] += 1;
+        if (sourceEvidence.status === "SOURCE_UNAVAILABLE") stats.unavailable[sourceKey] += 1;
+        stats.extracted[sourceKey] += sourceEvidence.imageUrls?.length ?? sourceEvidence.items?.length ?? 0;
+      }
+      for (const candidate of cached.candidates ?? []) if (!candidate.rejected) stats.candidates[candidate.sourceKey] += 1;
+      if (cached.selected) accepted.push({ watchId: record.id, title: record.title, originalTitle: record.originalTitle, year: record.year, ...cached.selected });
+      continue;
+    }
+    const auditRecord = auditById.get(record.id);
+    const ids = auditRecord?.externalIds ?? record.externalIds ?? {};
+    const evidence = { id: record.id, title: record.title, originalTitle: record.originalTitle, year: record.year, sources: {}, checkedAt: now() };
+    const candidates = [];
+
+    if (ids.kinopoisk) {
+      const pageUrl = `https://www.kinopoisk.ru/film/${ids.kinopoisk}/stills/`;
+      try {
+        const { response, html } = await fetchPage("kinopoisk", pageUrl);
+        const blocked = response.status === 401 || response.status === 403 || /passport\.yandex|captcha|sso|авторизац|robot/i.test(html) || html.length < 10_000;
+        if (blocked) { stats.unavailable.kinopoisk += 1; evidence.sources.kinopoisk = { status: "SOURCE_UNAVAILABLE", pageUrl, http: response.status, reason: "SSO/CAPTCHA/antibot or empty shell" }; }
+        else {
+          const urls = [...new Set([...decodeHtml(html).matchAll(/(?:https?:)?(\/\/avatars\.mds\.yandex\.net\/get-kinopoisk-image\/[^"'\\\s]+?\/orig)/giu)].map((match) => `https:${match[1]}`))];
+          if (urls.length) stats.galleries.kinopoisk += 1;
+          stats.extracted.kinopoisk += urls.length;
+          evidence.sources.kinopoisk = { status: urls.length ? "GALLERY_FOUND" : "NO_GALLERY_DATA", pageUrl, http: response.status, imageUrls: urls };
+          for (const imageUrl of urls.slice(0, 3)) candidates.push({ source: "Кинопоиск", sourceKey: "kinopoisk", pageUrl, imageUrl, imageType: "still", extraction: "stills-page embedded original URL", externalId: String(ids.kinopoisk) });
+        }
+      } catch (error) { stats.unavailable.kinopoisk += 1; evidence.sources.kinopoisk = { status: "SOURCE_UNAVAILABLE", pageUrl, reason: String(error?.message ?? error) }; }
+    }
+
+    const mail = ids.mail ? mailPages.get(String(ids.mail)) : null;
+    if (mail?.mailUrl) {
+      try {
+        const { response, html } = await fetchPage("mail", mail.mailUrl);
+        const gallery = parseMailGallery(html);
+        const urls = (gallery?.items ?? []).map((item) => {
+          const best = mailGalleryVariants(item)[0];
+          return best ? { item, ...best } : null;
+        }).filter((entry) => entry && mailTitleMatches(record, gallery.title, entry.item.title));
+        if (urls.length) stats.galleries.mail += 1;
+        stats.extracted.mail += urls.length;
+        evidence.sources.mail = { status: urls.length ? "GALLERY_FOUND" : "NO_GALLERY_DATA", pageUrl: mail.mailUrl, http: response.status, galleryId: gallery?.gallery_id ?? null, galleryTitle: gallery?.title ?? null,
+          items: urls.map((entry) => ({ itemId: entry.item.id, title: entry.item.title, imageUrl: entry.imageUrl, variant: entry.variant, declaredWidth: entry.width, declaredHeight: entry.height })) };
+        for (const entry of urls.slice(0, 3)) candidates.push({ source: "Кино Mail", sourceKey: "mail", pageUrl: mail.mailUrl, imageUrl: entry.imageUrl, imageType: "still", extraction: `embedded gallery JSON ${entry.variant} asset`, externalId: String(ids.mail),
+          galleryId: gallery?.gallery_id ?? null, galleryTitle: gallery?.title ?? null, itemId: entry.item.id, caption: entry.item.title ?? null, declaredWidth: entry.width, declaredHeight: entry.height });
+      } catch (error) { stats.unavailable.mail += 1; evidence.sources.mail = { status: "SOURCE_UNAVAILABLE", pageUrl: mail.mailUrl, reason: String(error?.message ?? error) }; }
+    }
+
+    const tmdbType = ids.tmdbMovie ? "movie" : ids.tmdbTv ? "tv" : null;
+    const tmdbId = ids.tmdbMovie ?? ids.tmdbTv;
+    if (tmdbType && tmdbId) {
+      const pageUrl = `https://www.themoviedb.org/${tmdbType}/${tmdbId}/images/backdrops`;
+      try {
+        const { response, html } = await fetchPage("tmdb", pageUrl);
+        const urls = [...new Set([...decodeHtml(html).matchAll(/https:\/\/image\.tmdb\.org\/t\/p\/original\/[A-Za-z0-9._-]+\.(?:jpg|jpeg|png|webp)/giu)].map((match) => match[0]))];
+        if (urls.length) stats.galleries.tmdb += 1;
+        stats.extracted.tmdb += urls.length;
+        evidence.sources.tmdb = { status: urls.length ? "GALLERY_FOUND" : "NO_GALLERY_DATA", pageUrl, http: response.status, imageUrls: urls };
+        for (const imageUrl of urls.slice(0, 3)) candidates.push({ source: "TMDb public page", sourceKey: "tmdb", pageUrl, imageUrl, imageType: "backdrop", extraction: "public /images/backdrops HTML original URL", externalId: String(tmdbId) });
+      } catch (error) { stats.unavailable.tmdb += 1; evidence.sources.tmdb = { status: "SOURCE_UNAVAILABLE", pageUrl, reason: String(error?.message ?? error) }; }
+    }
+
+    if (ids.imdb) {
+      const pageUrl = `https://www.imdb.com/title/${ids.imdb}/mediaindex/`;
+      try {
+        const { response, html } = await fetchPage("imdb", pageUrl);
+        const unavailable = response.status !== 200 || !html;
+        if (unavailable) { stats.unavailable.imdb += 1; evidence.sources.imdb = { status: "SOURCE_UNAVAILABLE", pageUrl, http: response.status, reason: "public page returned empty/async shell" }; }
+        else evidence.sources.imdb = { status: "NO_CLASSIFIED_GALLERY_DATA", pageUrl, http: response.status, reason: "page data did not expose a reliable still-vs-poster classification" };
+      } catch (error) { stats.unavailable.imdb += 1; evidence.sources.imdb = { status: "SOURCE_UNAVAILABLE", pageUrl, reason: String(error?.message ?? error) }; }
+    }
+
+    const validated = [];
+    for (const candidate of candidates) {
+      try {
+        validated.push({ ...candidate, probe: await probeCandidate(record, candidate), validatedAt: now() });
+        break;
+      }
+      catch (error) { validated.push({ ...candidate, rejected: true, reason: String(error?.message ?? error), validatedAt: now() }); }
+    }
+    const best = validated.find((candidate) => !candidate.rejected);
+    for (const candidate of validated.filter((candidate) => !candidate.rejected)) stats.candidates[candidate.sourceKey] += 1;
+    if (best) accepted.push({ watchId: record.id, title: record.title, originalTitle: record.originalTitle, year: record.year, ...best });
+    evidence.candidates = validated; evidence.selected = best ?? null; evidence.completed = true;
+    cache.records[record.id] = evidence;
+    if ((index + 1) % 10 === 0) { await writeJsonAtomic(paths.pageGalleryCache, cache); console.log(`page galleries ${index + 1}/${unresolved.length}; accepted ${accepted.length}`); }
+  }
+
+  const hashes = new Map();
+  for (const item of accepted) { const key = item.probe.hash; if (!hashes.has(key)) hashes.set(key, []); hashes.get(key).push(item.watchId); }
+  const duplicateHashes = new Set([...hashes].filter(([, ids]) => ids.length > 1).map(([hash]) => hash));
+  const safeAccepted = accepted.filter((item) => !duplicateHashes.has(item.probe.hash));
+  if (mode === "apply") {
+    const byId = new Map(safeAccepted.map((item) => [item.watchId, item]));
+    const updated = catalog.map((record) => {
+      const item = byId.get(record.id); if (!item) return record;
+      const studios = Array.isArray(record.frame?.studios) && record.frame.studios.length ? record.frame.studios : null;
+      return { ...record, frame: { url: item.imageUrl, ...(studios ? { studios: [...studios] } : {}) } };
+    });
+    await writeJsonAtomic(paths.catalog, updated);
+  }
+  stats.applied = mode === "apply" ? safeAccepted.length : 0;
+  stats.duplicateHashRejected = accepted.length - safeAccepted.length;
+  await writeJsonAtomic(paths.pageGalleryCache, cache);
+  await writeJsonAtomic(paths.pageGalleryReport, { generatedAt: now(), mode, stats, appliedItems: mode === "apply" ? safeAccepted : [], candidates: accepted });
+  const markdown = ["# Извлечение кадров из публичных страниц произведений", "", `Сформировано: ${now()}`, "", `- Обработано карточек: **${stats.total}**`,
+    `- Найдено галерей: **${Object.values(stats.galleries).reduce((sum, value) => sum + value, 0)}**`, `- Извлечено URL изображений: **${Object.values(stats.extracted).reduce((sum, value) => sum + value, 0)}**`,
+    `- Применено кадров: **${stats.applied}**`, `- Hash-дубликатов отклонено: **${stats.duplicateHashRejected}**`, "", "## Источники", "",
+    ...Object.keys(stats.pages).map((key) => `- ${key}: страниц ${stats.pages[key]}, галерей ${stats.galleries[key]}, URL ${stats.extracted[key]}, подтверждено ${stats.candidates[key]}, недоступно ${stats.unavailable[key]}`),
+    "", "Кинопоиск с HTTP 200, содержащим только SSO/CAPTCHA bootstrap, классифицируется как `SOURCE_UNAVAILABLE`; обход защиты не выполняется.",
+    "IMDb без надёжной классификации still/poster/person в публичном HTML не применяется автоматически.", ""].join("\n");
+  await fs.writeFile(paths.pageGalleryMarkdown, markdown, "utf8");
+  console.log(JSON.stringify(stats, null, 2));
+}
+
 const catalog = await readJson(paths.catalog, []);
+if (extractPageGalleries) { await extractPublicPageGalleries(catalog); process.exit(0); }
 if (applyWebConfirmed) { await applyConfirmedWebResearch(catalog); process.exit(0); }
 if (applyWebBacklog) { await applyWebResearchBacklog(catalog); process.exit(0); }
 if (applyTailConfirmed) { await applyTailReview(catalog); process.exit(0); }
