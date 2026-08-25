@@ -21,6 +21,7 @@ const paths = {
   pageGalleryCache: path.join(root, "data/reports/cache/watch-stills-page-gallery-evidence.json"),
   pageGalleryReport: path.join(root, "data/reports/watch-stills-page-gallery-extraction.json"),
   pageGalleryMarkdown: path.join(root, "data/reports/watch-stills-page-gallery-extraction.md"),
+  imdbBrowserReport: path.join(root, "data/reports/watch-stills-imdb-gallery-extraction.json"),
 };
 
 const USER_AGENT = "NENWatchStillResearch/2.0 (editorial research; contact: n-e-n.ru)";
@@ -32,6 +33,7 @@ const applyWebConfirmed = process.argv.includes("--apply-web-confirmed");
 const applyWebBacklog = process.argv.includes("--apply-web-backlog");
 const applyTailConfirmed = process.argv.includes("--apply-tail-confirmed");
 const extractPageGalleries = process.argv.includes("--extract-page-galleries");
+const applyImdbBrowserEvidence = process.argv.includes("--apply-imdb-browser-evidence");
 const requestedLimit = Number(process.argv.find((arg) => arg.startsWith("--max="))?.split("=")[1] ?? Infinity);
 const limit = Number.isFinite(requestedLimit) && requestedLimit > 0 ? requestedLimit : Infinity;
 const sourceArg = process.argv.find((arg) => arg.startsWith("--sources="))?.split("=")[1];
@@ -741,7 +743,14 @@ async function extractPublicPageGalleries(catalog) {
         const urls = (gallery?.items ?? []).map((item) => {
           const best = mailGalleryVariants(item)[0];
           return best ? { item, ...best } : null;
-        }).filter((entry) => entry && mailTitleMatches(record, gallery.title, entry.item.title));
+        }).filter((entry) => entry && mailTitleMatches(record, gallery.title, entry.item.title))
+          .sort((a, b) => {
+            const aAspect = a.width / a.height;
+            const bAspect = b.width / b.height;
+            const aUsable = aAspect >= 1 && aAspect <= 3 ? 1 : 0;
+            const bUsable = bAspect >= 1 && bAspect <= 3 ? 1 : 0;
+            return bUsable - aUsable || (b.width * b.height) - (a.width * a.height);
+          });
         if (urls.length) stats.galleries.mail += 1;
         stats.extracted.mail += urls.length;
         evidence.sources.mail = { status: urls.length ? "GALLERY_FOUND" : "NO_GALLERY_DATA", pageUrl: mail.mailUrl, http: response.status, galleryId: gallery?.gallery_id ?? null, galleryTitle: gallery?.title ?? null,
@@ -818,7 +827,47 @@ async function extractPublicPageGalleries(catalog) {
   console.log(JSON.stringify(stats, null, 2));
 }
 
+async function applyImdbGalleryEvidence(catalog) {
+  const report = await readJson(paths.imdbBrowserReport, null);
+  if (!report?.confirmedCandidates) throw new Error("Нет IMDb browser evidence.");
+  const evidenceCandidates = [...report.confirmedCandidates, ...(report.recoveredCandidates ?? [])];
+  const owners = new Map(catalog.filter((record) => record.frame?.url).map((record) => [record.frame.url, record.id]));
+  const accepted = [];
+  const rejected = [];
+  for (const candidate of evidenceCandidates) {
+    try {
+      const record = catalog.find((item) => item.id === candidate.watchId);
+      if (!record) throw new Error("карточка отсутствует");
+      const owner = owners.get(candidate.imageUrl);
+      if (owner && owner !== record.id) throw new Error(`URL уже используется ${owner}`);
+      const response = await clients.image.fetch(candidate.imageUrl, { headers: { accept: "image/*", referer: candidate.pageUrl }, timeoutMs: 30_000 }, 2);
+      if (!response.ok) throw new Error(`image HTTP ${response.status}`);
+      const mime = response.headers.get("content-type")?.split(";")[0]?.toLowerCase() ?? null;
+      if (!mime?.startsWith("image/")) throw new Error(`неверный MIME ${mime ?? "unknown"}`);
+      const bytes = Buffer.from(await response.arrayBuffer());
+      const dimensions = imageDimensions(bytes, mime);
+      const aspectRatio = dimensions.width / dimensions.height;
+      if (!dimensions.width || !dimensions.height || dimensions.width < 400 || aspectRatio < 1 || aspectRatio > 3) throw new Error(`неподходящие размеры ${dimensions.width}x${dimensions.height}`);
+      accepted.push({ ...candidate, source: candidate.source ?? "IMDb", extraction: candidate.extraction ?? "__NEXT_DATA__ all_images facet imageTypeId=still_frame", probe: { mime, bytes: bytes.length, ...dimensions, aspectRatio,
+        hash: `sha256:${crypto.createHash("sha256").update(bytes).digest("hex")}`, checkedAt: now() } });
+    } catch (error) { rejected.push({ ...candidate, reason: String(error?.message ?? error) }); }
+  }
+  const duplicateHashes = new Set(accepted.filter((item, index) => accepted.findIndex((other) => other.probe.hash === item.probe.hash) !== index).map((item) => item.probe.hash));
+  const safe = accepted.filter((item) => !duplicateHashes.has(item.probe.hash));
+  for (const item of accepted.filter((candidate) => duplicateHashes.has(candidate.probe.hash))) rejected.push({ ...item, reason: "hash duplicate" });
+  const byId = new Map(safe.map((item) => [item.watchId, item]));
+  const updated = catalog.map((record) => {
+    const item = byId.get(record.id); if (!item) return record;
+    const studios = Array.isArray(record.frame?.studios) && record.frame.studios.length ? record.frame.studios : null;
+    return { ...record, frame: { url: item.imageUrl, ...(studios ? { studios: [...studios] } : {}) } };
+  });
+  await writeJsonAtomic(paths.catalog, updated);
+  await writeJsonAtomic(paths.imdbBrowserReport, { ...report, appliedAt: now(), applied: safe.length, rejected: rejected.length, appliedItems: safe, rejectedItems: rejected });
+  console.log(JSON.stringify({ processed: report.processedIds?.length ?? 0, confirmed: evidenceCandidates.length, applied: safe.length, rejected: rejected.length }, null, 2));
+}
+
 const catalog = await readJson(paths.catalog, []);
+if (applyImdbBrowserEvidence) { await applyImdbGalleryEvidence(catalog); process.exit(0); }
 if (extractPageGalleries) { await extractPublicPageGalleries(catalog); process.exit(0); }
 if (applyWebConfirmed) { await applyConfirmedWebResearch(catalog); process.exit(0); }
 if (applyWebBacklog) { await applyWebResearchBacklog(catalog); process.exit(0); }

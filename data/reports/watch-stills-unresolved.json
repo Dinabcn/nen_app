@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-24T07:19:42.076Z",
+  "generatedAt": "2026-08-25T06:57:46.259Z",
   "totalCatalog": 2074,
-  "confirmedStills": 1697,
-  "unresolved": 377,
-  "posterInFrame": 79,
-  "noFrame": 298,
+  "confirmedStills": 1713,
+  "unresolved": 361,
+  "posterInFrame": 68,
+  "noFrame": 293,
   "confirmedButMissingStudios": 0,
   "tailGroups": {
     "A": 0,
-    "B": 58,
-    "C": 188,
+    "B": 54,
+    "C": 176,
     "D": 131
   },
   "items": [
@@ -6253,6 +6253,13 @@
           "checkedAt": "2026-08-24T07:14:26.055Z",
           "pageUrl": "https://www.imdb.com/title/tt0178401/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt0178401/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -6666,6 +6673,13 @@
           "checkedAt": "2026-08-24T07:14:28.233Z",
           "pageUrl": "https://www.imdb.com/title/tt0210789/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt0210789/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -6756,6 +6770,13 @@
           "checkedAt": "2026-08-24T07:14:29.375Z",
           "pageUrl": "https://www.imdb.com/title/tt0127740/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt0127740/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -7059,6 +7080,13 @@
           "checkedAt": "2026-08-24T07:14:34.657Z",
           "pageUrl": "https://www.imdb.com/title/tt0040083/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt0040083/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -7602,89 +7630,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q10635807",
-      "title": "Мальчик и дракон",
-      "originalTitle": "Pojken och draken",
-      "year": 1962,
-      "type": "short-film",
-      "externalIds": {
-        "kinopoisk": "364389",
-        "tmdbMovie": "410614",
-        "tmdbTv": null,
-        "imdb": "tt0126616",
-        "wikidata": "Q10635807",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.298Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:19:42.953Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/364389/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:02.407Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:14:44.683Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/364389/stills/",
-          "error": "SSO/CAPTCHA/antibot or empty shell"
-        },
-        {
-          "source": "TMDb public page",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:14:44.683Z",
-          "pageUrl": "https://www.themoviedb.org/movie/410614/images/backdrops",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:14:44.683Z",
-          "pageUrl": "https://www.imdb.com/title/tt0126616/mediaindex/",
-          "error": "public page returned empty/async shell"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Pojken och draken\" 1962",
-          "\"Pojken och draken\" 1962 screenshots",
-          "\"Pojken och draken\" 1962 scene",
-          "\"Pojken och draken\" 1962 stills",
-          "\"Мальчик и дракон\" 1962 кадры",
-          "\"Мальчик и дракон\" фильм 1962"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q10506677",
       "title": "Доброй ночи, господин Бродяга!",
       "originalTitle": "Godnatt, herr luffare!",
@@ -7859,6 +7804,13 @@
           "checkedAt": "2026-08-24T07:14:47.435Z",
           "pageUrl": "https://www.imdb.com/title/tt0238595/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt0238595/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -8072,6 +8024,13 @@
           "checkedAt": "2026-08-24T07:14:58.823Z",
           "pageUrl": "https://www.imdb.com/title/tt3886222/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt3886222/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -8218,6 +8177,13 @@
           "checkedAt": "2026-08-24T07:15:05.251Z",
           "pageUrl": "https://www.imdb.com/title/tt0298574/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt0298574/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -8301,6 +8267,13 @@
           "checkedAt": "2026-08-24T07:15:06.385Z",
           "pageUrl": "https://www.imdb.com/title/tt0293567/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt0293567/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -8830,6 +8803,13 @@
           "checkedAt": "2026-08-24T07:15:12.349Z",
           "pageUrl": "https://www.imdb.com/title/tt0121636/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt0121636/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -9023,6 +9003,13 @@
           "checkedAt": "2026-08-24T07:15:13.194Z",
           "pageUrl": "https://www.imdb.com/title/tt0050220/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt0050220/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -9033,172 +9020,6 @@
           "\"Bärenburger Schnurre\" 1957 stills",
           "\"Беренбургские россказни\" 1957 кадры",
           "\"Беренбургские россказни\" фильм 1957"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q1199657",
-      "title": "Храбрый прогульщик",
-      "originalTitle": "Der tapfere Schulschwänzer",
-      "year": 1967,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": "105916",
-        "tmdbMovie": "85248",
-        "tmdbTv": null,
-        "imdb": "tt0257217",
-        "wikidata": "Q1199657",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.356Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:20:09.679Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/105916/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:03.597Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:15:14.700Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/105916/stills/",
-          "error": "SSO/CAPTCHA/antibot or empty shell"
-        },
-        {
-          "source": "TMDb public page",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:15:14.700Z",
-          "pageUrl": "https://www.themoviedb.org/movie/85248/images/backdrops",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:15:14.700Z",
-          "pageUrl": "https://www.imdb.com/title/tt0257217/mediaindex/",
-          "error": "public page returned empty/async shell"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Der tapfere Schulschwänzer\" 1967",
-          "\"Der tapfere Schulschwänzer\" 1967 screenshots",
-          "\"Der tapfere Schulschwänzer\" 1967 scene",
-          "\"Der tapfere Schulschwänzer\" 1967 stills",
-          "\"Храбрый прогульщик\" 1967 кадры",
-          "\"Храбрый прогульщик\" фильм 1967"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q12308184",
-      "title": "Умный человек",
-      "originalTitle": "Den kloge mand",
-      "year": 1937,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": "75119",
-        "tmdbMovie": "252114",
-        "tmdbTv": null,
-        "imdb": "tt0029086",
-        "wikidata": "Q12308184",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.421Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:20:22.988Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/75119/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:03.816Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:15:19.049Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/75119/stills/",
-          "error": "SSO/CAPTCHA/antibot or empty shell"
-        },
-        {
-          "source": "TMDb public page",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:15:19.049Z",
-          "pageUrl": "https://www.themoviedb.org/movie/252114/images/backdrops",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:15:19.049Z",
-          "pageUrl": "https://www.imdb.com/title/tt0029086/mediaindex/",
-          "error": "public page returned empty/async shell"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Den kloge mand\" 1937",
-          "\"Den kloge mand\" 1937 screenshots",
-          "\"Den kloge mand\" 1937 scene",
-          "\"Den kloge mand\" 1937 stills",
-          "\"Умный человек\" 1937 кадры",
-          "\"Умный человек\" фильм 1937"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -9609,6 +9430,13 @@
           "checkedAt": "2026-08-24T07:15:21.631Z",
           "pageUrl": "https://www.imdb.com/title/tt0373818/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt0373818/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -10093,6 +9921,13 @@
           "checkedAt": "2026-08-24T07:15:27.972Z",
           "pageUrl": "https://www.imdb.com/title/tt0093611/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt0093611/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -10217,6 +10052,13 @@
           "checkedAt": "2026-08-24T07:16:00.397Z",
           "pageUrl": "https://www.imdb.com/title/tt4121616/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt4121616/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -10459,6 +10301,13 @@
           "checkedAt": "2026-08-24T07:16:00.953Z",
           "pageUrl": "https://www.imdb.com/title/tt2575984/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt2575984/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -11505,6 +11354,13 @@
           "checkedAt": "2026-08-24T07:15:35.788Z",
           "pageUrl": "https://www.imdb.com/title/tt0323902/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt0323902/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -11588,6 +11444,13 @@
           "checkedAt": "2026-08-24T07:15:38.236Z",
           "pageUrl": "https://www.imdb.com/title/tt0104113/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt0104113/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -11781,6 +11644,13 @@
           "checkedAt": "2026-08-24T07:15:40.531Z",
           "pageUrl": "https://www.imdb.com/title/tt0206356/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt0206356/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -12743,95 +12613,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q40683260",
-      "title": "Среда с Годдардом",
-      "originalTitle": "Wednesday with Goddard",
-      "year": 2016,
-      "type": "animated-short",
-      "externalIds": {
-        "kinopoisk": "1055156",
-        "tmdbMovie": "448738",
-        "tmdbTv": null,
-        "imdb": "tt6665352",
-        "wikidata": "Q40683260",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.605Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:21:29.345Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/1055156/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:04.831Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:15:42.754Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/1055156/stills/",
-          "error": "SSO/CAPTCHA/antibot or empty shell"
-        },
-        {
-          "source": "TMDb public page",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:15:42.754Z",
-          "pageUrl": "https://www.themoviedb.org/movie/448738/images/backdrops",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:15:42.754Z",
-          "pageUrl": "https://www.imdb.com/title/tt6665352/mediaindex/",
-          "error": "public page returned empty/async shell"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Wednesday with Goddard\" 2016",
-          "\"Wednesday with Goddard\" 2016 screenshots",
-          "\"Wednesday with Goddard\" 2016 scene",
-          "\"Wednesday with Goddard\" 2016 stills",
-          "\"Среда с Годдардом\" 2016 кадры",
-          "\"Среда с Годдардом\" фильм 2016"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
-      },
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.aol.com/wednesday-season-2-gains-29-191923388.html",
-        "imageUrl": "https://s.yimg.com/ny/api/res/1.2/Zk3q90MaKOtJwhOG_b1IKQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04Mzg-/https%3A/media.zenfs.com/en/aol_variety_168/6c1ac862bebdac7cfd46ab82b9577202",
-        "reasons": [
-          "страница-источник недоступна: HTTP 404"
-        ]
-      }
-    },
-    {
       "id": "nen-wd-q119170643",
       "title": "Тайны Радужного Кристалла",
       "originalTitle": "레인보우 버블젬",
@@ -13693,89 +13474,6 @@
       }
     },
     {
-      "id": "nen-wd-q116978367",
-      "title": "Как разводить русалок",
-      "originalTitle": "How Mermaids Breed",
-      "year": 2002,
-      "type": "animated-short",
-      "externalIds": {
-        "kinopoisk": "321582",
-        "tmdbMovie": "592589",
-        "tmdbTv": null,
-        "imdb": "tt0983221",
-        "wikidata": "Q116978367",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:54.331Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-17T06:19:53.965Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/321582/stills/",
-          "error": "SSO, защита или региональное предупреждение; ограничения не обходились."
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:51:02.481Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        },
-        {
-          "source": "Кинопоиск",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:15:46.194Z",
-          "pageUrl": "https://www.kinopoisk.ru/film/321582/stills/",
-          "error": "SSO/CAPTCHA/antibot or empty shell"
-        },
-        {
-          "source": "TMDb public page",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:15:46.194Z",
-          "pageUrl": "https://www.themoviedb.org/movie/592589/images/backdrops",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:15:46.194Z",
-          "pageUrl": "https://www.imdb.com/title/tt0983221/mediaindex/",
-          "error": "public page returned empty/async shell"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"How Mermaids Breed\" 2002",
-          "\"How Mermaids Breed\" 2002 screenshots",
-          "\"How Mermaids Breed\" 2002 scene",
-          "\"How Mermaids Breed\" 2002 stills",
-          "\"Как разводить русалок\" 2002 кадры",
-          "\"Как разводить русалок\" фильм 2002"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q54999801",
       "title": "Луо Бао Бей",
       "originalTitle": "Luo Bao Bei",
@@ -14163,6 +13861,13 @@
           "checkedAt": "2026-08-24T07:16:04.521Z",
           "pageUrl": "https://www.imdb.com/title/tt5239172/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt5239172/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -14252,6 +13957,13 @@
           "checkedAt": "2026-08-24T07:15:48.338Z",
           "pageUrl": "https://www.imdb.com/title/tt3722248/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt3722248/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -15233,6 +14945,13 @@
           "checkedAt": "2026-08-24T07:10:41.522Z",
           "pageUrl": "https://www.imdb.com/title/tt0045841/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt0045841/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -15243,151 +14962,6 @@
           "\"Воробей на льду\" 1983 stills",
           "\"Воробей на льду\" 1983 кадры",
           "\"Воробей на льду\" фильм 1983"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-911980",
-      "title": "Жили-были мы",
-      "originalTitle": "Жили-были мы",
-      "year": 2016,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt10072948",
-        "wikidata": null,
-        "mail": "911980"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:10:58.843Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:52:34.016Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/911980_zhili_bili_mi/",
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:10:45.709Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/911980_zhili_bili_mi/",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:10:45.709Z",
-          "pageUrl": "https://www.imdb.com/title/tt10072948/mediaindex/",
-          "error": "public page returned empty/async shell"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Жили-были мы\" 2016",
-          "\"Жили-были мы\" 2016 screenshots",
-          "\"Жили-были мы\" 2016 scene",
-          "\"Жили-были мы\" 2016 stills",
-          "\"Жили-были мы\" 2016 кадры",
-          "\"Жили-были мы\" фильм 2016"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://programma-peredach.com/f/zhili-byli_2017/",
-        "imageUrl": "https://programma-peredach.com/img/kp/600x450/4/c/f/1/_4cf179a4f8405c6797e7e279bf963549.jpg",
-        "reasons": [
-          "страница не подтверждает originalTitle",
-          "страница не подтверждает, что изображение является кадром"
-        ]
-      }
-    },
-    {
-      "id": "nen-mail-378351",
-      "title": "Иностранцы",
-      "originalTitle": "Foreigners",
-      "year": 2006,
-      "type": "animated-short",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt1419779",
-        "wikidata": null,
-        "mail": "378351"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:09:04.723Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:51:07.990Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/378351_inostrancy_/",
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:10:47.951Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/378351_inostrancy_/",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:10:47.951Z",
-          "pageUrl": "https://www.imdb.com/title/tt1419779/mediaindex/",
-          "error": "public page returned empty/async shell"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Foreigners\" 2006",
-          "\"Foreigners\" 2006 screenshots",
-          "\"Foreigners\" 2006 scene",
-          "\"Foreigners\" 2006 stills",
-          "\"Иностранцы\" 2006 кадры",
-          "\"Иностранцы\" фильм 2006"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -15447,6 +15021,13 @@
           "checkedAt": "2026-08-24T07:10:51.144Z",
           "pageUrl": "https://www.imdb.com/title/tt3172248/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt3172248/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -15543,75 +15124,6 @@
       }
     },
     {
-      "id": "nen-mail-936355",
-      "title": "Мальчишки",
-      "originalTitle": "Мальчишки",
-      "year": 1969,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt2111358",
-        "wikidata": null,
-        "mail": "936355"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:13:32.842Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:53:24.730Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/936355_malchishki/",
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:10:53.349Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/936355_malchishki/",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:10:53.349Z",
-          "pageUrl": "https://www.imdb.com/title/tt2111358/mediaindex/",
-          "error": "public page returned empty/async shell"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Мальчишки\" 1969",
-          "\"Мальчишки\" 1969 screenshots",
-          "\"Мальчишки\" 1969 scene",
-          "\"Мальчишки\" 1969 stills",
-          "\"Мальчишки\" 1969 кадры",
-          "\"Мальчишки\" фильм 1969"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-mail-936356",
       "title": "Мандат",
       "originalTitle": "Мандат",
@@ -15654,6 +15166,13 @@
           "checkedAt": "2026-08-24T07:10:53.880Z",
           "pageUrl": "https://www.imdb.com/title/tt0305800/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt0305800/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -15664,75 +15183,6 @@
           "\"Мандат\" 1963 stills",
           "\"Мандат\" 1963 кадры",
           "\"Мандат\" фильм 1963"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-926592",
-      "title": "Микки — настоящая легенда. 90 лет волшебства",
-      "originalTitle": "Celebrating Mickey",
-      "year": 2018,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt10571508",
-        "wikidata": null,
-        "mail": "926592"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:12:04.012Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:52:55.150Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/926592_mikki_nastoyaschaya_legenda_90_let_volshebstva/",
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:10:55.718Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/926592_mikki_nastoyaschaya_legenda_90_let_volshebstva/",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:10:55.718Z",
-          "pageUrl": "https://www.imdb.com/title/tt10571508/mediaindex/",
-          "error": "public page returned empty/async shell"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Celebrating Mickey\" 2018",
-          "\"Celebrating Mickey\" 2018 screenshots",
-          "\"Celebrating Mickey\" 2018 scene",
-          "\"Celebrating Mickey\" 2018 stills",
-          "\"Микки — настоящая легенда. 90 лет волшебства\" 2018 кадры",
-          "\"Микки — настоящая легенда. 90 лет волшебства\" фильм 2018"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -15792,6 +15242,13 @@
           "checkedAt": "2026-08-24T07:10:57.524Z",
           "pageUrl": "https://www.imdb.com/title/tt1546014/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt1546014/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -15861,6 +15318,13 @@
           "checkedAt": "2026-08-24T07:11:00.482Z",
           "pageUrl": "https://www.imdb.com/title/tt1303774/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt1303774/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -15930,6 +15394,13 @@
           "checkedAt": "2026-08-24T07:11:02.335Z",
           "pageUrl": "https://www.imdb.com/title/tt2104965/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt2104965/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -15999,6 +15470,13 @@
           "checkedAt": "2026-08-24T07:11:03.197Z",
           "pageUrl": "https://www.imdb.com/title/tt8086232/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt8086232/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -16075,6 +15553,13 @@
           "checkedAt": "2026-08-24T07:11:06.721Z",
           "pageUrl": "https://www.imdb.com/title/tt4486666/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt4486666/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -16085,75 +15570,6 @@
           "\"Попугай Кеша и чудовище\" 2006 stills",
           "\"Попугай Кеша и чудовище\" 2006 кадры",
           "\"Попугай Кеша и чудовище\" фильм 2006"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-938035",
-      "title": "Приключения в городе, которого нет",
-      "originalTitle": "Приключения в городе, которого нет",
-      "year": 1974,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt1673658",
-        "wikidata": null,
-        "mail": "938035"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:13:45.577Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:53:27.506Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/938035_priklyucheniya_v_gorode_kotorogo_net/",
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:11:07.393Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/938035_priklyucheniya_v_gorode_kotorogo_net/",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:11:07.393Z",
-          "pageUrl": "https://www.imdb.com/title/tt1673658/mediaindex/",
-          "error": "public page returned empty/async shell"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Приключения в городе, которого нет\" 1974",
-          "\"Приключения в городе, которого нет\" 1974 screenshots",
-          "\"Приключения в городе, которого нет\" 1974 scene",
-          "\"Приключения в городе, которого нет\" 1974 stills",
-          "\"Приключения в городе, которого нет\" 1974 кадры",
-          "\"Приключения в городе, которого нет\" фильм 1974"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -16213,6 +15629,13 @@
           "checkedAt": "2026-08-24T07:11:09.061Z",
           "pageUrl": "https://www.imdb.com/title/tt1873599/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt1873599/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -16282,6 +15705,13 @@
           "checkedAt": "2026-08-24T07:11:18.662Z",
           "pageUrl": "https://www.imdb.com/title/tt2118021/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt2118021/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -16351,6 +15781,13 @@
           "checkedAt": "2026-08-24T07:11:23.796Z",
           "pageUrl": "https://www.imdb.com/title/tt7238912/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt7238912/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -16420,6 +15857,13 @@
           "checkedAt": "2026-08-24T07:11:25.590Z",
           "pageUrl": "https://www.imdb.com/title/tt7575284/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt7575284/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -16489,6 +15933,13 @@
           "checkedAt": "2026-08-24T07:11:28.100Z",
           "pageUrl": "https://www.imdb.com/title/tt0485356/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt0485356/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -16558,6 +16009,13 @@
           "checkedAt": "2026-08-24T07:11:30.575Z",
           "pageUrl": "https://www.imdb.com/title/tt4793788/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt4793788/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -16627,6 +16085,13 @@
           "checkedAt": "2026-08-24T07:11:32.525Z",
           "pageUrl": "https://www.imdb.com/title/tt2258967/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt2258967/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -16720,159 +16185,6 @@
           "страница не подтверждает originalTitle",
           "страница не подтверждает год",
           "страница не подтверждает, что изображение является кадром"
-        ]
-      }
-    },
-    {
-      "id": "nen-mail-922912",
-      "title": "Вокруг света за 80 дней",
-      "originalTitle": "Around the World in Eighty Days",
-      "year": 1972,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt0364783",
-        "wikidata": null,
-        "mail": "922912"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:11:35.139Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:52:45.506Z",
-          "pageUrl": "https://kino.mail.ru/series_922912_vokrug_sveta_za_80_dnei/",
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:11:34.123Z",
-          "pageUrl": "https://kino.mail.ru/series_922912_vokrug_sveta_za_80_dnei/",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:11:34.123Z",
-          "pageUrl": "https://www.imdb.com/title/tt0364783/mediaindex/",
-          "error": "public page returned empty/async shell"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Around the World in Eighty Days\" 1972",
-          "\"Around the World in Eighty Days\" 1972 screenshots",
-          "\"Around the World in Eighty Days\" 1972 scene",
-          "\"Around the World in Eighty Days\" 1972 stills",
-          "\"Вокруг света за 80 дней\" 1972 кадры",
-          "\"Вокруг света за 80 дней\" фильм 1972"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.flicks.com.au/movie/around-the-world-in-80-days-1956/",
-        "imageUrl": "https://d32qys9a6wm9no.cloudfront.net/images/movies/backdrop/a4/5faf24a76cf1d1b237a558ce36d68611_original.jpg?t=1636148895",
-        "reasons": [
-          "страница не подтверждает originalTitle",
-          "страница не подтверждает год",
-          "страница не подтверждает, что изображение является кадром"
-        ]
-      }
-    },
-    {
-      "id": "nen-mail-807495",
-      "title": "Всякая всячина",
-      "originalTitle": "All That",
-      "year": 1994,
-      "type": "series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt0111875",
-        "wikidata": null,
-        "mail": "807495"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:09:39.599Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:51:42.565Z",
-          "pageUrl": "https://kino.mail.ru/series_807495_vsyakaya_vsyachina/",
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:11:35.793Z",
-          "pageUrl": "https://kino.mail.ru/series_807495_vsyakaya_vsyachina/",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:11:35.793Z",
-          "pageUrl": "https://www.imdb.com/title/tt0111875/mediaindex/",
-          "error": "public page returned empty/async shell"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"All That\" 1994",
-          "\"All That\" 1994 screenshots",
-          "\"All That\" 1994 scene",
-          "\"All That\" 1994 stills",
-          "\"Всякая всячина\" 1994 кадры",
-          "\"Всякая всячина\" фильм 1994"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.bustle.com/articles/201377-11-ways-you-made-friends-in-the-90s",
-        "imageUrl": "https://imgix.bustle.com/rehost/2017/2/6/52f14d49-33e9-4c14-8941-8289a50cc8e2.jpg?crop=faces&fit=crop&fm=jpg&h=630&w=1200",
-        "reasons": [
-          "страница не подтверждает originalTitle",
-          "страница не подтверждает год"
         ]
       }
     },
@@ -17050,6 +16362,13 @@
           "checkedAt": "2026-08-24T07:11:37.468Z",
           "pageUrl": "https://www.imdb.com/title/tt6964618/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt6964618/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -17119,6 +16438,13 @@
           "checkedAt": "2026-08-24T07:11:38.127Z",
           "pageUrl": "https://www.imdb.com/title/tt12201258/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt12201258/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -17188,6 +16514,13 @@
           "checkedAt": "2026-08-24T07:11:38.740Z",
           "pageUrl": "https://www.imdb.com/title/tt6263044/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt6263044/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -17319,6 +16652,13 @@
           "checkedAt": "2026-08-24T07:11:39.505Z",
           "pageUrl": "https://www.imdb.com/title/tt6963836/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt6963836/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -18669,68 +18009,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-mail-813191",
-      "title": "Умные вещи",
-      "originalTitle": "Умные вещи",
-      "year": 1973,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": "813191"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:15:13.336Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:54:19.936Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/813191_umnie_veschi/",
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "GALLERY_FOUND",
-          "checkedAt": "2026-08-24T07:13:59.657Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/813191_umnie_veschi/",
-          "error": null
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Умные вещи\" 1973",
-          "\"Умные вещи\" 1973 screenshots",
-          "\"Умные вещи\" 1973 scene",
-          "\"Умные вещи\" 1973 stills",
-          "\"Умные вещи\" 1973 кадры",
-          "\"Умные вещи\" фильм 1973"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-mail-945353",
       "title": "Знаешь ли ты?",
       "originalTitle": "Bilasanmi?",
@@ -18897,6 +18175,13 @@
           "checkedAt": "2026-08-24T07:11:41.329Z",
           "pageUrl": "https://www.imdb.com/title/tt1634658/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt1634658/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -19028,6 +18313,13 @@
           "checkedAt": "2026-08-24T07:11:41.904Z",
           "pageUrl": "https://www.imdb.com/title/tt4613320/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt4613320/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -19166,6 +18458,13 @@
           "checkedAt": "2026-08-24T07:11:45.636Z",
           "pageUrl": "https://www.imdb.com/title/tt8591252/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt8591252/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -19235,6 +18534,13 @@
           "checkedAt": "2026-08-24T07:11:47.486Z",
           "pageUrl": "https://www.imdb.com/title/tt0869785/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt0869785/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -19373,6 +18679,13 @@
           "checkedAt": "2026-08-24T07:11:49.258Z",
           "pageUrl": "https://www.imdb.com/title/tt6964616/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt6964616/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -19442,6 +18755,13 @@
           "checkedAt": "2026-08-24T07:11:49.995Z",
           "pageUrl": "https://www.imdb.com/title/tt9357248/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt9357248/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -19511,6 +18831,13 @@
           "checkedAt": "2026-08-24T07:11:50.507Z",
           "pageUrl": "https://www.imdb.com/title/tt9695388/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt9695388/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -19587,6 +18914,13 @@
           "checkedAt": "2026-08-24T07:11:51.372Z",
           "pageUrl": "https://www.imdb.com/title/tt15254992/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt15254992/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -19724,6 +19058,13 @@
           "checkedAt": "2026-08-24T07:11:52.088Z",
           "pageUrl": "https://www.imdb.com/title/tt3452166/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt3452166/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -20116,6 +19457,13 @@
           "checkedAt": "2026-08-24T07:11:55.119Z",
           "pageUrl": "https://www.imdb.com/title/tt6953934/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt6953934/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -20126,75 +19474,6 @@
           "\"Pim & Pimba\" 2007 stills",
           "\"Пим и Пимба\" 2007 кадры",
           "\"Пим и Пимба\" фильм 2007"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-928768",
-      "title": "Питер Пэн: Новые приключения",
-      "originalTitle": "Les nouvelles aventures de Peter Pan",
-      "year": 2012,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt2795864",
-        "wikidata": null,
-        "mail": "928768"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:12:26.182Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:53:03.232Z",
-          "pageUrl": "https://kino.mail.ru/series_928768_piter_pen_novie_priklyucheniya/",
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:11:55.775Z",
-          "pageUrl": "https://kino.mail.ru/series_928768_piter_pen_novie_priklyucheniya/",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:11:55.775Z",
-          "pageUrl": "https://www.imdb.com/title/tt2795864/mediaindex/",
-          "error": "public page returned empty/async shell"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Les nouvelles aventures de Peter Pan\" 2012",
-          "\"Les nouvelles aventures de Peter Pan\" 2012 screenshots",
-          "\"Les nouvelles aventures de Peter Pan\" 2012 scene",
-          "\"Les nouvelles aventures de Peter Pan\" 2012 stills",
-          "\"Питер Пэн: Новые приключения\" 2012 кадры",
-          "\"Питер Пэн: Новые приключения\" фильм 2012"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -20254,6 +19533,13 @@
           "checkedAt": "2026-08-24T07:11:56.503Z",
           "pageUrl": "https://www.imdb.com/title/tt12200412/mediaindex/",
           "error": "public page returned empty/async shell"
+        },
+        {
+          "source": "IMDb gallery extraction",
+          "status": "NO_CONFIRMED_STILL",
+          "checkedAt": "2026-08-25T06:49:54.515Z",
+          "pageUrl": "https://www.imdb.com/title/tt12200412/mediaindex/",
+          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
         }
       ],
       "deepSearch": {
@@ -20326,144 +19612,6 @@
           "\"The Post Train\" 2016 stills",
           "\"Почтовый вагон\" 2016 кадры",
           "\"Почтовый вагон\" фильм 2016"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-927009",
-      "title": "Приключения К3",
-      "originalTitle": "De avonturen van K3",
-      "year": 2015,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt4842522",
-        "wikidata": null,
-        "mail": "927009"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:12:05.440Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:52:56.413Z",
-          "pageUrl": "https://kino.mail.ru/series_927009_k3/",
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:11:57.119Z",
-          "pageUrl": "https://kino.mail.ru/series_927009_k3/",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:11:57.119Z",
-          "pageUrl": "https://www.imdb.com/title/tt4842522/mediaindex/",
-          "error": "public page returned empty/async shell"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"De avonturen van K3\" 2015",
-          "\"De avonturen van K3\" 2015 screenshots",
-          "\"De avonturen van K3\" 2015 scene",
-          "\"De avonturen van K3\" 2015 stills",
-          "\"Приключения К3\" 2015 кадры",
-          "\"Приключения К3\" фильм 2015"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-919179",
-      "title": "Приключения Опасного Малого",
-      "originalTitle": "The Adventures of Kid Danger",
-      "year": 2018,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt7833530",
-        "wikidata": null,
-        "mail": "919179"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:11:24.061Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:52:42.802Z",
-          "pageUrl": "https://kino.mail.ru/series_919179_priklyucheniya_opasnogo_malogo/",
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:11:58.218Z",
-          "pageUrl": "https://kino.mail.ru/series_919179_priklyucheniya_opasnogo_malogo/",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:11:58.218Z",
-          "pageUrl": "https://www.imdb.com/title/tt7833530/mediaindex/",
-          "error": "public page returned empty/async shell"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"The Adventures of Kid Danger\" 2018",
-          "\"The Adventures of Kid Danger\" 2018 screenshots",
-          "\"The Adventures of Kid Danger\" 2018 scene",
-          "\"The Adventures of Kid Danger\" 2018 stills",
-          "\"Приключения Опасного Малого\" 2018 кадры",
-          "\"Приключения Опасного Малого\" фильм 2018"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",

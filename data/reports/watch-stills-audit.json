@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T07:19:41.983Z",
+  "generatedAt": "2026-08-25T06:57:46.166Z",
   "mode": "read-only; no network image fetches; catalog unchanged",
   "catalogPath": "data/source/watch-v2.json",
   "total": 2074,
@@ -12,17 +12,17 @@
   },
   "summary": {
     "statusCounts": {
-      "A": 1697,
-      "B": 79,
+      "A": 1713,
+      "B": 68,
       "C": 130,
-      "D": 22,
+      "D": 17,
       "E": 146
     },
-    "confirmedGoodStills": 1697,
-    "questionableImages": 79,
-    "noConfirmedStill": 377,
-    "noImageAtAll": 298,
-    "importedMailCoversStoredAsFrames": 79,
+    "confirmedGoodStills": 1713,
+    "questionableImages": 68,
+    "noConfirmedStill": 361,
+    "noImageAtAll": 293,
+    "importedMailCoversStoredAsFrames": 68,
     "idCoverage": {
       "tmdbMovie": 159,
       "tmdbTv": 7,
@@ -34,13 +34,13 @@
       "anyExact": 1371
     },
     "sourcePotential": {
-      "tmdb": 23,
-      "kinopoisk": 22,
-      "wikimedia": 152,
-      "imdbAsBridge": 64,
-      "nenEditorialAlreadyMatched": 1697
+      "tmdb": 18,
+      "kinopoisk": 17,
+      "wikimedia": 147,
+      "imdbAsBridge": 49,
+      "nenEditorialAlreadyMatched": 1713
     },
-    "automaticallyResearchable": 192
+    "automaticallyResearchable": 177
   },
   "architecture": {
     "existingUtility": "scripts/enrich-watch-frames-from-nen.mjs",
@@ -69303,8 +69303,36 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BNjExYzQ5ZGUtYWM4Ni00N2VjLTk5ZDgtMTAyYjU0ZGQxOGExXkEyXkFqcGc@._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0126616/mediaindex/",
+              "imdbId": "tt0126616",
+              "mediaId": "rm1515589120",
+              "caption": "Ale Möller and Bodil Mathiasson in Pojken och draken (1962)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 197803,
+                "width": 748,
+                "height": 556,
+                "format": "jpeg",
+                "aspectRatio": 1.3453237410071943,
+                "hash": "sha256:04db9115677fcf8ecd3724aed2242642cd6cd9facccec55719c8de80580ffeba",
+                "checkedAt": "2026-08-25T06:54:22.193Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -69331,10 +69359,61 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BNjExYzQ5ZGUtYWM4Ni00N2VjLTk5ZDgtMTAyYjU0ZGQxOGExXkEyXkFqcGc@._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0126616/mediaindex/",
+              "imdbId": "tt0126616",
+              "mediaId": "rm1515589120",
+              "caption": "Ale Möller and Bodil Mathiasson in Pojken och draken (1962)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 197803,
+                "width": 748,
+                "height": 556,
+                "format": "jpeg",
+                "aspectRatio": 1.3453237410071943,
+                "hash": "sha256:04db9115677fcf8ecd3724aed2242642cd6cd9facccec55719c8de80580ffeba",
+                "checkedAt": "2026-08-25T06:54:22.193Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника IMDb.",
+      "provenance": [
+        {
+          "source": "IMDb",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt0126616/mediaindex/",
+            "imdbId": "tt0126616",
+            "mediaId": "rm1515589120",
+            "caption": "Ale Möller and Bodil Mathiasson in Pojken och draken (1962)",
+            "imageType": "still_frame",
+            "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 197803,
+              "width": 748,
+              "height": 556,
+              "format": "jpeg",
+              "aspectRatio": 1.3453237410071943,
+              "hash": "sha256:04db9115677fcf8ecd3724aed2242642cd6cd9facccec55719c8de80580ffeba",
+              "checkedAt": "2026-08-25T06:54:22.193Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q10506677",
@@ -78095,8 +78174,36 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BYzY5NzZjODAtNjRmOC00YTU3LWE3OTQtMmU3ODI0OTU3NWUyXkEyXkFqcGc@._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0257217/mediaindex/",
+              "imdbId": "tt0257217",
+              "mediaId": "rm3927668992",
+              "caption": "Christoph Engel and Jessy Rameik in Der tapfere Schulschwänzer (1967)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 45730,
+                "width": 982,
+                "height": 735,
+                "format": "jpeg",
+                "aspectRatio": 1.3360544217687076,
+                "hash": "sha256:3e17af1ad5ee396547298dc39c96a12afd9171ac3bdda92bf3b6355c21226386",
+                "checkedAt": "2026-08-25T06:54:22.667Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -78123,10 +78230,61 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BYzY5NzZjODAtNjRmOC00YTU3LWE3OTQtMmU3ODI0OTU3NWUyXkEyXkFqcGc@._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0257217/mediaindex/",
+              "imdbId": "tt0257217",
+              "mediaId": "rm3927668992",
+              "caption": "Christoph Engel and Jessy Rameik in Der tapfere Schulschwänzer (1967)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 45730,
+                "width": 982,
+                "height": 735,
+                "format": "jpeg",
+                "aspectRatio": 1.3360544217687076,
+                "hash": "sha256:3e17af1ad5ee396547298dc39c96a12afd9171ac3bdda92bf3b6355c21226386",
+                "checkedAt": "2026-08-25T06:54:22.667Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника IMDb.",
+      "provenance": [
+        {
+          "source": "IMDb",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt0257217/mediaindex/",
+            "imdbId": "tt0257217",
+            "mediaId": "rm3927668992",
+            "caption": "Christoph Engel and Jessy Rameik in Der tapfere Schulschwänzer (1967)",
+            "imageType": "still_frame",
+            "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 45730,
+              "width": 982,
+              "height": 735,
+              "format": "jpeg",
+              "aspectRatio": 1.3360544217687076,
+              "hash": "sha256:3e17af1ad5ee396547298dc39c96a12afd9171ac3bdda92bf3b6355c21226386",
+              "checkedAt": "2026-08-25T06:54:22.667Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q338305",
@@ -78621,8 +78779,36 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BYzczZTQ1NTAtMzllZi00MTEwLTgwZmMtOGEyMjMwMTMwNmQxXkEyXkFqcGc@._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0029086/mediaindex/",
+              "imdbId": "tt0029086",
+              "mediaId": "rm1876386304",
+              "caption": "Mogens Brandt, Karen Marie Løwert, and Ebbe Rode in Den kloge Mand (1937)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 360332,
+                "width": 909,
+                "height": 716,
+                "format": "jpeg",
+                "aspectRatio": 1.2695530726256983,
+                "hash": "sha256:bc852c68124f504916ddc7e81a5096fab0f7fe71db16dc11c49b6d591adb427a",
+                "checkedAt": "2026-08-25T06:54:22.763Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -78649,10 +78835,61 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BYzczZTQ1NTAtMzllZi00MTEwLTgwZmMtOGEyMjMwMTMwNmQxXkEyXkFqcGc@._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0029086/mediaindex/",
+              "imdbId": "tt0029086",
+              "mediaId": "rm1876386304",
+              "caption": "Mogens Brandt, Karen Marie Løwert, and Ebbe Rode in Den kloge Mand (1937)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 360332,
+                "width": 909,
+                "height": 716,
+                "format": "jpeg",
+                "aspectRatio": 1.2695530726256983,
+                "hash": "sha256:bc852c68124f504916ddc7e81a5096fab0f7fe71db16dc11c49b6d591adb427a",
+                "checkedAt": "2026-08-25T06:54:22.763Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника IMDb.",
+      "provenance": [
+        {
+          "source": "IMDb",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt0029086/mediaindex/",
+            "imdbId": "tt0029086",
+            "mediaId": "rm1876386304",
+            "caption": "Mogens Brandt, Karen Marie Løwert, and Ebbe Rode in Den kloge Mand (1937)",
+            "imageType": "still_frame",
+            "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 360332,
+              "width": 909,
+              "height": 716,
+              "format": "jpeg",
+              "aspectRatio": 1.2695530726256983,
+              "hash": "sha256:bc852c68124f504916ddc7e81a5096fab0f7fe71db16dc11c49b6d591adb427a",
+              "checkedAt": "2026-08-25T06:54:22.763Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q1678478",
@@ -95064,8 +95301,36 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BMjE4ODlhMWYtZGNlYi00MDU0LWE1MWEtZTkxMzkwZTk1ZWM1XkEyXkFqcGc@._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt6665352/mediaindex/",
+              "imdbId": "tt6665352",
+              "mediaId": "rm3562092032",
+              "caption": "Wednesday with Goddard (2016)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 418075,
+                "width": 2560,
+                "height": 2160,
+                "format": "jpeg",
+                "aspectRatio": 1.1851851851851851,
+                "hash": "sha256:82e61b25f8cb941b7d23db62aa383e48e8cd0bf13ce28c522cbd14942e4f09b1",
+                "checkedAt": "2026-08-25T06:54:22.982Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -95092,10 +95357,61 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BMjE4ODlhMWYtZGNlYi00MDU0LWE1MWEtZTkxMzkwZTk1ZWM1XkEyXkFqcGc@._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt6665352/mediaindex/",
+              "imdbId": "tt6665352",
+              "mediaId": "rm3562092032",
+              "caption": "Wednesday with Goddard (2016)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 418075,
+                "width": 2560,
+                "height": 2160,
+                "format": "jpeg",
+                "aspectRatio": 1.1851851851851851,
+                "hash": "sha256:82e61b25f8cb941b7d23db62aa383e48e8cd0bf13ce28c522cbd14942e4f09b1",
+                "checkedAt": "2026-08-25T06:54:22.982Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника IMDb.",
+      "provenance": [
+        {
+          "source": "IMDb",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt6665352/mediaindex/",
+            "imdbId": "tt6665352",
+            "mediaId": "rm3562092032",
+            "caption": "Wednesday with Goddard (2016)",
+            "imageType": "still_frame",
+            "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 418075,
+              "width": 2560,
+              "height": 2160,
+              "format": "jpeg",
+              "aspectRatio": 1.1851851851851851,
+              "hash": "sha256:82e61b25f8cb941b7d23db62aa383e48e8cd0bf13ce28c522cbd14942e4f09b1",
+              "checkedAt": "2026-08-25T06:54:22.982Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q119170643",
@@ -97296,8 +97612,36 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BMjY4MzliNmMtNTI4YS00MzNlLWJlZTgtYzczMjBmZWQ5ZGRkXkEyXkFqcGc@._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0983221/mediaindex/",
+              "imdbId": "tt0983221",
+              "mediaId": "rm1814304768",
+              "caption": "How Mermaids Breed (2002)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 175073,
+                "width": 1024,
+                "height": 554,
+                "format": "jpeg",
+                "aspectRatio": 1.848375451263538,
+                "hash": "sha256:447da191d812115c59a0b4565718902b9653500674236e7747eab22f1bea15e3",
+                "checkedAt": "2026-08-25T06:54:23.148Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "TMDb Movie Images",
@@ -97324,10 +97668,61 @@
           "priority": 4
         }
       ],
-      "candidates": [],
-      "status": "D",
-      "reason": "Есть точный Kinopoisk ID, но предыдущий доступ к странице был заблокирован авторизацией/SSO; это техническое ограничение, не отсутствие кадра.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BMjY4MzliNmMtNTI4YS00MzNlLWJlZTgtYzczMjBmZWQ5ZGRkXkEyXkFqcGc@._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0983221/mediaindex/",
+              "imdbId": "tt0983221",
+              "mediaId": "rm1814304768",
+              "caption": "How Mermaids Breed (2002)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 175073,
+                "width": 1024,
+                "height": 554,
+                "format": "jpeg",
+                "aspectRatio": 1.848375451263538,
+                "hash": "sha256:447da191d812115c59a0b4565718902b9653500674236e7747eab22f1bea15e3",
+                "checkedAt": "2026-08-25T06:54:23.148Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника IMDb.",
+      "provenance": [
+        {
+          "source": "IMDb",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt0983221/mediaindex/",
+            "imdbId": "tt0983221",
+            "mediaId": "rm1814304768",
+            "caption": "How Mermaids Breed (2002)",
+            "imageType": "still_frame",
+            "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 175073,
+              "width": 1024,
+              "height": 554,
+              "format": "jpeg",
+              "aspectRatio": 1.848375451263538,
+              "hash": "sha256:447da191d812115c59a0b4565718902b9653500674236e7747eab22f1bea15e3",
+              "checkedAt": "2026-08-25T06:54:23.148Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q180424",
@@ -108189,25 +108584,41 @@
         "mail": "911980"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/9f782ed2-7c3f-59e3-acb7-e988e4bfdfdf/AQACNwTQy00I14DeqFMnNiUG160Ih3BUvRZZTAHucmmLkFAUKsxGRmnqWZnWNKntq1UBV0Y4a2olo10iYspLIBvlkGU.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/9f782ed2-7c3f-59e3-acb7-e988e4bfdfdf/AQACNwTQy00I14DeqFMnNiUG160Ih3BUvRZZTAHucmmLkFAUKsxGRmnqWZnWNKntq1UBV0Y4a2olo10iYspLIBvlkGU.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BZjRlNjFiMzctMzJjMi00YzZlLTg4MjYtNjQ5MzE4YTgwYmIxXkEyXkFqcGc@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt10072948/mediaindex/",
+              "imdbId": "tt10072948",
+              "mediaId": "rm1188521472",
+              "caption": "Sonya Galishnikova and Leonid Bichevin in Zhili-byli my (2017)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 1703361,
+                "width": 1903,
+                "height": 1073,
+                "format": "jpeg",
+                "aspectRatio": 1.7735321528424977,
+                "hash": "sha256:a5907ff65a843d7a9116810da45e8f7fbb15ac50dbb1f05fbc08e6b552fdeb61",
+                "checkedAt": "2026-08-25T06:54:23.469Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -108218,26 +108629,59 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/9f782ed2-7c3f-59e3-acb7-e988e4bfdfdf/AQACNwTQy00I14DeqFMnNiUG160Ih3BUvRZZTAHucmmLkFAUKsxGRmnqWZnWNKntq1UBV0Y4a2olo10iYspLIBvlkGU.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BZjRlNjFiMzctMzJjMi00YzZlLTg4MjYtNjQ5MzE4YTgwYmIxXkEyXkFqcGc@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt10072948/mediaindex/",
+              "imdbId": "tt10072948",
+              "mediaId": "rm1188521472",
+              "caption": "Sonya Galishnikova and Leonid Bichevin in Zhili-byli my (2017)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 1703361,
+                "width": 1903,
+                "height": 1073,
+                "format": "jpeg",
+                "aspectRatio": 1.7735321528424977,
+                "hash": "sha256:a5907ff65a843d7a9116810da45e8f7fbb15ac50dbb1f05fbc08e6b552fdeb61",
+                "checkedAt": "2026-08-25T06:54:23.469Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника IMDb.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "IMDb",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt10072948/mediaindex/",
+            "imdbId": "tt10072948",
+            "mediaId": "rm1188521472",
+            "caption": "Sonya Galishnikova and Leonid Bichevin in Zhili-byli my (2017)",
+            "imageType": "still_frame",
+            "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 1703361,
+              "width": 1903,
+              "height": 1073,
+              "format": "jpeg",
+              "aspectRatio": 1.7735321528424977,
+              "hash": "sha256:a5907ff65a843d7a9116810da45e8f7fbb15ac50dbb1f05fbc08e6b552fdeb61",
+              "checkedAt": "2026-08-25T06:54:23.469Z"
+            }
+          }
         }
       ]
     },
@@ -109111,25 +109555,41 @@
         "mail": "378351"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/2c6073e1-5d0f-5359-9ded-9bd081c65398/AQACoeywj9b59jJGaTCKlGYIr2r9IaX0Snadnz3OnGl5pzl-sGvIeNIsCfd44m65O9lJUK9C2Adp8zNQW_QRSK7Y7FU.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/2c6073e1-5d0f-5359-9ded-9bd081c65398/AQACoeywj9b59jJGaTCKlGYIr2r9IaX0Snadnz3OnGl5pzl-sGvIeNIsCfd44m65O9lJUK9C2Adp8zNQW_QRSK7Y7FU.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BMTUxNjQxMmItNTBkZS00ODg1LWFhOTEtYWFhYTYzNmExMDc3XkEyXkFqcGc@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt1419779/mediaindex/",
+              "imdbId": "tt1419779",
+              "mediaId": "rm2670029056",
+              "caption": "Foreigners (2006)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 147608,
+                "width": 871,
+                "height": 650,
+                "format": "jpeg",
+                "aspectRatio": 1.34,
+                "hash": "sha256:027c5d803a0fd173c4f01de7a62f2fe23bf1380bc26a203e6b5d15d6d18dc446",
+                "checkedAt": "2026-08-25T06:54:23.552Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -109140,26 +109600,59 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/2c6073e1-5d0f-5359-9ded-9bd081c65398/AQACoeywj9b59jJGaTCKlGYIr2r9IaX0Snadnz3OnGl5pzl-sGvIeNIsCfd44m65O9lJUK9C2Adp8zNQW_QRSK7Y7FU.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BMTUxNjQxMmItNTBkZS00ODg1LWFhOTEtYWFhYTYzNmExMDc3XkEyXkFqcGc@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt1419779/mediaindex/",
+              "imdbId": "tt1419779",
+              "mediaId": "rm2670029056",
+              "caption": "Foreigners (2006)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 147608,
+                "width": 871,
+                "height": 650,
+                "format": "jpeg",
+                "aspectRatio": 1.34,
+                "hash": "sha256:027c5d803a0fd173c4f01de7a62f2fe23bf1380bc26a203e6b5d15d6d18dc446",
+                "checkedAt": "2026-08-25T06:54:23.552Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника IMDb.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "IMDb",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt1419779/mediaindex/",
+            "imdbId": "tt1419779",
+            "mediaId": "rm2670029056",
+            "caption": "Foreigners (2006)",
+            "imageType": "still_frame",
+            "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 147608,
+              "width": 871,
+              "height": 650,
+              "format": "jpeg",
+              "aspectRatio": 1.34,
+              "hash": "sha256:027c5d803a0fd173c4f01de7a62f2fe23bf1380bc26a203e6b5d15d6d18dc446",
+              "checkedAt": "2026-08-25T06:54:23.552Z"
+            }
+          }
         }
       ]
     },
@@ -112350,25 +112843,41 @@
         "mail": "936355"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/0dac4d2f-9759-5ba9-a834-3c9fefd07738/AQACBEh3liwR6OS1QyBazkiaC-ocVD_jVmdsqcE_y2FPyNrpCwHLnb4eSn9zCl_Gw8c1ID-BCWucfXWyu2ZwOk66UXo.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/0dac4d2f-9759-5ba9-a834-3c9fefd07738/AQACBEh3liwR6OS1QyBazkiaC-ocVD_jVmdsqcE_y2FPyNrpCwHLnb4eSn9zCl_Gw8c1ID-BCWucfXWyu2ZwOk66UXo.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BNGY2MWU0ODYtYjgyZC00NTRjLWFhNTItMThkYWJmYzdmYjRkXkEyXkFqcGc@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt2111358/mediaindex/",
+              "imdbId": "tt2111358",
+              "mediaId": "rm2920498176",
+              "caption": "Malchishki (1970)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 97605,
+                "width": 720,
+                "height": 544,
+                "format": "jpeg",
+                "aspectRatio": 1.3235294117647058,
+                "hash": "sha256:0ed34f54370e95d3dbdda2ce2f2c9ab1289545587808a3b795884f9fd09d3a23",
+                "checkedAt": "2026-08-25T06:54:23.742Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -112379,26 +112888,59 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/0dac4d2f-9759-5ba9-a834-3c9fefd07738/AQACBEh3liwR6OS1QyBazkiaC-ocVD_jVmdsqcE_y2FPyNrpCwHLnb4eSn9zCl_Gw8c1ID-BCWucfXWyu2ZwOk66UXo.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BNGY2MWU0ODYtYjgyZC00NTRjLWFhNTItMThkYWJmYzdmYjRkXkEyXkFqcGc@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt2111358/mediaindex/",
+              "imdbId": "tt2111358",
+              "mediaId": "rm2920498176",
+              "caption": "Malchishki (1970)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 97605,
+                "width": 720,
+                "height": 544,
+                "format": "jpeg",
+                "aspectRatio": 1.3235294117647058,
+                "hash": "sha256:0ed34f54370e95d3dbdda2ce2f2c9ab1289545587808a3b795884f9fd09d3a23",
+                "checkedAt": "2026-08-25T06:54:23.742Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника IMDb.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "IMDb",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt2111358/mediaindex/",
+            "imdbId": "tt2111358",
+            "mediaId": "rm2920498176",
+            "caption": "Malchishki (1970)",
+            "imageType": "still_frame",
+            "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 97605,
+              "width": 720,
+              "height": 544,
+              "format": "jpeg",
+              "aspectRatio": 1.3235294117647058,
+              "hash": "sha256:0ed34f54370e95d3dbdda2ce2f2c9ab1289545587808a3b795884f9fd09d3a23",
+              "checkedAt": "2026-08-25T06:54:23.742Z"
+            }
+          }
         }
       ]
     },
@@ -113093,25 +113635,41 @@
         "mail": "926592"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/6cf18515-933a-5904-a588-dfe6ac295bf2/AQACvBblR6R2jo6nPT14iQrpaG8N-jPp_L1YwhJ5gNz67JLDJa_ktV3UfFKXyuVwtZDIJm7hhgax12f3Rv4rs1zz68A.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/6cf18515-933a-5904-a588-dfe6ac295bf2/AQACvBblR6R2jo6nPT14iQrpaG8N-jPp_L1YwhJ5gNz67JLDJa_ktV3UfFKXyuVwtZDIJm7hhgax12f3Rv4rs1zz68A.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BZWQ4YTlmM2UtZDcwZC00NmVhLWE2MjYtNDE5OTRlNWZlNTUyXkEyXkFqcGc@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt10571508/mediaindex/",
+              "imdbId": "tt10571508",
+              "mediaId": "rm1962455809",
+              "caption": "Celebrating Mickey (2018)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 174281,
+                "width": 1920,
+                "height": 1080,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:0d9750293c4f1c56b3c5b6ee8508d31154149370a4f10dcdc6543f75851a8932",
+                "checkedAt": "2026-08-25T06:54:23.955Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -113122,26 +113680,59 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/6cf18515-933a-5904-a588-dfe6ac295bf2/AQACvBblR6R2jo6nPT14iQrpaG8N-jPp_L1YwhJ5gNz67JLDJa_ktV3UfFKXyuVwtZDIJm7hhgax12f3Rv4rs1zz68A.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BZWQ4YTlmM2UtZDcwZC00NmVhLWE2MjYtNDE5OTRlNWZlNTUyXkEyXkFqcGc@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt10571508/mediaindex/",
+              "imdbId": "tt10571508",
+              "mediaId": "rm1962455809",
+              "caption": "Celebrating Mickey (2018)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 174281,
+                "width": 1920,
+                "height": 1080,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:0d9750293c4f1c56b3c5b6ee8508d31154149370a4f10dcdc6543f75851a8932",
+                "checkedAt": "2026-08-25T06:54:23.955Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника IMDb.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "IMDb",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt10571508/mediaindex/",
+            "imdbId": "tt10571508",
+            "mediaId": "rm1962455809",
+            "caption": "Celebrating Mickey (2018)",
+            "imageType": "still_frame",
+            "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 174281,
+              "width": 1920,
+              "height": 1080,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:0d9750293c4f1c56b3c5b6ee8508d31154149370a4f10dcdc6543f75851a8932",
+              "checkedAt": "2026-08-25T06:54:23.955Z"
+            }
+          }
         }
       ]
     },
@@ -115888,25 +116479,41 @@
         "mail": "938035"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/1e269b66-d076-5068-929e-939474b3947b/AQACOgS79wymV0z5JrWgZJ_rite5oXnQpb2TcKsyPVhKdtyoMLUhqYlMh_AmNVDxbr6l4YaolQ5no8yUFMi6ofYKuDY.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/1e269b66-d076-5068-929e-939474b3947b/AQACOgS79wymV0z5JrWgZJ_rite5oXnQpb2TcKsyPVhKdtyoMLUhqYlMh_AmNVDxbr6l4YaolQ5no8yUFMi6ofYKuDY.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BYjQ3M2IzZDktZTdmZS00NTBkLWI5MmEtZmFkOTQzMWZmOGZiXkEyXkFqcGc@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt1673658/mediaindex/",
+              "imdbId": "tt1673658",
+              "mediaId": "rm2490585600",
+              "caption": "Priklyucheniya v gorode, kotorogo net (1974)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 135173,
+                "width": 1519,
+                "height": 1013,
+                "format": "jpeg",
+                "aspectRatio": 1.4995064165844028,
+                "hash": "sha256:4a37248ab772429fa9cf469d6ab0896fe7527ba3e26c0a08d748c57ff220a4a9",
+                "checkedAt": "2026-08-25T06:54:24.131Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -115917,26 +116524,59 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/1e269b66-d076-5068-929e-939474b3947b/AQACOgS79wymV0z5JrWgZJ_rite5oXnQpb2TcKsyPVhKdtyoMLUhqYlMh_AmNVDxbr6l4YaolQ5no8yUFMi6ofYKuDY.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BYjQ3M2IzZDktZTdmZS00NTBkLWI5MmEtZmFkOTQzMWZmOGZiXkEyXkFqcGc@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt1673658/mediaindex/",
+              "imdbId": "tt1673658",
+              "mediaId": "rm2490585600",
+              "caption": "Priklyucheniya v gorode, kotorogo net (1974)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 135173,
+                "width": 1519,
+                "height": 1013,
+                "format": "jpeg",
+                "aspectRatio": 1.4995064165844028,
+                "hash": "sha256:4a37248ab772429fa9cf469d6ab0896fe7527ba3e26c0a08d748c57ff220a4a9",
+                "checkedAt": "2026-08-25T06:54:24.131Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника IMDb.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "IMDb",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt1673658/mediaindex/",
+            "imdbId": "tt1673658",
+            "mediaId": "rm2490585600",
+            "caption": "Priklyucheniya v gorode, kotorogo net (1974)",
+            "imageType": "still_frame",
+            "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 135173,
+              "width": 1519,
+              "height": 1013,
+              "format": "jpeg",
+              "aspectRatio": 1.4995064165844028,
+              "hash": "sha256:4a37248ab772429fa9cf469d6ab0896fe7527ba3e26c0a08d748c57ff220a4a9",
+              "checkedAt": "2026-08-25T06:54:24.131Z"
+            }
+          }
         }
       ]
     },
@@ -128786,25 +129426,41 @@
         "mail": "922912"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/f4b61c6b-8df3-5b46-ae8e-134f06116e4b/AQACCBdMBaUHUZ-vDxH1quoZNMOZ_tZ1_lh8Z1ciY9UvmT_I9Bx68JJkEu8spjhofEY4Dzj54yM5Bfm_IpNA22rEIKw.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/f4b61c6b-8df3-5b46-ae8e-134f06116e4b/AQACCBdMBaUHUZ-vDxH1quoZNMOZ_tZ1_lh8Z1ciY9UvmT_I9Bx68JJkEu8spjhofEY4Dzj54yM5Bfm_IpNA22rEIKw.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BNTA3YThmNTQtMDg5OS00NDViLTg5NDgtZTYwODI2ZThkNTc5XkEyXkFqcGc@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0364783/mediaindex/",
+              "imdbId": "tt0364783",
+              "mediaId": "rm1263464961",
+              "caption": "Around the World in Eighty Days (1972)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 1030757,
+                "width": 3386,
+                "height": 2272,
+                "format": "jpeg",
+                "aspectRatio": 1.4903169014084507,
+                "hash": "sha256:2ea9b2aaaca0cfaa6bf078d64b1bd12d18b972fad47c6f3811b508ed4ae34679",
+                "checkedAt": "2026-08-25T06:54:24.409Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -128815,26 +129471,59 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/f4b61c6b-8df3-5b46-ae8e-134f06116e4b/AQACCBdMBaUHUZ-vDxH1quoZNMOZ_tZ1_lh8Z1ciY9UvmT_I9Bx68JJkEu8spjhofEY4Dzj54yM5Bfm_IpNA22rEIKw.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BNTA3YThmNTQtMDg5OS00NDViLTg5NDgtZTYwODI2ZThkNTc5XkEyXkFqcGc@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0364783/mediaindex/",
+              "imdbId": "tt0364783",
+              "mediaId": "rm1263464961",
+              "caption": "Around the World in Eighty Days (1972)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 1030757,
+                "width": 3386,
+                "height": 2272,
+                "format": "jpeg",
+                "aspectRatio": 1.4903169014084507,
+                "hash": "sha256:2ea9b2aaaca0cfaa6bf078d64b1bd12d18b972fad47c6f3811b508ed4ae34679",
+                "checkedAt": "2026-08-25T06:54:24.409Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника IMDb.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "IMDb",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt0364783/mediaindex/",
+            "imdbId": "tt0364783",
+            "mediaId": "rm1263464961",
+            "caption": "Around the World in Eighty Days (1972)",
+            "imageType": "still_frame",
+            "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 1030757,
+              "width": 3386,
+              "height": 2272,
+              "format": "jpeg",
+              "aspectRatio": 1.4903169014084507,
+              "hash": "sha256:2ea9b2aaaca0cfaa6bf078d64b1bd12d18b972fad47c6f3811b508ed4ae34679",
+              "checkedAt": "2026-08-25T06:54:24.409Z"
+            }
+          }
         }
       ]
     },
@@ -130158,25 +130847,41 @@
         "mail": "807495"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/f0383354-d465-5a1e-9953-88c4b7248652/AQACQaBpI_0dQ4K8zPLO-EsAeNWVuMIyIqGR3HB3SAGHfchPYCp57t0rBx1m427428t0mLcqhgc5MvrgQSpsUvEIJVw.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/f0383354-d465-5a1e-9953-88c4b7248652/AQACQaBpI_0dQ4K8zPLO-EsAeNWVuMIyIqGR3HB3SAGHfchPYCp57t0rBx1m427428t0mLcqhgc5MvrgQSpsUvEIJVw.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BMTQ4MDQxNzIxOV5BMl5BanBnXkFtZTgwODYzMTAwMjE@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0111875/mediaindex/",
+              "imdbId": "tt0111875",
+              "mediaId": "rm2440678400",
+              "caption": "Kenan Thompson in Todo eso y más (1994)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 1525077,
+                "width": 3000,
+                "height": 2049,
+                "format": "jpeg",
+                "aspectRatio": 1.4641288433382138,
+                "hash": "sha256:d2eec7fb406d97fc8dd04387079b9d1d5e943b3249df79cfc2653c3d124f9f6b",
+                "checkedAt": "2026-08-25T06:54:24.748Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -130187,26 +130892,59 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/f0383354-d465-5a1e-9953-88c4b7248652/AQACQaBpI_0dQ4K8zPLO-EsAeNWVuMIyIqGR3HB3SAGHfchPYCp57t0rBx1m427428t0mLcqhgc5MvrgQSpsUvEIJVw.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BMTQ4MDQxNzIxOV5BMl5BanBnXkFtZTgwODYzMTAwMjE@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt0111875/mediaindex/",
+              "imdbId": "tt0111875",
+              "mediaId": "rm2440678400",
+              "caption": "Kenan Thompson in Todo eso y más (1994)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 1525077,
+                "width": 3000,
+                "height": 2049,
+                "format": "jpeg",
+                "aspectRatio": 1.4641288433382138,
+                "hash": "sha256:d2eec7fb406d97fc8dd04387079b9d1d5e943b3249df79cfc2653c3d124f9f6b",
+                "checkedAt": "2026-08-25T06:54:24.748Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника IMDb.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "IMDb",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt0111875/mediaindex/",
+            "imdbId": "tt0111875",
+            "mediaId": "rm2440678400",
+            "caption": "Kenan Thompson in Todo eso y más (1994)",
+            "imageType": "still_frame",
+            "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 1525077,
+              "width": 3000,
+              "height": 2049,
+              "format": "jpeg",
+              "aspectRatio": 1.4641288433382138,
+              "hash": "sha256:d2eec7fb406d97fc8dd04387079b9d1d5e943b3249df79cfc2653c3d124f9f6b",
+              "checkedAt": "2026-08-25T06:54:24.748Z"
+            }
+          }
         }
       ]
     },
@@ -155001,48 +155739,91 @@
         "mail": "813191"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/5b55d53d-5444-504f-bba5-730bd25e910b/AQAC_k6AGF9F1_7NpJ8tmU3gUB7kobmc_NwtfiT8Uzn55PlFSTpLA2JAlKnzJEx1XlRjEIFGVb5GEj8hyWAxpObBD-k.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/5b55d53d-5444-504f-bba5-730bd25e910b/AQAC_k6AGF9F1_7NpJ8tmU3gUB7kobmc_NwtfiT8Uzn55PlFSTpLA2JAlKnzJEx1XlRjEIFGVb5GEj8hyWAxpObBD-k.jpg",
+          "role": "confirmed-still",
+          "url": "https://resizer.mail.ru/p/e3c227d2-d4bc-532a-a43b-f5c78bdb89c8/AAACZGdpw7FoGiXwnyKG0Q7ga82ZQbPqkyRBE7g6MWS4OSUsZXF6FSnW5ycAbo3FfZ_uEYltXXZEH4Nh0J5Tcd7I-NM.webp",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
             "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://kino.mail.ru/cinema/movies/813191_umnie_veschi/",
+              "caption": "Кадр из фильма «Умные вещи»",
+              "imageType": "still",
+              "extraction": "embedded gallery JSON large asset; recovered after ranking all gallery items",
+              "probe": {
+                "mime": "image/webp",
+                "bytes": 35484,
+                "width": 688,
+                "height": 512,
+                "format": "webp",
+                "aspectRatio": 1.34375,
+                "hash": "sha256:c137e91bf09dd268f034cf196751a8a9f30e83b8b0f8fd2c4b2af1b7970ff963",
+                "checkedAt": "2026-08-25T06:54:25.999Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/5b55d53d-5444-504f-bba5-730bd25e910b/AQAC_k6AGF9F1_7NpJ8tmU3gUB7kobmc_NwtfiT8Uzn55PlFSTpLA2JAlKnzJEx1XlRjEIFGVb5GEj8hyWAxpObBD-k.jpg",
+          "role": "confirmed-still",
+          "url": "https://resizer.mail.ru/p/e3c227d2-d4bc-532a-a43b-f5c78bdb89c8/AAACZGdpw7FoGiXwnyKG0Q7ga82ZQbPqkyRBE7g6MWS4OSUsZXF6FSnW5ycAbo3FfZ_uEYltXXZEH4Nh0J5Tcd7I-NM.webp",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
             "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://kino.mail.ru/cinema/movies/813191_umnie_veschi/",
+              "caption": "Кадр из фильма «Умные вещи»",
+              "imageType": "still",
+              "extraction": "embedded gallery JSON large asset; recovered after ranking all gallery items",
+              "probe": {
+                "mime": "image/webp",
+                "bytes": 35484,
+                "width": 688,
+                "height": 512,
+                "format": "webp",
+                "aspectRatio": 1.34375,
+                "hash": "sha256:c137e91bf09dd268f034cf196751a8a9f30e83b8b0f8fd2c4b2af1b7970ff963",
+                "checkedAt": "2026-08-25T06:54:25.999Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Кино Mail.",
       "provenance": [
         {
           "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://kino.mail.ru/cinema/movies/813191_umnie_veschi/",
+            "caption": "Кадр из фильма «Умные вещи»",
+            "imageType": "still",
+            "extraction": "embedded gallery JSON large asset; recovered after ranking all gallery items",
+            "probe": {
+              "mime": "image/webp",
+              "bytes": 35484,
+              "width": 688,
+              "height": 512,
+              "format": "webp",
+              "aspectRatio": 1.34375,
+              "hash": "sha256:c137e91bf09dd268f034cf196751a8a9f30e83b8b0f8fd2c4b2af1b7970ff963",
+              "checkedAt": "2026-08-25T06:54:25.999Z"
+            }
+          }
         }
       ]
     },
@@ -180351,25 +181132,41 @@
         "mail": "928768"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/cdf4958a-2587-547d-ae8e-5751eb0aac63/AQACzVgb3JHGo5Wm7KzQVmamCOKpevfVZ0kit1UJlXvVFWRCF2ADl0_RaaPCsOLBx92DBNvmidEoGc-oow5fvsQCVR8.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/cdf4958a-2587-547d-ae8e-5751eb0aac63/AQACzVgb3JHGo5Wm7KzQVmamCOKpevfVZ0kit1UJlXvVFWRCF2ADl0_RaaPCsOLBx92DBNvmidEoGc-oow5fvsQCVR8.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BNjM1YTJiOTItYWM0ZC00M2Y4LTgxMzItM2RhYmZjMjI1ODM4XkEyXkFqcGc@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt2795864/mediaindex/",
+              "imdbId": "tt2795864",
+              "mediaId": "rm1814452992",
+              "caption": "Las nuevas aventuras de Peter Pan (2012)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 55936,
+                "width": 500,
+                "height": 375,
+                "format": "jpeg",
+                "aspectRatio": 1.3333333333333333,
+                "hash": "sha256:503486561a95a4ea194994456b3f3724bc145e25cb3bbb8767ba61dccd48b268",
+                "checkedAt": "2026-08-25T06:54:24.832Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -180380,26 +181177,59 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/cdf4958a-2587-547d-ae8e-5751eb0aac63/AQACzVgb3JHGo5Wm7KzQVmamCOKpevfVZ0kit1UJlXvVFWRCF2ADl0_RaaPCsOLBx92DBNvmidEoGc-oow5fvsQCVR8.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BNjM1YTJiOTItYWM0ZC00M2Y4LTgxMzItM2RhYmZjMjI1ODM4XkEyXkFqcGc@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt2795864/mediaindex/",
+              "imdbId": "tt2795864",
+              "mediaId": "rm1814452992",
+              "caption": "Las nuevas aventuras de Peter Pan (2012)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 55936,
+                "width": 500,
+                "height": 375,
+                "format": "jpeg",
+                "aspectRatio": 1.3333333333333333,
+                "hash": "sha256:503486561a95a4ea194994456b3f3724bc145e25cb3bbb8767ba61dccd48b268",
+                "checkedAt": "2026-08-25T06:54:24.832Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника IMDb.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "IMDb",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt2795864/mediaindex/",
+            "imdbId": "tt2795864",
+            "mediaId": "rm1814452992",
+            "caption": "Las nuevas aventuras de Peter Pan (2012)",
+            "imageType": "still_frame",
+            "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 55936,
+              "width": 500,
+              "height": 375,
+              "format": "jpeg",
+              "aspectRatio": 1.3333333333333333,
+              "hash": "sha256:503486561a95a4ea194994456b3f3724bc145e25cb3bbb8767ba61dccd48b268",
+              "checkedAt": "2026-08-25T06:54:24.832Z"
+            }
+          }
         }
       ]
     },
@@ -181829,25 +182659,41 @@
         "mail": "927009"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/950394de-5762-5fff-b84a-2ec1b564797c/AQACZl_Pe41fjxVKWtfdkiBK8XDQyNhXReK_yxx-3gXzw-hr274gUKAdiJJ2YWbtrvsEtEXWTkdSjcdQGrq38EusyLY.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/950394de-5762-5fff-b84a-2ec1b564797c/AQACZl_Pe41fjxVKWtfdkiBK8XDQyNhXReK_yxx-3gXzw-hr274gUKAdiJJ2YWbtrvsEtEXWTkdSjcdQGrq38EusyLY.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BZTU1MzllNDgtYjgwZS00YTljLWI2MzctYTAzNGU0NjJlMjYxXkEyXkFqcGc@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt4842522/mediaindex/",
+              "imdbId": "tt4842522",
+              "mediaId": "rm628134913",
+              "caption": "K3 (2015)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 35983,
+                "width": 500,
+                "height": 375,
+                "format": "jpeg",
+                "aspectRatio": 1.3333333333333333,
+                "hash": "sha256:85d03a2bbfdbd9890c7bf06d657317ed715fcfef0874cc83c7bf4ab12dc46c9f",
+                "checkedAt": "2026-08-25T06:54:25.013Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -181858,26 +182704,59 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/950394de-5762-5fff-b84a-2ec1b564797c/AQACZl_Pe41fjxVKWtfdkiBK8XDQyNhXReK_yxx-3gXzw-hr274gUKAdiJJ2YWbtrvsEtEXWTkdSjcdQGrq38EusyLY.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BZTU1MzllNDgtYjgwZS00YTljLWI2MzctYTAzNGU0NjJlMjYxXkEyXkFqcGc@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt4842522/mediaindex/",
+              "imdbId": "tt4842522",
+              "mediaId": "rm628134913",
+              "caption": "K3 (2015)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 35983,
+                "width": 500,
+                "height": 375,
+                "format": "jpeg",
+                "aspectRatio": 1.3333333333333333,
+                "hash": "sha256:85d03a2bbfdbd9890c7bf06d657317ed715fcfef0874cc83c7bf4ab12dc46c9f",
+                "checkedAt": "2026-08-25T06:54:25.013Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника IMDb.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "IMDb",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt4842522/mediaindex/",
+            "imdbId": "tt4842522",
+            "mediaId": "rm628134913",
+            "caption": "K3 (2015)",
+            "imageType": "still_frame",
+            "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 35983,
+              "width": 500,
+              "height": 375,
+              "format": "jpeg",
+              "aspectRatio": 1.3333333333333333,
+              "hash": "sha256:85d03a2bbfdbd9890c7bf06d657317ed715fcfef0874cc83c7bf4ab12dc46c9f",
+              "checkedAt": "2026-08-25T06:54:25.013Z"
+            }
+          }
         }
       ]
     },
@@ -182457,25 +183336,41 @@
         "mail": "919179"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/1fa70c36-e982-571a-bd4c-c76ac586d2a2/AQACQcAXV8Cpg_tQfPOSAH2ybKAHxpKdpQQ4cohHjCW9_FaP_ZfmVPZhg2ryx8lnKxHZ67g7xuv-44d45X08rG1lKrk.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/1fa70c36-e982-571a-bd4c-c76ac586d2a2/AQACQcAXV8Cpg_tQfPOSAH2ybKAHxpKdpQQ4cohHjCW9_FaP_ZfmVPZhg2ryx8lnKxHZ67g7xuv-44d45X08rG1lKrk.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BMGVhZmFmM2ItNzYyYy00NmRlLWJkOGUtNTUwYWZmYTcxOGE1XkEyXkFqcGc@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt7833530/mediaindex/",
+              "imdbId": "tt7833530",
+              "mediaId": "rm4188829952",
+              "caption": "Las aventuras de Kid Danger (2018)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 110318,
+                "width": 1920,
+                "height": 1080,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:52048a81a48016d630e349ce8cec233cd0fb2a9f295a256482fd919e77589b75",
+                "checkedAt": "2026-08-25T06:54:25.207Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -182486,26 +183381,59 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/1fa70c36-e982-571a-bd4c-c76ac586d2a2/AQACQcAXV8Cpg_tQfPOSAH2ybKAHxpKdpQQ4cohHjCW9_FaP_ZfmVPZhg2ryx8lnKxHZ67g7xuv-44d45X08rG1lKrk.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BMGVhZmFmM2ItNzYyYy00NmRlLWJkOGUtNTUwYWZmYTcxOGE1XkEyXkFqcGc@._V1_.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt7833530/mediaindex/",
+              "imdbId": "tt7833530",
+              "mediaId": "rm4188829952",
+              "caption": "Las aventuras de Kid Danger (2018)",
+              "imageType": "still_frame",
+              "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 110318,
+                "width": 1920,
+                "height": 1080,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:52048a81a48016d630e349ce8cec233cd0fb2a9f295a256482fd919e77589b75",
+                "checkedAt": "2026-08-25T06:54:25.207Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника IMDb.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "IMDb",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt7833530/mediaindex/",
+            "imdbId": "tt7833530",
+            "mediaId": "rm4188829952",
+            "caption": "Las aventuras de Kid Danger (2018)",
+            "imageType": "still_frame",
+            "extraction": "__NEXT_DATA__ all_images facet imageTypeId=still_frame",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 110318,
+              "width": 1920,
+              "height": 1080,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:52048a81a48016d630e349ce8cec233cd0fb2a9f295a256482fd919e77589b75",
+              "checkedAt": "2026-08-25T06:54:25.207Z"
+            }
+          }
         }
       ]
     },

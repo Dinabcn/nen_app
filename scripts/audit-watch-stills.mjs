@@ -12,6 +12,7 @@ const webBacklogApplyPath = path.join(root, "data/reports/watch-stills-web-backl
 const tailApplyPath = path.join(root, "data/reports/watch-stills-tail-apply.json");
 const pageGalleryApplyPath = path.join(root, "data/reports/watch-stills-page-gallery-extraction.json");
 const pageGalleryEvidencePath = path.join(root, "data/reports/cache/watch-stills-page-gallery-evidence.json");
+const imdbGalleryPath = path.join(root, "data/reports/watch-stills-imdb-gallery-extraction.json");
 const jsonPath = path.join(root, "data/reports/watch-stills-audit.json");
 const markdownPath = path.join(root, "data/reports/watch-stills-audit.md");
 const unresolvedJsonPath = path.join(root, "data/reports/watch-stills-unresolved.json");
@@ -36,11 +37,14 @@ const webBacklogApply = await readJson(webBacklogApplyPath, { appliedItems: [] }
 const tailApply = await readJson(tailApplyPath, { appliedItems: [] });
 const pageGalleryApply = await readJson(pageGalleryApplyPath, { appliedItems: [] });
 const pageGalleryEvidence = await readJson(pageGalleryEvidencePath, { records: {} });
+const imdbGallery = await readJson(imdbGalleryPath, { processedIds: [], appliedItems: [] });
 
 const mailById = new Map((mailSource.items ?? []).map((item) => [String(item.mailId), item]));
 const replacementById = new Map((mailReplacement.selectedItems ?? []).map((item) => [item.id, item]));
 const webAppliedById = new Map([...(webApply.appliedItems ?? []), ...(webBacklogApply.appliedItems ?? []), ...(tailApply.appliedItems ?? [])].map((item) => [item.watchId, item]));
 const pageGalleryAppliedById = new Map((pageGalleryApply.appliedItems ?? []).map((item) => [item.watchId, item]));
+const imdbGalleryAppliedById = new Map((imdbGallery.appliedItems ?? []).map((item) => [item.watchId, item]));
+const imdbGalleryProcessedIds = new Set(imdbGallery.processedIds ?? []);
 const tailAppliedIds = new Set((tailApply.appliedItems ?? []).map((item) => item.watchId));
 const pendingWebCandidates = new Map((webBacklogApply.rejectedItems ?? []).filter((item) => !tailAppliedIds.has(item.watchId)).map((item) => [item.watchId, item]));
 
@@ -89,6 +93,8 @@ const isMailImage = (frame) => {
 
 const confirmedEvidenceFor = (record) => {
   if (!record.frame?.url) return null;
+  const imdbGalleryItem = imdbGalleryAppliedById.get(record.id);
+  if (imdbGalleryItem?.imageUrl === record.frame.url) return { source: imdbGalleryItem.source ?? "IMDb", candidate: { url: imdbGalleryItem.imageUrl, provenance: { pageUrl: imdbGalleryItem.pageUrl, imdbId: imdbGalleryItem.imdbId, mediaId: imdbGalleryItem.mediaId, caption: imdbGalleryItem.caption, imageType: imdbGalleryItem.imageType, extraction: imdbGalleryItem.extraction, probe: imdbGalleryItem.probe } } };
   const pageGallery = pageGalleryAppliedById.get(record.id);
   if (pageGallery?.imageUrl === record.frame.url) return { source: pageGallery.source, candidate: { url: pageGallery.imageUrl, provenance: { pageUrl: pageGallery.pageUrl, extraction: pageGallery.extraction, externalId: pageGallery.externalId, galleryId: pageGallery.galleryId, galleryTitle: pageGallery.galleryTitle, itemId: pageGallery.itemId, caption: pageGallery.caption, probe: pageGallery.probe } } };
   const web = webAppliedById.get(record.id);
@@ -310,6 +316,8 @@ const unresolvedItems = items.filter((item) => item.status !== "A").map((item) =
   const extractedNames = { kinopoisk: "Кинопоиск", mail: "Кино Mail", imdb: "IMDb", tmdb: "TMDb public page" };
   for (const [key, source] of Object.entries(extractedSources)) checkedSources.push({ source: extractedNames[key] ?? key, status: source.status, checkedAt: pageGalleryEvidence.records[item.id].checkedAt ?? null,
     pageUrl: source.pageUrl ?? null, error: source.reason ?? null });
+  if (imdbGalleryProcessedIds.has(item.id)) checkedSources.push({ source: "IMDb gallery extraction", status: "NO_CONFIRMED_STILL", checkedAt: imdbGallery.generatedAt ?? null,
+    pageUrl: item.externalIds.imdb ? `https://www.imdb.com/title/${item.externalIds.imdb}/mediaindex/` : null, error: "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке." });
   let unresolvedReason = item.reason;
   if (confirmedNotApplied && !catalogById.get(item.id)?.studios?.length && !catalogById.get(item.id)?.frame?.studios?.length) unresolvedReason = "Кадр подтверждён, но не применён: обязательные студии производства отсутствуют; фиктивное значение не подставлялось.";
   else if (checkedSources.some((source) => source.source === "Кинопоиск" && source.status === "SOURCE_UNAVAILABLE")) unresolvedReason = "Точная страница Кинопоиска недоступна из-за регионального/защитного ограничения; обход не выполнялся.";
