@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T06:57:46.166Z",
+  "generatedAt": "2026-08-27T06:07:28.952Z",
   "mode": "read-only; no network image fetches; catalog unchanged",
   "catalogPath": "data/source/watch-v2.json",
   "total": 2074,
@@ -12,17 +12,17 @@
   },
   "summary": {
     "statusCounts": {
-      "A": 1713,
-      "B": 68,
-      "C": 130,
+      "A": 1718,
+      "B": 67,
+      "C": 127,
       "D": 17,
-      "E": 146
+      "E": 145
     },
-    "confirmedGoodStills": 1713,
-    "questionableImages": 68,
-    "noConfirmedStill": 361,
-    "noImageAtAll": 293,
-    "importedMailCoversStoredAsFrames": 68,
+    "confirmedGoodStills": 1718,
+    "questionableImages": 67,
+    "noConfirmedStill": 356,
+    "noImageAtAll": 289,
+    "importedMailCoversStoredAsFrames": 67,
     "idCoverage": {
       "tmdbMovie": 159,
       "tmdbTv": 7,
@@ -36,11 +36,11 @@
     "sourcePotential": {
       "tmdb": 18,
       "kinopoisk": 17,
-      "wikimedia": 147,
+      "wikimedia": 144,
       "imdbAsBridge": 49,
-      "nenEditorialAlreadyMatched": 1713
+      "nenEditorialAlreadyMatched": 1718
     },
-    "automaticallyResearchable": 177
+    "automaticallyResearchable": 174
   },
   "architecture": {
     "existingUtility": "scripts/enrich-watch-frames-from-nen.mjs",
@@ -42536,13 +42536,86 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://cdn.7days.ru/upload/cinema/18/1860_630x420.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "7days.ru",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://7days.ru/cinema/film/kanikuly-petrova-i-vasechkina-obyknovennye-i-neveroyatnye.htm",
+              "imageType": "still",
+              "extraction": "exact film page image; previously rejected only by obsolete 1000px threshold",
+              "match": "exact Russian title and year 1984 on source page; visually verified film scene",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 185190,
+                "width": 630,
+                "height": 420,
+                "format": "jpeg",
+                "aspectRatio": 1.5,
+                "hash": "sha256:4054b722cb59209ee3353fdaa5a338ff95ab600def5beee43e8142b305df818a",
+                "checkedAt": "2026-08-27T06:06:55.462Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://cdn.7days.ru/upload/cinema/18/1860_630x420.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "7days.ru",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://7days.ru/cinema/film/kanikuly-petrova-i-vasechkina-obyknovennye-i-neveroyatnye.htm",
+              "imageType": "still",
+              "extraction": "exact film page image; previously rejected only by obsolete 1000px threshold",
+              "match": "exact Russian title and year 1984 on source page; visually verified film scene",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 185190,
+                "width": 630,
+                "height": 420,
+                "format": "jpeg",
+                "aspectRatio": 1.5,
+                "hash": "sha256:4054b722cb59209ee3353fdaa5a338ff95ab600def5beee43e8142b305df818a",
+                "checkedAt": "2026-08-27T06:06:55.462Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника 7days.ru.",
+      "provenance": [
+        {
+          "source": "7days.ru",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://7days.ru/cinema/film/kanikuly-petrova-i-vasechkina-obyknovennye-i-neveroyatnye.htm",
+            "imageType": "still",
+            "extraction": "exact film page image; previously rejected only by obsolete 1000px threshold",
+            "match": "exact Russian title and year 1984 on source page; visually verified film scene",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 185190,
+              "width": 630,
+              "height": 420,
+              "format": "jpeg",
+              "aspectRatio": 1.5,
+              "hash": "sha256:4054b722cb59209ee3353fdaa5a338ff95ab600def5beee43e8142b305df818a",
+              "checkedAt": "2026-08-27T06:06:55.462Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-525",
@@ -80102,8 +80175,35 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BZjZmNWMwZTctNTkwOS00YWNlLWI2NmEtYTNmMzUxYTQ0NmEwXkEyXkFqcGc%40._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://m.imdb.com/title/tt0167758/mediaviewer/rm3674460417/",
+              "externalId": "wikidata:Q2646975; imdb:tt0167758",
+              "imageType": "still",
+              "extraction": "exact IMDb title media viewer original image",
+              "match": "exact IMDb work page and title; visually verified scene from the 1987 adaptation",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 501322,
+                "width": 960,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.3333333333333333,
+                "hash": "sha256:e1c58a304e5f99433460415e86fb0571ae2438491a9b3ece3f2f9d32cc7106af",
+                "checkedAt": "2026-08-27T06:06:56.314Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "Wikidata / Wikimedia Commons",
@@ -80112,10 +80212,59 @@
           "priority": 3
         }
       ],
-      "candidates": [],
-      "status": "C",
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BZjZmNWMwZTctNTkwOS00YWNlLWI2NmEtYTNmMzUxYTQ0NmEwXkEyXkFqcGc%40._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://m.imdb.com/title/tt0167758/mediaviewer/rm3674460417/",
+              "externalId": "wikidata:Q2646975; imdb:tt0167758",
+              "imageType": "still",
+              "extraction": "exact IMDb title media viewer original image",
+              "match": "exact IMDb work page and title; visually verified scene from the 1987 adaptation",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 501322,
+                "width": 960,
+                "height": 720,
+                "format": "jpeg",
+                "aspectRatio": 1.3333333333333333,
+                "hash": "sha256:e1c58a304e5f99433460415e86fb0571ae2438491a9b3ece3f2f9d32cc7106af",
+                "checkedAt": "2026-08-27T06:06:56.314Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника IMDb.",
+      "provenance": [
+        {
+          "source": "IMDb",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://m.imdb.com/title/tt0167758/mediaviewer/rm3674460417/",
+            "externalId": "wikidata:Q2646975; imdb:tt0167758",
+            "imageType": "still",
+            "extraction": "exact IMDb title media viewer original image",
+            "match": "exact IMDb work page and title; visually verified scene from the 1987 adaptation",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 501322,
+              "width": 960,
+              "height": 720,
+              "format": "jpeg",
+              "aspectRatio": 1.3333333333333333,
+              "hash": "sha256:e1c58a304e5f99433460415e86fb0571ae2438491a9b3ece3f2f9d32cc7106af",
+              "checkedAt": "2026-08-27T06:06:56.314Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q3819044",
@@ -87053,8 +87202,35 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BOGE4M2QyNWMtMmE3Ny00N2YxLTgxMDktMDQxNWE1NDk3YTc5XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/pt/title/tt0383001/mediaviewer/rm2491114752/",
+              "externalId": "wikidata:Q3283448; imdb:tt0383001",
+              "imageType": "still",
+              "extraction": "exact IMDb title media viewer original image",
+              "match": "exact IMDb work; source production year 2004 and catalog release year 2005 are a known release-year variance; visually verified scene",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 54170,
+                "width": 1000,
+                "height": 556,
+                "format": "jpeg",
+                "aspectRatio": 1.7985611510791366,
+                "hash": "sha256:a6762d3acbf19070e12459ca7dc39667573befcb6e2f9b251a500b834fb89a66",
+                "checkedAt": "2026-08-27T06:06:56.443Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "Wikidata / Wikimedia Commons",
@@ -87063,10 +87239,59 @@
           "priority": 3
         }
       ],
-      "candidates": [],
-      "status": "C",
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BOGE4M2QyNWMtMmE3Ny00N2YxLTgxMDktMDQxNWE1NDk3YTc5XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/pt/title/tt0383001/mediaviewer/rm2491114752/",
+              "externalId": "wikidata:Q3283448; imdb:tt0383001",
+              "imageType": "still",
+              "extraction": "exact IMDb title media viewer original image",
+              "match": "exact IMDb work; source production year 2004 and catalog release year 2005 are a known release-year variance; visually verified scene",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 54170,
+                "width": 1000,
+                "height": 556,
+                "format": "jpeg",
+                "aspectRatio": 1.7985611510791366,
+                "hash": "sha256:a6762d3acbf19070e12459ca7dc39667573befcb6e2f9b251a500b834fb89a66",
+                "checkedAt": "2026-08-27T06:06:56.443Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника IMDb.",
+      "provenance": [
+        {
+          "source": "IMDb",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/pt/title/tt0383001/mediaviewer/rm2491114752/",
+            "externalId": "wikidata:Q3283448; imdb:tt0383001",
+            "imageType": "still",
+            "extraction": "exact IMDb title media viewer original image",
+            "match": "exact IMDb work; source production year 2004 and catalog release year 2005 are a known release-year variance; visually verified scene",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 54170,
+              "width": 1000,
+              "height": 556,
+              "format": "jpeg",
+              "aspectRatio": 1.7985611510791366,
+              "hash": "sha256:a6762d3acbf19070e12459ca7dc39667573befcb6e2f9b251a500b834fb89a66",
+              "checkedAt": "2026-08-27T06:06:56.443Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q1169080",
@@ -93523,8 +93748,34 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://cf-img-a-in.tosshub.com/lingo/atbn/images/story/202105/tapen3-sixteen_nine.jpg?size=948%3A533",
+          "studios": [],
+          "provenance": {
+            "source": "Aaj Tak Bangla",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://bangla.aajtak.in/specials/story/you-are-born-play-character-gupi-satyajit-ray-told-actor-tapen-chatterjee-279225-2021-05-24",
+              "imageType": "still",
+              "extraction": "exact film article captioned image",
+              "match": "caption identifies exact film scene",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 39089,
+                "width": 749,
+                "height": 421,
+                "format": "jpeg",
+                "aspectRatio": 1.7790973871733966,
+                "hash": "sha256:12db8a062689f82c01db7b24bf67747f95f93c3e71cee12d66c7b6d410e465d1",
+                "checkedAt": "2026-08-27T06:06:57.804Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "Wikidata / Wikimedia Commons",
@@ -93533,10 +93784,57 @@
           "priority": 3
         }
       ],
-      "candidates": [],
-      "status": "C",
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://cf-img-a-in.tosshub.com/lingo/atbn/images/story/202105/tapen3-sixteen_nine.jpg?size=948%3A533",
+          "studios": [],
+          "provenance": {
+            "source": "Aaj Tak Bangla",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://bangla.aajtak.in/specials/story/you-are-born-play-character-gupi-satyajit-ray-told-actor-tapen-chatterjee-279225-2021-05-24",
+              "imageType": "still",
+              "extraction": "exact film article captioned image",
+              "match": "caption identifies exact film scene",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 39089,
+                "width": 749,
+                "height": 421,
+                "format": "jpeg",
+                "aspectRatio": 1.7790973871733966,
+                "hash": "sha256:12db8a062689f82c01db7b24bf67747f95f93c3e71cee12d66c7b6d410e465d1",
+                "checkedAt": "2026-08-27T06:06:57.804Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Aaj Tak Bangla.",
+      "provenance": [
+        {
+          "source": "Aaj Tak Bangla",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://bangla.aajtak.in/specials/story/you-are-born-play-character-gupi-satyajit-ray-told-actor-tapen-chatterjee-279225-2021-05-24",
+            "imageType": "still",
+            "extraction": "exact film article captioned image",
+            "match": "caption identifies exact film scene",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 39089,
+              "width": 749,
+              "height": 421,
+              "format": "jpeg",
+              "aspectRatio": 1.7790973871733966,
+              "hash": "sha256:12db8a062689f82c01db7b24bf67747f95f93c3e71cee12d66c7b6d410e465d1",
+              "checkedAt": "2026-08-27T06:06:57.804Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-wd-q1199558",
@@ -142279,48 +142577,94 @@
         "mail": "921853"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/e00697a4-91a3-5a98-846b-2bc267bb23f5/AQACpFXfn2ipIhuS1yaz-XUl3eyPk-0d0TkBmO4F7-zt-FR7xhWBMDywx9M2MoXbBVf-M1JKnqLDBlZfX4TbOAdH91I.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/e00697a4-91a3-5a98-846b-2bc267bb23f5/AQACpFXfn2ipIhuS1yaz-XUl3eyPk-0d0TkBmO4F7-zt-FR7xhWBMDywx9M2MoXbBVf-M1JKnqLDBlZfX4TbOAdH91I.jpg",
+          "role": "confirmed-still",
+          "url": "https://static1.parovoz.tv/assets/envell_exit_game/frames/frame_27_full.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Студия Паровоз",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://parovoz.tv/envell_exit_game",
+              "externalId": "mail:921853",
+              "imageType": "still",
+              "extraction": "official work page /frames/ collection",
+              "match": "official studio page, exact title, image labelled as a frame from the work",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 246963,
+                "width": 1920,
+                "height": 1080,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:8b675a39de4fd7120fcc28a69b57cdce32bd6b4e76e4d6b1d31fb606a28f17fa",
+                "checkedAt": "2026-08-27T06:06:56.128Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/e00697a4-91a3-5a98-846b-2bc267bb23f5/AQACpFXfn2ipIhuS1yaz-XUl3eyPk-0d0TkBmO4F7-zt-FR7xhWBMDywx9M2MoXbBVf-M1JKnqLDBlZfX4TbOAdH91I.jpg",
+          "role": "confirmed-still",
+          "url": "https://static1.parovoz.tv/assets/envell_exit_game/frames/frame_27_full.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Студия Паровоз",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://parovoz.tv/envell_exit_game",
+              "externalId": "mail:921853",
+              "imageType": "still",
+              "extraction": "official work page /frames/ collection",
+              "match": "official studio page, exact title, image labelled as a frame from the work",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 246963,
+                "width": 1920,
+                "height": 1080,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:8b675a39de4fd7120fcc28a69b57cdce32bd6b4e76e4d6b1d31fb606a28f17fa",
+                "checkedAt": "2026-08-27T06:06:56.128Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Студия Паровоз.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Студия Паровоз",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://parovoz.tv/envell_exit_game",
+            "externalId": "mail:921853",
+            "imageType": "still",
+            "extraction": "official work page /frames/ collection",
+            "match": "official studio page, exact title, image labelled as a frame from the work",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 246963,
+              "width": 1920,
+              "height": 1080,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:8b675a39de4fd7120fcc28a69b57cdce32bd6b4e76e4d6b1d31fb606a28f17fa",
+              "checkedAt": "2026-08-27T06:06:56.128Z"
+            }
+          }
         }
       ]
     },

@@ -13,6 +13,7 @@ const tailApplyPath = path.join(root, "data/reports/watch-stills-tail-apply.json
 const pageGalleryApplyPath = path.join(root, "data/reports/watch-stills-page-gallery-extraction.json");
 const pageGalleryEvidencePath = path.join(root, "data/reports/cache/watch-stills-page-gallery-evidence.json");
 const imdbGalleryPath = path.join(root, "data/reports/watch-stills-imdb-gallery-extraction.json");
+const galleryRecoveryPath = path.join(root, "data/reports/watch-stills-gallery-recovery.json");
 const jsonPath = path.join(root, "data/reports/watch-stills-audit.json");
 const markdownPath = path.join(root, "data/reports/watch-stills-audit.md");
 const unresolvedJsonPath = path.join(root, "data/reports/watch-stills-unresolved.json");
@@ -38,12 +39,14 @@ const tailApply = await readJson(tailApplyPath, { appliedItems: [] });
 const pageGalleryApply = await readJson(pageGalleryApplyPath, { appliedItems: [] });
 const pageGalleryEvidence = await readJson(pageGalleryEvidencePath, { records: {} });
 const imdbGallery = await readJson(imdbGalleryPath, { processedIds: [], appliedItems: [] });
+const galleryRecovery = await readJson(galleryRecoveryPath, { appliedItems: [] });
 
 const mailById = new Map((mailSource.items ?? []).map((item) => [String(item.mailId), item]));
 const replacementById = new Map((mailReplacement.selectedItems ?? []).map((item) => [item.id, item]));
 const webAppliedById = new Map([...(webApply.appliedItems ?? []), ...(webBacklogApply.appliedItems ?? []), ...(tailApply.appliedItems ?? [])].map((item) => [item.watchId, item]));
 const pageGalleryAppliedById = new Map((pageGalleryApply.appliedItems ?? []).map((item) => [item.watchId, item]));
 const imdbGalleryAppliedById = new Map((imdbGallery.appliedItems ?? []).map((item) => [item.watchId, item]));
+const galleryRecoveryAppliedById = new Map((galleryRecovery.appliedItems ?? []).map((item) => [item.watchId, item]));
 const imdbGalleryProcessedIds = new Set(imdbGallery.processedIds ?? []);
 const tailAppliedIds = new Set((tailApply.appliedItems ?? []).map((item) => item.watchId));
 const pendingWebCandidates = new Map((webBacklogApply.rejectedItems ?? []).filter((item) => !tailAppliedIds.has(item.watchId)).map((item) => [item.watchId, item]));
@@ -93,6 +96,8 @@ const isMailImage = (frame) => {
 
 const confirmedEvidenceFor = (record) => {
   if (!record.frame?.url) return null;
+  const recovered = galleryRecoveryAppliedById.get(record.id);
+  if (recovered?.imageUrl === record.frame.url) return { source: recovered.source, candidate: { url: recovered.imageUrl, provenance: { pageUrl: recovered.pageUrl, externalId: recovered.externalId, imageType: recovered.imageType, extraction: recovered.extraction, match: recovered.match, probe: recovered.probe } } };
   const imdbGalleryItem = imdbGalleryAppliedById.get(record.id);
   if (imdbGalleryItem?.imageUrl === record.frame.url) return { source: imdbGalleryItem.source ?? "IMDb", candidate: { url: imdbGalleryItem.imageUrl, provenance: { pageUrl: imdbGalleryItem.pageUrl, imdbId: imdbGalleryItem.imdbId, mediaId: imdbGalleryItem.mediaId, caption: imdbGalleryItem.caption, imageType: imdbGalleryItem.imageType, extraction: imdbGalleryItem.extraction, probe: imdbGalleryItem.probe } } };
   const pageGallery = pageGalleryAppliedById.get(record.id);

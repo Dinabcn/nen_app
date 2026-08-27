@@ -1,0 +1,375 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-27T07:45:00.000Z",
+  "method": "exact work page gallery recovery; semantic rejects excluded",
+  "confirmedCandidates": [
+    {
+      "watchId": "nen-524",
+      "title": "Каникулы Петрова и Васечкина, обыкновенные и невероятные",
+      "originalTitle": "Каникулы Петрова и Васечкина, обыкновенные и невероятные",
+      "year": 1984,
+      "source": "7days.ru",
+      "pageUrl": "https://7days.ru/cinema/film/kanikuly-petrova-i-vasechkina-obyknovennye-i-neveroyatnye.htm",
+      "imageUrl": "https://cdn.7days.ru/upload/cinema/18/1860_630x420.jpg",
+      "imageType": "still",
+      "extraction": "exact film page image; previously rejected only by obsolete 1000px threshold",
+      "match": "exact Russian title and year 1984 on source page; visually verified film scene"
+    },
+    {
+      "watchId": "nen-mail-921853",
+      "title": "Герои Энвелла: Выйти из игры",
+      "originalTitle": "Герои Энвелла: Выйти из игры",
+      "year": 2019,
+      "externalId": "mail:921853",
+      "source": "Студия Паровоз",
+      "pageUrl": "https://parovoz.tv/envell_exit_game",
+      "imageUrl": "https://static1.parovoz.tv/assets/envell_exit_game/frames/frame_27_full.jpg",
+      "imageType": "still",
+      "extraction": "official work page /frames/ collection",
+      "match": "official studio page, exact title, image labelled as a frame from the work"
+    },
+    {
+      "watchId": "nen-wd-q2646975",
+      "title": "Алиса в Зазеркалье",
+      "originalTitle": "Alice Through the Looking Glass",
+      "year": 1987,
+      "externalId": "wikidata:Q2646975; imdb:tt0167758",
+      "source": "IMDb",
+      "pageUrl": "https://m.imdb.com/title/tt0167758/mediaviewer/rm3674460417/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjZmNWMwZTctNTkwOS00YWNlLWI2NmEtYTNmMzUxYTQ0NmEwXkEyXkFqcGc%40._V1_.jpg",
+      "imageType": "still",
+      "extraction": "exact IMDb title media viewer original image",
+      "match": "exact IMDb work page and title; visually verified scene from the 1987 adaptation"
+    },
+    {
+      "watchId": "nen-wd-q3283448",
+      "title": "Тайна 2: Новые приключения на Амазонке",
+      "originalTitle": "Tainá 2 - A Aventura Continua",
+      "year": 2005,
+      "externalId": "wikidata:Q3283448; imdb:tt0383001",
+      "source": "IMDb",
+      "pageUrl": "https://www.imdb.com/pt/title/tt0383001/mediaviewer/rm2491114752/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BOGE4M2QyNWMtMmE3Ny00N2YxLTgxMDktMDQxNWE1NDk3YTc5XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+      "imageType": "still",
+      "extraction": "exact IMDb title media viewer original image",
+      "match": "exact IMDb work; source production year 2004 and catalog release year 2005 are a known release-year variance; visually verified scene"
+    },
+    {
+      "watchId": "nen-wd-q939876",
+      "source": "Fancaps",
+      "pageUrl": "https://fancaps.net/movies/Image.php?imageid=6478338",
+      "imageUrl": "https://cdni.fancaps.net/file/fancaps-movieimages/6478338.jpg",
+      "imageType": "still",
+      "extraction": "dedicated exact-title screencap page",
+      "match": "exact-title screencap page"
+    },
+    {
+      "watchId": "nen-wd-q639416",
+      "source": "Aaj Tak Bangla",
+      "pageUrl": "https://bangla.aajtak.in/specials/story/you-are-born-play-character-gupi-satyajit-ray-told-actor-tapen-chatterjee-279225-2021-05-24",
+      "imageUrl": "https://cf-img-a-in.tosshub.com/lingo/atbn/images/story/202105/tapen3-sixteen_nine.jpg?size=948%3A533",
+      "imageType": "still",
+      "extraction": "exact film article captioned image",
+      "match": "caption identifies exact film scene"
+    },
+    {
+      "watchId": "nen-wd-q2541350",
+      "source": "ScreenMusings",
+      "pageUrl": "https://screenmusings.org/movie/dvd/To-Sir-With-Love/pages/To-Sir-With-Love-017.htm",
+      "imageUrl": "https://screenmusings.org/movie/dvd/To-Sir-With-Love/images/To-Sir-With-Love-017.jpg",
+      "imageType": "still",
+      "extraction": "numbered DVD frame from exact film collection",
+      "match": "exact film numbered DVD frame"
+    },
+    {
+      "watchId": "nen-073",
+      "source": "Animation World Network",
+      "pageUrl": "https://www.awn.com/news/voice-cast-revealed-pixars-good-dinosaur",
+      "imageUrl": "https://www.awn.com/sites/default/files/styles/original/public/image/featured/1024654-voice-cast-revealed-pixars-good-dinosaur.jpg?itok=SVYVJT22",
+      "imageType": "still",
+      "extraction": "exact Pixar production article image",
+      "match": "exact Pixar production article scene"
+    },
+    {
+      "watchId": "nen-723",
+      "source": "Fancaps",
+      "pageUrl": "https://fancaps.net/movies/Image.php?imageid=11234419",
+      "imageUrl": "https://cdni.fancaps.net/file/fancaps-movieimages/11234419.jpg",
+      "imageType": "still",
+      "extraction": "dedicated exact film screencap page",
+      "match": "dedicated exact film screencap"
+    },
+    {
+      "watchId": "nen-084",
+      "source": "OutNow",
+      "pageUrl": "https://outnow.ch/en/Movies/2007/Ratatouille/Images/020",
+      "imageUrl": "https://media.outnow.ch/Movies/Bilder/2007/Ratatouille/movie.xl/10.jpg",
+      "imageType": "still",
+      "extraction": "exact film scene gallery",
+      "match": "exact film scene gallery"
+    },
+    {
+      "watchId": "nen-098",
+      "source": "Animation Screencaps",
+      "pageUrl": "https://animationscreencaps.com/4k-tangled-2010/page/31/",
+      "imageUrl": "https://img.screencaps.us/201/4k-tangled/full/4k-tangled-animationscreencaps.com-5461.jpg",
+      "imageType": "still",
+      "extraction": "dedicated exact 4K screencap gallery",
+      "match": "dedicated exact 4K screencap gallery"
+    },
+    {
+      "watchId": "nen-172",
+      "source": "MOVIE WALKER PRESS",
+      "pageUrl": "https://press.moviewalker.jp/mv30301/gallery/2/",
+      "imageUrl": "https://press.moviewalker.jp/api/resizeimage/content/sub/mv30301_156686576d9052afdf314db4c2969e3efa03ce.jpg?w=750",
+      "imageType": "still",
+      "extraction": "exact film gallery image",
+      "match": "exact film gallery frame"
+    },
+    {
+      "watchId": "nen-244",
+      "source": "Internet Animation Database",
+      "pageUrl": "https://www.intanibase.com/iad_entries/screenshots.aspx?shortID=12249",
+      "imageUrl": "https://s3.amazonaws.com/intanibase/iad_screenshots/1942/12249/18.jpg",
+      "imageType": "still",
+      "extraction": "dedicated exact screenshot archive",
+      "match": "dedicated exact screenshot archive"
+    },
+    {
+      "watchId": "nen-388",
+      "source": "Fancaps",
+      "pageUrl": "https://fancaps.net/movies/Image.php?imageid=2254212",
+      "imageUrl": "https://cdni.fancaps.net/file/fancaps-movieimages/2254212.jpg",
+      "imageType": "still",
+      "extraction": "dedicated exact film screencap page",
+      "match": "dedicated exact film screencap"
+    },
+    {
+      "watchId": "nen-mail-929419",
+      "source": "Ladybird production",
+      "pageUrl": "https://ladybirdmovie.com/product.php?p=6",
+      "imageUrl": "https://ladybirdmovie.com/uploads/8931_bigi-0017.jpg",
+      "imageType": "still",
+      "extraction": "official exact series product gallery",
+      "match": "official exact series scene"
+    }
+  ],
+  "semanticRejectPolicy": "Candidates rejected as poster, person photo, wrong work, remake, season, or shared ambiguous URL were not reconsidered.",
+  "appliedAt": "2026-08-27T06:07:02.665Z",
+  "applied": 5,
+  "rejected": 10,
+  "appliedItems": [
+    {
+      "watchId": "nen-524",
+      "title": "Каникулы Петрова и Васечкина, обыкновенные и невероятные",
+      "originalTitle": "Каникулы Петрова и Васечкина, обыкновенные и невероятные",
+      "year": 1984,
+      "source": "7days.ru",
+      "pageUrl": "https://7days.ru/cinema/film/kanikuly-petrova-i-vasechkina-obyknovennye-i-neveroyatnye.htm",
+      "imageUrl": "https://cdn.7days.ru/upload/cinema/18/1860_630x420.jpg",
+      "imageType": "still",
+      "extraction": "exact film page image; previously rejected only by obsolete 1000px threshold",
+      "match": "exact Russian title and year 1984 on source page; visually verified film scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 185190,
+        "width": 630,
+        "height": 420,
+        "format": "jpeg",
+        "aspectRatio": 1.5,
+        "hash": "sha256:4054b722cb59209ee3353fdaa5a338ff95ab600def5beee43e8142b305df818a",
+        "checkedAt": "2026-08-27T06:06:55.462Z"
+      }
+    },
+    {
+      "watchId": "nen-mail-921853",
+      "title": "Герои Энвелла: Выйти из игры",
+      "originalTitle": "Герои Энвелла: Выйти из игры",
+      "year": 2019,
+      "externalId": "mail:921853",
+      "source": "Студия Паровоз",
+      "pageUrl": "https://parovoz.tv/envell_exit_game",
+      "imageUrl": "https://static1.parovoz.tv/assets/envell_exit_game/frames/frame_27_full.jpg",
+      "imageType": "still",
+      "extraction": "official work page /frames/ collection",
+      "match": "official studio page, exact title, image labelled as a frame from the work",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 246963,
+        "width": 1920,
+        "height": 1080,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:8b675a39de4fd7120fcc28a69b57cdce32bd6b4e76e4d6b1d31fb606a28f17fa",
+        "checkedAt": "2026-08-27T06:06:56.128Z"
+      }
+    },
+    {
+      "watchId": "nen-wd-q2646975",
+      "title": "Алиса в Зазеркалье",
+      "originalTitle": "Alice Through the Looking Glass",
+      "year": 1987,
+      "externalId": "wikidata:Q2646975; imdb:tt0167758",
+      "source": "IMDb",
+      "pageUrl": "https://m.imdb.com/title/tt0167758/mediaviewer/rm3674460417/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjZmNWMwZTctNTkwOS00YWNlLWI2NmEtYTNmMzUxYTQ0NmEwXkEyXkFqcGc%40._V1_.jpg",
+      "imageType": "still",
+      "extraction": "exact IMDb title media viewer original image",
+      "match": "exact IMDb work page and title; visually verified scene from the 1987 adaptation",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 501322,
+        "width": 960,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.3333333333333333,
+        "hash": "sha256:e1c58a304e5f99433460415e86fb0571ae2438491a9b3ece3f2f9d32cc7106af",
+        "checkedAt": "2026-08-27T06:06:56.314Z"
+      }
+    },
+    {
+      "watchId": "nen-wd-q3283448",
+      "title": "Тайна 2: Новые приключения на Амазонке",
+      "originalTitle": "Tainá 2 - A Aventura Continua",
+      "year": 2005,
+      "externalId": "wikidata:Q3283448; imdb:tt0383001",
+      "source": "IMDb",
+      "pageUrl": "https://www.imdb.com/pt/title/tt0383001/mediaviewer/rm2491114752/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BOGE4M2QyNWMtMmE3Ny00N2YxLTgxMDktMDQxNWE1NDk3YTc5XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+      "imageType": "still",
+      "extraction": "exact IMDb title media viewer original image",
+      "match": "exact IMDb work; source production year 2004 and catalog release year 2005 are a known release-year variance; visually verified scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 54170,
+        "width": 1000,
+        "height": 556,
+        "format": "jpeg",
+        "aspectRatio": 1.7985611510791366,
+        "hash": "sha256:a6762d3acbf19070e12459ca7dc39667573befcb6e2f9b251a500b834fb89a66",
+        "checkedAt": "2026-08-27T06:06:56.443Z"
+      }
+    },
+    {
+      "watchId": "nen-wd-q639416",
+      "source": "Aaj Tak Bangla",
+      "pageUrl": "https://bangla.aajtak.in/specials/story/you-are-born-play-character-gupi-satyajit-ray-told-actor-tapen-chatterjee-279225-2021-05-24",
+      "imageUrl": "https://cf-img-a-in.tosshub.com/lingo/atbn/images/story/202105/tapen3-sixteen_nine.jpg?size=948%3A533",
+      "imageType": "still",
+      "extraction": "exact film article captioned image",
+      "match": "caption identifies exact film scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 39089,
+        "width": 749,
+        "height": 421,
+        "format": "jpeg",
+        "aspectRatio": 1.7790973871733966,
+        "hash": "sha256:12db8a062689f82c01db7b24bf67747f95f93c3e71cee12d66c7b6d410e465d1",
+        "checkedAt": "2026-08-27T06:06:57.804Z"
+      }
+    }
+  ],
+  "rejectedItems": [
+    {
+      "watchId": "nen-wd-q939876",
+      "source": "Fancaps",
+      "pageUrl": "https://fancaps.net/movies/Image.php?imageid=6478338",
+      "imageUrl": "https://cdni.fancaps.net/file/fancaps-movieimages/6478338.jpg",
+      "imageType": "still",
+      "extraction": "dedicated exact-title screencap page",
+      "match": "exact-title screencap page",
+      "reason": "image HTTP 403"
+    },
+    {
+      "watchId": "nen-wd-q2541350",
+      "source": "ScreenMusings",
+      "pageUrl": "https://screenmusings.org/movie/dvd/To-Sir-With-Love/pages/To-Sir-With-Love-017.htm",
+      "imageUrl": "https://screenmusings.org/movie/dvd/To-Sir-With-Love/images/To-Sir-With-Love-017.jpg",
+      "imageType": "still",
+      "extraction": "numbered DVD frame from exact film collection",
+      "match": "exact film numbered DVD frame",
+      "reason": "image HTTP 404"
+    },
+    {
+      "watchId": "nen-073",
+      "source": "Animation World Network",
+      "pageUrl": "https://www.awn.com/news/voice-cast-revealed-pixars-good-dinosaur",
+      "imageUrl": "https://www.awn.com/sites/default/files/styles/original/public/image/featured/1024654-voice-cast-revealed-pixars-good-dinosaur.jpg?itok=SVYVJT22",
+      "imageType": "still",
+      "extraction": "exact Pixar production article image",
+      "match": "exact Pixar production article scene",
+      "reason": "image HTTP 403"
+    },
+    {
+      "watchId": "nen-723",
+      "source": "Fancaps",
+      "pageUrl": "https://fancaps.net/movies/Image.php?imageid=11234419",
+      "imageUrl": "https://cdni.fancaps.net/file/fancaps-movieimages/11234419.jpg",
+      "imageType": "still",
+      "extraction": "dedicated exact film screencap page",
+      "match": "dedicated exact film screencap",
+      "reason": "image HTTP 403"
+    },
+    {
+      "watchId": "nen-084",
+      "source": "OutNow",
+      "pageUrl": "https://outnow.ch/en/Movies/2007/Ratatouille/Images/020",
+      "imageUrl": "https://media.outnow.ch/Movies/Bilder/2007/Ratatouille/movie.xl/10.jpg",
+      "imageType": "still",
+      "extraction": "exact film scene gallery",
+      "match": "exact film scene gallery",
+      "reason": "image HTTP 410"
+    },
+    {
+      "watchId": "nen-098",
+      "source": "Animation Screencaps",
+      "pageUrl": "https://animationscreencaps.com/4k-tangled-2010/page/31/",
+      "imageUrl": "https://img.screencaps.us/201/4k-tangled/full/4k-tangled-animationscreencaps.com-5461.jpg",
+      "imageType": "still",
+      "extraction": "dedicated exact 4K screencap gallery",
+      "match": "dedicated exact 4K screencap gallery",
+      "reason": "image HTTP 404"
+    },
+    {
+      "watchId": "nen-172",
+      "source": "MOVIE WALKER PRESS",
+      "pageUrl": "https://press.moviewalker.jp/mv30301/gallery/2/",
+      "imageUrl": "https://press.moviewalker.jp/api/resizeimage/content/sub/mv30301_156686576d9052afdf314db4c2969e3efa03ce.jpg?w=750",
+      "imageType": "still",
+      "extraction": "exact film gallery image",
+      "match": "exact film gallery frame",
+      "reason": "image HTTP 404"
+    },
+    {
+      "watchId": "nen-244",
+      "source": "Internet Animation Database",
+      "pageUrl": "https://www.intanibase.com/iad_entries/screenshots.aspx?shortID=12249",
+      "imageUrl": "https://s3.amazonaws.com/intanibase/iad_screenshots/1942/12249/18.jpg",
+      "imageType": "still",
+      "extraction": "dedicated exact screenshot archive",
+      "match": "dedicated exact screenshot archive",
+      "reason": "image HTTP 404"
+    },
+    {
+      "watchId": "nen-388",
+      "source": "Fancaps",
+      "pageUrl": "https://fancaps.net/movies/Image.php?imageid=2254212",
+      "imageUrl": "https://cdni.fancaps.net/file/fancaps-movieimages/2254212.jpg",
+      "imageType": "still",
+      "extraction": "dedicated exact film screencap page",
+      "match": "dedicated exact film screencap",
+      "reason": "image HTTP 403"
+    },
+    {
+      "watchId": "nen-mail-929419",
+      "source": "Ladybird production",
+      "pageUrl": "https://ladybirdmovie.com/product.php?p=6",
+      "imageUrl": "https://ladybirdmovie.com/uploads/8931_bigi-0017.jpg",
+      "imageType": "still",
+      "extraction": "official exact series product gallery",
+      "match": "official exact series scene",
+      "reason": "fetch failed"
+    }
+  ]
+}

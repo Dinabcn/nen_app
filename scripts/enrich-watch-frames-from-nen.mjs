@@ -22,6 +22,7 @@ const paths = {
   pageGalleryReport: path.join(root, "data/reports/watch-stills-page-gallery-extraction.json"),
   pageGalleryMarkdown: path.join(root, "data/reports/watch-stills-page-gallery-extraction.md"),
   imdbBrowserReport: path.join(root, "data/reports/watch-stills-imdb-gallery-extraction.json"),
+  galleryRecoveryReport: path.join(root, "data/reports/watch-stills-gallery-recovery.json"),
 };
 
 const USER_AGENT = "NENWatchStillResearch/2.0 (editorial research; contact: n-e-n.ru)";
@@ -34,6 +35,7 @@ const applyWebBacklog = process.argv.includes("--apply-web-backlog");
 const applyTailConfirmed = process.argv.includes("--apply-tail-confirmed");
 const extractPageGalleries = process.argv.includes("--extract-page-galleries");
 const applyImdbBrowserEvidence = process.argv.includes("--apply-imdb-browser-evidence");
+const applyGalleryRecovery = process.argv.includes("--apply-gallery-recovery");
 const requestedLimit = Number(process.argv.find((arg) => arg.startsWith("--max="))?.split("=")[1] ?? Infinity);
 const limit = Number.isFinite(requestedLimit) && requestedLimit > 0 ? requestedLimit : Infinity;
 const sourceArg = process.argv.find((arg) => arg.startsWith("--sources="))?.split("=")[1];
@@ -828,8 +830,12 @@ async function extractPublicPageGalleries(catalog) {
 }
 
 async function applyImdbGalleryEvidence(catalog) {
-  const report = await readJson(paths.imdbBrowserReport, null);
-  if (!report?.confirmedCandidates) throw new Error("Нет IMDb browser evidence.");
+  return applyVerifiedGalleryEvidence(catalog, paths.imdbBrowserReport, "IMDb browser evidence");
+}
+
+async function applyVerifiedGalleryEvidence(catalog, reportPath, reportName) {
+  const report = await readJson(reportPath, null);
+  if (!report?.confirmedCandidates) throw new Error(`Нет ${reportName}.`);
   const evidenceCandidates = [...report.confirmedCandidates, ...(report.recoveredCandidates ?? [])];
   const owners = new Map(catalog.filter((record) => record.frame?.url).map((record) => [record.frame.url, record.id]));
   const accepted = [];
@@ -862,11 +868,12 @@ async function applyImdbGalleryEvidence(catalog) {
     return { ...record, frame: { url: item.imageUrl, ...(studios ? { studios: [...studios] } : {}) } };
   });
   await writeJsonAtomic(paths.catalog, updated);
-  await writeJsonAtomic(paths.imdbBrowserReport, { ...report, appliedAt: now(), applied: safe.length, rejected: rejected.length, appliedItems: safe, rejectedItems: rejected });
+  await writeJsonAtomic(reportPath, { ...report, appliedAt: now(), applied: safe.length, rejected: rejected.length, appliedItems: safe, rejectedItems: rejected });
   console.log(JSON.stringify({ processed: report.processedIds?.length ?? 0, confirmed: evidenceCandidates.length, applied: safe.length, rejected: rejected.length }, null, 2));
 }
 
 const catalog = await readJson(paths.catalog, []);
+if (applyGalleryRecovery) { await applyVerifiedGalleryEvidence(catalog, paths.galleryRecoveryReport, "gallery recovery evidence"); process.exit(0); }
 if (applyImdbBrowserEvidence) { await applyImdbGalleryEvidence(catalog); process.exit(0); }
 if (extractPageGalleries) { await extractPublicPageGalleries(catalog); process.exit(0); }
 if (applyWebConfirmed) { await applyConfirmedWebResearch(catalog); process.exit(0); }

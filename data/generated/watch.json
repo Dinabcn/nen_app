@@ -22603,6 +22603,9 @@
       "minAge": 7,
       "maxAge": 12,
       "rationale": "Возраст 7+ выбран с учётом истории длительностью 135 минут и последовательности событий, включая вопрос о том, как выдуманная история помогает раскрыть реальный поступок. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
+    },
+    "frame": {
+      "url": "https://cdn.7days.ru/upload/cinema/18/1860_630x420.jpg"
     }
   },
   {
@@ -51717,7 +51720,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/e00697a4-91a3-5a98-846b-2bc267bb23f5/AQACpFXfn2ipIhuS1yaz-XUl3eyPk-0d0TkBmO4F7-zt-FR7xhWBMDywx9M2MoXbBVf-M1JKnqLDBlZfX4TbOAdH91I.jpg",
+      "url": "https://static1.parovoz.tv/assets/envell_exit_game/frames/frame_27_full.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -87424,6 +87427,9 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 73 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
     },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BZjZmNWMwZTctNTkwOS00YWNlLWI2NmEtYTNmMzUxYTQ0NmEwXkEyXkFqcGc%40._V1_.jpg"
+    },
     "studios": [
       "Burbank Animation Studios"
     ]
@@ -89562,6 +89568,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 76 минут, жанры «семейный, комедия, приключения» и темы «семья», «путешествия» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BOGE4M2QyNWMtMmE3Ny00N2YxLTgxMDktMDQxNWE1NDk3YTc5XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg"
     },
     "studios": [
       "Globo Filmes",
@@ -95627,6 +95636,9 @@
       "minAge": 6,
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 118 минут, жанры «семейный», «фэнтези» и темы «волшебство», «мечты» требуют соответствующего внимания и эмоциональной готовности."
+    },
+    "frame": {
+      "url": "https://cf-img-a-in.tosshub.com/lingo/atbn/images/story/202105/tapen3-sixteen_nine.jpg?size=948%3A533"
     },
     "awards": [
       {

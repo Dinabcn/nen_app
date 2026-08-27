@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-25T06:57:46.259Z",
+  "generatedAt": "2026-08-27T06:07:29.122Z",
   "totalCatalog": 2074,
-  "confirmedStills": 1713,
-  "unresolved": 361,
-  "posterInFrame": 68,
-  "noFrame": 293,
+  "confirmedStills": 1718,
+  "unresolved": 356,
+  "posterInFrame": 67,
+  "noFrame": 289,
   "confirmedButMissingStudios": 0,
   "tailGroups": {
     "A": 0,
-    "B": 54,
-    "C": 176,
+    "B": 50,
+    "C": 175,
     "D": 131
   },
   "items": [
@@ -3356,67 +3356,6 @@
       "confirmedCandidateNotApplied": null,
       "tailGroup": "D",
       "pendingCandidate": null
-    },
-    {
-      "id": "nen-524",
-      "title": "Каникулы Петрова и Васечкина, обыкновенные и невероятные",
-      "originalTitle": "Каникулы Петрова и Васечкина, обыкновенные и невероятные",
-      "year": 1984,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:54:01.195Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/718382_kanikuli_petrova_i_vasechkina_obiknovennie_i_neveroyatnie/",
-          "error": null
-        },
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-17T06:37:42.382Z",
-          "pageUrl": null,
-          "error": null
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Каникулы Петрова и Васечкина, обыкновенные и невероятные\" 1984",
-          "\"Каникулы Петрова и Васечкина, обыкновенные и невероятные\" 1984 screenshots",
-          "\"Каникулы Петрова и Васечкина, обыкновенные и невероятные\" 1984 scene",
-          "\"Каникулы Петрова и Васечкина, обыкновенные и невероятные\" 1984 stills",
-          "\"Каникулы Петрова и Васечкина, обыкновенные и невероятные\" 1984 кадры",
-          "\"Каникулы Петрова и Васечкина, обыкновенные и невероятные\" фильм 1984"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://7days.ru/cinema/film/kanikuly-petrova-i-vasechkina-obyknovennye-i-neveroyatnye.htm",
-        "imageUrl": "https://cdn.7days.ru/upload/cinema/18/1860_630x420.jpg",
-        "reasons": [
-          "ошибка загрузки: fetch failed"
-        ]
-      }
     },
     {
       "id": "nen-526",
@@ -9464,69 +9403,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q2646975",
-      "title": "Алиса в Зазеркалье",
-      "originalTitle": "Alice Through the Looking Glass",
-      "year": 1987,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q2646975",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.868Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:34.410Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Alice Through the Looking Glass\" 1987",
-          "\"Alice Through the Looking Glass\" 1987 screenshots",
-          "\"Alice Through the Looking Glass\" 1987 scene",
-          "\"Alice Through the Looking Glass\" 1987 stills",
-          "\"Алиса в Зазеркалье\" 1987 кадры",
-          "\"Алиса в Зазеркалье\" фильм 1987"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://m.imdb.com/title/tt0167758/mediaviewer/rm3674460417/",
-        "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjZmNWMwZTctNTkwOS00YWNlLWI2NmEtYTNmMzUxYTQ0NmEwXkEyXkFqcGc%40._V1_.jpg",
-        "reasons": [
-          "страница не подтверждает originalTitle",
-          "страница не подтверждает год",
-          "страница не подтверждает, что изображение является кадром"
-        ]
-      }
-    },
-    {
       "id": "nen-wd-q3319768",
       "title": "Момо",
       "originalTitle": "Momo",
@@ -10834,69 +10710,6 @@
       "confirmedCandidateNotApplied": null,
       "tailGroup": "C",
       "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q3283448",
-      "title": "Тайна 2: Новые приключения на Амазонке",
-      "originalTitle": "Tainá 2 - A Aventura Continua",
-      "year": 2005,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q3283448",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.950Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:34.670Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Tainá 2 - A Aventura Continua\" 2005",
-          "\"Tainá 2 - A Aventura Continua\" 2005 screenshots",
-          "\"Tainá 2 - A Aventura Continua\" 2005 scene",
-          "\"Tainá 2 - A Aventura Continua\" 2005 stills",
-          "\"Тайна 2: Новые приключения на Амазонке\" 2005 кадры",
-          "\"Тайна 2: Новые приключения на Амазонке\" фильм 2005"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.imdb.com/pt/title/tt0383001/mediaviewer/rm2491114752/",
-        "imageUrl": "https://m.media-amazon.com/images/M/MV5BOGE4M2QyNWMtMmE3Ny00N2YxLTgxMDktMDQxNWE1NDk3YTc5XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
-        "reasons": [
-          "страница не подтверждает originalTitle",
-          "страница не подтверждает год",
-          "страница не подтверждает, что изображение является кадром"
-        ]
-      }
     },
     {
       "id": "nen-wd-q4121268",
@@ -12211,61 +12024,6 @@
           "\"धूल का फूल\" 1959 stills",
           "\"Цветок в пыли\" 1959 кадры",
           "\"Цветок в пыли\" фильм 1959"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q639416",
-      "title": "Гупи поёт, Багха танцует",
-      "originalTitle": "গুপী গাইন বাঘা বাইন",
-      "year": 1968,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q639416",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.233Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:39.405Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"গুপী গাইন বাঘা বাইন\" 1968",
-          "\"গুপী গাইন বাঘা বাইন\" 1968 screenshots",
-          "\"গুপী গাইন বাঘা বাইন\" 1968 scene",
-          "\"গুপী গাইন বাঘা বাইন\" 1968 stills",
-          "\"Гупи поёт, Багха танцует\" 1968 кадры",
-          "\"Гупи поёт, Багха танцует\" фильм 1968"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -16870,75 +16628,6 @@
       "confirmedCandidateNotApplied": null,
       "tailGroup": "C",
       "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-921853",
-      "title": "Герои Энвелла: Выйти из игры",
-      "originalTitle": "Герои Энвелла: Выйти из игры",
-      "year": 2019,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": "921853"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:17:05.920Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T10:13:35.518Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/921853_geroi_envella/",
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:12:45.917Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/921853_geroi_envella/",
-          "error": null
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Герои Энвелла: Выйти из игры\" 2019",
-          "\"Герои Энвелла: Выйти из игры\" 2019 screenshots",
-          "\"Герои Энвелла: Выйти из игры\" 2019 scene",
-          "\"Герои Энвелла: Выйти из игры\" 2019 stills",
-          "\"Герои Энвелла: Выйти из игры\" 2019 кадры",
-          "\"Герои Энвелла: Выйти из игры\" фильм 2019"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://parovoz.tv/envell_exit_game",
-        "imageUrl": "https://static1.parovoz.tv/assets/envell_exit_game/frames/frame_27_full.jpg",
-        "reasons": [
-          "страница не подтверждает год",
-          "страница не подтверждает, что изображение является кадром"
-        ]
-      }
     },
     {
       "id": "nen-mail-927714",
