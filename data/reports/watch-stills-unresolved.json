@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-27T13:35:01.078Z",
+  "generatedAt": "2026-08-27T16:17:35.041Z",
   "totalCatalog": 2072,
-  "confirmedStills": 1722,
-  "unresolved": 350,
-  "posterInFrame": 64,
-  "noFrame": 286,
+  "confirmedStills": 1741,
+  "unresolved": 331,
+  "posterInFrame": 61,
+  "noFrame": 270,
   "confirmedButMissingStudios": 0,
   "tailGroups": {
     "A": 0,
-    "B": 50,
-    "C": 169,
+    "B": 43,
+    "C": 157,
     "D": 131
   },
   "items": [
@@ -1100,52 +1100,6 @@
       "confirmedCandidateNotApplied": null,
       "tailGroup": "D",
       "pendingCandidate": null
-    },
-    {
-      "id": "nen-195",
-      "title": "Двенадцать месяцев",
-      "originalTitle": "Двенадцать месяцев",
-      "year": 1956,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"Двенадцать месяцев\" 1956",
-          "\"Двенадцать месяцев\" 1956 screenshots",
-          "\"Двенадцать месяцев\" 1956 scene",
-          "\"Двенадцать месяцев\" 1956 stills",
-          "\"Двенадцать месяцев\" 1956 кадры",
-          "\"Двенадцать месяцев\" фильм 1956"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://polinka.top/66642-dvenadcat-mesjacev-kartinki.html",
-        "imageUrl": "https://polinka.top/uploads/posts/2023-06/1686003864_polinka-top-p-dvenadtsat-mesyatsev-kartinki-vkontakte-43.jpg",
-        "reasons": [
-          "ошибка страницы-источника: fetch failed"
-        ]
-      }
     },
     {
       "id": "nen-202",
@@ -2842,61 +2796,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-463",
-      "title": "Обезьянки",
-      "originalTitle": "Обезьянки",
-      "year": 1983,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:53:55.443Z",
-          "pageUrl": "https://kino.mail.ru/series_828596_obezyanki/",
-          "error": null
-        },
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-17T06:37:42.382Z",
-          "pageUrl": null,
-          "error": null
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Обезьянки\" 1983",
-          "\"Обезьянки\" 1983 screenshots",
-          "\"Обезьянки\" 1983 scene",
-          "\"Обезьянки\" 1983 stills",
-          "\"Обезьянки\" 1983 кадры",
-          "\"Обезьянки\" фильм 1983"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-464",
       "title": "Приключения Мюнхаузена",
       "originalTitle": "Приключения Мюнхаузена",
@@ -2935,54 +2834,6 @@
       "confirmedCandidateNotApplied": null,
       "tailGroup": "D",
       "pendingCandidate": null
-    },
-    {
-      "id": "nen-482",
-      "title": "Снежная королева 2: Перезаморозка",
-      "originalTitle": "Снежная королева 2: Перезаморозка",
-      "year": 2014,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"Снежная королева 2: Перезаморозка\" 2014",
-          "\"Снежная королева 2: Перезаморозка\" 2014 screenshots",
-          "\"Снежная королева 2: Перезаморозка\" 2014 scene",
-          "\"Снежная королева 2: Перезаморозка\" 2014 stills",
-          "\"Снежная королева 2: Перезаморозка\" 2014 кадры",
-          "\"Снежная королева 2: Перезаморозка\" фильм 2014"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.kanal-o.ru/announce/16836",
-        "imageUrl": "https://img51994.kanal-o.ru/img/2020-11-09/fmt_90_24_zazerkal--ye7.jpg",
-        "reasons": [
-          "страница не подтверждает originalTitle",
-          "страница не подтверждает год",
-          "страница не подтверждает, что изображение является кадром"
-        ]
-      }
     },
     {
       "id": "nen-489",
@@ -3392,54 +3243,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-538",
-      "title": "Пальма",
-      "originalTitle": "Пальма",
-      "year": 2020,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"Пальма\" 2020",
-          "\"Пальма\" 2020 screenshots",
-          "\"Пальма\" 2020 scene",
-          "\"Пальма\" 2020 stills",
-          "\"Пальма\" 2020 кадры",
-          "\"Пальма\" фильм 2020"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.kino-teatr.ru/kino/art/tv/5914/",
-        "imageUrl": "https://www.kino-teatr.ru/art/5914/84459.jpg",
-        "reasons": [
-          "страница не подтверждает originalTitle",
-          "страница не подтверждает год",
-          "страница не подтверждает, что изображение является кадром"
-        ]
-      }
-    },
-    {
       "id": "nen-539",
       "title": "Мой папа — вождь",
       "originalTitle": "Мой папа — вождь",
@@ -3598,52 +3401,6 @@
       "confirmedCandidateNotApplied": null,
       "tailGroup": "D",
       "pendingCandidate": null
-    },
-    {
-      "id": "nen-548",
-      "title": "Мирай из будущего",
-      "originalTitle": "Mirai no Mirai",
-      "year": 2018,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"Mirai no Mirai\" 2018",
-          "\"Mirai no Mirai\" 2018 screenshots",
-          "\"Mirai no Mirai\" 2018 scene",
-          "\"Mirai no Mirai\" 2018 stills",
-          "\"Мирай из будущего\" 2018 кадры",
-          "\"Мирай из будущего\" фильм 2018"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://natalie.mu/eiga/gallery/news/658100/2790087",
-        "imageUrl": "https://ogre.natalie.mu/media/news/eiga/2026/0129/mirai_202601_04.jpg?imdensity=1&impolicy=hq&imwidth=1460",
-        "reasons": [
-          "страница-источник недоступна: HTTP 405"
-        ]
-      }
     },
     {
       "id": "nen-551",
@@ -3963,61 +3720,6 @@
       "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
       "confirmedCandidateNotApplied": null,
       "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-563",
-      "title": "Фантом Бой",
-      "originalTitle": "Phantom Boy",
-      "year": 2015,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:54:02.651Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/899288_iskusstvennii_malchik/",
-          "error": null
-        },
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-17T06:37:42.382Z",
-          "pageUrl": null,
-          "error": null
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Phantom Boy\" 2015",
-          "\"Phantom Boy\" 2015 screenshots",
-          "\"Phantom Boy\" 2015 scene",
-          "\"Phantom Boy\" 2015 stills",
-          "\"Фантом Бой\" 2015 кадры",
-          "\"Фантом Бой\" фильм 2015"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
       "pendingCandidate": null
     },
     {
@@ -6438,61 +6140,6 @@
           "\"If....\" 1968 stills",
           "\"Если…\" 1968 кадры",
           "\"Если…\" фильм 1968"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q1500326",
-      "title": "Кес",
-      "originalTitle": "Kes",
-      "year": 1969,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q1500326",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.591Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:33.646Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Kes\" 1969",
-          "\"Kes\" 1969 screenshots",
-          "\"Kes\" 1969 scene",
-          "\"Kes\" 1969 stills",
-          "\"Кес\" 1969 кадры",
-          "\"Кес\" фильм 1969"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -9632,69 +9279,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q2271822",
-      "title": "Стюарт Литтл 3: Зов природы",
-      "originalTitle": "Stuart Little 3: Call of the Wild",
-      "year": 2006,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q2271822",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.837Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:34.329Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Stuart Little 3: Call of the Wild\" 2006",
-          "\"Stuart Little 3: Call of the Wild\" 2006 screenshots",
-          "\"Stuart Little 3: Call of the Wild\" 2006 scene",
-          "\"Stuart Little 3: Call of the Wild\" 2006 stills",
-          "\"Стюарт Литтл 3: Зов природы\" 2006 кадры",
-          "\"Стюарт Литтл 3: Зов природы\" фильм 2006"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.imdb.com/title/tt0472602/mediaviewer/rm3676540929/",
-        "imageUrl": "https://m.media-amazon.com/images/M/MV5BYzRmMGUwNDUtOWU4ZC00YWU3LWI0OTgtMzFjODg3YTY5NzRkXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
-        "reasons": [
-          "страница не подтверждает originalTitle",
-          "страница не подтверждает год",
-          "страница не подтверждает, что изображение является кадром"
-        ]
-      }
-    },
-    {
       "id": "nen-wd-q16582948",
       "title": "Приключения Оливера Твиста",
       "originalTitle": "Las aventuras de Oliver Twist",
@@ -10666,61 +10250,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q1067080",
-      "title": "Все псы попадают в рай",
-      "originalTitle": "All Dogs Go to Heaven",
-      "year": 1989,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q1067080",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.435Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:31.956Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"All Dogs Go to Heaven\" 1989",
-          "\"All Dogs Go to Heaven\" 1989 screenshots",
-          "\"All Dogs Go to Heaven\" 1989 scene",
-          "\"All Dogs Go to Heaven\" 1989 stills",
-          "\"Все псы попадают в рай\" 1989 кадры",
-          "\"Все псы попадают в рай\" фильм 1989"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q1169734",
       "title": "Визуальная Библия: Евангелие от Матфея",
       "originalTitle": "The Visual Bible: Matthew",
@@ -11445,61 +10974,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q156519",
-      "title": "Вокруг света за 80 дней",
-      "originalTitle": "Around the World in 80 Days",
-      "year": 2004,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q156519",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.670Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:33.732Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Around the World in 80 Days\" 2004",
-          "\"Around the World in 80 Days\" 2004 screenshots",
-          "\"Around the World in 80 Days\" 2004 scene",
-          "\"Around the World in 80 Days\" 2004 stills",
-          "\"Вокруг света за 80 дней\" 2004 кадры",
-          "\"Вокруг света за 80 дней\" фильм 2004"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q559376",
       "title": "Тор: Легенда викингов",
       "originalTitle": "Hetjur Valhallar - Þór",
@@ -11665,61 +11139,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q622382",
-      "title": "Непокорённый",
-      "originalTitle": "অপরাজিত",
-      "year": 1956,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q622382",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.185Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:39.330Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"অপরাজিত\" 1956",
-          "\"অপরাজিত\" 1956 screenshots",
-          "\"অপরাজিত\" 1956 scene",
-          "\"অপরাজিত\" 1956 stills",
-          "\"Непокорённый\" 1956 кадры",
-          "\"Непокорённый\" фильм 1956"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q716561",
       "title": "Кабулиец",
       "originalTitle": "কাবুলিওয়ালা",
@@ -11758,61 +11177,6 @@
           "\"কাবুলিওয়ালা\" 1957 stills",
           "\"Кабулиец\" 1957 кадры",
           "\"Кабулиец\" фильм 1957"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q622376",
-      "title": "Мир Апу",
-      "originalTitle": "অপুর সংসার",
-      "year": 1959,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q622376",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.185Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:39.330Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"অপুর সংসার\" 1959",
-          "\"অপুর সংসার\" 1959 screenshots",
-          "\"অপুর সংসার\" 1959 scene",
-          "\"অপুর সংসার\" 1959 stills",
-          "\"Мир Апу\" 1959 кадры",
-          "\"Мир Апу\" фильм 1959"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -12608,61 +11972,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q669014",
-      "title": "Макс и его компания",
-      "originalTitle": "Max et Co",
-      "year": 2007,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q669014",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.320Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:39.478Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Max et Co\" 2007",
-          "\"Max et Co\" 2007 screenshots",
-          "\"Max et Co\" 2007 scene",
-          "\"Max et Co\" 2007 stills",
-          "\"Макс и его компания\" 2007 кадры",
-          "\"Макс и его компания\" фильм 2007"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q12028738",
       "title": "Карлик — золотая рыбка",
       "originalTitle": "Karlík, zlatá rybka",
@@ -13241,61 +12550,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q300345",
-      "title": "Кошачья жизнь",
-      "originalTitle": "Une vie de chat",
-      "year": 2010,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q300345",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.893Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:34.579Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Une vie de chat\" 2010",
-          "\"Une vie de chat\" 2010 screenshots",
-          "\"Une vie de chat\" 2010 scene",
-          "\"Une vie de chat\" 2010 stills",
-          "\"Кошачья жизнь\" 2010 кадры",
-          "\"Кошачья жизнь\" фильм 2010"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q3223663",
       "title": "День ворон",
       "originalTitle": "Le Jour des corneilles",
@@ -13349,69 +12603,6 @@
       "confirmedCandidateNotApplied": null,
       "tailGroup": "C",
       "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q48672740",
-      "title": "Горы",
-      "originalTitle": "Mountain",
-      "year": 2017,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q48672740",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.070Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:38.973Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Mountain\" 2017",
-          "\"Mountain\" 2017 screenshots",
-          "\"Mountain\" 2017 scene",
-          "\"Mountain\" 2017 stills",
-          "\"Горы\" 2017 кадры",
-          "\"Горы\" фильм 2017"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.imdb.com/de/title/tt5976166/",
-        "imageUrl": "https://m.media-amazon.com/images/M/MV5BZWI2NDA2NTYtNjhkYS00YmRjLTkxN2UtZTk1MjNmNzQwZDUzXkEyXkFqcGc%40._V1_.jpg",
-        "reasons": [
-          "страница не подтверждает originalTitle",
-          "страница не подтверждает год",
-          "страница не подтверждает, что изображение является кадром"
-        ]
-      }
     },
     {
       "id": "nen-wd-q64167484",
@@ -13796,61 +12987,6 @@
           "\"लक्ष्य\" 2004 stills",
           "\"Лакшья\" 2004 кадры",
           "\"Лакшья\" фильм 2004"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q1503700",
-      "title": "Я рядом с тобой!",
-      "originalTitle": "मैं हूँ ना",
-      "year": 2004,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q1503700",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.633Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:33.646Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"मैं हूँ ना\" 2004",
-          "\"मैं हूँ ना\" 2004 screenshots",
-          "\"मैं हूँ ना\" 2004 scene",
-          "\"मैं हूँ ना\" 2004 stills",
-          "\"Я рядом с тобой!\" 2004 кадры",
-          "\"Я рядом с тобой!\" фильм 2004"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -15400,82 +14536,6 @@
           "\"Эй вы, ковбои!\" 1975 stills",
           "\"Эй вы, ковбои!\" 1975 кадры",
           "\"Эй вы, ковбои!\" фильм 1975"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-934448",
-      "title": "Энчантималс. Дом, милый дом",
-      "originalTitle": "Enchantimals Finding Home",
-      "year": 2017,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt7575284",
-        "wikidata": null,
-        "mail": "934448"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:13:20.782Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:53:23.324Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/934448_enchantimals_dom_milii_dom/",
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:11:25.590Z",
-          "pageUrl": "https://kino.mail.ru/cinema/movies/934448_enchantimals_dom_milii_dom/",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:11:25.590Z",
-          "pageUrl": "https://www.imdb.com/title/tt7575284/mediaindex/",
-          "error": "public page returned empty/async shell"
-        },
-        {
-          "source": "IMDb gallery extraction",
-          "status": "NO_CONFIRMED_STILL",
-          "checkedAt": "2026-08-25T06:49:54.515Z",
-          "pageUrl": "https://www.imdb.com/title/tt7575284/mediaindex/",
-          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Enchantimals Finding Home\" 2017",
-          "\"Enchantimals Finding Home\" 2017 screenshots",
-          "\"Enchantimals Finding Home\" 2017 scene",
-          "\"Enchantimals Finding Home\" 2017 stills",
-          "\"Энчантималс. Дом, милый дом\" 2017 кадры",
-          "\"Энчантималс. Дом, милый дом\" фильм 2017"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -17956,89 +17016,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-mail-923694",
-      "title": "Малыш Хиппо",
-      "originalTitle": "Little Hippo",
-      "year": 1997,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt0869785",
-        "wikidata": null,
-        "mail": "923694"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:11:37.316Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:52:46.544Z",
-          "pageUrl": "https://kino.mail.ru/series_923694_malish_hippo/",
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:11:47.486Z",
-          "pageUrl": "https://kino.mail.ru/series_923694_malish_hippo/",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:11:47.486Z",
-          "pageUrl": "https://www.imdb.com/title/tt0869785/mediaindex/",
-          "error": "public page returned empty/async shell"
-        },
-        {
-          "source": "IMDb gallery extraction",
-          "status": "NO_CONFIRMED_STILL",
-          "checkedAt": "2026-08-25T06:49:54.515Z",
-          "pageUrl": "https://www.imdb.com/title/tt0869785/mediaindex/",
-          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Little Hippo\" 1997",
-          "\"Little Hippo\" 1997 screenshots",
-          "\"Little Hippo\" 1997 scene",
-          "\"Little Hippo\" 1997 stills",
-          "\"Малыш Хиппо\" 1997 кадры",
-          "\"Малыш Хиппо\" фильм 1997"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.videobuster.de/dvd-bluray-verleih/74226/little-hippo",
-        "imageUrl": "https://gfx.videobuster.de/archive/v/cUXUnpWxmTvYxM-kMyDWUzgcz0lMkawqCUyRqYlMkZpbWGZJTJGanBlZyUyRmM1ZGRjZDhiMDNitDJhN2Fh0rnjYbazymEuanBnJnI9d-84/little-hippo.jpg",
-        "reasons": [
-          "страница не подтверждает год",
-          "страница не подтверждает, что изображение является кадром"
-        ]
-      }
-    },
-    {
       "id": "nen-mail-959686",
       "title": "Мега Мяу. Звездный дозор",
       "originalTitle": "Mega Meow",
@@ -18656,68 +17633,6 @@
           "\"Oliver Discovers\" 2007 stills",
           "\"Открытие Оливера\" 2007 кадры",
           "\"Открытие Оливера\" фильм 2007"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-933320",
-      "title": "Отряд А. Игрушки-спасатели",
-      "originalTitle": "A-Squad",
-      "year": 2020,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": "933320"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:17:56.299Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T10:13:55.946Z",
-          "pageUrl": "https://kino.mail.ru/series_933320_otryad_a_igrushki_spasateli/",
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:14:20.368Z",
-          "pageUrl": "https://kino.mail.ru/series_933320_otryad_a_igrushki_spasateli/",
-          "error": null
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"A-Squad\" 2020",
-          "\"A-Squad\" 2020 screenshots",
-          "\"A-Squad\" 2020 scene",
-          "\"A-Squad\" 2020 stills",
-          "\"Отряд А. Игрушки-спасатели\" 2020 кадры",
-          "\"Отряд А. Игрушки-спасатели\" фильм 2020"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",

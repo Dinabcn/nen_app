@@ -197,12 +197,282 @@
       "imageType": "still",
       "extraction": "official exact series page image",
       "match": "exact Eggy Pops 2019 series; workshop episode scene"
+    },
+    {
+      "watchId": "nen-mail-934448",
+      "source": "TVgids.nl",
+      "pageUrl": "https://www.tvgids.nl/film/enchantimals-finding-home",
+      "imageUrl": "https://tvgidsassets.nl/v356/upload/e/gd/enchantimals-finding-home-1-2-7801475032-H-YG4.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact film page and original image URL",
+      "match": "exact Enchantimals Finding Home (2017) page; horizontal woodland scene"
+    },
+    {
+      "watchId": "nen-mail-923694",
+      "source": "Mediatoon Distribution",
+      "pageUrl": "https://mediatoon-distribution.com/en/programme/little-hippo/",
+      "imageUrl": "https://i.ytimg.com/vi/tIdUanVFYJ4/maxresdefault.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to official distributor work page",
+      "match": "exact Little Hippo (1997) series; scene with two characters on a boat"
+    },
+    {
+      "watchId": "nen-mail-933320",
+      "source": "Карусель",
+      "pageUrl": "https://www.karusel-tv.ru/announce/15584-otryad_a_igrushki_spasateli",
+      "imageUrl": "https://www.karusel-tv.ru/media/suit/preview_full/media/image/2021/09/1630493895422283_10.png",
+      "imageType": "still",
+      "extraction": "image-search index to official broadcaster series page",
+      "match": "exact Отряд-А. Игрушки-спасатели page; command-center series scene"
+    },
+    {
+      "watchId": "nen-159",
+      "source": "AceShowbiz",
+      "pageUrl": "https://www.aceshowbiz.com/movie/how_to_train_your_dragon_2/",
+      "imageUrl": "https://www.aceshowbiz.com/images/still/how-train-your-dragon-2-05.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact film still page",
+      "match": "exact animated How to Train Your Dragon 2 (2014); Hiccup and Toothless scene"
+    },
+    {
+      "watchId": "nen-195",
+      "source": "DEFA-Stiftung",
+      "pageUrl": "https://www.defa-stiftung.de/filme/filme-suchen/12-mesyatsew/",
+      "imageUrl": "https://www.defa-stiftung.de/fileadmin/DEFA_Stiftung/DEFA-Filme/Synchronfilme/zwoelf-Monate-Die/12MON_2_Copyright_DEFA_Stiftung_N_Woinow__E_Petrowa.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to official archive film page",
+      "match": "exact 1956 Soviet animation Двенадцать месяцев; official archive frame"
+    },
+    {
+      "watchId": "nen-463",
+      "source": "Кино Mail",
+      "pageUrl": "https://kino.mail.ru/series_828596_obezyanki/",
+      "imageUrl": "https://resizer.mail.ru/p/5eb40ee5-d1c9-5f66-b132-5476638c56f3/AAAC1nJZOId8DQifVI0haXpWQZv2PZd-ALtrFaDfyUkYjMlyqtLMCA-wj4hw1QClnWI_0OlhKZL3Qf_Kv0bGc_YRitk.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact series page embedded still",
+      "match": "exact Обезьянки animated series (1983–1997) scene"
+    },
+    {
+      "watchId": "nen-482",
+      "source": "MUBI",
+      "pageUrl": "https://mubi.com/en/us/films/the-snow-queen-2",
+      "imageUrl": "https://images.mubicdn.net/images/film/138053/cache-155513-1745493050/image-w1280.jpg?size=800x",
+      "imageType": "still",
+      "extraction": "image-search index to exact film page",
+      "match": "exact The Snow Queen 2 (2014) page and animated scene"
+    },
+    {
+      "watchId": "nen-538",
+      "source": "Киноафиша",
+      "pageUrl": "https://www.kinoafisha.info/en/movies/8356374/shots/",
+      "imageUrl": "https://static.kinoafisha.info/k/movie_shots/1920x1080/upload/movie_shots/4/7/3/8356374/bb22aba920b207663f0992a0155e0d93.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact shots gallery",
+      "match": "exact A Dog Named Palma (2020) dedicated shots page"
+    },
+    {
+      "watchId": "nen-548",
+      "source": "NTV Friday Roadshow",
+      "pageUrl": "https://x.com/kinro_ntv/status/1020306266785058816",
+      "imageUrl": "https://pbs.twimg.com/media/DijbIGgU0AE0tzx.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to official broadcaster post",
+      "match": "exact Mirai no Mirai (2018) official broadcaster scene"
+    },
+    {
+      "watchId": "nen-563",
+      "source": "Vrti svoj film",
+      "pageUrl": "https://vrtisvoj.film/filmovi/phantom-boy/",
+      "imageUrl": "https://vrtisvoj.film/wp-content/uploads/2021/07/phantomboy-7-scaled.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact film page",
+      "match": "exact Phantom Boy (2015) page and Leo scene"
+    },
+    {
+      "watchId": "nen-704",
+      "source": "Fancaps",
+      "pageUrl": "https://fancaps.net/movies/Image.php?imageid=13043388",
+      "imageUrl": "https://cdni.fancaps.net/file/fancaps-movieimages/13043388.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to dedicated screencap page",
+      "match": "exact The Wild (2006) animated feature screencap"
+    },
+    {
+      "watchId": "nen-wd-q1196813",
+      "source": "DEFA Film Library / DEFA-Stiftung",
+      "pageUrl": "https://www.umass.edu/defa/film/35100/",
+      "imageUrl": "https://www.umass.edu/defa/sites/default/files/styles/large/public/r03_809A%20copy%20Cropped/index.jpg?itok=0inqJ0wI",
+      "imageType": "still",
+      "extraction": "search-index image link from exact official archive page",
+      "match": "exact Der Schwur von Rabenhorst page; image caption © DEFA-Stiftung, Christa Köfer"
+    },
+    {
+      "watchId": "nen-wd-q939876",
+      "source": "Fancaps",
+      "pageUrl": "https://fancaps.net/movies/Image.php?imageid=6478338",
+      "imageUrl": "https://cdni.fancaps.net/file/fancaps-movieimages/6478338.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to dedicated screencap",
+      "match": "exact Once Upon a Forest (1993) screencap"
+    },
+    {
+      "watchId": "nen-wd-q1067080",
+      "source": "Киноафиша",
+      "pageUrl": "https://www.kinoafisha.info/movies/8107398/",
+      "imageUrl": "https://static.kinoafisha.info/k/movie_shots/1920x1080/upload/movie_shots/8/9/3/8107398/ff68683c9823a0658209a10b22118e9a.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact shots asset",
+      "match": "exact All Dogs Go to Heaven (1989) scene"
+    },
+    {
+      "watchId": "nen-wd-q536756",
+      "source": "Fancaps",
+      "pageUrl": "https://fancaps.net/movies/Image.php?imageid=10681809",
+      "imageUrl": "https://cdni.fancaps.net/file/fancaps-movieimages/10681809.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to dedicated screencap",
+      "match": "exact Asterix and Cleopatra (1968) version"
+    },
+    {
+      "watchId": "nen-wd-q300345",
+      "source": "TMDb",
+      "pageUrl": "https://www.themoviedb.org/movie/52264-une-vie-de-chat/images/backdrops",
+      "imageUrl": "https://image.tmdb.org/t/p/original/roDKIqGJBQSJraknCdwiYkQtqaw.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to public exact backdrop page",
+      "match": "exact A Cat in Paris (2010) backdrop scene"
+    },
+    {
+      "watchId": "nen-wd-q55597010",
+      "source": "Unifrance",
+      "pageUrl": "https://en.unifrance.org/news/15398/funan-picks-up-two-emile-european-animation-awards",
+      "imageUrl": "https://medias.unifrance.org/medias/249/7/198649/format_hd/funan-picks-up-two-emile-european-animation-awards.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to national film body article",
+      "match": "exact Funan (2018) frame"
+    },
+    {
+      "watchId": "nen-wd-q1503700",
+      "source": "Bollywood Hungama",
+      "pageUrl": "https://www.bollywoodhungama.com/photos/movie-stills/main-hoon-na/main-hoon-na-movie-still-35/",
+      "imageUrl": "https://stat4.bollywoodhungama.in/wp-content/uploads/2016/03/50316358.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact movie-still page",
+      "match": "exact Main Hoon Na (2004) movie still"
+    },
+    {
+      "watchId": "nen-wd-q165394",
+      "source": "Film Fest Gent",
+      "pageUrl": "https://www.filmfestival.be/en/film/bowling-for-columbine",
+      "imageUrl": "https://filmfest.imgix.net/https%3A%2F%2Fwww.filmfestival.be%2Fvolumes%2Ffiona%2Ff68c1561-1543-40a8-8c63-213abd92fa28.jpg%3Fv%3D1712153714?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=598&q=80&s=b8941943155ccd110fbd06b72cca5ae1&w=1282",
+      "imageType": "still",
+      "extraction": "image-search index to exact festival catalog page",
+      "match": "exact Bowling for Columbine (2002) documentary scene"
+    },
+    {
+      "watchId": "nen-wd-q48672740",
+      "source": "Beamafilm",
+      "pageUrl": "https://beamafilm.com/catalogue-product/mountain",
+      "imageUrl": "https://i.vimeocdn.com/video/739560054-da694e34030ab33332dde95fec813285e66d8f0f9d6e76e2d5b9285244d506f4-d",
+      "imageType": "still",
+      "extraction": "image-search index to exact documentary page video frame",
+      "match": "exact Mountain (2017) Jennifer Peedom documentary"
+    },
+    {
+      "watchId": "nen-wd-q156519",
+      "source": "Disney",
+      "pageUrl": "https://movies.disney.com/around-the-world-in-80-days",
+      "imageUrl": "https://lumiere-a.akamaihd.net/v1/images/pp_aroundtheworldin80days_herobanner_mobile_19907_3b0d4f15.jpeg",
+      "imageType": "still",
+      "extraction": "image-search index to official film page",
+      "match": "exact Around the World in 80 Days (2004) scene"
+    },
+    {
+      "watchId": "nen-wd-q1022379",
+      "source": "FilmAffinity",
+      "pageUrl": "https://www.filmaffinity.com/us/movieimage.php?imageId=156482658",
+      "imageUrl": "https://pics.filmaffinity.com/C_R_A_Z_Y-156482658-large.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact image record",
+      "match": "exact C.R.A.Z.Y. (2005) gallery still"
+    },
+    {
+      "watchId": "nen-wd-q2541350",
+      "source": "ScreenMusings",
+      "pageUrl": "https://screenmusings.org/movie/dvd/To-Sir-With-Love/pages/To-Sir-With-Love-240.htm",
+      "imageUrl": "https://screenmusings.org/movie/dvd/To-Sir-With-Love/images/To-Sir-With-Love-240.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to dedicated screencap page",
+      "match": "exact To Sir, with Love (1967) frame"
+    },
+    {
+      "watchId": "nen-wd-q2271822",
+      "source": "Sony Pictures",
+      "pageUrl": "https://www.sonypictures.jp/he/772168",
+      "imageUrl": "https://www.sonypictures.jp/sites/default/files/2019-02/772168_photo_1.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to official title page",
+      "match": "exact Stuart Little 3: Call of the Wild; 2005 production / 2006 catalog release variance"
+    },
+    {
+      "watchId": "nen-wd-q12084660",
+      "source": "Fancaps",
+      "pageUrl": "https://fancaps.net/movies/Image.php?imageid=13111849",
+      "imageUrl": "https://cdni.fancaps.net/file/fancaps-movieimages/13111849.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to dedicated screencap",
+      "match": "exact The Princess and the Goblin (1991) frame"
+    },
+    {
+      "watchId": "nen-wd-q1500326",
+      "source": "Into Film",
+      "pageUrl": "https://d3vsadhcjbekm8.cloudfront.net/resources/1666",
+      "imageUrl": "https://www.intofilm.org/intofilm-production/1692/scaledcropped/3000x1688/resources/1692/kes.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to educational film guide",
+      "match": "exact Kes (1969) frame"
+    },
+    {
+      "watchId": "nen-wd-q622382",
+      "source": "Busan International Film Festival",
+      "pageUrl": "https://www.biff.kr/eng/html/archive/arc_history_view.asp?kind=history&m_idx=19437&pyear=2015",
+      "imageUrl": "https://www.biff.kr/9611_DATA/FILM_PHOTO/2015/Official/1442021108.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact festival archive",
+      "match": "exact Aparajito (1956) frame"
+    },
+    {
+      "watchId": "nen-wd-q622376",
+      "source": "Gagosian",
+      "pageUrl": "https://gagosian.com/quarterly/2024/02/22/essay-mount-fuji-in-satyajit-rays-woodblock-art-part-ii/",
+      "imageUrl": "https://gagosian.com/media/images/quarterly/essay-mount-fuji-in-satyajit-rays-woodblock-art-part-ii/Nf4FQFVpkwhC_2400x2400.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact attributed film essay",
+      "match": "The World of Apu (1959) explicitly identified frame"
+    },
+    {
+      "watchId": "nen-wd-q903821",
+      "source": "Flanders Image",
+      "pageUrl": "https://www.flandersimage.com/titles/sammy-2",
+      "imageUrl": "https://static.vaf.be/storage/files/316/crop-1280-720-n/020_0190_int_2k_stills_8_bits_r.2839_300dpi_42x27cm.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to official audiovisual catalog",
+      "match": "exact Sammy's Adventures 2 (2012) production still"
+    },
+    {
+      "watchId": "nen-wd-q669014",
+      "source": "KimKong",
+      "pageUrl": "https://www.kimkong.com/project/max-co-2/",
+      "imageUrl": "https://www.kimkong.com/wp-content/uploads/2018/03/kk-gallery_00006.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to production project page",
+      "match": "exact Max & Co (2007) stop-motion frame"
     }
   ],
   "semanticRejectPolicy": "Candidates rejected as poster, person photo, wrong work, remake, season, or shared ambiguous URL were not reconsidered.",
-  "appliedAt": "2026-08-27T13:32:53.848Z",
-  "applied": 9,
-  "rejected": 11,
+  "appliedAt": "2026-08-27T16:17:10.927Z",
+  "applied": 28,
+  "rejected": 22,
   "appliedItems": [
     {
       "watchId": "nen-524",
@@ -223,7 +493,7 @@
         "format": "jpeg",
         "aspectRatio": 1.5,
         "hash": "sha256:4054b722cb59209ee3353fdaa5a338ff95ab600def5beee43e8142b305df818a",
-        "checkedAt": "2026-08-27T13:32:43.806Z"
+        "checkedAt": "2026-08-27T16:16:45.917Z"
       }
     },
     {
@@ -246,7 +516,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:8b675a39de4fd7120fcc28a69b57cdce32bd6b4e76e4d6b1d31fb606a28f17fa",
-        "checkedAt": "2026-08-27T13:32:44.498Z"
+        "checkedAt": "2026-08-27T16:16:46.584Z"
       }
     },
     {
@@ -269,7 +539,7 @@
         "format": "jpeg",
         "aspectRatio": 1.3333333333333333,
         "hash": "sha256:e1c58a304e5f99433460415e86fb0571ae2438491a9b3ece3f2f9d32cc7106af",
-        "checkedAt": "2026-08-27T13:32:44.652Z"
+        "checkedAt": "2026-08-27T16:16:46.798Z"
       }
     },
     {
@@ -292,7 +562,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7985611510791366,
         "hash": "sha256:a6762d3acbf19070e12459ca7dc39667573befcb6e2f9b251a500b834fb89a66",
-        "checkedAt": "2026-08-27T13:32:44.758Z"
+        "checkedAt": "2026-08-27T16:16:46.893Z"
       }
     },
     {
@@ -311,7 +581,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7790973871733966,
         "hash": "sha256:12db8a062689f82c01db7b24bf67747f95f93c3e71cee12d66c7b6d410e465d1",
-        "checkedAt": "2026-08-27T13:32:45.167Z"
+        "checkedAt": "2026-08-27T16:16:47.314Z"
       }
     },
     {
@@ -330,7 +600,7 @@
         "format": "jpeg",
         "aspectRatio": 1.8568665377176015,
         "hash": "sha256:5d82fe7f41b9c4379478b7d785af9436b8649e260e2c657a8263efadc2045588",
-        "checkedAt": "2026-08-27T13:32:50.189Z"
+        "checkedAt": "2026-08-27T16:16:53.002Z"
       }
     },
     {
@@ -349,7 +619,7 @@
         "format": "jpeg",
         "aspectRatio": 1.9047619047619047,
         "hash": "sha256:9dedefbb6dbfe15454305d688eaf22d42bb5a0f1e6a2c184941bc72574f7e694",
-        "checkedAt": "2026-08-27T13:32:53.370Z"
+        "checkedAt": "2026-08-27T16:16:53.237Z"
       }
     },
     {
@@ -368,7 +638,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:bb56c5bb4f774e192c7b0aef3c3bec4336006a752e9a26a4218245a72664fe6c",
-        "checkedAt": "2026-08-27T13:32:53.473Z"
+        "checkedAt": "2026-08-27T16:16:53.374Z"
       }
     },
     {
@@ -387,7 +657,368 @@
         "format": "jpeg",
         "aspectRatio": 1.7770833333333333,
         "hash": "sha256:c0a24bdb7e86fb42cd1c8a91846c386b685b7af5aea5763dc35e799033e63551",
-        "checkedAt": "2026-08-27T13:32:53.775Z"
+        "checkedAt": "2026-08-27T16:16:53.507Z"
+      }
+    },
+    {
+      "watchId": "nen-mail-934448",
+      "source": "TVgids.nl",
+      "pageUrl": "https://www.tvgids.nl/film/enchantimals-finding-home",
+      "imageUrl": "https://tvgidsassets.nl/v356/upload/e/gd/enchantimals-finding-home-1-2-7801475032-H-YG4.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact film page and original image URL",
+      "match": "exact Enchantimals Finding Home (2017) page; horizontal woodland scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 107388,
+        "width": 900,
+        "height": 600,
+        "format": "jpeg",
+        "aspectRatio": 1.5,
+        "hash": "sha256:d14182812b501c79596181e75f89fa7ce909c56316e434f144fbc8c220404c83",
+        "checkedAt": "2026-08-27T16:16:54.208Z"
+      }
+    },
+    {
+      "watchId": "nen-mail-923694",
+      "source": "Mediatoon Distribution",
+      "pageUrl": "https://mediatoon-distribution.com/en/programme/little-hippo/",
+      "imageUrl": "https://i.ytimg.com/vi/tIdUanVFYJ4/maxresdefault.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to official distributor work page",
+      "match": "exact Little Hippo (1997) series; scene with two characters on a boat",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 75590,
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:50791bfbef6664c537c654a01ed210f031799e3c4db4c0f5e333299c1b43bb08",
+        "checkedAt": "2026-08-27T16:16:54.342Z"
+      }
+    },
+    {
+      "watchId": "nen-mail-933320",
+      "source": "Карусель",
+      "pageUrl": "https://www.karusel-tv.ru/announce/15584-otryad_a_igrushki_spasateli",
+      "imageUrl": "https://www.karusel-tv.ru/media/suit/preview_full/media/image/2021/09/1630493895422283_10.png",
+      "imageType": "still",
+      "extraction": "image-search index to official broadcaster series page",
+      "match": "exact Отряд-А. Игрушки-спасатели page; command-center series scene",
+      "probe": {
+        "mime": "image/png",
+        "bytes": 95595,
+        "width": 1271,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7652777777777777,
+        "hash": "sha256:27e11e3d377578b3a7d5e7277c89843c3e52d2d558289a0d99a5b11f6ceff64b",
+        "checkedAt": "2026-08-27T16:16:54.784Z"
+      }
+    },
+    {
+      "watchId": "nen-195",
+      "source": "DEFA-Stiftung",
+      "pageUrl": "https://www.defa-stiftung.de/filme/filme-suchen/12-mesyatsew/",
+      "imageUrl": "https://www.defa-stiftung.de/fileadmin/DEFA_Stiftung/DEFA-Filme/Synchronfilme/zwoelf-Monate-Die/12MON_2_Copyright_DEFA_Stiftung_N_Woinow__E_Petrowa.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to official archive film page",
+      "match": "exact 1956 Soviet animation Двенадцать месяцев; official archive frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 64772,
+        "width": 768,
+        "height": 571,
+        "format": "jpeg",
+        "aspectRatio": 1.3450087565674256,
+        "hash": "sha256:3d6f3b78ff06868ce57e7bc37c2ba31d1ebea62588f94ec33520849629465071",
+        "checkedAt": "2026-08-27T16:16:55.235Z"
+      }
+    },
+    {
+      "watchId": "nen-463",
+      "source": "Кино Mail",
+      "pageUrl": "https://kino.mail.ru/series_828596_obezyanki/",
+      "imageUrl": "https://resizer.mail.ru/p/5eb40ee5-d1c9-5f66-b132-5476638c56f3/AAAC1nJZOId8DQifVI0haXpWQZv2PZd-ALtrFaDfyUkYjMlyqtLMCA-wj4hw1QClnWI_0OlhKZL3Qf_Kv0bGc_YRitk.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact series page embedded still",
+      "match": "exact Обезьянки animated series (1983–1997) scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 97951,
+        "width": 1400,
+        "height": 500,
+        "format": "jpeg",
+        "aspectRatio": 2.8,
+        "hash": "sha256:80bfb49e6435a5a81a30aa6c138b9f316d8c7670a60f608ba991864a2307fd84",
+        "checkedAt": "2026-08-27T16:16:55.928Z"
+      }
+    },
+    {
+      "watchId": "nen-482",
+      "source": "MUBI",
+      "pageUrl": "https://mubi.com/en/us/films/the-snow-queen-2",
+      "imageUrl": "https://images.mubicdn.net/images/film/138053/cache-155513-1745493050/image-w1280.jpg?size=800x",
+      "imageType": "still",
+      "extraction": "image-search index to exact film page",
+      "match": "exact The Snow Queen 2 (2014) page and animated scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 65840,
+        "width": 800,
+        "height": 450,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:834c2598f7cc3bd0b0fff37bd09bcdbbc0fca9749bc722b5a1ab9efeab22d82c",
+        "checkedAt": "2026-08-27T16:16:56.028Z"
+      }
+    },
+    {
+      "watchId": "nen-538",
+      "source": "Киноафиша",
+      "pageUrl": "https://www.kinoafisha.info/en/movies/8356374/shots/",
+      "imageUrl": "https://static.kinoafisha.info/k/movie_shots/1920x1080/upload/movie_shots/4/7/3/8356374/bb22aba920b207663f0992a0155e0d93.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact shots gallery",
+      "match": "exact A Dog Named Palma (2020) dedicated shots page",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 102522,
+        "width": 1920,
+        "height": 1080,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:fcb3cc0c899c5be877f6b2b89dcff54ac291739c8bdd4146a81a270463489672",
+        "checkedAt": "2026-08-27T16:16:56.333Z"
+      }
+    },
+    {
+      "watchId": "nen-548",
+      "source": "NTV Friday Roadshow",
+      "pageUrl": "https://x.com/kinro_ntv/status/1020306266785058816",
+      "imageUrl": "https://pbs.twimg.com/media/DijbIGgU0AE0tzx.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to official broadcaster post",
+      "match": "exact Mirai no Mirai (2018) official broadcaster scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 95393,
+        "width": 960,
+        "height": 520,
+        "format": "jpeg",
+        "aspectRatio": 1.8461538461538463,
+        "hash": "sha256:0b6fecde0257a62435aeed5e81ae6a810cc241e8d88deba3850ee4658061af97",
+        "checkedAt": "2026-08-27T16:16:56.417Z"
+      }
+    },
+    {
+      "watchId": "nen-563",
+      "source": "Vrti svoj film",
+      "pageUrl": "https://vrtisvoj.film/filmovi/phantom-boy/",
+      "imageUrl": "https://vrtisvoj.film/wp-content/uploads/2021/07/phantomboy-7-scaled.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact film page",
+      "match": "exact Phantom Boy (2015) page and Leo scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 219982,
+        "width": 2560,
+        "height": 1440,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:72ab96a6851cbd839c88244e4f1a91fed8a6d9cc3c0961465794ab0a7411fa91",
+        "checkedAt": "2026-08-27T16:16:56.869Z"
+      }
+    },
+    {
+      "watchId": "nen-wd-q1067080",
+      "source": "Киноафиша",
+      "pageUrl": "https://www.kinoafisha.info/movies/8107398/",
+      "imageUrl": "https://static.kinoafisha.info/k/movie_shots/1920x1080/upload/movie_shots/8/9/3/8107398/ff68683c9823a0658209a10b22118e9a.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact shots asset",
+      "match": "exact All Dogs Go to Heaven (1989) scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 210242,
+        "width": 1023,
+        "height": 789,
+        "format": "jpeg",
+        "aspectRatio": 1.296577946768061,
+        "hash": "sha256:08c7f9f66c3d908403afc6a1d129e62e79f04bffa307605ce529e626000b0dbb",
+        "checkedAt": "2026-08-27T16:16:57.969Z"
+      }
+    },
+    {
+      "watchId": "nen-wd-q300345",
+      "source": "TMDb",
+      "pageUrl": "https://www.themoviedb.org/movie/52264-une-vie-de-chat/images/backdrops",
+      "imageUrl": "https://image.tmdb.org/t/p/original/roDKIqGJBQSJraknCdwiYkQtqaw.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to public exact backdrop page",
+      "match": "exact A Cat in Paris (2010) backdrop scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 191387,
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:786abed3b819cd790d384f9510be06b83fa4d2dc13b62462bb6460e6c2468e64",
+        "checkedAt": "2026-08-27T16:16:58.469Z"
+      }
+    },
+    {
+      "watchId": "nen-wd-q1503700",
+      "source": "Bollywood Hungama",
+      "pageUrl": "https://www.bollywoodhungama.com/photos/movie-stills/main-hoon-na/main-hoon-na-movie-still-35/",
+      "imageUrl": "https://stat4.bollywoodhungama.in/wp-content/uploads/2016/03/50316358.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact movie-still page",
+      "match": "exact Main Hoon Na (2004) movie still",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 91838,
+        "width": 585,
+        "height": 439,
+        "format": "jpeg",
+        "aspectRatio": 1.3325740318906605,
+        "hash": "sha256:d560970cba1a6e17764cf88aea6228ce83fd425a7322dbf1a6f0cb58390accb3",
+        "checkedAt": "2026-08-27T16:17:00.172Z"
+      }
+    },
+    {
+      "watchId": "nen-wd-q48672740",
+      "source": "Beamafilm",
+      "pageUrl": "https://beamafilm.com/catalogue-product/mountain",
+      "imageUrl": "https://i.vimeocdn.com/video/739560054-da694e34030ab33332dde95fec813285e66d8f0f9d6e76e2d5b9285244d506f4-d",
+      "imageType": "still",
+      "extraction": "image-search index to exact documentary page video frame",
+      "match": "exact Mountain (2017) Jennifer Peedom documentary",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 174184,
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:55698a70a93e65eff7957e3883cff22d203d402a10f7d961976e4cff1b6607a0",
+        "checkedAt": "2026-08-27T16:17:00.596Z"
+      }
+    },
+    {
+      "watchId": "nen-wd-q156519",
+      "source": "Disney",
+      "pageUrl": "https://movies.disney.com/around-the-world-in-80-days",
+      "imageUrl": "https://lumiere-a.akamaihd.net/v1/images/pp_aroundtheworldin80days_herobanner_mobile_19907_3b0d4f15.jpeg",
+      "imageType": "still",
+      "extraction": "image-search index to official film page",
+      "match": "exact Around the World in 80 Days (2004) scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 119765,
+        "width": 640,
+        "height": 480,
+        "format": "jpeg",
+        "aspectRatio": 1.3333333333333333,
+        "hash": "sha256:0a5b901ae6e34d4d816977c1823ec595e9391e54e5d9f5be48756c80ea66bf38",
+        "checkedAt": "2026-08-27T16:17:03.003Z"
+      }
+    },
+    {
+      "watchId": "nen-wd-q2271822",
+      "source": "Sony Pictures",
+      "pageUrl": "https://www.sonypictures.jp/he/772168",
+      "imageUrl": "https://www.sonypictures.jp/sites/default/files/2019-02/772168_photo_1.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to official title page",
+      "match": "exact Stuart Little 3: Call of the Wild; 2005 production / 2006 catalog release variance",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 168578,
+        "width": 1000,
+        "height": 500,
+        "format": "jpeg",
+        "aspectRatio": 2,
+        "hash": "sha256:0a58c88c8dd4b58ce5d692936337c7af9ff89d1ca7db88117bcc19a6bc70ad75",
+        "checkedAt": "2026-08-27T16:17:04.921Z"
+      }
+    },
+    {
+      "watchId": "nen-wd-q1500326",
+      "source": "Into Film",
+      "pageUrl": "https://d3vsadhcjbekm8.cloudfront.net/resources/1666",
+      "imageUrl": "https://www.intofilm.org/intofilm-production/1692/scaledcropped/3000x1688/resources/1692/kes.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to educational film guide",
+      "match": "exact Kes (1969) frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 833459,
+        "width": 3000,
+        "height": 1688,
+        "format": "jpeg",
+        "aspectRatio": 1.7772511848341233,
+        "hash": "sha256:2129505e73b5a309f76102b2ffb4942389cda006669be7a4c83e530fff4c84c5",
+        "checkedAt": "2026-08-27T16:17:05.734Z"
+      }
+    },
+    {
+      "watchId": "nen-wd-q622382",
+      "source": "Busan International Film Festival",
+      "pageUrl": "https://www.biff.kr/eng/html/archive/arc_history_view.asp?kind=history&m_idx=19437&pyear=2015",
+      "imageUrl": "https://www.biff.kr/9611_DATA/FILM_PHOTO/2015/Official/1442021108.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact festival archive",
+      "match": "exact Aparajito (1956) frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 275365,
+        "width": 800,
+        "height": 627,
+        "format": "jpeg",
+        "aspectRatio": 1.2759170653907497,
+        "hash": "sha256:121e3b19a508d7dc94e4f99643fac9872fb8ddf9a8ec0a4f74e8f16c468b0747",
+        "checkedAt": "2026-08-27T16:17:09.228Z"
+      }
+    },
+    {
+      "watchId": "nen-wd-q622376",
+      "source": "Gagosian",
+      "pageUrl": "https://gagosian.com/quarterly/2024/02/22/essay-mount-fuji-in-satyajit-rays-woodblock-art-part-ii/",
+      "imageUrl": "https://gagosian.com/media/images/quarterly/essay-mount-fuji-in-satyajit-rays-woodblock-art-part-ii/Nf4FQFVpkwhC_2400x2400.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact attributed film essay",
+      "match": "The World of Apu (1959) explicitly identified frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 937339,
+        "width": 2400,
+        "height": 1754,
+        "format": "jpeg",
+        "aspectRatio": 1.3683010262257698,
+        "hash": "sha256:2d0fefbbccffebd591a938f426e8349a520f18b31d7b23f528595ca7ae53de0e",
+        "checkedAt": "2026-08-27T16:17:10.231Z"
+      }
+    },
+    {
+      "watchId": "nen-wd-q669014",
+      "source": "KimKong",
+      "pageUrl": "https://www.kimkong.com/project/max-co-2/",
+      "imageUrl": "https://www.kimkong.com/wp-content/uploads/2018/03/kk-gallery_00006.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to production project page",
+      "match": "exact Max & Co (2007) stop-motion frame",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 110120,
+        "width": 1080,
+        "height": 460,
+        "format": "jpeg",
+        "aspectRatio": 2.347826086956522,
+        "hash": "sha256:2a538826429f646a5e0fbb3387c3d3ae1607e9dc2e7816cb1c6390f8eb05a3a5",
+        "checkedAt": "2026-08-27T16:17:10.849Z"
       }
     }
   ],
@@ -501,6 +1132,116 @@
       "extraction": "exact movie still collection",
       "match": "exact 2014 animated film; Hiccup and Toothless scene",
       "reason": "image HTTP 403"
+    },
+    {
+      "watchId": "nen-159",
+      "source": "AceShowbiz",
+      "pageUrl": "https://www.aceshowbiz.com/movie/how_to_train_your_dragon_2/",
+      "imageUrl": "https://www.aceshowbiz.com/images/still/how-train-your-dragon-2-05.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact film still page",
+      "match": "exact animated How to Train Your Dragon 2 (2014); Hiccup and Toothless scene",
+      "reason": "image HTTP 403"
+    },
+    {
+      "watchId": "nen-704",
+      "source": "Fancaps",
+      "pageUrl": "https://fancaps.net/movies/Image.php?imageid=13043388",
+      "imageUrl": "https://cdni.fancaps.net/file/fancaps-movieimages/13043388.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to dedicated screencap page",
+      "match": "exact The Wild (2006) animated feature screencap",
+      "reason": "image HTTP 403"
+    },
+    {
+      "watchId": "nen-wd-q1196813",
+      "source": "DEFA Film Library / DEFA-Stiftung",
+      "pageUrl": "https://www.umass.edu/defa/film/35100/",
+      "imageUrl": "https://www.umass.edu/defa/sites/default/files/styles/large/public/r03_809A%20copy%20Cropped/index.jpg?itok=0inqJ0wI",
+      "imageType": "still",
+      "extraction": "search-index image link from exact official archive page",
+      "match": "exact Der Schwur von Rabenhorst page; image caption © DEFA-Stiftung, Christa Köfer",
+      "reason": "image HTTP 403"
+    },
+    {
+      "watchId": "nen-wd-q939876",
+      "source": "Fancaps",
+      "pageUrl": "https://fancaps.net/movies/Image.php?imageid=6478338",
+      "imageUrl": "https://cdni.fancaps.net/file/fancaps-movieimages/6478338.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to dedicated screencap",
+      "match": "exact Once Upon a Forest (1993) screencap",
+      "reason": "image HTTP 403"
+    },
+    {
+      "watchId": "nen-wd-q536756",
+      "source": "Fancaps",
+      "pageUrl": "https://fancaps.net/movies/Image.php?imageid=10681809",
+      "imageUrl": "https://cdni.fancaps.net/file/fancaps-movieimages/10681809.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to dedicated screencap",
+      "match": "exact Asterix and Cleopatra (1968) version",
+      "reason": "image HTTP 403"
+    },
+    {
+      "watchId": "nen-wd-q55597010",
+      "source": "Unifrance",
+      "pageUrl": "https://en.unifrance.org/news/15398/funan-picks-up-two-emile-european-animation-awards",
+      "imageUrl": "https://medias.unifrance.org/medias/249/7/198649/format_hd/funan-picks-up-two-emile-european-animation-awards.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to national film body article",
+      "match": "exact Funan (2018) frame",
+      "reason": "image HTTP 403"
+    },
+    {
+      "watchId": "nen-wd-q165394",
+      "source": "Film Fest Gent",
+      "pageUrl": "https://www.filmfestival.be/en/film/bowling-for-columbine",
+      "imageUrl": "https://filmfest.imgix.net/https%3A%2F%2Fwww.filmfestival.be%2Fvolumes%2Ffiona%2Ff68c1561-1543-40a8-8c63-213abd92fa28.jpg%3Fv%3D1712153714?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=598&q=80&s=b8941943155ccd110fbd06b72cca5ae1&w=1282",
+      "imageType": "still",
+      "extraction": "image-search index to exact festival catalog page",
+      "match": "exact Bowling for Columbine (2002) documentary scene",
+      "reason": "image HTTP 410"
+    },
+    {
+      "watchId": "nen-wd-q1022379",
+      "source": "FilmAffinity",
+      "pageUrl": "https://www.filmaffinity.com/us/movieimage.php?imageId=156482658",
+      "imageUrl": "https://pics.filmaffinity.com/C_R_A_Z_Y-156482658-large.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to exact image record",
+      "match": "exact C.R.A.Z.Y. (2005) gallery still",
+      "reason": "image HTTP 403"
+    },
+    {
+      "watchId": "nen-wd-q2541350",
+      "source": "ScreenMusings",
+      "pageUrl": "https://screenmusings.org/movie/dvd/To-Sir-With-Love/pages/To-Sir-With-Love-240.htm",
+      "imageUrl": "https://screenmusings.org/movie/dvd/To-Sir-With-Love/images/To-Sir-With-Love-240.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to dedicated screencap page",
+      "match": "exact To Sir, with Love (1967) frame",
+      "reason": "image HTTP 404"
+    },
+    {
+      "watchId": "nen-wd-q12084660",
+      "source": "Fancaps",
+      "pageUrl": "https://fancaps.net/movies/Image.php?imageid=13111849",
+      "imageUrl": "https://cdni.fancaps.net/file/fancaps-movieimages/13111849.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to dedicated screencap",
+      "match": "exact The Princess and the Goblin (1991) frame",
+      "reason": "image HTTP 403"
+    },
+    {
+      "watchId": "nen-wd-q903821",
+      "source": "Flanders Image",
+      "pageUrl": "https://www.flandersimage.com/titles/sammy-2",
+      "imageUrl": "https://static.vaf.be/storage/files/316/crop-1280-720-n/020_0190_int_2k_stills_8_bits_r.2839_300dpi_42x27cm.jpg",
+      "imageType": "still",
+      "extraction": "image-search index to official audiovisual catalog",
+      "match": "exact Sammy's Adventures 2 (2012) production still",
+      "reason": "image HTTP 404"
     }
   ]
 }
