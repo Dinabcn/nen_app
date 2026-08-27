@@ -11802,6 +11802,9 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: разлука с матерью эмоциональна, инопланетная угроза остаётся комедийной."
+    },
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BY2YxYzUxNWUtMGEyNS00NjMzLWEzZDktMjYzOWY1Nzk0YWNhXkEyXkFqcGc%40._V1_.jpg"
     }
   },
   {
@@ -56665,7 +56668,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/f7b36d93-a311-548a-9c57-a35c30a2d8f3/AQACbHdg9ohkhqwC2wS8GX9BMZ_AgRrnxZ94CuBioCvN6nvYtMsq-g6bfN88a1O0AbsRMh4GJSHniy2IUk1q08u93F8.jpg",
+      "url": "https://is2-ssl.mzstatic.com/image/thumb/XUESfgJkAbmaezDrHL8l2g/1200x675.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -59683,7 +59686,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/757b6f42-dfac-5df5-a6f2-d73831e19893/AQACdimVpaw95pwYqd94KKbQJoCfe6dmZK8chcKBOxWjF2kpHj1hzoRKorWmZ7pYaojDzn9Y4MB-GQG0bmFZJCzyOJ8.jpg",
+      "url": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2018/04/10/mika1.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -60873,7 +60876,7 @@
       "sourceTitle": "Кино Mail"
     },
     "frame": {
-      "url": "https://resizer.mail.ru/p/198ab570-daef-5ff9-bc00-66d9c00c500c/AQAC-RI6EpnIK4cpUl1uMbie604HDIpxmYdz1BKKMvQxmwkC1dKaiYf_itaHqms9ibJABiLz-q3noSgMt1cjKVmLHas.jpg",
+      "url": "https://m.media-amazon.com/images/S/pv-target-images/c0a24bdb7e86fb42cd1c8a91846c386b685b7af5aea5763dc35e799033e63551.jpg",
       "studios": [
         "Кино Mail"
       ]
@@ -85715,52 +85718,6 @@
   },
   {
     "schemaVersion": 2,
-    "id": "nen-wd-q20641909",
-    "slug": "wikidata-q20641909",
-    "title": "Аврил и поддельный мир",
-    "originalTitle": "Avril et le Monde truqué",
-    "titleLocalization": "official-ru",
-    "kind": "animated-feature",
-    "shortDescription": "Мультфильм 2015 года. Формат и хронометраж — комедия, приключения, исторический, 106 минут.",
-    "whyRecommended": "Для младших школьников и подростков. Познавательная история об истории, путешествиях и смелости.",
-    "country": [
-      "Бельгия"
-    ],
-    "year": 2015,
-    "duration": {
-      "minutes": 106
-    },
-    "genres": [
-      "исторический",
-      "комедия",
-      "приключения"
-    ],
-    "themes": [
-      "история",
-      "культурное разнообразие",
-      "путешествия",
-      "смелость"
-    ],
-    "discussionTopics": [
-      "Как тема «история» раскрывается в произведении «Аврил и поддельный мир» и какой эпизод показывает её точнее всего?",
-      "С каким решением героев «Аврил и поддельный мир» вы бы поспорили и что предложили бы сделать иначе?"
-    ],
-    "mood": [
-      "весёлое",
-      "уютное"
-    ],
-    "sensitiveTopics": [],
-    "nenAgeRecommendation": {
-      "minAge": 9,
-      "maxAge": 15,
-      "rationale": "Рекомендуем с 9 лет: хронометраж 106 минут, жанры «комедия, приключения, исторический» и темы «история», «путешествия» требуют соответствующего внимания и эмоциональной готовности."
-    },
-    "studios": [
-      "StudioCanal"
-    ]
-  },
-  {
-    "schemaVersion": 2,
     "id": "nen-wd-q206461",
     "slug": "wikidata-q206461",
     "title": "Экскалибур",
@@ -88617,51 +88574,6 @@
       "maxAge": 12,
       "rationale": "Рекомендуем с 6 лет: хронометраж 80 минут, жанры «семейный» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
     }
-  },
-  {
-    "schemaVersion": 2,
-    "id": "nen-wd-q3057240",
-    "slug": "wikidata-q3057240",
-    "title": "Эрнест и Селестина: Приключения мышки и медведя",
-    "originalTitle": "Ernest et Célestine",
-    "titleLocalization": "official-ru",
-    "kind": "animated-feature",
-    "shortDescription": "Франко-бельгийский мультфильм 2012 года. Формат и хронометраж — комедия, драма, 77 минут.",
-    "whyRecommended": "Для младших школьников и подростков. История о культурном разнообразии, дружбе и выборе.",
-    "country": [
-      "Бельгия"
-    ],
-    "year": 2012,
-    "duration": {
-      "minutes": 77
-    },
-    "genres": [
-      "драма",
-      "комедия"
-    ],
-    "themes": [
-      "выбор",
-      "дружба",
-      "культурное разнообразие",
-      "эмпатия"
-    ],
-    "discussionTopics": [
-      "Как тема «культурное разнообразие» раскрывается в произведении «Эрнест и Селестина: Приключения мышки и медведя» и какой эпизод показывает её точнее всего?",
-      "С каким решением героев «Эрнест и Селестина: Приключения мышки и медведя» вы бы поспорили и что предложили бы сделать иначе?"
-    ],
-    "mood": [
-      "весёлое",
-      "уютное"
-    ],
-    "sensitiveTopics": [],
-    "nenAgeRecommendation": {
-      "minAge": 9,
-      "maxAge": 15,
-      "rationale": "Рекомендуем с 9 лет: хронометраж 77 минут, жанры «комедия, драма» и темы «культурное разнообразие», «дружба» требуют соответствующего внимания и эмоциональной готовности."
-    },
-    "studios": [
-      "Les Armateurs"
-    ]
   },
   {
     "schemaVersion": 2,

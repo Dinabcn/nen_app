@@ -23,6 +23,8 @@ const paths = {
   pageGalleryMarkdown: path.join(root, "data/reports/watch-stills-page-gallery-extraction.md"),
   imdbBrowserReport: path.join(root, "data/reports/watch-stills-imdb-gallery-extraction.json"),
   galleryRecoveryReport: path.join(root, "data/reports/watch-stills-gallery-recovery.json"),
+  removedCatalogReport: path.join(root, "data/reports/watch-catalog-removed.json"),
+  removedCatalogMarkdown: path.join(root, "data/reports/watch-catalog-removed.md"),
 };
 
 const USER_AGENT = "NENWatchStillResearch/2.0 (editorial research; contact: n-e-n.ru)";
@@ -36,6 +38,7 @@ const applyTailConfirmed = process.argv.includes("--apply-tail-confirmed");
 const extractPageGalleries = process.argv.includes("--extract-page-galleries");
 const applyImdbBrowserEvidence = process.argv.includes("--apply-imdb-browser-evidence");
 const applyGalleryRecovery = process.argv.includes("--apply-gallery-recovery");
+const removeConfirmedDuplicates = process.argv.includes("--remove-confirmed-duplicates");
 const requestedLimit = Number(process.argv.find((arg) => arg.startsWith("--max="))?.split("=")[1] ?? Infinity);
 const limit = Number.isFinite(requestedLimit) && requestedLimit > 0 ? requestedLimit : Infinity;
 const sourceArg = process.argv.find((arg) => arg.startsWith("--sources="))?.split("=")[1];
@@ -872,7 +875,33 @@ async function applyVerifiedGalleryEvidence(catalog, reportPath, reportName) {
   console.log(JSON.stringify({ processed: report.processedIds?.length ?? 0, confirmed: evidenceCandidates.length, applied: safe.length, rejected: rejected.length }, null, 2));
 }
 
+async function removeConfirmedDuplicateRecords(catalog) {
+  const report = await readJson(paths.removedCatalogReport, null);
+  if (!report?.removalCandidates?.length) throw new Error("Нет подтверждённых кандидатов на удаление.");
+  const removed = [];
+  const removalIds = new Set();
+  for (const candidate of report.removalCandidates) {
+    const record = catalog.find((item) => item.id === candidate.id);
+    const retained = catalog.find((item) => item.id === candidate.retainedId);
+    if (!record || !retained) throw new Error(`Не найдена пара ${candidate.id}/${candidate.retainedId}`);
+    if (record.originalTitle !== retained.originalTitle || record.year !== retained.year || record.kind !== retained.kind) throw new Error(`Пара ${candidate.id} не прошла проверку идентичности`);
+    removalIds.add(record.id);
+    removed.push({ ...candidate, record });
+  }
+  const updated = catalog.filter((record) => !removalIds.has(record.id));
+  await writeJsonAtomic(paths.catalog, updated);
+  const completed = { ...report, removedAt: now(), before: catalog.length, after: updated.length, removedCount: removed.length, removedRecords: removed };
+  await writeJsonAtomic(paths.removedCatalogReport, completed);
+  const markdown = ["# Удалённые карточки watch", "", `Сформировано: ${now()}`, "", `Удалено: **${removed.length}**`, "", ...removed.flatMap((item) => [
+    `## ${item.record.title} (${item.record.year})`, "", `- ID: \`${item.record.id}\``, `- Slug: \`${item.record.slug}\``, `- Original title: ${item.record.originalTitle}`, `- Внешний ID: ${item.externalIds.join(", ")}`,
+    `- Сохранена карточка: \`${item.retainedId}\``, `- Основание: ${item.reason}`, `- Проверенные источники: ${item.checkedSources.join("; ")}`, ""
+  ])].join("\n");
+  await fs.writeFile(paths.removedCatalogMarkdown, markdown, "utf8");
+  console.log(JSON.stringify({ before: catalog.length, after: updated.length, removed: removed.length }, null, 2));
+}
+
 const catalog = await readJson(paths.catalog, []);
+if (removeConfirmedDuplicates) { await removeConfirmedDuplicateRecords(catalog); process.exit(0); }
 if (applyGalleryRecovery) { await applyVerifiedGalleryEvidence(catalog, paths.galleryRecoveryReport, "gallery recovery evidence"); process.exit(0); }
 if (applyImdbBrowserEvidence) { await applyImdbGalleryEvidence(catalog); process.exit(0); }
 if (extractPageGalleries) { await extractPublicPageGalleries(catalog); process.exit(0); }

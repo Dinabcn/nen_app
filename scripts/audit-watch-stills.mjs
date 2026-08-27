@@ -14,6 +14,7 @@ const pageGalleryApplyPath = path.join(root, "data/reports/watch-stills-page-gal
 const pageGalleryEvidencePath = path.join(root, "data/reports/cache/watch-stills-page-gallery-evidence.json");
 const imdbGalleryPath = path.join(root, "data/reports/watch-stills-imdb-gallery-extraction.json");
 const galleryRecoveryPath = path.join(root, "data/reports/watch-stills-gallery-recovery.json");
+const finalClassificationPath = path.join(root, "data/reports/watch-stills-final-classification.json");
 const jsonPath = path.join(root, "data/reports/watch-stills-audit.json");
 const markdownPath = path.join(root, "data/reports/watch-stills-audit.md");
 const unresolvedJsonPath = path.join(root, "data/reports/watch-stills-unresolved.json");
@@ -40,6 +41,7 @@ const pageGalleryApply = await readJson(pageGalleryApplyPath, { appliedItems: []
 const pageGalleryEvidence = await readJson(pageGalleryEvidencePath, { records: {} });
 const imdbGallery = await readJson(imdbGalleryPath, { processedIds: [], appliedItems: [] });
 const galleryRecovery = await readJson(galleryRecoveryPath, { appliedItems: [] });
+const finalClassification = await readJson(finalClassificationPath, { manualCandidates: [] });
 
 const mailById = new Map((mailSource.items ?? []).map((item) => [String(item.mailId), item]));
 const replacementById = new Map((mailReplacement.selectedItems ?? []).map((item) => [item.id, item]));
@@ -49,7 +51,7 @@ const imdbGalleryAppliedById = new Map((imdbGallery.appliedItems ?? []).map((ite
 const galleryRecoveryAppliedById = new Map((galleryRecovery.appliedItems ?? []).map((item) => [item.watchId, item]));
 const imdbGalleryProcessedIds = new Set(imdbGallery.processedIds ?? []);
 const tailAppliedIds = new Set((tailApply.appliedItems ?? []).map((item) => item.watchId));
-const pendingWebCandidates = new Map((webBacklogApply.rejectedItems ?? []).filter((item) => !tailAppliedIds.has(item.watchId)).map((item) => [item.watchId, item]));
+const pendingWebCandidates = new Map([...(webBacklogApply.rejectedItems ?? []).filter((item) => !tailAppliedIds.has(item.watchId)), ...(finalClassification.manualCandidates ?? [])].map((item) => [item.watchId, item]));
 
 const cleanId = (value) => value === null || value === undefined || value === "" ? null : String(value);
 const externalIdsFromArray = (items = []) => Object.fromEntries(items.map((entry) => {

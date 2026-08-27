@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-27T08:30:00.000Z",
+  "manualCandidates": [
+    {
+      "watchId": "nen-mail-927973",
+      "pageUrl": "https://www.primevideo.com/-/pl/detail/Flip-Flap/0J803OYVGFLG4JPLY2DFXVHKQ7",
+      "imageUrl": "https://m.media-amazon.com/images/S/pv-target-images/97f2f5dabd199d47d62a92f6d09fe8caccbbdb212f50d3ea256c422483f3de2c.jpg",
+      "source": "Prime Video",
+      "reason": "Страница описывает похожую пару персонажей, но title Flip/Flap и release metadata не подтверждают однозначно карточку Flip and Flash (2014). Требуется ручная проверка идентичности.",
+      "reasons": ["неоднозначное соответствие title", "год/версия не подтверждены"]
+    }
+  ],
+  "categoryD": [],
+  "categoryDConclusion": "Доказанно фиктивных или неподтверждаемых произведений не найдено. Удалены только две подтверждённые пары содержательных дублей, перечисленные в watch-catalog-removed.json.",
+  "duplicateReview": {
+    "removed": ["nen-wd-q3057240", "nen-wd-q20641909"],
+    "retainedDistinct": ["nen-wd-q138616999", "nen-wd-q138617004", "nen-wd-q338305", "nen-mail-803852"]
+  }
+}

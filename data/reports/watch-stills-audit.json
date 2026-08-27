@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-27T06:07:28.952Z",
+  "generatedAt": "2026-08-27T13:35:00.981Z",
   "mode": "read-only; no network image fetches; catalog unchanged",
   "catalogPath": "data/source/watch-v2.json",
-  "total": 2074,
+  "total": 2072,
   "definitions": {
     "A": "есть подходящий редакционно атрибутированный кадр",
     "B": "изображение есть, но его роль/качество/соответствие кадру сомнительны",
@@ -12,35 +12,35 @@
   },
   "summary": {
     "statusCounts": {
-      "A": 1718,
-      "B": 67,
-      "C": 127,
+      "A": 1722,
+      "B": 64,
+      "C": 125,
       "D": 17,
-      "E": 145
+      "E": 144
     },
-    "confirmedGoodStills": 1718,
-    "questionableImages": 67,
-    "noConfirmedStill": 356,
-    "noImageAtAll": 289,
-    "importedMailCoversStoredAsFrames": 67,
+    "confirmedGoodStills": 1722,
+    "questionableImages": 64,
+    "noConfirmedStill": 350,
+    "noImageAtAll": 286,
+    "importedMailCoversStoredAsFrames": 64,
     "idCoverage": {
       "tmdbMovie": 159,
       "tmdbTv": 7,
       "tmdbAny": 166,
       "kinopoisk": 151,
       "imdb": 658,
-      "wikidata": 492,
+      "wikidata": 490,
       "mail": 877,
-      "anyExact": 1371
+      "anyExact": 1369
     },
     "sourcePotential": {
       "tmdb": 18,
       "kinopoisk": 17,
-      "wikimedia": 144,
-      "imdbAsBridge": 49,
-      "nenEditorialAlreadyMatched": 1718
+      "wikimedia": 142,
+      "imdbAsBridge": 46,
+      "nenEditorialAlreadyMatched": 1722
     },
-    "automaticallyResearchable": 174
+    "automaticallyResearchable": 169
   },
   "architecture": {
     "existingUtility": "scripts/enrich-watch-frames-from-nen.mjs",
@@ -21884,13 +21884,86 @@
         "present": false,
         "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
-      "currentImages": [],
-      "stillCount": 0,
+      "currentImages": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BY2YxYzUxNWUtMGEyNS00NjMzLWEzZDktMjYzOWY1Nzk0YWNhXkEyXkFqcGc%40._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt2224026/characters/nm0000182/",
+              "imageType": "still",
+              "extraction": "exact IMDb title character image",
+              "match": "exact IMDb ID tt2224026 and animated Home (2015) scene",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 142300,
+                "width": 1920,
+                "height": 1034,
+                "format": "jpeg",
+                "aspectRatio": 1.8568665377176015,
+                "hash": "sha256:5d82fe7f41b9c4379478b7d785af9436b8649e260e2c657a8263efadc2045588",
+                "checkedAt": "2026-08-27T13:32:50.189Z"
+              }
+            }
+          }
+        }
+      ],
+      "stillCount": 1,
       "foundStillSources": [],
-      "candidates": [],
-      "status": "E",
-      "reason": "Кадра нет и в существующих кэшах не найден пригодный точный внешний идентификатор.",
-      "provenance": []
+      "candidates": [
+        {
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/M/MV5BY2YxYzUxNWUtMGEyNS00NjMzLWEzZDktMjYzOWY1Nzk0YWNhXkEyXkFqcGc%40._V1_.jpg",
+          "studios": [],
+          "provenance": {
+            "source": "IMDb",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.imdb.com/title/tt2224026/characters/nm0000182/",
+              "imageType": "still",
+              "extraction": "exact IMDb title character image",
+              "match": "exact IMDb ID tt2224026 and animated Home (2015) scene",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 142300,
+                "width": 1920,
+                "height": 1034,
+                "format": "jpeg",
+                "aspectRatio": 1.8568665377176015,
+                "hash": "sha256:5d82fe7f41b9c4379478b7d785af9436b8649e260e2c657a8263efadc2045588",
+                "checkedAt": "2026-08-27T13:32:50.189Z"
+              }
+            }
+          }
+        }
+      ],
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника IMDb.",
+      "provenance": [
+        {
+          "source": "IMDb",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.imdb.com/title/tt2224026/characters/nm0000182/",
+            "imageType": "still",
+            "extraction": "exact IMDb title character image",
+            "match": "exact IMDb ID tt2224026 and animated Home (2015) scene",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 142300,
+              "width": 1920,
+              "height": 1034,
+              "format": "jpeg",
+              "aspectRatio": 1.8568665377176015,
+              "hash": "sha256:5d82fe7f41b9c4379478b7d785af9436b8649e260e2c657a8263efadc2045588",
+              "checkedAt": "2026-08-27T13:32:50.189Z"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "nen-289",
@@ -42557,7 +42630,7 @@
                 "format": "jpeg",
                 "aspectRatio": 1.5,
                 "hash": "sha256:4054b722cb59209ee3353fdaa5a338ff95ab600def5beee43e8142b305df818a",
-                "checkedAt": "2026-08-27T06:06:55.462Z"
+                "checkedAt": "2026-08-27T13:32:43.806Z"
               }
             }
           }
@@ -42586,7 +42659,7 @@
                 "format": "jpeg",
                 "aspectRatio": 1.5,
                 "hash": "sha256:4054b722cb59209ee3353fdaa5a338ff95ab600def5beee43e8142b305df818a",
-                "checkedAt": "2026-08-27T06:06:55.462Z"
+                "checkedAt": "2026-08-27T13:32:43.806Z"
               }
             }
           }
@@ -42611,7 +42684,7 @@
               "format": "jpeg",
               "aspectRatio": 1.5,
               "hash": "sha256:4054b722cb59209ee3353fdaa5a338ff95ab600def5beee43e8142b305df818a",
-              "checkedAt": "2026-08-27T06:06:55.462Z"
+              "checkedAt": "2026-08-27T13:32:43.806Z"
             }
           }
         }
@@ -80197,7 +80270,7 @@
                 "format": "jpeg",
                 "aspectRatio": 1.3333333333333333,
                 "hash": "sha256:e1c58a304e5f99433460415e86fb0571ae2438491a9b3ece3f2f9d32cc7106af",
-                "checkedAt": "2026-08-27T06:06:56.314Z"
+                "checkedAt": "2026-08-27T13:32:44.652Z"
               }
             }
           }
@@ -80234,7 +80307,7 @@
                 "format": "jpeg",
                 "aspectRatio": 1.3333333333333333,
                 "hash": "sha256:e1c58a304e5f99433460415e86fb0571ae2438491a9b3ece3f2f9d32cc7106af",
-                "checkedAt": "2026-08-27T06:06:56.314Z"
+                "checkedAt": "2026-08-27T13:32:44.652Z"
               }
             }
           }
@@ -80260,7 +80333,7 @@
               "format": "jpeg",
               "aspectRatio": 1.3333333333333333,
               "hash": "sha256:e1c58a304e5f99433460415e86fb0571ae2438491a9b3ece3f2f9d32cc7106af",
-              "checkedAt": "2026-08-27T06:06:56.314Z"
+              "checkedAt": "2026-08-27T13:32:44.652Z"
             }
           }
         }
@@ -85762,39 +85835,6 @@
       ]
     },
     {
-      "id": "nen-wd-q3057240",
-      "title": "Эрнест и Селестина: Приключения мышки и медведя",
-      "originalTitle": "Ernest et Célestine",
-      "year": 2012,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q3057240",
-        "mail": null
-      },
-      "poster": {
-        "present": false,
-        "note": "Отдельного поля poster в watch-v2 сейчас нет."
-      },
-      "currentImages": [],
-      "stillCount": 0,
-      "foundStillSources": [
-        {
-          "source": "Wikidata / Wikimedia Commons",
-          "exactId": "Q3057240",
-          "capability": "P18/Commons; требуется проверка типа изображения",
-          "priority": 3
-        }
-      ],
-      "candidates": [],
-      "status": "C",
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "provenance": []
-    },
-    {
       "id": "nen-wd-q15621765",
       "title": "Букашки. Приключение в Долине муравьёв",
       "originalTitle": "Minuscule : La Vallée des fourmis perdues",
@@ -86404,39 +86444,6 @@
           }
         }
       ]
-    },
-    {
-      "id": "nen-wd-q20641909",
-      "title": "Аврил и поддельный мир",
-      "originalTitle": "Avril et le Monde truqué",
-      "year": 2015,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q20641909",
-        "mail": null
-      },
-      "poster": {
-        "present": false,
-        "note": "Отдельного поля poster в watch-v2 сейчас нет."
-      },
-      "currentImages": [],
-      "stillCount": 0,
-      "foundStillSources": [
-        {
-          "source": "Wikidata / Wikimedia Commons",
-          "exactId": "Q20641909",
-          "capability": "P18/Commons; требуется проверка типа изображения",
-          "priority": 3
-        }
-      ],
-      "candidates": [],
-      "status": "C",
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "provenance": []
     },
     {
       "id": "nen-wd-q21696029",
@@ -87224,7 +87231,7 @@
                 "format": "jpeg",
                 "aspectRatio": 1.7985611510791366,
                 "hash": "sha256:a6762d3acbf19070e12459ca7dc39667573befcb6e2f9b251a500b834fb89a66",
-                "checkedAt": "2026-08-27T06:06:56.443Z"
+                "checkedAt": "2026-08-27T13:32:44.758Z"
               }
             }
           }
@@ -87261,7 +87268,7 @@
                 "format": "jpeg",
                 "aspectRatio": 1.7985611510791366,
                 "hash": "sha256:a6762d3acbf19070e12459ca7dc39667573befcb6e2f9b251a500b834fb89a66",
-                "checkedAt": "2026-08-27T06:06:56.443Z"
+                "checkedAt": "2026-08-27T13:32:44.758Z"
               }
             }
           }
@@ -87287,7 +87294,7 @@
               "format": "jpeg",
               "aspectRatio": 1.7985611510791366,
               "hash": "sha256:a6762d3acbf19070e12459ca7dc39667573befcb6e2f9b251a500b834fb89a66",
-              "checkedAt": "2026-08-27T06:06:56.443Z"
+              "checkedAt": "2026-08-27T13:32:44.758Z"
             }
           }
         }
@@ -93769,7 +93776,7 @@
                 "format": "jpeg",
                 "aspectRatio": 1.7790973871733966,
                 "hash": "sha256:12db8a062689f82c01db7b24bf67747f95f93c3e71cee12d66c7b6d410e465d1",
-                "checkedAt": "2026-08-27T06:06:57.804Z"
+                "checkedAt": "2026-08-27T13:32:45.167Z"
               }
             }
           }
@@ -93805,7 +93812,7 @@
                 "format": "jpeg",
                 "aspectRatio": 1.7790973871733966,
                 "hash": "sha256:12db8a062689f82c01db7b24bf67747f95f93c3e71cee12d66c7b6d410e465d1",
-                "checkedAt": "2026-08-27T06:06:57.804Z"
+                "checkedAt": "2026-08-27T13:32:45.167Z"
               }
             }
           }
@@ -93830,7 +93837,7 @@
               "format": "jpeg",
               "aspectRatio": 1.7790973871733966,
               "hash": "sha256:12db8a062689f82c01db7b24bf67747f95f93c3e71cee12d66c7b6d410e465d1",
-              "checkedAt": "2026-08-27T06:06:57.804Z"
+              "checkedAt": "2026-08-27T13:32:45.167Z"
             }
           }
         }
@@ -136220,25 +136227,39 @@
         "mail": "929670"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/757b6f42-dfac-5df5-a6f2-d73831e19893/AQACdimVpaw95pwYqd94KKbQJoCfe6dmZK8chcKBOxWjF2kpHj1hzoRKorWmZ7pYaojDzn9Y4MB-GQG0bmFZJCzyOJ8.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/757b6f42-dfac-5df5-a6f2-d73831e19893/AQACdimVpaw95pwYqd94KKbQJoCfe6dmZK8chcKBOxWjF2kpHj1hzoRKorWmZ7pYaojDzn9Y4MB-GQG0bmFZJCzyOJ8.jpg",
+          "role": "confirmed-still",
+          "url": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2018/04/10/mika1.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Terra",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.terra.com.br/diversao/tv/serie-brasileira-o-diario-de-mika-concorre-ao-emmy-kids%2Cac15ac8f63476845ac77e19ebb0df727vx28r3cj.html",
+              "imageType": "still",
+              "extraction": "exact series article image",
+              "match": "exact O Diário de Mika series; scene in Mika's room",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 69178,
+                "width": 1200,
+                "height": 630,
+                "format": "jpeg",
+                "aspectRatio": 1.9047619047619047,
+                "hash": "sha256:9dedefbb6dbfe15454305d688eaf22d42bb5a0f1e6a2c184941bc72574f7e694",
+                "checkedAt": "2026-08-27T13:32:53.370Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -136249,26 +136270,55 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/757b6f42-dfac-5df5-a6f2-d73831e19893/AQACdimVpaw95pwYqd94KKbQJoCfe6dmZK8chcKBOxWjF2kpHj1hzoRKorWmZ7pYaojDzn9Y4MB-GQG0bmFZJCzyOJ8.jpg",
+          "role": "confirmed-still",
+          "url": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2018/04/10/mika1.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Terra",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.terra.com.br/diversao/tv/serie-brasileira-o-diario-de-mika-concorre-ao-emmy-kids%2Cac15ac8f63476845ac77e19ebb0df727vx28r3cj.html",
+              "imageType": "still",
+              "extraction": "exact series article image",
+              "match": "exact O Diário de Mika series; scene in Mika's room",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 69178,
+                "width": 1200,
+                "height": 630,
+                "format": "jpeg",
+                "aspectRatio": 1.9047619047619047,
+                "hash": "sha256:9dedefbb6dbfe15454305d688eaf22d42bb5a0f1e6a2c184941bc72574f7e694",
+                "checkedAt": "2026-08-27T13:32:53.370Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Terra.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Terra",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.terra.com.br/diversao/tv/serie-brasileira-o-diario-de-mika-concorre-ao-emmy-kids%2Cac15ac8f63476845ac77e19ebb0df727vx28r3cj.html",
+            "imageType": "still",
+            "extraction": "exact series article image",
+            "match": "exact O Diário de Mika series; scene in Mika's room",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 69178,
+              "width": 1200,
+              "height": 630,
+              "format": "jpeg",
+              "aspectRatio": 1.9047619047619047,
+              "hash": "sha256:9dedefbb6dbfe15454305d688eaf22d42bb5a0f1e6a2c184941bc72574f7e694",
+              "checkedAt": "2026-08-27T13:32:53.370Z"
+            }
+          }
         }
       ]
     },
@@ -142604,7 +142654,7 @@
                 "format": "jpeg",
                 "aspectRatio": 1.7777777777777777,
                 "hash": "sha256:8b675a39de4fd7120fcc28a69b57cdce32bd6b4e76e4d6b1d31fb606a28f17fa",
-                "checkedAt": "2026-08-27T06:06:56.128Z"
+                "checkedAt": "2026-08-27T13:32:44.498Z"
               }
             }
           }
@@ -142636,7 +142686,7 @@
                 "format": "jpeg",
                 "aspectRatio": 1.7777777777777777,
                 "hash": "sha256:8b675a39de4fd7120fcc28a69b57cdce32bd6b4e76e4d6b1d31fb606a28f17fa",
-                "checkedAt": "2026-08-27T06:06:56.128Z"
+                "checkedAt": "2026-08-27T13:32:44.498Z"
               }
             }
           }
@@ -142662,7 +142712,7 @@
               "format": "jpeg",
               "aspectRatio": 1.7777777777777777,
               "hash": "sha256:8b675a39de4fd7120fcc28a69b57cdce32bd6b4e76e4d6b1d31fb606a28f17fa",
-              "checkedAt": "2026-08-27T06:06:56.128Z"
+              "checkedAt": "2026-08-27T13:32:44.498Z"
             }
           }
         }
@@ -172017,25 +172067,39 @@
         "mail": "927970"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/f7b36d93-a311-548a-9c57-a35c30a2d8f3/AQACbHdg9ohkhqwC2wS8GX9BMZ_AgRrnxZ94CuBioCvN6nvYtMsq-g6bfN88a1O0AbsRMh4GJSHniy2IUk1q08u93F8.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/f7b36d93-a311-548a-9c57-a35c30a2d8f3/AQACbHdg9ohkhqwC2wS8GX9BMZ_AgRrnxZ94CuBioCvN6nvYtMsq-g6bfN88a1O0AbsRMh4GJSHniy2IUk1q08u93F8.jpg",
+          "role": "confirmed-still",
+          "url": "https://is2-ssl.mzstatic.com/image/thumb/XUESfgJkAbmaezDrHL8l2g/1200x675.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Apple TV",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://tv.apple.com/gb/show/cuddlies/umc.cmc.2pw3d0gzrm6qkcpur5rr856ip",
+              "imageType": "still",
+              "extraction": "official exact series page image",
+              "match": "exact Cuddlies series and in-episode activity scene; 2008 first-air year corroborated",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 281980,
+                "width": 1200,
+                "height": 675,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:bb56c5bb4f774e192c7b0aef3c3bec4336006a752e9a26a4218245a72664fe6c",
+                "checkedAt": "2026-08-27T13:32:53.473Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -172046,26 +172110,55 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/f7b36d93-a311-548a-9c57-a35c30a2d8f3/AQACbHdg9ohkhqwC2wS8GX9BMZ_AgRrnxZ94CuBioCvN6nvYtMsq-g6bfN88a1O0AbsRMh4GJSHniy2IUk1q08u93F8.jpg",
+          "role": "confirmed-still",
+          "url": "https://is2-ssl.mzstatic.com/image/thumb/XUESfgJkAbmaezDrHL8l2g/1200x675.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Apple TV",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://tv.apple.com/gb/show/cuddlies/umc.cmc.2pw3d0gzrm6qkcpur5rr856ip",
+              "imageType": "still",
+              "extraction": "official exact series page image",
+              "match": "exact Cuddlies series and in-episode activity scene; 2008 first-air year corroborated",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 281980,
+                "width": 1200,
+                "height": 675,
+                "format": "jpeg",
+                "aspectRatio": 1.7777777777777777,
+                "hash": "sha256:bb56c5bb4f774e192c7b0aef3c3bec4336006a752e9a26a4218245a72664fe6c",
+                "checkedAt": "2026-08-27T13:32:53.473Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Apple TV.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Apple TV",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://tv.apple.com/gb/show/cuddlies/umc.cmc.2pw3d0gzrm6qkcpur5rr856ip",
+            "imageType": "still",
+            "extraction": "official exact series page image",
+            "match": "exact Cuddlies series and in-episode activity scene; 2008 first-air year corroborated",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 281980,
+              "width": 1200,
+              "height": 675,
+              "format": "jpeg",
+              "aspectRatio": 1.7777777777777777,
+              "hash": "sha256:bb56c5bb4f774e192c7b0aef3c3bec4336006a752e9a26a4218245a72664fe6c",
+              "checkedAt": "2026-08-27T13:32:53.473Z"
+            }
+          }
         }
       ]
     },
@@ -182194,25 +182287,39 @@
         "mail": "931802"
       },
       "poster": {
-        "present": true,
-        "url": "https://resizer.mail.ru/p/198ab570-daef-5ff9-bc00-66d9c00c500c/AQAC-RI6EpnIK4cpUl1uMbie604HDIpxmYdz1BKKMvQxmwkC1dKaiYf_itaHqms9ibJABiLz-q3noSgMt1cjKVmLHas.jpg",
-        "note": "Обложка Кино Mail ошибочно занимает поле frame; визуально не проверялась в этом read-only аудите."
+        "present": false,
+        "note": "Отдельного поля poster в watch-v2 сейчас нет."
       },
       "currentImages": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/198ab570-daef-5ff9-bc00-66d9c00c500c/AQAC-RI6EpnIK4cpUl1uMbie604HDIpxmYdz1BKKMvQxmwkC1dKaiYf_itaHqms9ibJABiLz-q3noSgMt1cjKVmLHas.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/S/pv-target-images/c0a24bdb7e86fb42cd1c8a91846c386b685b7af5aea5763dc35e799033e63551.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+            "source": "Prime Video",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.primevideo.com/detail/Eggy-Pops/0IR126J67IF2S74W1D297UI0LC",
+              "imageType": "still",
+              "extraction": "official exact series page image",
+              "match": "exact Eggy Pops 2019 series; workshop episode scene",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 29894,
+                "width": 853,
+                "height": 480,
+                "format": "jpeg",
+                "aspectRatio": 1.7770833333333333,
+                "hash": "sha256:c0a24bdb7e86fb42cd1c8a91846c386b685b7af5aea5763dc35e799033e63551",
+                "checkedAt": "2026-08-27T13:32:53.775Z"
+              }
+            }
           }
         }
       ],
-      "stillCount": 0,
+      "stillCount": 1,
       "foundStillSources": [
         {
           "source": "IMDb как связующий идентификатор",
@@ -182223,26 +182330,55 @@
       ],
       "candidates": [
         {
-          "role": "imported-cover-stored-as-frame",
-          "url": "https://resizer.mail.ru/p/198ab570-daef-5ff9-bc00-66d9c00c500c/AQAC-RI6EpnIK4cpUl1uMbie604HDIpxmYdz1BKKMvQxmwkC1dKaiYf_itaHqms9ibJABiLz-q3noSgMt1cjKVmLHas.jpg",
+          "role": "confirmed-still",
+          "url": "https://m.media-amazon.com/images/S/pv-target-images/c0a24bdb7e86fb42cd1c8a91846c386b685b7af5aea5763dc35e799033e63551.jpg",
           "studios": [
             "Кино Mail"
           ],
           "provenance": {
-            "source": "Кино Mail",
-            "confidence": "low-for-still",
-            "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
-          },
-          "requiresReview": true
+            "source": "Prime Video",
+            "confidence": "high",
+            "basis": {
+              "pageUrl": "https://www.primevideo.com/detail/Eggy-Pops/0IR126J67IF2S74W1D297UI0LC",
+              "imageType": "still",
+              "extraction": "official exact series page image",
+              "match": "exact Eggy Pops 2019 series; workshop episode scene",
+              "probe": {
+                "mime": "image/jpeg",
+                "bytes": 29894,
+                "width": 853,
+                "height": 480,
+                "format": "jpeg",
+                "aspectRatio": 1.7770833333333333,
+                "hash": "sha256:c0a24bdb7e86fb42cd1c8a91846c386b685b7af5aea5763dc35e799033e63551",
+                "checkedAt": "2026-08-27T13:32:53.775Z"
+              }
+            }
+          }
         }
       ],
-      "status": "B",
-      "reason": "Изображение Кино Mail было импортировано как обложка и не проверялось как стоп-кадр.",
+      "status": "A",
+      "reason": "Есть подтверждённый кадр из источника Prime Video.",
       "provenance": [
         {
-          "source": "Кино Mail",
-          "confidence": "low-for-still",
-          "basis": "импортированное imageUrl проверялось как обложка, не как кадр"
+          "source": "Prime Video",
+          "confidence": "high",
+          "basis": {
+            "pageUrl": "https://www.primevideo.com/detail/Eggy-Pops/0IR126J67IF2S74W1D297UI0LC",
+            "imageType": "still",
+            "extraction": "official exact series page image",
+            "match": "exact Eggy Pops 2019 series; workshop episode scene",
+            "probe": {
+              "mime": "image/jpeg",
+              "bytes": 29894,
+              "width": 853,
+              "height": 480,
+              "format": "jpeg",
+              "aspectRatio": 1.7770833333333333,
+              "hash": "sha256:c0a24bdb7e86fb42cd1c8a91846c386b685b7af5aea5763dc35e799033e63551",
+              "checkedAt": "2026-08-27T13:32:53.775Z"
+            }
+          }
         }
       ]
     },

@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-27T06:07:29.122Z",
-  "totalCatalog": 2074,
-  "confirmedStills": 1718,
-  "unresolved": 356,
-  "posterInFrame": 67,
-  "noFrame": 289,
+  "generatedAt": "2026-08-27T13:35:01.078Z",
+  "totalCatalog": 2072,
+  "confirmedStills": 1722,
+  "unresolved": 350,
+  "posterInFrame": 64,
+  "noFrame": 286,
   "confirmedButMissingStudios": 0,
   "tailGroups": {
     "A": 0,
     "B": 50,
-    "C": 175,
+    "C": 169,
     "D": 131
   },
   "items": [
@@ -1672,52 +1672,6 @@
       "confirmedCandidateNotApplied": null,
       "tailGroup": "D",
       "pendingCandidate": null
-    },
-    {
-      "id": "nen-288",
-      "title": "Дом",
-      "originalTitle": "Home",
-      "year": 2015,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"Home\" 2015",
-          "\"Home\" 2015 screenshots",
-          "\"Home\" 2015 scene",
-          "\"Home\" 2015 stills",
-          "\"Дом\" 2015 кадры",
-          "\"Дом\" фильм 2015"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.allocine.fr/personne/fichepersonne-624316/photos/detail/?cmediafile=21819285",
-        "imageUrl": "https://fr.web.img5.acsta.net/r_1280_720/pictures/21/04/23/11/09/1117632.jpg",
-        "reasons": [
-          "страница не подтверждает год"
-        ]
-      }
     },
     {
       "id": "nen-289",
@@ -10327,61 +10281,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q3057240",
-      "title": "Эрнест и Селестина: Приключения мышки и медведя",
-      "originalTitle": "Ernest et Célestine",
-      "year": 2012,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q3057240",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.893Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:34.579Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Ernest et Célestine\" 2012",
-          "\"Ernest et Célestine\" 2012 screenshots",
-          "\"Ernest et Célestine\" 2012 scene",
-          "\"Ernest et Célestine\" 2012 stills",
-          "\"Эрнест и Селестина: Приключения мышки и медведя\" 2012 кадры",
-          "\"Эрнест и Селестина: Приключения мышки и медведя\" фильм 2012"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q17154837",
       "title": "Астерикс: Земля Богов",
       "originalTitle": "Astérix : Le Domaine des dieux",
@@ -10420,61 +10319,6 @@
           "\"Astérix : Le Domaine des dieux\" 2014 stills",
           "\"Астерикс: Земля Богов\" 2014 кадры",
           "\"Астерикс: Земля Богов\" фильм 2014"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q20641909",
-      "title": "Аврил и поддельный мир",
-      "originalTitle": "Avril et le Monde truqué",
-      "year": 2015,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q20641909",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.775Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:34.243Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Avril et le Monde truqué\" 2015",
-          "\"Avril et le Monde truqué\" 2015 screenshots",
-          "\"Avril et le Monde truqué\" 2015 scene",
-          "\"Avril et le Monde truqué\" 2015 stills",
-          "\"Аврил и поддельный мир\" 2015 кадры",
-          "\"Аврил и поддельный мир\" фильм 2015"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -16230,82 +16074,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-mail-929670",
-      "title": "Дневник Мики",
-      "originalTitle": "O Diário de Mika",
-      "year": 2015,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt6263044",
-        "wikidata": null,
-        "mail": "929670"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:12:42.438Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:53:14.518Z",
-          "pageUrl": "https://kino.mail.ru/series_929670_dnevnik_miki/",
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:11:38.740Z",
-          "pageUrl": "https://kino.mail.ru/series_929670_dnevnik_miki/",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:11:38.740Z",
-          "pageUrl": "https://www.imdb.com/title/tt6263044/mediaindex/",
-          "error": "public page returned empty/async shell"
-        },
-        {
-          "source": "IMDb gallery extraction",
-          "status": "NO_CONFIRMED_STILL",
-          "checkedAt": "2026-08-25T06:49:54.515Z",
-          "pageUrl": "https://www.imdb.com/title/tt6263044/mediaindex/",
-          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"O Diário de Mika\" 2015",
-          "\"O Diário de Mika\" 2015 screenshots",
-          "\"O Diário de Mika\" 2015 scene",
-          "\"O Diário de Mika\" 2015 stills",
-          "\"Дневник Мики\" 2015 кадры",
-          "\"Дневник Мики\" фильм 2015"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-mail-945425",
       "title": "Дрыц-Трыц Парад",
       "originalTitle": "Drits-Trits parad",
@@ -16436,12 +16204,19 @@
           "архивы/фестивали/Commons",
           "публичное официальное видео как fallback"
         ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
+        "outcome": "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
       },
       "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
       "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
+      "tailGroup": "B",
+      "pendingCandidate": {
+        "pageUrl": "https://www.primevideo.com/-/pl/detail/Flip-Flap/0J803OYVGFLG4JPLY2DFXVHKQ7",
+        "imageUrl": "https://m.media-amazon.com/images/S/pv-target-images/97f2f5dabd199d47d62a92f6d09fe8caccbbdb212f50d3ea256c422483f3de2c.jpg",
+        "reasons": [
+          "неоднозначное соответствие title",
+          "год/версия не подтверждены"
+        ]
+      }
     },
     {
       "id": "nen-mail-911203",
@@ -18326,82 +18101,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-mail-927970",
-      "title": "Милашки",
-      "originalTitle": "Cuddlies",
-      "year": 2008,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt6964616",
-        "wikidata": null,
-        "mail": "927970"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:12:11.169Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:53:00.409Z",
-          "pageUrl": "https://kino.mail.ru/series_927970_milashki/",
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:11:49.258Z",
-          "pageUrl": "https://kino.mail.ru/series_927970_milashki/",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:11:49.258Z",
-          "pageUrl": "https://www.imdb.com/title/tt6964616/mediaindex/",
-          "error": "public page returned empty/async shell"
-        },
-        {
-          "source": "IMDb gallery extraction",
-          "status": "NO_CONFIRMED_STILL",
-          "checkedAt": "2026-08-25T06:49:54.515Z",
-          "pageUrl": "https://www.imdb.com/title/tt6964616/mediaindex/",
-          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Cuddlies\" 2008",
-          "\"Cuddlies\" 2008 screenshots",
-          "\"Cuddlies\" 2008 scene",
-          "\"Cuddlies\" 2008 stills",
-          "\"Милашки\" 2008 кадры",
-          "\"Милашки\" фильм 2008"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-mail-928918",
       "title": "Мира — королевский детектив",
       "originalTitle": "Mira, Royal Detective",
@@ -19163,82 +18862,6 @@
           "\"Pim & Pimba\" 2007 stills",
           "\"Пим и Пимба\" 2007 кадры",
           "\"Пим и Пимба\" фильм 2007"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "На точной странице Кино Mail структурированная галерея «Кадры» отсутствует или не содержит пригодного изображения.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-mail-931802",
-      "title": "Популярные крохи",
-      "originalTitle": "Eggy Pops",
-      "year": 2019,
-      "type": "animated-series",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": "tt12200412",
-        "wikidata": null,
-        "mail": "931802"
-      },
-      "currentState": "POSTER_IN_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:12:57.930Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_STILL_FOUND",
-          "checkedAt": "2026-08-16T09:53:20.470Z",
-          "pageUrl": "https://kino.mail.ru/series_931802_populyarnie_krohi/",
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "NO_GALLERY_DATA",
-          "checkedAt": "2026-08-24T07:11:56.503Z",
-          "pageUrl": "https://kino.mail.ru/series_931802_populyarnie_krohi/",
-          "error": null
-        },
-        {
-          "source": "IMDb",
-          "status": "SOURCE_UNAVAILABLE",
-          "checkedAt": "2026-08-24T07:11:56.503Z",
-          "pageUrl": "https://www.imdb.com/title/tt12200412/mediaindex/",
-          "error": "public page returned empty/async shell"
-        },
-        {
-          "source": "IMDb gallery extraction",
-          "status": "NO_CONFIRMED_STILL",
-          "checkedAt": "2026-08-25T06:49:54.515Z",
-          "pageUrl": "https://www.imdb.com/title/tt12200412/mediaindex/",
-          "error": "Публичная галерея проверена по facet imageTypeId; подтверждённый пригодный still_frame не найден или точный ID противоречит карточке."
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Eggy Pops\" 2019",
-          "\"Eggy Pops\" 2019 screenshots",
-          "\"Eggy Pops\" 2019 scene",
-          "\"Eggy Pops\" 2019 stills",
-          "\"Популярные крохи\" 2019 кадры",
-          "\"Популярные крохи\" фильм 2019"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
