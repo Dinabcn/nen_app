@@ -467,12 +467,138 @@
       "imageType": "still",
       "extraction": "image-search index to production project page",
       "match": "exact Max & Co (2007) stop-motion frame"
+    },
+    {
+      "watchId": "nen-073",
+      "source": "Entertainment Weekly",
+      "pageUrl": "https://ew.com/article/2016/01/21/good-dinosaur-blu-ray/",
+      "imageUrl": "https://assets-jpcust.jwpsrv.com/thumbnails/2xdjughd-1280.jpg",
+      "imageType": "still",
+      "extraction": "alternate indexed copy of previously inaccessible exact film frame",
+      "match": "exact The Good Dinosaur (2015) Blu-ray clip frame with Arlo and Spot"
+    },
+    {
+      "watchId": "nen-084",
+      "source": "Smartfacts",
+      "pageUrl": "https://smartfacts.ru/movie/1948-ratatuy/images",
+      "imageUrl": "https://cdn.smartfacts.ru/193112/conversions/ratatuy_16-medium.jpg",
+      "imageType": "still",
+      "extraction": "alternate indexed copy from exact film images page",
+      "match": "exact Ratatouille (2007) kitchen scene with Remy and Linguini"
+    },
+    {
+      "watchId": "nen-172",
+      "source": "ORICON / NTV",
+      "pageUrl": "https://us.oricon-group.com/news/5935/",
+      "imageUrl": "https://us.oricon-group.com/upimg/sns/5000/5935/img1200/princess-mononoke-iconic-scenes-ntv-broadcast-01.jpg",
+      "imageType": "still",
+      "extraction": "alternate indexed copy tied to NTV broadcast",
+      "match": "exact Princess Mononoke (1997) scene with Ashitaka and San"
+    },
+    {
+      "watchId": "nen-388",
+      "source": "Film Obsessive",
+      "pageUrl": "https://filmobsessive.com/film/film-analysis/seeing-is-believing-a-ride-on-the-polar-express/",
+      "imageUrl": "https://filmobsessive.com/wp-content/uploads/2020/02/Boy-In-Polar-Express-Cropped.jpg",
+      "imageType": "still",
+      "extraction": "alternate indexed copy after inaccessible screencap CDN",
+      "match": "exact The Polar Express (2004) train-car scene"
+    },
+    {
+      "watchId": "nen-wd-q939876",
+      "source": "IMDb",
+      "pageUrl": "https://www.imdb.com/es/title/tt0107745/mediaviewer/rm3660459777/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZDhkZjI0ZmEtNDlkMC00ODFiLWI0YzItZDFlZWE4MjkyNWViXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+      "imageType": "still",
+      "extraction": "alternate indexed IMDb copy after inaccessible Fancaps CDN",
+      "match": "exact IMDb ID tt0107745 and Once Upon a Forest (1993) scene"
+    },
+    {
+      "watchId": "nen-098",
+      "source": "IMDb",
+      "pageUrl": "https://www.imdb.com/title/tt0398286/mediaviewer/rm3923281664/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTM5NjE4OTU1MF5BMl5BanBnXkFtZTcwODY2MzQwNA%40%40._V1_FMjpg_UX1000_.jpg",
+      "imageType": "still",
+      "extraction": "alternate indexed IMDb copy after missing screencap original",
+      "match": "exact IMDb ID tt0398286 and Tangled (2010) mill scene"
+    },
+    {
+      "watchId": "nen-wd-q903821",
+      "source": "Korean Film Council",
+      "pageUrl": "https://www.koreanfilm.or.kr/eng/films/index/filmsView.jsp?movieCd=20126406",
+      "imageUrl": "https://kobis.or.kr/common/mast/movie/2012/07/7c5570453cb544278ec56420d1808a5f.jpg",
+      "imageType": "still",
+      "extraction": "alternate indexed copy after missing Flanders Image original",
+      "match": "exact Sammy's Adventures 2 (2012) catalog page and underwater scene"
+    },
+    {
+      "watchId": "nen-wd-q1022379",
+      "source": "Letterboxd",
+      "pageUrl": "https://letterboxd.com/film/crazy-2005/",
+      "imageUrl": "https://a.ltrbxd.com/resized/sm/upload/4p/n9/7u/4p/c-r-a-z-y-1200-1200-675-675-crop-000000.jpg?k=0d909f49a6",
+      "imageType": "still",
+      "extraction": "alternate indexed copy after inaccessible FilmAffinity original",
+      "match": "exact C.R.A.Z.Y. (2005) page and motorcycle scene"
+    },
+    {
+      "watchId": "nen-wd-q2541350",
+      "source": "Listal",
+      "pageUrl": "https://www.listal.com/viewimage/9221042",
+      "imageUrl": "https://ilarge.lisimg.com/image/9221042/740full-to-sir%2C-with-love-%281967%29-screenshot.jpg",
+      "imageType": "still",
+      "extraction": "alternate indexed copy after missing ScreenMusings originals",
+      "match": "exact To Sir, with Love (1967) screenshot with Sidney Poitier as Mark Thackeray"
+    },
+    {
+      "watchId": "nen-wd-q536756",
+      "source": "MUBI",
+      "pageUrl": "https://mubi.com/films/asterix-and-cleopatra",
+      "imageUrl": "https://images.mubicdn.net/images/film/41057/cache-31609-1445891178/image-w1280.jpg",
+      "imageType": "still",
+      "extraction": "alternate indexed copy after inaccessible Fancaps CDN",
+      "match": "exact Asterix and Cleopatra (1968) palace scene"
+    },
+    {
+      "watchId": "nen-723",
+      "source": "Netflix",
+      "pageUrl": "https://www.netflix.com/pl/title/81028225",
+      "imageUrl": "https://occ-0-2299-116.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABQtfuYvpTDgn2nEiEfxGDoaeSZfFcsH_--BkNlzZcY45h1IZ_qc7aAJYnKXe5bMtwHmZd8RDOu-3WPaY3fiL7Vre6ZAsYlzIUNXv.jpg?r=ecd",
+      "imageType": "still",
+      "extraction": "alternate official streaming copy after inaccessible Fancaps CDN",
+      "match": "exact Scrooge: A Christmas Carol (2022) Netflix title page scene"
+    },
+    {
+      "watchId": "nen-704",
+      "source": "ComingSoon",
+      "pageUrl": "https://www.comingsoon.net/guides/news/1325534-the-wild-where-to-watch-stream-online",
+      "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2023/08/the-wild_1200x675.jpg?resize=1200%2C630",
+      "imageType": "still",
+      "extraction": "alternate indexed copy after inaccessible Fancaps CDN",
+      "match": "exact Disney animated The Wild (2006) scene"
+    },
+    {
+      "watchId": "nen-244",
+      "source": "Film Freak Central",
+      "pageUrl": "https://filmfreakcentral.net/2017/06/bambi-signature-collection/",
+      "imageUrl": "https://filmfreakcentral.net/wp-content/uploads/6a0168ea36d6b2970c01b8d289c6fd970c-800wi.png",
+      "imageType": "still",
+      "extraction": "alternate indexed copy after missing Internet Animation Database original",
+      "match": "exact Bambi (1942) Blu-ray review winter scene"
+    },
+    {
+      "watchId": "nen-172",
+      "source": "BBC Culture",
+      "pageUrl": "https://www.bbc.com/culture/article/20220713-princess-mononoke-the-masterpiece-that-flummoxed-the-us",
+      "imageUrl": "https://ychef.files.bbci.co.uk/1280x720/p0clnml6.jpg",
+      "imageType": "still",
+      "extraction": "second alternate indexed copy after previous source returned 403",
+      "match": "exact Princess Mononoke (1997) BBC feature scene"
     }
   ],
   "semanticRejectPolicy": "Candidates rejected as poster, person photo, wrong work, remake, season, or shared ambiguous URL were not reconsidered.",
-  "appliedAt": "2026-08-27T16:17:10.927Z",
-  "applied": 28,
-  "rejected": 22,
+  "appliedAt": "2026-08-28T06:53:10.539Z",
+  "applied": 41,
+  "rejected": 23,
   "appliedItems": [
     {
       "watchId": "nen-524",
@@ -493,7 +619,7 @@
         "format": "jpeg",
         "aspectRatio": 1.5,
         "hash": "sha256:4054b722cb59209ee3353fdaa5a338ff95ab600def5beee43e8142b305df818a",
-        "checkedAt": "2026-08-27T16:16:45.917Z"
+        "checkedAt": "2026-08-28T06:52:46.003Z"
       }
     },
     {
@@ -516,7 +642,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:8b675a39de4fd7120fcc28a69b57cdce32bd6b4e76e4d6b1d31fb606a28f17fa",
-        "checkedAt": "2026-08-27T16:16:46.584Z"
+        "checkedAt": "2026-08-28T06:52:46.660Z"
       }
     },
     {
@@ -539,7 +665,7 @@
         "format": "jpeg",
         "aspectRatio": 1.3333333333333333,
         "hash": "sha256:e1c58a304e5f99433460415e86fb0571ae2438491a9b3ece3f2f9d32cc7106af",
-        "checkedAt": "2026-08-27T16:16:46.798Z"
+        "checkedAt": "2026-08-28T06:52:46.803Z"
       }
     },
     {
@@ -562,7 +688,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7985611510791366,
         "hash": "sha256:a6762d3acbf19070e12459ca7dc39667573befcb6e2f9b251a500b834fb89a66",
-        "checkedAt": "2026-08-27T16:16:46.893Z"
+        "checkedAt": "2026-08-28T06:52:46.871Z"
       }
     },
     {
@@ -581,7 +707,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7790973871733966,
         "hash": "sha256:12db8a062689f82c01db7b24bf67747f95f93c3e71cee12d66c7b6d410e465d1",
-        "checkedAt": "2026-08-27T16:16:47.314Z"
+        "checkedAt": "2026-08-28T06:52:47.346Z"
       }
     },
     {
@@ -600,7 +726,7 @@
         "format": "jpeg",
         "aspectRatio": 1.8568665377176015,
         "hash": "sha256:5d82fe7f41b9c4379478b7d785af9436b8649e260e2c657a8263efadc2045588",
-        "checkedAt": "2026-08-27T16:16:53.002Z"
+        "checkedAt": "2026-08-28T06:52:51.417Z"
       }
     },
     {
@@ -619,7 +745,7 @@
         "format": "jpeg",
         "aspectRatio": 1.9047619047619047,
         "hash": "sha256:9dedefbb6dbfe15454305d688eaf22d42bb5a0f1e6a2c184941bc72574f7e694",
-        "checkedAt": "2026-08-27T16:16:53.237Z"
+        "checkedAt": "2026-08-28T06:52:51.592Z"
       }
     },
     {
@@ -638,7 +764,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:bb56c5bb4f774e192c7b0aef3c3bec4336006a752e9a26a4218245a72664fe6c",
-        "checkedAt": "2026-08-27T16:16:53.374Z"
+        "checkedAt": "2026-08-28T06:52:51.780Z"
       }
     },
     {
@@ -657,7 +783,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7770833333333333,
         "hash": "sha256:c0a24bdb7e86fb42cd1c8a91846c386b685b7af5aea5763dc35e799033e63551",
-        "checkedAt": "2026-08-27T16:16:53.507Z"
+        "checkedAt": "2026-08-28T06:52:51.991Z"
       }
     },
     {
@@ -676,7 +802,7 @@
         "format": "jpeg",
         "aspectRatio": 1.5,
         "hash": "sha256:d14182812b501c79596181e75f89fa7ce909c56316e434f144fbc8c220404c83",
-        "checkedAt": "2026-08-27T16:16:54.208Z"
+        "checkedAt": "2026-08-28T06:52:52.287Z"
       }
     },
     {
@@ -695,7 +821,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:50791bfbef6664c537c654a01ed210f031799e3c4db4c0f5e333299c1b43bb08",
-        "checkedAt": "2026-08-27T16:16:54.342Z"
+        "checkedAt": "2026-08-28T06:52:52.385Z"
       }
     },
     {
@@ -714,7 +840,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7652777777777777,
         "hash": "sha256:27e11e3d377578b3a7d5e7277c89843c3e52d2d558289a0d99a5b11f6ceff64b",
-        "checkedAt": "2026-08-27T16:16:54.784Z"
+        "checkedAt": "2026-08-28T06:52:52.663Z"
       }
     },
     {
@@ -733,7 +859,7 @@
         "format": "jpeg",
         "aspectRatio": 1.3450087565674256,
         "hash": "sha256:3d6f3b78ff06868ce57e7bc37c2ba31d1ebea62588f94ec33520849629465071",
-        "checkedAt": "2026-08-27T16:16:55.235Z"
+        "checkedAt": "2026-08-28T06:52:53.113Z"
       }
     },
     {
@@ -752,7 +878,7 @@
         "format": "jpeg",
         "aspectRatio": 2.8,
         "hash": "sha256:80bfb49e6435a5a81a30aa6c138b9f316d8c7670a60f608ba991864a2307fd84",
-        "checkedAt": "2026-08-27T16:16:55.928Z"
+        "checkedAt": "2026-08-28T06:52:53.806Z"
       }
     },
     {
@@ -771,7 +897,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:834c2598f7cc3bd0b0fff37bd09bcdbbc0fca9749bc722b5a1ab9efeab22d82c",
-        "checkedAt": "2026-08-27T16:16:56.028Z"
+        "checkedAt": "2026-08-28T06:52:53.907Z"
       }
     },
     {
@@ -790,7 +916,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:fcb3cc0c899c5be877f6b2b89dcff54ac291739c8bdd4146a81a270463489672",
-        "checkedAt": "2026-08-27T16:16:56.333Z"
+        "checkedAt": "2026-08-28T06:52:54.207Z"
       }
     },
     {
@@ -809,7 +935,7 @@
         "format": "jpeg",
         "aspectRatio": 1.8461538461538463,
         "hash": "sha256:0b6fecde0257a62435aeed5e81ae6a810cc241e8d88deba3850ee4658061af97",
-        "checkedAt": "2026-08-27T16:16:56.417Z"
+        "checkedAt": "2026-08-28T06:52:54.278Z"
       }
     },
     {
@@ -828,7 +954,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:72ab96a6851cbd839c88244e4f1a91fed8a6d9cc3c0961465794ab0a7411fa91",
-        "checkedAt": "2026-08-27T16:16:56.869Z"
+        "checkedAt": "2026-08-28T06:52:54.783Z"
       }
     },
     {
@@ -847,7 +973,7 @@
         "format": "jpeg",
         "aspectRatio": 1.296577946768061,
         "hash": "sha256:08c7f9f66c3d908403afc6a1d129e62e79f04bffa307605ce529e626000b0dbb",
-        "checkedAt": "2026-08-27T16:16:57.969Z"
+        "checkedAt": "2026-08-28T06:52:55.450Z"
       }
     },
     {
@@ -866,7 +992,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:786abed3b819cd790d384f9510be06b83fa4d2dc13b62462bb6460e6c2468e64",
-        "checkedAt": "2026-08-27T16:16:58.469Z"
+        "checkedAt": "2026-08-28T06:52:55.973Z"
       }
     },
     {
@@ -885,7 +1011,7 @@
         "format": "jpeg",
         "aspectRatio": 1.3325740318906605,
         "hash": "sha256:d560970cba1a6e17764cf88aea6228ce83fd425a7322dbf1a6f0cb58390accb3",
-        "checkedAt": "2026-08-27T16:17:00.172Z"
+        "checkedAt": "2026-08-28T06:52:56.249Z"
       }
     },
     {
@@ -904,7 +1030,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:55698a70a93e65eff7957e3883cff22d203d402a10f7d961976e4cff1b6607a0",
-        "checkedAt": "2026-08-27T16:17:00.596Z"
+        "checkedAt": "2026-08-28T06:52:56.636Z"
       }
     },
     {
@@ -923,7 +1049,7 @@
         "format": "jpeg",
         "aspectRatio": 1.3333333333333333,
         "hash": "sha256:0a5b901ae6e34d4d816977c1823ec595e9391e54e5d9f5be48756c80ea66bf38",
-        "checkedAt": "2026-08-27T16:17:03.003Z"
+        "checkedAt": "2026-08-28T06:52:56.842Z"
       }
     },
     {
@@ -942,7 +1068,7 @@
         "format": "jpeg",
         "aspectRatio": 2,
         "hash": "sha256:0a58c88c8dd4b58ce5d692936337c7af9ff89d1ca7db88117bcc19a6bc70ad75",
-        "checkedAt": "2026-08-27T16:17:04.921Z"
+        "checkedAt": "2026-08-28T06:52:57.411Z"
       }
     },
     {
@@ -961,7 +1087,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7772511848341233,
         "hash": "sha256:2129505e73b5a309f76102b2ffb4942389cda006669be7a4c83e530fff4c84c5",
-        "checkedAt": "2026-08-27T16:17:05.734Z"
+        "checkedAt": "2026-08-28T06:52:57.922Z"
       }
     },
     {
@@ -980,7 +1106,7 @@
         "format": "jpeg",
         "aspectRatio": 1.2759170653907497,
         "hash": "sha256:121e3b19a508d7dc94e4f99643fac9872fb8ddf9a8ec0a4f74e8f16c468b0747",
-        "checkedAt": "2026-08-27T16:17:09.228Z"
+        "checkedAt": "2026-08-28T06:53:01.082Z"
       }
     },
     {
@@ -999,7 +1125,7 @@
         "format": "jpeg",
         "aspectRatio": 1.3683010262257698,
         "hash": "sha256:2d0fefbbccffebd591a938f426e8349a520f18b31d7b23f528595ca7ae53de0e",
-        "checkedAt": "2026-08-27T16:17:10.231Z"
+        "checkedAt": "2026-08-28T06:53:01.266Z"
       }
     },
     {
@@ -1018,7 +1144,254 @@
         "format": "jpeg",
         "aspectRatio": 2.347826086956522,
         "hash": "sha256:2a538826429f646a5e0fbb3387c3d3ae1607e9dc2e7816cb1c6390f8eb05a3a5",
-        "checkedAt": "2026-08-27T16:17:10.849Z"
+        "checkedAt": "2026-08-28T06:53:01.673Z"
+      }
+    },
+    {
+      "watchId": "nen-073",
+      "source": "Entertainment Weekly",
+      "pageUrl": "https://ew.com/article/2016/01/21/good-dinosaur-blu-ray/",
+      "imageUrl": "https://assets-jpcust.jwpsrv.com/thumbnails/2xdjughd-1280.jpg",
+      "imageType": "still",
+      "extraction": "alternate indexed copy of previously inaccessible exact film frame",
+      "match": "exact The Good Dinosaur (2015) Blu-ray clip frame with Arlo and Spot",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 86955,
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:69ced7836837236ad3e6ae218148addc38a0039a66b8cf58bf210a19be89fd5b",
+        "checkedAt": "2026-08-28T06:53:01.741Z"
+      }
+    },
+    {
+      "watchId": "nen-084",
+      "source": "Smartfacts",
+      "pageUrl": "https://smartfacts.ru/movie/1948-ratatuy/images",
+      "imageUrl": "https://cdn.smartfacts.ru/193112/conversions/ratatuy_16-medium.jpg",
+      "imageType": "still",
+      "extraction": "alternate indexed copy from exact film images page",
+      "match": "exact Ratatouille (2007) kitchen scene with Remy and Linguini",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 41998,
+        "width": 730,
+        "height": 395,
+        "format": "jpeg",
+        "aspectRatio": 1.8481012658227849,
+        "hash": "sha256:084310923452e1a20e8cf04d5b8d44aac0ea4225aaa2d8f6272b5b4f339af7a4",
+        "checkedAt": "2026-08-28T06:53:02.238Z"
+      }
+    },
+    {
+      "watchId": "nen-388",
+      "source": "Film Obsessive",
+      "pageUrl": "https://filmobsessive.com/film/film-analysis/seeing-is-believing-a-ride-on-the-polar-express/",
+      "imageUrl": "https://filmobsessive.com/wp-content/uploads/2020/02/Boy-In-Polar-Express-Cropped.jpg",
+      "imageType": "still",
+      "extraction": "alternate indexed copy after inaccessible screencap CDN",
+      "match": "exact The Polar Express (2004) train-car scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 40293,
+        "width": 1200,
+        "height": 600,
+        "format": "jpeg",
+        "aspectRatio": 2,
+        "hash": "sha256:8daa8f7989412891c1f29df70f8250a9c875de0f6bb73a09519a329fac085175",
+        "checkedAt": "2026-08-28T06:53:02.904Z"
+      }
+    },
+    {
+      "watchId": "nen-wd-q939876",
+      "source": "IMDb",
+      "pageUrl": "https://www.imdb.com/es/title/tt0107745/mediaviewer/rm3660459777/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZDhkZjI0ZmEtNDlkMC00ODFiLWI0YzItZDFlZWE4MjkyNWViXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+      "imageType": "still",
+      "extraction": "alternate indexed IMDb copy after inaccessible Fancaps CDN",
+      "match": "exact IMDb ID tt0107745 and Once Upon a Forest (1993) scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 52676,
+        "width": 1000,
+        "height": 749,
+        "format": "jpeg",
+        "aspectRatio": 1.335113484646195,
+        "hash": "sha256:159724c6c034dde39f084a4d0385d46b590af5f8be0cb87bbedfa2daff5739dc",
+        "checkedAt": "2026-08-28T06:53:02.987Z"
+      }
+    },
+    {
+      "watchId": "nen-098",
+      "source": "IMDb",
+      "pageUrl": "https://www.imdb.com/title/tt0398286/mediaviewer/rm3923281664/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTM5NjE4OTU1MF5BMl5BanBnXkFtZTcwODY2MzQwNA%40%40._V1_FMjpg_UX1000_.jpg",
+      "imageType": "still",
+      "extraction": "alternate indexed IMDb copy after missing screencap original",
+      "match": "exact IMDb ID tt0398286 and Tangled (2010) mill scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 57621,
+        "width": 1000,
+        "height": 640,
+        "format": "jpeg",
+        "aspectRatio": 1.5625,
+        "hash": "sha256:3303343958f7e6dc3e55820b70b31622fc5de454808934999f9a0ddba1a737b4",
+        "checkedAt": "2026-08-28T06:53:03.149Z"
+      }
+    },
+    {
+      "watchId": "nen-wd-q903821",
+      "source": "Korean Film Council",
+      "pageUrl": "https://www.koreanfilm.or.kr/eng/films/index/filmsView.jsp?movieCd=20126406",
+      "imageUrl": "https://kobis.or.kr/common/mast/movie/2012/07/7c5570453cb544278ec56420d1808a5f.jpg",
+      "imageType": "still",
+      "extraction": "alternate indexed copy after missing Flanders Image original",
+      "match": "exact Sammy's Adventures 2 (2012) catalog page and underwater scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 1642429,
+        "width": 2048,
+        "height": 1152,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:26b4fd6fe6ce3c858325af7d8198ed8357394dc41bc5c63100106207b47b522f",
+        "checkedAt": "2026-08-28T06:53:07.495Z"
+      }
+    },
+    {
+      "watchId": "nen-wd-q1022379",
+      "source": "Letterboxd",
+      "pageUrl": "https://letterboxd.com/film/crazy-2005/",
+      "imageUrl": "https://a.ltrbxd.com/resized/sm/upload/4p/n9/7u/4p/c-r-a-z-y-1200-1200-675-675-crop-000000.jpg?k=0d909f49a6",
+      "imageType": "still",
+      "extraction": "alternate indexed copy after inaccessible FilmAffinity original",
+      "match": "exact C.R.A.Z.Y. (2005) page and motorcycle scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 95080,
+        "width": 1200,
+        "height": 675,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:75e0ce2e62e72619557636a09337dc266cfbc2612c475d52fa7b494168ada164",
+        "checkedAt": "2026-08-28T06:53:07.538Z"
+      }
+    },
+    {
+      "watchId": "nen-wd-q2541350",
+      "source": "Listal",
+      "pageUrl": "https://www.listal.com/viewimage/9221042",
+      "imageUrl": "https://ilarge.lisimg.com/image/9221042/740full-to-sir%2C-with-love-%281967%29-screenshot.jpg",
+      "imageType": "still",
+      "extraction": "alternate indexed copy after missing ScreenMusings originals",
+      "match": "exact To Sir, with Love (1967) screenshot with Sidney Poitier as Mark Thackeray",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 618892,
+        "width": 1366,
+        "height": 740,
+        "format": "jpeg",
+        "aspectRatio": 1.845945945945946,
+        "hash": "sha256:75c0a142a29cb0ede5aa7c9c395c7f15e3e5f7844d89410b3f5534dcb05dbecf",
+        "checkedAt": "2026-08-28T06:53:07.814Z"
+      }
+    },
+    {
+      "watchId": "nen-wd-q536756",
+      "source": "MUBI",
+      "pageUrl": "https://mubi.com/films/asterix-and-cleopatra",
+      "imageUrl": "https://images.mubicdn.net/images/film/41057/cache-31609-1445891178/image-w1280.jpg",
+      "imageType": "still",
+      "extraction": "alternate indexed copy after inaccessible Fancaps CDN",
+      "match": "exact Asterix and Cleopatra (1968) palace scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 141732,
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:0ce616e9a372df07bc930f146ffa0218f4d172d36374c7047240fe2e8117ab37",
+        "checkedAt": "2026-08-28T06:53:07.977Z"
+      }
+    },
+    {
+      "watchId": "nen-723",
+      "source": "Netflix",
+      "pageUrl": "https://www.netflix.com/pl/title/81028225",
+      "imageUrl": "https://occ-0-2299-116.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABQtfuYvpTDgn2nEiEfxGDoaeSZfFcsH_--BkNlzZcY45h1IZ_qc7aAJYnKXe5bMtwHmZd8RDOu-3WPaY3fiL7Vre6ZAsYlzIUNXv.jpg?r=ecd",
+      "imageType": "still",
+      "extraction": "alternate official streaming copy after inaccessible Fancaps CDN",
+      "match": "exact Scrooge: A Christmas Carol (2022) Netflix title page scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 183861,
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:672df90a0c01f9c9e7fff5099838633052ba48a7a2c458cce66c6e39d26366af",
+        "checkedAt": "2026-08-28T06:53:09.799Z"
+      }
+    },
+    {
+      "watchId": "nen-704",
+      "source": "ComingSoon",
+      "pageUrl": "https://www.comingsoon.net/guides/news/1325534-the-wild-where-to-watch-stream-online",
+      "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2023/08/the-wild_1200x675.jpg?resize=1200%2C630",
+      "imageType": "still",
+      "extraction": "alternate indexed copy after inaccessible Fancaps CDN",
+      "match": "exact Disney animated The Wild (2006) scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 52036,
+        "width": 1200,
+        "height": 630,
+        "format": "jpeg",
+        "aspectRatio": 1.9047619047619047,
+        "hash": "sha256:9514d70fe30335d4e26f3a37b5b6cdba5e90e2579fd8b04928b222c754a95093",
+        "checkedAt": "2026-08-28T06:53:09.864Z"
+      }
+    },
+    {
+      "watchId": "nen-244",
+      "source": "Film Freak Central",
+      "pageUrl": "https://filmfreakcentral.net/2017/06/bambi-signature-collection/",
+      "imageUrl": "https://filmfreakcentral.net/wp-content/uploads/6a0168ea36d6b2970c01b8d289c6fd970c-800wi.png",
+      "imageType": "still",
+      "extraction": "alternate indexed copy after missing Internet Animation Database original",
+      "match": "exact Bambi (1942) Blu-ray review winter scene",
+      "probe": {
+        "mime": "image/png",
+        "bytes": 529748,
+        "width": 700,
+        "height": 525,
+        "format": "png",
+        "aspectRatio": 1.3333333333333333,
+        "hash": "sha256:6704ad4d499d99e449cb3d674acd7463d267e5a55a76d6bb7e2e3844583f849c",
+        "checkedAt": "2026-08-28T06:53:10.068Z"
+      }
+    },
+    {
+      "watchId": "nen-172",
+      "source": "BBC Culture",
+      "pageUrl": "https://www.bbc.com/culture/article/20220713-princess-mononoke-the-masterpiece-that-flummoxed-the-us",
+      "imageUrl": "https://ychef.files.bbci.co.uk/1280x720/p0clnml6.jpg",
+      "imageType": "still",
+      "extraction": "second alternate indexed copy after previous source returned 403",
+      "match": "exact Princess Mononoke (1997) BBC feature scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 122750,
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1.7777777777777777,
+        "hash": "sha256:cc44fc5a992f84404dddcdede5883294dde2379acec0c03d10146c6132c29b1a",
+        "checkedAt": "2026-08-28T06:53:10.474Z"
       }
     }
   ],
@@ -1242,6 +1615,16 @@
       "extraction": "image-search index to official audiovisual catalog",
       "match": "exact Sammy's Adventures 2 (2012) production still",
       "reason": "image HTTP 404"
+    },
+    {
+      "watchId": "nen-172",
+      "source": "ORICON / NTV",
+      "pageUrl": "https://us.oricon-group.com/news/5935/",
+      "imageUrl": "https://us.oricon-group.com/upimg/sns/5000/5935/img1200/princess-mononoke-iconic-scenes-ntv-broadcast-01.jpg",
+      "imageType": "still",
+      "extraction": "alternate indexed copy tied to NTV broadcast",
+      "match": "exact Princess Mononoke (1997) scene with Ashitaka and San",
+      "reason": "image HTTP 403"
     }
   ]
 }

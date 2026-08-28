@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-27T16:17:35.041Z",
+  "generatedAt": "2026-08-28T06:53:44.587Z",
   "totalCatalog": 2072,
-  "confirmedStills": 1741,
-  "unresolved": 331,
+  "confirmedStills": 1754,
+  "unresolved": 318,
   "posterInFrame": 61,
-  "noFrame": 270,
+  "noFrame": 257,
   "confirmedButMissingStudios": 0,
   "tailGroups": {
     "A": 0,
-    "B": 43,
-    "C": 157,
-    "D": 131
+    "B": 41,
+    "C": 153,
+    "D": 124
   },
   "items": [
     {
@@ -134,46 +134,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-073",
-      "title": "Хороший динозавр",
-      "originalTitle": "The Good Dinosaur",
-      "year": 2015,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"The Good Dinosaur\" 2015",
-          "\"The Good Dinosaur\" 2015 screenshots",
-          "\"The Good Dinosaur\" 2015 scene",
-          "\"The Good Dinosaur\" 2015 stills",
-          "\"Хороший динозавр\" 2015 кадры",
-          "\"Хороший динозавр\" фильм 2015"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-077",
       "title": "Нэнси Дрю",
       "originalTitle": "Nancy Drew",
@@ -197,86 +157,6 @@
           "\"Nancy Drew\" 2007 stills",
           "\"Нэнси Дрю\" 2007 кадры",
           "\"Нэнси Дрю\" фильм 2007"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-084",
-      "title": "Рататуй",
-      "originalTitle": "Ratatouille",
-      "year": 2007,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"Ratatouille\" 2007",
-          "\"Ratatouille\" 2007 screenshots",
-          "\"Ratatouille\" 2007 scene",
-          "\"Ratatouille\" 2007 stills",
-          "\"Рататуй\" 2007 кадры",
-          "\"Рататуй\" фильм 2007"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-098",
-      "title": "Рапунцель: Запутанная история",
-      "originalTitle": "Tangled",
-      "year": 2010,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"Tangled\" 2010",
-          "\"Tangled\" 2010 screenshots",
-          "\"Tangled\" 2010 scene",
-          "\"Tangled\" 2010 stills",
-          "\"Рапунцель: Запутанная история\" 2010 кадры",
-          "\"Рапунцель: Запутанная история\" фильм 2010"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -725,46 +605,6 @@
           "\"Flushed Away\" 2006 stills",
           "\"Смывайся!\" 2006 кадры",
           "\"Смывайся!\" фильм 2006"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-172",
-      "title": "Принцесса Мононоке",
-      "originalTitle": "Mononoke-hime",
-      "year": 1997,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"Mononoke-hime\" 1997",
-          "\"Mononoke-hime\" 1997 screenshots",
-          "\"Mononoke-hime\" 1997 scene",
-          "\"Mononoke-hime\" 1997 stills",
-          "\"Принцесса Мононоке\" 1997 кадры",
-          "\"Принцесса Мононоке\" фильм 1997"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -1325,46 +1165,6 @@
           "\"Fantasia\" 1940 stills",
           "\"Фантазия\" 1940 кадры",
           "\"Фантазия\" фильм 1940"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-244",
-      "title": "Бэмби",
-      "originalTitle": "Bambi",
-      "year": 1942,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"Bambi\" 1942",
-          "\"Bambi\" 1942 screenshots",
-          "\"Bambi\" 1942 scene",
-          "\"Bambi\" 1942 stills",
-          "\"Бэмби\" 1942 кадры",
-          "\"Бэмби\" фильм 1942"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -2259,46 +2059,6 @@
           "\"The Book of Life\" 2014 stills",
           "\"Книга жизни\" 2014 кадры",
           "\"Книга жизни\" фильм 2014"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-388",
-      "title": "Полярный экспресс",
-      "originalTitle": "The Polar Express",
-      "year": 2004,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"The Polar Express\" 2004",
-          "\"The Polar Express\" 2004 screenshots",
-          "\"The Polar Express\" 2004 scene",
-          "\"The Polar Express\" 2004 stills",
-          "\"Полярный экспресс\" 2004 кадры",
-          "\"Полярный экспресс\" фильм 2004"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -5049,53 +4809,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-704",
-      "title": "Дикая природа",
-      "originalTitle": "The Wild",
-      "year": 2006,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"The Wild\" 2006",
-          "\"The Wild\" 2006 screenshots",
-          "\"The Wild\" 2006 scene",
-          "\"The Wild\" 2006 stills",
-          "\"Дикая природа\" 2006 кадры",
-          "\"Дикая природа\" фильм 2006"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://letterboxd.com/film/wild-2016/",
-        "imageUrl": "https://a.ltrbxd.com/resized/sm/upload/hu/1f/w0/3s/wild-2016-1200-1200-675-675-crop-000000.jpg?v=2c8fff0951",
-        "reasons": [
-          "страница не подтверждает originalTitle",
-          "страница не подтверждает год"
-        ]
-      }
-    },
-    {
       "id": "nen-711",
       "title": "Рок Дог 2",
       "originalTitle": "Rock Dog 2: Rock Around the Park",
@@ -5199,46 +4912,6 @@
           "\"UglyDolls\" 2019 stills",
           "\"UglyDolls. Куклы с характером\" 2019 кадры",
           "\"UglyDolls. Куклы с характером\" фильм 2019"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-723",
-      "title": "Скрудж: Рождественская песнь",
-      "originalTitle": "Scrooge: A Christmas Carol",
-      "year": 2022,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"Scrooge: A Christmas Carol\" 2022",
-          "\"Scrooge: A Christmas Carol\" 2022 screenshots",
-          "\"Scrooge: A Christmas Carol\" 2022 scene",
-          "\"Scrooge: A Christmas Carol\" 2022 stills",
-          "\"Скрудж: Рождественская песнь\" 2022 кадры",
-          "\"Скрудж: Рождественская песнь\" фильм 2022"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -6030,61 +5703,6 @@
           "\"Till Eulenspiegel\" 2003 stills",
           "\"Тилль Уленшпигель\" 2003 кадры",
           "\"Тилль Уленшпигель\" фильм 2003"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q2541350",
-      "title": "Учителю, с любовью",
-      "originalTitle": "To Sir, with Love",
-      "year": 1967,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q2541350",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.838Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:34.410Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"To Sir, with Love\" 1967",
-          "\"To Sir, with Love\" 1967 screenshots",
-          "\"To Sir, with Love\" 1967 scene",
-          "\"To Sir, with Love\" 1967 stills",
-          "\"Учителю, с любовью\" 1967 кадры",
-          "\"Учителю, с любовью\" фильм 1967"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -10305,61 +9923,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-wd-q939876",
-      "title": "Однажды в лесу",
-      "originalTitle": "Once Upon a Forest",
-      "year": 1993,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q939876",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.510Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:40.003Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Once Upon a Forest\" 1993",
-          "\"Once Upon a Forest\" 1993 screenshots",
-          "\"Once Upon a Forest\" 1993 scene",
-          "\"Once Upon a Forest\" 1993 stills",
-          "\"Однажды в лесу\" 1993 кадры",
-          "\"Однажды в лесу\" фильм 1993"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-wd-q1213948",
       "title": "Тайна гробницы",
       "originalTitle": "Die Knickerbocker-Bande: Das sprechende Grab",
@@ -10702,61 +10265,6 @@
           "\"The Economics of Happiness\" 2011 stills",
           "\"Экономика счастья (фильм)\" 2011 кадры",
           "\"Экономика счастья (фильм)\" фильм 2011"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q903821",
-      "title": "Шевели ластами 2",
-      "originalTitle": "Sammy's avonturen 2",
-      "year": 2012,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q903821",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.483Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:39.900Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Sammy's avonturen 2\" 2012",
-          "\"Sammy's avonturen 2\" 2012 screenshots",
-          "\"Sammy's avonturen 2\" 2012 scene",
-          "\"Sammy's avonturen 2\" 2012 stills",
-          "\"Шевели ластами 2\" 2012 кадры",
-          "\"Шевели ластами 2\" фильм 2012"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -11797,69 +11305,6 @@
       "confirmedCandidateNotApplied": null,
       "tailGroup": "C",
       "pendingCandidate": null
-    },
-    {
-      "id": "nen-wd-q536756",
-      "title": "Астерикс и Клеопатра",
-      "originalTitle": "Astérix et Cléopâtre",
-      "year": 1968,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q536756",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:57.119Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:39.071Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"Astérix et Cléopâtre\" 1968",
-          "\"Astérix et Cléopâtre\" 1968 screenshots",
-          "\"Astérix et Cléopâtre\" 1968 scene",
-          "\"Astérix et Cléopâtre\" 1968 stills",
-          "\"Астерикс и Клеопатра\" 1968 кадры",
-          "\"Астерикс и Клеопатра\" фильм 1968"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "Есть кандидат, но точное соответствие версии/года или тип изображения не подтверждены; автоматически не применён."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "B",
-      "pendingCandidate": {
-        "pageUrl": "https://www.serieously.com/asterix-et-obelix-mission-cleopatre-fan-absolu-complete-10-repliques-numerobis/",
-        "imageUrl": "https://preprod.serieously.com/app/uploads/2022/10/asterix-et-obelix-mission-cleopatre.jpg",
-        "reasons": [
-          "страница не подтверждает originalTitle",
-          "страница не подтверждает год",
-          "страница не подтверждает, что изображение является кадром"
-        ]
-      }
     },
     {
       "id": "nen-wd-q1773542",
@@ -13394,61 +12839,6 @@
           "страница не подтверждает год"
         ]
       }
-    },
-    {
-      "id": "nen-wd-q1022379",
-      "title": "Братья C.R.A.Z.Y.",
-      "originalTitle": "C.R.A.Z.Y.",
-      "year": 2005,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": "Q1022379",
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [
-        {
-          "source": "NEN",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-15T12:25:56.364Z",
-          "pageUrl": null,
-          "error": null
-        },
-        {
-          "source": "Кино Mail",
-          "status": "UNRESOLVED",
-          "checkedAt": "2026-08-16T09:53:31.870Z",
-          "pageUrl": null,
-          "error": "нет точной сохранённой страницы Кино Mail"
-        }
-      ],
-      "deepSearch": {
-        "queries": [
-          "\"C.R.A.Z.Y.\" 2005",
-          "\"C.R.A.Z.Y.\" 2005 screenshots",
-          "\"C.R.A.Z.Y.\" 2005 scene",
-          "\"C.R.A.Z.Y.\" 2005 stills",
-          "\"Братья C.R.A.Z.Y.\" 2005 кадры",
-          "\"Братья C.R.A.Z.Y.\" фильм 2005"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Кадра в каталоге нет, но есть точный внешний ID для возобновляемого поиска.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "C",
-      "pendingCandidate": null
     },
     {
       "id": "nen-wd-q3224256",

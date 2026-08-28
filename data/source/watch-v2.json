@@ -1697,7 +1697,10 @@
       "maxAge": 11,
       "rationale": "Рекомендуется с восьми лет: гибель родителя, стихийные бедствия и преследование хищниками эмоционально интенсивны, несмотря на светлый визуальный стиль."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://assets-jpcust.jwpsrv.com/thumbnails/2xdjughd-1280.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -2234,7 +2237,10 @@
       "maxAge": 12,
       "rationale": "Погони и кухонные опасности поданы комедийно, однако фильм длится почти два часа и строится вокруг профессиональной кухни, авторства и критики. Эти темы полнее раскрываются у детей школьного возраста."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://cdn.smartfacts.ru/193112/conversions/ratatuy_16-medium.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -2954,7 +2960,10 @@
       "maxAge": 12,
       "rationale": "Похищение ребёнка и эмоциональный контроль раскрыты достаточно ясно, а погони и ранение героя добавляют напряжение к музыкальной комедии."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMTM5NjE4OTU1MF5BMl5BanBnXkFtZTcwODY2MzQwNA%40%40._V1_FMjpg_UX1000_.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -6538,7 +6547,10 @@
       "minAge": 13,
       "rationale": "С тринадцати лет из-за кровавых боёв, тяжёлой экологической темы и моральной неоднозначности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://ychef.files.bbci.co.uk/1280x720/p0clnml6.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -9814,7 +9826,10 @@
       "minAge": 7,
       "rationale": "С семи лет: смерть матери происходит за кадром, но является центральной и может сильно расстроить ребёнка."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://filmfreakcentral.net/wp-content/uploads/6a0168ea36d6b2970c01b8d289c6fd970c-800wi.png"
+    }
   },
   {
     "schemaVersion": 2,
@@ -16376,7 +16391,10 @@
       "maxAge": 17,
       "rationale": "Опасные сцены на крыше поезда и немного тревожная визуальная манера лучше подходят школьникам."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://filmobsessive.com/wp-content/uploads/2020/02/Boy-In-Polar-Express-Cropped.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -31118,7 +31136,10 @@
       "maxAge": 13,
       "rationale": "Для «Дикая природа» порог 7+ учитывает продолжительность, темп и напряжение отдельных сцен. Стоит заранее предупредить о таких эпизодах, как умеренные жанровые опасности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.comingsoon.net/wp-content/uploads/sites/3/2023/08/the-wild_1200x675.jpg?resize=1200%2C630"
+    }
   },
   {
     "schemaVersion": 2,
@@ -32005,7 +32026,10 @@
       "maxAge": 13,
       "rationale": "Аудитория «Скрудж: Рождественская песнь» от 7 лет легче поймёт мотивы персонажей и выдержит наиболее динамичные сцены. Взрослому важно учитывать упоминания: умеренные жанровые опасности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://occ-0-2299-116.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABQtfuYvpTDgn2nEiEfxGDoaeSZfFcsH_--BkNlzZcY45h1IZ_qc7aAJYnKXe5bMtwHmZd8RDOu-3WPaY3fiL7Vre6ZAsYlzIUNXv.jpg?r=ecd"
+    }
   },
   {
     "schemaVersion": 2,
@@ -34517,7 +34541,10 @@
     "relatedTitles": [
       "To Sir, With Love"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://ilarge.lisimg.com/image/9221042/740full-to-sir%2C-with-love-%281967%29-screenshot.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -47139,7 +47166,10 @@
       "ITV Wales & West",
       "A. Film A/S"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BZDhkZjI0ZmEtNDlkMC00ODFiLWI0YzItZDFlZWE4MjkyNWViXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -48779,7 +48809,10 @@
       "uFund",
       "nWave Pictures"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://kobis.or.kr/common/mast/movie/2012/07/7c5570453cb544278ec56420d1808a5f.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -51339,7 +51372,10 @@
       "Asterix films",
       "Астерикс и Клеопатра"
     ],
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://images.mubicdn.net/images/film/41057/cache-31609-1445891178/image-w1280.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -55376,7 +55412,10 @@
       }
     ],
     "originalTitle": "C.R.A.Z.Y.",
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://a.ltrbxd.com/resized/sm/upload/4p/n9/7u/4p/c-r-a-z-y-1200-1200-675-675-crop-000000.jpg?k=0d909f49a6"
+    }
   },
   {
     "schemaVersion": 2,
