@@ -9366,7 +9366,10 @@
       "minAge": 10,
       "rationale": "С десяти лет: дискриминация и бедность показаны доступно, спортивные сцены безопасны."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMTU3NDU3MjA3MF5BMl5BanBnXkFtZTgwNzIxODgzNDE%40._V1_.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -9643,7 +9646,10 @@
       "minAge": 6,
       "rationale": "С шести лет: образ ведьмы и сцена с отравленным яблоком могут напугать, но сюжет знаком и ясно устроен."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://fr.web.img3.acsta.net/pictures/17/07/10/16/53/294331.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -15909,7 +15915,10 @@
       "maxAge": 17,
       "rationale": "Образы мертвецов, преследование девочки и тема казни требуют возраста, в котором ребёнок способен обсуждать историческую несправедливость."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.awn.com/sites/default/files/styles/original/public/image/attached/1080007-parfilmstillnormanghostsrgb-1280.jpg?itok=Vw0WTWmN"
+    }
   },
   {
     "schemaVersion": 2,
@@ -18451,7 +18460,10 @@
       "maxAge": 17,
       "rationale": "Оружие, похищение и романтическая линия рассчитаны на детей от девяти лет."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://s.hdnux.com/photos/10/12/10/2138653/8/1920x0.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -24702,7 +24714,10 @@
       "maxAge": 13,
       "rationale": "Картина подойдёт с 7 лет благодаря ясной линии героя, однако «смерть родителя» может потребовать поддержки взрослого."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://www.gebekafilms.com/app/uploads/2023/03/LVDP_076.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -27152,7 +27167,10 @@
       "maxAge": 18,
       "rationale": "Возрастная граница 13+ связана с тем, как история раскрывает последствия поступков и непростую тему «побег из дома»."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://assets.exclaim.ca/image/upload/v1703906400/microbeandgasoline2.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -29739,7 +29757,10 @@
       "maxAge": 16,
       "rationale": "Рекомендация 10+ для «Бэндслэм» связана с темпом, длительностью и сложностью центрального конфликта. Чувствительные элементы — травля и семейная тайна — требуют готовности ребёнка."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://m.media-amazon.com/images/M/MV5BMTk2ODUzMTY4OF5BMl5BanBnXkFtZTcwMDkzNDA3Mg%40%40._V1_.jpg"
+    }
   },
   {
     "schemaVersion": 2,
@@ -32763,7 +32784,10 @@
       "maxAge": 15,
       "rationale": "Аудитория «Чан может забивать» от 9 лет легче поймёт мотивы персонажей и выдержит наиболее динамичные сцены. Взрослому важно учитывать упоминания: умеренные жанровые опасности."
     },
-    "titleLocalization": "official-ru"
+    "titleLocalization": "official-ru",
+    "frame": {
+      "url": "https://cdn.mos.cms.futurecdn.net/v2/t%3A0%2Cl%3A280%2Ccw%3A720%2Cch%3A720%2Cq%3A80%2Cw%3A720/AipCLpvDRZeV6WWCgVc7b9.jpg"
+    }
   },
   {
     "schemaVersion": 2,

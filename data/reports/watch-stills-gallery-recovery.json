@@ -4,6 +4,126 @@
   "method": "exact work page gallery recovery; semantic rejects excluded",
   "confirmedCandidates": [
     {
+      "watchId": "nen-568",
+      "title": "Линда хочет курочку!",
+      "originalTitle": "Linda veut du poulet !",
+      "year": 2023,
+      "source": "GEBEKA Films official distributor",
+      "pageUrl": "https://www.gebekafilms.com/fiches-films/linda-veut-du-poulet/",
+      "imageUrl": "https://www.gebekafilms.com/app/uploads/2023/03/LVDP_076.jpg",
+      "imageType": "still",
+      "extraction": "403 original replaced by distributor-hosted alternate scene",
+      "match": "official exact 2023 film page; genuine mother-and-daughter scene"
+    },
+    {
+      "watchId": "nen-739",
+      "title": "Чанг умеет забивать",
+      "originalTitle": "Chang Can Dunk",
+      "year": 2023,
+      "source": "CinemaBlend",
+      "pageUrl": "https://www.cinemablend.com/interviews/how-the-mighty-ducks-and-martin-scorsese-influenced-disneys-inspiring-original-movie-chang-can-dunk",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/v2/t%3A0%2Cl%3A280%2Ccw%3A720%2Cch%3A720%2Cq%3A80%2Cw%3A720/AipCLpvDRZeV6WWCgVc7b9.jpg",
+      "imageType": "still",
+      "extraction": "403 prior copy replaced by accessible exact-film editorial mirror",
+      "match": "exact Disney+ 2023 interview; genuine climactic dunk scene"
+    },
+    {
+      "watchId": "nen-240",
+      "title": "Белоснежка и семь гномов",
+      "originalTitle": "Snow White and the Seven Dwarfs",
+      "year": 1937,
+      "source": "AlloCiné exact film gallery / Disney France",
+      "pageUrl": "https://www.allocine.fr/film/fichefilm-27524/photos/detail/?cmediafile=18906067",
+      "imageUrl": "https://fr.web.img3.acsta.net/pictures/17/07/10/16/53/294331.jpg",
+      "imageType": "still",
+      "extraction": "known still filename resolved to an exact numbered film-gallery original",
+      "match": "exact 1937 Disney film; gallery labels photo 27/38 and credits Disney France"
+    },
+    {
+      "watchId": "nen-568",
+      "title": "Линда хочет курочку!",
+      "originalTitle": "Linda veut du poulet !",
+      "year": 2023,
+      "source": "Première / Annecy coverage",
+      "pageUrl": "https://www.premiere.fr/cinema/news-cinema/annecy-2023-le-tres-reussi-linda-veut-du-poulet--remporte-le-cristal-du-long-metrage",
+      "imageUrl": "https://www.premiere.fr/sites/default/files/styles/scale_crop_1280x720/public/2023-06/Linda%20veut%20du%20poulet.jpg",
+      "imageType": "still",
+      "extraction": "known filename search found a festival-context full-size mirror",
+      "match": "exact 2023 Annecy winner; genuine interior animation scene without title treatment"
+    },
+    {
+      "watchId": "nen-619",
+      "title": "Микроб и Бензин",
+      "originalTitle": "Microbe et Gasoil",
+      "year": 2015,
+      "source": "Exclaim!",
+      "pageUrl": "https://exclaim.ca/film/article/microbe_et_gasoil-trailer",
+      "imageUrl": "https://assets.exclaim.ca/image/upload/v1703906400/microbeandgasoline2.jpg",
+      "imageType": "still",
+      "extraction": "known AceShowbiz filename identity led to an accessible editorial mirror",
+      "match": "exact Michel Gondry 2015 film; protagonists with their homemade vehicle"
+    },
+    {
+      "watchId": "nen-739",
+      "title": "Чанг умеет забивать",
+      "originalTitle": "Chang Can Dunk",
+      "year": 2023,
+      "source": "We Live Entertainment",
+      "pageUrl": "https://weliveentertainment.com/welivefilm/chang-can-dunk-review-new-underdog-story-can-jam/",
+      "imageUrl": "https://weliveentertainment.com/wp-content/uploads/2023/03/chang-can-dunk-2.jpeg",
+      "imageType": "still",
+      "extraction": "exact prior filename recovered on accessible review page",
+      "match": "exact Disney+ 2023 film; genuine basketball-court scene, not Disney key art"
+    },
+    {
+      "watchId": "nen-234",
+      "title": "Тренер",
+      "originalTitle": "McFarland, USA",
+      "year": 2015,
+      "source": "IMDb mirror of indexed AceShowbiz still",
+      "pageUrl": "https://www.imdb.com/title/tt2097298/mediaviewer/rm822803712/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTU3NDU3MjA3MF5BMl5BanBnXkFtZTgwNzIxODgzNDE%40._V1_.jpg",
+      "imageType": "still",
+      "extraction": "filename identity led to an independently indexed exact IMDb still",
+      "match": "exact 2015 film and IMDb title page; school hallway scene, not poster"
+    },
+    {
+      "watchId": "nen-378",
+      "title": "Паранорман, или Как приручить зомби",
+      "originalTitle": "ParaNorman",
+      "year": 2012,
+      "source": "Animation World Network / LAIKA release",
+      "pageUrl": "https://www.awn.com/news/laika-celebrates-20-years-paranorman-return-theaters",
+      "imageUrl": "https://www.awn.com/sites/default/files/styles/original/public/image/attached/1080007-parfilmstillnormanghostsrgb-1280.jpg?itok=Vw0WTWmN",
+      "imageType": "still",
+      "extraction": "known filename mirror search found studio-attributed editorial original",
+      "match": "exact ParaNorman re-release article; asset explicitly named film still and shows a genuine scene"
+    },
+    {
+      "watchId": "nen-432",
+      "title": "Агент Коди Бэнкс",
+      "originalTitle": "Agent Cody Banks",
+      "year": 2003,
+      "source": "San Francisco Chronicle",
+      "pageUrl": "https://www.sfgate.com/movies/article/Uneasy-laughter-Amusing-teen-spy-comedy-Cody-2662989.php",
+      "imageUrl": "https://s.hdnux.com/photos/10/12/10/2138653/8/1920x0.jpg",
+      "imageType": "still",
+      "extraction": "known image identity resolved to a full-size editorial mirror",
+      "match": "exact 2003 film review; Frankie Muniz in an in-film outdoor scene, no title treatment"
+    },
+    {
+      "watchId": "nen-674",
+      "title": "Бэндслэм",
+      "originalTitle": "Bandslam",
+      "year": 2009,
+      "source": "IMDb",
+      "pageUrl": "https://www.imdb.com/title/tt0976222/mediaviewer/rm2166523904/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTk2ODUzMTY4OF5BMl5BanBnXkFtZTcwMDkzNDA3Mg%40%40._V1_.jpg",
+      "imageType": "still",
+      "extraction": "known filename mirror search resolved to exact IMDb original",
+      "match": "exact 2009 film; backstage scene with the band, not poster or event photo"
+    },
+    {
       "watchId": "nen-524",
       "title": "Каникулы Петрова и Васечкина, обыкновенные и невероятные",
       "originalTitle": "Каникулы Петрова и Васечкина, обыкновенные и невероятные",
@@ -596,10 +716,186 @@
     }
   ],
   "semanticRejectPolicy": "Candidates rejected as poster, person photo, wrong work, remake, season, or shared ambiguous URL were not reconsidered.",
-  "appliedAt": "2026-08-28T06:53:10.539Z",
-  "applied": 41,
-  "rejected": 23,
+  "appliedAt": "2026-08-28T12:50:51.080Z",
+  "applied": 49,
+  "rejected": 25,
   "appliedItems": [
+    {
+      "watchId": "nen-568",
+      "title": "Линда хочет курочку!",
+      "originalTitle": "Linda veut du poulet !",
+      "year": 2023,
+      "source": "GEBEKA Films official distributor",
+      "pageUrl": "https://www.gebekafilms.com/fiches-films/linda-veut-du-poulet/",
+      "imageUrl": "https://www.gebekafilms.com/app/uploads/2023/03/LVDP_076.jpg",
+      "imageType": "still",
+      "extraction": "403 original replaced by distributor-hosted alternate scene",
+      "match": "official exact 2023 film page; genuine mother-and-daughter scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 374828,
+        "width": 2048,
+        "height": 858,
+        "format": "jpeg",
+        "aspectRatio": 2.386946386946387,
+        "hash": "sha256:63cdd9e338c65daee6e766c34293061c39b9d59f62aa23ae0f61b7411a50b907",
+        "checkedAt": "2026-08-28T12:50:15.553Z"
+      }
+    },
+    {
+      "watchId": "nen-739",
+      "title": "Чанг умеет забивать",
+      "originalTitle": "Chang Can Dunk",
+      "year": 2023,
+      "source": "CinemaBlend",
+      "pageUrl": "https://www.cinemablend.com/interviews/how-the-mighty-ducks-and-martin-scorsese-influenced-disneys-inspiring-original-movie-chang-can-dunk",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/v2/t%3A0%2Cl%3A280%2Ccw%3A720%2Cch%3A720%2Cq%3A80%2Cw%3A720/AipCLpvDRZeV6WWCgVc7b9.jpg",
+      "imageType": "still",
+      "extraction": "403 prior copy replaced by accessible exact-film editorial mirror",
+      "match": "exact Disney+ 2023 interview; genuine climactic dunk scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 76620,
+        "width": 720,
+        "height": 720,
+        "format": "jpeg",
+        "aspectRatio": 1,
+        "hash": "sha256:1150d55f4202f8c071a07fc98e42d78ec42f2399d8592bf3d02108d6296df909",
+        "checkedAt": "2026-08-28T12:50:15.747Z"
+      }
+    },
+    {
+      "watchId": "nen-240",
+      "title": "Белоснежка и семь гномов",
+      "originalTitle": "Snow White and the Seven Dwarfs",
+      "year": 1937,
+      "source": "AlloCiné exact film gallery / Disney France",
+      "pageUrl": "https://www.allocine.fr/film/fichefilm-27524/photos/detail/?cmediafile=18906067",
+      "imageUrl": "https://fr.web.img3.acsta.net/pictures/17/07/10/16/53/294331.jpg",
+      "imageType": "still",
+      "extraction": "known still filename resolved to an exact numbered film-gallery original",
+      "match": "exact 1937 Disney film; gallery labels photo 27/38 and credits Disney France",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 265533,
+        "width": 1600,
+        "height": 1200,
+        "format": "jpeg",
+        "aspectRatio": 1.3333333333333333,
+        "hash": "sha256:44e8dd6a279c617a43328cfcbd154bcfd2f4ad7e51a18df8c15390b41a5ec07b",
+        "checkedAt": "2026-08-28T12:50:15.855Z"
+      }
+    },
+    {
+      "watchId": "nen-619",
+      "title": "Микроб и Бензин",
+      "originalTitle": "Microbe et Gasoil",
+      "year": 2015,
+      "source": "Exclaim!",
+      "pageUrl": "https://exclaim.ca/film/article/microbe_et_gasoil-trailer",
+      "imageUrl": "https://assets.exclaim.ca/image/upload/v1703906400/microbeandgasoline2.jpg",
+      "imageType": "still",
+      "extraction": "known AceShowbiz filename identity led to an accessible editorial mirror",
+      "match": "exact Michel Gondry 2015 film; protagonists with their homemade vehicle",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 191469,
+        "width": 745,
+        "height": 619,
+        "format": "jpeg",
+        "aspectRatio": 1.2035541195476576,
+        "hash": "sha256:0eac41f6b284c6df6aa13eb6da405e95842778d330cae7f603cecca3ac5a8e1e",
+        "checkedAt": "2026-08-28T12:50:16.206Z"
+      }
+    },
+    {
+      "watchId": "nen-234",
+      "title": "Тренер",
+      "originalTitle": "McFarland, USA",
+      "year": 2015,
+      "source": "IMDb mirror of indexed AceShowbiz still",
+      "pageUrl": "https://www.imdb.com/title/tt2097298/mediaviewer/rm822803712/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTU3NDU3MjA3MF5BMl5BanBnXkFtZTgwNzIxODgzNDE%40._V1_.jpg",
+      "imageType": "still",
+      "extraction": "filename identity led to an independently indexed exact IMDb still",
+      "match": "exact 2015 film and IMDb title page; school hallway scene, not poster",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 69296,
+        "width": 936,
+        "height": 624,
+        "format": "jpeg",
+        "aspectRatio": 1.5,
+        "hash": "sha256:001bd7bcbeaa3106033b6d3e1c8c3744f7c9f165ccbfcaea63786beaaa84b934",
+        "checkedAt": "2026-08-28T12:50:17.311Z"
+      }
+    },
+    {
+      "watchId": "nen-378",
+      "title": "Паранорман, или Как приручить зомби",
+      "originalTitle": "ParaNorman",
+      "year": 2012,
+      "source": "Animation World Network / LAIKA release",
+      "pageUrl": "https://www.awn.com/news/laika-celebrates-20-years-paranorman-return-theaters",
+      "imageUrl": "https://www.awn.com/sites/default/files/styles/original/public/image/attached/1080007-parfilmstillnormanghostsrgb-1280.jpg?itok=Vw0WTWmN",
+      "imageType": "still",
+      "extraction": "known filename mirror search found studio-attributed editorial original",
+      "match": "exact ParaNorman re-release article; asset explicitly named film still and shows a genuine scene",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 105102,
+        "width": 1280,
+        "height": 535,
+        "format": "jpeg",
+        "aspectRatio": 2.392523364485981,
+        "hash": "sha256:d4679baf2035f8997f2358e8075552e53ce593295631b47a53d5b3b7f9d9c5bf",
+        "checkedAt": "2026-08-28T12:50:17.477Z"
+      }
+    },
+    {
+      "watchId": "nen-432",
+      "title": "Агент Коди Бэнкс",
+      "originalTitle": "Agent Cody Banks",
+      "year": 2003,
+      "source": "San Francisco Chronicle",
+      "pageUrl": "https://www.sfgate.com/movies/article/Uneasy-laughter-Amusing-teen-spy-comedy-Cody-2662989.php",
+      "imageUrl": "https://s.hdnux.com/photos/10/12/10/2138653/8/1920x0.jpg",
+      "imageType": "still",
+      "extraction": "known image identity resolved to a full-size editorial mirror",
+      "match": "exact 2003 film review; Frankie Muniz in an in-film outdoor scene, no title treatment",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 108792,
+        "width": 1920,
+        "height": 1291,
+        "format": "jpeg",
+        "aspectRatio": 1.4872192099147947,
+        "hash": "sha256:7ddb971fe34a29d05e2a7d0c42181f5404c1185a194997a439ee625c365c5b56",
+        "checkedAt": "2026-08-28T12:50:17.629Z"
+      }
+    },
+    {
+      "watchId": "nen-674",
+      "title": "Бэндслэм",
+      "originalTitle": "Bandslam",
+      "year": 2009,
+      "source": "IMDb",
+      "pageUrl": "https://www.imdb.com/title/tt0976222/mediaviewer/rm2166523904/",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTk2ODUzMTY4OF5BMl5BanBnXkFtZTcwMDkzNDA3Mg%40%40._V1_.jpg",
+      "imageType": "still",
+      "extraction": "known filename mirror search resolved to exact IMDb original",
+      "match": "exact 2009 film; backstage scene with the band, not poster or event photo",
+      "probe": {
+        "mime": "image/jpeg",
+        "bytes": 255113,
+        "width": 633,
+        "height": 415,
+        "format": "jpeg",
+        "aspectRatio": 1.5253012048192771,
+        "hash": "sha256:dc973da5d2bf7140715cb3852241f75f421d68e03fa4b93ae128c4abd45365f5",
+        "checkedAt": "2026-08-28T12:50:17.861Z"
+      }
+    },
     {
       "watchId": "nen-524",
       "title": "Каникулы Петрова и Васечкина, обыкновенные и невероятные",
@@ -619,7 +915,7 @@
         "format": "jpeg",
         "aspectRatio": 1.5,
         "hash": "sha256:4054b722cb59209ee3353fdaa5a338ff95ab600def5beee43e8142b305df818a",
-        "checkedAt": "2026-08-28T06:52:46.003Z"
+        "checkedAt": "2026-08-28T12:50:18.261Z"
       }
     },
     {
@@ -642,7 +938,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:8b675a39de4fd7120fcc28a69b57cdce32bd6b4e76e4d6b1d31fb606a28f17fa",
-        "checkedAt": "2026-08-28T06:52:46.660Z"
+        "checkedAt": "2026-08-28T12:50:18.903Z"
       }
     },
     {
@@ -665,7 +961,7 @@
         "format": "jpeg",
         "aspectRatio": 1.3333333333333333,
         "hash": "sha256:e1c58a304e5f99433460415e86fb0571ae2438491a9b3ece3f2f9d32cc7106af",
-        "checkedAt": "2026-08-28T06:52:46.803Z"
+        "checkedAt": "2026-08-28T12:50:18.985Z"
       }
     },
     {
@@ -688,7 +984,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7985611510791366,
         "hash": "sha256:a6762d3acbf19070e12459ca7dc39667573befcb6e2f9b251a500b834fb89a66",
-        "checkedAt": "2026-08-28T06:52:46.871Z"
+        "checkedAt": "2026-08-28T12:50:19.135Z"
       }
     },
     {
@@ -707,7 +1003,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7790973871733966,
         "hash": "sha256:12db8a062689f82c01db7b24bf67747f95f93c3e71cee12d66c7b6d410e465d1",
-        "checkedAt": "2026-08-28T06:52:47.346Z"
+        "checkedAt": "2026-08-28T12:50:19.568Z"
       }
     },
     {
@@ -726,7 +1022,7 @@
         "format": "jpeg",
         "aspectRatio": 1.8568665377176015,
         "hash": "sha256:5d82fe7f41b9c4379478b7d785af9436b8649e260e2c657a8263efadc2045588",
-        "checkedAt": "2026-08-28T06:52:51.417Z"
+        "checkedAt": "2026-08-28T12:50:23.692Z"
       }
     },
     {
@@ -745,7 +1041,7 @@
         "format": "jpeg",
         "aspectRatio": 1.9047619047619047,
         "hash": "sha256:9dedefbb6dbfe15454305d688eaf22d42bb5a0f1e6a2c184941bc72574f7e694",
-        "checkedAt": "2026-08-28T06:52:51.592Z"
+        "checkedAt": "2026-08-28T12:50:23.862Z"
       }
     },
     {
@@ -764,7 +1060,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:bb56c5bb4f774e192c7b0aef3c3bec4336006a752e9a26a4218245a72664fe6c",
-        "checkedAt": "2026-08-28T06:52:51.780Z"
+        "checkedAt": "2026-08-28T12:50:24.036Z"
       }
     },
     {
@@ -783,7 +1079,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7770833333333333,
         "hash": "sha256:c0a24bdb7e86fb42cd1c8a91846c386b685b7af5aea5763dc35e799033e63551",
-        "checkedAt": "2026-08-28T06:52:51.991Z"
+        "checkedAt": "2026-08-28T12:50:24.163Z"
       }
     },
     {
@@ -802,7 +1098,7 @@
         "format": "jpeg",
         "aspectRatio": 1.5,
         "hash": "sha256:d14182812b501c79596181e75f89fa7ce909c56316e434f144fbc8c220404c83",
-        "checkedAt": "2026-08-28T06:52:52.287Z"
+        "checkedAt": "2026-08-28T12:50:24.538Z"
       }
     },
     {
@@ -821,7 +1117,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:50791bfbef6664c537c654a01ed210f031799e3c4db4c0f5e333299c1b43bb08",
-        "checkedAt": "2026-08-28T06:52:52.385Z"
+        "checkedAt": "2026-08-28T12:50:24.649Z"
       }
     },
     {
@@ -840,7 +1136,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7652777777777777,
         "hash": "sha256:27e11e3d377578b3a7d5e7277c89843c3e52d2d558289a0d99a5b11f6ceff64b",
-        "checkedAt": "2026-08-28T06:52:52.663Z"
+        "checkedAt": "2026-08-28T12:50:24.930Z"
       }
     },
     {
@@ -859,7 +1155,7 @@
         "format": "jpeg",
         "aspectRatio": 1.3450087565674256,
         "hash": "sha256:3d6f3b78ff06868ce57e7bc37c2ba31d1ebea62588f94ec33520849629465071",
-        "checkedAt": "2026-08-28T06:52:53.113Z"
+        "checkedAt": "2026-08-28T12:50:25.819Z"
       }
     },
     {
@@ -878,7 +1174,7 @@
         "format": "jpeg",
         "aspectRatio": 2.8,
         "hash": "sha256:80bfb49e6435a5a81a30aa6c138b9f316d8c7670a60f608ba991864a2307fd84",
-        "checkedAt": "2026-08-28T06:52:53.806Z"
+        "checkedAt": "2026-08-28T12:50:26.353Z"
       }
     },
     {
@@ -897,7 +1193,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:834c2598f7cc3bd0b0fff37bd09bcdbbc0fca9749bc722b5a1ab9efeab22d82c",
-        "checkedAt": "2026-08-28T06:52:53.907Z"
+        "checkedAt": "2026-08-28T12:50:26.473Z"
       }
     },
     {
@@ -916,7 +1212,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:fcb3cc0c899c5be877f6b2b89dcff54ac291739c8bdd4146a81a270463489672",
-        "checkedAt": "2026-08-28T06:52:54.207Z"
+        "checkedAt": "2026-08-28T12:50:26.762Z"
       }
     },
     {
@@ -935,7 +1231,7 @@
         "format": "jpeg",
         "aspectRatio": 1.8461538461538463,
         "hash": "sha256:0b6fecde0257a62435aeed5e81ae6a810cc241e8d88deba3850ee4658061af97",
-        "checkedAt": "2026-08-28T06:52:54.278Z"
+        "checkedAt": "2026-08-28T12:50:26.871Z"
       }
     },
     {
@@ -954,7 +1250,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:72ab96a6851cbd839c88244e4f1a91fed8a6d9cc3c0961465794ab0a7411fa91",
-        "checkedAt": "2026-08-28T06:52:54.783Z"
+        "checkedAt": "2026-08-28T12:50:27.403Z"
       }
     },
     {
@@ -973,7 +1269,7 @@
         "format": "jpeg",
         "aspectRatio": 1.296577946768061,
         "hash": "sha256:08c7f9f66c3d908403afc6a1d129e62e79f04bffa307605ce529e626000b0dbb",
-        "checkedAt": "2026-08-28T06:52:55.450Z"
+        "checkedAt": "2026-08-28T12:50:28.061Z"
       }
     },
     {
@@ -992,7 +1288,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:786abed3b819cd790d384f9510be06b83fa4d2dc13b62462bb6460e6c2468e64",
-        "checkedAt": "2026-08-28T06:52:55.973Z"
+        "checkedAt": "2026-08-28T12:50:28.656Z"
       }
     },
     {
@@ -1011,7 +1307,7 @@
         "format": "jpeg",
         "aspectRatio": 1.3325740318906605,
         "hash": "sha256:d560970cba1a6e17764cf88aea6228ce83fd425a7322dbf1a6f0cb58390accb3",
-        "checkedAt": "2026-08-28T06:52:56.249Z"
+        "checkedAt": "2026-08-28T12:50:29.197Z"
       }
     },
     {
@@ -1030,7 +1326,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:55698a70a93e65eff7957e3883cff22d203d402a10f7d961976e4cff1b6607a0",
-        "checkedAt": "2026-08-28T06:52:56.636Z"
+        "checkedAt": "2026-08-28T12:50:29.491Z"
       }
     },
     {
@@ -1049,7 +1345,7 @@
         "format": "jpeg",
         "aspectRatio": 1.3333333333333333,
         "hash": "sha256:0a5b901ae6e34d4d816977c1823ec595e9391e54e5d9f5be48756c80ea66bf38",
-        "checkedAt": "2026-08-28T06:52:56.842Z"
+        "checkedAt": "2026-08-28T12:50:29.678Z"
       }
     },
     {
@@ -1068,7 +1364,7 @@
         "format": "jpeg",
         "aspectRatio": 2,
         "hash": "sha256:0a58c88c8dd4b58ce5d692936337c7af9ff89d1ca7db88117bcc19a6bc70ad75",
-        "checkedAt": "2026-08-28T06:52:57.411Z"
+        "checkedAt": "2026-08-28T12:50:30.264Z"
       }
     },
     {
@@ -1087,7 +1383,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7772511848341233,
         "hash": "sha256:2129505e73b5a309f76102b2ffb4942389cda006669be7a4c83e530fff4c84c5",
-        "checkedAt": "2026-08-28T06:52:57.922Z"
+        "checkedAt": "2026-08-28T12:50:30.831Z"
       }
     },
     {
@@ -1106,7 +1402,7 @@
         "format": "jpeg",
         "aspectRatio": 1.2759170653907497,
         "hash": "sha256:121e3b19a508d7dc94e4f99643fac9872fb8ddf9a8ec0a4f74e8f16c468b0747",
-        "checkedAt": "2026-08-28T06:53:01.082Z"
+        "checkedAt": "2026-08-28T12:50:33.897Z"
       }
     },
     {
@@ -1125,7 +1421,7 @@
         "format": "jpeg",
         "aspectRatio": 1.3683010262257698,
         "hash": "sha256:2d0fefbbccffebd591a938f426e8349a520f18b31d7b23f528595ca7ae53de0e",
-        "checkedAt": "2026-08-28T06:53:01.266Z"
+        "checkedAt": "2026-08-28T12:50:34.082Z"
       }
     },
     {
@@ -1144,7 +1440,7 @@
         "format": "jpeg",
         "aspectRatio": 2.347826086956522,
         "hash": "sha256:2a538826429f646a5e0fbb3387c3d3ae1607e9dc2e7816cb1c6390f8eb05a3a5",
-        "checkedAt": "2026-08-28T06:53:01.673Z"
+        "checkedAt": "2026-08-28T12:50:34.514Z"
       }
     },
     {
@@ -1163,7 +1459,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:69ced7836837236ad3e6ae218148addc38a0039a66b8cf58bf210a19be89fd5b",
-        "checkedAt": "2026-08-28T06:53:01.741Z"
+        "checkedAt": "2026-08-28T12:50:34.588Z"
       }
     },
     {
@@ -1182,7 +1478,7 @@
         "format": "jpeg",
         "aspectRatio": 1.8481012658227849,
         "hash": "sha256:084310923452e1a20e8cf04d5b8d44aac0ea4225aaa2d8f6272b5b4f339af7a4",
-        "checkedAt": "2026-08-28T06:53:02.238Z"
+        "checkedAt": "2026-08-28T12:50:34.939Z"
       }
     },
     {
@@ -1201,7 +1497,7 @@
         "format": "jpeg",
         "aspectRatio": 2,
         "hash": "sha256:8daa8f7989412891c1f29df70f8250a9c875de0f6bb73a09519a329fac085175",
-        "checkedAt": "2026-08-28T06:53:02.904Z"
+        "checkedAt": "2026-08-28T12:50:35.619Z"
       }
     },
     {
@@ -1220,7 +1516,7 @@
         "format": "jpeg",
         "aspectRatio": 1.335113484646195,
         "hash": "sha256:159724c6c034dde39f084a4d0385d46b590af5f8be0cb87bbedfa2daff5739dc",
-        "checkedAt": "2026-08-28T06:53:02.987Z"
+        "checkedAt": "2026-08-28T12:50:35.723Z"
       }
     },
     {
@@ -1239,7 +1535,7 @@
         "format": "jpeg",
         "aspectRatio": 1.5625,
         "hash": "sha256:3303343958f7e6dc3e55820b70b31622fc5de454808934999f9a0ddba1a737b4",
-        "checkedAt": "2026-08-28T06:53:03.149Z"
+        "checkedAt": "2026-08-28T12:50:35.852Z"
       }
     },
     {
@@ -1258,7 +1554,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:26b4fd6fe6ce3c858325af7d8198ed8357394dc41bc5c63100106207b47b522f",
-        "checkedAt": "2026-08-28T06:53:07.495Z"
+        "checkedAt": "2026-08-28T12:50:40.813Z"
       }
     },
     {
@@ -1277,7 +1573,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:75e0ce2e62e72619557636a09337dc266cfbc2612c475d52fa7b494168ada164",
-        "checkedAt": "2026-08-28T06:53:07.538Z"
+        "checkedAt": "2026-08-28T12:50:40.864Z"
       }
     },
     {
@@ -1296,7 +1592,7 @@
         "format": "jpeg",
         "aspectRatio": 1.845945945945946,
         "hash": "sha256:75c0a142a29cb0ede5aa7c9c395c7f15e3e5f7844d89410b3f5534dcb05dbecf",
-        "checkedAt": "2026-08-28T06:53:07.814Z"
+        "checkedAt": "2026-08-28T12:50:41.151Z"
       }
     },
     {
@@ -1315,7 +1611,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:0ce616e9a372df07bc930f146ffa0218f4d172d36374c7047240fe2e8117ab37",
-        "checkedAt": "2026-08-28T06:53:07.977Z"
+        "checkedAt": "2026-08-28T12:50:41.320Z"
       }
     },
     {
@@ -1334,7 +1630,7 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:672df90a0c01f9c9e7fff5099838633052ba48a7a2c458cce66c6e39d26366af",
-        "checkedAt": "2026-08-28T06:53:09.799Z"
+        "checkedAt": "2026-08-28T12:50:43.045Z"
       }
     },
     {
@@ -1353,7 +1649,7 @@
         "format": "jpeg",
         "aspectRatio": 1.9047619047619047,
         "hash": "sha256:9514d70fe30335d4e26f3a37b5b6cdba5e90e2579fd8b04928b222c754a95093",
-        "checkedAt": "2026-08-28T06:53:09.864Z"
+        "checkedAt": "2026-08-28T12:50:43.137Z"
       }
     },
     {
@@ -1372,7 +1668,7 @@
         "format": "png",
         "aspectRatio": 1.3333333333333333,
         "hash": "sha256:6704ad4d499d99e449cb3d674acd7463d267e5a55a76d6bb7e2e3844583f849c",
-        "checkedAt": "2026-08-28T06:53:10.068Z"
+        "checkedAt": "2026-08-28T12:50:43.336Z"
       }
     },
     {
@@ -1391,11 +1687,37 @@
         "format": "jpeg",
         "aspectRatio": 1.7777777777777777,
         "hash": "sha256:cc44fc5a992f84404dddcdede5883294dde2379acec0c03d10146c6132c29b1a",
-        "checkedAt": "2026-08-28T06:53:10.474Z"
+        "checkedAt": "2026-08-28T12:50:43.551Z"
       }
     }
   ],
   "rejectedItems": [
+    {
+      "watchId": "nen-568",
+      "title": "Линда хочет курочку!",
+      "originalTitle": "Linda veut du poulet !",
+      "year": 2023,
+      "source": "Première / Annecy coverage",
+      "pageUrl": "https://www.premiere.fr/cinema/news-cinema/annecy-2023-le-tres-reussi-linda-veut-du-poulet--remporte-le-cristal-du-long-metrage",
+      "imageUrl": "https://www.premiere.fr/sites/default/files/styles/scale_crop_1280x720/public/2023-06/Linda%20veut%20du%20poulet.jpg",
+      "imageType": "still",
+      "extraction": "known filename search found a festival-context full-size mirror",
+      "match": "exact 2023 Annecy winner; genuine interior animation scene without title treatment",
+      "reason": "image HTTP 403"
+    },
+    {
+      "watchId": "nen-739",
+      "title": "Чанг умеет забивать",
+      "originalTitle": "Chang Can Dunk",
+      "year": 2023,
+      "source": "We Live Entertainment",
+      "pageUrl": "https://weliveentertainment.com/welivefilm/chang-can-dunk-review-new-underdog-story-can-jam/",
+      "imageUrl": "https://weliveentertainment.com/wp-content/uploads/2023/03/chang-can-dunk-2.jpeg",
+      "imageType": "still",
+      "extraction": "exact prior filename recovered on accessible review page",
+      "match": "exact Disney+ 2023 film; genuine basketball-court scene, not Disney key art",
+      "reason": "image HTTP 403"
+    },
     {
       "watchId": "nen-wd-q939876",
       "source": "Fancaps",

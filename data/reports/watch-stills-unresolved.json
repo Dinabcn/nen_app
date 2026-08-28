@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-28T06:53:44.587Z",
+  "generatedAt": "2026-08-28T12:51:12.259Z",
   "totalCatalog": 2072,
-  "confirmedStills": 1754,
-  "unresolved": 318,
+  "confirmedStills": 1762,
+  "unresolved": 310,
   "posterInFrame": 61,
-  "noFrame": 257,
+  "noFrame": 249,
   "confirmedButMissingStudios": 0,
   "tailGroups": {
     "A": 0,
     "B": 41,
     "C": 153,
-    "D": 124
+    "D": 116
   },
   "items": [
     {
@@ -1062,86 +1062,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-234",
-      "title": "МакФарланд",
-      "originalTitle": "McFarland, USA",
-      "year": 2015,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"McFarland, USA\" 2015",
-          "\"McFarland, USA\" 2015 screenshots",
-          "\"McFarland, USA\" 2015 scene",
-          "\"McFarland, USA\" 2015 stills",
-          "\"МакФарланд\" 2015 кадры",
-          "\"МакФарланд\" фильм 2015"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-240",
-      "title": "Белоснежка и семь гномов",
-      "originalTitle": "Snow White and the Seven Dwarfs",
-      "year": 1937,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"Snow White and the Seven Dwarfs\" 1937",
-          "\"Snow White and the Seven Dwarfs\" 1937 screenshots",
-          "\"Snow White and the Seven Dwarfs\" 1937 scene",
-          "\"Snow White and the Seven Dwarfs\" 1937 stills",
-          "\"Белоснежка и семь гномов\" 1937 кадры",
-          "\"Белоснежка и семь гномов\" фильм 1937"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-242",
       "title": "Фантазия",
       "originalTitle": "Fantasia",
@@ -1996,46 +1916,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-378",
-      "title": "Паранорман, или Как приручить зомби",
-      "originalTitle": "ParaNorman",
-      "year": 2012,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"ParaNorman\" 2012",
-          "\"ParaNorman\" 2012 screenshots",
-          "\"ParaNorman\" 2012 scene",
-          "\"ParaNorman\" 2012 stills",
-          "\"Паранорман, или Как приручить зомби\" 2012 кадры",
-          "\"Паранорман, или Как приручить зомби\" фильм 2012"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-385",
       "title": "Книга жизни",
       "originalTitle": "The Book of Life",
@@ -2379,46 +2259,6 @@
           "\"Spy Kids 3-D: Game Over\" 2003 stills",
           "\"Дети шпионов 3: Игра окончена\" 2003 кадры",
           "\"Дети шпионов 3: Игра окончена\" фильм 2003"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-432",
-      "title": "Агент Коди Бэнкс",
-      "originalTitle": "Agent Cody Banks",
-      "year": 2003,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"Agent Cody Banks\" 2003",
-          "\"Agent Cody Banks\" 2003 screenshots",
-          "\"Agent Cody Banks\" 2003 scene",
-          "\"Agent Cody Banks\" 2003 stills",
-          "\"Агент Коди Бэнкс\" 2003 кадры",
-          "\"Агент Коди Бэнкс\" фильм 2003"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -3523,46 +3363,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-568",
-      "title": "Линда хочет курочку!",
-      "originalTitle": "Linda veut du poulet!",
-      "year": 2023,
-      "type": "animated-feature",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"Linda veut du poulet!\" 2023",
-          "\"Linda veut du poulet!\" 2023 screenshots",
-          "\"Linda veut du poulet!\" 2023 scene",
-          "\"Linda veut du poulet!\" 2023 stills",
-          "\"Линда хочет курочку!\" 2023 кадры",
-          "\"Линда хочет курочку!\" фильм 2023"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-581",
       "title": "Нэчжа",
       "originalTitle": "Ne Zha zhi mo tong jiang shi",
@@ -4083,46 +3883,6 @@
       "pendingCandidate": null
     },
     {
-      "id": "nen-619",
-      "title": "Микроб и Бензин",
-      "originalTitle": "Microbe et Gasoil",
-      "year": 2015,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"Microbe et Gasoil\" 2015",
-          "\"Microbe et Gasoil\" 2015 screenshots",
-          "\"Microbe et Gasoil\" 2015 scene",
-          "\"Microbe et Gasoil\" 2015 stills",
-          "\"Микроб и Бензин\" 2015 кадры",
-          "\"Микроб и Бензин\" фильм 2015"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
       "id": "nen-628",
       "title": "Дети из Бюллербю",
       "originalTitle": "Alla vi barn i Bullerbyn",
@@ -4552,46 +4312,6 @@
           "\"A Cinderella Story\" 2004 stills",
           "\"История Золушки\" 2004 кадры",
           "\"История Золушки\" фильм 2004"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
-    },
-    {
-      "id": "nen-674",
-      "title": "Бэндслэм",
-      "originalTitle": "Bandslam",
-      "year": 2009,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"Bandslam\" 2009",
-          "\"Bandslam\" 2009 screenshots",
-          "\"Bandslam\" 2009 scene",
-          "\"Bandslam\" 2009 stills",
-          "\"Бэндслэм\" 2009 кадры",
-          "\"Бэндслэм\" фильм 2009"
         ],
         "sourceClassesChecked": [
           "обычная web/image-выдача (несколько результатов)",
@@ -5134,46 +4854,6 @@
           "страница не подтверждает год"
         ]
       }
-    },
-    {
-      "id": "nen-739",
-      "title": "Чан может забивать",
-      "originalTitle": "Chang Can Dunk",
-      "year": 2023,
-      "type": "movie",
-      "externalIds": {
-        "kinopoisk": null,
-        "tmdbMovie": null,
-        "tmdbTv": null,
-        "imdb": null,
-        "wikidata": null,
-        "mail": null
-      },
-      "currentState": "NO_FRAME",
-      "checkedSources": [],
-      "deepSearch": {
-        "queries": [
-          "\"Chang Can Dunk\" 2023",
-          "\"Chang Can Dunk\" 2023 screenshots",
-          "\"Chang Can Dunk\" 2023 scene",
-          "\"Chang Can Dunk\" 2023 stills",
-          "\"Чан может забивать\" 2023 кадры",
-          "\"Чан может забивать\" фильм 2023"
-        ],
-        "sourceClassesChecked": [
-          "обычная web/image-выдача (несколько результатов)",
-          "IMDb/MUBI/стриминги",
-          "специализированные screencap/stills-базы",
-          "официальные сайты/дистрибьюторы/телеканалы",
-          "архивы/фестивали/Commons",
-          "публичное официальное видео как fallback"
-        ],
-        "outcome": "После проверки русских и оригинальных запросов, нескольких результатов выдачи и профильных источников не найден доступный URL изображения, одновременно подтверждающий точное произведение и настоящий кадр. Результаты были постерами, заставками, промо, фотографиями людей, другим ремейком/сезоном либо не имели надёжной привязки к версии и году."
-      },
-      "reason": "Нет пригодного точного внешнего идентификатора или сохранённой страницы публичной галереи.",
-      "confirmedCandidateNotApplied": null,
-      "tailGroup": "D",
-      "pendingCandidate": null
     },
     {
       "id": "nen-wd-q21004024",
