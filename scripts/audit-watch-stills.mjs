@@ -15,6 +15,7 @@ const pageGalleryEvidencePath = path.join(root, "data/reports/cache/watch-stills
 const imdbGalleryPath = path.join(root, "data/reports/watch-stills-imdb-gallery-extraction.json");
 const galleryRecoveryPath = path.join(root, "data/reports/watch-stills-gallery-recovery.json");
 const finalClassificationPath = path.join(root, "data/reports/watch-stills-final-classification.json");
+const catalogReplacementsPath = path.join(root, "data/reports/watch-catalog-replacements.json");
 const jsonPath = path.join(root, "data/reports/watch-stills-audit.json");
 const markdownPath = path.join(root, "data/reports/watch-stills-audit.md");
 const unresolvedJsonPath = path.join(root, "data/reports/watch-stills-unresolved.json");
@@ -42,6 +43,7 @@ const pageGalleryEvidence = await readJson(pageGalleryEvidencePath, { records: {
 const imdbGallery = await readJson(imdbGalleryPath, { processedIds: [], appliedItems: [] });
 const galleryRecovery = await readJson(galleryRecoveryPath, { appliedItems: [] });
 const finalClassification = await readJson(finalClassificationPath, { manualCandidates: [] });
+const catalogReplacements = await readJson(catalogReplacementsPath, { pairs: [] });
 
 const mailById = new Map((mailSource.items ?? []).map((item) => [String(item.mailId), item]));
 const replacementById = new Map((mailReplacement.selectedItems ?? []).map((item) => [item.id, item]));
@@ -49,6 +51,7 @@ const webAppliedById = new Map([...(webApply.appliedItems ?? []), ...(webBacklog
 const pageGalleryAppliedById = new Map((pageGalleryApply.appliedItems ?? []).map((item) => [item.watchId, item]));
 const imdbGalleryAppliedById = new Map((imdbGallery.appliedItems ?? []).map((item) => [item.watchId, item]));
 const galleryRecoveryAppliedById = new Map((galleryRecovery.appliedItems ?? []).map((item) => [item.watchId, item]));
+const catalogReplacementById = new Map((catalogReplacements.pairs ?? []).map((pair) => [`nen-repl-mail-${pair.replacement.mailId}`, pair.replacement]));
 const imdbGalleryProcessedIds = new Set(imdbGallery.processedIds ?? []);
 const tailAppliedIds = new Set((tailApply.appliedItems ?? []).map((item) => item.watchId));
 const pendingWebCandidates = new Map([...(webBacklogApply.rejectedItems ?? []).filter((item) => !tailAppliedIds.has(item.watchId)), ...(finalClassification.manualCandidates ?? [])].map((item) => [item.watchId, item]));
@@ -68,11 +71,12 @@ function externalIds(record) {
   const ratingUrl = record.officialRating?.sourceUrl ?? "";
   const kinopoiskFromRating = ratingUrl.match(/kinopoisk\.ru\/(?:film|series)\/(\d+)/u)?.[1] ?? null;
   const qidFromRecord = (record.id.match(/nen-wd-(q\d+)/iu)?.[1] ?? record.slug.match(/wikidata-(q\d+)/iu)?.[1])?.toUpperCase() ?? null;
+  const catalogReplacement = catalogReplacementById.get(record.id);
   return {
-    kinopoisk: cleanId(research.kinopoisk ?? mail?.externalIds?.kinopoisk ?? replacementIds.kinopoisk ?? kinopoiskFromRating),
-    tmdbMovie: cleanId(research.tmdbMovie ?? mail?.externalIds?.tmdbMovie ?? replacementIds.tmdbMovie),
-    tmdbTv: cleanId(research.tmdbTv ?? mail?.externalIds?.tmdbTv ?? replacementIds.tmdbTv),
-    imdb: cleanId(research.imdb ?? mail?.externalIds?.imdb ?? replacementIds.imdb),
+    kinopoisk: cleanId(research.kinopoisk ?? mail?.externalIds?.kinopoisk ?? replacementIds.kinopoisk ?? catalogReplacement?.sourceData?.externalIds?.kinopoisk ?? kinopoiskFromRating),
+    tmdbMovie: cleanId(research.tmdbMovie ?? mail?.externalIds?.tmdbMovie ?? replacementIds.tmdbMovie ?? catalogReplacement?.sourceData?.externalIds?.tmdbMovie),
+    tmdbTv: cleanId(research.tmdbTv ?? mail?.externalIds?.tmdbTv ?? replacementIds.tmdbTv ?? catalogReplacement?.sourceData?.externalIds?.tmdbTv),
+    imdb: cleanId(research.imdb ?? mail?.externalIds?.imdb ?? replacementIds.imdb ?? catalogReplacement?.sourceData?.externalIds?.imdb),
     wikidata: cleanId(research.wikidata ?? replacementIds.wikidata ?? qidFromRecord),
     mail: cleanId(mailId),
   };
@@ -98,6 +102,8 @@ const isMailImage = (frame) => {
 
 const confirmedEvidenceFor = (record) => {
   if (!record.frame?.url) return null;
+  const replacement = catalogReplacementById.get(record.id);
+  if (replacement?.imageUrl === record.frame.url && replacement.status === "HIGH") return { source: "Кино Mail structured frame gallery", candidate: { url: replacement.imageUrl, provenance: { pageUrl: replacement.pageUrl, mailId: replacement.mailId, galleryId: replacement.galleryId, galleryTitle: replacement.galleryTitle, itemId: replacement.itemId, imageType: "still", extraction: "structured gallery frame-first replacement", probe: { mime: replacement.mime, width: replacement.width, height: replacement.height, aspectRatio: replacement.aspectRatio, sha256: replacement.sha256 } } } };
   const recovered = galleryRecoveryAppliedById.get(record.id);
   if (recovered?.imageUrl === record.frame.url) return { source: recovered.source, candidate: { url: recovered.imageUrl, provenance: { pageUrl: recovered.pageUrl, externalId: recovered.externalId, imageType: recovered.imageType, extraction: recovered.extraction, match: recovered.match, probe: recovered.probe } } };
   const imdbGalleryItem = imdbGalleryAppliedById.get(record.id);
