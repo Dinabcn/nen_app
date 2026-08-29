@@ -2,7 +2,7 @@ import { useMemo } from "react";
 import type { Navigate } from "../components/Link";
 import { MediaCard } from "../components/MediaCard";
 import { filterSeriesTitles, type SeriesCatalogFilters, type SeriesCategory } from "../domain/catalog/series";
-import type { WatchTitle } from "../domain/catalog/types";
+import type { ProductionKind, WatchTitle } from "../domain/catalog/types";
 
 const categories: Array<[SeriesCategory, string]> = [
   ["all", "Все сериалы"],
@@ -36,7 +36,8 @@ const serializeFilters = (filters: SeriesCatalogFilters) => {
   return value ? `?${value}` : "";
 };
 
-export function SeriesPage({ titles, search, favorites, toggleFavorite, navigate }: {
+export function SeriesPage({ seriesKind, titles, search, favorites, toggleFavorite, navigate }: {
+  seriesKind: Extract<ProductionKind, "animated-series" | "series">;
   titles: WatchTitle[];
   search: string;
   favorites: string[];
@@ -45,18 +46,21 @@ export function SeriesPage({ titles, search, favorites, toggleFavorite, navigate
 }) {
   const filters = useMemo(() => readFilters(search), [search]);
   const series = useMemo(() => filterSeriesTitles(titles, filters), [titles, filters]);
+  const isAnimated = seriesKind === "animated-series";
   const countries = useMemo(
     () => [...new Set(titles.filter((title) => title.releaseForm === "series").flatMap((title) => title.country))]
       .sort((a, b) => a.localeCompare(b, "ru")),
     [titles],
   );
-  const update = (next: SeriesCatalogFilters) => navigate(`/series${serializeFilters(next)}`);
+  const pathname = isAnimated ? "/animated-series" : "/series";
+  const update = (next: SeriesCatalogFilters) => navigate(`${pathname}${serializeFilters(next)}`);
+  const visibleCategories = categories.filter(([value]) => value !== (isAnimated ? "live-action" : "animated"));
 
   return <div className="page catalog-page">
     <header className="page-intro">
       <p className="eyebrow">Истории, к которым можно возвращаться</p>
-      <h1>Сериалы</h1>
-      <p>Игровые, анимационные, документальные и образовательные сериалы для разных возрастов.</p>
+      <h1>{isAnimated ? "Мультсериалы" : "Сериалы"}</h1>
+      <p>{isAnimated ? "Анимационные истории с эпизодами и сезонами — отдельно от полнометражных мультфильмов." : "Игровые и неанимационные сериалы для разных возрастов."}</p>
     </header>
     <section className="filters series-filters" aria-labelledby="series-filters-title">
       <div className="section-heading">
@@ -69,7 +73,7 @@ export function SeriesPage({ titles, search, favorites, toggleFavorite, navigate
       </label>
       <fieldset>
         <legend>Тип сериала</legend>
-        <div className="segmented">{categories.map(([value, label]) => <button key={value} type="button" className={filters.category === value ? "selected" : ""} aria-pressed={filters.category === value} onClick={() => update({ ...filters, category: value })}>{label}</button>)}</div>
+        <div className="segmented">{visibleCategories.map(([value, label]) => <button key={value} type="button" className={filters.category === value ? "selected" : ""} aria-pressed={filters.category === value} onClick={() => update({ ...filters, category: value })}>{label}</button>)}</div>
       </fieldset>
       <div className="series-selects">
         <label><span>Возраст ребёнка</span><select value={filters.age ?? ""} onChange={(event) => update({ ...filters, age: event.target.value ? Number(event.target.value) : null })}><option value="">Любой возраст</option>{[2, 4, 6, 8, 10, 12, 14, 16].map((age) => <option key={age} value={age}>{age} лет</option>)}</select></label>

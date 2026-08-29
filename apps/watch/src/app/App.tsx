@@ -14,6 +14,10 @@ import { shouldResetScroll } from "./navigation";
 
 interface AppData {
   titles: WatchTitle[];
+  animationMovies: WatchTitle[];
+  animationSeries: WatchTitle[];
+  movies: WatchTitle[];
+  series: WatchTitle[];
   cartoonDictionary: FilterDictionary;
   movieDictionary: FilterDictionary;
 }
@@ -30,13 +34,15 @@ export function App() {
     setError(null);
     setData(null);
     createWatchRepository().then(async (repository) => {
-      const [cartoons, movies, cartoonDictionary, movieDictionary] = await Promise.all([
-        repository.getAllCartoons(),
-        repository.getAllMovies(),
-        repository.getFilterDictionary("cartoon"),
-        repository.getFilterDictionary("movie"),
+      const [animationMovies, animationSeries, movies, series, cartoonDictionary, movieDictionary] = await Promise.all([
+        repository.getAnimationMovies(),
+        repository.getAnimationSeries(),
+        repository.getMovies(),
+        repository.getSeries(),
+        repository.getFilterDictionary("cartoon", ["animated-feature", "animated-short"]),
+        repository.getFilterDictionary("movie", ["movie", "documentary", "short-film"]),
       ]);
-      setData({ titles: [...cartoons, ...movies], cartoonDictionary, movieDictionary });
+      setData({ titles: [...animationMovies, ...animationSeries, ...movies, ...series], animationMovies, animationSeries, movies, series, cartoonDictionary, movieDictionary });
     }).catch((reason: unknown) => setError(reason instanceof Error ? reason.message : "Не удалось загрузить каталог"));
   }, []);
 
@@ -66,11 +72,14 @@ export function App() {
     const common = { favorites, toggleFavorite, navigate };
     switch (route.kind) {
       case "home": page = <HomePage titles={data.titles} {...common} />; break;
-      case "cartoons": page = <CatalogPage contentType="cartoon" titles={data.titles} dictionary={data.cartoonDictionary} search={url.search} {...common} />; break;
-      case "movies": page = <CatalogPage contentType="movie" titles={data.titles} dictionary={data.movieDictionary} search={url.search} {...common} />; break;
-      case "series": page = <SeriesPage titles={data.titles} search={url.search} {...common} />; break;
-      case "cartoon-detail": page = <DetailPage slug={route.slug} expectedType="cartoon" titles={data.titles} {...common} />; break;
-      case "movie-detail": page = <DetailPage slug={route.slug} expectedType="movie" titles={data.titles} {...common} />; break;
+      case "cartoons": page = <CatalogPage contentType="cartoon" section="cartoons" titles={data.animationMovies} dictionary={data.cartoonDictionary} search={url.search} {...common} />; break;
+      case "animated-series": page = <SeriesPage seriesKind="animated-series" titles={data.animationSeries} search={url.search} {...common} />; break;
+      case "movies": page = <CatalogPage contentType="movie" section="movies" titles={data.movies} dictionary={data.movieDictionary} search={url.search} {...common} />; break;
+      case "series": page = <SeriesPage seriesKind="series" titles={data.series} search={url.search} {...common} />; break;
+      case "cartoon-detail": page = <DetailPage slug={route.slug} expectedKinds={["animated-feature", "animated-short"]} catalogHref="/cartoons" titles={data.titles} {...common} />; break;
+      case "animated-series-detail": page = <DetailPage slug={route.slug} expectedKinds={["animated-series"]} catalogHref="/animated-series" titles={data.titles} {...common} />; break;
+      case "movie-detail": page = <DetailPage slug={route.slug} expectedKinds={["movie", "documentary", "short-film"]} catalogHref="/movies" titles={data.titles} {...common} />; break;
+      case "series-detail": page = <DetailPage slug={route.slug} expectedKinds={["series"]} catalogHref="/series" titles={data.titles} {...common} />; break;
       case "favorites": page = <FavoritesPage titles={data.titles} {...common} />; break;
       case "collections": page = <CollectionsPage titles={data.titles} {...common} />; break;
       case "collection-detail": page = <CollectionsPage slug={route.slug} titles={data.titles} {...common} />; break;

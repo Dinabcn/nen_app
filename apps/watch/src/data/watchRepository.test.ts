@@ -3,10 +3,12 @@ import { CatalogValidationError, createWatchRepository } from "./watchRepository
 import { StaticWatchDataSource } from "./watchDataSource";
 
 describe("watch repository", () => {
-  it("keeps cartoons and movies in separate queries", async () => {
+  it("keeps all four user-facing formats in separate queries", async () => {
     const repository = await createWatchRepository();
-    expect(await repository.getAllCartoons()).toHaveLength(1307);
-    expect(await repository.getAllMovies()).toHaveLength(765);
+    expect(await repository.getAnimationMovies()).toHaveLength(728);
+    expect(await repository.getAnimationSeries()).toHaveLength(579);
+    expect(await repository.getMovies()).toHaveLength(714);
+    expect(await repository.getSeries()).toHaveLength(51);
   });
 
   it("finds by slug and returns null for an unknown slug", async () => {
@@ -23,12 +25,29 @@ describe("watch repository", () => {
 
   it("does not expose demo or test records from the production data source", async () => {
     const repository = await createWatchRepository();
-    const items = [...await repository.getAllCartoons(), ...await repository.getAllMovies()];
+    const items = [...await repository.getAnimationMovies(), ...await repository.getAnimationSeries(), ...await repository.getMovies(), ...await repository.getSeries()];
     const serviceMarker = /(?:^|[-_])(demo|test|sample)(?:[-_]|$)|демонстрацион|тестов/iu;
     expect(items).toHaveLength(2072);
     expect(items.some((item) => serviceMarker.test([
       item.id, item.slug, item.title, item.shortDescription, item.whyRecommended, item.nenAgeRecommendation.rationale,
     ].join(" ")))).toBe(false);
+  });
+
+  it("keeps animated series out of cartoons and ordinary series", async () => {
+    const repository = await createWatchRepository();
+    expect((await repository.getAnimationMovies()).every((item) => item.productionKind !== "animated-series")).toBe(true);
+    expect((await repository.getAnimationSeries()).every((item) => item.productionKind === "animated-series")).toBe(true);
+    expect((await repository.getSeries()).every((item) => item.productionKind === "series")).toBe(true);
+  });
+
+  it("pins Alice adaptations to the correct format and version-safe frame", async () => {
+    const repository = await createWatchRepository();
+    const disney = await repository.getBySlug("alisa-v-strane-chudes");
+    const lookingGlass = await repository.getBySlug("wikidata-q2646975");
+    expect(disney?.productionKind).toBe("animated-feature");
+    expect(disney?.frame?.url).toContain("disneyanimation.com/uploads/films/alice-in-wonderland/");
+    expect(lookingGlass?.productionKind).toBe("animated-feature");
+    expect(lookingGlass?.frame).toBeUndefined();
   });
 
   it("builds filter dictionaries for one content type", async () => {

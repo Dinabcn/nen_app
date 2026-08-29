@@ -17,7 +17,7 @@ const typeLabels: Record<WatchTitle["productionKind"], string> = {
 };
 
 export const typeLabel = (title: WatchTitle) => typeLabels[title.productionKind];
-export const detailHref = (title: WatchTitle) => `/${title.contentType === "cartoon" ? "cartoons" : "movies"}/${encodeURIComponent(title.slug)}`;
+export const detailHref = (title: WatchTitle) => `/${title.productionKind === "animated-series" ? "animated-series" : title.productionKind === "series" ? "series" : title.contentType === "cartoon" ? "cartoons" : "movies"}/${encodeURIComponent(title.slug)}`;
 export const localizationNotice = (title: WatchTitle) =>
   title.titleLocalization === "original-only" ? "Официальное русское название отсутствует." : null;
 export const localizedAwards = (title: WatchTitle) =>

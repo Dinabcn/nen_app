@@ -9923,9 +9923,9 @@
       "rationale": "С семи лет: быстрые превращения и абсурдная логика могут тревожить младших, а школьникам уже интересна словесная игра."
     },
     "frame": {
-      "url": "https://n-e-n.ru/images/2026-04-17/69e245d89d0a0_0x0.jpg",
+      "url": "https://cdn.disneyanimation.com/uploads/films/alice-in-wonderland/wbi-r2-aliceinwonderland-tiff032-0.jpg",
       "studios": [
-        "Walt Disney Pictures The Zanuck Company Roth Films Team Todd Tim Burton Productions"
+        "Walt Disney Animation Studios"
       ]
     },
     "titleLocalization": "official-ru"
@@ -90432,10 +90432,7 @@
     "studios": [
       "Burbank Animation Studios"
     ],
-    "titleLocalization": "official-ru",
-    "frame": {
-      "url": "https://m.media-amazon.com/images/M/MV5BZjZmNWMwZTctNTkwOS00YWNlLWI2NmEtYTNmMzUxYTQ0NmEwXkEyXkFqcGc%40._V1_.jpg"
-    }
+    "titleLocalization": "official-ru"
   },
   {
     "schemaVersion": 2,

@@ -12,7 +12,10 @@ describe("watch routes", () => {
 
   it("resolves catalogs and detail slugs", () => {
     expect(resolveRoute("/cartoons")).toEqual({ kind: "cartoons" });
+    expect(resolveRoute("/animated-series")).toEqual({ kind: "animated-series" });
     expect(resolveRoute("/series")).toEqual({ kind: "series" });
+    expect(resolveRoute("/animated-series/demo")).toEqual({ kind: "animated-series-detail", slug: "demo" });
+    expect(resolveRoute("/series/demo")).toEqual({ kind: "series-detail", slug: "demo" });
     expect(resolveRoute("/movies/svet-mayaka")).toEqual({ kind: "movie-detail", slug: "svet-mayaka" });
   });
 

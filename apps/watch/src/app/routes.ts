@@ -1,6 +1,7 @@
 export const routes = {
   home: "/",
   cartoons: "/cartoons",
+  animatedSeries: "/animated-series",
   movies: "/movies",
   series: "/series",
   collections: "/collections",
@@ -18,8 +19,11 @@ export type ResolvedRoute =
   | { kind: "home" }
   | { kind: "cartoons" }
   | { kind: "cartoon-detail"; slug: string }
+  | { kind: "animated-series" }
+  | { kind: "animated-series-detail"; slug: string }
   | { kind: "movies" }
   | { kind: "series" }
+  | { kind: "series-detail"; slug: string }
   | { kind: "movie-detail"; slug: string }
   | { kind: "collections" }
   | { kind: "collection-detail"; slug: string }
@@ -35,6 +39,7 @@ export function resolveRoute(pathname: string): ResolvedRoute {
   const route = normalizeRoute(pathname);
   if (route === routes.home) return { kind: "home" };
   if (route === routes.cartoons) return { kind: "cartoons" };
+  if (route === routes.animatedSeries) return { kind: "animated-series" };
   if (route === routes.movies) return { kind: "movies" };
   if (route === routes.series) return { kind: "series" };
   if (route === routes.collections) return { kind: "collections" };
@@ -42,7 +47,9 @@ export function resolveRoute(pathname: string): ResolvedRoute {
   if (route === routes.favorites) return { kind: "favorites" };
   for (const [prefix, kind] of [
     ["/cartoons/", "cartoon-detail"],
+    ["/animated-series/", "animated-series-detail"],
     ["/movies/", "movie-detail"],
+    ["/series/", "series-detail"],
     ["/collections/", "collection-detail"],
   ] as const) {
     if (route.startsWith(prefix)) {

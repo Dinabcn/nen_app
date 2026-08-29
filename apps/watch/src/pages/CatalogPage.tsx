@@ -7,8 +7,9 @@ import type { ContentType, FilterDictionary, WatchTitle } from "../domain/catalo
 import { parseFiltersFromUrl, serializeFiltersToUrl } from "../domain/catalog/url";
 import { buildCatalogResult } from "../state/catalogViewModel";
 
-export function CatalogPage({ contentType, titles, dictionary, search, favorites, toggleFavorite, navigate }: {
+export function CatalogPage({ contentType, section, titles, dictionary, search, favorites, toggleFavorite, navigate }: {
   contentType: ContentType;
+  section: "cartoons" | "movies";
   titles: WatchTitle[];
   dictionary: FilterDictionary;
   search: string;
@@ -18,11 +19,11 @@ export function CatalogPage({ contentType, titles, dictionary, search, favorites
 }) {
   const filters = useMemo(() => parseFiltersFromUrl(contentType, search), [contentType, search]);
   const state = useMemo(() => buildCatalogResult(titles, filters), [titles, filters]);
-  const pathname = contentType === "cartoon" ? "/cartoons" : "/movies";
+  const pathname = section === "cartoons" ? "/cartoons" : "/movies";
   const update = (next: CatalogFilters) => navigate(`${pathname}${serializeFiltersToUrl(next)}`);
-  const title = contentType === "cartoon" ? "Мультфильмы" : "Фильмы";
+  const title = section === "cartoons" ? "Мультфильмы" : "Фильмы";
   return <div className="page catalog-page">
-    <header className="page-intro"><p className="eyebrow">Выбор для семейного просмотра</p><h1>{title}</h1><p>{contentType === "cartoon" ? "Мультфильмы и мультсериалы, которые легко подобрать по возрасту, настроению и интересам ребёнка." : "Фильмы, которые интересно смотреть вместе с детьми и обсуждать после просмотра."}</p></header>
+    <header className="page-intro"><p className="eyebrow">Выбор для семейного просмотра</p><h1>{title}</h1><p>{section === "cartoons" ? "Полнометражные и короткометражные мультфильмы — отдельно от эпизодических мультсериалов." : "Игровые, документальные и короткометражные фильмы, которые интересно смотреть вместе."}</p></header>
     <FilterPanel filters={filters} dictionary={dictionary} onChange={update} onReset={() => update(emptyFilters(contentType))} />
     <section className="results" aria-live="polite">
       <div className="section-heading"><div><p className="eyebrow">Результаты</p><h2>{state.kind === "exact" ? `Найдено: ${state.results.length}` : state.kind === "nearby" ? "Близкие варианты" : "Ничего безопасно не найдено"}</h2></div></div>

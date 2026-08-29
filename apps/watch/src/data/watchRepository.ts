@@ -10,11 +10,13 @@ export class CatalogValidationError extends Error {
 }
 
 export interface WatchRepository {
-  getAllCartoons(): Promise<Cartoon[]>;
-  getAllMovies(): Promise<Movie[]>;
+  getAnimationMovies(): Promise<Cartoon[]>;
+  getAnimationSeries(): Promise<Cartoon[]>;
+  getMovies(): Promise<Movie[]>;
+  getSeries(): Promise<Movie[]>;
   getBySlug(slug: string): Promise<WatchTitle | null>;
   getByIds(ids: readonly string[]): Promise<WatchTitle[]>;
-  getFilterDictionary(contentType: ContentType): Promise<FilterDictionary>;
+  getFilterDictionary(contentType: ContentType, productionKinds?: readonly WatchTitle["productionKind"][]): Promise<FilterDictionary>;
 }
 
 const uniqueStrings = (values: string[]) => [...new Set(values)].sort((a, b) => a.localeCompare(b, "ru"));
@@ -28,12 +30,20 @@ export class InMemoryWatchRepository implements WatchRepository {
     return new InMemoryWatchRepository(result.items);
   }
 
-  async getAllCartoons() {
-    return this.items.filter(isCartoon);
+  async getAnimationMovies() {
+    return this.items.filter((item): item is Cartoon => isCartoon(item) && item.productionKind !== "animated-series");
   }
 
-  async getAllMovies() {
-    return this.items.filter((item): item is Movie => item.contentType === "movie");
+  async getAnimationSeries() {
+    return this.items.filter((item): item is Cartoon => isCartoon(item) && item.productionKind === "animated-series");
+  }
+
+  async getMovies() {
+    return this.items.filter((item): item is Movie => item.contentType === "movie" && item.productionKind !== "series");
+  }
+
+  async getSeries() {
+    return this.items.filter((item): item is Movie => item.contentType === "movie" && item.productionKind === "series");
   }
 
   async getBySlug(slug: string) {
@@ -45,8 +55,8 @@ export class InMemoryWatchRepository implements WatchRepository {
     return ids.map((id) => byId.get(id)).filter((item): item is WatchTitle => Boolean(item));
   }
 
-  async getFilterDictionary(contentType: ContentType): Promise<FilterDictionary> {
-    const items = this.items.filter((item) => item.contentType === contentType);
+  async getFilterDictionary(contentType: ContentType, productionKinds?: readonly WatchTitle["productionKind"][]): Promise<FilterDictionary> {
+    const items = this.items.filter((item) => item.contentType === contentType && (!productionKinds || productionKinds.includes(item.productionKind)));
     return {
       countries: uniqueStrings(items.flatMap((item) => item.country)),
       contentFormats: uniqueStrings(items.map((item) => item.contentFormat)) as FilterDictionary["contentFormats"],

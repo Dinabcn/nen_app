@@ -10,5 +10,6 @@ describe("catalog navigation scroll", () => {
   it("resets scroll when navigating to another page", () => {
     expect(shouldResetScroll("/movies", "/movies/demo-title")).toBe(true);
     expect(shouldResetScroll("/cartoons", "/favorites")).toBe(true);
+    expect(shouldResetScroll("/cartoons", "/animated-series")).toBe(true);
   });
 });
