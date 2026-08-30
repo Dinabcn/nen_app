@@ -1,69 +1,63 @@
-# Watch format and frame audit
+# Watch canonical category audit
 
-Дата: 2026-08-29
+Дата: 2026-08-30
 
-Основа: `b6c5e02` (`feature/watch-service`)
-Объём: 2072/2072 карточки
+Основа: `04fd21a` (`feature/watch-service`)
+
+Объём: 1932/1932 карточки
 
 ## Итог
 
-- Проверено карточек: **2072**.
-- Мультфильмы (`animated-feature`, `animated-short`): **728**.
-- Мультсериалы (`animated-series`): **579**.
-- Фильмы (`movie`, `documentary`, `short-film`): **714**.
-- Сериалы (`series`): **51**.
-- Исправлено типов: **0**. Существующий `kind` уже выражает четыре нужных раздела; ошибка была в объединяющей UI-фильтрации.
-- Исправлено неправильных frame: **2**.
-- Потенциально неправильных frame после исправлений: **0** по формальным evidence-проверкам.
-- MANUAL_REVIEW: **0** активных frame-кандидатов. Карточка Alice 1987 оставлена без frame, а не с сомнительным изображением.
-- Подтверждённых frame после исправлений: **1932**.
-- Без frame после исправлений: **140**.
+- Проверено карточек: **1932**.
+- Переклассифицировано: **21**.
+- `series` → `animated-series`: **14**.
+- `movie` / `short-film` → анимационные категории: **6**.
+- `animated-feature` → `movie`: **1**.
+- Итог: Мультфильмы **647**, Мультсериалы **590**, Фильмы **658**, Сериалы **37**.
+- Сумма четырёх разделов: **1932**.
+- Попарные пересечения: **0**.
+- Потерянных карточек: **0**.
 
-## Метод аудита
+## Метод
 
-1. Проверены значения `kind`, структура `duration`, `contentType`, `contentFormat` и `releaseForm` для всех 2072 карточек.
-2. Все 1933 исходных frame сопоставлены с накопленным evidence по `card ID + exact frame URL`. Для 1931 неизменённого frame такая связка найдена; два Alice-frame разобраны отдельно.
-3. Проверены восемь групп одинаковых/нормализованных названий (16 карточек): «Чебурашка», Zootopia/Zootopia+, Pete's Dragon, «Снежная королева», Alice in Wonderland, The Jungle Book, Beauty and the Beast, «Чиполлино». Год, формат и отдельная карточка произведения сохранены; содержательных дублей не обнаружено.
-4. Проверено отсутствие смешения `animated-series` с полнометражной анимацией и `series` с фильмами. UI теперь фильтрует четыре раздела строго по `productionKind`.
-5. Автоматическая проверка не считает визуальное сходство доказательством: спорный frame удаляется, если точная версия не подтверждается.
+Canonical category вычисляется из двух независимых признаков: способ изображения (animation / live-action) и форма выпуска (standalone / episodic). Проверены `kind`, форма `duration`, описания, originalTitle/year, точные source pages, сохранённые Кино Mail и gallery evidence. Для гибридных детских сериалов с существенной анимационной частью выбрана категория `animated-series`.
 
-## Alice — отдельный аудит
+## Переклассифицированные карточки
 
-### `nen-246` — «Алиса в Стране чудес» (1951)
+| ID | Произведение | Было | Стало | Основание |
+| --- | --- | --- | --- | --- |
+| `nen-mail-780618` | Большая ферма (2009) | series | animated-series | BBC Programme Index: формат Animation, эпизоды/серии |
+| `nen-mail-814323` | Машины сказки (2011) | series | animated-series | source description: мультсериал, сезонная gallery |
+| `nen-mail-904756` | Ожившие картинки. Галилео (2009) | series | animated-series | официальный Gruppo Alcuni: series, Live Action & 2D Animation |
+| `nen-mail-913079` | Мульт мама (2014) | series | animated-series | source description: развивающий мультсериал |
+| `nen-mail-913295` | Бруно и банановая команда (2007) | series | animated-series | source description: развивающий мультсериал |
+| `nen-mail-933606` | Мир игрушек (2019) | series | animated-series | source description: детский мультсериал, эпизодный формат |
+| `nen-mail-941961` | Приключения мегащенков (2022) | series | animated-series | source page: китайский приключенческий мультсериал |
+| `nen-mail-945474` | Ияну (2025) | series | animated-series | Cartoon Network/WBD: original animated series |
+| `nen-repl-mail-809611` | Фантадром (1985) | series | animated-series | сборник анимационных серий, сезонная gallery |
+| `nen-repl-mail-815390` | Лелик и Барбарики (2008) | series | animated-series | source description и эпизодная длительность |
+| `nen-repl-mail-942093` | Студия сновидений (2024) | series | animated-series | Disney+/Pixar: 1 Season, жанр Animation, 4 эпизода |
+| `nen-wd-q47629070` | Клео и Кукин (2018) | series | animated-series | exact Кино Mail evidence: мультсериалы, сезонная gallery |
+| `nen-wd-q509210` | Миа и я (2011) | series | animated-series | Studio 100: series, 3D Animation (CGI) + Live Action |
+| `nen-wd-q724491` | Крот (1957) | series | animated-series | source description: чешский мультсериал |
+| `nen-mail-484706` | Паровозик из Ромашкова (1967) | short-film | animated-short | source description: короткий мультфильм, 10 минут |
+| `nen-mail-799582` | Сочинушки (2000) | short-film | animated-short | source description: мультфильм, 11 минут |
+| `nen-mail-926752` | Чемодан (1991) | short-film | animated-short | source description: мультфильм, 7 минут |
+| `nen-mail-720306` | Сказка о царе Салтане (1985) | movie | animated-feature | source description: советский мультфильм, 69 минут |
+| `nen-wd-q19703232` | Смелый рыцарь из Камелота (1998) | movie | animated-feature | exact title/year, Golden Films animated feature |
+| `nen-wd-q3400601` | Эволюция (2015) | movie | animated-feature | exact originalTitle `Pourquoi j'ai (pas) mangé mon père`, animated feature |
+| `nen-wd-q605145` | Волшебные покровители: Повзрослей, Тимми Тёрнер! (2011) | animated-feature | movie | Paramount/Nickelodeon live-action TV movie with limited CGI characters |
 
-- Тип: `animated-feature` — подтверждён.
-- Старый frame: `https://n-e-n.ru/images/2026-04-17/69e245d89d0a0_0x0.jpg`.
-- Ошибка: визуально это Mia Wasikowska из игровой версии 2010 года; встроенная атрибуция также перечисляла Tim Burton Productions и другие студии версии 2010.
-- Исправление: заменён официальным кадром Walt Disney Animation Studios:
-  `https://cdn.disneyanimation.com/uploads/films/alice-in-wonderland/wbi-r2-aliceinwonderland-tiff032-0.jpg`.
-- Страница источника: `https://disneyanimation.com/films/alice-in-wonderland/` — раздел Feature Films, дата 28 июля 1951 года, режиссёры Clyde Geronimi, Wilfred Jackson и Hamilton Luske.
-- Техническая проверка: HTTP 200, `image/jpeg`, 1866×1424, SHA-256 `58D28F4C7642BDA6FEA7FA798FAE5E0AB257A77B271C9ED7F48577235BD069F1`.
-- Результат: **исправлен frame**, тип не менялся.
+## Regression: «Студия сновидений»
 
-### `nen-wd-q2646975` — «Алиса в Зазеркалье» (1987)
+- ID: `nen-repl-mail-942093`.
+- Canonical kind: `animated-series`.
+- `/animated-series`: присутствует.
+- `/series`: отсутствует.
+- Точный источник: https://press.disneyplus.com/media-kits/dream-productions — Pixar Animation Studios, series, четыре эпизода, 2024.
 
-- Тип: `animated-feature` — подтверждён IMDb `tt0101294`, длительность 1:13, жанр Animation, режиссёры Andrea Bresciani и Richard Slapczynski.
-- Старый frame: `https://m.media-amazon.com/images/M/MV5BZjZmNWMwZTctNTkwOS00YWNlLWI2NmEtYTNmMzUxYTQ0NmEwXkEyXkFqcGc%40._V1_.jpg`.
-- Ошибка: изображение является игровым кадром с актёрами и не соответствует анимационному фильму 1987 года.
-- Точная галерея IMDb для версии 1987 существует (`https://www.imdb.com/title/tt0101294/mediaviewer/rm823392768/`), но безопасный прямой frame URL не был подтверждён.
-- Исправление: неправильный `frame` удалён; карточка оставлена в «Мультфильмах».
-- Результат: **исправлен frame**, тип не менялся.
+## Инвариант
 
-### `nen-403` — «Алиса в Стране чудес (2010)»
+Каждый `ProductionKind` отображается ровно в одну пользовательскую категорию. Автоматический тест строит четыре множества по всему каталогу, проверяет единственное членство каждого ID, нулевые попарные пересечения и объединение размером 1932.
 
-- Тип: `movie`.
-- Год и игровой frame соответствуют версии 2010 года.
-- Результат: без изменений.
-
-## Новая маршрутизация
-
-- `/cartoons`: только `animated-feature` и `animated-short`.
-- `/animated-series`: только `animated-series`.
-- `/movies`: только `movie`, `documentary`, `short-film`.
-- `/series`: только `series`.
-
-Карточки и detail-ссылки используют тот же `productionKind`, поэтому мультсериал больше не может получить маршрут фильма/мультфильма, а обычный сериал — маршрут мультсериала.
-
-## MANUAL_REVIEW
-
-Активных карточек с сохранённым сомнительным frame нет. Если для Alice 1987 позже будет найден прямой кадр из exact IMDb gallery, его следует проверять отдельно по `tt0101294`; до этого карточка намеренно остаётся без изображения.
+Frame, title, originalTitle, description, duration и остальные редакционные поля в этом проходе не изменялись.

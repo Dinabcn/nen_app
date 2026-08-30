@@ -26,11 +26,21 @@ describe("exclusive watch categories", () => {
     for (const items of Object.values(groups)) {
       for (const item of items) memberships.set(item.id, (memberships.get(item.id) ?? 0) + 1);
     }
-    expect(groups.cartoons).toHaveLength(642);
-    expect(groups["animated-series"]).toHaveLength(576);
-    expect(groups.movies).toHaveLength(663);
-    expect(groups.series).toHaveLength(51);
+    expect(groups.cartoons).toHaveLength(647);
+    expect(groups["animated-series"]).toHaveLength(590);
+    expect(groups.movies).toHaveLength(658);
+    expect(groups.series).toHaveLength(37);
     expect([...memberships.values()].every((count) => count === 1)).toBe(true);
     expect(memberships.size).toBe(1932);
+  });
+
+  it("classifies Dream Productions as an animated series only", async () => {
+    const repository = await createWatchRepository();
+    const animatedSeries = await repository.getAnimationSeries();
+    const series = await repository.getSeries();
+    const dreamProductions = animatedSeries.find((title) => title.title === "Студия сновидений" && title.year === 2024);
+
+    expect(dreamProductions?.productionKind).toBe("animated-series");
+    expect(series.some((title) => title.id === dreamProductions?.id)).toBe(false);
   });
 });

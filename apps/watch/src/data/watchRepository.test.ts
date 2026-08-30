@@ -5,10 +5,10 @@ import { StaticWatchDataSource } from "./watchDataSource";
 describe("watch repository", () => {
   it("keeps all four user-facing formats in separate queries", async () => {
     const repository = await createWatchRepository();
-    expect(await repository.getAnimationMovies()).toHaveLength(642);
-    expect(await repository.getAnimationSeries()).toHaveLength(576);
-    expect(await repository.getMovies()).toHaveLength(663);
-    expect(await repository.getSeries()).toHaveLength(51);
+    expect(await repository.getAnimationMovies()).toHaveLength(647);
+    expect(await repository.getAnimationSeries()).toHaveLength(590);
+    expect(await repository.getMovies()).toHaveLength(658);
+    expect(await repository.getSeries()).toHaveLength(37);
   });
 
   it("finds by slug and returns null for an unknown slug", async () => {
