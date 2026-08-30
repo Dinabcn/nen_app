@@ -1,0 +1,1291 @@
+{
+  "generatedAt": "2026-08-30T05:35:06.055Z",
+  "sourceCommit": "c71fe0c",
+  "reason": "NO_CONFIRMED_FRAME",
+  "before": 2072,
+  "removedCount": 140,
+  "after": 1932,
+  "framesAfter": 1932,
+  "withoutFrameAfter": 0,
+  "frameQa": {
+    "checked": 1932,
+    "passed": 1932,
+    "liveFullProbes": 745,
+    "cachedProbesRevalidated": 1187,
+    "availabilityFailures": 0,
+    "invalidMime": 0,
+    "invalidDimensions": 0,
+    "duplicateHashes": 0
+  },
+  "byKind": {
+    "animated-feature": 542,
+    "animated-series": 576,
+    "animated-short": 100,
+    "documentary": 3,
+    "movie": 626,
+    "series": 51,
+    "short-film": 34
+  },
+  "removed": [
+    {
+      "id": "nen-036",
+      "slug": "ernest-i-selestina",
+      "title": "Эрнест и Селестина",
+      "originalTitle": "Ernest et Célestine",
+      "year": 2012,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-068",
+      "slug": "kotenok-po-imeni-gav",
+      "title": "Котёнок по имени Гав",
+      "originalTitle": "Котёнок по имени Гав",
+      "year": 1976,
+      "type": "animated-short",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-069",
+      "slug": "38-popugaev",
+      "title": "38 попугаев",
+      "originalTitle": "38 попугаев",
+      "year": 1976,
+      "type": "animated-short",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-077",
+      "slug": "nensi-dryu",
+      "title": "Нэнси Дрю",
+      "originalTitle": "Nancy Drew",
+      "year": 2007,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-117",
+      "slug": "rybka-ponyo",
+      "title": "Рыбка Поньо на утёсе",
+      "originalTitle": "Gake no ue no Ponyo",
+      "year": 2008,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-118",
+      "slug": "hodyachiy-zamok",
+      "title": "Ходячий замок",
+      "originalTitle": "Hauru no ugoku shiro",
+      "year": 2004,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-119",
+      "slug": "nebesnyy-zamok-laputa",
+      "title": "Небесный замок Лапута",
+      "originalTitle": "Tenkū no shiro Rapyuta",
+      "year": 1986,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-120",
+      "slug": "navsikaya-iz-doliny-vetrov",
+      "title": "Навсикая из Долины ветров",
+      "originalTitle": "Kaze no tani no Naushika",
+      "year": 1984,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-127",
+      "slug": "oktyabrskoe-nebo",
+      "title": "Октябрьское небо",
+      "originalTitle": "October Sky",
+      "year": 1999,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-138",
+      "slug": "rozhdennyy-stat-korolem",
+      "title": "Рождённый стать королём",
+      "originalTitle": "The Kid Who Would Be King",
+      "year": 2019,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-159",
+      "slug": "kak-priruchit-drakona-2",
+      "title": "Как приручить дракона 2",
+      "originalTitle": "How to Train Your Dragon 2",
+      "year": 2014,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-161",
+      "slug": "kung-fu-panda-2",
+      "title": "Кунг-фу Панда 2",
+      "originalTitle": "Kung Fu Panda 2",
+      "year": 2011,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-164",
+      "slug": "spirit-dusha-preriy",
+      "title": "Спирит: Душа прерий",
+      "originalTitle": "Spirit: Stallion of the Cimarron",
+      "year": 2002,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-165",
+      "slug": "doroga-na-eldorado",
+      "title": "Дорога на Эльдорадо",
+      "originalTitle": "The Road to El Dorado",
+      "year": 2000,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-168",
+      "slug": "smyvaysya",
+      "title": "Смывайся!",
+      "originalTitle": "Flushed Away",
+      "year": 2006,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-173",
+      "slug": "arietti",
+      "title": "Ариэтти из страны лилипутов",
+      "originalTitle": "Karigurashi no Arrietty",
+      "year": 2010,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-175",
+      "slug": "vozvraschenie-kota",
+      "title": "Возвращение кота",
+      "originalTitle": "Neko no Ongaeshi",
+      "year": 2002,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-176",
+      "slug": "porko-rosso",
+      "title": "Порко Россо",
+      "originalTitle": "Kurenai no Buta",
+      "year": 1992,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-177",
+      "slug": "so-sklonov-kokuriko",
+      "title": "Со склонов Кокурико",
+      "originalTitle": "Kokuriko-zaka Kara",
+      "year": 2011,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-178",
+      "slug": "malchik-i-ptitsa",
+      "title": "Мальчик и птица",
+      "originalTitle": "Kimitachi wa Do Ikiru ka",
+      "year": 2023,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-179",
+      "slug": "veter-krepchaet",
+      "title": "Ветер крепчает",
+      "originalTitle": "Kaze Tachinu",
+      "year": 2013,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-181",
+      "slug": "drakon-moego-ottsa",
+      "title": "Дракон моего отца",
+      "originalTitle": "My Father's Dragon",
+      "year": 2022,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-185",
+      "slug": "dolgiy-put-na-sever",
+      "title": "Долгий путь на север",
+      "originalTitle": "Tout en haut du monde",
+      "year": 2015,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-202",
+      "slug": "goluboy-schenok",
+      "title": "Голубой щенок",
+      "originalTitle": "Голубой щенок",
+      "year": 1976,
+      "type": "animated-short",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-204",
+      "slug": "villi-vonka-i-shokoladnaya-fabrika",
+      "title": "Вилли Вонка и шоколадная фабрика",
+      "originalTitle": "Willy Wonka & the Chocolate Factory",
+      "year": 1971,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-221",
+      "slug": "chernilnoe-serdtse",
+      "title": "Чернильное сердце",
+      "originalTitle": "Inkheart",
+      "year": 2008,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-242",
+      "slug": "fantaziya",
+      "title": "Фантазия",
+      "originalTitle": "Fantasia",
+      "year": 1940,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-252",
+      "slug": "kniga-dzhungley",
+      "title": "Книга джунглей",
+      "originalTitle": "The Jungle Book",
+      "year": 1967,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-254",
+      "slug": "robin-gud",
+      "title": "Робин Гуд",
+      "originalTitle": "Robin Hood",
+      "year": 1973,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-266",
+      "slug": "tarzan",
+      "title": "Тарзан",
+      "originalTitle": "Tarzan",
+      "year": 1999,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-269",
+      "slug": "bratets-medvezhonok",
+      "title": "Братец медвежонок",
+      "originalTitle": "Brother Bear",
+      "year": 2003,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-280",
+      "slug": "muravey-antts",
+      "title": "Муравей Антц",
+      "originalTitle": "Antz",
+      "year": 1998,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-282",
+      "slug": "lesnaya-bratva",
+      "title": "Лесная братва",
+      "originalTitle": "Over the Hedge",
+      "year": 2006,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-289",
+      "slug": "boss-molokosos",
+      "title": "Босс-молокосос",
+      "originalTitle": "The Boss Baby",
+      "year": 2017,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-296",
+      "slug": "trolli-mirovoy-tur",
+      "title": "Тролли. Мировой тур",
+      "originalTitle": "Trolls World Tour",
+      "year": 2020,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-297",
+      "slug": "boss-molokosos-2",
+      "title": "Босс-молокосос 2",
+      "originalTitle": "The Boss Baby: Family Business",
+      "year": 2021,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-306",
+      "slug": "mappety",
+      "title": "Маппеты",
+      "originalTitle": "The Muppets",
+      "year": 2011,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-316",
+      "slug": "plan-igry",
+      "title": "План игры",
+      "originalTitle": "The Game Plan",
+      "year": 2007,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-325",
+      "slug": "flora-i-uliss",
+      "title": "Флора и Улисс",
+      "originalTitle": "Flora & Ulysses",
+      "year": 2021,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-341",
+      "slug": "ice-age-the-meltdown",
+      "title": "Ледниковый период 2: Глобальное потепление",
+      "originalTitle": "Ice Age: The Meltdown",
+      "year": 2006,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-345",
+      "slug": "rio",
+      "title": "Рио",
+      "originalTitle": "Rio",
+      "year": 2011,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-346",
+      "slug": "rio-2",
+      "title": "Рио 2",
+      "originalTitle": "Rio 2",
+      "year": 2014,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-352",
+      "slug": "the-lorax",
+      "title": "Лоракс",
+      "originalTitle": "The Lorax",
+      "year": 2012,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-366",
+      "slug": "the-lego-batman-movie",
+      "title": "Лего Фильм: Бэтмен",
+      "originalTitle": "The Lego Batman Movie",
+      "year": 2017,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-367",
+      "slug": "smallfoot",
+      "title": "Смолфут",
+      "originalTitle": "Smallfoot",
+      "year": 2018,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-370",
+      "slug": "happy-feet-two",
+      "title": "Делай ноги 2",
+      "originalTitle": "Happy Feet Two",
+      "year": 2011,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-377",
+      "slug": "missing-link",
+      "title": "Потерянное звено",
+      "originalTitle": "Missing Link",
+      "year": 2019,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-385",
+      "slug": "the-book-of-life",
+      "title": "Книга жизни",
+      "originalTitle": "The Book of Life",
+      "year": 2014,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-393",
+      "slug": "leo",
+      "title": "Лео",
+      "originalTitle": "Leo",
+      "year": 2023,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-397",
+      "slug": "next-gen",
+      "title": "Следующее поколение",
+      "originalTitle": "Next Gen",
+      "year": 2018,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-400",
+      "slug": "the-spongebob-squarepants-movie",
+      "title": "Губка Боб Квадратные Штаны",
+      "originalTitle": "The SpongeBob SquarePants Movie",
+      "year": 2004,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-401",
+      "slug": "mary-poppins-returns",
+      "title": "Мэри Поппинс возвращается",
+      "originalTitle": "Mary Poppins Returns",
+      "year": 2018,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-404",
+      "slug": "the-bfg",
+      "title": "Большой и добрый великан",
+      "originalTitle": "The BFG",
+      "year": 2016,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-414",
+      "slug": "harry-potter-and-the-deathly-hallows-part-2",
+      "title": "Гарри Поттер и Дары Смерти: Часть II",
+      "originalTitle": "Harry Potter and the Deathly Hallows – Part 2",
+      "year": 2011,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-419",
+      "slug": "black-beauty",
+      "title": "Чёрный красавец",
+      "originalTitle": "Black Beauty",
+      "year": 1994,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-430",
+      "slug": "spy-kids-3-d-game-over",
+      "title": "Дети шпионов 3: Игра окончена",
+      "originalTitle": "Spy Kids 3-D: Game Over",
+      "year": 2003,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-440",
+      "slug": "antoshka",
+      "title": "Антошка",
+      "originalTitle": "Антошка",
+      "year": 1969,
+      "type": "animated-short",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-443",
+      "slug": "letuchiy-korabl",
+      "title": "Летучий корабль",
+      "originalTitle": "Летучий корабль",
+      "year": 1979,
+      "type": "animated-short",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-457",
+      "slug": "krylya-nogi-i-hvosty",
+      "title": "Крылья, ноги и хвосты",
+      "originalTitle": "Крылья, ноги и хвосты",
+      "year": 1985,
+      "type": "animated-short",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-464",
+      "slug": "priklyucheniya-munzauzena",
+      "title": "Приключения Мюнхаузена",
+      "originalTitle": "Приключения Мюнхаузена",
+      "year": 1973,
+      "type": "animated-series",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-489",
+      "slug": "moya-sladkaya-monster",
+      "title": "Моя сладкая монстряшка",
+      "originalTitle": "Моя сладкая монстряшка",
+      "year": 2021,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-490",
+      "slug": "chudesnoe-puteshestvie-nilsa",
+      "title": "Чудесное путешествие Нильса",
+      "originalTitle": "Чудесное путешествие Нильса",
+      "year": 2021,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-508",
+      "slug": "mama-1976",
+      "title": "Мама",
+      "originalTitle": "Мама",
+      "year": 1976,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-510",
+      "slug": "vyshe-radugi",
+      "title": "Выше Радуги",
+      "originalTitle": "Выше Радуги",
+      "year": 1986,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-517",
+      "slug": "tochka-tochka-zapyataya",
+      "title": "Точка, точка, запятая…",
+      "originalTitle": "Точка, точка, запятая…",
+      "year": 1972,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-518",
+      "slug": "dobro-pozhalovat-ili-postoronnim-vhod-vospreschen",
+      "title": "Добро пожаловать, или Посторонним вход воспрещён",
+      "originalTitle": "Добро пожаловать, или Посторонним вход воспрещён",
+      "year": 1964,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-521",
+      "slug": "deniskiny-rasskazy",
+      "title": "Денискины рассказы",
+      "originalTitle": "Денискины рассказы",
+      "year": 1970,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-522",
+      "slug": "fantazii-vesnuhina",
+      "title": "Фантазии Веснухина",
+      "originalTitle": "Фантазии Веснухина",
+      "year": 1977,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-526",
+      "slug": "tayna-zheleznoy-dveri",
+      "title": "Тайна железной двери",
+      "originalTitle": "Тайна железной двери",
+      "year": 1970,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-529",
+      "slug": "lilovyy-shar",
+      "title": "Лиловый шар",
+      "originalTitle": "Лиловый шар",
+      "year": 1987,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-539",
+      "slug": "moy-papa-vozhd",
+      "title": "Мой папа — вождь",
+      "originalTitle": "Мой папа — вождь",
+      "year": 2022,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-543",
+      "slug": "nashi-sosedi-yamada",
+      "title": "Наши соседи Ямада",
+      "originalTitle": "Hōhokekyo tonari no Yamada-kun",
+      "year": 1999,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-545",
+      "slug": "vospominaniya-o-marni",
+      "title": "Воспоминания о Марни",
+      "originalTitle": "Omoide no Mānī",
+      "year": 2014,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-547",
+      "slug": "aya-i-vedma",
+      "title": "Ая и ведьма",
+      "originalTitle": "Āya to Majo",
+      "year": 2020,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-551",
+      "slug": "letnie-voiny",
+      "title": "Летние войны",
+      "originalTitle": "Samā Wōzu",
+      "year": 2009,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-554",
+      "slug": "gostinitsa-okko",
+      "title": "Гостиница Окко",
+      "originalTitle": "Waka Okami wa Shōgakusei!",
+      "year": 2018,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-556",
+      "slug": "strana-chudes",
+      "title": "Страна чудес",
+      "originalTitle": "Birthday Wonderland",
+      "year": 2019,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-557",
+      "slug": "ditya-pogody",
+      "title": "Дитя погоды",
+      "originalTitle": "Tenki no Ko",
+      "year": 2019,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-558",
+      "slug": "patema-naoborot",
+      "title": "Патэма наоборот",
+      "originalTitle": "Sakasama no Patema",
+      "year": 2013,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-559",
+      "slug": "ostrov-dzhovanni",
+      "title": "Остров Джованни",
+      "originalTitle": "Giovanni no Shima",
+      "year": 2014,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-560",
+      "slug": "odinokii-zamok-v-zazerkale",
+      "title": "Одинокий замок в Зазеркалье",
+      "originalTitle": "Kagami no Kojō",
+      "year": 2022,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-561",
+      "slug": "aprel-i-neobyknovennyi-mir",
+      "title": "Апрель и необыкновенный мир",
+      "originalTitle": "Avril et le Monde truqué",
+      "year": 2015,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-567",
+      "slug": "titina",
+      "title": "Титина",
+      "originalTitle": "Titina",
+      "year": 2022,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-581",
+      "slug": "nechzha",
+      "title": "Нэчжа",
+      "originalTitle": "Ne Zha zhi mo tong jiang shi",
+      "year": 2019,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-584",
+      "slug": "ya-to-chto-ya-est",
+      "title": "Я — то, что я есть",
+      "originalTitle": "Xiong Shi Shao Nian",
+      "year": 2021,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-585",
+      "slug": "lifi-kurochka-v-dikoi-prirode",
+      "title": "Лифи, курочка в дикой природе",
+      "originalTitle": "Madangeul Naon Amtak",
+      "year": 2011,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-586",
+      "slug": "iobi-pyatihvostaya-lisa",
+      "title": "Йоби, пятихвостая лиса",
+      "originalTitle": "Cheon-nyeon-yeowoo Yeowoobi",
+      "year": 2007,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-587",
+      "slug": "sputnikovaya-devushka-i-molochnaya-korova",
+      "title": "Спутниковая девушка и молочная корова",
+      "originalTitle": "Wooribyeol Ilho-wa Eollukso",
+      "year": 2014,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-588",
+      "slug": "oseam",
+      "title": "Осеам",
+      "originalTitle": "Oseam",
+      "year": 2003,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-593",
+      "slug": "neveroyatnaya-taina-lulu",
+      "title": "Невероятная тайна Лулу",
+      "originalTitle": "Loulou, l'incroyable secret",
+      "year": 2013,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-595",
+      "slug": "yakob-mimi-i-govoryaschie-sobaki",
+      "title": "Якоб, Мими и говорящие собаки",
+      "originalTitle": "Jēkabs, Mimmi un runājošie suņi",
+      "year": 2019,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-610",
+      "slug": "si-dzhei-7",
+      "title": "Си-Джей 7",
+      "originalTitle": "Cheung Gong 7 hou",
+      "year": 2008,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-611",
+      "slug": "korol-masok",
+      "title": "Король масок",
+      "originalTitle": "Bian Lian",
+      "year": 1995,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-612",
+      "slug": "ni-odnim-menshe",
+      "title": "Ни одним меньше",
+      "originalTitle": "Yi ge dou bu neng shao",
+      "year": 1999,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-613",
+      "slug": "malenkiy-bolshoy-master",
+      "title": "Маленький большой мастер",
+      "originalTitle": "Little Big Master",
+      "year": 2015,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-615",
+      "slug": "sving-gerlz",
+      "title": "Свинг-гёрлз",
+      "originalTitle": "Swing Girls",
+      "year": 2004,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-628",
+      "slug": "deti-iz-byullerbyu",
+      "title": "Дети из Бюллербю",
+      "originalTitle": "Alla vi barn i Bullerbyn",
+      "year": 1986,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-633",
+      "slug": "malchik",
+      "title": "Мальчик",
+      "originalTitle": "Boy",
+      "year": 2010,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-635",
+      "slug": "kubok",
+      "title": "Кубок",
+      "originalTitle": "Phörpa",
+      "year": 1999,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-643",
+      "slug": "hotel-transylvania-2-2015",
+      "title": "Монстры на каникулах 2",
+      "originalTitle": "Hotel Transylvania 2",
+      "year": 2015,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-647",
+      "slug": "minions-the-rise-of-gru-2022",
+      "title": "Миньоны: Грювитация",
+      "originalTitle": "Minions: The Rise of Gru",
+      "year": 2022,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-648",
+      "slug": "dc-league-of-super-pets-2022",
+      "title": "DC Лига Суперпитомцы",
+      "originalTitle": "DC League of Super-Pets",
+      "year": 2022,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-650",
+      "slug": "open-season-2006",
+      "title": "Сезон охоты",
+      "originalTitle": "Open Season",
+      "year": 2006,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-654",
+      "slug": "carmen-sandiego-2019",
+      "title": "Кармен Сандиего",
+      "originalTitle": "Carmen Sandiego",
+      "year": 2019,
+      "type": "animated-series",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-658",
+      "slug": "gravity-falls-2012",
+      "title": "Гравити Фолз",
+      "originalTitle": "Gravity Falls",
+      "year": 2012,
+      "type": "animated-series",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-665",
+      "slug": "descendants-2015",
+      "title": "Наследники",
+      "originalTitle": "Descendants",
+      "year": 2015,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-672",
+      "slug": "a-cinderella-story-2004",
+      "title": "История Золушки",
+      "originalTitle": "A Cinderella Story",
+      "year": 2004,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-678",
+      "slug": "glory-road-2006",
+      "title": "Игра по чужим правилам",
+      "originalTitle": "Glory Road",
+      "year": 2006,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-679",
+      "slug": "air-bud-1997",
+      "title": "Аир Бад",
+      "originalTitle": "Air Bud",
+      "year": 1997,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-689",
+      "slug": "yes-day-2021",
+      "title": "День «да»",
+      "originalTitle": "Yes Day",
+      "year": 2021,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-699",
+      "slug": "penguins-of-madagascar-2014",
+      "title": "Пингвины Мадагаскара",
+      "originalTitle": "Penguins of Madagascar",
+      "year": 2014,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-702",
+      "slug": "dog-man-2025",
+      "title": "Догмен: Пушистая справедливость",
+      "originalTitle": "Dog Man",
+      "year": 2025,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-711",
+      "slug": "rock-dog-2-rock-around-the-park-2021",
+      "title": "Рок Дог 2",
+      "originalTitle": "Rock Dog 2: Rock Around the Park",
+      "year": 2021,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-713",
+      "slug": "the-nut-job-2014",
+      "title": "Реальная белка",
+      "originalTitle": "The Nut Job",
+      "year": 2014,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-716",
+      "slug": "uglydolls-2019",
+      "title": "UglyDolls. Куклы с характером",
+      "originalTitle": "UglyDolls",
+      "year": 2019,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-727",
+      "slug": "the-spongebob-movie-sponge-on-the-run-2020",
+      "title": "Губка Боб в бегах",
+      "originalTitle": "The SpongeBob Movie: Sponge on the Run",
+      "year": 2020,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-730",
+      "slug": "the-angry-birds-movie-2-2019",
+      "title": "Angry Birds 2 в кино",
+      "originalTitle": "The Angry Birds Movie 2",
+      "year": 2019,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-733",
+      "slug": "the-loud-house-movie-2021",
+      "title": "Мой шумный дом: Фильм",
+      "originalTitle": "The Loud House Movie",
+      "year": 2021,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-736",
+      "slug": "underdog-2007",
+      "title": "Суперпёс",
+      "originalTitle": "Underdog",
+      "year": 2007,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-737",
+      "slug": "race-to-space-2001",
+      "title": "Гонка в космос",
+      "originalTitle": "Race to Space",
+      "year": 2001,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-doc-earth-one-day-2017",
+      "slug": "zemlya-odin-potryasayushchiy-den-2017",
+      "title": "Земля: Один потрясающий день",
+      "originalTitle": "Earth: One Amazing Day",
+      "year": 2017,
+      "type": "documentary",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-doc-march-penguins-2005",
+      "slug": "marsh-pingvinov-2005",
+      "title": "Марш пингвинов",
+      "originalTitle": "La Marche de l'empereur",
+      "year": 2005,
+      "type": "documentary",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-wd-q1019086",
+      "slug": "wikidata-q1019086",
+      "title": "Беренбургские россказни",
+      "originalTitle": "Bärenburger Schnurre",
+      "year": 1957,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-wd-q10367358",
+      "slug": "wikidata-q10367358",
+      "title": "Сэм и я",
+      "originalTitle": "Samy y yo",
+      "year": 2002,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-wd-q109015317",
+      "slug": "wikidata-q109015317",
+      "title": "Тоби и магическая книга",
+      "originalTitle": "Tobi y el libro mágico",
+      "year": 2001,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-wd-q1196813",
+      "slug": "wikidata-q1196813",
+      "title": "Клятва в Рабенхорсте",
+      "originalTitle": "Der Schwur von Rabenhorst",
+      "year": 1987,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-wd-q1199256",
+      "slug": "wikidata-q1199256",
+      "title": "Маленький Мук",
+      "originalTitle": "Der kleine Muck",
+      "year": 1944,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-wd-q1211964",
+      "slug": "wikidata-q1211964",
+      "title": "Чертополох",
+      "originalTitle": "Die Distel",
+      "year": 1992,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-wd-q1215510",
+      "slug": "wikidata-q1215510",
+      "title": "Принцесса и Свинопас",
+      "originalTitle": "Die Prinzessin und der Schweinehirt",
+      "year": 1953,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-wd-q1477043",
+      "slug": "wikidata-q1477043",
+      "title": "Малыш по прозвищу «Призрак»",
+      "originalTitle": "Phantom Kid",
+      "year": 1977,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-wd-q15851310",
+      "slug": "wikidata-q15851310",
+      "title": "Ядовитый",
+      "originalTitle": "Toxic",
+      "year": 1990,
+      "type": "animated-short",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-wd-q16582948",
+      "slug": "wikidata-q16582948",
+      "title": "Приключения Оливера Твиста",
+      "originalTitle": "Las aventuras de Oliver Twist",
+      "year": 1987,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-wd-q21032627",
+      "slug": "wikidata-q21032627",
+      "title": "Пророчество Алхамбра",
+      "originalTitle": "El embrujo del sur",
+      "year": 2003,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-wd-q2646975",
+      "slug": "wikidata-q2646975",
+      "title": "Алиса в Зазеркалье",
+      "originalTitle": "Alice Through the Looking Glass",
+      "year": 1987,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-wd-q2832409",
+      "slug": "wikidata-q2832409",
+      "title": "Счастливые каникулы",
+      "originalTitle": "Alegres vacaciones",
+      "year": 1948,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-wd-q39663634",
+      "slug": "wikidata-q39663634",
+      "title": "Красотка",
+      "originalTitle": "Beautiful Girl",
+      "year": 2015,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-wd-q48773664",
+      "slug": "wikidata-q48773664",
+      "title": "Приключения Шерлока Холмса: Этюд в багровых тонах",
+      "originalTitle": "Sherlock Holmes and a Study in Scarlet",
+      "year": 1983,
+      "type": "animated-feature",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-wd-q50414259",
+      "slug": "wikidata-q50414259",
+      "title": "Из Остина в Бостон",
+      "originalTitle": "Austin to Boston",
+      "year": 2014,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-wd-q64167484",
+      "slug": "wikidata-q64167484",
+      "title": "Домашнее кино",
+      "originalTitle": "Home Movie",
+      "year": 2013,
+      "type": "short-film",
+      "reason": "NO_CONFIRMED_FRAME"
+    },
+    {
+      "id": "nen-wd-q7881964",
+      "slug": "wikidata-q7881964",
+      "title": "Слоненок цвета мечты",
+      "originalTitle": "Un elefante color ilusión",
+      "year": 1970,
+      "type": "movie",
+      "reason": "NO_CONFIRMED_FRAME"
+    }
+  ]
+}

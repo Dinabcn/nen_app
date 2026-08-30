@@ -5,9 +5,9 @@ import { StaticWatchDataSource } from "./watchDataSource";
 describe("watch repository", () => {
   it("keeps all four user-facing formats in separate queries", async () => {
     const repository = await createWatchRepository();
-    expect(await repository.getAnimationMovies()).toHaveLength(728);
-    expect(await repository.getAnimationSeries()).toHaveLength(579);
-    expect(await repository.getMovies()).toHaveLength(714);
+    expect(await repository.getAnimationMovies()).toHaveLength(642);
+    expect(await repository.getAnimationSeries()).toHaveLength(576);
+    expect(await repository.getMovies()).toHaveLength(663);
     expect(await repository.getSeries()).toHaveLength(51);
   });
 
@@ -27,7 +27,8 @@ describe("watch repository", () => {
     const repository = await createWatchRepository();
     const items = [...await repository.getAnimationMovies(), ...await repository.getAnimationSeries(), ...await repository.getMovies(), ...await repository.getSeries()];
     const serviceMarker = /(?:^|[-_])(demo|test|sample)(?:[-_]|$)|демонстрацион|тестов/iu;
-    expect(items).toHaveLength(2072);
+    expect(items).toHaveLength(1932);
+    expect(items.every((item) => /^https?:\/\//.test(item.frame?.url ?? ""))).toBe(true);
     expect(items.some((item) => serviceMarker.test([
       item.id, item.slug, item.title, item.shortDescription, item.whyRecommended, item.nenAgeRecommendation.rationale,
     ].join(" ")))).toBe(false);
@@ -46,8 +47,7 @@ describe("watch repository", () => {
     const lookingGlass = await repository.getBySlug("wikidata-q2646975");
     expect(disney?.productionKind).toBe("animated-feature");
     expect(disney?.frame?.url).toContain("disneyanimation.com/uploads/films/alice-in-wonderland/");
-    expect(lookingGlass?.productionKind).toBe("animated-feature");
-    expect(lookingGlass?.frame).toBeUndefined();
+    expect(lookingGlass).toBeNull();
   });
 
   it("builds filter dictionaries for one content type", async () => {

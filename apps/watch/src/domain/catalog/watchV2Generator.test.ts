@@ -23,6 +23,7 @@ const record = (id: string, kind: "movie" | "animated-feature" | "animated-short
   sensitiveTopics: [],
   nenAgeRecommendation: { minAge: 8, maxAge: 14, rationale: "Темп, сюжет и эмоциональная нагрузка подходят детям указанного возраста." },
   officialRating: { value: "6+", sourceUrl: "https://example.org/rating" },
+  frame: { url: `https://example.org/${id}-frame.jpg` },
 });
 
 describe("watch-v2 production generator", () => {

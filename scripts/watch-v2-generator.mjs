@@ -63,12 +63,10 @@ function validateRecord(record, index) {
     if (!RATINGS.has(record.officialRating.value)) add("officialRating.value", "допустимы только 0+, 6+, 12+, 16+, 18+");
     if (!isHttpUrl(record.officialRating.sourceUrl)) add("officialRating.sourceUrl", "обязателен HTTP(S)-источник");
   }
-  if (record.frame !== undefined) {
-    if (!isRecord(record.frame)) add("frame", "ожидается объект");
-    else {
-      if (!isHttpUrl(record.frame.url)) add("frame.url", "нужен HTTP(S)-адрес изображения");
-      if (record.frame.studios !== undefined && !textArray(record.frame.studios)) add("frame.studios", "если поле задано, нужен непустой список студий производства");
-    }
+  if (!isRecord(record.frame)) add("frame", "подтверждённый кадр обязателен");
+  else {
+    if (!isHttpUrl(record.frame.url)) add("frame.url", "нужен HTTP(S)-адрес изображения");
+    if (record.frame.studios !== undefined && !textArray(record.frame.studios)) add("frame.studios", "если поле задано, нужен непустой список студий производства");
   }
   if (record.awards !== undefined && (!Array.isArray(record.awards) || record.awards.length === 0 || record.awards.some((award) => !isRecord(award) || !isText(award.title)))) add("awards", "ожидается непустой список наград");
   if (record.studios !== undefined && !textArray(record.studios)) add("studios", "ожидается непустой список студий");

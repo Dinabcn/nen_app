@@ -85,7 +85,7 @@ interface WatchV2Base {
   sensitiveTopics: string[];
   nenAgeRecommendation: WatchV2NenAgeRecommendation;
   officialRating?: WatchV2OfficialRating;
-  frame?: WatchV2Frame;
+  frame: WatchV2Frame;
   awards?: WatchV2Award[];
   studios?: string[];
   relatedTitles?: string[];

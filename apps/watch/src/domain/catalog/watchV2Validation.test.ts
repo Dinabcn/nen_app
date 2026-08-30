@@ -22,6 +22,7 @@ const fullRecord: WatchV2Title = {
   sensitiveTopics: ["превращение родителей", "пугающие существа"],
   nenAgeRecommendation: { minAge: 8, maxAge: 14, rationale: "Сложный образный сюжет и несколько тревожных сцен требуют обсуждения со взрослым." },
   officialRating: { value: "12+", sourceUrl: "https://example.org/official-rating", sourceTitle: "Карточка российского релиза" },
+  frame: { url: "https://example.org/spirited-away-frame.jpg" },
 };
 
 const minimalRecord: WatchV2Title = {
@@ -43,6 +44,7 @@ const minimalRecord: WatchV2Title = {
   mood: ["вдумчивое"],
   sensitiveTopics: [],
   nenAgeRecommendation: { minAge: 8, rationale: "Сюжет и эмоциональная нагрузка подходят детям от восьми лет." },
+  frame: { url: "https://example.org/minimal-frame.jpg" },
 };
 
 describe("watch-v2 model", () => {
@@ -88,7 +90,7 @@ describe("watch-v2 model", () => {
     })).toEqual([]);
   });
 
-  it("supports documentary films and validates optional frames", () => {
+  it("requires and validates a confirmed frame", () => {
     expect(validateWatchV2Record({
       ...minimalRecord,
       kind: "documentary",
@@ -99,6 +101,8 @@ describe("watch-v2 model", () => {
       ...minimalRecord,
       frame: { url: "not-a-url", studios: [] },
     }).map((issue) => issue.field)).toEqual(expect.arrayContaining(["frame.url", "frame.studios"]));
+    const { frame: _frame, ...withoutFrame } = minimalRecord;
+    expect(validateWatchV2Record(withoutFrame).map((issue) => issue.field)).toContain("frame");
   });
 
   it("rejects removed statuses and metadata registries", () => {

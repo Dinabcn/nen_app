@@ -86,7 +86,7 @@ export function validateWatchV2Record(value: unknown): WatchV2Issue[] {
     if (value.officialRating.sourceTitle !== undefined && !nonEmptyString(value.officialRating.sourceTitle)) add("officialRating.sourceTitle", "Если поле задано, оно не должно быть пустым");
   }
 
-  if (value.frame !== undefined && !isRecord(value.frame)) add("frame", "Если кадр задан, ожидается объект с URL изображения");
+  if (!isRecord(value.frame)) add("frame", "Подтверждённый кадр обязателен");
   else if (isRecord(value.frame)) {
     if (Object.keys(value.frame).some((key) => !["url", "studios"].includes(key))) add("frame", "Для кадра допустимы только url и studios");
     if (!httpUrl(value.frame.url)) add("frame.url", "Требуется HTTP(S)-адрес изображения");
