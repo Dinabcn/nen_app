@@ -1,5 +1,6 @@
 import type { Cartoon, ContentType, FilterDictionary, Movie, WatchTitle } from "../domain/catalog/types";
 import { isCartoon, validateCatalog, type ValidationIssue } from "../domain/catalog/validation";
+import { belongsToCategory } from "../domain/catalog/category";
 import { StaticWatchDataSource, type WatchDataSource } from "./watchDataSource";
 
 export class CatalogValidationError extends Error {
@@ -31,19 +32,19 @@ export class InMemoryWatchRepository implements WatchRepository {
   }
 
   async getAnimationMovies() {
-    return this.items.filter((item): item is Cartoon => isCartoon(item) && item.productionKind !== "animated-series");
+    return this.items.filter((item): item is Cartoon => isCartoon(item) && belongsToCategory(item, "cartoons"));
   }
 
   async getAnimationSeries() {
-    return this.items.filter((item): item is Cartoon => isCartoon(item) && item.productionKind === "animated-series");
+    return this.items.filter((item): item is Cartoon => isCartoon(item) && belongsToCategory(item, "animated-series"));
   }
 
   async getMovies() {
-    return this.items.filter((item): item is Movie => item.contentType === "movie" && item.productionKind !== "series");
+    return this.items.filter((item): item is Movie => item.contentType === "movie" && belongsToCategory(item, "movies"));
   }
 
   async getSeries() {
-    return this.items.filter((item): item is Movie => item.contentType === "movie" && item.productionKind === "series");
+    return this.items.filter((item): item is Movie => item.contentType === "movie" && belongsToCategory(item, "series"));
   }
 
   async getBySlug(slug: string) {

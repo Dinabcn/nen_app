@@ -1,4 +1,5 @@
 import type { WatchTitle } from "./types";
+import { belongsToCategory, type WatchCategory } from "./category";
 
 export type SeriesCategory = "all" | "live-action" | "animated" | "documentary" | "educational";
 
@@ -9,12 +10,15 @@ export interface SeriesCatalogFilters {
   country: string;
 }
 
-export const isSeriesTitle = (title: WatchTitle) => title.releaseForm === "series";
+type SeriesSection = Extract<WatchCategory, "animated-series" | "series">;
 
-export function filterSeriesTitles(titles: readonly WatchTitle[], filters: SeriesCatalogFilters): WatchTitle[] {
+export const isSeriesTitle = (title: WatchTitle, section: SeriesSection) =>
+  title.releaseForm === "series" && belongsToCategory(title, section);
+
+export function filterSeriesTitles(titles: readonly WatchTitle[], filters: SeriesCatalogFilters, section: SeriesSection): WatchTitle[] {
   const query = filters.query.trim().toLocaleLowerCase("ru");
   return titles.filter((title) => {
-    if (!isSeriesTitle(title)) return false;
+    if (!isSeriesTitle(title, section)) return false;
     if (filters.category === "animated" && title.productionKind !== "animated-series") return false;
     if (filters.category === "live-action" && title.productionKind !== "series") return false;
     if (filters.category === "documentary" && !title.genres.includes("документальный")) return false;

@@ -45,7 +45,7 @@ export function SeriesPage({ seriesKind, titles, search, favorites, toggleFavori
   navigate: Navigate;
 }) {
   const filters = useMemo(() => readFilters(search), [search]);
-  const series = useMemo(() => filterSeriesTitles(titles, filters), [titles, filters]);
+  const series = useMemo(() => filterSeriesTitles(titles, filters, seriesKind), [titles, filters, seriesKind]);
   const isAnimated = seriesKind === "animated-series";
   const countries = useMemo(
     () => [...new Set(titles.filter((title) => title.releaseForm === "series").flatMap((title) => title.country))]
