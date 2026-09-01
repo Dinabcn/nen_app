@@ -7,6 +7,15 @@ type ShareNavigator = {
   share?: (data: ShareData) => Promise<void>;
 };
 
+export const currentPageShareUrl = (location: Pick<Location, "origin" | "pathname" | "search">) =>
+  new URL(`${location.pathname}${location.search}`, location.origin).toString();
+
+export const detailShareData = (title: WatchTitle, origin: string): ShareData => ({
+  title: title.title,
+  text: `Посмотри, что можно посмотреть с ребёнком: ${title.title}`,
+  url: new URL(detailHref(title), origin).toString(),
+});
+
 async function copyToClipboard(value: string) {
   if (navigator.clipboard?.writeText) {
     await navigator.clipboard.writeText(value);
@@ -45,23 +54,38 @@ export async function shareWork(
   }
 }
 
-export function ShareButton({ title }: { title: WatchTitle }) {
+function ShareControl({ label, ariaLabel, data }: { label: string; ariaLabel: string; data: () => ShareData }) {
   const [status, setStatus] = useState("");
 
   const handleShare = async () => {
-    const url = new URL(detailHref(title), window.location.origin).toString();
-    const outcome = await shareWork({
-      title: title.title,
-      text: `${title.title} — каталог фильмов и сериалов НЭН`,
-      url,
-    }, navigator);
+    const outcome = await shareWork(data(), navigator);
     setStatus(outcome === "copied" ? "Ссылка скопирована" : outcome === "failed" ? "Не удалось скопировать ссылку" : "");
   };
 
   return <div className="share-control">
-    <button className="share-button" type="button" onClick={handleShare} aria-label={`Поделиться «${title.title}»`}>
-      ↗ Поделиться
+    <button className="share-button" type="button" onClick={handleShare} aria-label={ariaLabel}>
+      ↗ {label}
     </button>
     <span className="share-status" role="status" aria-live="polite">{status}</span>
   </div>;
+}
+
+export function ShareButton({ title }: { title: WatchTitle }) {
+  return <ShareControl
+    label="Поделиться"
+    ariaLabel={`Поделиться «${title.title}»`}
+    data={() => detailShareData(title, window.location.origin)}
+  />;
+}
+
+export function CollectionShareButton({ sectionTitle }: { sectionTitle: string }) {
+  return <ShareControl
+    label="Поделиться подборкой"
+    ariaLabel={`Поделиться подборкой «${sectionTitle}»`}
+    data={() => ({
+      title: `Подборка: ${sectionTitle}`,
+      text: "Вот подборка фильмов и мультфильмов для детей",
+      url: currentPageShareUrl(window.location),
+    })}
+  />;
 }

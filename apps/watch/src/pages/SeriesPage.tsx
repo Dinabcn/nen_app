@@ -3,6 +3,7 @@ import type { Navigate } from "../components/Link";
 import { MediaCard } from "../components/MediaCard";
 import { filterSeriesTitles, type SeriesCatalogFilters, type SeriesCategory } from "../domain/catalog/series";
 import type { ProductionKind, WatchTitle } from "../domain/catalog/types";
+import { CollectionShareButton } from "../components/ShareButton";
 
 const categories: Array<[SeriesCategory, string]> = [
   ["all", "Все сериалы"],
@@ -12,7 +13,7 @@ const categories: Array<[SeriesCategory, string]> = [
   ["educational", "Образовательные"],
 ];
 
-const readFilters = (search: string): SeriesCatalogFilters => {
+export const readSeriesFilters = (search: string): SeriesCatalogFilters => {
   const params = new URLSearchParams(search);
   const categoryValue = params.get("type");
   const category = categories.some(([value]) => value === categoryValue) ? categoryValue as SeriesCategory : "all";
@@ -26,7 +27,7 @@ const readFilters = (search: string): SeriesCatalogFilters => {
   };
 };
 
-const serializeFilters = (filters: SeriesCatalogFilters) => {
+export const serializeSeriesFilters = (filters: SeriesCatalogFilters) => {
   const params = new URLSearchParams();
   if (filters.query.trim()) params.set("q", filters.query.trim());
   if (filters.category !== "all") params.set("type", filters.category);
@@ -44,7 +45,7 @@ export function SeriesPage({ seriesKind, titles, search, favorites, toggleFavori
   toggleFavorite: (id: string) => void;
   navigate: Navigate;
 }) {
-  const filters = useMemo(() => readFilters(search), [search]);
+  const filters = useMemo(() => readSeriesFilters(search), [search]);
   const series = useMemo(() => filterSeriesTitles(titles, filters, seriesKind), [titles, filters, seriesKind]);
   const isAnimated = seriesKind === "animated-series";
   const countries = useMemo(
@@ -53,7 +54,7 @@ export function SeriesPage({ seriesKind, titles, search, favorites, toggleFavori
     [titles],
   );
   const pathname = isAnimated ? "/animated-series" : "/series";
-  const update = (next: SeriesCatalogFilters) => navigate(`${pathname}${serializeFilters(next)}`);
+  const update = (next: SeriesCatalogFilters) => navigate(`${pathname}${serializeSeriesFilters(next)}`);
   const visibleCategories = categories.filter(([value]) => value !== (isAnimated ? "live-action" : "animated"));
 
   return <div className="page catalog-page">
@@ -81,7 +82,7 @@ export function SeriesPage({ seriesKind, titles, search, favorites, toggleFavori
       </div>
     </section>
     <section className="results" aria-live="polite">
-      <div className="section-heading"><div><p className="eyebrow">Результаты</p><h2>Найдено: {series.length}</h2></div></div>
+      <div className="section-heading results-heading"><div><p className="eyebrow">Результаты</p><h2>Найдено: {series.length}</h2></div><CollectionShareButton sectionTitle={isAnimated ? "Мультсериалы" : "Сериалы"} /></div>
       {series.length
         ? <div className="media-grid">{series.map((title) => <MediaCard key={title.id} title={title} favorite={favorites.includes(title.id)} toggleFavorite={toggleFavorite} navigate={navigate} />)}</div>
         : <div className="notice empty"><strong>Подходящих сериалов не найдено</strong><p>Попробуйте изменить запрос, возраст или выбранный тип.</p></div>}

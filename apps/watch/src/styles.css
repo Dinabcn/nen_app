@@ -152,6 +152,8 @@ main { min-height: calc(100vh - 140px); padding-bottom: 76px; }
 .detail-actions { margin-top: 24px; display: flex; flex-wrap: wrap; align-items: flex-start; gap: 10px; }
 .share-control { display: grid; gap: 5px; }
 .share-status { min-height: 1.2em; color: var(--nen-muted); font-size: .72rem; }
+.results-heading .share-control { flex: 0 0 auto; }
+.results-heading .share-button { min-height: 44px; padding: 10px 14px; font-size: .78rem; }
 .poster-placeholder.large, .media-frame.large { overflow: hidden; border-radius: var(--nen-radius-lg); box-shadow: var(--nen-shadow); }
 .poster-placeholder.large { min-height: 340px; }
 .original-title { margin-top: -5px; color: var(--nen-muted); }
@@ -179,6 +181,11 @@ main { min-height: calc(100vh - 140px); padding-bottom: 76px; }
   .detail-actions { align-items: stretch; flex-direction: column; }
   .detail-actions > *, .share-button { width: 100%; }
   .section-heading > .text-link { display: none; }
+  .entry-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .entry-card { min-height: 160px; padding: 18px; }
+  .entry-card strong { font-size: clamp(1rem, 4.3vw, 1.2rem); }
+  .results-heading { align-items: stretch; flex-direction: column; }
+  .results-heading .share-control, .results-heading .share-button { width: 100%; }
 }
 @media (min-width: 600px) {
   .app-header, .page { padding-left: 28px; padding-right: 28px; }
