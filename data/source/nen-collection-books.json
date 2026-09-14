@@ -3381,6 +3381,157 @@
         ]
       },
       "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-brakovannye-princessy-korolevstva-fiens-dasha-chekalova",
+      "slug": "nen-collection-brakovannye-princessy-korolevstva-fiens-dasha-chekalova",
+      "title": "Бракованные принцессы королевства Фьенс",
+      "authors": [
+        "Даша Чекалова"
+      ],
+      "publisher": "Пять четвертей",
+      "publicationYear": 2023,
+      "pages": 176,
+      "seriesName": "Понарошку",
+      "isbn13": "9785907362727",
+      "identificationStatus": "identified",
+      "shortDescription": "В королевстве Фьенс принцесс, не соответствующих строгим стандартам, отправляют в замок в Секретном лесу. Гигантелла и её новые подруги решают не мириться с несправедливостью и добиваться права самим выбирать своё будущее.",
+      "fullDescription": "В королевстве Фьенс принцесс, не соответствующих строгим стандартам, отправляют в замок в Секретном лесу. Гигантелла и её новые подруги решают не мириться с несправедливостью и добиваться права самим выбирать своё будущее.",
+      "ageMin": 6,
+      "ageMax": 10,
+      "readingMode": "both",
+      "bookFormats": [
+        "повесть"
+      ],
+      "genres": [
+        "фэнтези"
+      ],
+      "themes": [
+        "принятие себя",
+        "инклюзия",
+        "смелость",
+        "волшебство"
+      ],
+      "lifeSituations": [
+        "трудности с дружбой",
+        "совместное семейное обсуждение"
+      ],
+      "emotionalStates": [
+        "не уверен в себе",
+        "нуждается в поддержке"
+      ],
+      "moods": [
+        "смешное",
+        "трогательное"
+      ],
+      "languageDifficulty": "medium",
+      "lengthCategory": "medium",
+      "language": "ru",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": true,
+      "cover": {
+        "kind": "external",
+        "url": "https://imo10.labirint.ru/books/918479/cover.jpg/484-0",
+        "rightsStatus": "external-display-only",
+        "sourceName": "Книжный магазин «Лабиринт»",
+        "sourcePageUrl": "https://www.labirint.ru/books/918479/",
+        "isbn13": "9785907362727",
+        "temporary": true,
+        "attribution": "Обложка: книжный магазин «Лабиринт».",
+        "verifiedAt": "2026-09-14"
+      },
+      "officialAgeRating": "6+",
+      "officialAgeRatingSource": "https://www.labirint.ru/books/918479/",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/brakovannyie-princessyi/",
+        "method": "independent_factual_description",
+        "verifiedAt": "2026-09-14",
+        "copiedVerbatim": false
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/brakovannyie-princessyi/",
+        "https://www.labirint.ru/books/918479/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/brakovannyie-princessyi/"
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-moy-rebenok-menya-ne-slyshit-anna-kuhareva",
+      "slug": "nen-collection-moy-rebenok-menya-ne-slyshit-anna-kuhareva",
+      "title": "Мой ребенок меня не слышит. Как общаться без криков и чувства вины. От 3 до 10 лет",
+      "authors": [
+        "Анна Кухарева"
+      ],
+      "publisher": "БОМБОРА",
+      "publicationYear": 2026,
+      "pages": 176,
+      "seriesName": "И что мне делать? Ответы экспертов для родителей",
+      "isbn13": "9785042420627",
+      "identificationStatus": "identified",
+      "shortDescription": "Практическая книга для родителей детей от трёх до десяти лет о том, как сохранять контакт в периоды истерик, конфликтов и возрастных кризисов. Анна Кухарева соединяет реальные семейные истории, понятные объяснения и бережные рекомендации по общению.",
+      "fullDescription": "Практическая книга для родителей детей от трёх до десяти лет о том, как сохранять контакт в периоды истерик, конфликтов и возрастных кризисов. Анна Кухарева соединяет реальные семейные истории, понятные объяснения и бережные рекомендации по общению.",
+      "ageMin": 3,
+      "ageMax": 10,
+      "readingMode": "independent",
+      "bookFormats": [
+        "иллюстрированный нон-фикшн"
+      ],
+      "genres": [
+        "научно-популярная литература"
+      ],
+      "themes": [
+        "семья",
+        "отношения",
+        "эмоции"
+      ],
+      "lifeSituations": [
+        "семейный конфликт",
+        "совместное семейное обсуждение"
+      ],
+      "emotionalStates": [
+        "злится",
+        "устал или перегружен",
+        "нуждается в поддержке"
+      ],
+      "moods": [
+        "познавательное"
+      ],
+      "languageDifficulty": "medium",
+      "lengthCategory": "medium",
+      "language": "ru",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": true,
+      "cover": {
+        "kind": "external",
+        "url": "https://cdn.eksmo.ru/v2/ITD000000001490427/COVER/cover1__w820.jpg",
+        "rightsStatus": "external-display-only",
+        "sourceName": "Эксмо",
+        "sourcePageUrl": "https://eksmo.ru/book/kommunikatsiya-s-rebenkom-metodom-prob-i-oshibok-u-n--ITD1490427/",
+        "isbn13": "9785042420627",
+        "temporary": true,
+        "attribution": "Обложка предоставлена издательством.",
+        "verifiedAt": "2026-09-14"
+      },
+      "officialAgeRating": "16+",
+      "officialAgeRatingSource": "https://eksmo.ru/book/kommunikatsiya-s-rebenkom-metodom-prob-i-oshibok-u-n--ITD1490427/",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/moy-rebenok-menya-ne-slyshit-anya-kuhareva-napisala-knigu-dla-roditeley/",
+        "method": "independent_factual_description",
+        "verifiedAt": "2026-09-14",
+        "copiedVerbatim": false
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/moy-rebenok-menya-ne-slyshit-anya-kuhareva-napisala-knigu-dla-roditeley/",
+        "https://eksmo.ru/book/kommunikatsiya-s-rebenkom-metodom-prob-i-oshibok-u-n--ITD1490427/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/moy-rebenok-menya-ne-slyshit-anya-kuhareva-napisala-knigu-dla-roditeley/"
+      },
+      "status": "published"
     }
   ],
   "unresolved": []

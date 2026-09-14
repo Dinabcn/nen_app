@@ -116,6 +116,35 @@ describe("connected Open Library catalog", () => {
     expect(books.filter((book) => favorites.includes(book.id))).toEqual([imported]);
   });
 
+  it("publishes both new NEN books with searchable titles, authors, filters, and stable routes", async () => {
+    const books = productionBooks as Book[];
+    const expected = [
+      {
+        id: "curated-nen-collection-brakovannye-princessy-korolevstva-fiens-dasha-chekalova",
+        slug: "nen-collection-brakovannye-princessy-korolevstva-fiens-dasha-chekalova",
+        titleQuery: "Бракованные принцессы",
+        authorQuery: "Даша Чекалова",
+      },
+      {
+        id: "curated-nen-collection-moy-rebenok-menya-ne-slyshit-anna-kuhareva",
+        slug: "nen-collection-moy-rebenok-menya-ne-slyshit-anna-kuhareva",
+        titleQuery: "Мой ребенок меня не слышит",
+        authorQuery: "Анна Кухарева",
+      },
+    ];
+    const repository = new StaticBooksRepository(books);
+
+    for (const item of expected) {
+      const book = books.find((candidate) => candidate.id === item.id);
+      expect(book).toBeDefined();
+      if (!book) continue;
+      expect(await repository.getBySlug(item.slug)).toMatchObject({ id: item.id });
+      expect(searchBooks(books, { ...emptyFilters, search: item.titleQuery }).exact.some(({ book: result }) => result.id === item.id)).toBe(true);
+      expect(searchBooks(books, { ...emptyFilters, search: item.authorQuery }).exact.some(({ book: result }) => result.id === item.id)).toBe(true);
+      expect(searchBooks(books, { ...emptyFilters, age: book.ageMin, genres: [book.genres[0]], themes: [book.themes[0]] }).exact.some(({ book: result }) => result.id === item.id)).toBe(true);
+    }
+  });
+
   it("never exposes generated template copy as an annotation", () => {
     const prohibited = /(?:относится к жанру|в центре внимания|эта книга рассказывает|это история о|юных читателей ждёт|книга знакомит|автор поднимает важные темы|произведение исследует|трогательная история|добрая история|увлекательная история|книга учит|книга поможет понять|на страницах этой книги)/iu;
     expect(includedImports.some((book) => prohibited.test(book.shortDescription))).toBe(false);
