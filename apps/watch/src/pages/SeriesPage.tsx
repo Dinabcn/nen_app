@@ -59,6 +59,7 @@ export function SeriesPage({ seriesKind, titles, search, favorites, toggleFavori
 
   return <div className="page catalog-page">
     <header className="page-intro">
+      <div className="section-brand"><img src="/nen-logo.png" alt="" /><span>НЭН рекомендует</span></div>
       <p className="eyebrow">Истории, к которым можно возвращаться</p>
       <h1>{isAnimated ? "Мультсериалы" : "Сериалы"}</h1>
       <p>{isAnimated ? "Анимационные истории с эпизодами и сезонами — отдельно от полнометражных мультфильмов." : "Игровые и неанимационные сериалы для разных возрастов."}</p>

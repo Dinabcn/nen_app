@@ -1,19 +1,7 @@
 import type { WatchTitle } from "../domain/catalog/types";
 import { Link, type Navigate } from "../components/Link";
 import { MediaCard } from "../components/MediaCard";
-
-const collectionConfig = {
-  "semeinyi-vecher": {
-    title: "Для семейного вечера",
-    description: "Истории с ясным сюжетом, теплом и темами, которые интересно обсудить всей семьёй после просмотра.",
-    slugs: ["moy-sosed-totoro", "istoriya-igrushek", "klaus", "priklyucheniya-paddingtona", "tayna-koko", "ratatuy", "luka", "paddington-2"],
-  },
-  "uznat-novoe": {
-    title: "Чтобы узнать новое",
-    description: "Фильмы и мультфильмы о науке, истории, природе и культурах — хороший вход в новый разговор с ребёнком.",
-    slugs: ["tayna-tretey-planety", "vall-i", "hranitel-vremeni", "eddi-orel", "unesennye-prizrakami", "skrytye-figury", "koroleva-katve", "malchik-kotoryy-obuzdal-veter"],
-  },
-} as const;
+import { findNenCollection, nenCollections } from "../data/nenCollections";
 
 interface CollectionProps {
   slug?: string;
@@ -23,18 +11,19 @@ interface CollectionProps {
   navigate: Navigate;
 }
 
+const worksLabel = (count: number) => `${count} ${count === 1 ? "произведение" : count < 5 ? "произведения" : "произведений"}`;
+
 export function CollectionsPage({ slug, titles, favorites, toggleFavorite, navigate }: CollectionProps) {
   if (!slug) return <div className="page">
     <p className="eyebrow">Редакционные подборки</p>
     <h1>Подборки</h1>
     <p className="lead">Готовые маршруты по каталогу для разных семейных планов и разговоров.</p>
-    <div className="collection-row">
-      <Link href="/collections/semeinyi-vecher" navigate={navigate} className="collection-tile">Для семейного вечера</Link>
-      <Link href="/collections/uznat-novoe" navigate={navigate} className="collection-tile alt">Чтобы узнать новое</Link>
+    <div className="collection-row collection-index">
+      {nenCollections.map((collection, index) => <Link key={collection.slug} href={`/collections/${collection.slug}`} navigate={navigate} className={`collection-tile tone-${index % 4}`}><span>{collection.title}</span><small>{worksLabel(collection.slugs.length)}</small></Link>)}
     </div>
   </div>;
 
-  const collection = collectionConfig[slug as keyof typeof collectionConfig];
+  const collection = findNenCollection(slug);
   if (!collection) return <NotFoundPage navigate={navigate} />;
   const bySlug = new Map(titles.map((title) => [title.slug, title]));
   const selected = collection.slugs.map((itemSlug) => bySlug.get(itemSlug)).filter((title): title is WatchTitle => Boolean(title));
@@ -43,6 +32,8 @@ export function CollectionsPage({ slug, titles, favorites, toggleFavorite, navig
     <p className="eyebrow">Редакционная подборка</p>
     <h1>{collection.title}</h1>
     <p className="lead">{collection.description}</p>
+    <p className="collection-source-title">По материалу НЭН: «{collection.sourceTitle}»</p>
+    <a className="nen-source-link" href={collection.sourceUrl} target="_blank" rel="noreferrer">Читать подборку на НЭН ↗</a>
     <div className="media-grid">{selected.map((title) => <MediaCard key={title.id} title={title} favorite={favorites.includes(title.id)} toggleFavorite={toggleFavorite} navigate={navigate} />)}</div>
     <Link href="/collections" navigate={navigate} className="secondary-link">Все подборки</Link>
   </div>;

@@ -24,7 +24,7 @@ export function CatalogPage({ contentType, section, titles, dictionary, search, 
   const update = (next: CatalogFilters) => navigate(`${pathname}${serializeFiltersToUrl(next)}`);
   const title = section === "cartoons" ? "Мультфильмы" : "Фильмы";
   return <div className="page catalog-page">
-    <header className="page-intro"><p className="eyebrow">Выбор для семейного просмотра</p><h1>{title}</h1><p>{section === "cartoons" ? "Полнометражные и короткометражные мультфильмы — отдельно от эпизодических мультсериалов." : "Игровые, документальные и короткометражные фильмы, которые интересно смотреть вместе."}</p></header>
+    <header className="page-intro"><div className="section-brand"><img src="/nen-logo.png" alt="" /><span>НЭН рекомендует</span></div><p className="eyebrow">Выбор для семейного просмотра</p><h1>{title}</h1><p>{section === "cartoons" ? "Полнометражные и короткометражные мультфильмы — отдельно от эпизодических мультсериалов." : "Игровые, документальные и короткометражные фильмы, которые интересно смотреть вместе."}</p></header>
     <FilterPanel filters={filters} dictionary={dictionary} onChange={update} onReset={() => update(emptyFilters(contentType))} />
     <section className="results" aria-live="polite">
       <div className="section-heading results-heading"><div><p className="eyebrow">Результаты</p><h2>{state.kind === "exact" ? `Найдено: ${state.results.length}` : state.kind === "nearby" ? "Близкие варианты" : "Ничего безопасно не найдено"}</h2></div><CollectionShareButton sectionTitle={title} /></div>
