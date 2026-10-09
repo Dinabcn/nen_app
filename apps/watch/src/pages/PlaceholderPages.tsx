@@ -2,6 +2,7 @@ import type { WatchTitle } from "../domain/catalog/types";
 import { Link, type Navigate } from "../components/Link";
 import { MediaCard } from "../components/MediaCard";
 import { findNenCollection, nenCollections } from "../data/nenCollections";
+import { homeQuickActions } from "./HomePage";
 
 interface CollectionProps {
   slug?: string;
@@ -40,7 +41,14 @@ export function CollectionsPage({ slug, titles, favorites, toggleFavorite, navig
 }
 
 export function RecommendPage({ navigate }: { navigate: Navigate }) {
-  return <div className="page narrow"><p className="eyebrow">Быстрый выбор</p><h1>Что будем смотреть?</h1><p>В каталогах можно уточнить выбор по возрасту ребёнка, настроению, темам, стране и формату произведения.</p><div className="button-row"><Link href="/cartoons" navigate={navigate} className="primary-link">Выбрать мультфильм</Link><Link href="/movies" navigate={navigate} className="secondary-link">Выбрать фильм</Link></div></div>;
+  return <div className="page narrow">
+    <p className="eyebrow">Быстрый выбор</p>
+    <h1>Что будем смотреть?</h1>
+    <p>В каталогах можно уточнить выбор по возрасту ребёнка, настроению, темам, стране и формату произведения.</p>
+    <div className="entry-grid recommend-entry-grid" aria-label="Быстрый выбор формата">
+      {homeQuickActions.map((action) => <Link key={action.href} href={action.href} navigate={navigate} className={`entry-card ${action.className}`}><span>{action.icon}</span><strong>{action.label}</strong><small>{action.description}</small></Link>)}
+    </div>
+  </div>;
 }
 
 export function NotFoundPage({ navigate }: { navigate: Navigate }) {

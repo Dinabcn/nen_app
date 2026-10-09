@@ -80,6 +80,7 @@ main { min-height: calc(100vh - 140px); padding-bottom: 76px; }
 .text-link, .back-link { display: inline-flex; align-items: center; gap: 5px; color: var(--nen-ink); font-weight: 800; text-decoration: underline; text-decoration-color: var(--watch-pink); text-decoration-thickness: 3px; text-underline-offset: 4px; }
 .back-link { margin-bottom: 26px; }
 .entry-grid { display: grid; gap: 12px; margin: 0 0 56px; }
+.recommend-entry-grid { margin-top: 28px; }
 .entry-card { position: relative; min-height: 210px; padding: 24px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; border-radius: var(--nen-radius-lg); text-decoration: none; transition: transform .18s ease, box-shadow .18s ease; }
 .entry-card::before { content: ""; position: absolute; width: 130px; height: 130px; top: -38px; right: -28px; border: 25px solid rgb(255 255 255 / .45); border-radius: 50%; }
 .entry-card:hover { transform: translateY(-4px); box-shadow: var(--nen-shadow); }
