@@ -5,9 +5,9 @@ import { StaticWatchDataSource } from "./watchDataSource";
 describe("watch repository", () => {
   it("keeps all four user-facing formats in separate queries", async () => {
     const repository = await createWatchRepository();
-    expect(await repository.getAnimationMovies()).toHaveLength(647);
+    expect(await repository.getAnimationMovies()).toHaveLength(656);
     expect(await repository.getAnimationSeries()).toHaveLength(590);
-    expect(await repository.getMovies()).toHaveLength(658);
+    expect(await repository.getMovies()).toHaveLength(649);
     expect(await repository.getSeries()).toHaveLength(37);
   });
 

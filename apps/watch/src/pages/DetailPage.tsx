@@ -3,15 +3,28 @@ import { Link } from "../components/Link";
 import { compactRecommendation, durationLabel, Frame, localizedAwards, localizationNotice, MediaCard, moodLabel, typeLabel } from "../components/MediaCard";
 import type { ProductionKind, WatchTitle } from "../domain/catalog/types";
 import { ShareButton } from "../components/ShareButton";
+import { categoryForTitle } from "../domain/catalog/category";
+
+const catalogHrefByCategory = {
+  cartoons: "/cartoons",
+  "animated-series": "/animated-series",
+  movies: "/movies",
+  series: "/series",
+} as const;
+
+export const resolveDetailTitle = (titles: WatchTitle[], slug: string, expectedKinds: ProductionKind[]) =>
+  titles.find((item) => item.slug === slug && expectedKinds.includes(item.productionKind))
+  ?? titles.find((item) => item.slug === slug);
 
 export function DetailPage({ slug, expectedKinds, catalogHref, titles, favorites, toggleFavorite, navigate }: { slug: string; expectedKinds: ProductionKind[]; catalogHref: string; titles: WatchTitle[]; favorites: string[]; toggleFavorite: (id: string) => void; navigate: Navigate }) {
-  const title = titles.find((item) => item.slug === slug && expectedKinds.includes(item.productionKind));
+  const title = resolveDetailTitle(titles, slug, expectedKinds);
   if (!title) return <div className="page narrow"><p className="eyebrow">Не найдено</p><h1>Произведение не найдено</h1><p>Возможно, ссылка устарела или запись относится к другому каталогу.</p><Link href={catalogHref} navigate={navigate} className="primary-link">Вернуться в каталог</Link></div>;
+  const currentCatalogHref = catalogHrefByCategory[categoryForTitle(title)];
   const similar = titles.filter((item) => item.contentType === title.contentType && item.id !== title.id).slice(0, 3);
   const awards = localizedAwards(title);
   const notice = localizationNotice(title);
   return <div className="page detail-page">
-    <Link href={catalogHref} navigate={navigate} className="back-link">← Вернуться в каталог</Link>
+    <Link href={currentCatalogHref} navigate={navigate} className="back-link">← Вернуться в каталог</Link>
     <article className="detail-hero">
       <Frame title={title} large />
       <div><p className="eyebrow">{typeLabel(title)} · выбор НЭН</p><h1>{title.title}</h1>{title.originalTitle && title.originalTitle !== title.title && <p className="original-title">{title.originalTitle}</p>}{notice && <p className="localization-note">{notice}</p>}<p className="lead">{title.shortDescription}</p><div className="detail-actions"><button className="primary-button" type="button" aria-pressed={favorites.includes(title.id)} onClick={() => toggleFavorite(title.id)}>{favorites.includes(title.id) ? "♥ Убрать из избранного" : "♡ Добавить в избранное"}</button><ShareButton title={title} /></div></div>

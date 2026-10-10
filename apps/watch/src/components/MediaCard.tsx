@@ -16,7 +16,18 @@ const typeLabels: Record<WatchTitle["productionKind"], string> = {
   "short-film": "Короткометражный фильм",
 };
 
+const frameTypeLabels: Record<WatchTitle["productionKind"], string> = {
+  movie: "фильма",
+  "animated-feature": "мультфильма",
+  "animated-short": "мультфильма",
+  "animated-series": "мультсериала",
+  series: "сериала",
+  documentary: "документального фильма",
+  "short-film": "короткометражного фильма",
+};
+
 export const typeLabel = (title: WatchTitle) => typeLabels[title.productionKind];
+export const frameTypeLabel = (title: WatchTitle) => frameTypeLabels[title.productionKind];
 export const detailHref = (title: WatchTitle) => `/${title.productionKind === "animated-series" ? "animated-series" : title.productionKind === "series" ? "series" : title.contentType === "cartoon" ? "cartoons" : "movies"}/${encodeURIComponent(title.slug)}`;
 export const localizationNotice = (title: WatchTitle) =>
   title.titleLocalization === "original-only" ? "Официальное русское название отсутствует." : null;
@@ -33,7 +44,7 @@ export const moodLabel = (mood: WatchTitle["mood"][number]) => ({
 export const frameCaption = (title: WatchTitle) => {
   const studios = (title.frame?.studios ?? []).filter((studio) => !/[A-Za-z]{3}/u.test(studio));
   const studioLabel = studios.length === 1 ? "Студия производства" : "Студии производства";
-  const base = `Кадр из ${typeLabel(title).toLocaleLowerCase("ru")} «${title.title}» (${title.year})`;
+  const base = `Кадр из ${frameTypeLabel(title)} «${title.title}» (${title.year})`;
   return studios.length ? `${base} | ${studioLabel}: ${studios.join(", ")}` : base;
 };
 
@@ -46,7 +57,7 @@ export function Frame({ title, large = false }: { title: WatchTitle; large?: boo
     return <div className={`poster-placeholder ${large ? "large " : ""}${title.contentType}`} aria-label={`Изображение для «${title.title}» пока не добавлено`}><span>{title.contentType === "cartoon" ? "✦" : "▶"}</span></div>;
   }
   return <figure className={`media-frame${large ? " large" : ""}`}>
-    <img src={title.frame.url} alt={`Кадр из ${typeLabel(title).toLocaleLowerCase("ru")} «${title.title}»`} loading={large ? "eager" : "lazy"} />
+    <img src={title.frame.url} alt={`Кадр из ${frameTypeLabel(title)} «${title.title}»`} loading={large ? "eager" : "lazy"} />
     <figcaption>{frameCaption(title)}</figcaption>
   </figure>;
 }

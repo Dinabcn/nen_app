@@ -29697,7 +29697,7 @@
     "title": "Сказка о золотом петушке",
     "originalTitle": "Сказка о золотом петушке",
     "titleLocalization": "official-ru",
-    "kind": "short-film",
+    "kind": "animated-short",
     "shortDescription": "Мультипликационная экранизация одноименной пушкинской сказки",
     "whyRecommended": "Для младших школьников. Короткая история о волшебстве, дружбе и смелости.",
     "country": [
@@ -36486,7 +36486,7 @@
     "title": "Петя и волк",
     "originalTitle": "Петя и волк",
     "titleLocalization": "official-ru",
-    "kind": "short-film",
+    "kind": "animated-short",
     "shortDescription": "Симфоническая сказка по произведению С.С. Прокофьева «Петя и волк»",
     "whyRecommended": "Для дошкольников. Короткая история о волшебстве и музыке.",
     "country": [
@@ -71751,7 +71751,7 @@
     "title": "Злыдни",
     "originalTitle": "Злыдни",
     "titleLocalization": "official-ru",
-    "kind": "movie",
+    "kind": "animated-feature",
     "shortDescription": "Злыдни — семейная история о героях, которым предстоит принимать решения, помогать друг другу и отвечать за последствия своих поступков.",
     "whyRecommended": "Для семейного просмотра и разговора о темах: семья, выбор, эмпатия.",
     "country": [
@@ -71896,7 +71896,7 @@
     "title": "Маша и медведь: Новые истории",
     "originalTitle": "Маша и медведь: Новые истории",
     "titleLocalization": "official-ru",
-    "kind": "movie",
+    "kind": "animated-feature",
     "shortDescription": "Маша и медведь: Новые истории — семейная история о героях, которым предстоит принимать решения, помогать друг другу и отвечать за последствия своих поступков.",
     "whyRecommended": "Для семейного просмотра и разговора о темах: семья, выбор, эмпатия.",
     "country": [
@@ -81778,7 +81778,7 @@
     "title": "Моника и русалки Рио",
     "originalTitle": "Mônica e a Sereia do Rio",
     "titleLocalization": "official-ru",
-    "kind": "movie",
+    "kind": "animated-feature",
     "shortDescription": "Художественный фильм 1987 года, страна производства: Бразилия. Продолжительность — 56 минут; жанры: семейный. В центре внимания — семья, культурное разнообразие, дружба, выбор.",
     "whyRecommended": "Для младших школьников. История о семье, культурном разнообразии и дружбе.",
     "country": [
@@ -82405,7 +82405,7 @@
     "title": "Приключения Ихитуса",
     "originalTitle": "Las aventuras de Hijitus",
     "titleLocalization": "official-ru",
-    "kind": "movie",
+    "kind": "animated-feature",
     "shortDescription": "Художественный фильм 1973 года, страна производства: Аргентина. Продолжительность — 82 минут; жанры: семейный. В центре внимания — культурное разнообразие, дружба, выбор, эмпатия.",
     "whyRecommended": "Для младших школьников. История о культурном разнообразии, дружбе и выборе.",
     "country": [
@@ -84982,7 +84982,7 @@
     "title": "Космическая братва",
     "originalTitle": "BugiGangue no Espaço",
     "titleLocalization": "official-ru",
-    "kind": "movie",
+    "kind": "animated-feature",
     "shortDescription": "Художественный фильм 2016 года, страна производства: Бразилия. Продолжительность — 86 минут; жанры: семейный. В центре внимания — культурное разнообразие, дружба, выбор, эмпатия.",
     "whyRecommended": "Для младших школьников. История о культурном разнообразии, дружбе и выборе.",
     "country": [
@@ -90111,7 +90111,7 @@
     "title": "Приключения Кристофера в волшебном лесу",
     "originalTitle": "O Grilo Feliz",
     "titleLocalization": "official-ru",
-    "kind": "movie",
+    "kind": "animated-feature",
     "shortDescription": "Художественный фильм 2001 года, страна производства: Бразилия. Продолжительность — 80 минут; жанры: семейный. В центре внимания — культурное разнообразие, дружба, выбор, эмпатия.",
     "whyRecommended": "Для младших школьников. История о культурном разнообразии, дружбе и выборе.",
     "country": [
@@ -92112,7 +92112,7 @@
     "country": [
       "Австралия"
     ],
-    "year": 1992,
+    "year": 1993,
     "duration": {
       "minutes": 93
     },
@@ -92142,7 +92142,7 @@
       "rationale": "Рекомендуем с 6 лет: хронометраж 93 минут, жанры «семейный, драма, приключения» и темы «семья», «путешествия» требуют соответствующего внимания и эмоциональной готовности."
     },
     "frame": {
-      "url": "https://images.squarespace-cdn.com/content/v1/5b99e7a2b98a78772c0c32d8/1537247259856-RRW0A1OHDAFZLD3H89SQ/tsba_image1_lg.jpg"
+      "url": "https://images.squarespace-cdn.com/content/v1/5b99e7a2b98a78772c0c32d8/1537832509237-GXVB4DR1D0T0V7BE3YP4/tsb_image3_lg.jpg?format=1500w"
     }
   },
   {
@@ -93099,7 +93099,7 @@
     "title": "Маленький отважный паровозик Тилли",
     "originalTitle": "The Little Engine That Could",
     "titleLocalization": "official-ru",
-    "kind": "short-film",
+    "kind": "animated-short",
     "shortDescription": "Произведение Маленький отважный паровозик Тилли создано в стране Великобритания и впервые выпущено в 1991 году. Формат и хронометраж — семейный, короткометражный, 27 минут.",
     "whyRecommended": "Для младших школьников. Короткая история о семье, культурном разнообразии и дружбе.",
     "country": [

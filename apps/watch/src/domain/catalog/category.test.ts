@@ -26,9 +26,9 @@ describe("exclusive watch categories", () => {
     for (const items of Object.values(groups)) {
       for (const item of items) memberships.set(item.id, (memberships.get(item.id) ?? 0) + 1);
     }
-    expect(groups.cartoons).toHaveLength(647);
+    expect(groups.cartoons).toHaveLength(656);
     expect(groups["animated-series"]).toHaveLength(590);
-    expect(groups.movies).toHaveLength(658);
+    expect(groups.movies).toHaveLength(649);
     expect(groups.series).toHaveLength(37);
     expect([...memberships.values()].every((count) => count === 1)).toBe(true);
     expect(memberships.size).toBe(1932);
@@ -42,5 +42,35 @@ describe("exclusive watch categories", () => {
 
     expect(dreamProductions?.productionKind).toBe("animated-series");
     expect(series.some((title) => title.id === dreamProductions?.id)).toBe(false);
+  });
+
+  it("keeps the nine audited animated works out of movies", async () => {
+    const repository = await createWatchRepository();
+    const cartoons = await repository.getAnimationMovies();
+    const movies = await repository.getMovies();
+    const slugs = [
+      "wikidata-q920740",
+      "work-2017-915591",
+      "wikidata-q17168882",
+      "mail-877318-petya-i-volk",
+      "wikidata-q18709309",
+      "wikidata-q617002",
+      "mail-749717-skazka-o-zolotom-petushke",
+      "work-2017-914674",
+      "wikidata-q28678515",
+    ];
+
+    expect(cartoons.filter((title) => slugs.includes(title.slug))).toHaveLength(slugs.length);
+    expect(movies.some((title) => slugs.includes(title.slug))).toBe(false);
+  });
+
+  it("uses the live-action 1993 Silver Brumby record and corrected still", async () => {
+    const repository = await createWatchRepository();
+    const silverBrumby = await repository.getBySlug("wikidata-q7764269");
+
+    expect(silverBrumby?.productionKind).toBe("movie");
+    expect(silverBrumby?.year).toBe(1993);
+    expect(silverBrumby?.frame?.url).toContain("1537832509237-GXVB4DR1D0T0V7BE3YP4");
+    expect(silverBrumby?.frame?.url).not.toContain("1537247259856-RRW0A1OHDAFZLD3H89SQ");
   });
 });
