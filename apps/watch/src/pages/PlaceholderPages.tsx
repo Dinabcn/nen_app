@@ -16,9 +16,10 @@ const worksLabel = (count: number) => `${count} ${count === 1 ? "произве�
 
 export function CollectionsPage({ slug, titles, favorites, toggleFavorite, navigate }: CollectionProps) {
   if (!slug) return <div className="page">
-    <p className="eyebrow">Редакционные подборки</p>
-    <h1>Подборки</h1>
-    <p className="lead">Готовые маршруты по каталогу для разных семейных планов и разговоров.</p>
+    <section className="collections-hero">
+      <div><p className="eyebrow">Редакционные подборки</p><h1>Подборки</h1><p className="lead">Готовые маршруты по каталогу для разных семейных планов и разговоров.</p></div>
+      <figure className="brand-illustration collections-illustration"><img src="/illustrations/family-projector-sofa.jpg" alt="Семья смотрит фильм на проекторе" width="1336" height="760" /></figure>
+    </section>
     <div className="collection-row collection-index">
       {nenCollections.map((collection, index) => <Link key={collection.slug} href={`/collections/${collection.slug}`} navigate={navigate} className={`collection-tile tone-${index % 4}`}><span>{collection.title}</span><small>{worksLabel(collection.slugs.length)}</small></Link>)}
     </div>
@@ -30,11 +31,7 @@ export function CollectionsPage({ slug, titles, favorites, toggleFavorite, navig
   const selected = collection.slugs.map((itemSlug) => bySlug.get(itemSlug)).filter((title): title is WatchTitle => Boolean(title));
 
   return <div className="page">
-    <p className="eyebrow">Редакционная подборка</p>
-    <h1>{collection.title}</h1>
-    <p className="lead">{collection.description}</p>
-    <p className="collection-source-title">По материалу НЭН: «{collection.sourceTitle}»</p>
-    <a className="nen-source-link" href={collection.sourceUrl} target="_blank" rel="noreferrer">Читать подборку на НЭН ↗</a>
+    <section className="collection-detail-intro"><div><p className="eyebrow">Редакционная подборка</p><h1>{collection.title}</h1><p className="lead">{collection.description}</p><p className="collection-source-title">По материалу НЭН: «{collection.sourceTitle}»</p><a className="nen-source-link" href={collection.sourceUrl} target="_blank" rel="noreferrer">Читать подборку на НЭН ↗</a></div><figure className="brand-illustration collection-detail-illustration"><img src="/illustrations/family-projector-sofa.jpg" alt="Семья смотрит фильм на проекторе" width="1336" height="760" /></figure></section>
     <div className="media-grid">{selected.map((title) => <MediaCard key={title.id} title={title} favorite={favorites.includes(title.id)} toggleFavorite={toggleFavorite} navigate={navigate} />)}</div>
     <Link href="/collections" navigate={navigate} className="secondary-link">Все подборки</Link>
   </div>;
